@@ -10,6 +10,9 @@ const force = args.includes("--force");
 const wanted = new Set(args.filter((a) => !a.startsWith("--")));
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 
+// sec.gov refuses browser-like agents and asks automated clients to declare themselves
+const SEC_UA = "research-script admin@example.com";
+
 for (const d of ["sources/raw", "sources/text", "sources/meta"]) mkdirSync(p(d), { recursive: true });
 
 function extract(kind: string, raw: string): string {
@@ -34,7 +37,7 @@ for (const s of loadSources()) {
   const metaFile = p("sources/meta", s.id + ".json");
   if (!force && existsSync(metaFile) && existsSync(p("sources/text", s.id + ".txt"))) { console.log("skip ", s.id); continue; }
   try {
-    execFileSync("curl", ["-sS", "-L", "--fail", "-m", "180", "--retry", "3", "--retry-delay", "2", "-A", UA,
+    execFileSync("curl", ["-sS", "-L", "--fail", "-m", "180", "--retry", "3", "--retry-delay", "2", "-A", s.url.includes("sec.gov") ? SEC_UA : UA,
       "-H", "Accept: text/html,application/xhtml+xml,application/pdf,*/*", "-o", raw, s.url], { stdio: ["ignore", "ignore", "pipe"] });
     const bytes = readFileSync(raw);
     const text = extract(s.kind, raw).replace(/\r/g, "");

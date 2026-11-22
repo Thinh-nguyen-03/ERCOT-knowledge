@@ -1,0 +1,378 @@
+[Pexapark] [Pexapark]
+
+Open Menu
+
+-   PPA
+    -   
+        PPA Price Data
+
+        Access market-based PPA benchmarks to value deals, model risk & support settlement.
+    -   
+        PPA Price Methodology
+
+        Discover how our market-based methodology delivers trusted independent benchmarks for wind and solar.
+    -   
+        PPA Advisory
+
+        Execute transactions and manage portfolios with support from regional experts.
+    -   
+        PPA Academies
+
+        Invest in your career: Learn how to structure and negotiate stronger agreements.
+-   BESS
+    -   
+        BESS Price Data
+
+        Access market-based data to price, assess, and optimize standalone & co-located BESS.
+    -   
+        BESS Price Methodology
+
+        Discover how our market-based methodology delivers trusted independent benchmarks for energy storage pricing.
+    -   
+        BESS Advisory
+
+        Access hands-on BESS advisory to structure deals, negotiate terms & maximize returns.
+    -   
+        BESS Academy
+
+        Invest in your career: Build storage expertise from co-location strategy to confident FPA contract negotiation.
+-   Knowledge Center
+    -   
+        Clean Energy Guides
+
+        Educational resources to guide your success at every stage.
+    -   
+        Market Trends
+
+        Stay ahead on developments in the BESS and PPA markets.
+    -   
+        Listen: The Pexapark Podcast
+
+        Hosted bi-weekly by our COO & Co-Founder, Luca Pedretti.
+
+    -   
+        Pexapark Market Outlook 2026
+
+        Annual in-depth dive on the future of subsidy-free renewables.
+    -   
+        Events & Webinars
+
+        Expert-led events and webinars delving into clean energy markets.
+    -   
+        Client Testimonials
+
+        See how market leaders make better commercial decisions with Pexapark.
+-   Pexapark in the US
+-   About
+    About Us
+
+    -   About Us
+    -   Our Partners
+    -   Contact
+
+    Media Centre
+
+    -   Pexapark in the Media
+    -   Press Releases
+
+    Our Team
+
+    -   Leadership Team
+    -   Pexapark Culture
+    -   Work With Us
+
+    Events & Webinars
+
+    -   View Our Events
+-   Login
+
+Register
+
+[image description]
+
+Pexapark Fundamentals
+
+PPA Glossary: Your PPA Knowledge Library
+
+November 16th, 2021 By Pexapark
+
+Welcome to Pexapark’s Glossary of PPA terms! Quickly get up to speed with any term related to exploring the world of Power Purchase Agreements (PPA).
+
+People in meetings, industry events or in chats with colleagues fear asking the simplest questions. However, nothing should be perceived as obvious in deal-making. If you get the same anxiety, we are here for you. We will be updating the page with the most frequently used terms and acronyms – as well as the least ones – to help you prepare better for what to expect.  
+
+Click on any of these PPA terms to jump to the definition you need:
+
+-   -   Annual Baseload PPA
+    -   Balancing Risk
+    -   Buyer
+    -   Capture Factor
+    -   Cannibalization Risk
+    -   COD
+    -   Contracted Volumes
+    -   Contracts for Difference (CfD)
+    -   Corporate
+    -   Degradation
+    -   Energy Yield Assessment
+    -   ESG Factors
+    -   Exposure
+    -   Feed-in Tariffs (FiTs)
+    -   Financial PPA
+    -   Forecast Inaccuracy
+    -   GoO or GO
+    -   Hedging
+    -   Hedge Ratio
+    -   LCOE
+    -   Legal Risk
+    -   Liquidity
+    -   Liquidity Cost
+    -   Liquidity Shortfall
+    -   Market Access PPA
+    -   Mark to Market (MtM)
+    -   Merchant Power Plants
+    -   Monte Carlo Simulation
+    -   Monthly Baseload PPA
+    -   Monthly Profile Cost
+    -   Offtaker
+    -   P-Values (e.g., P50/P90/P10)
+    -   Pay-as-Produced (PAP)
+    -   PCG
+    -   Peak Load PPA
+    -   Physical PPA
+    -   PPA
+    -   Price Risk
+    -   Price Zone
+    -   Profile Risk
+    -   Regulatory Risk
+    -   Replacement Cost
+    -   Revenue Distribution Curve
+    -   Seller
+    -   Settlement Location
+    -   Settlement Risk
+    -   Stack-and-Roll
+    -   System Price
+    -   Tenor
+    -   Volume Risk
+
+Annual Baseload PPA 
+
+This is a volume/contract structure. In an annual baseload PPA, the buyer agrees to buy a determined volume of energy for every hour over the year. Profile and volume risks sit with the seller, because they have to deliver the agreed energy no matter what. If there’s low production and the seller cannot meet its obligations through its plant, the agreed volume will be sourced from the spot market.   To learn more on Baseload PPAs, watch our Renewable Assets Under Baseload PPAs webinar.
+
+Balancing Risk 
+
+It’s a risk relevant to the intermittent nature of renewable energy. A plant has production commitments not only to the seller but to the system operator as well. On the one hand, if the buyer doesn’t receive the expected production volume, the energy needs to be acquired elsewhere. On the other hand, when the plant deviates from what the grid expects production volume to be, there are imbalance costs for the project charged by the system operator.   The magnitude of the imbalance cost is driven by the actual deviations between scheduled production and real production (“forecast error”), the regulatory design of the balancing market (i.e., punitive design with penalties) and finally, whether portfolio effects may exist.   The seller usually has a balancing agreement with a third party for a fee as a mitigation tool.  
+
+Buyer  
+
+The entity that is purchasing power from a renewables generator. It could be a corporate, a trader or a utility. Also known as off-taker, consumer or purchaser.  
+
+Capture Factor  
+
+Capture factors represent the ratio of captured price over baseload price. For solar, typically capture factors are around 1 in winter and slightly lower in summer when most of the production occurs. For wind, they tend to be lower in winter, where production predominantly occurs. Capture factors illustrate the ratio of the average volume weighted price to the baseload price of a given tenor (captured price/baseload price). They indicate how much above or below the baseload price the price captured by an asset is expected to be. 
+
+Cannibalization Risk  
+
+The risk of falling renewables revenues due to reduced price following high market growth of renewables assets. When large volumes of solar PV are produced simultaneously, the capture price in the system during their production time will decrease as other, more expensive technologies will not be needed to produce electricity and therefore not set the price in the market.  
+
+COD 
+
+The acronym stands for Commercial Operation Date. It’s an important date for PPAs, because it marks when the project can start selling its output.  
+
+Contracted Volumes  
+
+Renewable production volumes that are committed for delivery within a PPA agreement. Depending on a buyer’s needs, they may want to contract the entire volume (100%) or part of it (i.e., 50%).  
+
+Contracts for Difference (CfD) 
+
+In a CfD, two parties enter an agreement to trade a financial instrument. In the renewables world, such financial instrument is electricity. CfD mechanisms have been widely used as a government support mechanism, where projects participate in an auction and bid for a strike price. Under a CfD mechanism, the project sells its energy to the wholesale spot markets. Depending on the movement of spot prices, there are cashflow exchanges between the generator and the second party, which is usually a government entity.  If the market price that the generator sells its energy at, also known as reference price, is above the strike price agreed, then the generator will pay back the difference. If the reference price is below the strike price, then the buyer will pay back the difference.   Besides acting as a government subsidy instrument for renewables (used in the UK, Poland etc), a CfD can be agreed in bilateral PPAs, notably in Virtual PPAs.  
+
+Corporate  
+
+A non-utility, non-trader consumer of electricity. Industrials are often referred to as corporates, but the difference is that industrials’ energy needs are significant, and energy costs are directly linked to the cost of production.  
+
+Degradation 
+
+It refers to the rate at which photovoltaic panels degrade over time. For instance, a producer might estimate production volumes with a degradation assumption of 2% per annum, which means that every year the solar panels output 2% less electricity than the year before. 
+
+Energy Yield Assessment  
+
+It’s the technical assessment of the expected annual energy yield of a planned power plant. It’s carried out by an engineering firm and plays a crucial role in the volume a plant can commit to selling.  
+
+ESG Factors  
+
+The acronym stands for environmental, social and governance. ESG are non-financial factors to identify a company´s sustainability and societal impact. In recent decades in financial markets, special attention has been given to companies with an ESG focus, for instance funds that invest in carbon-neutral companies. In Fixed Income markets, some special bonds (called ‘green bonds’) were issued specifically to finance green projects. Financial data vendors have also developed benchmarks and indicators to track the ESG performance of individual companies. 
+
+Exposure  
+
+When s power plant is merchant, it is exposed to the volatility of wholesale electricity markets. It’s exposure, also known as merchant exposure, depends on how much volume it has contracted under fixed-price instruments. If a generator expects an annual output of 10GWhm and has contracted 6GWh through a corporate PPA, its exposure is 4GWh. Exposure is also known as revenue risk.  
+
+Feed-in Tariffs (FiTs) 
+
+FiTs are subsidy schemes whereby a fixed amount, independent of the wholesale market price, is paid for the electricity produced from renewable energy sources and fed into the grid at any time. FITs are long-term contracts awarded to renewable energy producers as a way to encourage the buildout of renewable energy installations. In mature markets, FiTs – which operated on a first come first serve basis – have been replaced with competitive auction schemes.  
+
+Financial PPA 
+
+That’s another common term used for a Virtual PPA. It is treated as a financial instrument, often based on the International Swaps and Derivatives Association (ISDA) contract.  The agreement doesn’t deal with the physical electricity delivery of electricity but typically includes the Guarantees of Origin. It’s a common structure in the US, but not very advanced in Europe asit is considered a derivative and has a different accounting treatment under the International Financial Reporting Standards (IFRS) than a physical PPA. 
+
+Forecast Inaccuracy 
+
+The difference between forecasted, often on a day-ahead basis, and actual realised production of a plant. 
+
+GoO or GO 
+
+Guarantees of Origin are an instrument defined in European legislation that labels electricity from renewable sources to provide information to electricity customers on their energy source. In many cases, GoOs are used as property rights to transfer the “green benefit“ of renewable electricity production from the seller to the buyer. 
+
+Hedging 
+
+In energy sales, hedging is a process to reduce price risk, as in protecting against price uncertainty, by taking an offsetting position of approximately the same size but opposite price direction. Hedging can be done by using standard products traded on an exchange or over-the-counter to transfer price risk to other market participants. Analogous transfer of risks can occur through a PPA or any other bilateral agreement. The hedged position is the volume not exposed to price risk.  
+
+Hedge Ratio 
+
+In the energy trading lingo, it’s the percentage of a hedged position with respect to the open position. In simple words, it shows how exposed one is to energy risks. In a PPA, it’s common for a producer to hedge 70% of the production. In trading lingo, it’s the comparative value of an open position’s hedge to the overall position. 
+
+LCOE 
+
+Levelized cost of energy (LCOE) is the average net present cost of electricity for a generating plant over its lifetime. It’s used as a comparative cost value for different energy technologies, and their investment attractiveness.  Find out how LCOE can impact the price of your PPA by reading our What Should You Consider When Pricing a PPA? report.
+
+Legal Risk  
+
+PPA contracts are complex. Commercial risks, Force Majeure, Change of Control, Termination, and Conditions Precedent are amongst key clauses that need to be negotiated. This is the risk of a change in the law that affects the balance of revenue or risk between the parties, for example, tax change. 
+
+Liquidity 
+
+A core concept in financial trading, which includes trading of energy. The market price is made up of bids and offers for certain levels of volume arranged in a stack. If there are not enough offers on the market, one may not be able to transact at the desired price or at all. Liquidity is fostered by the market, the number of market participants, their risk appetite and market regulation. Ideally, the market has enough liquidity, so that electricity or natural gas can be sold and bought with reasonable transaction costs, and without small trade volumes impacting the price of the commodities.  
+
+Liquidity Cost  
+
+A premium deducted from the forward curve to account for the risk that a product cannot be traded quickly enough in the market without an intervening price change. It is determined by the bid/ask spread and market volume information. 
+
+Liquidity Shortfall 
+
+The risk that the non-contracted volume has a negative value which may occur due to un-favourable weather conditions (causing volume shortfall) and/or due to un-favourable spot price distributions. 
+
+Market Access PPA 
+
+A market access contract, also known as direct marketing, is for the sale of electricity at market prices. It’s provided by utilities or traders for generators. It covers services such as forecasting production, imbalance management and trading to wholesale markets. A market access PPA does not provide fixed revenue to generators.  
+
+Mark to Market (MtM) 
+
+It is the concept of reconciling the value of a futures contract with current market pricing. It’s the Net Present Value (NPV) under current market prices vs prices as of the day of contracting. MtM is essential in knowing the value of a position and understanding how much it costs to unwind a position. It is also an indicator of performance vs the market. 
+
+Merchant Power Plants  
+
+When a renewable energy plant is exposed to normalised power markets with no publicly guaranteed long-term renumeration. The term ‘merchant’ is also referred to as subsidy-free renewables. A merchant plant would receive the fluctuating daily spot market price, instead of a fixed-one. Merchant plants reduce merchant exposure through hedging instruments, such as PPAs.  
+
+Monte Carlo Simulation 
+
+Monte Carlo Simulation is a mathematical technique using the generation of random numbers for modelling risk or uncertainty of a given system, including energy. The random variables are modelled according to appropriate probability distributions and used to simulatea large number of scenarios. Variables of interest (e.g., revenues of a given contract) can be evaluated on each scenario and collectively these evaluations provide a probability distribution of the considered variable of interest. In energy, it is used as a key risk methodology for energy sales and hedging decisions.  
+
+Monthly Baseload PPA  
+
+In this commercial structure, the buyer agrees to pay a pre-agreed amount of electricity for every hour of each month. This way, the seller is taking into consideration the seasonal variability of production. The difference between the produced volume and the contracted volume is settled at the spot market.  
+
+Monthly Profile Cost/Gain 
+
+It’s the difference between the value of a monthly profile (volume-weighted average of monthly prices) and an annual baseload profile (flat average of the prices). Whether the difference is a cost or a gain depends on the correlation between the monthly volumes and the monthly prices. 
+
+Offtaker  
+
+In a PPA deal, it’s the party that buys the energy, also known as the buyer. It’s the purchaser who buys power from a project developer without taking ownership of the plant.  
+
+P-Values (e.g., P50/P90/P10) 
+
+Percentiles are a universal statistical concept used to identify the percentage of scores that falls under a specific value. In the PPA world, an example of where such probability figures are commonly used is to calculate an asset’s production volume, and therefore the revenues from the sales. Before the investment decision, an investor needs to ensure the plant’s profitability based on its output, before moving to follow-up assessment of how other risks influence the plant’s revenues. During the energy yield assessment, there’s a forecasted annual production. The P50 figure represents a 50% chance for the actual output to exceed the forecasted production.  The P90 figure represents the volume that it’s 90% probable to be the actual production. Typically, the P90 figure is the smallest one, as it’s the more conservative one. Lenders commonly use it to be on the safe side.   P-Values are used in a plethora of distribution assessments, such as revenue, price, cost savings and other.  
+
+Pay-as-Produced (PAP) 
+
+PAP is the most widely known volume structure. In this structure, the offtaker buys any volume produced from the asset at any time. It is similar to a prototypical feed-in-tariff. 
+
+PCG 
+
+A parent company guarantee (PCG) is a form of credit support to shield the counterparty from losses from failure to perform contractual obligations. It can be provided to any party of the contract.  If the offtaker has a low credit rating – or no credit rating at all – the investment-grade parent company may need to act as guarantor. Lenders usually make it a requirement for a loan agreement.   Likewise, an offtaker may ask for such a guarantee from a project developer to mitigate the risks of a project not moving forward after signing the PPA.  Other examples of credit risk mitigation tools include bank guaranteesor the provision of cash into an escrow account.  
+
+Peak Load PPA 
+
+This is one of the many PPA volume/contract structures, although not a common one It represents a structure where the agreement is around the peak hours of consumption from Monday to Friday. All-day is typically from 8am to 8pm.  So, the buyer only commits to buying energy for their consumption during these hours. There are different blocks to pick from, such as off-peak – i.e., purchase power for night load only. 
+
+Physical PPA 
+
+A physical PPA contract, also known as sleeved PPA, is a contractual agreement where the asset and the offtaker are in the same grid network. This means that there is a physical transfer of the energy – contrary to a virtual PPA. A third party such as a utility is appointed to manage the electricity delivery on behalf of the project. This implies that the physical aspects, such as balancing , need to be included in the contract. 
+
+PPA 
+
+A power purchase agreement (PPA) is a contractual agreement between energy buyers and sellers. They come together and agree to buy and sell an amount of energy which is or will be generated by a renewable asset. The PPA regulates the conditions and duration of the sale. Although PPAs for conventional generation have existed for a long time, the advent of the trend in the renewables sector is less than 10-years .It was started by corporates wanting to green their credentials by procuring green electricity straight from a renewable energy plant. PPAs vary structurally in terms of the volume structure that is delivered and how the pricing works.   For more information on the fundamentals of a PPA read our What is a PPA guide.
+
+Price Risk 
+
+In the PPA world, price risk is the uncertainty of not knowing what price you will get for the energy you produce. If you are an offtaker, it’s the uncertainty of not knowing at what price you will buy energy. The uncertainty (e.g., probability of loss) stems from the high volatility in the wholesale market prices. Price risk is unavoidable but can be mitigated through hedging instruments, such as a PPA or a futures contract that will fix your price.  
+
+Price Zone  
+
+Some countries are divided into separate pricing/bidding areas. Pricing is defined by local supply and demand, and interconnection. A prime example is the Nordic energy market. The physical production is always renumerated in the local area price as quoted and realised on Nord Pool Spot. Nasdaq exchange created the Electricity Price Area Differentials (EPAD) as hedging product allowing members on the exchange to hedge against this area price risk. Another country with different market zones is Italy. 
+
+Profile Risk 
+
+Profile risk arises from the fluctuating nature of renewable energy (for example, no solar energy is produced at night). In markets with high renewable energy penetration, times of high production can mean a significant decrease in power price, that is, revenue. This will depend on the location  and type of the plant (solar or wind). You can mitigate this risk by choosing certain PPA structures.  Electricity prices are usually quoted for standard products (i.e., the delivery of 5MW during Calendar Year 2022) that are based on 24/7 baseload deliveries of electricity. One speaks of “profile risk” of a generating asset such as a wind farm, if the hourly production profile of such an asset deviates from the baseload characteristic and corresponding hourly prices lead to an overall lower value (or higher, as the case may be) in aggregate.  The magnitude of the profile risk is driven by the actual profile of the generating asset, the correlation between the generating asset’s forecast error and market prices and the structure of the overall generation market. In markets with high penetration of renewable energy, there is generally a negative correlation between times with lots of wind and/or radiation and market prices. This is often referred to as “cannibalization” effect and forms part of the profile cost.   Profile risk can only be hedged through “fixed price” products where a utility is willing to pay a fixed price (usually at discount to the baseload price) for the entirety or parts of the volume produced by the wind farm during at any time. Profile risk captures short-term variations of production, even if the annual production is in line with forecasted volumes.  
+
+Regulatory Risk  
+
+It’s a risk stemming from regulatory changes impacting a business model. For renewables assets, a regulatory change can take many forms such as instances of regulator making generators liable for all transmission losses or retroactively cutting down pre-agreed feed-in tariffs.  
+
+Replacement Cost 
+
+The cost of a seller having to replace the PPA’s fixed price in case the counterparty defaults on its obligations or goes bankrupt. In this occasion, it needs to be sorted which portion can be recovered given market prices in force at the time of this default. Whether prices are lower or higher will define the size of the loss. Typically, mitigation tools are guarantee instruments, such as PCG or Bank Guarantees. 
+
+Revenue Distribution Curve 
+
+It’s the curve representing simulated revenues based on the outcome of the set of scenarios considering volume, price and profile factors deviations. The narrower the curve the more certain is a revenue outcome as the range of outcomes is smaller. The higher the curve, the more scenarios resulted in this specific revenue outcome. 
+
+Seller  
+
+The legal entity responsible for the sale of the energy produced by a renewables project. It is often a special purpose vehicle (SPV). It would be the generator, or a utility because the latter acts both as a buyer and a seller in the PPA sphere. Sellers are also called generators, producers and suppliers.  
+
+Settlement Location 
+
+In a financial PPA, or in a CfD, the settlement location (also known as node or trading hub in trading lingo) is where the electricity is sold to the wholesale market. In a cross-border PPA, consumption and production are in different countries. Where the energy will be settled (sold) is an important consideration.  
+
+Settlement Risk 
+
+It’s the risk of a party not receiving the money for its delivered energy, also known as invoicing risk. 
+
+Stack-and-Roll  
+
+A very common energy trading term. It’s a hedging strategy where the total exposure of a trader is stacked (e.g summed together) and hedged with futures (short-end instruments). Because there are typically no long-term electricity contracts to hedge with, the entire exposure is stacked, hedged and when short-term contracts expire they are rolled over into new contracts on the remaining exposure. Execution of a stack-and-roll strategy entails both extra cost and risk. Rollovers require crossing the bid-ask spread, resulting in a cost, whereas residual price risk of the stack-and-roll strategy (out of contango/backwardation changes) is charged for by market participants. In a PPA, the offtaker assumes this risk, charging it to the seller via a price discount. The sum of rollover cost and risk discount is termed Liquidity Premium at Pexapark. 
+
+System Price  
+
+Electricity system prices is the spot market price at the end of each settlement period. Calculation methods differ between countries, but they usually depend on supply, demand, imbalance costs and other defining parameters. When forward prices are discussed, typically one refers to system prices. System price forwards are an imperfect hedge for a renewable producer as the underlying production is remunerated in local area prices. 
+
+Tenor 
+
+The duration of the PPA contract, from its start to the end date. It’s also known as the delivery period.  
+
+Volume Risk 
+
+Renewables’ production volume is driven by external factors such as wind speed and solar irradiation, which are subject to fluctuation. This introduces uncertainty to the likelihood of achieving expected volumes and meeting contractual obligations. The annual energy production of a renewable asset is an estimate and the uncertainty around it is typically calculated and assessed on basis of long-term meteorological data.  Volume risk illustrates the long-term variations between expected and actual production, contrary to profile risk.  
+
+Do you need support with your next PPA? Get in touch for a chat and see how we can help.
+
+SHARE ON
+
+-   
+
+[]
+
+Unlock BESS Market Insights
+
+Register for your free Pexapark account to stay updated on the latest energy transition trends.
+
+Register Now
+
+Unlock Pexapark’s Fundamentals
+
+Our educational resources support your PPA strategy at every stage.
+
+Get Started
+
+Copyright ©Pexapark 2026 Contact European Terms of Use US Terms of Use Privacy notice Cookie policy Cookie preferences
+
+-   

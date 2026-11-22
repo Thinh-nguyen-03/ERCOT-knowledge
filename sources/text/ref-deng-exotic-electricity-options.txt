@@ -1,0 +1,848 @@
+Decision Support Systems 30 Ž2001. 383–392
+www.elsevier.comrlocaterdsw
+
+Exotic electricity options and the valuation of electricity
+generation and transmission assets
+Shi-Jie Deng a,) , Blake Johnson b, Aram Sogomonian c
+a
+
+IE and OR Department, UniÕersity of California at Berkeley, CA 94720, USA
+b
+EES and OR Department, Stanford UniÕersity, CA 94305, USA
+c
+Risk Management, Pacificorp, Portland, OR 97232, USA
+
+Abstract
+We present and apply a methodology for valuing electricity derivatives by constructing replicating portfolios from
+electricity futures and the risk-free asset. Futures-based replication is made necessary by the non-storable nature of
+electricity, which rules out the traditional spot market, storage-based method of valuing commodity derivatives. Using the
+futures-based approach, valuation formulae are derived for both spark and locational spread options for both geometric
+Brownian motion and mean reverting price processes. These valuation results are in turn used to construct real options-based
+valuation formulae for generation and transmission assets. Finally, the valuation formula derived for generation assets is
+used to value a sample of assets that have been recently sold, and the theoretical values calculated are compared to the
+observed sales prices of the assets. q 2001 Elsevier Science B.V. All rights reserved.
+Keywords: Electricity derivatives; Spark spread; Mean reversion; Exchange option; Electricity futures contract; Real options; Capacity
+valuation
+
+1. Introduction
+With deregulation sweeping through the US electric power industry and a fully competitive marketplace for electricity taking shape, electric utilities
+and their customers accustomed to a cost-recovery
+pricing structure for electricity must adapt to
+market-based pricing. Risk management needs this
+transition has generated have made electricity derivatives one of the fastest growing derivatives markets,
+)
+Corresponding author. Current address: School of Industrial
+and Systems Engineering, Georgia Institute of Technology Atlanta, GA 30332-0205, USA.
+E-mail addresses: deng@isye.gatech.edu
+URL:rrwww.isye.gatech.edur ;deng ŽS.-J. Deng.,
+blakej@leland.stanford.edu ŽB. Johnson.,
+aram.sogomonian@pacificorp.com ŽA. Sogomonian..
+
+as financial institutions, utilities and other energy
+market participants work to provide the tools necessary to manage the price and investment risks associated with competitive markets. While many of the
+risk-management tools and methods now well established in other markets w1,2,5,8x can be readily transferred to the electricity markets, the unique characteristics of electricity and electricity markets also
+present new challenges to the risk-management discipline. The most important of these are the challenges that the non-storable nature of electricity presents to the traditional methods of modeling price
+processes and valuing derivatives w11x. Specifically,
+due to the non-storable nature of electricity, the
+traditional storage-based, no-arbitrage methods of
+valuing commodity derivatives are unavailable. In
+addition, electricity prices can Žand do. demonstrate
+
+0167-9236r01r$ - see front matter q 2001 Elsevier Science B.V. All rights reserved.
+PII: S 0 1 6 7 - 9 2 3 6 Ž 0 0 . 0 0 1 1 2 - 3
+
+384
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+properties such as strong mean reversion over short
+time horizons that would be inconsistent with an
+efficient market for a storable good. A second riskmanagement challenge that electricity markets present is the need to value a range of cross-commodity
+transactions, such as spark and locational spreads w3x.
+In this paper, we present tools to address these
+unique properties of electricity and electricity derivatives. First, we develop a method to value electricity
+derivatives by replicating them with futures contracts
+rather than by attempting to store or borrow electricity in the spot market. This allows us to apply
+traditional no-arbitrage-based methods of derivatives
+valuation and to proceed without requiring the assumption that electricity is storable. We then present
+closed-form expressions for the value of a range of
+cross-commodity derivatives, including spark and locational spread options, both for the case in which
+the underlying price processes follow geometric
+Brownian motion, and for the more plausible case in
+which prices are mean reverting. These results are
+closely related to those of Shimko’s w9x analysis of
+futures spread options and Margrabe’s w7x analysis of
+exchange options. ŽMargrabe’s work is relevant since
+an exchange option can be thought of a spread
+option with a zero strike price.. Shimko’s results,
+however, are for a futures price process derived from
+a model of the spot price and convenience yield of a
+storable good, while Margrabe’s are exclusively for
+geometric Brownian motion processes. After deriving the valuation formulae, we demonstrate how
+these results can be used to value both generation
+and transmission assets Žsee w4,10x for a review of
+real options and decision analytic approaches to capacity valuation., and present a preliminary comparison between the values these models generate and
+the actual prices at which these types of assets have
+recently been sold.
+The remainder of the paper is organized as follows. In Section 2, we introduce the set of crosscommodity derivatives we will consider in the paper,
+and identify some of their basic characteristics. In
+Section 3, we describe how these derivatives can be
+replicated Žand thus valued by arbitrage. using futures contracts, and present the principal valuation
+results of the paper. In Section 4, we use these
+results to develop a real-options-based methodology
+for valuing generation and transmission assets, and
+
+present the results of our preliminary empirical evaluation of the effectiveness of the methodology.
+2. Cross-commodity electricity derivatives
+There are two principal categories of cross-commodity electricity derivatives; spark spread, or heatrate-linked derivatives, and locational spread derivatives. We consider each below.
+2.1. Spark spread, or heat rate-linked deriÕatiÕes
+The primary cross-commodity transaction in electricity markets is the spark spread w6x, which is based
+on the difference between the price of electricity and
+the price of a particular fuel used to generate it. The
+spread between the price of electricity and a fuel that
+can be used to generate it is of interest since it is this
+spread that determines the economic value of generation assets that can be used to transform the fuel into
+electricity ŽThis idea is analogous to the concept of
+the Acrack spreadB used in the oilrrefining industry.
+In that case the relevant spread between crude oil
+and refined products like diesel or gasoline Žsee
+Shimko w9x... The amount of fuel that a particular
+generation asset requires to generate a given amount
+of electricity will of course depend on the asset’s
+efficiency. This efficiency is summarized by the
+asset’s heat rate, which is defined as the number of
+British thermal units ŽBtu. of the input fuel Žmeasured in millions. required to generate 1 megawatt
+hour ŽMWh. of electricity. Thus, the lower the heat
+rate, the more efficient the facility. The spark spread
+associated with a particular heat rate is defined as the
+current price of electricity less the product of the
+heat rate and the current fuel price. Thus, the lower
+the heat rate, the lower the fuel price, and the higher
+the electricity price, the larger the spark spread.
+In a deregulated market, presumably only assets
+that have a positive spark spreads under prevailing
+market conditions will be operated. This leads naturally to the definition of the prevailing market implied heat rate H as:
+H s number of MM Btu needed for a marginal generating plant to generate 1 MW h of electricity
+SE
+s
+MM BturMW h
+SG
+
+Ž 1.
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+where S E is the spot price of electricity per MWh
+and SG is the spot price of the generating fuel per
+MM Btu. With the notion of a heat rate established,
+we define European spark spread put and call options.
+Definition 1. A European spark spread call option
+written on fuel G at a fixed Žor AstrikeB . heat rate
+K H gives the option holder the right but not the
+obligation to pay K H times the unit price of fuel G
+at the option’s maturity T and receive the price of 1
+unit of electricity. Let SET and SGT be the unit spot
+prices of electricity and fuel at time T, respectively.
+Denote the value of the option at time t by C 1Ž S Et ,
+SGt , t .. Then the payoff of the option at maturity time
+T is:
+C1 Ž S ET , SGT , K H , T . s max Ž S ET y K H SGT , 0 .
+
+Ž 2.
+
+Definition 2. A European spark spread put option
+written on fuel G at a fixed heat rate K H gives the
+option holder the right but not the obligation to pay
+the price of 1 unit of electricity and receive K H
+times the unit price of fuel G at maturity time T.
+Denote the value of the option at time t by P1Ž SEt ,
+SGt , t .. Then the payoff of the option at time T is:
+P1 Ž S ET , SGT , K H , T . s max Ž K H SGT y S ET , 0 .
+
+Ž 3.
+
+The following example provides a simple illustration
+of how spark spread options can be used to manage
+electricity price risk.
+A power marketer in a region where the marginal
+generating fuel is natural gas would like to buy
+power at time T at a market implied heat rate not to
+exceed K H . An agreement providing such a heat rate
+cap would ensure the marketer power at time T at a
+price given by SG = minŽ H, K H .. Assuming the
+marketer sells the power into the spot market at time
+T, his payoff will be Ž SET y SGT = minŽ H T, K H ..,
+which is equal to SGT = maxŽ H T y K H , 0.. Bringing
+SGT inside the brackets, the payoff is maxŽ SET y K H SGT ,
+0., which is exactly the same as that of a European
+spark spread call option with strike heat rate K H .
+The power marketer can therefore achieve his goal
+by purchasing this spark spread call.
+v
+
+Throughout the remainder of the article, we make
+the following assumptions.
+
+385
+
+Assumption 1. A complete set of futures contracts
+for electricity and for the relevant generating fuels
+are traded.
+Assumption 2. The risk-free interest rate r is constant.
+Following Shimko w9x, we next provide a put-call
+parity relationship between the spark spread put and
+call options, as well as upper and lower bounds on
+their values. We delay making specific assumptions
+about the price processes that electricity and the
+generating fuels follow until Section 3.
+Proposition 1. (Put-Call Parity) Let FEt and FGt
+denote the futures prices of electricity and the generating fuel, respectiÕely. The following parity relationship holds for European spark spread put and
+call options with the same fixed heat rate K H and
+expiration date t.
+C1 s P1 q eyr t Ž FEt y K H FGt .
+
+Ž 4.
+
+Proof. At time t, the payoff of a long position in 1
+unit of spark spread call option C1 is max Ž S Et y
+K H SGt , 0.; the payoff of 1 unit of spark spread put
+option P1 is max Ž K H SGt y S Et , 0.. Consequently,
+the payoff of Ž C1 y P1 . at maturity time t is Ž S Et y
+K H SGt .. The present value of Ž S Et y K H SGt . is eyr t
+Ž FEt y K H FGt .. Therefore,
+C1 y P1 s eyr t Ž FEt y K H FGt .
+
+Ž 5.
+B
+
+Proposition 2. (No-arbitrage lower r upper bounds)
+Let FEt and FGt denote the futures prices of electricity
+and the generating fuel, respectiÕely. Then the Õalue
+of a spark spread call option C1 can be bounded
+aboÕe and below as follows:
+eyr t max Ž FEt y K H FGt , 0 . F C1 F eyr t FEt
+
+Ž 6.
+
+Proof. The first inequality is by put-call parity Ž4.
+and the fact P1 G 0. The second inequality is due to
+the fact maxŽ S Et y K H SGt , 0. F S Et at time t and the
+present values of max Ž S Et y K H SGt , 0. and SEt are C1
+B
+and e - r t FEt , respectively.
+
+386
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+2.2. Locational spread options
+Due to transmission costs and constraints Žnote
+that the impact of transmission constraints is compounded by the non-storability of electricity, which
+forces real time delivery.., substantial differences
+frequently exist between the price of electricity at
+different locations. We refer to these differences as
+locational spreads, and define call options on them as
+follows.
+Definition 3. ŽLocational spread.: a European call
+option on the locational spread between location one
+and location two with maturity T gives its holder the
+right but not the obligation to pay the price of 1 unit
+of electricity at location one at time T and receive
+the price of K L units of electricity at location two
+Žtransmission cost from location 1 to 2 can be incorporated by setting K L being less than 1.. Let SiT be
+the unit price of electricity at location i Ž i s 1, 2. at
+time T. Denote the value of the option at time t by
+C2 Ž S1t , S2t , K L , t .. Then the payoff of the option at
+time T is:
+C2 Ž S1T ,S2T , K L ,T . s max Ž S1T y K L S2T , 0 .
+
+Ž 7.
+
+A European locational spread put option can be
+defined in a similar way.
+
+structing replicating portfolios for commodity derivatives cannot be used to value electricity derivatives.
+In place of the storage-based methods, we present a
+method for replicating electricity derivatives by dynamically trading futures contracts of the appropriate
+maturity. Since, at maturity, the price of a futures
+contract must converge to the then current spot price,
+the methodology permits exact replication. Since the
+precise nature of the replicating strategy will naturally depend on the specific derivative being replicated, to illustrate the method we use it to derive the
+replicating strategy for spark and locational spread
+options. We do so first under the assumption that the
+relevant futures price processes follow geometric
+Brownian motion processes, and then under the more
+reasonable assumption that they follow mean reverting processes.
+3.2. Geometric Brownian motion price process
+We first consider the case in which the futures
+price processes of electricity and the appropriate
+generating fuel of the relevant maturity, FE and FG ,
+follow geometric Brownian motion processes
+d FErFE s m E d t q s E d B 1
+d FG rFG s mG d t q sG d B 2
+
+3. Valuation of electricity derivatives
+In this section, we present a futures-based method
+of replicating electricity derivatives, and illustrate the
+method by using it to derive explicit expressions for
+the value of the spark spread and locational spread
+options defined above. Valuation equations are provided for these instruments for both geometric Brownian motion price processes and mean-reverting price
+processes. In both cases we explicitly derive only the
+value of the call options. The value of put options
+can then be derived using the put-call parity relationship presented in Section 2.
+3.1. Futures-based replication of electricity deriÕatiÕes
+As noted above, because electricity is non-storable, the traditional storage-based methods of con-
+
+Ž 8.
+
+where B 1 and B 2 are two Wiener processes with
+instantaneous correlation r . m E , mG , s E , and sG
+are assumed to be constants for the moment. The
+valuation results are therefore the same as those in
+Ref. w7x except that the underlying are futures contracts. The more general case where the volatility
+and correlation parameters can be functions of time
+is considered in the mean-reversion model.
+3.2.1. Valuation of spark spread options
+Denote the time-t value of a spark spread call
+option which matures at time T by V Ž x, y, t . '
+C1Ž FEt,T, FGt,T, K H , T y t . and let F)t,T represent the
+price at time t of the commodity futures contract
+with maturity date T. By constructing an instantaneously risk-free portfolio using the electricity and
+generating fuel futures contracts and the riskless
+asset, it follows that C1 , normalized by the value of
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+the risk-free asset, must satisfy the partial differential
+equation ŽPDE.:
+1 2
+yVt q
+x Vx x sx2 q 2 rsx sy xyVx y q y 2 Vy y sy2
+2
+s0
+Ž 9.
+with boundary conditions V Ž x, y, T . s maxŽ x y y,
+0., V Ž x, 0, t . s x, and V Ž0, y, t . s 0.
+
+387
+
+3.3. Mean-reÕerting price process
+In this section, we assume that the futures price
+processes of electricity FE and of the relevant generating fuel FG follow the mean-reverting processes
+d FE s k E Ž m E Ž t . y ln FE . FE d t q s E Ž t . FE d B 1
+d FG s k G Ž mG Ž t . y ln FG . FG d t q sG Ž t . FG d B 2
+
+Ž 12 .
+Proposition 3. (Value of a spark spread call option)
+The closed-form solution for C1 is:
+C1 Ž FEt ,T , FGt ,T , K H , T y t .
+s eyr ŽTyt . FEt ,T N Ž d1 . y K H FGt ,T N Ž d 2 .
+
+Ž 10 .
+
+where
+d1 s
+
+ln Ž FEt ,Tr Ž K H FGt ,T . . q Õ 2 Ž T y t . r2 Õ
+
+'T y t
+
+d 2 s d1 y Õ'T y t
+
+where s E Ž t . and sG Ž t . are functions of time t,
+m E Ž t . and mG Ž t . are the long-term means, k E and
+k G are the mean-reverting coefficients, and B 1 and
+B 2 are, as above, two Wiener processes with instantaneous correlation r . The mean-reverting assumption on the futures price processes put restrictions on
+the choice of volatility functions s E Ž t . and sG Ž t ..
+Among many other forms, the following is a feasible
+one.
+)
+
+s E Ž t . s s E eyk E t ,
+
+Õ 2 s s E2 y 2 rs E sG q sG2
+V s C1Ž FEt,T,
+
+FGt,T,
+
+r ŽTyt .
+
+Proof. Verify
+K H , T y t .e
+solves PDE Ž9. with the corresponding boundary
+conditions.
+B
+3.2.2. Valuation of locational spread options
+The value of the locational spread call option can
+be derived in exactly the same way the value of the
+spark spread call option was derived above. Specifically, defining FE,1 and FE,2 to be the geometric
+Brownian motion price processes that the futures
+prices of electricity at locations 1 and 2 follow, we
+have:
+
+)
+
+sG Ž t . s sG eyk G t
+
+3.3.1. Valuation of spark spread options
+Denote the time t value of a spark spread call
+option which matures at time T by V Ž x, y, t . '
+C1Ž FEt,T, FGt,T, K H , T y t .. Applying the same replication arguments applied above, it follows that C1e
+r ŽTyt .
+must satisfy the PDE:
+1 2
+yVt q
+x Vx x sx2 Ž t . q 2 rsx Ž t . sy Ž t . xyVx y
+2
+qy 2 Vy y sy2 Ž t . s 0
+Ž 14 .
+with boundary conditions V Ž x, y, T . s maxŽ x y y,
+0., V Ž x, 0, t . s x, and V Ž0, y, t . s 0.
+Proposition 5. (Value of a spark spread call option)
+The closed-form solution for C1 is:
+
+Proposition 4. (Value of a locational spread call
+option) The Õalue of C2 is giÕen by
+
+C1 Ž FEt ,T , FGt ,T , K H ,T y t .
+
+C2 FEt ,T,1 , FEt ,T,2 , K L , T y t
+
+where
+
+Ž
+
+.
+
+s eyr ŽTyt . FEt ,T,1 N Ž d1 . y K L FEt ,T,2 N Ž d 2 .
+
+d1 s
+
+ln Ž
+
+FEt ,T,1rK L FEt ,T,2
+
+2
+
+. q Õ Ž T y t . r2
+
+Õ
+
+Ž 11 .
+
+s s E2,1 y 2 rs E ,1 s E ,2 q s E2,2
+
+Ž 15 .
+
+ln Ž FEt ,Tr Ž K H FGt ,T . . q Õ 2 Ž T y t . r2
+Õ'T y t
+
+d 2 s d1 y Õ'T y t
+
+Õ'T y t
+
+d 2 s d1 y Õ'T y t
+2
+
+s eyr ŽTyt . FEt ,T N Ž d1 . y K H FGt ,T N Ž d 2 .
+
+d1 s
+
+where
+
+Ž 13 .
+
+T
+
+2
+
+Õ s
+
+2
+E
+
+2
+G
+
+Ht s Ž s . y 2 rs Ž s . s Ž s . q s Ž s . d s
+E
+
+Tyt
+
+G
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+388
+
+Fig. 1. Value of spark spread call under mean-reversion and GBM.
+
+Proof. Verify V s C1Ž FEt,T, FGt,T, K H , T y t .e r ŽTyt .
+solves PDE Ž14. with the corresponding boundary
+conditions.
+B
+Fig. 1 illustrates the value of spark spread options
+under both the geometric Brownian motion ŽGBM.
+price process assumption and the mean-reverting
+price process assumption. When the underlying price
+process is actually mean-reverting, the geometric
+Brownian motion assumption leads to the overvaluation of spark spread options, especially those with
+long maturities.
+Several comparative static properties of the spark
+spread call option value can be derived by investigating the sign of the partial derivatives of C1 with
+respect to their parameters.
+
+3.3.2. Valuation of locational spread options
+Defining FE,1 and FE,2 to be the mean-reverting
+price processes that govern the futures prices of
+electricity at locations 1 and 2 and following the
+derivation above, we have:
+Proposition 7. (Value of a locational spread option)
+The Õalue of C2 is giÕen by
+C2 Ž FEt ,T,1 , FEt ,T,2 , K L , T y t .
+s eyr ŽTyt . FEt ,T,1 N Ž d1 . y K L FEt ,T,2 N Ž d 2 .
+
+Ž 17 .
+
+where
+d1 s
+
+ln Ž FEt ,T,1 r FEt ,T,2 . q Õ 2 Ž T y t . r2
+Õ'T y t
+
+d 2 s d1 y Õ'T y t
+Õ2 s
+
+Ht T w s E2,1Ž s .y2 rs E ,1Ž s . s E ,2 Ž s .q s E2,2 Ž s . x d s
+T yt
+
+Proposition 6.
+As FEt ,T
+
+p Žincreases. , or F o Ždecreases. ´ C p Žincreases.
+F
+F p and
+p´ C p
+F
+r o or r o´ C p
+t ,T
+G
+
+t ,T
+G
+
+1
+
+t ,T
+E
+t ,T
+G
+
+1
+
+1
+
+Ž 16 .
+
+4. Real options valuation of generation and transmission assets
+The right to operate a generation asset with heat
+rate H that uses generating fuel G is clearly given
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+by the value of a spark spread option with AstrikeB
+heat rate H written on generating fuel G. Similarly,
+the value of a transmission asset that connects location 1 to location 2 is equal to the sum of the value
+of the locational spread option to buy electricity at
+location 1 and sell it at location 2 and the value of
+the option to buy electricity at location 2 and sell it a
+location 1 Žin both cases, less the appropriate transmission cost.. This equivalence between the value of
+appropriately defined spark and locational spread
+options and the right to operate a generation or a
+transmission asset can be easily used to value such
+assets. In this section we illustrate this approach by
+developing a simple spark spread-based model of the
+value of a gas-fired generation asset. Once established, we fit the model and use it to generate
+estimates of the value of several gas-fired plants that
+have recently been sold. The accuracy of the model
+is then evaluated by comparing the estimates constructed to the prices at which the assets were actually sold.
+In the analysis we make the following simplifying
+assumptions about the operating characteristics of
+the generation assets under consideration.
+
+389
+
+unit of electricity by using the plant at time t, where
+K H is the plant’s heat rate.
+The payoff of 1 unit of time-t capacity right is
+maxŽ S Et y K H SGt , 0., where S Et and SGt are the spot
+prices of electricity and natural gas at time t, respectively. Denote the value of 1 unit of the time t
+capacity right by uŽ t ..
+Definition 5. Denote the virtual value of 1 unit of
+capacity of a gas-fired power plant by V. Then, V is
+equal to 1 unit of the plant’s time-t capacity right
+over the remaining life w0, T x of the power plant, i.e.
+V s H0T uŽ t .d t.
+Without making any distributional assumptions
+about the price processes that S Et and SGt follow, we
+have the following proposition.
+Proposition 8. The Õalue of 1 unit of capacity V of a
+plant that has a useful life of T has both a lower
+bound and an upper bound:
+T yr t
+
+H0 e
+
+max Ž FET y K H FGt ,0 . d t F V F
+
+T yr t
+
+H0 e
+
+FEt d t
+
+Ž 18 .
+Assumption 3. Ramp-ups and ramp-downs of the
+facility can be done with very little advance notice.
+Assumption 4. The facility’s operation Že.g., startuprshutdown costs. and maintenance costs are constant.
+These assumptions are reasonable, since for a
+typical gas turbine combined cycle cogeneration plant
+the response time Žramp uprdown. is several hours
+and the variable costs Že.g., operation and maintenance. are generally stable over time.
+To construct a spark spread-based estimate of the
+value of a generation asset, we estimate the value of
+the right to operate the asset over its remaining
+useful life. This value can be found by integrating
+the value of the spark spread options over the remaining life of the asset. Specifically,
+Definition 4. Let 1 unit of the time t capacity right
+of a natural gas-fired electric power plant represent
+the right to convert K H units of natural gas into 1
+
+Proof. By definition and Proposition 2.
+
+B
+
+If we further assume that the price processes of
+electricity and natural gas spot and futures prices
+follow the mean-reverting processes as given by
+Ž12., then we have uŽ t . s C1Ž t . where C1Ž t . is
+given by Proposition 5. The value of a gas-fired
+power plant with lifetime T is therefore
+Vgen s
+
+T
+
+H0 C Ž t . d t
+
+Ž 19 .
+
+1
+
+Similarly, if we assume that the price processes of
+the electricity futures prices at two different locations follow mean-reverting processes, the value of a
+transmission line connecting the two locations a and
+b in a network is
+Vtran s
+
+T
+
+H0 C Ž t . q C Ž t . d t
+2,1
+
+2,2
+
+Ž 20 .
+
+where C2,1Ž t . and C2,2 Ž t . represent the locational
+spread option value at time t from a to b and from
+b to a, respectively. Eqs. Ž19. and Ž20. are the two
+
+390
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+Fig. 2. Electricity and natural gas futures price curve.
+
+fundamental valuation formulae we propose for the
+valuation of generation and transmission assets in a
+competitive electricity market.
+4.1. Application of the model to recent generation
+asset sales
+To evaluate the accuracy of Ž19., we fit the model
+and use it to construct estimates of the value of
+several generation assets that have been recently
+sold. For purposes of comparison, we also estimate
+the value of each asset using a standard discounted
+cash flow ŽDCF. calculation.
+In order to fit the model, we first estimate the
+volatilities of the price processes of the relevant
+futures contracts. Let f nt be the price of the futures
+contract that matures in n months, and assume that
+f nt follows a mean-reverting process of the kind
+considered above. Let R tn ' ln f nt , then
+d R n s k 1Ž m
+ˆ n y R n . d t q sn d B
+
+Ž 21 .
+
+We estimate sn using the New York Mercantile
+Exchange ŽNYMEX. electricity futures historical
+price data. The natural gas volatility term structure
+and the gas-to-electricity price correlation are also
+estimated using historical data on the NYMEX natural gas ŽHenry Hub. futures contracts. Once estimated, these parameters along with implied volatility
+
+from the market traded call options are used to
+calibrate the parameters in the volatility functions
+Ž13.. We will use Ž13. in the valuation formulae
+derived in Section 3 to construct real-options-based
+estimates of the value of the assets in question. To
+calculate the discounted cash flow value of the assets
+we use the relevant electricity and natural gas futures
+curves.
+The sample of generation assets considered consists of four gas-fired power plants which Southern
+California Edison recently sold to Houston Industries. At present, not all of the individual plant dollar
+investments have been made public. As a proxy, we
+use the total investment made by Houston Industries
+ŽUS$237 million to purchase four plants — Coolwater, Ellwood, Etiwanda and Mandalay., divided by
+the total number of megawatts ŽMW. of capacity
+Ž2172 MW. to get approximately US$110,000rMW
+Žor US$110rkW. of capacity for the entire package
+of plants. However, the Coolwater Plant 1 ŽDaggett,
+CA. is the most efficient Žwith an average heat rate
+of 9500. of the four plants in the package and thus
+
+1
+
+The Coolwater Plant is made up of four units: two 256-MW
+combined cycle gas turbines with a steam turbine, and two
+conventional turbines with capacity 65 MW and 81 MW each.
+Some repower work has been done on the larger units.
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+
+391
+
+Fig. 3. Capacity value of a gas-fired plant.
+
+should have a higher value per MW. We therefore
+assume that the implied market value for Coolwater
+could range from US$110,000 to US$220,000 per
+MW, or equivalently, US$110rkW to US$220rkW.
+Using the NYMEX electricity and natural gas
+futures price data on October 15, 1997, Žsee Fig. 2.,
+we compute both the option value and DCF value
+Žusing a risk-adjusted discount rate of 10%. of a
+gas-fired plant with various possible heat rates assuming a remaining operating life of 15 years for the
+plant. It is also assumed the plant is operated during
+peak hours only. Fig. 3 shows the plot of the option
+values and the DCF values of a plant of various
+possible heat rates using forward curves at different
+times and at different trading hubs.
+We can see that the option values of capacity are
+significantly higher than the DCF values. For heat
+rate higher than 9500 BturkW h, the DCF values of
+capacity are close to zero. For example, at the heat
+rate level of 9500 and using the electricity forward
+curve at Palo Verde ŽPV., the theoretical option-based
+capacity value of a plant comparable to the Coolwater Plant 5 is around US$185rkW, while the DCF
+valuation is only US$28rkW.
+Remark. The natural electricity trading hub for
+Coolwater to sell into is the Mead hub. However,
+due to the liquidity of the Palo Verde financial
+
+futures contracts we use the PV futures contracts as a
+proxy for the electricity price information for Coolwater. In addition, the basis differential associated
+with PVrMead is typically not large.
+
+5. Conclusions
+This article has presented a methodology for valuing electricity derivatives by constructing replicating
+portfolios with futures contracts and the risk-free
+asset. Futures-based replication is made necessary by
+the non-storable nature of electricity, which rules out
+the traditional spot market, storage-based method of
+valuing commodity derivatives. Once developed, the
+methodology was used to derive valuation formulae
+for both spark and locational spread options when
+the prices of the underlying assets follow either
+geometric Brownian motion or mean reverting processes. These valuation results were in turn used to
+construct real-options-based valuation formulae for
+generation and transmission assets. Application of
+the generation asset valuation formula to a sample of
+recent asset sales suggests that the spark spread
+analysis generates reasonable estimates of the actual
+market value of the assets, and certainly more accurate estimates than those which traditional DCF
+methods provide. The estimates generated could be
+
+392
+
+S.-J. Deng et al.r Decision Support Systems 30 (2001) 383–392
+Dr. Blake Johnson is an Assistant Professor of Engineering Economic Systems and Operations Research at Stanford University. His research interests
+include. The application of multiperiod
+asset pricing methods to the valuation of
+real assets Že.g., businesses, technologies, large projects, real estate. as opposed to financial assets Že.g., stocks,
+bonds, derivatives..
+Dr. Johnson has a PhD in Engineering
+Economic Systems from Stanford Uni-
+
+improved by incorporating a greater level of detail
+about the plants, particularly their hourly and daily
+operating optionality. Analysis of this kind presents a
+natural avenue for future research.
+
+References
+w1x F. Black, The pricing of commodity contracts, Journal of
+Financial Economics 3 Ž1976. 167–179, Sept.
+w2x F. Black, M. Scholes, The pricing of options and corporate
+liabilities, Journal of Political Economy 81 Ž1973. 637–659,
+May–June.
+w3x S. Deng, Financial methods in competitive electricity markets, PhD Dissertation Žforthcoming., University of California at Berkeley, CA, 1998.
+w4x A.K. Dixit, R.S. Pindyck, Investment Under Uncertainty,
+Princeton Univ. Press, NJ, 1994.
+w5x D. Duffie, Dynamic Asset Pricing Theory, 2nd edn., Princeton Univ. Press, NJ, 1996.
+w6x M. Hsu, Spark spread options are hot! The Electricity Journal
+11 Ž2. Ž1998. 1–12, Elsevier Sciences, March.
+w7x W. Margrabe, The value of an option to exchange one asset
+for another, Journal of Finance 33 Ž1. Ž1978. 177–186.
+w8x R.C. Merton, Theory of Rational Option Pricing, Bell Journal
+of Economics and Management Science 4 Ž1973. 141–183,
+Spring.
+w9x D. Shimko, Options on futures spreads: hedging, speculation
+and valuation, Journal of Futures Markets 14 Ž2. Ž1994.
+183–213.
+w10x J.E. Smith, R.F. Nau, Valuing risky projects: option pricing
+theory and decision analysis, Management Science 41 Žno.5.
+Ž1995. 795–816.
+w11x E.S. Schwartz, The stochastic behavior of commodity prices:
+implications for valuation and hedging, Journal of Finance 52
+Ž3. Ž1997. 923–973.
+Dr. Shi-Jie Deng is an Assistant Professor of Industrial and Systems Engineering at Georgia Institute of Technology.
+His research interests include financial
+asset pricing and real options valuation,
+financial engineering applications in energy commodity markets, transmission
+pricing in electric power systems,
+stochastic modeling and simulation. Dr.
+Deng has served as a consultant to several private and public organizations on
+issues of risk management and asset valuation in the deregulated electricity industry.
+Dr. Deng holds a BS degree in Applied Mathematics from Beijing
+University in China, an MS degree in Mathematics from the
+University of Minnesota at Twin Cities, as well as MS and PhD
+degrees in Industrial Engineering and Operations Research from
+the University of California at Berkeley.
+
+versity.
+Dr. Aram Sogomonian was recently
+named Chief Risk Officer of PacifiCorp.
+He is currently implementing his organization which will have primary responsibility for understanding the firms risk
+exposures and how to manage them.
+Prior to his current position, Dr. Sogomonian was vice president at PacifiCorp Power Marketing with primary responsibility for heading up the middle
+once and analytical functions. Prior to
+PacifiCorp, Dr. Sogomonian was vice
+president of Risk Management at Edison Source. Before coming
+to Edison Source, Dr. Sogomonian was director of the risk
+analytics and asset pricing group at Houston-based Enron Capital
+and Trade resources, which does project evaluation for Enron.
+Dr. Sogomonian holds a PhD in Management Science from the
+Anderson Graduate School of Management at UCLA, an MS
+degree in Operations Research and BA degrees in Applied Mathematics and Economics from the University of California at Berkeley.
+
+

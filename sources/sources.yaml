@@ -1963,3 +1963,243 @@ sources:
     edition: "effective 2026-01-01"
     url: "https://www.ercot.com/files/docs/2022/06/07/2026_Methodology_for_Determining_Minimum_AS_Reqs.zip"
     note: "The url is a zip archive; the text was extracted by hand from the docx inside it. fetch.ts cannot refresh this one."
+
+  # Added 2026-11-22: second-publisher and desk-reference sources for the industry-reference topics
+  - id: ref-ornl-renewable-contracting-vt6
+    title: "Renewable Electricity Supply Options: Financing Models and Strategies, Session 6 (virtual training slides)"
+    publisher: "Oak Ridge National Laboratory / US DOE Better Buildings"
+    tier: 2
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://bptraining.ornl.gov/wp-content/uploads/2025/10/Renewable-Energy-VT-Session-6-09-09-25.pdf"
+  - id: ref-akin-ercot-hedge-slides
+    title: "Corporate PPA webinar slides (2025 update), incl. financially-settled hedge diagrams"
+    publisher: "Akin Gump Strauss Hauer & Feld"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://www.akingump.com/a/web/a5UsN1B7ZLjNmHWh9ZXE6p/corporate-ppa-webinar-slides-wilson-2025-update-112525.pdf"
+  - id: ref-akin-ppa-swaps
+    title: "Are Renewable Energy Power Purchase Agreements Swaps? (Futures & Derivatives Law Report)"
+    publisher: "Akin Gump Strauss Hauer & Feld"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://www.akingump.com/a/web/4MFGxRMqp1jcZG37UZWLRZ/are-renewable-energy-power-purchase-agreements-swaps.pdf"
+  - id: ref-stoel-law-of-wind-ppa
+    title: "The Law of Wind: Power Purchase Agreements and Environmental Attributes in Wind Energy Projects"
+    publisher: "Stoel Rives"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.stoel.com/insights/reports/the-law-of-wind/power-purchase-agreements-and-environmental-attrib"
+  - id: ref-rff-texas-hedges
+    title: "Texas Power Crisis Exposes Problems with Financial Risk-Mitigation Strategies in Renewable Energy Projects"
+    publisher: "Resources for the Future"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.resources.org/common-resources/texas-power-crisis-exposes-problems-with-financial-riskmitigation-strategies-in-renewable-energy-projects/"
+  - id: ref-leveltenproxy-generation
+    title: "Proxy Generation 101"
+    publisher: "LevelTen Energy"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.leveltenenergy.com/post/proxy-generation"
+  - id: ref-levelten-vppa-terms
+    title: "Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers"
+    publisher: "LevelTen Energy"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.leveltenenergy.com/post/power-purchase-agreement-terms"
+  - id: ref-pexapark-ppa-glossary
+    title: "Glossary of energy terms: PPA explanation"
+    publisher: "Pexapark"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://pexapark.com/blog/glossary-energy-terms-ppa-explanation/"
+  - id: ref-resurety-basis-risk
+    title: "Basis risk can sink projects and PPAs"
+    publisher: "ReSurety"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://resurety.com/resources/intelligence/basis-risk-can-sink-projects-and-ppas/"
+  - id: ref-vistra-10k-2024
+    title: "Vistra Corp. Form 10-K for fiscal year 2024"
+    publisher: "Vistra Corp. (SEC filing)"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000013/vistra-20241231.htm"
+  - id: ref-nrg-10k-2024
+    title: "NRG Energy, Inc. Form 10-K for fiscal year 2024"
+    publisher: "NRG Energy, Inc. (SEC filing)"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.sec.gov/Archives/edgar/data/1013871/000101387125000006/nrg-20241231.htm"
+  - id: ref-cra-ercot-value-stacking-2025
+    title: "Energy and ancillary services value stacking in ERCOT (August 2025)"
+    publisher: "CRA International"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://media.crai.com/wp-content/uploads/2025/08/14100602/CRA-whitepaper-Energy-and-ancillary-services-value-stacking-in-ERCOT-August-2025.pdf"
+  - id: ref-modo-ercot-offtake-tolling-2025
+    title: "Part 1: The state of battery offtake and tolling agreements in ERCOT"
+    publisher: "Modo Energy"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://modoenergy.com/research/battery-bess-offtake-tolling-agreements-route-market-contracts-ercot-explainer-part-one"
+  - id: ref-modo-contracting-strategies-docs
+    title: "Contracting Strategies (Modo dispatch model documentation)"
+    publisher: "Modo Energy"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://docs.modoenergy.com/pages/apr-2026/nem/dispatch-model/contracting-strategies/"
+  - id: ref-enspired-bess-revenue-models
+    title: "BESS revenue models: tolling, floor & fully merchant"
+    publisher: "enspired Trading"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.enspired-trading.com/blog/bess-revenue-models-toll-floor-fully-merchant"
+  - id: ref-gridbeyond-ercot-qse-optimization
+    title: "GridBeyond launches commercial optimization of 29.7 MW battery portfolio in ERCOT new co-optimized market"
+    publisher: "GridBeyond"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://gridbeyond.com/gridbeyond-smartestenergy-ercot-battery-portfolio-optimization/"
+  - id: ref-pvmag-gridbeyond-floor-toll-2025
+    title: "GridBeyond now offers revenue floor and synthetic toll contracts in ERCOT and CAISO"
+    publisher: "pv magazine USA"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://pv-magazine-usa.com/2025/08/22/gridbeyond-now-offers-revenue-floor-and-synthetic-toll-contracts-in-ercot-and-caiso"
+  - id: ref-troutman-storage-offtake-tolling
+    title: "Monetizing Opportunities in Energy Storage in a Post-IRA World"
+    publisher: "Troutman Pepper (law firm)"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.troutman.com/insights/monetizing-opportunities-in-energy-storage-in-a-post-ira-world/"
+  - id: ref-psu-temporal-locational-risk
+    title: "Temporal and Locational risks (EBF 301, Lesson 12)"
+    publisher: "Penn State College of Earth and Mineral Sciences (e-Education)"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://courses.ems.psu.edu/ebf301/book/export/html/744"
+  - id: ref-psu-risk-management-lesson12
+    title: "Lesson 12: Risk Management in the Electricity Market (EBF 301)"
+    publisher: "Penn State College of Earth and Mineral Sciences (e-Education)"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://courses.ems.psu.edu/ebf301/book/export/html/738"
+  - id: ref-cftc-glossary
+    title: "CFTC Glossary"
+    publisher: "U.S. Commodity Futures Trading Commission"
+    tier: 2
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.cftc.gov/LearnAndProtect/EducationCenter/CFTCGlossary/index.htm"
+  - id: ref-cftc-swap-definition-2012
+    title: "Further Definition of Swap, Security-Based Swap... (Final Rule, 77 FR 48208 and product interpretations)"
+    publisher: "U.S. Commodity Futures Trading Commission"
+    tier: 2
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.cftc.gov/LawRegulation/FederalRegister/FinalRules/2012-18003.html"
+  - id: ref-eia-dark-spread-2013
+    title: "Dark spreads measure returns over fuel costs of coal-fired generation (Today in Energy)"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=10051"
+  - id: ref-eia-gas-basis-2020
+    title: "Natural gas price differentials to Henry Hub narrowed at most hubs in first half of 2020 (Today in Energy)"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=45037"
+  - id: ref-lbnl-ftr-basis
+    title: "Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets in the Midwestern U.S. (The Energy Journal preprint)"
+    publisher: "Lawrence Berkeley National Laboratory / IAEE"
+    tier: 2
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://www.osti.gov/servlets/purl/2368550"
+  - id: ref-nodal-exchange-specs
+    title: "Nodal Exchange Contract Specifications (Exhibit A)"
+    publisher: "Nodal Exchange"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://www.nodalexchange.com/wp-content/uploads/Exhibit-A-Contract-Specifications-25-031-1.pdf"
+  - id: ref-oum-oren-load-following
+    title: "VaR constrained hedging of fixed price load-following obligations in competitive electricity markets"
+    publisher: "UC Berkeley (Oren) / IOS Press, Risk and Decision Analysis"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://oren.ieor.berkeley.edu/pubs/I.A.98.pdf"
+  - id: ref-pacificorp-tolling-agreement
+    title: "PacifiCorp RFP-2009 Tolling Agreement (form, filed with Utah PSC)"
+    publisher: "PacifiCorp (Utah Public Service Commission docket)"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://pscdocs.utah.gov/electric/05docs/0503547/Attachment%205.pdf"
+  - id: ref-entergy-toll-term-sheet
+    title: "Appendix B-2 Model CCCT Tolling Agreement Term Sheet (RFP)"
+    publisher: "Entergy"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://rfp.entergy.com/ENTRFP/SEND/2020ETICCGTRFP/Documents/04282020/Appendix%20B-2%20-%20Term%20Sheet%20-%20Toll.pdf"
+  - id: ref-deng-exotic-electricity-options
+    title: "Exotic electricity options and the valuation of electricity generation and transmission assets (Decision Support Systems 30)"
+    publisher: "UC Berkeley / Stanford / PacifiCorp authors; Elsevier"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://www2.isye.gatech.edu/~deng/publication/workpaper/deng-johnson-sogom-dss-2001.pdf"
+  - id: ref-montel-forward-curves-hedging
+    title: "Hedging strategies using forward curves in power markets"
+    publisher: "Montel"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://montel.energy/resources/blog/hedging-strategies-using-forward-curves-in-power-markets"
+  - id: ref-pirrong-forward-curves
+    title: "Commodity forward curves: models and data (slides)"
+    publisher: "University of Houston, Bauer College of Business (Craig Pirrong)"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://www.bauer.uh.edu/spirrong/Pirrong_Geneva_Slides_2.pdf"
+  - id: ref-montel-shape-imbalance
+    title: "Managing shape and imbalance risk in power procurement"
+    publisher: "Montel"
+    tier: 3
+    kind: html
+    edition: "retrieved 2026-11-22"
+    url: "https://montel.energy/resources/blog/managing-shape-and-imbalance-risk-in-power-procurement"
+  - id: ref-rff-merchant-hedges
+    title: "Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06)"
+    publisher: "Resources for the Future"
+    tier: 3
+    kind: pdf
+    edition: "retrieved 2026-11-22"
+    url: "https://media.rff.org/documents/WP_19-06_Bartlett.pdf"

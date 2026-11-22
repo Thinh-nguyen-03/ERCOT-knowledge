@@ -1,0 +1,353 @@
+[top-navigation-logo]
+
+-   Products[]
+    The Terminal
+
+    Overview[]
+
+    Benchmarks, forecasts and insights for wind, solar, storage and data centres, in one view.
+
+    Ko[]
+
+    The AI analyst designed for energy investment decisions.
+
+    Product releases[]
+
+    The latest updates, features, and improvements across Modo Energy.
+
+    Intelligence
+
+    Institutional Benchmarks[]
+
+    Independent revenue benchmarks to measure asset performance, from a regulated benchmark administrator.
+
+    Bankable Forecasts[]
+
+    Revenue forecasts for wind, solar, storage and large loads, built for financing.
+
+    Analyst insights[]
+
+    Power market analysis from our experts you won't find anywhere else.
+
+    Licensing and services
+
+    Index Licensing[]
+
+    License Modo Energy's institutional benchmarks for derivatives, contracts, and data.
+
+    Advisory Services[]
+
+    Expert support from market entry and due diligence to performance evaluation.
+
+    See how Modo Energy helps[]
+
+    Understand how Modo Energy can support your decisions.
+
+-   Solutions[]
+    By asset
+
+    Battery Energy Storage[]
+
+    Revenue forecasts and performance benchmarks
+
+    Data Centers[]
+
+    Grid supply, tariffs and on-site power
+
+    Solar[]
+
+    Generation, capture prices and market exposure
+
+    Wind[]
+
+    Revenues and market exposure
+
+    By role
+
+    Asset Management[]
+
+    Benchmark your portfolio, spot opportunities, and value assets with independent data.
+
+    Lending & Investment[]
+
+    Underwrite and monitor energy assets with bankable forecasts and benchmarks.
+
+    Asset Development[]
+
+    Assess sites, size projects, and understand risks before you commit capital.
+
+    Optimisation & Trading[]
+
+    Real-time dispatch and bidding decisions, powered by observed market outcomes.
+
+    Source investment curves 50x faster[]
+
+    How the UK's largest listed battery fund values its portfolio.
+
+-   Research
+
+-   Customers
+
+-   Resources[]
+    Transmission: The Podcast[]
+
+    Energy market conversations at the intersection of finance and infrastructure.
+
+    Weekly Dispatch[]
+
+    The week's global energy market news, straight to your inbox.
+
+    Live Events[]
+
+    Meet our analysts at events around the world, in person and virtual.
+
+    AI Workflows for Energy Finance[]
+
+    A practical guide to using AI in energy finance teams.
+
+    Forecast Methodologies[]
+
+    Explore how we build our long-term revenue forecasts.
+
+    Index Methodologies[]
+
+    Understand how our global market indices and benchmarks are calculated.
+
+    API Documentation[]
+
+    Integrate Modo Energy data directly into your own workflows.
+
+-   About[]
+    Careers[]
+
+    Join the team building the future of energy data.
+
+Book demo
+
+Log inSign up
+
+[]
+
+[]Back
+
+04 September 2025
+
+Part 1: The state of battery offtake and tolling agreements in ERCOT
+
+Written by:
+
+Sam Anwar
+
+[]Share
+
+[]Translate
+
+[]Open Markdown
+
+Part 1: The state of battery offtake and tolling agreements in ERCOT
+
+​Under an offtake or tolling agreement, battery owners sell the right to dispatch their assets to another party. The owner receives fixed or variable revenue in exchange for access to their flexible batteries. These structures provide certainty in a market where merchant revenues can swing widely from year to year, offering stability for developers and investors alike.
+
+[Cover of Modo Energy's AI adoption guide]Free guide from Modo EnergyPutting AI to work in energy investment and asset managementStructuring ERCOT battery investment or offtake? A practical playbook for using AI tools across your energy investment and operations teams, featuring tangible, timesaving tips and tricks you can put to use immediately.Download the guide →
+
+With this year’s BESS revenue declining compared to 2024, the value of offtake agreements is apparent. They not only de-risk storage investment but also attract financing from parties who may otherwise hesitate to support merchant-only projects.
+
+​What offtake structures are available?
+
+Structuring a tolling or offtake agreement depends heavily on the asset owner’s risk appetite and financing needs. These deals fall on a spectrum from fully contracted, low-risk agreements to fully merchant positions with high upside but substantial volatility.
+
+[]
+
+Tolling / PPA
+
+The offtaker pays a fixed $/MW fee for full access to the battery’s capacity. The asset owner locks in stable revenue, while the offtaker manages all upside and downside from arbitrage and Ancillary Services.
+
+A physical tolling agreement gives the offtaker direct dispatch rights over a specific battery or generation asset. The offtaker schedules, bids, and controls the physical asset, while the owner receives a fixed or structured payment regardless of how it is used.
+
+A virtual tolling agreement is financial. The asset owner continues to operate the asset, but the offtaker takes on the market risk and return through a contractual swap or settlement mechanism. The offtaker gets the economic exposure of dispatch without physically scheduling the asset.
+
+Floor + Revenue Share
+
+The offtaker guarantees a minimum payment per MW (a floor), with upside shared as a percentage of market revenues. This hybrid strikes a balance between predictable revenue and exposure to market highs.
+
+Revenue Share
+
+All payments depend on actual market revenues earned, with no floor or fixed element. This increases risk for the owner but allows shared exposure to strong market conditions.
+
+Merchant
+
+The battery participates directly in wholesale markets without any contractual hedges or guarantees. This exposes the owner fully to volatility and uncertainty, but they also capture all upside.
+
+Hover over each bar for more details and examine the differences between revenue contracts for BESS assets.
+
+How have offtake agreements been implemented so far?
+
+While information about offtake agreements in ERCOT is limited, they are an increasingly attractive option to secure returns. This is especially true in a market where BESS revenues vary significantly year to year.
+
+There are currently five operating projects under known tolling agreements, with seven additional tolled assets expected to come online by the end of 2026.
+
+-   Jupiter Power owns Crossett 1, the first known tolled battery in ERCOT, and entered an offtake agreement with Equilibrium Energy. See how the partnership impacted revenues here.
+-   Building on the success of Padua BESS 1, CPS Energy has entered into two additional tolling agreements with Eolian: Padua BESS 2 and Ferdinand. These resources are scheduled to reach commercial operations in the first half of 2026. This would brings CPS Energy’s total storage under contract to 400 MW.
+-   Cross Trails Storage is an asset owned by Energy Vault and optimized by Gridmatic. This project is notable for being the first known battery in ERCOT operated under a revenue floor contract, providing guaranteed revenue and reducing merchant exposure.
+-   Habitat Energy is optimizing a 50MW / 100MWh asset for Octopus Energy, who is tolling the asset from an unspecified owner. This contract marks Habitat’s entry into BESS tolling in the US, though the exact asset is unconfirmed.
+-   ​Equilibrium Energy is optimizing two assets on behalf of Ormat Technologies. The first one, Lower Rio BESS, began operations in September 2025, making it the most recent tolled battery to come online.
+
+Third-party optimization
+
+Not all asset owners choose full tolling structures. An alternative is to partner with third-party optimizers who provide bidding, dispatch, and trading services, including AI-driven autobidders. This approach allows owners to retain merchant exposure while reducing operational complexity.
+
+Unlike a tolling agreement where the offtaker guarantees payment to the asset owner, under these other third-party partnerships, the asset owner pays a fee to the optimizer.
+
+Third-party optimization helps capture value in highly dynamic markets, where intraday spreads and Ancillary Service prices can swing rapidly. For owners who are unwilling to fully relinquish merchant upside, this approach provides a way to outsource complexity without sacrificing potential revenues.
+
+For a free contact list of U.S. BESS optimizers, see Modo Energy's curated list here.
+
+------------------------------------------------------------------------
+
+This is Part 1 of a two-part series on tolling agreements in ERCOT. Read Part 2 for a quantitative analysis on how to leverage revenue forecasts to price a tolling agreement.
+
+Subscribers to Modo Energy’s ERCOT Research can also access a full list of BESS assets and their associated owners and optimizers below.
+
+For more, read our recent article on evolving offtake structures in the NEM.
+
+------------------------------------------------------------------------
+
+For an up-to-date list of ERCOT assets, their owners, and their optimizers, download the file below.
+
+Download
+
+ModoEnergy_ERCOT_Assets.xlsx
+
+Sign up to read this article for free
+
+[]
+
+Unlimited access to our free articles
+
+[]
+
+Monthly access to 2 Global Research articles
+
+[]
+
+Benchmarks, Forecasts, Ko and more
+
+Sign up for free
+
+Already have an account? Log in
+
+Related articles
+
+[CAISO Investor Outlook Q4 2026: Why no battery in California is bankable without an offtake]
+
+Market Outlook
+
+[]10 min
+
+CAISO Investor Outlook Q4 2026: Why no battery in California is bankable without an offtake
+
+With CAISO BESS revenues near $2.5/kW-month in 2026, only utility contracts can make a project bankable. Learn how you should price those contracts in 2027.
+
+2 days ago
+
+[Modo Energy partners with LSEG to bring battery energy storage revenue indices to LSEG Workspace]
+
+Product Announcement
+
+[]3 min
+
+Modo Energy partners with LSEG to bring battery energy storage revenue indices to LSEG Workspace
+
+​Modo Energy's battery energy storage revenue indices for Great Britain, Australia and Texas (ERCOT) are now available to London Stock Exchange Group (LSEG) customers in LSEG Workspace. It gives LSEG Workspace users access to the most trusted, reliable...
+
+2 days ago
+
+[Spain’s capacity market: how long could batteries bid at zero?]
+
+Research
+
+[]11 min
+
+Spain’s capacity market: how long could batteries bid at zero?
+
+Batteries could enter Spain’s capacity market needing no payments, undercutting existing generators. But if auction outcomes lead to gas retirements, battery revenues and de-rating factors could fall, raising future support requirements.
+
+2 days ago
+
+[PJM Buildout Q3 2026: 9.6 GW of BESS projected by 2031, with up to 14.5 GW more from Cycle 1]
+
+Research
+
+[]8 min
+
+PJM Buildout Q3 2026: 9.6 GW of BESS projected by 2031, with up to 14.5 GW more from Cycle 1
+
+PJM's queue puts 55.3 GW online by 2031, including 9.6 GW of BESS. Cycle 1 could add up to 38.3 GW more.
+
+2 days ago
+
+[Modo Energy Logo]
+
+Ask AI about Modo Energy
+
+[][][][]
+
+Follow us
+
+[][][]
+
+Products
+
+-   Overview
+-   Ko
+-   Bankable Forecasts
+-   Analyst Insights
+-   Institutional Benchmarks
+-   Product Releases
+-   Advisory Services
+
+Solutions
+
+-   Battery Energy Storage
+-   Data Centers
+-   Solar
+-   Wind
+-   Asset Management
+-   Structured Finance
+-   Asset Development
+-   Optimization & Trading
+
+Resources
+
+-   Help Center
+-   AI Academy
+-   AI Workflows for Energy Finance
+-   The Energy Academy
+-   Transmission: The Podcast
+-   Weekly Dispatch: Newsletter
+-   Live Events
+-   Forecast Methodologies
+-   Index Methodologies
+-   API Documentation
+
+Company
+
+-   Research
+-   Customers
+-   Careers
+-   Website Terms of Service
+-   Privacy Policy
+-   Conflict of Interest Policy
+-   IOSCO Compliance Statement
+-   Benchmark Complaints
+-   Open Source Notice
+
+[AICPA SOC certified logo]
+
+[Cyber Essentials logo]
+
+[B certified logo][One percent for the planet logo]
+
+Modo Energy (Benchmarking) Ltd. is registered in England and Wales and is authorised and regulated by the Financial Conduct Authority (Firm number 1042606) under Article 34 of the Regulation (EU) 2016/1011/EU) – Benchmarks Regulation (UK BMR).
+
+Copyright© 2026 Modo Energy. All rights reserved

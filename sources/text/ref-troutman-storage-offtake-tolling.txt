@@ -1,0 +1,558 @@
+Skip to content
+
+[Logo]
+
+-   Join Our Team
+-   Achievements
+-   Locations
+-   Global Search
+
+-   Our People
+-   What We Do
+    -   All Capabilities
+    -   Commitment + Innovation
+    -   Strategies
+    -   SEED
+    -   eMerge
+
+    Smarter in your world deeper in your sector
+
+    Energy
+
+    Energy
+
+    Leading the energy evolution.
+
+    Learn more
+
+    Financial Services
+
+    Financial Services
+
+    Staying ahead of financial services change.
+
+    Learn more
+
+    Health Care + Life Sciences
+
+    Health Care + Life Sciences
+
+    Helping you focus on what matters – improving human health.
+
+    Learn more
+
+    Insurance + Reinsurance
+
+    Insurance + Reinsurance
+
+    100+ years advising insurers and reinsurers. Troutman Pepper Locke delivers regulatory, transactional, litigation, insurtech, and cyber insurance counsel nationwide.
+
+    Learn more
+
+    Private Equity
+
+    Private Equity
+
+    Your go-to firm for middle-market private equity.
+
+    Learn more
+
+    Real Estate
+
+    Real Estate
+
+    Full-service legal advice from coast to coast.
+
+    Learn more
+
+    All Capabilities View All
+
+    -   Art
+    -   Artificial Intelligence
+    -   Automotive
+    -   Bankruptcy + Restructuring
+    -   Cannabis
+    -   Construction
+    -   Consumer Financial Services
+    -   Corporate
+    -   Data Centers
+    -   eDiscovery + Data Management
+    -   Educational Institutions
+    -   Employee Benefits + Executive Compensation
+    -   Energy
+    -   Entertainment
+    -   Environmental + Natural Resources
+    -   Environmental, Social + Governance (ESG)
+    -   Federal Trade Commission (FTC)
+    -   Finance + Banking
+    -   Financial Services
+    -   Food + Beverage
+    -   Government + Regulatory
+    -   Health Care + Life Sciences
+    -   Insurance + Reinsurance
+    -   Intellectual Property
+    -   International
+    -   Labor + Employment
+    -   Litigation + Trial
+    -   Lobbying + Public Affairs
+    -   Maritime, Shipping + Logistics
+    -   Marketing + Advertising
+    -   Multifamily Housing Finance
+    -   Nonprofit Organizations + Foundations
+    -   Privacy + Cyber
+    -   Private Equity
+    -   Private Wealth Management
+    -   Public Finance
+    -   Real Estate
+    -   Regulatory Investigations, Strategy + Enforcement
+    -   Retail
+    -   State Attorneys General
+    -   Tariff + Trade Task Force
+    -   Tax
+    -   Technology
+    -   Tobacco + Nicotine
+    -   White Collar Litigation + Investigations
+
+    Commitment + Innovation
+
+    Innovation
+
+    Applying radical applications of common sense
+
+    Explore More
+
+    plus
+
+    Our standard-setting client experience program.
+
+    Explore more
+
+    Pro Bono
+
+    Delivering life-changing help to those most in need.
+
+    Explore More
+
+    Alumni Network
+
+    Our firm’s greatest asset is our people.
+
+    Explore More
+
+    Emerge
+
+    Market-leading eDiscovery and data management services.
+
+    Explore more
+
+    The Pepper Center
+
+    The Pepper Center for Public Services
+
+    Explore more
+
+    Strategies
+
+    More than your voice in government. Your ally.
+
+    Strategies helps businesses and individuals solve the complexities of dealing with the government at every level. Our team of specialists concentrate exclusively on government affairs, representing clients nationwide who need assistance with public policy, advocacy, and government relations strategies.
+
+    View Strategies
+
+    Press Coverage
+
+    ‘Diversified’ Economy: How Law Firms Can Bank on Charlotte
+
+    SEED
+
+    Troutman Pepper Locke’s program for Startup and Early-Stage Entrepreneurial Development
+
+    This unique program provides innovative and affordable opportunities to startups and early-stage emerging companies with a solid technology or scientific foundation. We help companies that have a quality management team in place and do not have other significant legal representation.
+
+    Explore more
+
+    eMerge
+
+    Market leading eDiscovery and data management services.
+
+    eMerge’s lawyers and technologists work together to deliver strategic end-to-end eDiscovery and data management solutions for litigation, investigations, due diligence, and compliance matters. We help clients discover the information necessary to resolve disputes, respond to investigations, conduct due diligence, and comply with legal requirements.
+
+    Explore more
+-   What We Think
+    What We Think
+
+    Learn + Connect
+
+    Stay ahead of the curve and in touch with our latest thinking on the issues that are top of mind across our practices and industry sectors.
+
+    BLOG, Microsite + Podcast HUB
+
+    Change happens fast in today’s turbulent world. Stay on top of the latest with our industry-specific channels.
+
+    ACHIEVEMENTS
+
+    Take a closer look at how we partner with clients to help them realize their goals.
+-   Who We Are
+
+Mobile Navigation
+
+Speaking Engagements May 8, 2023
+
+Monetizing Opportunities in Energy Storage in a Post-IRA World
+
+Energy Law Insights
+
+Speakers
+
+John J. Leonti Vaughn H. Morrison
+
+-   Share on LinkedIn (opens in a new tab)
+-   Share on X (formerly Twitter) (opens in a new tab)
+-   Share by Email (opens in a new tab)
+
+The Inflation Reduction Act has ushered in a variety of new products, opportunities, and potential investors. Troutman Pepper Partners Vaughn Morrison and John Leonti discuss the opportunities and challenges that accompany an Investment Tax Credit for storage, including offtake strategies required to render standalone storage financeable by conventional tax equity investors and the pros and cons of pursuing the IRA’s new ITC transfer option in lieu of tax equity.
+
+Play
+
+[Vimeo]
+
+The energy sector is currently undergoing seismic change and with that change comes tremendous opportunity. Our energy video series, which features nationally recognized Troutman Pepper partners as they discuss a vast array of unique and complex challenges that face the energy industry.
+
+Transcript
+
+Title: Monetizing Opportunities in Energy Storage in a Post-IRA World
+Speakers: John Leonti and Vaughn Morrison
+
+Vaughn Morrison (00:07):
+So as the energy storage market has emerged in the US, we’ve seen a relatively greater emphasis on merchant revenues as compared to contracted offtake. Can you talk a little bit about why that’s been historically and how that’s evolving?
+
+John Leonti (00:21):
+Sure. You know, it’s funny. The renewables business is largely built on long-term contracted assets. So for solar and wind, for years we first started out with 20-year PPAs and then we got into this period where they got shorter and it was 15-year PPAs. And so lenders, financial institutions, banks, tax equity investors all started to have to get comfortable with less contracted revenue. And that story is continuing through those assets as well. We’ve done hedge deals where something less than 100% is hedged. They have lots of merchant exposure on the backend and frankly, even during the time that the tax equity or lender’s in the deal. And so this idea of merchant revenue has been around, but now we’re seeing on the battery side where day one, we just have full 100% merchant assets. And there’s a lot that goes into that.
+
+One, the battery is just not a generation tool, right? It can charge and discharge power. And so the sponsors want the flexibility to run those assets however they can optimize it. Whether it’s a sort of a capacity play in like a PJM, an RA play in Cal ISO, or just run it merchant in ERCOT so that you can have energy arbitrage as well as provide ancillary services. So the battery just has a lot more flexibility that sponsors are looking to really take on. And I would love to hear from you about just the different off-take arrangements that you’re seeing out there, in particular the tolling agreement.
+
+Vaughn Morrison (02:00):
+Well, the tolling agreement — so that’s kind of the most conventional off-take arrangement for energy storage. Under that structure, the off-taker has authority to charge and discharge the battery and run it as they see fit within certain operating parameters, in exchange for a monthly tolling payment, typically often with some adjusters based on project performance. And that is the most easily understandable, I think, form of contracted offtake for energy storage. From there, it gets more complex. You can add to that the resource adequacy contracts in Cal ISO, which provide for a routine, largely fixed payment. And then there’s all kinds of financially settled products. There’s hedges, there’s EBITDA guarantee products out there backed by insurers. So we’re seeing a lot of creativity emerge in that market.
+
+John Leonti (03:02):
+Are you seeing different sectors of the country focus on different agreements? So like tolling agreements in one state versus a hedge play in another state?
+
+Vaughn Morrison (03:13):
+Tolling agreements are primarily found in bilateral markets with utility off-takers. There are some true physically settled tolls in organized markets, but those are more the exception than the rule. Hedge products are more common in organized markets where there’s greater liquidity and more revenue streams to play with.
+
+John Leonti (03:34):
+It is interesting how there has certainly been financings of fully merchant battery projects, at least on the debt side. But now with the passage of the Inflation Reduction Act, batteries are now eligible for investment tax credits. And that leads to bringing in tax equity investors into the space who historically have required assets to be contracted in order for them to finance it. So it’s interesting with tolling agreements, hedges, and other new products that are coming out there, how prevalent will these products be in order for a third-party tax equity investor to come in? And then on top of that, with the transferability market that I think you and I fully expect to develop in the near term, how amenable will that be to battery operators so that they can actually continue to run these plants on a merchant basis?
+
+Vaughn Morrison (04:31):
+I think the answer to that is yes and yes. As tax equity comes into the market, there will be a greater emphasis on contracted revenues. Those investors just have a different risk profile for merchant revenues than debt lenders. So for projects where tax equity makes sense as your form of ITC monetization, which will be a lot of projects, I think you’ll still see an expectation for more contracted revenues and those products will become more popular as a result. For projects where contracting that offtake would have a major negative impact on the revenue profile, I think that’ll push some developers towards a monetization strategy that involves ITC transfer and allows them to rely on a little bit greater risk appetite from the debt markets as compared to tax equity.
+
+John Leonti (05:29):
+It really is an interesting balancing act that sponsors are gonna have to play with storage assets. Yes, they are eligible for the ITC, but do I do a transfer credit deal or do I do an investment tax credit deal with a traditional third party tax equity investor? On the one hand, if I do a traditional third party tax equity deal, I can monetize depreciation plus the tax benefits and get a basis step up. If I do a transfer deal, potentially I can step up the basis, but I’m probably leaving the depreciation on the table and it’s like a monetize it myself. And then you take, well, if I enter into an off-take contract, whether it’s a toll or a hedge or otherwise, what is that doing to my economics? So there’s gonna be a lot to unpack there for sponsors.
+
+Vaughn Morrison (06:16):
+It’s a lot, and the basis step up is a big deal. We’ve spent a lot of time with sponsor clients trying to help them develop strategies to step up the ITC basis without the benefit of a tax equity investor. And there are good strategies for it, but it’s not perfect. It’s not easy. And as you said, that still leaves the depreciation on the table.
+
+Well, thanks for joining me for the conversation today, John. Really interesting as always.
+
+John Leonti (06:39):
+Vaughn, it’s great sitting down with you today. As always, thank you.
+
+Vaughn Morrison (06:42):
+Likewise, John. Thanks a lot.
+
+Copyright, Troutman Pepper Locke LLP. These recorded materials are designed for educational purposes only. This video is not legal advice and does not create an attorney-client relationship. The views and opinions expressed in this podcast are solely those of the individual participants. Troutman does not make any representations or warranties, express or implied, regarding the contents of this podcast. Information on previous case results does not guarantee a similar future result. Users of this video may save and use the video only for personal or other non-commercial, educational purposes. No other use, including, without limitation, reproduction, retransmission or editing of this video may be made without the prior written permission of Troutman Pepper Locke. If you have any questions, please contact us at troutman.com.
+
+DISCLAIMER: This transcript was generated using artificial intelligence technology and may contain inaccuracies or errors. The transcript is provided “as is,” with no warranty as to the accuracy or reliability. Please listen to the video for complete and accurate content. You may contact us to ask questions or to provide feedback if you believe that something is inaccurately transcribed.
+
+Insight Industries + Practices
+
+-   Energy
+-   Energy Storage
+-   Energy Tax
+-   Inflation Reduction Act of 2022 – Energy Industry Implications
+-   Renewable Energy
+
+This just in
+
+See all insights
+
+Speaking Engagements
+
+Preparing for California Privacy Enforcement: CCPA Audits, CIPA Litigation Trends, and SB 690 Developments
+
+December 17, 2026  |  1:00 PM – 2:30 PM ET
+Virtual
+
+Firm Events
+
+District Court vs. PTAB: Strategic Forum Selection in Life Sciences Patent Disputes
+
+December 10, 2026  |  12:00 PM – 1:00 PM ET
+
+Speaking Engagements
+
+Performance on Trial: The Construction Manager’s Standard of Care Examined from All Angles
+
+December 2, 2026  |  4:15 PM – 5:30 PM ET
+The Hyatt Regency Huntington Beach
+Huntington Beach, CA
+
+Speaking Engagements
+
+ACI’s 31st Annual Conference on Drug & Medical Device Litigation – 2026
+
+December 2 – 3, 2026
+New York Marriott Marquis
+1535 Broadway, New York, NY 10036
+
+See all insights
+
+Stay up to date with our latest thinking.
+
+Subscribe
+
+Discover how we can help you
+
+Energy
+
+Energy
+
+Leading the energy evolution.
+
+Learn more
+
+Financial Services
+
+Financial Services
+
+Staying ahead of financial services change.
+
+Learn more
+
+Health Care + Life Sciences
+
+Health Care + Life Sciences
+
+Helping you focus on what matters – improving human health.
+
+Learn more
+
+Insurance + Reinsurance
+
+Insurance + Reinsurance
+
+100+ years advising insurers and reinsurers. Troutman Pepper Locke delivers regulatory, transactional, litigation, insurtech, and cyber insurance counsel nationwide.
+
+Learn more
+
+Private Equity
+
+Private Equity
+
+Your go-to firm for middle-market private equity.
+
+Learn more
+
+Real Estate
+
+Real Estate
+
+Full-service legal advice from coast to coast.
+
+Learn more
+
+©2026 Troutman Pepper Locke
+
+-   Legal Notices
+-   Global Privacy Notice
+-   Notice at Collection
+-   Your Privacy Choices
+-   Fraud Alert
+-   Contact Us
+
+-   LinkedIn
+-   Twitter
+-   Instagram
+-   YouTube
+
+[Logo Troutman Pepper Locke]
+
+Search
+
+-   Our People
+-   What We Do
+    Smarter in your world deeper in your sector
+
+    Energy
+
+    Energy
+
+    Leading the energy evolution.
+
+    Learn more
+
+    Financial Services
+
+    Financial Services
+
+    Staying ahead of financial services change.
+
+    Learn more
+
+    Health Care + Life Sciences
+
+    Health Care + Life Sciences
+
+    Helping you focus on what matters – improving human health.
+
+    Learn more
+
+    Insurance + Reinsurance
+
+    Insurance + Reinsurance
+
+    100+ years advising insurers and reinsurers. Troutman Pepper Locke delivers regulatory, transactional, litigation, insurtech, and cyber insurance counsel nationwide.
+
+    Learn more
+
+    Private Equity
+
+    Private Equity
+
+    Your go-to firm for middle-market private equity.
+
+    Learn more
+
+    Real Estate
+
+    Real Estate
+
+    Full-service legal advice from coast to coast.
+
+    Learn more
+
+    -   All Capabilities
+        -   View All
+        -   Art
+        -   Artificial Intelligence
+        -   Automotive
+        -   Bankruptcy + Restructuring
+        -   Cannabis
+        -   Construction
+        -   Consumer Financial Services
+        -   Corporate
+        -   Data Centers
+        -   eDiscovery + Data Management
+        -   Educational Institutions
+        -   Employee Benefits + Executive Compensation
+        -   Energy
+        -   Entertainment
+        -   Environmental + Natural Resources
+        -   Environmental, Social + Governance (ESG)
+        -   Federal Trade Commission (FTC)
+        -   Finance + Banking
+        -   Financial Services
+        -   Food + Beverage
+        -   Government + Regulatory
+        -   Health Care + Life Sciences
+        -   Insurance + Reinsurance
+        -   Intellectual Property
+        -   International
+        -   Labor + Employment
+        -   Litigation + Trial
+        -   Lobbying + Public Affairs
+        -   Maritime, Shipping + Logistics
+        -   Marketing + Advertising
+        -   Multifamily Housing Finance
+        -   Nonprofit Organizations + Foundations
+        -   Privacy + Cyber
+        -   Private Equity
+        -   Private Wealth Management
+        -   Public Finance
+        -   Real Estate
+        -   Regulatory Investigations, Strategy + Enforcement
+        -   Retail
+        -   State Attorneys General
+        -   Tariff + Trade Task Force
+        -   Tax
+        -   Technology
+        -   Tobacco + Nicotine
+        -   White Collar Litigation + Investigations
+    -   Commitment + Innovation
+
+        Innovation
+
+        Applying radical applications of common sense
+
+        Explore More
+
+        plus
+
+        Our standard-setting client experience program.
+
+        Explore more
+
+        Pro Bono
+
+        Delivering life-changing help to those most in need.
+
+        Explore More
+
+        Alumni Network
+
+        Our firm’s greatest asset is our people.
+
+        Explore More
+
+        Emerge
+
+        Market-leading eDiscovery and data management services.
+
+        Explore more
+
+        The Pepper Center
+
+        The Pepper Center for Public Services
+
+        Explore more
+    -   Strategies
+        More than your voice in government. Your ally.
+
+        Strategies helps businesses and individuals solve the complexities of dealing with the government at every level. Our team of specialists concentrate exclusively on government affairs, representing clients nationwide who need assistance with public policy, advocacy, and government relations strategies.
+
+        View Strategies
+
+        Press Coverage
+
+        ‘Diversified’ Economy: How Law Firms Can Bank on Charlotte
+    -   SEED
+        Troutman Pepper Locke’s program for Startup and Early-Stage Entrepreneurial Development
+
+        This unique program provides innovative and affordable opportunities to startups and early-stage emerging companies with a solid technology or scientific foundation. We help companies that have a quality management team in place and do not have other significant legal representation.
+
+        Explore more
+    -   eMerge
+        Market leading eDiscovery and data management services.
+
+        eMerge’s lawyers and technologists work together to deliver strategic end-to-end eDiscovery and data management solutions for litigation, investigations, due diligence, and compliance matters. We help clients discover the information necessary to resolve disputes, respond to investigations, conduct due diligence, and comply with legal requirements.
+
+        Explore more
+-   What We Think
+    What We Think
+
+    Learn + Connect
+
+    Stay ahead of the curve and in touch with our latest thinking on the issues that are top of mind across our practices and industry sectors.
+
+    BLOG, Microsite + Podcast HUB
+
+    Change happens fast in today’s turbulent world. Stay on top of the latest with our industry-specific channels.
+
+    ACHIEVEMENTS
+
+    Take a closer look at how we partner with clients to help them realize their goals.
+-   Who We Are
+
+-   Join Our Team
+-   Achievements
+-   Locations

@@ -1,0 +1,1532 @@
+Reducing Risk in Merchant
+Wind and Solar Projects
+through Financial Hedges
+Jay Bartlett
+
+Working Paper 19-06
+February 2019
+
+About the Authors
+Jay Bartlett is a Senior Research Associate at Resources for the Future, where he
+works on financial, economic, and policy analysis for the Future of Power Initiative. His
+current focus is clean energy project finance.
+
+Acknowledgements
+I am especially appreciative of Karen Palmer, who provided guidance and input
+throughout this project, as well as for suggestions from Heidi Bishop, Kathryne
+Cleary and Karl Hausker. After the WRI/RFF Workshop, “Market Design for the Clean
+Energy Transition: The Role of New Generator Finance” in November 2018, I received
+helpful comments from participants David Feldman, Eric Gimon, Craig Gordon and
+Rob Gramlich.
+
+Resources for the Future
+
+i
+
+About RFF
+Resources for the Future (RFF) is an independent, nonprofit research institution in
+Washington, DC. Its mission is to improve environmental, energy, and natural resource
+decisions through impartial economic research and policy engagement. RFF is
+committed to being the most widely trusted source of research insights and policy
+solutions leading to a healthy environment and a thriving economy.
+Working papers are research materials circulated by their authors for purposes of
+information and discussion. They have not necessarily undergone formal peer review.
+The views expressed here are those of the individual authors and may differ from
+those of other RFF experts, its officers, or its directors.
+
+Sharing Our Work
+Our work is available for sharing and adaptation under an Attribution 4.0 International
+(CC BY 4.0) license. You can copy and redistribute our material in any medium or
+format and remix, transform, and build upon the material for any purpose, even
+commercially. You must give appropriate credit, provide a link to the license, and
+indicate if changes were made. You may do so in any reasonable manner, but not in
+any way that suggests the licensor endorses you or your use. For more information,
+visit https://creativecommons.org/licenses/by/4.0/.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+ii
+
+Abstract
+US wind energy projects have increasingly opted to sell directly into wholesale
+electricity markets rather than under long-term power purchase agreements (PPAs).
+Although PPAs offer low risk to projects’ revenue, a limited pool of potential
+customers and strong competition among project developers have depressed prices.
+Selling into wholesale markets may increase returns, but such “merchant” projects
+generally need financial hedges so that future revenues will predictably cover
+financing costs. In this paper, I provide an overview of the five general designs for
+hedging risk in merchant wind projects, with a focus on the specific risks that are, and
+are not, hedged under each design. From project data, I find that merchant wind has
+both increased, accounting for almost half of new capacity in 2017 and 2018, and
+diversified, with at least three hedging designs used in each of the past three years. I
+then assess the more restrained growth of merchant solar energy and propose that
+differences in costs, subsidies, project sizes, and generation profiles may explain the
+disparities between merchant wind and merchant solar. Evaluating the revenue risks
+to wind and solar projects yields insights to future financing challenges, including the
+near-term declines in federal subsidies and, more significantly, the long-term erosion
+in prices due to increasing penetrations of wind and solar.
+
+Resources for the Future
+
+iii
+
+Contents
+1. Introduction
+
+1
+
+2. Physical Power Purchase Agreement
+
+4
+
+3. Merchant Wind
+
+6
+
+3.1. Electricity-Based Wind Hedges
+
+6
+
+Bank Hedge (a.k.a. Fixed-Volume Price Swap)
+
+6
+
+Synthetic PPA (a.k.a. Corporate PPA or Virtual PPA)
+
+8
+
+Electricity Forward Contract
+
+9
+
+3.2. Electricity and Weather-Based Wind Hedge
+Proxy Revenue Swap
+
+10
+10
+
+3.3. Natural Gas-Based Wind Hedge
+
+11
+
+Natural Gas Forward Contract
+
+11
+
+3.4. Summary of Wind Hedging Structures
+
+12
+
+3.5. Wind Hedging Structures: Risks to Counterparties
+
+16
+
+4. Merchant Solar
+
+18
+
+5. Comparison of Wind and Solar
+
+19
+
+6. Conclusions
+
+21
+
+References
+
+24
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+iv
+
+1. Introduction
+To achieve the emissions reductions limiting the atmospheric concentration of carbon
+dioxide (CO2) to 450 parts per million, the International Energy Agency (IEA) estimates
+that global investment in renewables, other low-CO2 technologies, electricity networks,
+and energy efficiency must average $2.3 trillion annually, three times current annual
+investment (Reicher et al. 2017). Such an investment would constitute a large proportion
+of global inflows of investible capital. An even more challenging problem is that only a
+very small percentage of capital is available for high-risk assets,1 and many zero-carbon
+energy investments (e.g., nuclear power plants) are subject to significant technology
+and market risks. Over the past decade, wind and solar energy has reached
+technological maturity and has often experienced the policy stability that together have
+enabled such installations to obtain lower-risk financing. Additionally, the reduced costs
+and risks of wind and solar have allowed financial hedges to emerge, expanding projects’
+opportunities beyond traditional contracted arrangements to direct participation in
+wholesale electricity markets. The combination of a large pool of lower-cost capital and
+broad market prospects has positioned wind and solar, alone among clean energy
+sources, to provide an outsized contribution to a low-carbon future.
+In selecting the contracted or hedged project structure that will maximize their return
+with acceptable risk, developers of wind and solar projects assess three main areas of
+revenues and costs. First is the expected energy revenue, as well as the risk, under the
+various contracting and hedging options discussed in this paper. The second area is
+project value other than that from energy revenue. Projects operating in certain
+wholesale markets may receive revenue for providing capacity to the market.2 In
+addition, state and federal policy incentives provide project value. Wind and solar
+plants generate renewable energy certificates (RECs) that recognize the
+environmental attributes of the electricity. Projects receive revenue from selling RECs,
+whether in compliance markets used to meet state renewables’ obligations or in
+voluntary markets. The federal production tax credit (PTC) for wind and the
+investment tax credit (ITC) for solar, as well as accelerated depreciation, provide
+valuable tax credits and deductions. The greater amount of value and the lower the
+risk from non-energy revenue, the less critical is energy revenue to project viability.
+
+1
+
+For example, only 1 percent (or $89 billion) of the $7.3 trillion US bond market is for new highyield investments.
+2
+The amount of credit that wind and solar projects receive in capacity auctions, given their
+intermittent nature, is a key consideration to the importance of capacity revenues to overall
+wind and solar project values.
+
+Resources for the Future
+
+1
+
+The third area to determine project structure is the cost of financing. The project
+developer generally contributes a minority of the capital, so it needs to provide a
+market rate of return to the other capital providers. In a wind or solar project, capital
+comes in three forms: debt, tax equity, and sponsor equity.3 Debt is the cheapest form
+of financing, but in return, lenders require that there be very little risk to interest and
+principal payments. The next cheapest source, tax equity, is a type of equity where
+returns come from such tax benefits as the ITC or PTC, depreciation and interest
+deductions, as well as from cash due to electricity and REC sales. Finally, sponsor
+equity (a.k.a. cash equity) ranks highest in risk and return, with its value from
+electricity and REC sales after the lender and tax equity investor have achieved their
+returns.4 The cost and availability of these forms of capital will depend on the level
+and risk of energy and non-energy revenue.
+For wind and solar projects not owned by utilities or the final electricity customer,
+project developers must decide to whom they will sell their electricity. Either they can
+sell electricity under a long-term contract known as a power purchase agreement
+(PPA), or they can sell into wholesale markets. Projects selling into wholesale
+markets—often referred to as “merchant” generators5—face the uncertainty of
+wholesale electricity prices over a 20- to 30-year project life. To secure financing from
+debt and tax equity investors, who have low tolerances for risk, projects generally
+seek a hedge against energy price fluctuations. These hedges may take one of several
+forms, each of which has particular risk characteristics. Note that the distinction
+between contracted (PPA) and merchant structures refers only to the physical sale of
+electricity, whether sold directly to a utility or customer (jointly referred to as an
+electricity “offtaker”) or, instead, sold into the wholesale market. Depending on the
+hedge, a merchant structure may be financially similar or even less risky than a
+contracted one. The choice of contracted versus merchant sales and, if merchant, of
+the type and extent of the hedge will depend on numerous factors, including
+wholesale electricity prices, PPA and hedge fixed (“strike”) prices, non-energy revenue
+
+3
+
+For an example of solar project finance structures and required costs of capital, see Feldman
+and Schwabe (2017).
+4
+The project developer is not the only entity that may contribute sponsor equity;
+infrastructure funds, for example, are common providers of sponsor equity.
+5
+Electricity projects may be owned and operated under several arrangements, the most
+common of which are (i) utility-owned with electricity sold to customers, (ii) customer-owned,
+(iii) owned by a third party with electricity sold to either a utility or customer under a long-term
+contract (PPA), and (iv) owned by a third party with electricity sold in the wholesale market. It
+is this last “merchant” arrangement (iv) that we focus on here.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+2
+
+(such as capacity payments, REC sales, and tax incentives), and financing costs.6 As
+these factors change, so too will the relative attractiveness of merchant hedging and
+contracted options.
+The layout of this paper is as follows. Section 2 provides a review of physical PPAs,
+which historically have been the predominant method of structuring wind and utilityscale solar projects. Furthermore, physical PPAs are a basis of comparison for
+merchant structures and their resultant risk profiles. In Section 3, I discuss the five
+general hedging designs for merchant wind projects, with particular attention to the
+risks that projects are, and are not, exposed to under each design. Section 3 concludes
+with a risk-based comparison of the structures, first from the perspective of the
+project and then from the perspective of the counterparty. Section 4 reviews the
+limited progress to date on installing solar under merchant arrangements, and Section
+5 offers possible explanations for the differences in financing merchant wind versus
+merchant solar. In Section 6, I conclude with thoughts on how merchant wind and solar
+might evolve and be challenged, given the significant changes in policies and
+electricity markets that are under way.
+
+6
+
+Financing costs will have both independent and dependent determinants (e.g., interest rates
+and project risks).
+
+Resources for the Future
+
+3
+
+2. Physical Power Purchase Agreement
+A physical PPA (sometimes referred to as a traditional PPA) for wind projects
+was developed in the early 2000s from similar contracts between utilities and fossilfuel power projects owned by independent power producers (Davies et al. 2018).
+Although ownership and contracting options have broadened in recent years, physical
+PPAs remain the most common structure for wind and solar projects (Caplan 2018). A
+physical PPA may be with a utility or the end user of electricity, such as a large
+commercial customer, but in either case the electricity generated by the project is
+delivered to the offtaker (the purchaser of electricity). Figure 1 illustrates a physical
+PPA with a utility offtaker in a region with deregulated wholesale power markets. In
+contrast to the merchant structures shown later, the utility offtaker, rather than the
+project itself, interacts with the wholesale markets under a physical PPA.
+
+Figure 1. Energy and financial flows for project with physical
+PPA
+
+Wholesale
+Market
+
+Floating price per MWh
+at Node for energy
+generated
+Energy generated
+
+Utility
+Offtaker
+
+Fixed price per MWh at
+Node for energy
+generated
+Energy generated
+
+Wind or
+Solar
+Project
+
+Note: In this hypothetical physical PPA, the utility is operating within the area of a regional
+transmission organization (RTO) or an independent system operator (ISO), which manage
+wholesale electricity markets.
+
+The typical structure of a physical PPA has several features that minimize project risk.
+First, the project receives a fixed payment for each MWh it generates, the price of
+which is specified in the contract.7 Historically, utility offtakers have purchased energy
+from the project at its point of interconnection to the grid (the node), with the utility
+bearing responsibility for the transmission of electricity (Goggin et al. 2018).
+Additionally, most physical PPAs for wind have had durations of 15 to 25 years (Wiser
+and Bolinger 2018), roughly the expected life of wind projects.8 Lastly, if the offtaker is
+7
+
+If a project combines wind or solar with energy storage, a variation on a physical PPA, known
+as a tolling agreement, is also feasible. A tolling agreement, common in fossil-fuel power
+projects, allows the offtaker to decide when the project will dispatch electricity. For more
+information on tolling agreements for solar-plus-storage projects, see Sinaiko (2018).
+8
+In its assumptions for levelized costs of energy, Lazard assumes a 20-year facility life for wind
+projects (Lazard 2017).
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+4
+
+a utility that serves a retail load, there is a relatively low risk of default on the contract
+(known as counterparty risk). However, the low risk profile of physical PPAs and
+limited pool of potential offtakers—90% of physical PPA offtakers for wind have been
+utilities or utility cooperatives (Vavrik 2017)—have led to strong competition among
+projects and low PPA prices. As a result, wind projects have expanded beyond
+physical PPAs to various merchant structures in order to obtain higher revenues.
+
+Resources for the Future
+
+5
+
+3. Merchant Wind
+This section describes the five general hedging structures that could be used by
+merchant wind projects to mitigate risk, categorized by the risk that is hedged.9 The
+first three structures—bank hedge, synthetic PPA, and electricity forward contract—
+are swap contracts that trade actual (or floating) wholesale electricity prices for a
+predetermined fixed price.10 In each case, the wind project pays a premium for the
+counterparty to bear the risk of electricity price volatility. The counterparty expects to
+profit given that the strike (fixed) price it pays to the wind project is less than the
+expected (forecast average) floating price. In exchange, the wind project receives a
+fixed price that will allow it to secure lower-cost financing than would be possible if
+electricity prices were unhedged. The next structure, proxy revenue swap, hedges
+against both electricity price and weather (wind speed) risks. The final structure,
+natural gas forward contract, exploits the correlation between electricity and natural
+gas prices to use natural gas forwards to hedge against electricity price risk.
+The counterparties in these merchant structures are not load-serving utilities, and
+they will likely have higher counterparty credit risks, which would need to be mitigated
+through guarantees, letters of credit, or some other mechanism. The structures are
+discussed here in their general forms; as merchant projects have become more
+prevalent, structures have increased in complexity and customization.
+
+3.1. Electricity-Based Wind Hedges
+Bank Hedge (a.k.a. Fixed-Volume Price Swap)
+A bank hedge is the most tested hedge structure and is particularly common in
+ERCOT.11 The counterparty is a financial institution, often the same institution that
+provides tax equity to the project. The term of the hedge runs 12 to 13 years, which
+aligns with the term required by wind tax equity investors.12 Figure 2 shows the
+9
+
+The risks discussed are limited to electricity price, generation, curtailment, and congestion
+risks, which are affected by the choice of PPA or hedging structure. Other risks exist for wind
+and solar projects, such as permitting and regulatory risks, which are less dependent on
+project structure.
+10
+A swap contract is the general name for a financial derivative in which two parties exchange
+cash flows from different financial instruments.
+11
+The Electric Reliability Council of Texas (ERCOT) manages the wholesale market for most of
+Texas.
+12
+The PTC is a tax credit for the first 10 years of electricity generation. The wind tax equity
+investor may not achieve its required return after 10 years, so 2 to 3 more years of electricity
+and REC sales may provide the necessary supplement. If the hedge lasts for 12 or 13 years, the
+electricity price will have greater stability over the entire tax equity investment period.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+6
+
+structure of a bank hedge, which may be either financial (as shown) or physical (where
+the project purchases fixed volumes of electricity in the wholesale market to sell to
+the counterparty), but the hedging effects are equivalent.
+
+Figure 2. Energy and financial flows for project with bank
+hedge (financial)
+
+Wholesale
+Market
+
+Floating price per MWh
+at Node for actual
+energy generated
+Energy generated
+
+Wind
+Project
+
+Floating price per MWh
+at Hub for fixed energy
+amount
+Fixed price per MWh for
+fixed energy amount
+
+Hedging
+Counterparty
+
+Bank hedges remove some of the project’s risks of wholesale price fluctuations, but
+several areas of risk remain. The project receives the electricity price at the node,
+where the power plant connects to the grid, but the counterparty usually requires that
+the contract settle at a larger trading hub, which often has a different price.13 This
+difference, known as basis risk, is the result of transmission congestion that constrains
+prices from equalizing across the grid. Although the project could potentially hedge
+basis risk by purchasing transmission rights, it is difficult to predict the amount of
+transmission rights that would be needed, and transmission rights have a typical term
+of only one or two years (Goggin et al. 2018). As a result, transmission rights (or similar
+insurance products) have not supported wind project financing (Eberhardt and
+Brozynski 2017).
+In a bank hedge, the prices (floating and fixed) and fixed volume are contracted hourly
+at the hub. The fixed-volume feature requires that the project balance the risk of
+generating insufficient electricity (volume risk) against the risk of significant
+unhedged generation (price risk). The hourly nature of the contract creates the
+additional risk of mismatch in the timing of wind generation versus contracted hourly
+power sales (shape risk). To limit the extent of volume and shape risks, fixed hourly
+volume is typically determined by the project’s hourly generation in a “P99” scenario
+(Eberhardt and Brozynski 2017), the amount forecasted to be exceeded 99 percent of
+the time. Separately, there is the risk of wind curtailment, the result of insufficient
+transmission capacity and/or inflexible generation on the grid. To cover temporary
+
+13
+
+A node is the point of interconnection to the electricity grid. Trading activity in electricity
+markets takes place at a hub, which covers a larger area and thus provides greater liquidity.
+Hub prices reflect average nodal prices in the region.
+
+Resources for the Future
+
+7
+
+shortfalls from these risks, the financial institution counterparty may provide the
+project a “tracking account,” a loan that is repaid when project revenue exceeds
+contract requirements.
+
+Synthetic PPA (a.k.a. Corporate PPA or Virtual PPA)
+A synthetic PPA replicates much of the structure of a traditional PPA without the
+physical transfer of electricity to the counterparty, a nonutility corporation (hence
+corporate PPA). The corporation is often interested in the transaction as a hedge
+against electricity price fluctuations as well as for its environmental attributes. The
+corporate counterparty is generally more interested in voluntary renewable energy
+certificates (RECs) and corporate renewable energy goals than in compliance RECs.
+Compliance RECs, if relevant, may be sold separately to load-serving entities that
+typically need them to comply with state renewable portfolio standards (RPSs).
+
+Figure 3. Energy and financial flows for project with synthetic
+PPA
+
+Wholesale
+Market
+
+Floating price per MWh
+at Node for actual
+energy generated
+Energy generated
+
+Wind
+Project
+
+Floating price per MWh
+at Hub or Node for % of
+energy generated
+Fixed price per MWh for
+% of energy generated
+
+Corporate
+Counterparty
+
+Figure 3 shows the basic design of a synthetic PPA, which resembles that of a bank
+hedge, with some important differences.14 Synthetic PPAs have greater flexibility in
+settlement location than do bank hedges, and basis risk for the project will not exist if
+the contract settles at the node instead of the hub.15 In addition, the quantity of
+electricity in a synthetic PPA is a percentage of the actual electricity generation,
+removing the project’s volume, shape, and curtailment risks that exist in bank hedges.
+If the contract percentage is less than 100 percent, there will be price risk for the
+remaining electricity generated. If the synthetic PPA is for 100 percent of the electricity
+
+14
+
+Synthetic PPAs are often structured as contracts for differences (CfDs) (Marks and Rasel
+2014). Rather than have the project pay the floating price and the counterparty pay the fixed
+price (as shown), only the price difference is paid in CfDs.
+15
+A majority of wind synthetic PPAs settle at the hub (Davies et al. 2018), leaving the project
+with basis risk.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+8
+
+generated and the contract settles at the node, a synthetic PPA would replicate the
+financial characteristics of a traditional PPA, albeit for a generally shorter duration (12 to
+13 years for a synthetic PPA versus 15 to 25 years for a traditional PPA).
+
+Electricity Forward Contract
+Projects could also participate in electricity forward markets (e.g., in ERCOT), which
+would involve trading contracts to secure more stable pricing for their electricity
+generation.16 Figure 4 shows a project with electricity forward contracts, which swap
+floating electricity prices for a fixed price. Although the general structure is the same
+as that of a bank hedge, electricity forward contracts are done on a monthly rather
+than an hourly basis (although there are separate monthly prices for peak and offpeak) and there are additional complexities that the wind project developer would
+need to assess. For example, the developer would need to estimate expected peak and
+off-peak generation, the correlation between its generation and spot prices, as well as
+its capacity factor during scarcity hours, to sell the correct number of forward
+contracts (Aydin et al. 2017).17
+
+Figure 4. Energy and financial flows for project with electricity
+forward contract
+
+Wholesale
+Market
+
+Floating price per MWh
+at Node for actual
+energy generated
+Energy generated
+
+Wind
+Project
+
+Floating price per MWh
+at Hub for fixed energy
+amount
+Fixed price per MWh for
+fixed energy amount
+
+Electricity
+Forward
+Market
+
+Another major difference with bank hedges is that the counterparty could be any
+participant in the electricity forward markets. Because the market has numerous
+participants, these contracts may be more competitively priced than bank hedges,
+which are offered by a comparatively small group of financial institutions. However,
+electricity forward contracts are traded liquidly for only one to two years into the
+future (Aydin et al. 2017). Low-cost project financing, in the form of tax equity and
+16
+
+Trading of monthly futures contracts occurs on various exchanges for electricity at hubs in
+the wholesale markets (ERCOT, PJM, MISO, SPP, CAISO, NYISO, and ISO-NE). Although we
+discuss forward contracts, which are negotiable and traded over the counter, futures contracts
+are similar in design but have standardized terms and are traded on an exchange.
+17
+For example, a 100 MW wind project with an estimated capacity factor of 40 percent and
+wind generation-forward price correlation of –25 percent during on-peak hours would sell 100
+MW * 40% * (100% – 25%) = 30 MW of electricity forward contracts per on-peak hour. As the
+party receiving the fixed price, the wind project is considered the seller of this contract.
+
+Resources for the Future
+
+9
+
+particularly in the form of debt, may be very difficult or impossible to obtain with
+electricity prices unhedged beyond a couple of years. Projects without long-term
+hedges may use these contracts, but such projects are rare.
+
+3.2. Electricity and Weather-Based Wind Hedge
+Proxy Revenue Swap
+Introduced in 2016, proxy revenue swaps are a method of hedging both price and
+generation (wind speed) risks to wind projects. One counterparty in the transaction
+(there may be multiple counterparties)18 is a weather risk investor—typically an
+insurance company—seeking risk that is uncorrelated with its other investments.
+Figure 5 illustrates the basic design, in which the counterparties provide the project
+with a fixed annual payment and receive a fixed percentage of annual “proxy revenue.”
+Proxy revenue is based on actual hub prices, actual wind speeds, and agreed-upon
+inefficiencies, such as availability, performance, and electrical losses (Eberhardt and
+Brozynski 2017).
+
+Figure 5. Energy and financial flows for project with proxy
+revenue swap
+
+Wholesale
+Market
+
+Floating price per MWh
+at Node for actual
+energy generated
+Energy generated
+
+Wind
+Project
+
+Fixed % of “Proxy
+Revenue,” based on
+actual hub prices and
+measured wind speeds
+Fixed Annual Sum
+
+Risk
+Investor
+
+Since proxy revenue swaps settle at liquid trading hubs, they expose wind projects to
+basis risk. Additionally, although a proxy revenue swap insures against wind speed risk, it
+results in greater project exposure to operational risks compared with a physical or
+synthetic PPA, since the contract is based on proxy generation rather than actual
+generation. Operational risks include equipment performance, non-availability (e.g.,
+maintenance downtime), and curtailment risks. To date, proxy revenue swaps have been
+limited to 10 years, which is somewhat short for wind tax equity investors, who prefer a
+secure cushion beyond the 10-year PTC. Nonetheless, wind projects using proxy revenue
+swaps have secured both tax equity and debt financing (Eberhardt and Brozynski 2017).
+
+18
+
+In a proxy revenue swap, one counterparty (the insurance company) may seek the wind
+speed risk while another counterparty may seek to hedge the price risk of an electricity
+liability.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+10
+
+3.3. Natural Gas-Based Wind Hedge
+Natural Gas Forward Contract
+Unlike electricity forward markets, natural gas contracts at Henry Hub are traded out
+for 10 to 12 years, so natural gas hedges have the potential to combine competitive
+market pricing with a hedge of sufficient duration for project financiers. Similar to
+electricity forwards, natural gas forward contracts are on monthly basis, but without
+electricity’s peak/off-peak distinction. To hedge against electricity price risk, the wind
+developer would sell a certain number of natural gas forward contracts based on the
+amount of electricity generation it wishes to hedge as well as the expected market
+heat rate (the ratio of electricity to natural gas prices).19, 20
+
+Figure 6. Energy and financial flows for project with natural gas
+forward contract
+
+Wholesale
+Electricity
+Market
+
+Floating price per MWh
+at Node for actual
+energy generated
+Electricity generated
+
+Wind
+Project
+
+Spot natural gas price
+scaled by expected heat
+rate (MMBtu/MWh)
+Fixed price per MMBtu
+for fixed volume
+
+Natural Gas
+Forward
+Market
+
+The structure shown in Figure 6 illustrates how the wind project is long (has positive
+exposure to) electricity prices and short (has negative exposure to) natural gas prices.
+This hedging design thus requires a very strong correlation between natural gas and
+electricity prices and for that correlation to hold for the duration of the contract.
+Although historically, natural gas and electricity prices have been highly correlated
+(see Aydin et al. 2017 for a comparison of ERCOT and Henry Hub prices), the risk of
+electricity and gas prices’ decoupling in the future presents a threat to this structure.21
+In addition to electricity basis risk caused by transmission congestion, a natural gas–
+
+19
+
+The expected market heat rate allows the conversion of a natural gas price, in $/MMBtu, to
+an electricity price, in $/MWh. $/MMBtu * ($/MWh) / ($/MMBtu) = $/MWh.
+20
+From our example in electricity forward contracts, a 100 MW wind project would sell 30 MW
+of on-peak hour electricity forward contracts. If the expected on-peak electricity price were
+$60/MWh and natural gas forwards were $3/MMBtu, the implied on-peak heat rate would be
+20 MMBtu/MWh, and the wind project would sell 30 * 20 = 600MMBtu/on-peak hour of natural
+gas forward contracts. The wind project would repeat this calculation for off-peak hours to
+determine the total number of natural gas forward contracts to sell for each month.
+21
+For example, with enough wind and solar capacity, wholesale electricity prices would fall to
+zero or below when solar and wind generation exceeds load. However, the spot gas price would
+still be positive, resulting in a loss for wind projects using natural gas forward contracts.
+
+Resources for the Future
+
+11
+
+based hedge introduces gas basis risk, the difference between the price of gas at the
+trading hub (e.g., Henry Hub) and the price of gas for natural gas power plants at the
+wind project’s node, which could also be substantial in pipeline-constrained locations
+like the Northeast (Aydin et al. 2017).22
+
+3.4. Summary of Wind Hedging Structures
+Table 1 summarizes the risks of wind projects using each of the hedging structures
+discussed as well as of a wind project with a physical PPA for comparison. The proxy
+revenue swap stands out as the only option that hedges against weather risk. The
+next three structures (the physical and synthetic PPA options) share similar profiles,
+with risk increasing going down the column, first because of a shorter time period and
+second because of the addition of basis risk. A bank hedge and an electricity forward
+contract are broadly similar in structure but divergent in contract duration. Finally,
+natural gas forwards and unhedged merchant arrangements are unique in their risk
+profiles.
+
+Table 1. Risk exposure of hedging structures and physical PPA
+Risk Category
+Offtaker or Hedging
+Structure
+
+Quantity Risks
+Weather
+(Wind
+Speeds)
+
+Operational Contracted
+and
+Volume /
+Curtailment
+Shape
+
+Electricity Price Risks
+Electricity Hub
+Price
+
+Node-vsHub (Basis)
+
+Gas Price Risks
+Electricity- Node-vsGas Price
+Gas Hub
+Correlation (Gas Basis)
+
+Proxy Revenue Swap
+
+Typical
+Duration
+(Years)
+
+10
+
+Physical PPA
+
+15 - 25
+
+Synthetic PPA (Node)
+Synthetic PPA (Hub)
+Bank Hedge
+Natural Gas Forwards
+Electricity Forwards
+
+Up to 12-13
+For any portion
+of the generation
+that is not
+hedged
+
+(after 2 yrs)
+
+Merchant - Unhedged
+
+Up to 12-13
+Up to 12-13
+Up to 10-12
+1-2
+N/A
+
+Notes: A full circle indicates that the risk is entirely borne by the project; a half circle indicates that the risk is either shared between the
+project and the counterparty or that the only the project’s revenue is affected. For example, under a physical PPA, a project’s revenue would
+decrease with lower wind speeds, but the project is not contractually obligated to generate a fixed quantity of electricity. Not all of these
+risks are independent; for instance, volume and shape depend on wind speed and operational factors.
+Sources: Adkins 2016, Aydin et al. 2017, Davies et al. 2018, Wiser and Bolinger 2018.
+22
+
+A gas-based hedge assumes that local gas-fired power plants will generally set the
+electricity price for the area; gas basis risk describes the potential discrepancy between the
+gas price at the trading hub and the local gas price. Although gas basis swaps could be used
+hedge this risk, they are traded for only a few years into the future (Aydin et al. 2017).
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+12
+
+A retrospective analysis of 60 operating wind farms in ERCOT, using hourly node and
+hub electricity prices and generation data to simulate revenues and returns under five
+arrangements, confirms the qualitative risk assessment of Table 1. The structures, in
+order of the lowest to highest standard deviation in returns, were proxy revenue swap,
+node PPA, hub PPA, bank hedge, and unhedged merchant (Vavrik 2017). The cost of
+financing is similarly ranked, because of both a lower cost of debt, tax equity, and
+sponsor equity with less revenue risk and a lower-cost capital mix (e.g., a project can
+be financed with a greater percentage of debt if revenue risk is minimized). The
+average returns to the project owner, calculated on a levered (after debt payments)
+after-tax basis, were in reverse order, with the exception of the proxy revenue swap,
+which placed in the middle. We would expect this typical trade-off between risk and
+return. However, other determinants of offtaker and counterparty demand can affect
+the PPA and hedge strike prices offered. For example, utility demand for traditional
+PPAs and corporate demand for synthetic PPAs would be also affected by RPS
+requirements and corporate renewable energy goals.
+Table 2 lists all the wind projects installed in 2017 in the United States under a
+merchant or part-merchant basis. First, note that merchant installations of 3,381 MW
+represented 48 percent of total 2017 wind installations (42 percent excluding the two
+Amazon projects).23 With low prices for physical PPAs and the urgency to construct
+wind projects before the phase-out of the PTC, the proportion of merchant projects
+rose slightly further in 2018.24 In 2017, synthetic PPAs and bank hedges were the most
+common structures used, accounting for 83 percent of merchant MW installed. Two
+projects using proxy revenue swaps were completed, and the Falvez Astra project is
+believed to be the first wind project without a hedge to have secured tax equity
+financing (Metcalf 2016). The structures in Table 2 refer only to long-term hedges;
+wind capacity listed as “True Merchant—Unhedged” may use electricity forward
+contracts to hedge price risk over a timeframe of less than two years. Finally, although
+projects have reportedly used hedges based on natural gas in prior years (Wiser and
+Bolinger 2018), no project installed in 2017 could be found with a gas-based hedge.
+
+23
+
+It is also noteworthy that 15 of the 18 merchant wind projects in 2017 were in ERCOT or SPP,
+neither of which has capacity markets, so capacity revenue may not be a significant factor in
+the viability of merchant wind.
+24
+In 2018, 7,588 MW of wind was installed, of which 3,709 MW (49 percent) was under
+merchant structures, based on preliminary data. Bank hedges and synthetic PPAs accounted
+for 1,508 MW and 1,588 MW, respectively (American Wind Energy Association 2019).
+
+Resources for the Future
+
+13
+
+Table 2. 2017 US merchant wind projects, by hedging structure
+Total
+PPA (nonProject
+merchant)
+Size (MW)
+
+State
+
+Project Name
+
+Purchasers
+
+1
+2
+3
+
+IL
+KS
+MN
+
+Merchant Hedge
+Microsoft
+Merchant Hedge
+
+305.8
+178.2
+200.0
+
+4
+
+NC
+
+Radford's Run
+Bloom
+Red Pine
+Amazon Wind
+East
+
+208.0
+
+5
+
+OK
+
+Red Dirt
+
+6
+
+OK
+
+Rock Falls
+
+7
+
+OK
+
+Thunder Ranch
+
+Amazon
+GRDA PPA / T
+Mobile
+Kimberly-Clark /
+Merchant
+Undisclosed PPA /
+Anheuser-Busch
+
+8
+
+TX
+TX
+TX
+
+Google / Merchant
+Amazon / Iron
+Mountain
+Merchant Hedge
+
+276.0
+
+9
+10
+11
+
+TX
+
+Bethel
+Amazon Wind
+Farm Texas
+Bearkat 1
+Bruenning's
+Breeze
+
+299.3
+
+Bank
+Hedge
+
+Synthetic
+True
+Proxy
+(Virtual) Merchant - Revenue
+PPA
+Unhedged
+Swap
+
+Total
+Merchant
+Size (MW)
+
+178.2
+
+305.8
+178.2
+200.0
+
+305.8
+200.0
+
+139.8
+
+154.6
+297.8
+
+253.0
+196.7
+
+208.0
+
+208.0
+
+159.5
+
+159.5
+
+120.0
+145.3
+
+34.6
+
+152.5
+225.0
+
+152.5
+51.0
+
+253.0
+196.7
+
+Merchant Hedge
+228.0
+228.0
+JP Morgan PPA /
+12 TX
+Buckthorn
+Merchant Hedge
+100.1
+50.0
+50.0
+13 TX
+Chapman Ranch Merchant Hedge
+249.1
+249.1
+14 TX
+Falvez Astra
+Merchant
+163.2
+163.2
+15 TX
+Fluvanna 1
+Merchant Hedge
+155.4
+155.4
+16 TX
+Old Setter Wind Allianz
+151.2
+151.2
+Undisclosed PPA /
+17 TX
+Rocksprings
+Walmart
+149.3
+99.3
+50.0
+Willow Springs Merchant Hedge
+18 TX
+250.0
+250.0
+3,815.6
+434.4
+1,635.0
+1,168.0
+248.8
+329.4
+Total (MW)
+48.4%
+34.5%
+7.4%
+9.7%
+% of Total Merchant
+Notes: Only long-term hedges that are used by the projects themselves are shown; projects may also use short-term hedges, and
+counterparties may use separate hedges. It is uncertain whether the two Amazon wind projects have physical or synthetic PPAs.
+Excluding those projects would result in total wind merchant installations of 2,920 MW rather than 3,381 MW in 2017.
+Sources: American Wind Energy Association 2018, Caplan 2018; company press releases and media reports.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+154.6
+
+276.0
+253.0
+196.7
+228.0
+50.0
+249.1
+163.2
+155.4
+151.2
+50.0
+250.0
+3,381.1
+100.0%
+
+14
+
+Figure 7 shows how the prevalence of merchant structures has increased since 2000
+when they were first employed for wind energy. The percentage of merchant or partmerchant projects has fluctuated, but it generally remained below 30% until the past
+five years. Moreover, hedging options were limited to bank hedges (although
+electricity or natural gas forward contracts may have been used), until synthetic PPAs
+and proxy revenue swaps were introduced in 2015 and 2016, respectively. Although
+proxy revenue swaps remain infrequently used, capacity installed under a synthetic
+PPA has roughly equaled capacity installed with a bank hedge over the past three
+years. Aggregating all merchant structures, approximately half of all US wind capacity
+since 2016 has come online without a physical PPA. This trend appears likely to
+continue, at least until wind projects no longer qualify for the PTC.
+
+Figure 7. Percentage of US wind capacity installations, by
+physical PPA or merchant structure
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+Physical PPA
+
+Bank Hedge or Unhedged
+
+Synthetic PPA
+
+Proxy Revenue Swap
+
+Notes: For consistency with early years (in which project data contains less detail), projects with bank hedges and those with no
+long-term hedges are combined, and projects with both physical PPA and merchant portions are allocated as merchant projects.
+This methodology overestimates the share of merchant capacity, but the difference does not appear to be very large. In 2017 and
+2018, stricly merchant capacity represented 48% and 49% of annual installations, whereas projects with at least some merchant
+portion represented 54% and 55% of respective annual installations. Projects with sythetic PPA and unhedged portions are
+allocated based on whichever portion is larger. Unhedged capacity could include electricity or natural gas forward contracts.
+Sources: American Wind Energy Association 2019, company press releases and media reports.
+
+Resources for the Future
+
+15
+
+In addition to choosing the particular hedging structure, wind project developers must
+decide how much generation to hedge. One strategy (potentially used in the Bethel
+and Rock Falls projects) is to hedge only the amount needed to satisfy the more riskaverse tax equity investors and/or lenders and to keep the remainder unhedged to
+increase expected returns (Marks and Rasel 2014). The cost of these long-term (10- to
+13-year) electricity market hedges is that counterparties may charge a significant
+premium due to future electricity market uncertainties. Such uncertainties include the
+price of natural gas, the amount of zero-marginal cost wind and solar installed in
+future years, and the extent to which wind generation will benefit from the limited
+hours of high energy prices. As a result, one project developer noted that bank hedge
+strike prices offered were 30 to 40 percent lower than forecasted spot electricity
+prices (Bailey 2015).25
+
+3.5. Wind Hedging Structures: Risks to
+Counterparties
+Although this paper focuses on the risks to wind and solar projects, assessing risks to
+the counterparties under the various structures helps explain their desirability and
+thus market supply. In a basic sense, this is a simple matter: a structure that hedges a
+particular risk for the project will generally expose the counterparty to that risk.
+However, different parties may have different risk tolerances, and some may be able
+to pass on certain risks to others. Under a physical PPA with a utility, the wind project
+typically does not bear basis risk, the risk of price fluctuations at the relevant hub or
+the requirement to produce a fixed volume of energy. The utility offtaker has a large
+portfolio of energy projects of various technologies, so the basis, price, and volume
+risks from an individual wind project may have little effect on the overall risk to the
+utility. Moreover, many states allow the utility to pass price risk onto its consumers. A
+bank hedge, in contrast, is a relatively risky structure for the project, with only
+electricity price risk hedged at the respective hub. Still, the bank counterparty will not
+retain exposure to hub power price risk over the 12- to 13-year contract period; rather,
+it will enter into natural gas hedging contracts to mitigate this risk. As discussed
+previously, the strategy of hedging electricity prices with natural gas contracts is
+imperfect, but for a large financial institution, the residual risks are far less significant
+than they would be for an individual wind project.
+
+25
+
+The determinants of hedging strike prices will vary between structures. Banks offering
+hedges will offset their electricity price risk with natural gas contracts, whereas synthetic PPA
+counterparties generally have future electricity liabilities. The greater the residual risks that
+counterparties assume, the greater the discount they will likely apply to wind hedging prices.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+16
+
+Synthetic PPAs present complexities and risks to their corporate counterparties. First,
+synthetic PPAs may settle at the node or the hub, and node-settled contracts shift
+basis risk from the project to the counterparty. Second, since the contracted volume is
+a percentage of as-produced generation, the counterparty bears the risk that the
+amount and timing of wind generation revenue will not align with its needs. Although
+the counterparty may be purchasing electricity within the wholesale market of the
+project, which would mitigate its price risk, the quantity and timing of electricity
+purchases versus contracted wind revenue may not be well matched (volume and
+shape risks). For example, a corporation may consume more electricity during daytime
+hours but the wind project may generate more electricity at night, likely a period of
+different pricing. Third, there may be divergent production incentives between the
+project (which seeks to maximize generation) and the corporate counterparty (which
+seeks to maximize electricity revenue) under a synthetic PPA. The project would wish
+to generate even when wholesale prices are negative, to the detriment of the
+counterparty. As another illustration, the project would prefer to perform maintenance
+when wind speeds are low, even if electricity prices are high, which could conflict with
+the preferences of the counterparty (Davies et al. 2018). Although these concerns also
+exist under a physical PPA, a utility offtaker has a large portfolio of energy projects
+and potential risk protection, whereas a corporate counterparty has neither.
+The development of proxy revenue swaps has been motivated, in part, to avoid the
+divergent production incentives of a synthetic PPA and to allocate operational risk
+back to the project (Davies et al. 2018). Rather than attempt to address these
+concerns with contractual obligations, the structure of a proxy revenue swap
+incentivizes the project to maximize its electricity revenue (to be aligned with the
+incentives of the counterparties) rather than to maximize its generation. As with a
+synthetic PPA, the counterparties bear the volume and shape risks of electricity
+revenue, and unique among the hedging structures, the counterparties in a proxy
+revenue swap also take on the weather (wind speed) risk. However, since one of these
+counterparties is typically an insurance company, wind speed risk—being
+uncorrelated with its other investment risks—is a beneficial addition to its portfolio.
+Lastly, counterparties for electricity and natural gas forward contracts are long (have
+positive exposure to) electricity and natural gas prices, respectively. These
+counterparties may be speculators, having no corresponding short position. However,
+it is more likely that they are hedging a short position in electricity or natural gas. If so,
+their position is similar to that of a counterparty in one of the other hedging
+structures, with a future electricity (or natural gas) liability that they are hedging with
+a fixed-for-floating swap contract.
+
+Resources for the Future
+
+17
+
+4. Merchant Solar
+In contrast to wind, solar installed on a merchant basis accounts for a small fraction of
+the total market. It has emerged only in particular locations and has been subject to
+significant wholesale power price risk. Of the 15 largest merchant solar plants
+operating as of May 2018, 11 were in Chile, 3 were in Mexico and 1 was in the United
+States (Dorothal 2018).26 In Chile, interest in new merchant solar has stalled over the
+past two years, in part because the large volume of solar generation in northern Chile,
+where most solar plants are located, has reduced wholesale power prices (Critchley
+2017).
+The exception to those general observations for merchant solar is that synthetic PPAs
+have been used for US solar projects since 2015.27 An estimated 64 percent of roughly
+2.5 GW of offsite corporate procurement of solar between 2015 and 2017 has come
+from physical or synthetic PPAs, though the split between physical and synthetic
+PPAs is unclear (Davis and Smith 2018).28 Bank hedges have been limited so far to
+wind projects, but solar project developers in ERCOT have been requesting hedging
+quotes from commodities traders since 2017, reflecting the increasing
+competitiveness of solar in the wholesale markets (Metcalf 2018).
+In the United States, interest in merchant solar beyond synthetic PPAs has generally
+been as a complement to PPA arrangements. For example, the 315 MWDC Phoebe solar
+project in Texas, to be completed in 2019, has a PPA with Shell Energy for 89 percent
+of the power, with the remaining 11 percent to be sold into the wholesale market
+(Weaver 2018). Additionally, US financiers are growing more comfortable in placing
+some value on the “merchant tail,” electricity generated after a project’s PPA ends and
+sold into the wholesale market. However, lenders have indicated that they would be
+very cautious in assigning value to such revenues, making the assumption of lowerthan-expected wholesale prices, and would require much higher debt service coverage
+ratios than with contracted revenue (Bhat 2018).
+
+26
+
+The lone US project was the 18 MW Barilla Solar project in Texas, completed by First Solar in
+2014 and written down in value in 2017 because of lower wholesale power prices in ERCOT.
+27
+Additionally, two projects currently under construction in Australia, the 98 MW Susan River
+Solar farm and 78 MW Childers Solar farm, have proxy revenue swaps in place to hedge their
+upcoming generation.
+28
+However, as noted previously, the financial differences between physical and synthetic PPAs
+may be minor if the hedge settles at the project’s node.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+18
+
+5. Comparison of Wind and Solar
+The differences between financing merchant wind and merchant solar may be due to
+several factors, both historical and persistent. Historically, wind has had lower
+unsubsidized levelized costs than solar. However, cost differences have been offset to
+some degree by timing: solar displaces electricity predominantly during midday hours,
+which historically have received above-average prices (discussed in greater detail
+below). Furthermore, the gap in levelized costs has narrowed significantly, with utilityscale solar at $43 to $53 per MWh versus wind at $30 to $60 per MWh (Lazard 2017),
+so differences in unsubsidized levelized costs may not explain much of the recent
+difference between merchant wind and merchant solar installations. Subsidized costs
+are a different matter, and the PTC has been a more generous incentive than the
+ITC,29 which has required wind projects to obtain less of their value from electricity
+sales, compared with solar projects. With the PTC incentive of $23 per MWh over 10
+years plus the accelerated depreciation benefits, more than half of a wind project’s
+levelized costs may have been covered by subsidies. The PTC began phasing out for
+projects commencing construction after 2016, declining by 20 percent in 2017, 40
+percent in 2018, and 60 percent in 2019 before being phased out entirely thereafter.30
+The urgent subsidy deadline for wind (the solar ITC does not begin to phase down
+until 2020) may also have favored merchant wind over merchant solar installations
+recently, as developers, financiers and hedging counterparties have rushed to
+complete wind deals and commence construction to obtain the greatest possible
+value of the PTC. If this is the case, there may be substantial development of
+merchant solar that will be installed over the next few years as the PTC declines and
+before the ITC deadlines come into effect.
+A separate factor that may explain the inability of solar to have secured bank hedges
+is scale. The significant transaction costs of structuring and financing a bank hedge
+could make this design unpractical for all but very large projects. For the first few
+solar bank hedges, the transaction costs could be even greater because the structure
+would be, to some extent, novel. In Table 2, note that all 18 merchant wind projects in
+2017 were in excess of 100 MW. In contrast, in 2017, there were only 3 solar projects of
+100 MW or greater (Bolinger and Seel 2018). Whether more numerous solar projects of
+
+29
+
+This is true for wind projects with average capital costs and capacity factors. See Bolinger et
+al. (2009) for a sensitivity analysis of the PTC versus the ITC under ranges of capital costs and
+capacity factors.
+30
+Projects are eligible for the respective year’s value of the PTC if they can meet one of two
+criteria for commencing construction—either a “physical work” test or incurring at least 5% of
+total project costs (a “safe harbor” provision).
+
+Resources for the Future
+
+19
+
+such scale will be developed in the future is unclear, as there may be permitting,
+transmission, and other advantages of installing smaller solar projects.
+Perhaps the most important difference between the two technologies is also one that
+will persist.31 Solar and wind have different generation profiles, and the middayconcentrated profile of solar presents more wholesale power price risk as the amount
+of solar capacity increases. Between 2011 and 2017, the value of solar electricity in the
+WECC region (power markets in the West, where most solar has been installed)
+declined from $34 to $24 per MWh. As a percentage of around-the-clock (ATC) prices,
+this reflects a change from a 12 percent premium in 2011 to a 27 percent discount in
+2017 (Danial 2018b). Whereas solar initially captured high prices during the afternoon,
+increasing amounts of solar depressed midday prices to the point where such prices
+are now at a significant discount compared with 24-hour averages. Although solar
+electricity still commands an average premium of 8 percent over ATC prices outside
+the WECC, this premium could rapidly become a discount with increased solar
+capacity (Danial 2018b). Without significant amounts of storage or flexibility, higher
+penetration of solar will unavoidably erode its own prices.32 Wind has a less
+concentrated generation profile, and although wind may generate more at times when
+prices are lower, the effect is far less pronounced—a discount to ATC prices of 10
+percent (Danial 2018a). Models of high penetration of solar and wind also find such a
+divergence; a study found that in California, 20 percent penetration of solar leads to a
+50 percent decrease in its marginal economic value, whereas 20 percent penetration
+of wind leads to a decrease in its marginal economic value of just 15 percent (Mills and
+Wiser 2012). Even counterparties that provide wind hedges may be wary of hedging
+electricity prices for solar projects, given how rapidly and significantly midday prices
+can fall.33
+
+31
+
+Solar does possess two advantages with respect to project economics. First, solar electricity
+production is more predictable than that of wind (lower generation risk). Second, solar has a
+longer expected project life (a 30-year estimated facility life for utility-scale solar versus 20
+years for wind; Lazard 2017). With a longer life, there is more time after a 10- to 13-year hedge
+for a project to earn additional returns, thus requiring less value (lower prices) from the hedge
+contract.
+32
+The price effect from solar installations is due to utility-scale additions as well as residential
+and commercial solar. See Bushnell and Novan (2018) for further analysis of the effect of solar
+on wholesale electricity prices in California.
+33
+An exception would be if the counterparty also has a midday electricity liability that would
+similarly decline over time. Commercial electricity users may have a midday-heavy load profile,
+which could further explain the ability of solar projects to secure synthetic (“corporate”) PPA
+contracts.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+20
+
+6. Conclusions
+Taking into account the differences between wind and solar, as well as the tax credit
+reductions and the longer-term market changes, it is worth considering how wind and
+solar hedging structures might evolve. Solar has a limited window for merchant
+structures (other than synthetic PPAs) to emerge before the ITC begins phasing down
+in 2020.34 With a greater proportion of project value needing to come from electricity
+sales following the phase-down, we would expect project financiers to become more
+risk averse afterward. If merchant solar deals do not emerge by then, it may take
+several more years before the decline in project costs can offset the reduced
+incentive. Another effect of the declining ITC may be increased ownership by
+regulated utilities, which historically have had less interest in owning solar projects
+because of “normalization” rules that diminish their benefit from the ITC.35 For wind,
+the phase-out is already under way, so projects currently planned are assuming either
+a reduced or an eliminated PTC. With a lower amount of value from subsidies,36 project
+financiers will likely require revenue structures with less risk, such as proxy revenue
+swaps and PPAs (traditional and synthetic), rather than bank hedges or fully merchant
+deals.
+In the longer term, increased generation capacity of wind and solar present uniquely
+challenging risks to wind and solar value. Unlike low natural gas prices, which may rise,
+the effects of increasing wind and solar generation on electricity prices are
+asymmetric: respective electricity prices will decline.37 Unlike the reduction or removal
+of a subsidy, which is known in advance to offtakers or hedging counterparties, the
+degree of price erosion over time due to increased wind and solar can only be
+estimated. As observed already with solar in the West, the magnitude of price declines
+may be substantial. In addition to the regional challenge of falling wholesale prices,
+
+34
+
+The ITC phases down from the current 30 percent level to 26 percent in 2020, 22 percent in
+2021, and 10 percent thereafter. As with the PTC for wind, ITC eligibility for solar is based on
+when the project commences construction.
+35
+The Internal Revenue Code requires “normalization” of the ITC if claimed by regulated
+utilities, which spreads out the tax credit over the useful life of the project and thus reduces its
+present value. For more information, see Burton (2016).
+36
+This includes value from RECs as well as tax credits. REC prices have declined in recent
+years as wind and solar installations have outpaced RPS requirements, a trend that will likely
+continue as 20 of the 30 RPS states (including Washington, DC) reach their final RPS year by
+2026. However, an increase in state RPS mandates could add significant value to eligible wind
+and solar projects. For an analysis of current RPS markets, see Barbose (2018).
+37
+Electricity prices in this section refer particularly to the energy component of wholesale
+electricity. The components of ancillary services and capacity (in RTOs where capacity
+receives value) may not have the same price effects.
+
+Resources for the Future
+
+21
+
+increased solar and wind will also cause local impairments—increased transmission
+congestion leading to low nodal prices and/or curtailment. These problems are
+characterized by their uncertainty. Distinct from risk, which may be quantified and
+assigned a specific cost, uncertainty adds a potential cost of unknown value to
+developers and financiers.
+A general feature of electricity grids with increasing penetration of wind and solar is
+that median electricity prices fall but electricity prices during scarcity events rise,
+resulting in an increasing amount of project value coming from fewer number of hours
+(Vithayasrichareon et al. 2015). Since scarcity events would most likely occur during
+shortfalls in wind and solar generation, it is doubtful that wind and solar projects
+would expect to benefit much from scarcity prices. Consequently, wind and solar
+hedge prices would drop to reflect both low average prices and the mismatch during
+scarcity events. Whereas wind and solar have been effective hedges for electricity
+prices determined by natural gas, a hedge that is effectively against natural gas prices
+is of diminishing usefulness as renewables predominate.38 Although such a
+transformation of the entire US electricity sector may be decades away, in certain
+states and regions, changes will occur more rapidly. Hedging counterparties and other
+electricity market participants must already anticipate some of these changes as they
+consider contracts lasting a decade or more.
+Without sufficient storage (including long-term storage) and flexible demand to even
+out prices over time and without transmission to even out prices over space, the value
+of wind and solar electricity will decline, and project revenue risks and uncertainties
+will escalate.39 Either those risks will be borne by counterparties in exchange for low
+(perhaps very low) strike prices or the projects themselves may take on the risks.40 If
+the strike prices are too low and projects choose to bear the risks, project financing
+would be both expensive and constrained. An important feature of finance, especially
+of debt, is that pools of capital are discontinuous with respect to risk (Reicher et al.
+
+38
+
+Indeed, with a predominance of wind and solar, a desirable electricity hedge would be one
+against a shortfall of wind and solar generation. Energy storage, as well as demand response
+and flexibility, could function as such a hedge.
+39
+Flexible demand refers to sources of electricity load that may be shifted to align with
+generation (typically solar) and includes commercial and residential electric water heaters,
+space heat, and cooling, as well as residential plug loads and electric vehicle charging.
+Goldenberg et al. (2018) estimate that under scenarios in 2050 with 42 percent wind and 18
+percent solar in ERCOT, flexible demand would increase the average value per MWh of wind
+and solar by 36 percent and decrease annual curtailment of wind and solar by 40 percent.
+40
+This scenario could favor ownership by regulated utilities, which receive a fixed rate of
+return on their investments. However, ratepayers would reasonably object to bearing the cost
+of assets that are overvalued.
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+22
+
+2017).41 Adding more asset risk not only raises the required rate of return, it also
+renders certain lower-cost financing options unavailable. Since lower-cost (highergrade) debt accounts for the vast majority of debt investments, excessive risk would
+constrain merchant wind and solar projects to a small segment of available capital. In
+turn, the constrained capital would limit the possible additions of wind and solar and
+their role in a low-carbon pathway.
+
+41
+
+There are regulatory and market reasons for this. For example, insurance, pension, and
+mutual fund managers may be constrained by state regulators, federal laws, and their own
+prospectuses, respectively.
+
+Resources for the Future
+
+23
+
+References
+Adkins, Jessica. 2016. Offtake Strategies for Renewable Power Projects. Presentation at Gulf
+Coast Power Association meeting, September 15.
+https://www.bracewell.com/sites/default/files/knowledge-center/9-152016%20DM%20%235368975%20v3%20Offtake%20strategies%20for.Renewable%20P
+ower%20Proj%20-%20J.%20Adkins.pdf
+American Wind Energy Association. 2018. U.S. Wind Industry Fourth Quarter 2017 Market
+Report. AWEA Data Services. January 25. http://awea.files.cmsplus.com/FileDownloads/pdfs/4Q%202017%20AWEA%20Market%20Report%20Public
+%20Version.pdf
+———. 2019. U.S. Wind Industry Fourth Quarter 2018 Market Report and Database. AWEA Data
+Services. January 30. https://www.awea.org/resources/publications-andreports/market-reports/2018-u-s-wind-industry-market-reports/4q2018_public
+Aydin, C. Onur, Frank Graves, and Bente Villadsen. 2017. Managing Price Risk for Merchant
+Renewable Investments: Role of Market Interactions and Dynamics on Effective Hedging
+Strategies. Brattle Group. January.
+http://files.brattle.com/files/7380_managing_price_risk_for_merchant_renewable_inve
+stments.pdf
+Bailey, Diane. 2015. Texas Finds Wind Security in Hedges. Windpower Monthly April 30.
+https://www.windpowermonthly.com/article/1344891/texas-finds-wind-securityhedges
+Barbose, Galen. 2018. U.S. Renewable Portfolio Standards: 2018 Annual Status Report.
+Lawrence Berkeley National Laboratory. November. http://etapublications.lbl.gov/sites/default/files/2018_annual_rps_summary_report.pdf
+Bhat, Shravan. 2018. Banks Wade Carefully into Solar Merchant Waters. Power Finance & Risk
+June 28. http://www.kwhanalytics.com/banks-wade-carefully-into-solar-merchantwaters/
+Bolinger, Mark, and Joachim Seel. 2018. “Utility-Scale Solar: Empirical Trends in Project
+Technology, Cost, Performance, and PPA Pricing in the United States – 2018 Edition.”
+Lawrence Berkeley National Laboratory. September.
+https://emp.lbl.gov/sites/default/files/lbnl_utility_scale_solar_2018_edition_report.pdf
+Bolinger, Mark, Ryan Wiser, Karlynn Cory, and Ted James. 2009. PTC, ITC, or Cash Grant? An
+Analysis of the Choice Facing Renewable Power Projects in the United States. Lawrence
+Berkeley National Laboratory. March. https://www.nrel.gov/docs/fy09osti/45359.pdf
+Burton, David. 2016. Dominion Takes On ITC Rules. Solar Industry April.
+https://www.taxequitytimes.com/wpcontent/uploads/sites/15/2016/06/Normalization-Dominion-Strategy-Solar-IndustryArticle-Burton-2016_mod.pdf
+Bushnell, James, and Kevin Novan. 2018. Setting with the Sun: The Impacts of Renewable
+Energy on Wholesale Power Markets. Working paper, Energy Economics Program, UC
+Davis. May. http://deep.ucdavis.edu/uploads/5/6/8/7/56877229/deep_wp020.pdf
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+24
+
+Caplan, Elise. 2018. Financial Arrangements Behind New Generating Capacity and Implications
+for Wholesale Market Reform. American Public Power Association. July.
+https://www.publicpower.org/system/files/documents/Financial_Arrangements_Behin
+d_New_Generating_Capacity_2018_1.pdf
+Critchley, Adam. 2017. Does Merchant Solar Have a Future in Latam? Solarplaza August 18.
+https://www.samlatam.com/news-content/2017/8/18/does-merchant-solar-have-afuture-in-latam
+Danial, Joshua. 2018a. Naked Revenue Survey: Merchant Value of U.S. Wind Fleet. Bloomberg
+New Energy Finance July 25.
+———. 2018b. Naked Revenue Survey: Merchant Value of U.S. Solar. Bloomberg New Energy
+Finance September 20.
+Davies, Kenneth, Giji John, and Lee Taylor. 2018. Proxy Generation PPAs: The Next Evolution of
+PPAs for the Corporate & Industrial Buyer. Orrick, Herrington & Sutcliffe LLP.
+https://orrick.blob.core.windows.net/orrick-cdn/Proxy_Generation_PPAs.pdf
+Davis, Michelle, and Colin Smith. 2018. US Corporate Solar Procurement Surges in 2017. GTM
+Research. April 12. https://www.greentechmedia.com/articles/read/us-corporate-solarprocurement-surges-2017#gs.RQpzBQQ
+Dorothal, Marco. 2018. Top 15 Merchant Solar Plants. Solarplaza May 2.
+https://www.solarplaza.com/channels/top-10s/11818/top-15-merchant-solar-plants/
+Eberhardt, Robert, and Christine Brozynski. 2017. Hedges for Wind Projects: Evaluating the
+Options. Norton Rose Fulbright. June.
+http://www.nortonrosefulbright.com/knowledge/publications/152619/hedges-forwind-projects-evaluating-the-options
+Feldman, David, and Paul Schwabe. 2017. “Terms, Trends, and Insights: PV Project Finance in
+the United States, 2017. National Renewable Energy Laboratory/TP-6A20-70157.
+September. https://www.nrel.gov/docs/fy18osti/70157.pdf
+Goggin, Michael, Rob Gramlich, Steven Shparber and Alison Silverstein. 2018. Customer
+Focused and Clean: Power Markets for the Future. Wind Solar Alliance. November.
+https://windsolaralliance.org/wpcontent/uploads/2018/11/WSA_Market_Reform_report_online.pdf
+Goldenberg, Cara, Mark Dyson and Harry Masters. 2018. Demand Flexibility: The Key to
+Enabling a Low-Cost, Low-Carbon Grid. Rocky Mountain Institute. February.
+https://rmi.org/wpcontent/uploads/2018/02/Insight_Brief_Demand_Flexibility_2018.pdf
+Lazard. 2017. Lazard’s Levelized Cost of Energy Analysis – Version 11.0. Lazard. November.
+https://www.lazard.com/media/450337/lazard-levelized-cost-of-energy-version110.pdf
+Marks, Allan, and Lily Rasel. 2014. Financing Wind Projects with Synthetic PPAs. North
+American Windpower April.
+https://nawindpower.com/online/issues/NAW1404/FEAT_02_Financing-WindProjects-With-Synthetic-PPAs.html
+
+Resources for the Future
+
+25
+
+Metcalf, Richard. 2016. Sponsor Seals Tax Equity for Merchant Wind Project in Texas. Power
+Finance & Risk September 27.
+http://www.powerfinancerisk.com/Article/3588976/Sponsor-Seals-Tax-Equity-forMerchant-Wind-Project-in-Texas.html
+Metcalf, Richard. 2018. The Buzz: Interest in Solar Hedges Grows in ERCOT. Power Finance &
+Risk January 12. http://www.powerfinancerisk.com/Article/3780371/The-Buzz-Interestin-Solar-Hedges-Grows-in-ERCOT.html#/.W7Uz8mhKiUk
+Mills, Andrew, and Ryan Wiser. 2012. Changes in the Economic Value of Variable Generation at
+High Penetration Levels: A Pilot Case Study of California. Lawrence Berkeley National
+Laboratory. June. https://emp.lbl.gov/sites/all/files/lbnl-5445e.pdf
+Reicher, Dan, et al. 2017. Derisking Decarbonization—Making Green Energy Investments Blue
+Chip. Stanford Steyer-Taylor Center for Energy Policy and Finance. October 27.
+https://energy.stanford.edu/sites/default/files/stanfordcleanenergyfinanceframingdo
+c10-27_final.pdf
+Sinaiko, Dan. 2018. Structuring Solar + Storage Offtake Contracts. Storage School. January 15.
+https://www.storage.school/content/2018/1/15/structuring-solar-storage-offtakecontracts
+Vavrik, Steve. 2017. Comparison and Analysis of Revenue Hedging Options for Wind Projects.
+AWEA Windpower Conference. May 24.
+https://s23.a2zinc.net/clients/AWEA/WP17/public/SessionDetails.aspx?FromPage=Se
+ssions.aspx&SessionID=207&SessionDateID=10.
+Vithayasrichareon, Peerapat, Jenny Riesz, and Iain MacGill. 2015. Impact of High Variable
+Renewable Generation on Future Market Prices and Generator Revenue. IEEE PES AsiaPacific Power and Energy Engineering Conference. November.
+https://ieeexplore.ieee.org/document/7380978.
+Weaver, John. 2018. United States: Texas to Get Its Biggest Solar Plant at 315 MW-DC. PV
+Magazine July 4. https://www.pv-magazine.com/2018/07/04/united-states-texas-toget-its-biggest-solar-plant-at-315-mw-dc/
+Wiser, Ryan, and Mark Bolinger. 2018. 2017 Wind Technologies Market Report. U.S. Department
+of Energy, Office of Energy Efficiency and Renewable Energy. August. http://etapublications.lbl.gov/sites/default/files/2017_wind_technologies_market_report.pdf
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+26
+
+

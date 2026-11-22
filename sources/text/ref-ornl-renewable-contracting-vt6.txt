@@ -1,0 +1,894 @@
+Rename Yourself to be your Real Name (Company Name)
+1.
+2.
+3.
+4.
+5.
+
+Click on Participant list
+Go to the right and hover over your
+name
+Select “More” & “Rename”
+Enter your company name in
+brackets
+Turn on your camera ☺
+
+Virtual Training: Renewable
+Contracting Options and RECs
+2_TitleEnergy
+Slide
+Renewable Electricity Supply Options: Financing Models and Strategies
+Session #6
+September 9, 2025
+10:00am – 12:00pm EST
+
+General Information
+▪
+▪
+▪
+▪
+▪
+
+Schedule: Every Tuesday (Aug 5th – Sep 9th) morning
+@ 10am ET
+Sessions will be recorded
+We want these VT to be interactive!
+We’re hoping you finish the VT with some big progress
+There will be homework – just try your best!
+▪
+
+“You’ll get out what you put in!”
+
+Links:
+https://bptraining.ornl.gov/
+http://betterbuildingssolutioncenter.energy.gov/better-plants
+https://measur.ornl.gov
+
+Training Overview
+1. 08/05: Fundamentals Of Renewable Electricity And Emissions Inventory
+
+2. 08/12: Understanding The U.S. Electricity Markets And Procurement Roadmap
+3. 08/19: Purchasing Renewable Electricity: PPAs, VPPAs, and Other Supply Options
+4. 08/26: Navigating Voluntary Electricity Markets
+5. 09/02: Purchasing Renewable Electricity: Best Practices and Success Stories
+
+6. 09/09: Renewable Electricity Supply Options: Financing Models and Strategies
+
+Renewable Electricity Supply Options:
+Click To Edit
+Masterand
+Title Strategies
+Style
+Financing
+Models
+Indraneel Bhandari
+Paul Lemar
+Oak Ridge National Laboratory
+
+Today’s Speakers
+
+6
+
+Paul Lemar
+
+Indraneel Bhandari
+
+Technical Account Manager,
+Oak Ridge National Laboratory
+
+R&D Associate,
+Oak Ridge National Laboratory
+
+Training Recap
+
+7
+
+Renewable Electricity Procurement Roadmap
+
+8
+
+Renewable Electricity Procurement Roadmap
+
+9
+
+Energy Attribute Certificates (EAC)
+
+Map
+Description automatically generated
+
+12
+Source: Center for Resource Solutions, September 2019, https://resource-solutions.org/wpcontent/uploads/2018/02/Tracking-System-Map.pdf;
+2024 Green-e Verification Report (2023 Data) Released https://resource-solutions.org/g2024/
+
+Options May Vary With Location
+
+13
+
+Purchasing Supply Mechanisms
+
+U.S. DEPARTMENT OF ENERGY
+
+14
+
+Compare All Options
+
+16
+
+Prices Vary Hourly
+The LMP (Locational Marginal Price) reflects:
+• Generation cost
+• Delivery cost
+• Transmission constraint cost at a specific location
+
+Image Source: Gridstatus.io
+
+Pricing Considerations: Hubs vs Nodes
+▪ LMP or Nodal Price
+▪ Nodes are different locations
+▪ Function of congestion, demand,
+price of energy, and other losses
+
+▪ Hub Price
+▪ Collection of nodes
+▪ Intended to represent an uncongested
+price for electric energy
+
+Hub
+
+Nodes
+
+Pricing Considerations: Hubs vs Nodes
+▪ LMP or Nodal Price
+▪ Where the projects connect
+▪ System operator price
+▪ Prone to volatility
+
+▪ Hub Price
+▪ Average of nodal price = less volatility
+▪ Traded in the liquid market
+▪ Typical in VPPA contracts
+
+Hub
+
+Nodes
+
+“Contract for Differences”
+▪ Settlement = Difference between PPA or strike price and market price
+LMP Selling Price
+
+Contract Price
+
+Developer Pays Buyer
+Price $/MWh
+
+Buyer Pays Developer
+
+Strike Price
+
+Time
+Image Source: Enel North America
+
+U.S. DEPARTMENT OF ENERGY
+
+20
+
+“Contract for Differences”
+▪ Buyer may pay the generator or vice versa
+$90
+
+$80
+$80
+$70
+
+$25
+$55
+
+$60
+
+Strike Price, $55
+
+$50
+
+$20
+$40
+
+$35
+$30
+
+Market Price
+
+$20
+
+Loss
+
+$10
+$-
+
+Scenario 1
+
+Scenario 2
+$/MWh
+
+Scenario 3
+
+VPPA Price
+
+21
+
+Gain
+
+Considerations and Risk Management
+▪ Risks and Considerations
+▪ Location
+▪ Resource and Technology
+▪ Volume
+▪ Shape
+
+▪ Price volatility
+▪ Transaction complexity
+▪ Market insight
+▪ Congestion
+▪ Curtailment
+▪ Basis risk
+
+U.S. DEPARTMENT OF ENERGY
+
+Virtual PPAs
+•
+•
+•
+•
+•
+•
+
+Financial Exposure
+Energy Ownership
+Length of Contract
+Credit Support
+Incremental Impact
+Regionality
+
+Physical PPAs
+•
+•
+•
+•
+•
+
+Interconnection
+Permitting and Siting
+Contracting Process
+Price Volatility
+Resource Type
+
+Utility Options
+
+Other Considerations
+
+• State and Local
+Regulations
+• Length of Contract
+• Pricing Constraints
+• REC Ownership
+
+• Operation Schedule
+• Additionality
+• Community
+Acceptance
+• Third Party
+Certifications
+• Grid Congestion
+
+22
+
+Mitigating Risk
+▪ Floors and Ceilings (Collars)
+▪ $0 floor to limit exposure = reduced downside risk $$
+▪ “No settlement” during curtailment
+
+▪ Developer “Parent Guarantee”
+▪ Secure your long-term contracts
+
+▪ Forecast and Sensitivity
+▪ Forecast load and requirements
+▪ Forecast price of electricity with and without escalators
+
+▪ Proxy Generation
+▪ Consumer compensated based on calculated generation
+▪ Reduced curtailment and availability risk
+
+Mitigating Risk: Collars
+Developer Pays Buyer
+
+Buyer Pays Developer
+Floor Price
+
+Ceiling Price
+Price $/MWh
+
+Strike Price
+
+Time
+Source: Enel North America
+
+Mitigating Risk
+▪ Forward Strip of RECs (Bridge RECs)
+▪ Future proof against delays and forced majeures
+
+▪ Purchase at Hub pricing
+▪ Reduce the price volatility between strike price and LMP
+▪ Avoid negative pricing nodes (excess generation)
+▪ Consumer will receive the generator’s hub pricing as its floating market price
+
+▪ Transmission Buildout
+▪ New transmission buildout will ease grid congestion
+
+▪ Diversify assets
+▪ To manage supply of RECs
+▪ Spread the risk across resource type
+
+5 Minute Break
+
+26
+
+Financing Strategies for Purchasing
+
+27
+
+Project Checklist
+
+▪ Potential Team Members
+▪ Leadership and Stakeholders
+▪ Engineering and Plant Operations
+▪ Utility, legal, regulatory
+▪ Government, local entities
+
+▪ Selection Criteria
+▪ Implementation schedule
+▪ Risk Tolerance
+▪ Experience and preferences
+
+Financing Options – Industrial Sector
+
+Financing Options
+
+Source: https://betterbuildingssolutioncenter.energy.gov/financing-navigator/explore
+
+Financing Options – Common Terminology
+PPA
+
+Long-term contract to buy electricity from generator at agreed terms
+
+SPV/SPE
+
+A legal entity created to own and operate a specific project
+
+Off-taker:
+
+The buyer who agrees to purchase electricity or RECs under a contract
+
+Commodity Electricity
+
+Physical electricity or standard electricity traded without environmental attributes
+
+Tariff
+
+Rate structure that defines how electricity service is priced and billed
+
+Anchor Customer
+
+Large, creditworthy buyer whose commitment underpins project financing
+
+CFD (VPPA)
+
+financial contract; settle the difference between market price and an agreed strike price
+
+Strike Price
+
+Fixed purchase price in a contract
+
+LMP
+
+Locational Marginal Price or Nodal Price
+
+Financing Options – Terminology
+▪ Special Purpose Vehicles/Entities (SPV/SPEs)
+▪ Dedicated Entity: Formed solely to own and operate a specific renewable energy
+project
+▪ Risk Isolation: Shields parent companies from project-related financial and legal
+risks
+▪ Simplifies Financing: Enables project-specific debt and equity investment
+▪ Holds Assets & Contracts: Owns the project’s assets, PPA, permits, and liabilities
+▪ Captures Incentives: Facilitates use of tax credits and depreciation benefits
+▪ Revenue Channel: All project revenues and payments flow through the SPV
+▪ Limited Liability: Creditors' claims are restricted to the SPV’s assets only
+
+Basic Financing Options: Expense vs Capital Purchase
+▪ Unbundled RECs
+▪ Simple to execute
+▪ Widely available
+▪ Repeated Expense
+
+▪ Direct Ownership
+▪ High upfront costs, longer ROI
+▪ Impact on property (land, structural, etc.)
+▪ Project oversight
+▪ Attributes tied to consumer
+
+Financing Options – Source of Funding
+
+Capital
+
+Tax Equity
+
+Debt
+
+• Critical for
+preconstruction
+• Owner takes
+risks
+• At-risk capital
+raised through
+equity
+
+• ITC and PTC
+• US Specific
+• Cash for credits
+• Expanded to
+Tax Credit
+Transfer
+
+• Assets are
+collateral
+• Construction
+phase liquidity
+
+Financing Options – Funding and Parties
+Debt
+
+Tax Equity
+
+Equity/Capital
+
+Equity (Passive Member)
+•
+Partnership Flip
+
+Equity (Active Member)
+•
+Project Developer
+•
+Private Equity Investor
+
+•
+•
+•
+•
+
+Construction Loan
+Term Loan
+Bridge Loan
+Mezzanine, etc.
+
+Project
+EPC
+
+Construction
+
+O&M
+
+O&M
+
+PPA
+
+Offtakers
+
+35
+
+Supply,
+Contracts,
+Warranties
+
+Equipment Vendor
+
+REC Purchase,
+Licenses,
+Legal, etc.
+
+Miscellaneous
+
+Source: ACORE 2025 https://acore.org/resources/bridging-demandand-financing-voluntary-offtake-in-clean-energy/
+
+One Big Beautiful Bill Act (OBBBA) Impact on Wind
+and Solar Project Tax Credits
+▪ Clean electricity tax credits (PTC 45Y and ITC 48E) generally would be unavailable
+for wind and solar projects placed in service after December 31, 2027
+▪ Grandfather rule preserves eligibility of credits for wind and solar clean electricity
+projects that start construction before 12 months following Bill enactment
+▪ Non-wind/solar clean electricity projects will begin to phase out after 2032 (nuclear,
+geothermal, and clean-hydrogen, potentially energy storage technology, qualified
+biogas property, and microgrid controllers)
+▪ Applies more restricted conditions regarding application of domestic content bonus
+▪ Transfers of credits to SPEs are not permitted, but transferability conditions are
+generally otherwise preserved
+▪ Restrictions on foreign entities of concern (FEOC) are in place
+▪ More details to follow, pending Treasury/IRS guidance
+
+Financing Options: Third-Party Ownership
+V-PPA Settlement
+$
+$
+
+▪ Power Purchase Agreements and Financial agreements
+▪
+▪
+▪
+▪
+
+No up-front capital
+Long-term price certainty
+Off Balance Sheet
+Contractual complexity
+
+Fixed Payment
+
+Renewable Energy
+Generator/Developer
+
+V-PPA Electricity
+
+RECs
+
+P-PPA Electricity
+
+Manufacturing
+Facility
+
+$
+
+Utility Payment
+
+▪ Capital Leases, Operating Leases
+▪
+▪
+
+Utility Provider
+
+Customer leases the system from a third party, with or without option to own
+No Up-front costs
+
+Electric Grid
+
+PPAs and VPPAs
+
+▪ Green Tariffs
+▪
+▪
+▪
+
+Utility-led procurement with predictable pricing
+Sleeved deals, market-based rate
+Subscriber models
+
+▪ Community Solar and Aggregation
+
+States with utility green tariff programs as of October 2023. Figure based on “U.S. Utility Green Tariff Report – January
+2023 Update” by Celeste Wanner, Priya Barua, Josh Kaplan, and Sarah Mihalecz, Clean Energy Buyers Association
+(CEBA), 2023 and “Green Tariffs” by CEBA, https://cebuyers.org/solutions/procure-clean-energy/green-tariffs/.
+
+Power Purchase Agreements
+▪ Power Purchase Agreement (PPA)
+▪ Contract with renewable facility located within same power grid, to purchase share of
+generation via long term contract
+▪ Offtaker purchases power and renewable attributes (physical delivery of energy)
+
+▪ Virtual PPA (VPPA)
+▪ Also known as a financial PPA
+▪ Renewable facility located in a different grid (must be retail choice), so offtaker does not
+directly purchase energy generated
+▪ Offtaker purchases environmental attributes and financial benefits of fixed vs floating grid
+price, also using long term contract
+▪ Additional value to VPPA within same power grid, both for additionality and long-term
+hedge against future power prices
+
+38
+
+PPA Prices in 2025 Q2
+Solar P25 Price Indices by ISO:
+Q2 2018 TO Q2 2025
+
+Wind P25 Price Indices by ISO:
+Q2 2018 TO Q2 2025
+
+▪ Market-Averaged Continental Index
+▪ Q3 2018 TO Q2 2025
+
+39
+
+Source: LevelTen PPA Price Index© Executive Summary Q2
+2025, https://www.leveltenenergy.com/ppa#thank-you-na
+
+Mechanics of Virtual Power Purchase Agreements
+(VPPAs)
+▪ Establishing VPPA
+contract can take 6-18
+months or more
+▪ Contract terms usually
+extensive
+▪ Recommendation:
+understand settlement
+terms and conditions
+under which
+developer may opt to
+curtail
+Source: Leveltenenergy
+
+Consumer Aggregations
+VPPA Contract
+
+▪ Customer Aggregation
+✓
+
+Increased purchasing parity
+
+✓
+
+Shared resources
+
+✓
+
+Ability to purchase low volume
+
+Customer A
+
+50 MW
+Manufacturing Plant
+
+150 MW
+Capacity
+
+VPPA Contract
+Customer B
+
+10 MW
+
+o
+
+Negotiations can be complex, as individual
+customers may not have significant leverage
+
+o
+
+Stakeholder alignment and difference in goals
+
+Commercial
+
+Wind Power
+
+VPPA Contract
+Customer C
+
+60 MW
+
+can be factors making it challenging for
+
+Manufacturing Plant
+
+aggregation to reach agreement
+VPPA Contract
+Customer D
+
+30 MW
+Manufacturing Plant
+
+U.S. DEPARTMENT OF ENERGY
+
+41
+
+Solar Power Purchase Agreement (SPPA)
+▪ Large customers can often serve as
+“anchor” to community solar projects
+
+▪ Check with state utility commission for
+confirmation on Third Party PPA
+Source: EPA Green Power Market
+
+▪ SREC Pricing may vary with length of
+contract: spot market or forward
+contract.
+▪ For example, RECMint estimates an 11%–24%
+and 33%–46% discount over spot prices for 3and 5-year contracts, respectively.
+Source: SRECTrade
+
+Source: Feldman, D., Zuboy, J., Dummit, K., Stright, D., Heine, M., Grossman, S., & Margolis,
+R. (2024). Summer 2024: Solar Industry Update. https://doi.org/10.2172/2448283, RECMint
+
+Solar Power Purchase Agreement (SPPA)
+
+Source: EPA Green Power Market
+
+Sample Contract Structure PPA
+
+Note: For illustrative purposes only and may not represent actual conditions
+
+44
+
+Source: Edison Electric Institute and National Energy Marketers Association,
+https://www.pacificorp.com/content/dam/pcorp/documents/en/pacificorp/suppliers/rfps/Exhibit_AUmbrella_Agreement.pdf
+
+Claims and Post-Contract
+Buyer’s Share
+
+The percentage of a renewable energy project's energy generation agreed to purchase
+
+Trade Quantity
+
+The amount of energy that is produced by the facility/ exchanged between parties
+
+Calculation Interval
+
+The time period used to measure and settle delivered quantities; typically, hourly
+
+Guaranteed COD
+
+This is typically the day the project starts delivering to buyer
+
+Settlement Point
+
+Point where your Market Price is published; Hub or Node. Hub pricing is typically more stable
+
+Associated Products
+
+Additional attributes tied to generation, such as RECs or capacity rights
+
+Buyer’s Performance
+Assurance
+Seller’s Performance
+Assurance
+
+Financial assurance provided by the buyer; consumer credit rating
+
+Facility Guarantee
+
+A commitment to how often the facility must be operational and able to produce per contract
+
+Financial assurance posted by the developer; seller credit rating
+
+Adapted from: https://www.leveltenenergy.com/post/power-purchase-agreement-terms
+
+Claims and Post-Contract
+▪ Guarantee for delivery
+▪ Buyers should monitor progress and asset management
+▪ Communicate with developer
+▪ RPS states – expect audits
+
+▪ REC Management
+▪ Ownership and claims
+▪ Transparency in accounting
+
+▪ Force majeure
+▪ Grace period for unexpected events
+▪ Penalties for delays
+▪ Bridge RECs or forward strips
+
+Market Influences Pricing
+Extent of Guardrails and Assurances
+Hub Pricing
+
+Several Factors
+May Influence
+Pricing
+
+Demand Outweighing Supply
+
+Buyer Competition
+Alternative Settlement Clauses
+Proxy Generation
+Contract Size and Term
+
+Partner Case Studies
+
+100%, 272 GWh/year
+
+100%, 281 GWh/year
+
+100%, 84 GWh/year
+
+20%, 301 GWh/year
+
+100%, 434 GWh/year
+
+39%, 100 GWh/year
+
+100%, 1,007 GWh/year
+
+52%, 1,795 GWh/year
+Source: U.S. EPA's Green Power Partnership (www.epa.gov/greenpower)
+and https://betterbuildingssolutioncenter.energy.gov/
+
+Other Programs and Platforms for Renewable Energy
+A picture containing text
+
+EPA’s Green Power
+Partnership (GPP)
+
+Center for Resource Solutions
+(CRS)
+
+[https://www.epa.gov/greenpower]
+
+[https://resource-solutions.org]
+
+Clean Energy Buyers
+Association (CEBA)
+[https://cebuyers.org]
+
+Green-e Energy and Green-e
+Marketplace
+
+Database of State Incentives
+for Renewables & Efficiency
+(DSIRE)
+[https://www.dsireusa.org]
+
+GHG Protocol Scope 2
+Guidance
+
+RE100
+[https://www.there100.org]
+
+The Renewable Thermal
+Collaborative (RTC)
+
+Solar Energy Industries
+Association (SEIA)
+[https://www.seia.org]
+
+American Council on
+Renewable Energy (ACORE)
+
+[https://greene.org/programs/energy]
+
+[https://ghgprotocol.org/scope_2_g
+uidance]
+
+[https://www.renewablethermal.org]
+
+[https://acore.org]
+51
+
+Description automatically generated
+
+Renewable Energy for Industry Guidance Documents
+▪
+
+Access the full main document here.
+
+▪
+
+Access the supplemental document here.
+
+Main Document
+Supplemental Document
+
+52
+
+Renewable Energy Purchasing Factsheets
+
+Renewable Energy Certificates
+
+Power Purchase Agreements
+
+53
+
+Utility Supply Options
+
+Questions?
+
+54
+
+Thank you!
+
+55
+
+

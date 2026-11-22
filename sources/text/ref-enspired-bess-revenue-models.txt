@@ -1,0 +1,420 @@
+Skip to main content
+
+-   Events
+-   Countries []
+    -   France
+    -   Spain
+    -   Greece
+    -   Poland
+    -   Netherlands
+    -   Romania
+    -   Italy
+    -   Germany
+    -   Austria
+    -   Belgium
+-   Newsletter
+-   Careers
+-   Customer portal
+
+[]
+
+-   BESS
+    Optimization platform
+
+    [bess algo trading battery optimization]
+
+    All markets, trades, and data in one place.
+
+    -   24/7 dashboard access
+    -   Real-time tracking
+    -   Full transparency
+
+    Explore interactive dashboard []
+
+    Integrated BESS offer
+
+    Optimization service [] End-to-end support for your project, from financing to peak revenue. Portfolio performance [] Revenue claims you can trust – we publish real, certified numbers. Markets [] The segments we leverage to diversify revenues in a cross-market trading setup. Revenues [] Our revenue models cater to individual needs and help secure financing. Use cases [] The storage types, configurations, and setups we optimize commercially. Onboarding [] Curious about the customer experience? Here’s how it works in 3 steps. FAQs [] Market access, asset size, thermal management – answers to these and more. Get in touch [] What’s your use case? Talk to our experts to maximize the value of your BESS.
+
+    Insights and resources
+
+    The latest from our BESS library
+
+    [bess financing bank tolling floor]
+
+    Article:
+
+    Financing BESS with confidence
+
+    [großbatteriespeicher alfeld battery storage kyon obton]
+
+    Case study:
+
+    enspired optimizes Obton's 137.5 MW BESS in Alfeld
+
+    [romania bess optimization energy storage]
+
+    Webinar:
+
+    Maximizing BESS revenues in Romania
+
+    [co-located battery storage white paper]
+
+    White paper:
+
+    Co-located grey battery storage: Business case, optimization, integration
+-   Industry insights
+    Industry insights
+
+    Blog Case studies White papers Webinars Podcasts Events Portfolio performance Press releases
+
+    Blog
+
+    Financing BESS with confidence
+
+    What banks and lenders should know about battery storage and available revenue models when making financing decisions for this asset class.
+
+    Read more
+
+    [bess financing bank tolling floor]
+
+    Case study
+
+    enspired x Schoenergie
+
+    enspired is optimizing Schoenergie's 55 MWh grid-forming co-location project in Germany across the wholesale and ancillary service markets.
+
+    Get details
+
+    [schoenergie co-located battery enspired]
+
+    White paper
+
+    Co-located grey battery storage
+
+    February 2026: This white paper by 8Energies, Goldbeck Solar, and enspired is the first of its kind and gives practical insight into the business case, optimization, and integration of co-located grey BESS.
+
+    Download white paper
+
+    [co-located battery storage white paper]
+
+    Webinar
+
+    BESS financing strategies
+
+    Financing is one of the most important cornerstones of a battery project. This webinar unveils how to find the right financing structure while simultanouesly maximizing revenue security.
+
+    Watch on demand
+
+    [battery financing battery storage]
+
+    Podcast
+
+    The €25 million financing round
+
+    Our CEO Jürgen Mayerhofer discusses the expansion projects and exciting plans following enspired's 2024 series B investment round.
+
+    Tune in
+
+    [wolfgang eichberger juergen mayerhofer]
+
+    Events
+
+    Where to meet us in person
+
+    Check the events we're hosting, attending, or speaking at. If you'd like to meet and discuss your project in person, simply send us a request.
+
+    Check the schedule
+
+    [enspired events get enspired]
+
+    Portfolio performance
+
+    Real revenues for real assets
+
+    Check enspired's commercial performance for 2-hour and 1-hour battery assets in Germany. 
+
+    See the numbers
+
+    Press releases
+
+    News about enspired, assets, and partnerships
+
+    See what's new
+-   R&D
+-   About us
+
+-   Let's talk
+
+Mobile navigation [] []
+
+-   BESS
+    Optimization service Portfolio performance Markets Revenues Use cases Onboarding FAQs Get in touch
+-   Countries
+    France Spain Greece Poland Netherlands Romania Italy Germany Belgium Austria
+-   Industry insights
+    Blog Case studies White papers Webinars Podcasts Events Portfolio performance Press releases
+-   R&D
+-   About us
+-   Events
+-   Newsletter
+-   Careers
+-   Customer portal
+
+[] Back to resources
+
+Battery storage
+
+BESS revenue models: tolling, floor & fully merchant
+
+An overview of the different BESS revenue strategies that help secure financing (fully merchant, floor pricing, tolling), including examples.
+
+Feb 4, 2025
+
+[]
+
+Share article:
+
+[]
+
+Revenue models for battery systems
+
+As the buildout of renewable energy sources progresses, more battery systems are commissioned to capture their flexibility. Project developers and investors encounter a variety of financing structures in this pursuit, each with unique risk and revenue profiles. These revenue strategies determine the bankability and economic feasibility of a BESS (battery energy storage system) use case and range from high-risk, high-reward fully merchant setups to variable floor pricing arrangements to reliable tolling agreements. In special circumstances, hybrid options exist as well. This article examines the nuances of these models to help you navigate the fine line between revenue security and risk management.
+
+[Get your BESS revenue strategy]
+
+Tolling for battery storage
+
+A battery tolling agreement is a contract between an asset owner (toller) and a toll provider (offtaker) that combines revenue stability with risk mitigation. Tolling agreements for BESS grant the asset owner a pre-defined sum of guaranteed revenue, independent of the commercial result later achieved by an optimizer. The offtaker has the right to utilize the asset’s capacity in the markets as desired and put limitations on the toller.
+
+This is a convenient setup for the asset owner, as it generates fixed revenue, while the risk passes to the toll provider, who must pay the tolling fee even if the asset underperforms commercially. The toller is responsible for the technical setup and all administrative aspects and must guarantee asset availability. Meanwhile, the authority over asset use transfers to the toll provider along with the risk. Battery tolling agreements have neither upside nor downside potential and best suit those who seek a safety net with reliable revenues.
+
+A toll proposal is feasible only if battery specifications and warranty terms are defined and available, as these have a major impact on the tolling scope. Other parameters with significant impact include asset COD (Commercial Operation Date), toll duration, and planned asset availability. Customers are advised to exercise caution with tolling proposals not based on specific data. A very high initial toll value may be misleading and out of context, as it could decrease considerably in the negotiations once asset specifications are clarified.
+
+ 
+
+For all example revenue scenarios, please note that actual stipulations can vary depending on the project.
+
+Revenue scenarios for BESS tolling agreements
+
++------------------------+:---------------------:+:----------------------:+
+|                        | scenario #1           | scenario #2            |
+|                        |                       |                        |
+|                        | battery underperforms | battery 'overperforms' |
++------------------------+-----------------------+------------------------+
+| contracted tolling fee | 120k                  | 120k                   |
++------------------------+-----------------------+------------------------+
+| generated revenue      | 70k                   | 270k                   |
++------------------------+-----------------------+------------------------+
+| asset owner earnings   | 120k                  | 120k                   |
++------------------------+-----------------------+------------------------+
+
+”If you want guaranteed revenue with complete downside protection, tolling is for you!”
+
+Jürgen Pfalzer
+
+Chief Commercial Officer
+
+[Jürgen Pfalzer]
+
+Fully merchant batteries
+
+In a fully merchant setup, your BESS is exposed to the full downside and the full upside potential. If the battery performs well commercially, this model captures the highest returns, but it features no protection against loss if the asset’s performance is affected by unfavorable market conditions. The high-risk profile of the fully merchant strategy is reflected in the client’s proportionally higher revenue share.
+
+ 
+
+Revenue scenarios for fully merchant batteries
+
+  -------------------------- ------------- -------------
+                              scenario #1   scenario #2
+  contracted revenue split       90:10         90:10
+  generated revenue               70k          270k
+  asset owner earnings            63k          243k
+  -------------------------- ------------- -------------
+
+”If you are looking for the highest revenue potential and have a developed risk tolerance, fully merchant is your strategy!”
+
+Jürgen Mayerhofer
+
+CEO & Co-founder
+
+[Jürgen Mayerhofer]
+
+Floor price for BESS, with and without cap
+
+A floor price is the minimum revenue an asset owner makes when using the optimization service of an RTM (route-to-market) provider. This amount is typically contractually fixed but can be variable in certain scenarios. The guaranteed revenue is lower than in a tolling agreement because the asset owner retains the upside potential, while the optimizer assumes the main risk. The guaranteed minimum revenue can increase depending on the asset’s trading outcome and the contractually fixed revenue split. Floor prices might be capped, meaning the upside potential is limited to a certain amount.
+
+ 
+
+Revenue scenarios for BESS floor price without cap
+
++--------------------------+:---------------------:+:----------------------:+
+|                          | scenario #1           | scenario #2            |
+|                          |                       |                        |
+|                          | battery underperforms | battery 'overperforms' |
++--------------------------+-----------------------+------------------------+
+| contracted floor         | 80k                   | 80k                    |
++--------------------------+-----------------------+------------------------+
+| contracted revenue split | 80:20                 | 80:20                  |
++--------------------------+-----------------------+------------------------+
+| generated revenue        | 70k                   | 270k                   |
++--------------------------+-----------------------+------------------------+
+| asset owner earnings     | 80k (the floor)       | 216k (the 80% share)   |
++--------------------------+-----------------------+------------------------+
+
+ 
+
+Revenue scenarios for BESS floor price with cap
+
++--------------------------+:-------------------------:+:------------------------------------:+:-----------------------------------:+
+|                          | scenario #1               | scenario #2                          | scenario #3                         |
+|                          |                           |                                      |                                     |
+|                          | the battery underperforms | the battery performs under cap range | the battery performs over cap range |
++--------------------------+---------------------------+--------------------------------------+-------------------------------------+
+| contracted floor         | 80k                       | 80k                                  | 80k                                 |
++--------------------------+---------------------------+--------------------------------------+-------------------------------------+
+| contracted revenue split | 85:15                     | 85:15                                | 85:15                               |
++--------------------------+---------------------------+--------------------------------------+-------------------------------------+
+| contracted cap           | 130k                      | 130k                                 | 130k                                |
++--------------------------+---------------------------+--------------------------------------+-------------------------------------+
+| generated revenue        | 70k                       | 120k                                 | 270k                                |
++--------------------------+---------------------------+--------------------------------------+-------------------------------------+
+| asset owner earnings     | 80k (the floor)           | 102k (the 85% share)                 | 130k (the cap)                      |
++--------------------------+---------------------------+--------------------------------------+-------------------------------------+
+
+”If you seek guaranteed revenues with upside potential and are willing to accept a lower initial split, a floor is the way to go!”
+
+Andras Molnar
+
+Senior Business Development Expert
+
+[Andras Molnar]
+
+[floor price cap bess]
+
+Revenue scenarios for all models with varying optimization results for 1-hour BESS
+
+ 
+
+Tolling, fully merchant, and floor: an overview
+
++:-------------------:+:---------------------------------------------------------------------:+:-----------------------------------------------------------:+:---------------------------------------------------------:+:--------------------------------------------------------------:+
+|                     | tolling                                                               | fully merchant                                              | floor without cap                                         | floor with cap                                                 |
+|                     |                                                                       |                                                             |                                                           |                                                                |
+|                     | provides guaranteed and plannable revenues for stable project returns | allows to fully capture upside and maximize project returns | allows full upside participation with downside protection | allows efficient upside participation with downside protection |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| transparency        | n/a                                                                   | full transparency                                           | full transparency                                         | full transparency                                              |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| downside protection | full                                                                  | n/a                                                         | floor                                                     | floor                                                          |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| upside potential    | n/a                                                                   | unlimited                                                   | unlimited                                                 | capped                                                         |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| guarantee provision | included                                                              | n/a                                                         | revenue share above floor                                 | optimized revenue share between floor and cap                  |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| risk profile        | low                                                                   | exposed                                                     | low                                                       | low                                                            |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| optimization fee    | included                                                              | share from total revenue                                    | share from total revenue                                  | revenue share up to cap                                        |
++---------------------+-----------------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+
+ 
+
+ 
+
+Hybrid BESS revenue models
+
+If BESS and optimization parameters allow, a hybrid strategy could be applied to your use case. In a hybrid setup, the battery capacity is segmented and individually contracted. For example, a 10 MW battery can have half its capacity tolled and the other half fully merchant (with or without floor, with or without cap). The intention of this division is diversification. It caters to asset owners interested in merging varying risk and revenue profiles. As hybrid models are more complex to implement than standardized revenue forms, their qualification criteria are accordingly selective.
+
+ 
+
+Which revenue strategy suits your battery project?
+
+Informed BESS investment decisions require an understanding of available revenue models. Between tolling, fully merchant, floor, and hybrid strategies, project compatibility varies. Tolling offers plannable revenue and complete downside protection but lacks scalability. The fully merchant model has unlimited revenue potential but is mercilessly exposed to market volatility. Floor prices exhibit a significantly lower revenue split but provide a certain degree of revenue security with the added benefits of downside protection and upside potential. Hybrid options cannot be generalized – they are highly individual and must be assessed on a case-by-case basis.
+
+Due to the dynamic nature of the power market, it is advisable to future-proof BESS business cases for maximum revenue security. This crucial step helps secure project financing from the bank. Currently, the four most common metrics used for revenue assessment are bankable forecasts, backtests, battery index, and portfolio performance. These serve different purposes and give you an idea of a battery's earning potential, which is ultimately determined by your commercial strategy. In summary, your revenue model should be a sustainable compromise between your revenue expectations and risk appetite. 
+
+ 
+
+Are you interested in BESS optimization but struggle with financing?
+
+[Let's talk about your project]
+
+Related articles
+
+Visit the blog[]
+
+[Can you use an LLM to build a BESS optimization engine in-house?]
+
+Blog
+
+Trending topics
+
+Can you use an LLM to build a BESS optimization engine in-house?
+
+Given the complexity, data, and years of work behind reliable battery optimization, can you build your own engine with an LLM? Here's the reality check.
+
+NOV 10, 2026
+
+[Monthly BESS revenues and market trends, Q4 2026]
+
+Blog
+
+Market reports
+
+Monthly BESS revenues and market trends, Q4 2026
+
+Monthly updates about enspired's real BESS revenues and related developments in the European power market in Q4, 2026.
+
+NOV 9, 2026
+
+[Financing BESS with confidence]
+
+Blog
+
+Battery storage
+
+Financing BESS with confidence
+
+What banks and lenders should know about battery storage and available revenue models when making financing decisions for this asset class.
+
+SEP 7, 2026
+
+Newsletter
+
+Monthly BESS news straight to your inbox
+
+Join thousands of other industry experts and keep up to date with the latest energy news, market innovations, and tech insights!
+
+[]
+
+[Enspired]
+
+If you’re based in Austria, your contracting party for our services is enspired Trading GmbH. enspired GmbH is not the contracting entity for Austrian customer relationships.
+
+enspired GmbH
+Wagenseilgasse 3
+1120 Vienna, Austria
+
+Disclaimer: Some visuals on this website were created using AI.
+
+BESS
+
+R&D
+
+Industry insights
+
+About us
+
+Press
+
+[][]
+
+© 2026 enspired GmbH | All rights reserved
+
+Imprint |
+
+Privacy policy |
+
+Whistleblow |
+
+Trust center
+
+[] []

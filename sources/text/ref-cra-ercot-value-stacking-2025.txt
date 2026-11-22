@@ -1,0 +1,1319 @@
+Energy and ancillary services
+value stacking in ERCOT
+Historical performance comparison for
+flexible gas and battery technologies
+August 2025
+
+Energy and ancillary services value stacking in ERCOT
+
+Executive summary
+As the electric power markets undergo a significant transition towards intermittent generation in
+the face of growing demand, electric utilities, developers, and investors must understand the
+different value streams available to flexible resource additions, which are poised to grow
+significantly. In this paper, CRA evaluates the performance of six such flexible resources (three
+gas-fired and three battery storage), using historical energy and ancillary services data from the
+ERCOT market in its proprietary Energy Storage and Ancillary Service Optimization (ESOP) tool.
+Using sub-hourly price data across three historical years, the ESOP model analyzed potential cooptimization of dispatch in the energy and ancillary services markets across the 2021-2023 time
+period and within different discrete historical weather events. CRA’s analysis identified the
+following major conclusions:
+•
+
+•
+
+•
+
+•
+
+•
+
+Overall, the battery storage technologies were projected to generate higher levels of
+revenue, particularly due to their ability to take part in the ancillary service market when
+not actively charging and discharging. Roughly 33% of the storage technologies’ revenue
+was projected to come from the ancillary service market, with 60-65% projected to come
+from energy arbitrage.
+Meanwhile, the lion’s share (around 90%) of revenue for the natural gas-fired resources
+was projected to come from the energy market, and given lower ongoing fixed costs,
+natural gas resources were projected to generate greater value overall.
+During sustained periods of high prices (such as Winter Storm Uri in 2021), natural gas
+resources were projected to generate more revenue than batteries, assuming steady
+availability of fuel supplies. Batteries were at a disadvantage during the sustained high
+price period, as any charging they undertook was at extremely high prices. As such, the
+battery technologies would likely rely more heavily on ancillary services revenues during
+conditions when long-duration dispatchability is at a premium.
+During periods of volatile prices (such as the summer of 2022), both natural gas-fueled
+resources and battery resources were projected to generate the majority of their revenue
+from the energy market. Longer-duration battery storage resources showcased their
+greatest energy market revenue potential during such conditions.
+Resource options that offer modular block size additions can help optimize participation
+across multiple markets and minimize outage risks.
+
+Overall, while no single technology can offer every desired resource attribute, for a system that
+values a technology that can provide firm, reliable energy during prolonged periods of grid stress
+as well as a flexible and fast responding energy resource, RICE and other flexible gas resources
+will often provide the best value. A system that values operational flexibility and has a high level of
+intermittent generation that is misaligned with system demand, a battery option may provide higher
+value by allowing operators to be more active in ancillary service markets and take advantage of
+volatile price periods.
+
+www.crai.com
+
+2
+
+Energy and ancillary services value stacking in ERCOT
+
+Introduction
+The power generation sector has seen several seismic shifts in recent years: the large scale
+adoption of hydraulic fracturing technology and the subsequent sustained low gas prices; the
+growth of wind and solar generation from a fringe contributor into a major energy provider; the
+widespread retirement of coal resources; the rapid deployment of battery energy storage projects
+to supplement intermittent generation; and the ballooning growth of large data centers.
+This changing landscape has brought about a radical change in how systems are operated. The
+days of a simple resource stack of baseload, mid-merit, and peaking resources overlaid with a
+predictable load shape are long gone. Load serving entities must balance grid stability and
+reliability against the rapid penetration of intermittent generation (both utility scale and behind the
+meter), large load customers, and a diminished baseload generation fleet.
+As a larger portion of grid energy is subject to the uncertainties of wind and cloud cover, the
+importance of markets for ancillary services have grown, helping to incentivize flexible and fast
+response resources offering attributes that help maintain grid stability. This challenge can be met
+by load serving entities and market operators primarily in two ways: battery energy storage
+systems or fast response gas units.
+This analysis examines how these technologies would have historically performed in the Electric
+Reliability Council of Texas (ERCOT) West and ERCOT South energy and ancillary service
+markets from 2021-2023. It assesses the aggregate value these resources would have accrued
+over the examined period and explores performance during specific time periods that are
+representative of particular market conditions. This paper will lay out how these technologies
+create value, assess how they perform under various market conditions, and present qualitative
+considerations when comparing them.
+CRA deployed its proprietary Energy Storage and Ancillary Service Optimization model (ESOP) to
+carry out this analysis. ESOP is an asset valuation tool used to assess the performance of fastresponding resources in changing market conditions and scenarios. ESOP is an optimization
+model that computes revenues through participation of resources in real time and the ancillary
+services markets with five-minute level granularity. Given projections of energy and ancillary
+services prices, ESOP outputs optimal dispatch decisions for storage or other fast response
+resources (i.e., value stacking strategies) that are unique to (a) the resource’s technological
+characteristics, and (b) the regional market’s participation rules. Decisions include whether to
+discharge or charge and by how much, and whether to commit to participate in the energy or
+ancillary services markets.
+ESOP can represent a wide spectrum of fast-responding thermal and storage technologies with a
+set of parameters–ones that determine the resource performance in value stacking. These
+performance parameters depict the strengths and shortcomings of each type of technology, which
+shape unique strategies under the rules of different electric power markets and provide significant
+flexibility in modeling extant technologies. Optimal strategies can be used by investors to conduct
+financial calculations for near-term projects but can also support existing asset operators in realtime operations.
+
+www.crai.com
+
+3
+
+Energy and ancillary services value stacking in ERCOT
+
+Market context
+The ERCOT market is currently dominated by natural gas capacity, accounting for nearly 50% of
+installed capacity, as shown in Exhibit 1. However, as wind and solar installations have grown
+significantly over the last several years, battery storage additions have outpaced those of natural
+gas, with nearly 6 GW of new storage capacity added since 2021, compared to 3 GW of new gas,
+as illustrated in Exhibit 2. The latest interconnection queue for ERCOT tells an even starker story,
+with nearly all capacity either solar, wind, or storage; natural gas comprises a mere 5% of
+proposed capacity, as presented in Exhibit 3.
+Exhibit 1: Current Texas capacity mix
+
+2024 Texas Capacity (MW)
+Nuclear, 5,286 ,
+3%
+
+Coal,
+18,764 ,
+14%
+
+Solar,
+19,385 ,
+11%
+
+Wind, 41,133 ,
+24%
+Gas, 83,974 ,
+48%
+
+Battery Storage,
+5,901 , 3%
+
+Cumulative Incremental Capacity (MW)
+
+Exhibit 2: Recent ERCOT cumulative capacity additions
+6,000
+5,000
+4,000
+3,000
+
+2,000
+1,000
+2021
+
+2022
+Gas Generation
+
+www.crai.com
+
+2023
+
+2024
+
+Battery Storage
+
+4
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 3: 2024-2028 ERCOT queue capacity breakdown
+ERCOT Queue Additions 2024-28 (MW)
+17,051
+5%
+
+317
+
+GW
+
+140,624
+44%
+
+135,376
+43%
+
+23,740
+8%
+Solar
+
+Wind
+
+Battery Storage
+
+Gas
+
+Other
+
+It remains uncertain how much of the capacity currently awaiting in the queue will be built, but
+developers clearly see a strong value proposition for batteries in the ERCOT market. Strong
+battery storage growth has also been witnessed recently in two other major markets with high
+levels of intermittent renewable energy penetration: Australia and California.
+In Australia, the first large battery storage unit was constructed in Hornsdale, South Australia. Built
+in 2017, it is a Tesla, 150 MW/194 MWh lithium-ion facility. Initially, it generated most of its value
+through frequency support and other ancillary services; its fast response times proved superior to
+the older gas generators, which had previously served that market. It quickly captured more than
+half of the ancillary services market and reduced the cost for the frequency control product from
+$470/MWh to $40/MWh. Its operations brought the local ancillary services prices in line with the
+national energy market.
+Since Hornsdale’s success, more battery storage facilities have been developed in Australia. This
+influx of new capacity, coupled with growing intermittent renewable energy generation, has shifted
+battery value streams towards energy arbitrage. The frequency control market is only ~600 MW in
+size on average and there are now nearly 2 GW of utility-scale batteries that could be competing in
+that space, driving down prices. There has been a consequential shift of new battery facilities with
+multi-hour duration to better serve the arbitrage market.
+In California, the region’s immense solar capacity (both utility scale and behind the meter) has
+been both a blessing and curse for the grid. It is a source of low cost, carbon free energy, but
+when evening demand picks up, solar generation diminishes with the setting sun. This
+phenomenon creates what is referred to as a Duck Curve, due to the shape of the system’s net
+demand resembling a duck in the water (See Exhibit 4).
+
+www.crai.com
+
+5
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 4: Duck Curve
+
+Source: Synergy Electric Co-op
+
+The summer evening period, which sees a combination of strong demand and declining solar
+generation, creates a significant ramp need. Historically, that need has been met with energy
+imports and natural gas peakers. However, California has been rapidly increasing its battery
+capacity, growing from less than 1 GW in 2020, to over 10 GW in 2024. The result in this expansion
+has been a significant displacement of natural gas generation during the ramping period of the duck
+curve. A typical April over the past several years would see a peak natural gas generation level
+between 9-10 GW during the peak hour. In 2024, however, that value was reduced by half, to 5
+GW. With more batteries expected to be added to the California grid in the near future, this value
+could drop even further, especially as California moves towards a zero-carbon grid.
+In a rather short period of time, batteries proved to be disruptive to traditional power generators in
+these two markets. In Australia, frequency control service prices were reduced to the point that
+battery facilities transitioned to an energy arbitrage strategy for revenue. In California, the rapid
+proliferation of battery capacity has begun the process of forcing natural gas peakers out of the
+evening ramping market. With little to no end in sight for new batteries in this market, these trends
+will likely continue and serve as a window into the future for other markets such as ERCOT.
+
+ERCOT market analysis: Key input assumptions
+CRA’s analysis of the ERCOT market examined six different technologies with approximately 275
+MW of installed capacity each: three thermal peaking technology types and three battery storage
+technologies of different duration, as summarized in Exhibit 5. Key technology specifications
+include unit size, efficiency, variable operations and maintenance (VOM) costs, fixed operations
+and maintenance (FOM) costs, installed capital costs, flexibility to ramp capacity up or down, and
+storage duration and cycle limits for battery resources. From an overall cost perspective, it is
+important to note that battery technologies were assumed to receive a subsidy equivalent to 40%
+
+www.crai.com
+
+6
+
+Energy and ancillary services value stacking in ERCOT
+
+of their capital costs via the Investment Tax Credit (ITC).1 Natural gas fired plants were assumed to
+receive a subsidy amounting to $120/kW from the Texas Energy Fund.2 These subsidies are by no
+means certain their value has been tracked as a separate value stream.
+Exhibit 5: Technology specifications
+Unit
+
+RICE
+
+Aero
+CT
+
+Frame
+CT
+
+4-Hour
+Li-ion
+
+8 Hour
+Li-ion
+
+20 Hour Flow
+
+Unit Size
+
+MW
+
+25
+
+46.6
+
+288
+
+275
+
+275
+
+275
+
+Block Size
+
+# of units
+
+11
+
+6
+
+1
+
+1
+
+1
+
+1
+
+Block Size
+
+MW
+
+275
+
+279.6
+
+288
+
+275
+
+275
+
+275
+
+Unit
+Minimum
+Capacity
+
+MW
+
+2.5
+
+11.65
+
+144
+
+-
+
+-
+
+-
+
+Block
+Minimum
+Capacity
+
+%
+
+0.9%
+
+4.17%
+
+50%
+
+-
+
+-
+
+-
+
+Heat Rate
+
+MMBtu/
+MWh
+
+7,359
+
+9,386
+
+9,691
+
+-
+
+-
+
+-
+
+VOM
+
+$/MWh
+
+8.45
+
+5.89
+
+7.33
+
+-
+
+-
+
+-
+
+FOM
+
+$/kW-year
+
+15
+
+9.89
+
+26.99
+
+43.00
+
+76.86
+
+15.64
+
+Capital
+Costs
+
+$/kW
+
+1,250
+
+1,428
+
+867
+
+1,706
+
+3,070
+
+4,697
+
+Federal
+Subsidies
+
+$/kW-Year
+
+0
+
+0
+
+0
+
+40% ITC
+
+40% ITC
+
+40% ITC
+
+State
+Subsidies
+
+$/kW
+
+$80$120
+
+$80$120
+
+$80$120
+
+0
+
+0
+
+0
+
+Unit Ramp
+Rate
+
+MW/Minute
+
+12.5
+
+30
+
+23
+
+Instantaneous
+
+Instantaneous
+
+Instantaneous
+
+Min Up Time
+
+Hours
+
+0.083
+
+1
+
+2
+
+-
+
+-
+
+-
+
+Min Down
+Time
+
+Hours
+
+0.083
+
+1.1
+
+1.25
+
+-
+
+-
+
+-
+
+Battery
+Efficiency
+
+%
+Retained
+
+-
+
+-
+
+-
+
+85%
+
+85%
+
+70%
+
+Battery
+Duration
+
+Hours
+
+-
+
+-
+
+-
+
+4
+
+8
+
+20
+
+Cycles per
+year
+
+#
+
+-
+
+-
+
+-
+
+200
+
+200
+
+300
+
+Cycles per
+day
+
+#
+
+-
+
+-
+
+-
+
+Not restricted
+
+Not restricted
+
+Not restricted
+
+Resource
+
+www.crai.com
+
+1
+
+Note that the ITC is 30% for projects that meet prevailing wage and apprenticeship requirements, with an additional
+10% adder available for projects located in “energy communities,” regions in proximity to retired coal infrastructure or in
+areas with high levels of employment in the fossil fuel industry and unemployment rates higher than the national
+average. Texas has many qualifying energy communities, so it has been assumed that new storage resources can
+qualify for a 40% ITC.
+
+2
+
+Texas Senate Bill 2627 (SB2627) establishes a $7.2 billion low-interest loan program, also known as the Texas Energy
+Fund (TEF), for new or upgraded dispatchable generation resources of at least 100 MW. Texans voted to create the
+TEF through a constitutional election on November 7, 2023. The TEF will provide up to $5 billion of state funds for
+FY25-FY26, which will be eligible for natural gas generators.
+
+7
+
+Energy and ancillary services value stacking in ERCOT
+
+For natural gas prices for the thermal resources, CRA used both forward and spot gas prices for
+two ERCOT regions, as shown in Exhibit 6.
+Exhibit 6: Historic natural gas price
+
+Historical actual ERCOT ancillary service prices for responsive reserves and regulation up and
+down services were used, as shown in Exhibit 7, while historical 15-minute power prices for the
+ERCOT West and South regions were also used across the historical years of 2021, 2022, and
+2023, as shown in Exhibit 8.
+Exhibit 7: Historic ancillary service prices
+
+www.crai.com
+
+8
+
+Energy and ancillary services value stacking in ERCOT
+
+www.crai.com
+
+9
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 8: Historic 15-minute electricity prices
+
+www.crai.com
+
+10
+
+Energy and ancillary services value stacking in ERCOT
+
+Historical data considerations
+Due to extreme market conditions in February 2021, data from this month was ignored in the core
+value calculations. During this period, when Winter Storm Uri hit Texas, both power prices and
+ancillary service prices experienced sustained spikes. In the case of energy prices, the price cap
+($9,000/MWh) was reached for several consecutive days. Given these outlier conditions, and the
+fact that market reforms have been instituted in response, the conditions caused by Winter Storm
+Uri, and the resulting revenues and costs for candidate technology options, would not be indicative
+of technology value. However, the analysis separately examined how the various technologies
+behaved during this extreme event.
+
+Key findings and results
+Overall, the battery storage technologies were projected to generate higher levels of revenue.3
+Their ability to take part in the ancillary service market when not actively discharging allows them
+to capture more ancillary service value, while the lion’s share of revenue for the natural gas-fired
+resources was projected to come from the energy market. However, due to higher capital cost and
+fixed cost expectations, the battery resources were projected to generate lower total value. This is
+presented in Exhibit 9, which summarizes projected revenues and costs for the various 275 MW
+blocks of each technology option, and Exhibit 10 through Exhibit 15, which show the detailed
+revenue and cost components for each technology.
+
+3
+
+www.crai.com
+
+It should be noted the ESOP model assumes perfect foresight of market prices in terms of facility operations, and an
+actual plant operator would be unlikely to realize the full potential value, particularly given competitive dispatch and
+system operator calls within the ERCOT market. Nevertheless, the analysis can still provide a relative value comparison
+of the various technologies.
+
+11
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 9: Technology revenues and costs4
+
+4
+
+www.crai.com
+
+Millions $ - Net Revenue
+
+West 4Hour
+
+West 8Hour
+
+West 20Hour
+
+West RICE
+Spot
+
+West Frame
+Spot
+
+West
+Aero Spot
+
+2021
+
+-37.83
+
+-102.82
+
+-79.73
+
+-19.28
+
+-25.46
+
+-27.60
+
+2022
+
+-18.24
+
+-83.08
+
+-55.92
+
+13.93
+
+2.69
+
+-0.74
+
+2023
+
+14.26
+
+-49.12
+
+-24.46
+
+44.09
+
+39.45
+
+37.13
+
+Total
+
+-41.91
+
+-234.92
+
+-160.00
+
+38.75
+
+16.69
+
+8.79
+
+Millions $
+
+West 4Hour
+
+West 8Hour
+
+West 20Hour
+
+West RICE
+Spot
+
+West Frame
+Spot
+
+West Aero
+Spot
+
+Energy Revenue
+
+146.49
+
+187.64
+
+183.90
+
+234.68
+
+198.58
+
+205.07
+
+Reserve Revenue
+
+55.58
+
+48.82
+
+52.15
+
+18.75
+
+14.53
+
+20.06
+
+Reg Up Revenue
+
+34.23
+
+34.88
+
+35.29
+
+9.42
+
+5.97
+
+9.56
+
+Reg Down Revenue
+
+17.46
+
+18.29
+
+16.26
+
+2.23
+
+1.18
+
+2.06
+
+FOM Cost
+
+-137.96
+
+-246.59
+
+-50.18
+
+-48.13
+
+-82.68
+
+-57.90
+
+Fuel Cost
+
+0.00
+
+0.00
+
+0.00
+
+-68.61
+
+-52.76
+
+-59.57
+
+VOM Cost
+
+0.00
+
+0.00
+
+0.00
+
+-23.90
+
+-14.56
+
+-13.08
+
+Charging Cost
+
+-24.69
+
+-37.99
+
+-30.28
+
+0.00
+
+0.00
+
+0.00
+
+Capital Cost
+
+-166.51
+
+-299.64
+
+-458.38
+
+-94.78
+
+-62.77
+
+-106.50
+
+Subsidy
+
+33.49
+
+59.69
+
+91.23
+
+9.10
+
+9.10
+
+9.10
+
+Net Revenue
+
+-41.91
+
+-234.92
+
+-160.00
+
+38.75
+
+16.59
+
+8.79
+
+Across the board, the resources that operated in the West Zone generated slightly higher total value than those that
+operated in the South. Further, the natural gas resources that dispatched on spot gas prices instead of forwards,
+generated slightly higher value. The graphics showing technology revenues and costs for gas technologies will display
+the values for the West Zone and spot gas for simplicity. Results from the Southern Zone or using natural gas forwards
+resulted in total net revenues that were several million dollars below the West spot gas results.
+
+12
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 10: Detailed revenue and cost components for 4-Hour battery operating in
+ERCOT West
+
+Exhibit 11: Detailed revenue and cost components for 8-hour battery operating in
+ERCOT West
+
+www.crai.com
+
+13
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 12: Detailed revenue and cost components for 20-hour battery operating in
+ERCOT West
+
+Exhibit 13: Detailed revenue and cost components for RICE operating under West spot
+gas prices
+
+www.crai.com
+
+14
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 14: Detailed revenue and cost components for Aero operating under West spot
+gas prices
+
+Exhibit 15: Detailed revenue and cost components for Gas Frame operating under West
+spot gas prices
+
+For the most part, the natural gas fired technologies were projected to receive the vast majority of
+their revenue from the energy market, with ancillary revenue fluctuating between 0% and 20%
+over the years. This is shown in Exhibit 16 through Exhibit 18.
+
+www.crai.com
+
+15
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 16: RICE revenue share by market, under spot gas prices
+
+Exhibit 17: Frame revenue share by market, under spot gas price
+
+www.crai.com
+
+16
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 18: Aero revenue share by market, under spot gas price
+
+Battery technologies, however, were projected to have a more diverse revenue stream, with only
+60-65% of revenues coming from the energy market. This is in part due to batteries’ ability to
+provide ancillary services when not in a state of operation, providing a lower cost threshold to
+generate profit in these markets than a gas resource would. This flexibility allows batteries to be
+more active in ancillary markets. The battery technologies’ share of revenue is shown in Exhibit 19
+through Exhibit 21.
+Exhibit 19: 4-Hour battery revenue share by market, operation in ERCOT West
+
+www.crai.com
+
+17
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 20: 8-Hour battery revenue share by market, operation in ERCOT West
+
+Exhibit 21: 20-Hour battery revenue share by market, operation in ERCOT West
+
+Discrete event analysis
+CRA also examined revenue, cost, and total value projections for the six technologies analyzed
+during three weekly periods that represented significantly different market behavior:
+
+www.crai.com
+
+18
+
+Energy and ancillary services value stacking in ERCOT
+
+•
+•
+•
+
+February 2021: Winter Storm Uri, which resulted in sustained prices at or near the market
+price cap (see Exhibit 22).
+July 2022: A period with extreme spikes driven by hot weather, with lower price periods
+interspersed (See Exhibit 23).
+May 2023: A period with relatively stable prices (See Exhibit 24).
+
+Exhibit 22: February 2021 hourly energy prices for a week
+
+Exhibit 23: July 2022 hourly energy prices for a week
+
+www.crai.com
+
+19
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 24: May 2023 hourly energy prices for a week
+
+Extreme weather event: Winter Storm Uri (February 2021)
+Over this period of sustained high prices, the natural gas units were projected to generate more
+revenue and, after taking into account charging costs; VOM; fixed costs; capital costs; and fuel
+costs, slightly more net revenue (See Exhibit 25). Although facing high fuel costs, the units were
+still able to generate slightly more value. The vast majority of the revenue generated (~90%) came
+from energy sales. It is worth noting that to achieve this in the real world, these technologies would
+need access to a firm fuel supply. For example, in the event of natural gas supply issues, the
+resources’ ability to generate energy from non-pipeline fuels, such as ammonia and onsite fuel
+oil storage, would allow these technologies to perform even in harsh conditions such as Winter
+Storm Uri.
+Batteries were at a disadvantage during the sustained high price period, as any charging they
+undertook was at extremely high prices. As such, the battery technologies garnered most of their
+revenue (70-80%) from ancillary services. Instead of daily cycling, with the batteries nearly
+emptying during high price periods and charging during low price periods, the batteries did little
+charging during the sustained high price period and contented themselves with either meeting
+ancillary service demand or, in the case of the 20-hour battery, slowly drawing down its charge
+over the course of several days (See Exhibit 26).
+
+www.crai.com
+
+20
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 25: Net revenue by technology for February 2021 sample period
+
+Exhibit 26: Battery state of charge projection for February 2021 sample period
+
+Extreme weather event: July 2022
+During this period of volatile prices, both natural gas-fueled resources and battery resources were
+projected to generate the majority of their revenue from the energy market. The spikes in revenue
+generated by these technologies can be clearly seen aligning with energy price spikes, as shown
+in Exhibit 27, relative to the price behavior documented earlier in Exhibit 23. When all costs were
+
+www.crai.com
+
+21
+
+Energy and ancillary services value stacking in ERCOT
+
+taken into account, the 20-Hour battery generated the most value, followed by natural gas
+resources, and then the rest of the battery technologies.
+Battery storage technologies behaved in a more traditional manner during this period, charging
+and discharging in a regular pattern throughout the week, as shown in Exhibit 28.
+Exhibit 27: Net Revenue by Technology for July 2022 Sample Period
+
+Exhibit 28: Battery state of charge projection for July 2022 sample period
+
+www.crai.com
+
+22
+
+Energy and ancillary services value stacking in ERCOT
+
+Calm shoulder month period: Spring 2023
+This interval, representing a calm period of market prices, demonstrated that there can be
+durations of net loss for all technologies when fixed costs are taken into account (See Exhibit 29).
+The price differences over the week and ancillary service prices were insufficient for battery
+technologies to return positive value, even while active during this period (See Exhibit 30). Natural
+gas units’ lower FOM and capital costs reduce the financial downside of the technologies when
+energy margins are low. The negative trend of these technologies during this period are driven by
+capital and fixed costs.
+Exhibit 29: Net revenue by technology for May 2023 sample period
+
+www.crai.com
+
+23
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 30: Battery state of charge projection for May 2023 sample period
+
+Additional considerations
+Besides CRA’s quantitative analysis on the performance of these technologies, additional
+qualitative factors should be considered when evaluating various flexible natural gas-fueled and
+battery storage technologies:
+
+Resource block size
+Block size for natural gas technologies are quite important. To reach a size of ~275 MW, CRA
+modeled a facility consisting of eleven RICE units, a facility of six aero units, and a facility of only
+one frame unit. The smaller capacity size of RICE and aero units allowed them to achieve their
+maximum heat rate efficiency at lower capacity levels than the less expensive frame unit.
+Effectively, the RICE and aero facility would have a heat rate curve that achieves its most efficient
+level at a much lower energy capacity utilization.
+Additionally, the use of multiple smaller units mitigates forced outage risk. The loss of a RICE unit
+would diminish the effective capacity of a 275 MW RICE facility by only 9%. For an aero facility of
+a similar size, the loss of a unit would reduce effective capacity by ~17%. If a frame unit went
+offline, the full capacity would be unavailable for operations. Likewise, the distributed nature of
+smaller resources allows a facility to stage its maintenance cycles in a way that permits for
+significant portions of the facility to remain online and capable of operations.
+Finally, within the ERCOT system, bidding block size is set to 25 MW. Smaller resources allow a
+facility finer control over how it presents its resources to the market. Instead of committing the full
+capacity of a facility into the energy or ancillary services market, a RICE or an aero facility could
+commit some units to the energy market and others to the ancillary service market. The ESOP
+model assumes perfect knowledge of price formation, so the ability of operators without perfect
+
+www.crai.com
+
+24
+
+Energy and ancillary services value stacking in ERCOT
+
+foresight to hedge their facility’s commitments provides an advantage over large nameplate
+resources like a frame unit.
+
+Long-duration dispatchability during extreme events
+Winter Storm Uri demonstrated the need for reliable and resilient resources to maintain grid
+operations. Natural gas resources generally have the capacity to store and burn alternative fuels at
+their facilities, allowing for continued operations even in the event of natural gas supply
+disruptions. Storage technologies are net energy consumers, losing some energy in the
+charging/discharging process. During a period of tight energy supplies it may not be feasible to
+charge battery facilities. CRA’s analysis demonstrated that storage facilities are likely to be
+primarily serving the ancillary service market during a period of sustained prices at the market cap,
+with limited energy discharge into the system.
+As shown in Exhibit 31, over the course of the analysis, battery technologies frequently operated in
+a manner that left storage capacity at or below one hour of full discharge. 4-hour batteries were at
+or below one hour of full discharge in roughly 1 in 3 hours of the year. For the 8-hour battery this
+value was roughly 1 in 5 hours, and for the 20-hour battery 1 in 20 hours. For producing a
+sustained energy supply during periods of tight energy supplies, LDES or traditional generators are
+needed. Shorter duration storage resources will lack the storage reserves needed to weather the
+tight energy conditions. Even LDES, such as 20-hour battery storage facilities, will not be capable
+of contributing significant energy into the system for more than a day.
+Exhibit 31: Percentage of time battery storage units retained one hour of full discharge
+
+Future market considerations
+ISOs are considering or in the process of changing the capacity accreditation for generation
+technologies in their jurisdiction. The trend in these reassessments has been declining capacity
+accreditation for renewable technologies and shorter duration (4-hour and less) battery systems,
+www.crai.com
+
+25
+
+Energy and ancillary services value stacking in ERCOT
+
+especially as these technologies grow in their share of capacity. Traditional generators like gas
+turbines and engines maintain a high and steady capacity value under the new rules. Additionally,
+the presence on site fuel storage enhances these technologies’ capacity value as they would be
+capable of providing reliable energy supplies during periods of fuel supply interruptions.
+Many states and utilities have aggressive carbon emission targets. These targets are challenged
+by the rapid growth of data center demand in many localities and their near constant energy
+needs. To meet both new data center load and environmental targets, larger levels of renewable
+or carbon free energy is needed. Batteries’ ability to shift energy from surplus hours to higher
+demand hours (albeit at a loss) will assist in this transition, but only as facilitators of renewable
+generators. Absent surplus renewable generation, storage technologies may struggle to secure
+consistent, low-cost renewable energy from their system. New gas turbines and engines that are
+capable of burning carbon free fuels (such as ammonia) or hydrogen offer an alternative energy
+source to meet carbon free energy targets and growing data center demand with on demand
+generation capabilities.
+
+Conclusions
+CRA’s analysis demonstrated that the ERCOT market provides different value opportunities for
+different resource types. Overall, natural gas technologies offer lower fixed cost resources that can
+generate energy for extended periods of time, especially when paired with on-site alternative fuel
+storage. Meanwhile, storage technologies offer more flexibility for ancillary service market
+participation and can absorb energy during low price periods for use during higher priced periods.
+The analysis showed that, excluding February of 2021, roughly 33% of the storage technologies’
+revenue was projected to come from the ancillary service market compared to ~10% for gas
+technologies.
+For a system that values a technology that can provide firm, reliable energy during prolonged
+periods of grid stress as well a flexible and fast responding energy resource, RICE and other
+flexible gas resources provide the best value. Coupled with future clean fuel flexibility and durable
+capacity accreditation, these technology options offer a wide variety of long-term benefits to a
+system even in a carbon limited future.
+For a system that values operational flexibility and has a high level of intermittent generation that is
+misaligned with system demand, a battery option may provide higher value. Batteries allow
+operators to be more active in ancillary service markets and take more advantage of volatile price
+periods. However, ancillary service markets are at risk of over supply as more batteries are
+brought online, risking a repeat of the Australian experience where high levels of storage
+resources significantly diminished ancillary service product prices.
+Taking all revenue and cost streams into account the gas fired generators had a higher value
+compared to storage technologies over the analyzed period (2021-2023), with the RICE unit
+providing the highest value among the tested technologies.
+
+www.crai.com
+
+26
+
+Energy and ancillary services value stacking in ERCOT
+
+Exhibit 32: Technology revenues and costs
+Millions $ - Net
+Revenue
+
+West 4Hour
+
+West 8Hour
+
+West 20Hour
+
+West RICE
+Spot
+
+West Frame
+Spot
+
+West
+Aero Spot
+
+2021
+
+-37.83
+
+-102.82
+
+-79.73
+
+-19.28
+
+-25.46
+
+-27.60
+
+2022
+
+-18.24
+
+-83.08
+
+-55.92
+
+13.93
+
+2.69
+
+-0.74
+
+2023
+
+14.26
+
+-49.12
+
+-24.46
+
+44.09
+
+39.45
+
+37.13
+
+Total
+
+-41.91
+
+-234.92
+
+-160.00
+
+38.75
+
+16.69
+
+8.79
+
+About CRA’s Energy Practice
+Charles River Associates is a leading global consulting firm that offers strategic, economic, and
+financial expertise to major corporations and other businesses around the world. CRA’s Energy
+Practice provides services to a wide range of industry clients, including utilities, ISOs, RTOs, large
+customers, and investors. The Energy Practice has offices in Boston, New York City, Washington
+DC, Toronto, London, Houston, Los Angeles, Salt Lake City, Dusseldorf, and Munich. Learn more
+at www.crai.com/energy.
+
+Contacts
+Pat Augustine
+Vice President
+Washington, DC
++1-202-662-3831
+paugustine@crai.com
+
+Michael Korschek
+Associate Principal
+Washington, DC
++1-202-662-3835
+mkorschek@crai.com
+
+The conclusions set forth herein are based on independent research and publicly available material. The views
+expressed herein are the views and opinions of the authors and do not reflect or represent the views of Charles
+River Associates or any of the organizations with which the authors are affiliated. Any opinion expressed herein
+shall not amount to any form of guarantee that the author, Charles River Associates has determined or predicted
+future events or circumstances, and no such reliance may be inferred or implied. The authors, accept no duty of
+care or liability of any kind whatsoever to any party, and no responsibility for damages, if any, suffered by any party
+as a result of decisions made, or not made, or actions taken, or not taken, based on this paper. Detailed information
+about Charles River Associates, a tradename of CRA International, Inc., is available at www.crai.com.
+Copyright 2025 Charles River Associates
+
+www.crai.com
+
+27
+
+

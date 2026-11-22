@@ -1,0 +1,2644 @@
+PACIFICORP RFP-2009
+TOLLING AGREEMENT
+dated as of [_______________], 2006,
+BETWEEN
+[Bidder # [●] ],
+as Seller,
+AND
+PACIFICORP,
+as Buyer
+
+[_________________________ Project]
+[__________, [State]]
+
+TABLE OF CONTENTS
+Page
+SECTION 1 DEFINITIONS; RULES OF INTERPRETATION ............................................ 2
+1.1
+Defined Terms .........................................................................................................2
+1.2
+Rules of Interpretation ...........................................................................................12
+SECTION 2 TERM; COMMENCEMENT OF OPERATION .............................................. 13
+2.1
+Term .......................................................................................................................13
+2.2
+Milestones ..............................................................................................................13
+2.3
+Daily Delay Damages ............................................................................................15
+2.4
+Damages Invoicing ................................................................................................15
+2.5
+Buyer’s Right to Monitor .......................................................................................16
+SECTION 3 REPRESENTATIONS AND WARRANTIES ................................................... 17
+3.1
+Buyer’s Representations and Warranties ...............................................................17
+3.2
+Seller’s Representations and Warranties ...............................................................17
+3.3
+Notice .....................................................................................................................20
+SECTION 4 SALE AND PURCHASE OBLIGATIONS ........................................................ 20
+4.1
+Sale and Purchase of Contract Capacity, Capacity Rights, Net Energy and
+Ancillary Services ..................................................................................................20
+4.2
+Deliveries; Title and Risk of Loss .........................................................................21
+4.3
+Dispatching Deliveries from the Contract Capacity versus the Remaining
+Capacity .................................................................................................................22
+4.4
+Curtailment Due to Failure to Comply with Interconnection Agreement .............22
+4.5
+Sale of Test Energy ................................................................................................22
+SECTION 5 PAYMENTS; COSTS........................................................................................... 23
+5.1
+Capacity Payments .................................................................................................23
+5.2
+Energy Payment .....................................................................................................25
+5.3
+Test Energy ............................................................................................................25
+5.4
+Costs and Charges ..................................................................................................25
+5.5
+Station Service .......................................................................................................25
+SECTION 6 OPERATION AND CONTROL ......................................................................... 26
+6.1
+As-Built Supplement ..............................................................................................26
+6.2
+Measurement and Quality of Net Energy ..............................................................26
+6.3
+Standard of Facility Operation ...............................................................................26
+6.4
+Operating Procedures and Compliance..................................................................27
+6.5
+Scheduling Procedures ...........................................................................................29
+6.6
+Outages ..................................................................................................................33
+6.7
+Schedule Coordination ...........................................................................................34
+6.8
+Electronic Communications ...................................................................................34
+6.9
+Reports and Records ..............................................................................................35
+6.10 Access Rights .........................................................................................................36
+i
+
+6.11
+6.12
+6.13
+
+EWG ......................................................................................................................37
+Facility Images .......................................................................................................37
+Financial and Accounting Information ..................................................................37
+
+SECTION 7 SECURITY AND CREDIT SUPPORT .............................................................. 37
+7.1
+Credit Support ........................................................................................................37
+7.2
+Subordinated Security Interests .............................................................................38
+7.3
+Quarterly Financial Statements ..............................................................................39
+7.4
+Security is Not a Limit on Seller’s Liability ..........................................................39
+7.5
+Escrow Account .....................................................................................................39
+SECTION 8 METERING .......................................................................................................... 39
+8.1
+Net Energy .............................................................................................................39
+8.2
+Records ..................................................................................................................41
+8.3
+Adjustment to Loss Factors ...................................................................................41
+SECTION 9 BILLINGS, COMPUTATIONS AND PAYMENTS ......................................... 42
+9.1
+Monthly Invoices ...................................................................................................42
+9.2
+Offsets ....................................................................................................................42
+9.3
+Interest on Late Payments ......................................................................................42
+9.4
+Disputed Amounts .................................................................................................42
+9.5
+Audit Rights ...........................................................................................................42
+SECTION 10 DEFAULTS AND REMEDIES ......................................................................... 43
+10.1 Defaults ..................................................................................................................43
+10.2 Termination and Remedies ....................................................................................44
+10.3 Specific Performance .............................................................................................45
+10.4 Failure to Meet Availability ...................................................................................45
+10.5 License to Operate Facility ....................................................................................45
+10.6 Termination of Duty to Buy...................................................................................46
+10.7 Net Replacement Power Costs ...............................................................................46
+10.8 Default Security .....................................................................................................46
+10.9 Cumulative Remedies ............................................................................................46
+SECTION 11 INDEMNIFICATION AND LIABILITY ........................................................ 46
+11.1 Indemnities .............................................................................................................46
+11.2 No Dedication ........................................................................................................47
+11.3 Consequential Damages.......................................................................................47
+SECTION 12 INSURANCE ....................................................................................................... 47
+12.1 Required Policies and Coverages...........................................................................47
+12.2 Certificates and Certified Copies of Policies .........................................................47
+SECTION 13 FORCE MAJEURE ............................................................................................ 47
+13.1 Definition of Force Majeure ..................................................................................47
+13.2 Suspension of Performance....................................................................................48
+13.3 Force Majeure Does Not Affect Other Obligations ...............................................48
+
+ii
+
+13.4
+
+Right to Terminate .................................................................................................48
+
+SECTION 14 CONFIDENTIALITY ........................................................................................ 48
+14.1 Confidential Business Information ........................................................................48
+14.2 Duty to Maintain Confidentiality ...........................................................................48
+14.3 Irreparable Injury; Remedies .................................................................................49
+14.4 News Releases and Publicity .................................................................................49
+SECTION 15 DISAGREEMENTS ........................................................................................... 49
+15.1 Negotiations ...........................................................................................................49
+15.2 Mediation ...............................................................................................................49
+15.3 Choice of Forum ....................................................................................................51
+15.4 Settlement Discussions ..........................................................................................51
+15.5 Waiver of Jury Trial ...............................................................................................51
+15.6 Equitable Remedies ...............................................................................................52
+SECTION 16 GUARANTEED PERFORMANCE PARAMETERS .................................... 52
+16.1 Guaranteed Heat Rate ............................................................................................52
+16.2 Guaranteed Start-Up Time .....................................................................................52
+16.3 Guaranteed Ramp Rate ..........................................................................................52
+SECTION 17 MISCELLANEOUS ........................................................................................... 52
+17.1 Several Obligations ................................................................................................52
+17.2 Choice of Law ........................................................................................................52
+17.3 Partial Invalidity.....................................................................................................52
+17.4 Waiver ....................................................................................................................53
+17.5 Governmental Jurisdiction and Authorizations .....................................................53
+17.6 Restriction on Assignments ...................................................................................53
+17.7 Permitted Assignments ..........................................................................................53
+17.8 Entire Agreement ...................................................................................................53
+17.9 Amendments ..........................................................................................................53
+17.10 No Third Party Beneficiaries .................................................................................53
+17.11 Agents and Subcontractors ....................................................................................53
+17.12 Notices ...................................................................................................................53
+17.13 Mobile-Sierra .........................................................................................................54
+17.14 Counterparts ...........................................................................................................55
+
+iii
+
+EXHIBITS:
+Exhibit A
+Exhibit B
+Exhibit C
+Exhibit D
+Exhibit E
+Exhibit F
+Exhibit G
+Exhibit H
+Exhibit I
+Exhibit J
+Exhibit K
+Exhibit L
+Exhibit M
+Exhibit N
+Exhibit O
+Exhibit P
+Exhibit Q
+Exhibit R
+Exhibit S
+Exhibit T
+
+Description of Seller’s Facility
+Electricity Delivery Point/Electrical Interconnection Facilities
+Required Facility Documents
+Hourly Scalars
+Start-Up Testing
+Variable Energy Payment
+Examples
+Event Types
+Major Equipment and Maintenance Schedule
+Required Insurance
+Operating Procedures
+Availability Notice
+Ambient Facility Capacity Correction Algorithms
+Buyer’s Initial Designated Representatives
+Fuel Specifications and Fuel Delivery Point
+Dispatch Procedures
+Net Energy Specifications and Dispatchable Quantities of Net Energy
+Guaranteed Performance Parameters; Baseload Heat Rates, Peakload Heat Rates
+and Simple Cycle Heat Rates
+Dispatch Notice
+Credit Matrix [Note to bidders: Credit Matrix attached as Appendix B to RFP
+2009]
+
+iv
+
+THIS WORKING DRAFT DOES NOT CONSTITUTE A BINDING OFFER, SHALL NOT FORM THE BASIS FOR
+AN AGREEMENT BY ESTOPPEL OR OTHERWISE, AND IS CONDITIONED UPON SELECTION OF THE
+BIDDER, EXECUTION, AND EACH PARTY’S RECEIPT OF ALL REQUIRED MANAGEMENT AND BOARD
+APPROVALS IN THEIR SOLE AND ABSOLUTE DISCRETION (INCLUDING FINAL CREDIT AND LEGAL
+APPROVALS). ANY ACTIONS TAKEN BY A PARTY IN RELIANCE ON THE TERMS SET FORTH IN THIS
+WORKING DRAFT OR ON STATEMENTS MADE DURING NEGOTIATIONS RELATING TO THIS WORKING
+DRAFT SHALL BE AT THAT PARTY’S OWN RISK. UNTIL THIS WORKING DRAFT IS NEGOTIATED,
+APPROVED BY ALL APPROPRIATE PARTIES AND EXECUTED BY EACH PARTY’S AUTHORIZED
+SIGNATORY, NO PARTY SHALL HAVE ANY LEGAL OBLIGATIONS, EXPRESSED OR IMPLIED, OR ARISING
+IN ANY OTHER MANNER UNDER THIS WORKING DRAFT OR IN THE COURSE OF NEGOTIATIONS. ANY
+ASSERTION TO THE CONTRARY IN ANY PROCEEDING OR ACTION REGARDING THIS WORKING DRAFT
+SHALL RENDER THIS WORKING DRAFT NULL AND VOID IN ITS ENTIRETY. DURING DISCUSSIONS AND
+NEGOTIATIONS ANY PARTY MAY CHANGE ITS POSITION ON ANY MATTER, WHETHER OR NOT SET
+FORTH IN OR BASED UPON THIS WORKING DRAFT, ANY OTHER DOCUMENT OR ANY COURSE OF
+DEALING, AT ANY TIME OR FOR ANY REASON.
+
+TOLLING AGREEMENT
+THIS TOLLING AGREEMENT dated as of [__________], 2006 (this “Agreement”), is
+made and entered into between [__________], a [describe entity] (“Seller”), and PacifiCorp, an
+Oregon corporation (“Buyer”). Seller and Buyer are referred to collectively as the “Parties” and
+individually as a “Party.”
+RECITALS
+A.
+Seller intends to develop, construct, own, operate and maintain a natural gas
+fueled, combined cycle electric generation facility [consisting of [ ● ] combustion turbines -insert further description] for the generation of electric energy located in [township/range],
+[__________] County, [State], whose initial Facility Capacity shall be [525] MW (as more fully
+described in Exhibit A, the “Facility”).
+B.
+Seller responded to a Request for Proposals − PacifiCorp RFP 2009 which was
+issued by Buyer in September 2005. Buyer’s objective in issuing the RFP was to fulfill, through
+a competitive bid process, a portion of its supply-side resource need as contemplated in Buyer’s
+2004 Integrated Resource Plan.
+C.
+Buyer’s selection of Seller was based upon a competitive bid and was, in part,
+based upon Seller’s representations and warranties, Seller’s schedule achieving the Guaranteed
+Commercial Operation Date (initially capitalized terms not defined in these Recitals are defined
+in Section 1 below), and the guaranteed performance of the Facility, all as set forth herein. Such
+matters were a material inducement for the selection of Seller, and Seller’s failure to perform in
+accordance with the terms and conditions or Seller’s failure to meet its representations and
+warranties and schedules for delivery of Net Energy shall cause material damage to Buyer.
+
+10875865v7
+
+D.
+Seller will make available and sell to Buyer, and Buyer will receive and purchase
+from Seller, Contract Capacity and Net Energy associated with such Contract Capacity pursuant
+to the terms and conditions of this Agreement. Seller acknowledges that Buyer will include such
+Contract Capacity in Buyer’s resource planning.
+AGREEMENT
+NOW, THEREFORE, in consideration of the mutual covenants and agreements set forth
+below, the Parties agree as follows:
+SECTION 1
+DEFINITIONS; RULES OF INTERPRETATION
+1.1
+Defined Terms. Unless otherwise required by the context in which any term
+appears, defined terms used in this Agreement (as indicated by initial capitalization, except as
+otherwise provided in this Section 1.1) shall have the following meanings:
+“AAA” has the meaning set forth in Section 15.2.
+“Affiliate” means, with respect to any entity, each entity that directly or indirectly,
+controls or is controlled by or is under common control with such designated entity. For
+purposes of this definition, “control” (including, with correlative meanings, the terms “controlled
+by” and “under common control with”), as used with respect to any entity, shall mean the
+possession, directly or indirectly, of the power to direct or cause the direction of the management
+and policies of such entity, whether through the ownership of voting securities or by contract or
+otherwise.
+“Alternate Representative” has the meaning set forth in Section 6.4.2.
+“Ambient Facility Capacity” means the Contract Capacity determined from the
+correction algorithms set forth in Exhibit M, based upon the Facility Capacity and the ambient
+conditions in effect in each hour.
+“Ancillary Services” means those services and energy from time to time now or
+hereafter available that are necessary to support the Contract Capacity and transmission of
+energy from resources to loads while maintaining reliable operation of the System in accordance
+with Prudent Electrical Practices. Such services and energy include regulation reserve, spinning
+reserve, non-spinning reserve, voltage support, black start Capacity, and reactive power.
+“As-built Supplement” shall be a supplement to Exhibit A that describes the Facility as
+actually built and shall include all such information as may reasonably be requested by Buyer.
+“Authorized Representative” has the meaning set forth in Section 6.4.2
+“Availability Notice” has the meaning set forth in Section 6.5.1.1.
+
+2
+
+“Baseload Capacity” means the Capacity of the Facility achieved when operating at the
+Reference Conditions with all items of Major Equipment operating at full load, but without duct
+firing.
+“Baseload Fuel Supply Requirement” means, with respect to any Day, the product of
+the applicable Baseload Heat Rate multiplied by the quantity of Net Energy, or equivalent
+quantity of Ancillary Services, to be delivered from the Baseload Capacity component of the
+Contract Capacity.
+“Baseload Heat Rate” has the meaning set forth in Section 6.5.3.8.
+“Business Day” means any day on which banks in Portland, Oregon are not authorized or
+required by Requirements of Law to be closed, beginning at 6:00 a.m. and ending at 5:00 p.m.
+local time in Oregon.
+“Btu’s” means British Thermal Units.
+“Buyer” has the meaning set forth in the Preamble.
+“CAF h ” has the meaning set forth in Section 5.1.2.
+“CAF m ” has the meaning set forth in Section 5.1.2.
+“Capacity” means the output potential a machine or system can produce under specified
+conditions as generally expressed in kW or MW.
+“Capacity Payment” means the Monthly Capacity Payments and the Minimum Monthly
+Capacity Payments payable in accordance with Section 5.1.
+“Capacity Payment Rate” means, as of the Commercial Operation Date,
+$[●]/kW/month.
+“Capacity Payment Shortfall” has the meaning set forth in Section 5.1.4.
+“Capacity Rights” means any current or future defined characteristic, certificate, tag,
+credit, ancillary service attribute, or accounting construct, including any accounting construct
+counted towards any current or future resource adequacy or reserve requirements, associated
+with the Capacity of the Facility or the Facility’s capability and ability to produce energy, but
+excluding any of the foregoing attributable to any expansion of the Facility occurring after the
+Commercial Operation Date, unless the output associated therewith is purchased by Buyer.
+“Carry-Over Letter of Credit” has the meaning set forth in Section 5.1.4.
+“Cash Escrow” means an escrow account established by Buyer in a commercial bank or
+trust company organized under the laws of the United States of America or a political
+subdivision thereof, whose long-term senior unsecured debt is rated at least “A” by S&P or “A2”
+by Moody’s. Cash deposited to the escrow account shall earn interest at the rate applicable to
+money market deposits at the banking institution from time to time, and the interest shall be
+
+3
+
+retained in the escrow account as additional security for Seller’s performance under this
+Agreement.
+“CC” has the meaning set forth in Section 5.1.2.
+“Collateral” has the meaning set forth in Section 7.5
+“Combustion Turbine” or “CT” means any one of the combustion turbines comprising
+the Facility.
+“Commercial Operation Date” means the date on which the Facility is fully
+operational, reliable and each condition set forth in Section 2.2.6 is satisfied.
+“Contract Capacity” means [525] MW of Capacity from the Facility, comprised of [●]
+MW of Baseload Capacity and [●] MW of Peakload Capacity.
+“Contract Year” means a twelve (12) month period commencing at 00:00 hours on
+January 1 and ending on 24:00 hours on December 31; provided, however, that the first Contract
+Year shall commence on the Commercial Operation Date and end on the next succeeding
+December 31, and the last Contract Year shall end on the last Day of the Term.
+“CPR” has the meaning set forth in Section 5.1.2.
+“CPS” has the meaning set forth in Section 5.1.2.
+“Credit Matrix” means the credit matrix attached hereto as Exhibit T.
+“Credit Rating” means, as of any date, the then applicable senior, unsecured, long-term
+debt or corporate credit rating of a Person published by either Moody’s or S&P.
+“Credit Support” means, prior to the Commercial Operation Date, the amount (if any)
+shown as the Project Development Security on the Credit Matrix and, on and after the
+Commercial Operation Date, the amount (if any) shown on the Credit Matrix as the Default
+Security.
+“Credit Support Security” means a guaranty, Letter of Credit or Cash Escrow provided
+pursuant to Section 7.1.
+“CT Start” means the process of rotating any of the Facility’s Combustion Turbine
+rotors by means of such Combustion Turbine’s starting motor and subsequently introducing and
+igniting Fuel in the Combustion Turbine’s combustor and increasing the rotating speed of the
+unit’s rotor sufficiently that the starting motor can be disengaged, also referred to herein as the
+Start-Up of a Combustion Turbine.
+“Daily Delay Damages” for each Day shall be equal to the product of (1) the Dow
+JonesTM SP15 Firm On-peak Index (or if on a Sunday or a NERC holiday, the 24-hour firm
+index) for such Day, expressed in $/MWh, multiplied by (2) the applicable hourly scalar set forth
+in Exhibit D for the hours ending 0700 − 2200 Pacific Prevailing Time, seven (7) days a week,
+
+4
+
+including NERC holidays (each such hour, an “On-Peak Hour”) during such Day, multiplied by
+(3) the loss factor of 1.112, plus (4) the basis of $13/MWh for each On-Peak Hour or portion
+thereof during such Day, minus (5) the market price at the Fuel Delivery Point of the Fuel that
+would have been required to generate all Net Energy attributable to the Contract Capacity during
+each On-Peak Hour in such Day using the Guaranteed Heat Rate. The market price of Fuel at
+the Fuel Delivery Point will be determined by Buyer using any commercially reasonable method.
+If the Dow JonesTM SP15 Firm On-peak Index ceases to be published during the Term, Buyer
+shall select as a replacement electricity price index or component, an index acceptable to Buyer
+in its discretion that, after any necessary adjustments, provides the most reasonable substitute
+quotation of the daily price of firm on-peak energy at SP15 for the applicable periods.
+“Day” means the 24-hour period beginning at midnight Pacific Prevailing Time on a day
+and ending at midnight Pacific Prevailing Time on the next succeeding day.
+“Dispatch,” “Dispatched,” and “Dispatching” means the scheduling and control by the
+Buyer of Net Energy, through submittal of schedules pursuant to the Dispatch Procedures and
+other provisions of this Agreement.
+“Dispatch Procedures” means the procedures under which Buyer is entitled to Dispatch
+the Facility, as set forth in Exhibit P.
+“Dollar” or “$” means the lawful currency of the United States of America.
+“Effective Date” has the meaning set forth in Section 2.1.
+“Electrical Interconnection Facilities” means all the facilities installed by Seller for the
+purpose of interconnecting the Facility to the Electricity Delivery Point, including electrical
+transmission lines, upgrades, transformers and associated equipment, substations, relay and
+switching equipment, and safety equipment, as set forth in Exhibit B.
+“Electricity Delivery Point” means the physical point(s) for Seller’s delivery, and
+Buyer’s receipt, of Net Energy at which the Facility is connected with the Transmission
+Provider’s transmission system, as specified in the Interconnection Agreement and in Exhibit B.
+[Note to Bidders: If energy is to be delivered to a transmission provider other than the
+Transmission Provider and wheeled to the Electricity Delivery Point, the Electricity Delivery
+Point will be at a point of interconnection with the Transmission Provider’s transmission
+system where the resource can be integrated as a Network Resource.]
+“Electric Metering Equipment” has the meaning set forth in Section 8.1.
+“Environmental Law” means any federal, state or local law including statutes,
+regulations, rulings, orders, administrative interpretations and other governmental restrictions
+and requirements having the force and effect of law relating to (i) the discharge or disposal of
+any substance into the air, soil or water, including pollutants, water pollutants or process waste
+water, (ii) storage, emissions transportation or disposal of any Regulated Material, (iii) the
+environment or hazardous substances, all as amended from time to time, (iv) land use
+requirements pertaining to Regulated Materials, including laws requiring environmental impact
+
+5
+
+studies or other similar evaluations, and (v) environmental issues pertaining to the development,
+construction, operation or maintenance of the Facility.
+“Event of Default” has the meaning set forth in Section 10.1.
+“EWG” means an “exempt wholesale generator,” as defined under the Public Utility
+Holding Company Act of 1935, as amended from time to time.
+“Example” means an example set forth in Exhibit G. Each Example is for purposes of
+illustration only and is not intended to constitute a representation, warranty or covenant
+concerning the matters assumed for purposes of each Example. If there is a conflict between an
+Example and the text of this Agreement, the text shall control.
+“Excused Outage” has the meaning set forth in Section 5.1.2.
+“Facility” shall have the meaning given to that term in Recital A.
+“Facility Capacity” means the maximum Capacity of the Facility, expressed in MW,
+when operated consistent with the manufacturer’s recommended power factor and operating
+parameters, as set forth in Exhibit A.
+“FERC” means the Federal Energy Regulatory Commission.
+“FIN 46” has the meaning set forth in Section 6.13.
+“Force Majeure” has the meaning set forth in Section 13.1.
+“Forced Outage” means NERC Event Types U1, U2 and U3, as set forth in Exhibit H.
+“Fuel” means natural gas meeting the specifications set forth in Exhibit O.
+“Fuel Delivery Point” means the point at which Fuel is delivered from [_________] to
+the Facility, as specified in Exhibit O.
+“Fuel Metering Point” means the delivery point specified in Exhibit O.
+“Fuel Supply Requirement” means, for any Day, the sum, without duplication, of (i) the
+Start-Up Fuel Quantity for each Start-Up that occurs during such Day and (ii) the Operating Fuel
+Quantity for such Day.
+“Fuel Transporter” means the pipeline company selected by Buyer to transport the Fuel
+to the Facility.
+“Governmental Authority” means any supranational, federal, state or other political
+subdivision thereof, having jurisdiction over Seller, Buyer or this Agreement, including any
+municipality, township and county, and any entity exercising executive, legislative, judicial,
+regulatory or administrative functions of or pertaining to government, including any corporation
+or other entity owned or controlled by any of the foregoing.
+
+6
+
+“Guaranteed Commercial Operation Date” means June 1, 2009.
+“Guaranteed Heat Rate” has the meaning assigned to such term in Exhibit R.
+“Guaranteed Ramp Rate” has the meaning set forth in Exhibit R.
+“Guaranteed Start-Up Time” has the meaning set forth in Exhibit R.
+“Heat Rate” means the number of Btu’s used to produce one MW of energy measured at
+the Electricity Delivery Point.
+“Interconnection Agreement” means the agreement to be entered into separately
+between Seller and Transmission Provider providing for the construction and operation of the
+Electrical Interconnection Facilities.
+“Letter of Credit” means an irrevocable standby letter of credit in form and substance
+acceptable to Buyer in its discretion, naming Buyer as the party entitled to demand payment and
+present draw requests thereunder, which letter of credit:
+(1)
+is issued by a U.S. commercial bank or a foreign bank with a U.S. branch,
+with such bank having a net worth of at least $1,000,000,000 and a Credit Rating of:
+(a)
+
+“A2” or higher from Moody’s; or
+
+(b)
+
+“A” or higher from S&P;
+
+(2)
+on the terms provided in the letter of credit, permits Buyer to draw up to
+the face amount thereof for the purpose of paying any and all amounts owing by Seller
+hereunder;
+(3)
+if a letter of credit is issued by a foreign bank with a U.S. branch, permits
+Buyer to draw upon a U.S. branch;
+(4)
+permits Buyer to draw the entire amount available thereunder if such letter
+of credit is not renewed or replaced at least thirty (30) Business Days prior to its stated
+expiration date;
+(5)
+permits Buyer to draw the entire amount available thereunder if such letter
+of credit is not increased, replaced or replenished as and when provided in Section 7;
+(6)
+is transferable by Buyer to any party to which Buyer may assign this
+Agreement under Section 17.7; and
+(7)
+
+shall remain in effect for at least ninety (90) days after the end of the
+
+Term.
+“Licensed Professional Engineer” means a person acceptable to Buyer in its reasonable
+judgment who (i) is licensed to practice engineering in the state in which the Facility is located,
+(ii) has training and experience in the engineering discipline(s) relevant to the matters with
+7
+
+respect to which such person is called upon to provide a certification, evaluation or opinion,
+(iii) has no economic relationship, association, or nexus with Seller, (iv) is not a representative of
+a consulting engineer, contractor, designer or other individual involved in the development of the
+Facility, or of a manufacturer or supplier of any equipment installed in the Facility, (v) is
+engaged by Seller on terms reasonably acceptable to Buyer, (vi) has its fees paid for by Seller,
+and (vii) is licensed in an appropriate engineering discipline for the required certification being
+made. The engagement and payment of a Licensed Professional Engineer solely to provide the
+certifications, evaluations and opinions required by this Agreement shall not constitute a
+prohibited economic relationship, association or nexus with Seller, so long as such engineer has
+no other economic relationship, association or nexus with Seller.
+“MAAF” has the meaning set forth in Section 5.1.2.
+“Maintenance Outage” means NERC Event Type MO, as set forth in Exhibit H.
+“Major Equipment” has the meaning set forth in Exhibit I.
+“Major Maintenance Cycle” means, with respect to each item of Major Equipment, the
+period of time specified therefor in Exhibit I.
+“Mediation Notice” has the meaning set forth in Section 15.2.1.
+“Minimum Monthly Capacity Payment” has the meaning set forth in Section 5.1.3.
+“Monthly Capacity Payment” has the meaning set forth in Section 5.1.2.
+“Moody’s” shall mean Moody’s Investor Services, Inc.
+“MW” means megawatt.
+“MWh” means megawatt hour.
+“NERC” means the North American Electric Reliability Council.
+“Net Energy” means, for any period, the energy output of the Facility delivered to Buyer
+at the Electricity Delivery Point pursuant to Buyer’s Dispatch of the Facility of a quantity in
+MWh not to exceed that associated with Contract Capacity, as measured pursuant to Section 8,
+less station use and less transformation and transmission losses to the Electricity Delivery Point.
+“Network Resource” means a generation resource which has been fully integrated into
+the System.
+“Notifying Party” has the meaning set forth in Section 8.2.
+“Operating Fuel Quantity” means, with respect to any hour, the sum of (i) any Baseload
+Fuel Supply Requirements, (ii) any Peakload Fuel Supply Requirement, and (iii) any Simple
+Cycle Fuel Requirements.
+“Operating Procedures” are set out in Exhibit K.
+8
+
+“Pacific Prevailing Time” means Pacific Standard Time or Pacific Daylight Time, as
+applicable on the Day in question.
+“Party” has the meaning set forth in the Preamble.
+“Peakload Capacity” means incremental Capacity, in excess of the Baseload Capacity,
+which is generated by the Facility utilizing duct firing.
+“Peakload Fuel Supply Requirement” means with respect to any Day, the product of
+the applicable Peakload Heat Rate multiplied by the quantity Net Energy, or equivalent quantity
+of Ancillary Services, to be delivered from the Peakload Capacity component of the Contract
+Capacity.
+“Peakload Heat Rate” has the meaning set forth in Section 6.5.3.8.
+“Permits” means all permits, licenses, approvals, certificates, entitlements and other
+authorizations issued by Governmental Authorities required for the development, construction,
+ownership, operation and maintenance of the Facility, and all amendments, modifications,
+supplements, general conditions and addenda thereto.
+“Person” means any individual, entity, corporation, general or limited partnership,
+limited liability company, joint venture, estate, trust, association or other entity or governmental
+authority.
+“Planned Outage” means NERC Event Type PO, as set forth on Exhibit H.
+“Pledge Interest” has the meaning set forth in Section 7.2.2.
+“Potential Event of Default” means an event which, but for the passing of time or the
+giving of notice or both, would constitute an Event of Default.
+“Premises” means the real property on which the Facility is or will be located, as more
+fully described on Exhibit A.
+“Prime Rate” means the rate per annum equal to the publicly announced prime rate or
+reference rate for commercial loans to large businesses in effect from time to time quoted by
+Citibank, N.A. If a Citibank, N.A. prime rate is not available, the applicable Prime Rate shall be
+the announced prime rate or reference rate for commercial loans in effect from time to time
+quoted by a bank with $10 billion or more in assets in New York City, N.Y., selected by the
+Party to whom interest based on the prime rate is being paid.
+“Protective Apparatus” means such equipment and apparatus, including protective
+relays, circuit breakers and the like, necessary or appropriate to isolate the Facility from the
+System consistent with Prudent Electrical Practices.
+“Prudent Electrical Practices” means any of the practices, methods and acts engaged in
+or approved by a significant portion of the electrical utility industry or any of the practices,
+methods or acts for gas fired, combined cycle electric generation facilities, which, in the exercise
+
+9
+
+of reasonable judgment in the light of the facts known at the time a decision is made, would have
+been expected to accomplish the desired result in a cost efficient manner consistent with good
+business practices, reliability criteria, safety considerations and expediency. Prudent Electrical
+Practices is not intended to be limited to the optimum practice, method or act to the exclusion of
+all others, but rather to be a spectrum of possible practices, methods or acts.
+“Reference Conditions” means the following conditions: standard ambient air pressure
+at the Premises of [●]; ambient temperature, dry bulb, of [●] degrees Fahrenheit; and relative
+humidity of [●] percent ([●]%).
+“Regulated Materials” means any substance, material, or waste which is now or
+hereafter becomes listed, defined, or regulated in any manner by any United States federal, state
+or local law and includes any oil, petroleum, petroleum products and polychlorinated biphenyls.
+“Remaining Capacity” means all the Capacity of the Facility in excess of the Contract
+Capacity.
+“Replacement Price” means the price at which Buyer, acting in a commercially
+reasonable manner, purchases for delivery at the Electricity Delivery Point a replacement for any
+energy that Seller is required to deliver under this Agreement, plus (i) costs reasonably incurred
+by Buyer in purchasing such replacement energy, and (ii) additional transmission charges, if any,
+reasonably incurred by Buyer in causing replacement energy to be delivered to the Electricity
+Delivery Point. If Buyer elects not to make such a purchase, the Replacement Price shall be the
+market price at the Electricity Delivery Point for such energy not delivered, plus any additional
+cost or expense incurred as a result of Seller’s failure to deliver, as determined by Buyer in a
+commercially reasonable manner (but not including any penalties, ratcheted demand or similar
+charges).
+“Reporting Month” has the meaning set forth in Section 6.9.1.
+“Requested Net Energy” means, for any period, the Net Energy of the Facility that has
+been scheduled by Buyer for delivery in accordance with the Dispatch Procedures and other
+terms of this Agreement.
+“Required Facility Documents” means all Permits and agreements now or hereafter
+necessary for the development, construction, ownership, operation and maintenance of the
+Facility including the documents (i) to which Seller and Buyer are a party evidencing the
+Security Interests and (ii) those set forth in Exhibit C.
+“Requirements of Law” means collectively, as to Seller and [if Seller is not the ultimate
+parent, any ultimate parent entity], Seller’s organizational or governing documents and any
+federal, state, county or municipal, law, treaty, ordinance, franchise, rule, regulation, order, writ,
+judgment, injunction, decree, award or determination of any arbitrator, or a court or other
+Governmental Authority, in each case, now or hereafter applicable to or binding upon this
+Agreement, the Facility, Seller or [if Seller is not the ultimate parent, any parent entity] to
+which any of their respective properties are subject (including those pertaining to electrical,
+building, zoning, environmental and occupational health and safety).
+
+10
+
+“RTO” means any person, other than Transmission Provider, that becomes responsible as
+system operator for, or directs the operation of, the System.
+“S&P” shall mean Standard & Poor’s Rating Group (a division of McGraw-Hill, Inc.).
+“Schedule” or “Scheduled” means the acts of Buyer and Seller pursuant to Section 6.5
+setting forth a schedule requesting and accepting the delivery of energy by Seller to Buyer on
+and after the Commercial Operation Date.
+“Scheduling Constraints” means the limitations of the Facility’s Capacity arising as a
+result of the need to observe the physical ramp rates of the Major Equipment and maintain
+minimum run times, minimum down times, minimum dispatch levels of Net Energy and
+Capacity per CT, and maximum levels of Net Energy and Capacity, to be generated by any item
+of Major Equipment, in compliance with the warranty requirements relating to each item of
+Major Equipment, the operating and maintenance standards recommended by the Facility’s
+equipment suppliers, and Prudent Electrical Practice, as set forth on Exhibit Q.
+“Scheduling Fees” means fees assessed by any person to schedule the delivery of the
+energy.
+“Security Interests” has the meaning set forth in Section 7.2.1.
+“Seller” has the meaning set forth in the Preamble.
+“Simple Cycle” means operation of a Combustion Turbine without capturing the waste
+heat from the Combustion Turbine in the associated heat recovery steam generator and,
+therefore, without producing additional Net Energy from the steam turbine utilizing steam
+produced by such heat recovery steam generator. When one or more CTs are operated in Simple
+Cycle mode, the Facility will produce less Capacity and less Net Energy, while consuming Fuel
+at a higher heat rate, than when the Facility is operated in combined cycle mode to produce
+Baseload Capacity. The ramp rates applicable to each CT, as set forth in Exhibit R, are faster in
+Simple Cycle mode than in combined cycle mode.
+“Simple Cycle Fuel Supply Requirement” means with respect to any Day, the product
+of the applicable Simple Cycle Heat Rate multiplied by the quantity of Net Energy, or equivalent
+quantity of Ancillary Services, to be delivered from the Facility while dispatched in Simple
+Cycle mode.
+“Simple Cycle Heat Rate” has the meaning set forth in Section 6.5.3.8.
+“Solvency” or “Solvent” has the meaning set forth in Section 3.2.12.
+“Standard Heat Rate” means the actual Heat Rate of the Facility at varying levels of the
+Net Energy and varying ambient conditions.
+“Start-Up” means a firing of one or more of the items constituting Major Equipment
+when such item or items of Major Equipment is not being operated, including any firing required
+to perform a CT Start. The period of a Start-Up of any item of Major Equipment begins at the
+
+11
+
+commencement of such firing and ends when such item of Major Equipment obtains and
+produces on a continuous basis the desired quantity of Net Energy.
+“Start-Up Fuel Quantity” means, with respect to any Start-Up(s) initiated to supply Net
+Energy and Ancillary Services to Buyer, the quantity of Fuel actually required by each CT Start.
+“Start-Up Testing” means the tests set in Exhibit E.
+“System” means the electric transmission sub-station and distribution facilities owned,
+operated or maintained by Transmission Provider, which shall include, after construction and
+installation of the Facility, the circuit reinforcements, extensions, and associated terminal facility
+reinforcements or additions required to complete the Facility, all as set forth in the
+Interconnection Agreement.
+“Tariff” means Buyer’s FERC Electric Tariff Fourth Revised Volume No. 11 Pro Forma
+Open Access Transmission Tariff, as revised from time to time.
+“Term” has the meaning set forth in Section 2.1.
+“Transmission Provider” means [PacifiCorp, an Oregon corporation, acting in its
+transmission function capacity.] [Note to Bidders: If the Facility is interconnected to another
+system, identify the appropriate Transmission Provider.] Seller acknowledges that Buyer, as
+Buyer under this Agreement, has no responsibility for or control over such Transmission
+Provider.
+“Unexcused Outage” has the meaning set forth in Section 5.1.2.
+“Unplanned Outage” means NERC Event Type U, as set forth on Exhibit H.
+“Variable Energy Payment” means the payment to be made by Buyer to Seller pursuant
+to Section 5.3 and as specified in Exhibit F.
+1.2
+
+Rules of Interpretation.
+1.2.1 General. Unless otherwise required by the context in which
+any term appears, (a) the singular shall include the plural and vice versa;
+(b) references to “Articles,” “Sections,” “Schedules,” “Annexes,” “Appendices” or
+“Exhibits” (if any) shall be to articles, sections, schedules, annexes, appendices or
+exhibits of this Agreement; (c) all references to a particular entity or an electricity
+market price index shall include a reference to such entity’s or index’s successors and
+(if applicable) permitted assigns; (d) the words “herein,” “hereof” and “hereunder”
+shall refer to this Agreement as a whole and not to any particular section or
+subsection hereof; (e) all accounting terms not specifically defined in this Agreement
+shall be construed in accordance with generally accepted accounting principles in the
+United States of America, consistently applied; (f) references to this Agreement shall
+be deemed to include a reference to all appendices, annexes, schedules and exhibits
+hereto, as the same may be amended, modified, supplemented or replaced from time
+to time; (g) the masculine shall include the feminine and neuter and vice versa; (h) the
+
+12
+
+word “including” shall be construed in its broadest sense to mean “without limitation”
+or “but not limited to” and (i) the word “or” is not necessarily exclusive.
+1.2.2 Terms Not to Be Construed for or Against Either Party. Each
+term of this Agreement shall be construed simply according to its fair meaning and
+not strictly for or against either Party. The Parties have jointly prepared this
+Agreement, and no term of this Agreement shall be construed against a Party on the
+ground that the Party is the author of that provision.
+1.2.3 Headings. The headings used for the sections of this
+Agreement are for convenience and reference purposes only and shall in no way affect the
+meaning or interpretation of the provisions of this Agreement.
+1.2.4 Interpretation with Interconnection Agreement. Each Party
+conducts its operations in a manner intended to comply with FERC Order No. 2004, Standards of
+Conduct for Transmission Providers, requiring the separation of its transmission and merchant
+functions. Moreover, the Parties acknowledge that Transmission Provider’s transmission
+function offers transmission service on its System in a manner intended to comply with FERC
+policies and requirements relating to the provision of open-access transmission service. The
+Parties recognize that Seller will enter into the separate Interconnection Agreement.
+1.2.4.1 The Parties acknowledge and agree that the Interconnection
+Agreement shall be a separate and free standing contract and that the terms of this Agreement are
+not binding upon Transmission Provider.
+1.2.4.2 Notwithstanding any other provision in this Agreement, nothing in
+the Interconnection Agreement shall alter or modify the Parties’ rights, duties, and obligations
+under this Agreement. This Agreement shall not be construed to create any rights between Seller
+and Transmission Provider.
+1.2.4.3 Seller expressly recognizes that, for purposes of this Agreement,
+Transmission Provider shall be deemed to be a separate entity and separate contracting party
+whether or not the Interconnection Agreement is entered into with Transmission Provider or an
+Affiliate thereof.
+SECTION 2
+TERM; COMMENCEMENT OF OPERATION
+2.1
+Term. This Agreement shall become effective when it is signed and delivered by
+both Parties (the “Effective Date”) and, unless earlier terminated as provided in this Agreement,
+shall remain in effect until the [●] anniversary of the Commercial Operation Date (the “Term”).
+2.2
+Milestones. Time is of the essence of this Agreement, and Seller’s ability to meet
+certain milestones before the Commercial Operation Date and to achieve the Commercial
+Operation Date by the Guaranteed Commercial Operation Date is critically important.
+
+13
+
+Therefore, Seller shall achieve the following milestones unless waived or extended by Buyer in
+its sole and absolute discretion:
+2.2.1 By [date], Seller shall demonstrate to Buyer’s reasonable
+satisfaction that Seller has made all arrangements and obtained all means for
+transporting Fuel in quantities sufficient to operate the Facility at the Facility
+Capacity and shall assign all such transportation rights to Buyer for the Term;
+2.2.2 By [date], Seller shall obtain and provide to Buyer copies of all
+Required Facility Documents necessary for construction of the Facility;
+2.2.3 By [date], Seller shall provide to Buyer evidence acceptable to
+Buyer that Seller has obtained construction financing for the Facility (or alternatively
+permanent financing subject only to construction of the Facility and Seller’s
+execution of the lender’s loan documents);
+2.2.4 By [date], Seller shall provide Buyer with an As-built
+Supplement acceptable to Buyer;
+2.2.5 By [date], Seller shall begin deliveries of Net Energy for
+purposes of initiating Start-Up Testing; and
+2.2.6 By the Guaranteed Commercial Operation Date, the
+Commercial Operation Date shall have occurred. This shall require that all of the
+following conditions shall have been satisfied or waived by Buyer in its sole and
+absolute discretion:
+(1)
+Buyer shall have received a certificate addressed to Buyer from a Licensed
+Professional Engineer certifying that the Facility is able to generate energy reliably in
+amounts required by this Agreement and in accordance with all other terms and
+conditions of this Agreement;
+(2)
+
+Start-Up Testing of the Facility shall have been completed;
+
+(3)
+After Buyer has received notice of the completion of Start-Up Testing,
+Buyer shall have endorsed a certificate addressed to Buyer from a Licensed Professional
+Engineer certifying that the Facility has operated for testing purposes under this
+Agreement uninterrupted for a period of ten (10) consecutive days at a rate of at least the
+Facility Capacity based upon any sixty (60) minute period for the entire testing period.
+Seller must provide five (5) Business Days’ written notice to Buyer before the start of the
+Start-Up Testing period. If the operation of the Facility is interrupted during this initial
+testing period or any subsequent testing period, the Facility shall start a new consecutive
+ten (10) day testing period and Seller shall provide Buyer forty-eight (48) hour written
+notice before the start of such testing period;
+(4)
+Buyer shall have received a certificate addressed to Buyer from a Licensed
+Professional Engineer certifying that, in accordance with the Interconnection Agreement,
+all required Electrical Interconnection Facilities have been constructed, all required
+14
+
+interconnection tests have been completed, the Facility is physically interconnected with
+the System and the Facility Capacity is a Network Resource;
+(5)
+Buyer shall have received a certificate addressed to Buyer from a Licensed
+Professional Engineer certifying that Seller has obtained all Required Facility Documents
+for the construction and operation of the Facility and, if requested by Buyer in writing,
+Seller shall have provided copies of any or all such requested Required Facility
+Documents, together with (i) the certificates of insurance coverage or insurance policies
+required by Section 12.1, and (ii) copies of all Required Facility Documents which Seller
+is responsible to obtain or are required for the construction and operation of the Facility;
+(6)
+Buyer shall have issued a written certificate to Seller certifying that Buyer
+has received all Facility drawings, plans, specifications, policies, and other documents
+required by this Agreement;
+(7)
+Buyer shall have received a certificate addressed to Buyer from Seller’s
+primary construction contractor certifying that the Facility has been turned over to Seller
+for permanent operation and maintenance and that the primary construction contractor
+owes no further construction-related obligations to Seller (other than punch list items);
+and
+(8)
+Buyer shall have received a certificate addressed to Buyer from an office
+of Seller and acceptable to Buyer certifying that no Event of Default by Seller or
+Potential Event of Default by Seller exists under this Agreement.
+2.3
+Daily Delay Damages. Seller shall cause the Commercial Operation Date to
+occur on or before the Guaranteed Commercial Operation Date but no earlier than [● months]
+prior to June 1, 2009. If the Commercial Operation Date does not occur on or before the
+Guaranteed Commercial Operation Date, to compensate Buyer for the failure to provide energy
+from the Facility, Seller shall pay Buyer delay damages equal to the Daily Delay Damages for
+each Day or portion of a Day until that Day that the Commercial Operation Date occurs from and
+after the Guaranteed Commercial Operation Date, up to a total of forty-five (45) Days. Each
+Party agrees and acknowledges that (a) the damages that Buyer would incur for the failure to
+provide energy from the Facility due to delay in achieving the Commercial Operation Date on or
+before the Guaranteed Commercial Operation Date would be difficult or impossible to predict
+with certainty, and (b) the Daily Delay Damages are an appropriate approximation of such
+damages. This Section 2.3 shall not limit the amount of damages payable to Buyer if this
+Agreement is terminated as a result of Seller’s failure to achieve the Commercial Operation Date
+by the Guaranteed Commercial Operation Date and any such damages shall be determined in
+accordance with Section 10.7. In addition, this Section 2.3 shall not limit the damages payable to
+Buyer for matters resulting from delay in achieving the Commercial Operation Date other then
+the failure to provide energy from the Facility.
+2.4
+Damages Invoicing. By the tenth (10th) day following the end of the calendar
+month of the Guaranteed Commercial Operation Date, and continuing on the tenth (10th) day
+following the end of any calendar month during which Daily Delay Damages are incurred, Buyer
+shall deliver to Seller a proper invoice showing Buyer’s computation of such damages and any
+
+15
+
+amount due Buyer in respect thereof for the preceding calendar month. No later than ten (10)
+days after receiving such an invoice, Seller shall pay to Buyer, by wire transfer of immediately
+available funds to an account specified in writing by Buyer or by any other means agreed to by
+the Parties in writing from time to time, the amount set forth as due in such invoice.
+2.5
+Buyer’s Right to Monitor. During the design, procurement, construction,
+installation, start up and testing of the Facility, Seller shall permit Buyer and its advisors and
+consultants to:
+(a)
+Review and discuss with Seller and its advisors and consultants monthly
+status reports on the progress of the development, design, construction and installation of the
+Facility. Between the date on which this Agreement is executed and thirty (30) days following
+the Commercial Operation Date, Seller shall, on or before the tenth (10th) day of each calendar
+month, provide Buyer with a brief monthly status report for the preceding month.
+(b)
+Monitor the development, design, engineering, procurement, construction
+and installation of the Facility and the performance of the contractor(s) constructing the Facility.
+(c)
+Review and monitor the contractors’ performance and achievement of
+(i) all initial performance tests and other tests required under the Facility construction contracts
+that must be performed in order to achieve the Commercial Operation Date and (ii) all tests
+contemplated by the warranty agreement(s) between the Seller and manufacturer of the Facility’s
+CTs and any other Major Equipment. Buyer reserves the right to require additional performance
+tests of the Facility’s CTs in the event that Seller elects not to have such CTs or other Major
+Equipment covered by warranty agreements acceptable to Buyer. Seller shall provide Buyer
+with at least five (5) Business Days’ prior notice of each such test.
+(d)
+
+Witness initial performance tests and other tests and review the results
+
+thereof.
+(e)
+Perform such examinations, inspections, and quality surveillance as, in
+Buyer’s reasonable judgment, are appropriate and advisable to determine that all Major
+Equipment comprising the Facility has been properly commissioned and that the Facility has
+achieved the Commercial Operation Date.
+The Parties acknowledge and agree that Buyer is under no obligation to perform any of the
+monitoring rights under this Section 2.5. Any information or knowledge obtained by Buyer in
+the exercise of its rights under this Section 2.5 shall not prevent Buyer from subsequently
+asserting that Seller failed to perform its obligations under this Agreement or failed to satisfy any
+of its conditions in Section 2, nor shall the exercise by Buyer of such rights be used as evidence
+that Seller performed its obligations under this Agreement or satisfied its conditions in Section 2
+or that Buyer gave any consent to Seller’s action in meeting its obligations under Section 2.
+Buyer’s right to indemnification, payments for damages or other remedy in this Agreement will
+not be affected by any investigation conducted with respect to, or any knowledge acquired (or
+capable of being acquired) at any time, whether before or after the execution and delivery of this
+Agreement or the Commercial Operation Date, including with respect to the accuracy or
+inaccuracy of any representation or warranty, or compliance with any covenant or obligation
+
+16
+
+hereunder. Buyer shall maintain one or more designated representatives for purposes of the
+monitoring activities contemplated in this Section 2.5, which representatives shall have authority
+to act for Buyer in all technical matters under this Section 2.5. However, Buyer’s
+representatives, in their capacity as representatives, shall not have the authority to amend or
+modify any provision of this Agreement. Buyer’s initial representatives for purposes of this
+Section 2.5 and their contact information are listed in Exhibit N. Buyer may, by written notice
+to Seller, change its representatives or the contact information for such representatives.
+SECTION 3
+REPRESENTATIONS AND WARRANTIES
+3.1
+Buyer’s Representations and Warranties.
+warrants to Seller that:
+
+Buyer represents, covenants, and
+
+3.1.1 Organization. Buyer is duly organized and validly existing
+under the laws of the State of Oregon.
+3.1.2 Authority. Buyer has the requisite corporate power and
+authority to enter into this Agreement and to perform according to the terms of this
+Agreement.
+3.1.3 Corporate Actions. Buyer has taken all corporate actions
+required to be taken by it to authorize the execution, delivery and performance of this
+Agreement and the consummation of the transactions contemplated hereby.
+3.1.4 No Contravention. The execution and delivery of this
+Agreement does not contravene any provision of, or constitute a default under, any
+indenture, mortgage, or other material agreement binding on Buyer or any valid order
+of any court, or any regulatory agency or other body having authority to which Buyer
+is subject.
+3.1.5 Valid and Enforceable Agreement. This Agreement is a valid
+and legally binding obligation of Buyer, enforceable against Buyer in accordance
+with its terms (except as the enforceability of this Agreement may be limited by
+bankruptcy, insolvency, bank moratorium or similar laws affecting creditors’ rights
+generally and laws restricting the availability of equitable remedies and except as the
+enforceability of this Agreement may be subject to general principles of equity,
+whether or not such enforceability is considered in a proceeding at equity or in law).
+3.2
+Seller’s Representations and Warranties.
+warrants to Buyer that:
+
+Seller represents, covenants, and
+
+3.2.1 Organization. Seller is a [insert legal entity] duly [organized]
+and validly existing under the laws of [______].
+3.2.2 Authority. Seller (i) has the requisite power and authority to
+enter into this Agreement and to perform, including all required regulatory authority
+17
+
+to make wholesale sales from the Facility; (ii) has the power and authority to own and
+operate its businesses and properties, to own or lease the property it occupies and to
+conduct the business in which it currently engaged; and is duly qualified as [____] in
+Utah; and (iii) is in good standing under the laws of each jurisdiction where its
+ownership, lease or operation of property or the conduct of its business requires such
+qualification.
+3.2.3 Actions. Seller has taken all [insert appropriate legal entity]
+actions required to authorize the execution, delivery and performance of this
+Agreement and the consummation of the transactions contemplated hereby.
+3.2.4 No Contravention. The execution, delivery, performance and
+observance by Seller of its obligations under this Agreement do not and will not:
+3.2.4.1 contravene, conflict with or violate any provision of any material
+Requirements of Law presently in effect having applicability to either Seller or [if Seller is not
+the ultimate parent, Seller’s ultimate parent];
+3.2.4.2 require the consent or approval of or material filing or registration
+with any Governmental Authority or other person other than such consents and approvals which
+are (i) set forth in Exhibit C or (ii) required in connection with the construction and/or operation
+of the Facility and expected to be obtained in due course;
+3.2.4.3 result in a breach of or constitute a default under any provision of
+any security issued by [ultimate parent of Seller] or any of its Affiliates or any material
+agreement, instrument or undertaking to which either [ultimate parent of Seller] or any of its
+Affiliates is a party or by which [ultimate parent of Seller]’s or any of its Affiliates’ property is
+bound; or
+3.2.4.4 require Seller to be licensed under the Utah Construction Trades
+Licensing Act.
+3.2.5 Valid and Enforceable Agreement. This Agreement is a valid
+and legally binding obligation of Seller, enforceable against Seller in accordance with
+its terms (except as the enforceability of this Agreement may be limited by
+bankruptcy, insolvency, bank moratorium or similar laws affecting creditors’ rights
+generally and laws restricting the availability of equitable remedies and except as the
+enforceability of this Agreement may be subject to general principles of equity,
+whether or not such enforceability is considered in a proceeding at equity or in law).
+3.2.6 Litigation. No litigation, arbitration, investigation or other
+proceeding is pending or, to the best of Seller’s knowledge, threatened against either
+Seller, its parent(s), or any Affiliate with respect to this Agreement and the
+transactions contemplated hereby and thereby.
+3.2.7 Accuracy of Information. To the knowledge of Seller, no
+exhibit, contract, report or document furnished by Seller to Buyer in connection with
+this Agreement, or the negotiation or execution of this Agreement contains any
+18
+
+material misstatement of fact or omits to state a material fact or any fact necessary to
+make the statements contained therein not misleading.
+3.2.8 Required Facility Documents.
+All Required Facility
+Documents are set forth in Exhibit C attached hereto. To Seller’s knowledge, no
+unusual or burdensome conditions are expected by Seller to be placed upon, or
+created by, any of the Required Facility Documents. The anticipated use of the
+Facility complies with all applicable restrictive covenants affecting the Premises and
+all Requirements of Law. The representation made in this Section 3.2.8 shall be
+deemed to be given throughout the entire Term.
+3.2.9 Taxes. Seller has filed or caused to be filed all tax returns
+which were required to be filed and has paid all taxes shown to be due and payable on
+said returns or on any assessments made against it or any of its property including the
+Premises, and all other taxes, fees or other charges imposed on it or any of its
+property by any Governmental Authority, and no tax liens have been filed and no
+claims are being asserted with respect to any such taxes, fees or other charges, except
+where such taxes, fees or other charges are being contested in good faith by Seller
+through appropriate proceedings with adequate reserves set aside in the event of an
+adverse determination.
+3.2.10 Seller’s Intent. Seller intends:
+3.2.10.1 To construct and operate the Facility in accordance with Prudent
+Electrical Practices, and in accordance with, and subject to the terms of this Agreement;
+3.2.10.2 To supply the Contract Capacity and Net Energy of the Facility
+throughout the Term of this Agreement in accordance with the provisions of this Agreement; and
+3.2.10.3 [if Seller will be a single purpose vehicle, that its sole business
+shall be the ownership and operation of the Facility.]
+3.2.11 No Collusion. Neither Seller nor any of its representatives has
+entered into any form of collusive arrangement with any person or entity which
+directly or indirectly has to any extent lessened competition between Seller and any
+other person or entity for the supply of Capacity and energy sought by Buyer.
+3.2.12 Solvency. Seller, its parent(s) and their Affiliates are Solvent.
+As used herein, “Solvent” and “Solvency” means with respect to any person or entity
+on any date of determination, that on such date (a) the book value of the property of
+such person or entity is greater than the total amount of book liabilities, including
+contingent liabilities that are probable and estimable, of such person or entity,
+(b) such person or entity is able to pay its debts as they become absolute and matured,
+taking into account the possibility of refinancing such obligations and selling assets,
+(c) such person or entity does not intend to, and does not believe that it will, incur
+debts or liabilities beyond such person’s or entity’s ability to pay such debts and
+liabilities as they mature taking into account the possibility of refinancing such
+obligations and selling assets and (d) such person or entity is not engaged in business
+19
+
+or a transaction, and is not about to engage in business or a transaction, for which
+such person’s or entity’s property would constitute an unreasonably small capital.
+The amount of contingent liabilities at any time shall be computed as the amount that
+are probable and estimable in the light of all the facts and circumstances existing at
+such time, and that can reasonably be expected to become an actual or matured
+liability.
+3.3
+Notice. If at any time during the Term, any Party obtains actual knowledge of
+any event or information which would have caused any of the representations and warranties
+made by it in this Section 3 to have been materially untrue or misleading when made, such Party
+shall provide the other Party with notice in accordance with Section 17.12 of the event or
+information, the representations and warranties affected, and the action, if any, which such Party
+intends to take to make the representations and warranties true and correct. The notice required
+pursuant to this Section 3 shall be given as soon as practicable after the occurrence of each such
+event.
+SECTION 4
+SALE AND PURCHASE OBLIGATIONS
+4.1
+
+Sale and Purchase of Contract Capacity, Capacity Rights, Net Energy and
+Ancillary Services.
+4.1.1 Subject to the terms and conditions of this Agreement, on and
+after the Commercial Operation Date and for the balance of the Term, Seller shall
+make available to Buyer from the Facility the Contract Capacity and the Capacity
+Rights, and all Net Energy and Ancillary Services associated with such Contract
+Capacity that is Scheduled by Buyer for delivery in accordance with the Dispatch
+Procedures and Section 6.5.2.
+4.1.2 Subject to Section 5.1, Buyer shall purchase the Contract
+Capacity of the Facility and pay a monthly Capacity Payment to Seller.
+4.1.3 Seller shall provide Ancillary Services and Capacity Rights to
+Buyer without additional charge or expense.
+4.1.4 Buyer shall be under no obligation to purchase any Capacity
+under this Agreement other than Contract Capacity.
+4.1.5 For each quantity of Net Energy that Buyer has Scheduled for
+delivery in any hour from the Facility, Buyer shall deliver the requisite Fuel Supply
+Requirement to Seller during such hour, comprised of any applicable Startup Fuel
+Quantity and the applicable Operating Fuel Quantity. As more fully described in
+Section 6.5.3, the Operating Fuel Quantity shall include: (i) the sum of the Baseload
+Fuel Supply Requirement for each hour in which Buyer desires to have Seller provide
+any Scheduled quantity of Net Energy or Ancillary Services utilizing part or all of the
+Baseload Capacity of Buyer’s Contract Capacity, (ii) the sum of the Peakload Fuel
+
+20
+
+Supply Requirements for each hour in which Buyer desires to have Seller provide any
+Scheduled quantity of Net Energy or Ancillary Services utilizing part or all of the
+Peakload Capacity of Buyer’s Contract Capacity, and (iii) the Simple Cycle Fuel
+Supply Requirement for each hour in which Buyer desires to have Seller provide any
+Scheduled quantity of Net Energy or equivalent quantity of Ancillary Services to be
+delivered from the Facility in Simple Cycle mode utilizing part of Buyer's Contract
+Capacity.
+4.1.6 For each quantity of Ancillary Services that Buyer has
+Scheduled for delivery in any hour from the Facility that requires Seller to consume
+Fuel in the Facility, Buyer shall deliver a quantity of Fuel to Seller equal to the Fuel
+Supply Requirement applicable to an equivalent quantity of Net Energy. Seller and
+Buyer shall specify in the Operating Procedures the means by which Seller and Buyer
+shall determine the precise quantity of the Fuel Supply Requirement applicable to
+various types of Ancillary Services that Buyer may Schedule from time to time under
+this Agreement.
+4.1.7 In addition to Buyer providing the applicable Fuel Supply
+Requirement to Seller, Buyer shall also pay the amounts specified in Section 5, and
+Seller shall then provide to Buyer without additional charge or expense all Net
+Energy and Ancillary Services that have been Scheduled by Buyer.
+4.1.8 Seller shall provide to Buyer from the Facility the Contract
+Capacity, and associated quantities of Net Energy or Ancillary Services as Scheduled
+by Buyer in accordance with this Agreement. Subject to Section 4.3, the Contract
+Capacity, and the Net Energy and Ancillary Services associated with such Contract
+Capacity, shall be made available exclusively to Buyer and Seller shall be free to sell
+the Remaining Capacity of the Facility, and the Net Energy and Ancillary Services
+associated with such Remaining Capacity, to any third party. Seller shall have
+absolute discretion over the operation of the Facility to generate the quantities of
+Capacity, Net Energy and Ancillary Services to be delivered to Buyer in compliance
+with the provisions of this Agreement. In addition, Seller shall have absolute
+discretion over the use of the Remaining Capacity in sales to any third party(s).
+4.2
+Deliveries; Title and Risk of Loss. All Net Energy and Ancillary Services that
+have been, at Buyer’s option, Scheduled by Buyer shall be delivered by Seller to Buyer at the
+Electricity Delivery Point. Seller shall be deemed to be in exclusive control of, and responsible
+for any damage or personal injury caused by, Net Energy or Ancillary Services delivered
+hereunder up to the Electricity Delivery Point; and Buyer shall be deemed to be in exclusive
+control of, and responsible for any damages or injury caused by, such Net Energy or Ancillary
+Services from the Electricity Delivery Point. Seller warrants and agrees that it will transfer and
+deliver Contract Capacity, Capacity Rights, Ancillary Services and Net Energy to Buyer free and
+clear of all liens or other encumbrances and rights of third parties. Title to and risk of loss of all
+Net Energy or Ancillary Services shall transfer from Seller to Buyer upon delivery to Buyer at
+the Electricity Delivery Point. Buyer shall be deemed to be in exclusive control of, and
+responsible for any damage or personal injury caused by, Fuel delivered hereunder up to the Fuel
+Delivery Point; and Seller shall be deemed to be in exclusive control of, and responsible for any
+
+21
+
+damages or injury caused by, such Fuel at and from the Fuel Delivery Point. Buyer warrants that
+it will deliver Fuel to Seller free and clear of all liens or other encumbrances. Title to and risk of
+loss of all Fuel shall transfer from Buyer to Seller upon delivery to the Fuel Delivery Point.
+4.3
+
+Dispatching Deliveries from the Contract Capacity versus the Remaining
+Capacity.
+4.3.1 Seller shall exclusively make available to Buyer the Contract
+Capacity of the Facility, and Seller shall deliver to Buyer, and Buyer shall receive, the
+quantities of Net Energy and Ancillary Services that were Scheduled by Buyer from
+such Contract Capacity in accordance with this Agreement. Seller retains absolute
+discretion as to which items of the Major Equipment of the Facility are operated to
+generate and deliver (i) the quantities of Net Energy and Ancillary Services to be
+delivered to Buyer from the Contract Capacity and (ii) the quantities of Net Energy
+and Ancillary Services to be delivered to any third party purchaser from the
+Remaining Capacity.
+4.3.2 During any Excused Outage or Unexcused Outage of the
+Facility, as defined in Section 5.1.2, which causes a partial outage of the Facility, but
+not a complete shutdown of the Facility, Buyer’s right to the Contract Capacity shall
+not be affected by any reduction in the Facility Capacity, and to the extent there is a
+reduction of Facility Capacity, Seller shall make available to Buyer all of such
+reduced Facility Capacity up to the Contract Capacity. Subject to the foregoing,
+Seller shall, at all times, have the right to make available for sale to any third party
+purchasing any of the Remaining Capacity no more than the actual available Capacity
+of the Facility less the Contract Capacity.
+4.3.3 At any time that the Contract Capacity is available, Buyer may
+elect to Schedule any of the quantities of Net Energy, and equivalent quantities of
+Ancillary Services, specified in the range of dispatchable quantities of Net Energy on
+Exhibit Q and the quantity of Fuel required to be provided by Buyer with respect to
+each such Scheduled quantity of Net Energy, or equivalent quantity of Ancillary
+Services, shall be determined by the Baseload Heat Rates, Peakload Heat Rates, and
+Simple Cycle Heat Rates, corresponding to such Scheduled quantity of Net Energy,
+or equivalent quantity of Ancillary Services, as set forth on such Exhibit Q.
+
+4.4
+Curtailment Due to Failure to Comply with Interconnection Agreement. Buyer
+shall not be obligated to purchase Contract Capacity or receive or pay for Net Energy to the
+extent generation or transmission curtailment is required as a result of Seller’s non-compliance
+with the Interconnection Agreement. Nothing in this Section 4.4 shall relieve Seller of its duty to
+comply with the Interconnection Agreement and Net Energy curtailed as provided under this
+Section 4.4 shall not be deemed to be an Excused Outage, or credited toward the achievement of
+Net Energy, as the case may be.
+4.5
+Sale of Test Energy. During the period between the Effective Date and the
+Commercial Operation Date, Seller shall sell and make available to Buyer, and Buyer shall
+purchase and accept, all energy produced by the Facility during such period (the “Test Energy”)
+
+22
+
+as if it were Net Energy. Seller shall provide the necessary Fuel, and Buyer shall pay Seller the
+price specified in Section 5.3, for such Test Energy.
+SECTION 5
+PAYMENTS; COSTS
+5.1
+Capacity Payments. Commencing on the last day of the month in which the
+Commercial Operation Date occurs, Buyer shall, subject to Section 5.1.4, pay to Seller in arrears
+a Capacity Payment equal to the greater of (i) the Monthly Capacity Payment as determined in
+Section 5.1.2, or (ii) the Minimum Monthly Capacity Payment as determined in Section 5.1.3.
+5.1.1 All Capacity Payments shall be billed on a calendar month
+basis. In the event that Commercial Operation Date does not occur at the start of a
+calendar month, the first month’s Capacity Payment shall be prorated to reflect the
+actual number of days of Commercial Operation in such month.
+5.1.2 Monthly Capacity Payment.
+The “Monthly Capacity
+Payment” shall be computed based upon the following formula:
+Monthly Capacity Payment = (CC × 1000 × CPR × MAAF) - CPS, where:
+CC
+
+= the Contract Capacity;
+
+CPR
+
+= Capacity Payment Rate;
+
+CPS
+
+= Capacity Payment Shortfall, if any; and
+
+MAAF
+
+= Availability Adjustment Factor for that month, computed as follows:
+
+a.
+
+If CAF m ≥ 96%, MAAF = 1
+
+b.
+
+If CAF m < 96%, MAAF = 1 - 2 x (.96 - CAF m )
+
+Provided, however, MAAF cannot be less than zero (0).
+CAF m
+
+= Average Capacity Availability Factor for a month shall equal the sum
+of the hourly Capacity Availability Factors (“CAF h ”) determined for
+each hour of such month, divided by the total number of hours in such
+month; and
+
+CAF h
+
+= (AD + DD) / AFCE
+
+Provided, however, CAF h cannot be more than one (1).
+where:
+
+23
+
+“AD” (Actual Deliveries) means, for any hour, the actual quantity of energy
+generated by the Facility and delivered by Seller to Buyer at the Electricity Delivery
+Point;
+“DD” (Deemed Deliveries) means, for any hour, (i) a quantity of energy equal to the
+amount of energy that could have been generated by that portion of the Ambient
+Facility Capacity that was set forth in the Availability Notice (a) that was not
+dispatched by Buyer in such hour, unless such failure to dispatch was caused during
+times and to the extent that Transmission Provider curtails Network Integration
+Transmission Service (as defined in the Tariff) to Buyer pursuant to the terms of the
+Tariff, (b) that was not generated and delivered due to a Potential Event of Default or
+an Event of Default by Buyer, or (c) that was not operated to generate and deliver Net
+Energy or Ancillary Services to Buyer due to any failure by Buyer, including any
+failure of Buyer to deliver Fuel to the Facility to the extent Seller’s operations are
+affected by such complete and/or partial failure to deliver Fuel; (ii) any amount of
+energy that was not available from the Facility for dispatch and receipt by Buyer,
+during the relevant hour, due to any outage or derating that meets the requirements
+for Scheduled Maintenance established in Exhibit I; and (iii) any amount of energy
+that was not available from the Facility for Dispatch and receipt by Buyer, during the
+relevant hour, due to any Force Majeure event. The unavailability of Capacity for
+any of the reasons set forth in clauses (i)(c), (ii) or (iii) shall be considered an
+“Excused Outage.” To the extent that the Capacity of the Facility, up to the Contract
+Capacity, is unavailable to Buyer for any reason other than an Excused Outage shall
+be considered an “Unexcused Outage.”
+“AFCE” (Ambient Facility Capacity Energy) means the quantity of energy that
+could be produced from the Ambient Facility Capacity during such hour.
+5.1.3 Minimum Monthly Capacity Payment. During any month, the
+“Minimum Monthly Capacity Payment” shall equal the amount determined by the
+following formula:
+Minimum Monthly Capacity Payment = CC × 1000 × CPR × [●%], where:
+CC
+
+= the Contract Capacity;
+
+CPR
+
+= Capacity Payment Rate; and
+
+%
+
+= [●].
+5.1.4 Carry-Over Provisions. With respect to any month in which
+the calculated Monthly Capacity Payment is less than the Minimum Monthly
+Capacity Payment, the difference between the two payment amounts shall be set forth
+in a separate account (the amount in such account is referred to herein as the
+“Capacity Payment Shortfall”). The Capacity Payment Shortfall shall be increased
+by interest at the Prime Rate divided by 365 on the maximum amount of the Capacity
+Payment Shortfall on that day and shall be recovered by Buyer as a credit against the
+
+24
+
+otherwise applicable Monthly Capacity Payment owed to Seller for such month and
+by drawing on the Carry-Over-Letter of Credit as provided below. That portion of
+any Capacity Payment Shortfall which is not recovered in any month shall be carried
+over to each subsequent month thereafter until recovered by Buyer in full from Seller.
+If the Capacity Payment Shortfall exceeds $[●], then Seller shall provide a Letter of
+Credit for the benefit of Buyer, in form reasonably acceptable to Buyer, with a face
+amount equal to the full amount of the Capacity Payment Shortfall amounts (“CarryOver Letter of Credit”). The amount of such Carry-Over Letter of Credit shall be
+adjusted thereafter, at the end of each month, to equal the then-outstanding Capacity
+Payment Shortfall. At the end of each Contract Year, Buyer shall be entitled to draw
+down against the Carry-Over Letter of Credit for the amount the Capacity Payment
+Shortfall that has not been recovered as of that date.
+5.2
+Energy Payment. Commencing on the last day of the month in which the
+Commercial Operation Date occurs, Buyer shall pay to Seller in arrears a Variable Energy
+Payment as set forth in Exhibit F for Net Energy.
+5.3
+Test Energy. For the period between the Effective Date and the Commercial
+Operation Date, Seller shall sell and deliver Net Energy to Buyer at the Electricity Delivery Point
+as Test Energy. Buyer shall pay Seller for Test Energy delivered at the Electricity Delivery
+Point, an amount per MWh equal to eighty-five percent (85%) of the settled price for the
+applicable hour in the daily (i) firm on-peak, (ii) firm-off peak or (iii) 24-hour firm (on Sundays
+and NERC holidays) Dow JonesTM Palo Verde Electricity Price Index; provided, however, that
+the amount to be paid by Buyer for such Test Energy shall in no event exceed seventy-five
+percent (75%) of the price per MWh specified on Exhibit M for the first Contract Year. If the
+Dow JonesTM Palo Verde Index ceases to be published during the Term, Buyer shall select as a
+replacement electricity price index or component, an index acceptable to Buyer in its discretion
+that, after any necessary adjustments, provides the most reasonable substitute quotation of the
+daily price of firm on-peak, firm off-peak or 24-hour firm energy at Palo Verde for the
+applicable periods.
+5.4
+Costs and Charges. Seller shall be responsible for all costs or charges imposed in
+connection with the delivery of Net Energy at the Electricity Delivery Point, including
+transmission costs and charges. Without limiting the generality of the foregoing, except to the
+extent otherwise provided in the Interconnection Agreement, Seller shall bear all costs associated
+with the modifications to Transmission Provider’s interconnection facilities or electric system
+(including system upgrades) caused by or related to (a) the interconnection of the Facility with
+Transmission Provider’s system, (b) any increase in Capacity of the Facility, and (c) any increase
+of delivery of energy from the Facility.
+5.5
+Station Service. Seller shall be responsible for arranging and obtaining, at its sole
+risk and expense, any station service required by the Facility that is not provided by the Facility
+itself.
+
+25
+
+SECTION 6
+OPERATION AND CONTROL
+6.1
+As-Built Supplement. Upon completion of construction of the Facility, Seller
+shall provide Buyer the As-built Supplement. The As-built Supplement shall be deemed
+effective and shall be added to Exhibit A of this Agreement when it has been reviewed and
+approved by Buyer. Buyer shall not unreasonably withhold, condition or delay its approval of
+the As-built Supplement.
+6.2
+Measurement and Quality of Net Energy. All Net Energy shall be measured at
+the Electricity Delivery Point and shall meet all requirements in the Interconnection Agreement
+and the specifications set forth in Exhibit Q. Seller shall instruct the Transmission Provider in
+writing that Buyer is entitled to receive, directly from Transmission Provider, any and all data
+associated with the Facility and/or the production of Net Energy that the Transmission Provider
+has in its possession.
+6.3
+
+Standard of Facility Operation.
+6.3.1
+
+General.
+
+6.3.1.1 At Seller’s sole cost and expense, Seller shall operate, maintain
+and repair the Facility and the Electrical Interconnection Facilities in accordance with (i) the
+standards, criteria and formal guidelines of FERC, NERC, any RTO, and any successors to the
+functions thereof; (ii) the Required Facility Documents; (iii) the Interconnection Agreement;
+(iv) all Requirements of Law; (v) the requirements of this Agreement; and (vi) Prudent Electrical
+Practice. During the Term, Seller shall be the sole owner of the Electrical Interconnection
+Facilities. Seller shall defend, indemnify and hold Buyer harmless from and against any
+requirements to comply with FERC Open Access requirements respecting the Electrical
+Interconnection Facilities caused by Seller’s act or omission. Seller acknowledges that it shall
+have no claims under this Agreement against Buyer, acting in its merchant function capacity,
+with respect to any requirements imposed by or damages caused by Buyer, acting in its
+transmission function capacity, in connection with the Interconnection Agreement or otherwise.
+6.3.1.2 Without limiting the generality of Section 6.3.1.1, Seller shall:
+6.3.1.2.1 At all times, employ qualified and trained personnel for
+managing, operating and maintaining the Facility and for coordinating such managing, operating
+and maintenance with Buyer. Seller shall ensure that prior to or on the first Day Seller delivers
+energy to the Electricity Delivery Point such qualified and trained personnel are available to
+Buyer at all times, twenty-four (24) hours per Day during the Term.
+6.3.1.2.2 Operate and maintain the Facility with due regard for the
+safety, security and reliability of the System and Buyer’s customers and in compliance with the
+general specifications contained in Exhibit I.
+6.3.1.2.3 Comply with operating and maintenance standards
+recommended by the Facility’s equipment suppliers.
+26
+
+6.3.1.2.4 Coordinate the Facility’s relaying and protection to
+conform with Prudent Electrical Practice.
+6.3.1.2.5 Furnish and install, at Seller’s sole expense, a manually
+operable disconnecting device that can be locked by Buyer in the open position and visually
+checked to be in the open position, so as to be able to electrically isolate the Facility from the
+System. This device(s) shall be installed at a location at or near the Electricity Delivery Point.
+6.3.1.2.6 Have the Facility’s protective relays calibrated and
+operationally checked, at least annually by a person qualified to perform such service and
+provide Buyer with a written confirmation of the calibration.
+6.3.1.2.7 Operate the Facility in such a manner so as not to have
+an adverse effect on Buyer’s voltage level or voltage waveform.
+6.3.1.2.8 Operate the Facility in a manner and consistent with the
+Operating Procedures so as to permit Buyer to dispatch individuals items of Major Equipment
+required to generate energy Scheduled by Buyer.
+6.3.2 Interconnection. Pursuant to the Interconnection Agreement,
+Seller shall be responsible for the costs and expenses associated with interconnection
+of the Facility at its Facility Capacity at the Electricity Delivery Point, including the
+costs of any System upgrades beyond the Electricity Delivery Point necessary to
+interconnect the Facility with System and to allow the delivery of energy to the
+Electricity Delivery Point.
+6.3.3 Coordination with System. Pursuant to the Interconnection
+Agreement, Seller shall be responsible for the coordination and synchronization of the
+Facility’s equipment with the System, and shall be solely responsible for (and shall
+defend and hold Buyer harmless against) any damage that may occur as a direct result
+of Seller’s improper coordination or synchronization of such equipment with the
+System.
+6.4
+
+Operating Procedures and Compliance.
+6.4.1 Without limiting the generality of Section 6.2, during the Term,
+the Parties shall observe the Operating Procedures.
+6.4.2 In the Operating Procedures, each Party has designated an
+authorized representative (an “Authorized Representative”) and an alternate
+representative (an “Alternate Representative”) to act in the Authorized
+Representative’s absence. A Party’s appointment of an Authorized Representative
+and Alternate Representative shall remain in full force and effect until the Party
+delivers written notice of substitution to the other Party. The Authorized
+Representatives and Alternate Representatives shall be managers well-experienced
+with regard to matters relating to the implementation of the Parties’ rights and
+obligations under this Agreement.
+
+27
+
+6.4.3
+
+Operational Compliance.
+
+6.4.3.1 Required Facility Documents. Seller shall maintain in full force
+and effect and available for inspection by Buyer during the Term all Required Facility
+Documents now or hereafter required.
+6.4.3.2 Hazardous Substances. Seller shall operate the Facility in
+compliance with all Environmental Laws and permits, licenses, rules or orders promulgated,
+issued or otherwise required by a Governmental Authority having jurisdiction or enforcement
+power over any Environmental Law and Seller. Seller shall immediately notify Buyer if Seller
+or any Affiliate of Seller receives or obtains any actual knowledge of or actual notice of any past,
+present or future actions or plans which may interfere with or prevent compliance or continued
+compliance with Environmental Laws, affect the construction or operation of the Facility, or may
+give rise to any material liability under any Environmental Laws or to any common law or legal
+liability or otherwise form the basis of any claim, action, demand, suit, proceeding, hearing,
+study or investigation under Environmental Laws.
+6.4.4 Taxes. Seller shall pay when due or reimburse Buyer for all
+existing and any new sales, use, excise, ad valorem, and any other similar taxes,
+imposed or levied by any Governmental Authority on the sale of Net Energy to Buyer
+under this Agreement regardless of whether such taxes are payable by Buyer or Seller
+under Requirements of Law.
+6.4.5
+
+Fines and Penalties.
+
+6.4.5.1 Seller shall pay when due, and in no event later than thirty (30)
+days of assessment, all fines, penalties, or legal costs incurred by Seller or for which Seller is
+legally responsible for noncompliance by Seller, its agents, employees, contractors or
+subcontractors, with any provision of this Agreement, any agreement, commitment, obligation or
+liability incurred in connection with this Agreement or the Facility or any Requirements of Law,
+except where such fines, penalties or legal costs are being contested in good faith by Seller, its
+agents or contractors through appropriate proceedings with (i) adequate reserves set aside, or
+(ii) if requested by Buyer, the posting of adequate security, in the event of an adverse
+determination.
+6.4.5.2 Subject to Section 6.4.4, if fines, penalties, or legal costs are
+assessed against Buyer by any Governmental Authority due to noncompliance by Seller with any
+Requirements of Law, or if the performance of Seller is delayed or stopped by order of any
+Governmental Authority due to Seller’s noncompliance with any Requirements of Law, Seller
+shall indemnify and hold harmless Buyer against any and all losses, liabilities, damages, and
+claims suffered or incurred by Buyer.
+6.4.5.3 Seller shall reimburse Buyer for all fees, damages, or penalties
+imposed by any Governmental Authority, other person or to other utilities for violations to the
+extent caused by a Potential Event of Default or an Event of Default by Seller or a failure of
+performance by Seller under this Agreement.
+
+28
+
+6.5
+
+Scheduling Procedures.
+6.5.1
+
+Availability Notices and Updates.
+
+6.5.1.1 By 5:00 A.M. Pacific Prevailing Time on the Business Day
+immediately preceding the next three (3) Days on which energy is to be delivered by Seller to
+Buyer, Seller shall provide Buyer with an hourly forecast of the Capacity of the Facility expected
+to be available to Buyer, up to the Contract Capacity, and for each hour of the next three (3)
+Days (as set forth in the form of Exhibit L, an “Availability Notice”); provided, however, that
+an Availability Notice provided on a Day before any non-Business Day shall include forecasts
+for each Day to and including the next Business Day. Delivery of an Availability Notice by
+Seller to Buyer with respect to any item of Major Equipment declared Available shall be deemed
+a declaration that all Ancillary Services capable of being provided from such Major Equipment
+are available for the Days for which such Availability Notice shall be effective. Seller shall
+promptly update Availability Notices any time information becomes available indicating a
+change in the forecast of generation of energy from the then current forecast; and in any event
+within 15 minutes of each time it becomes aware of a change (favorable or unfavorable) in the
+availability, or projected availability, of the Facility or electric transmission capacity, provided
+that such changes to the daily Availability Notices may be delivered by telephone within the
+fifteen (15) minute initial period and then later confirmed in writing within the hour. To the
+extent commercially reasonable, the parties shall cooperate to implement and use automatic
+forecast updates.
+6.5.1.2 Availability Notices shall specify any known limitations on the
+availability of electric transmission capacity made known to Seller that may affect the ability of
+the Facility to generate and deliver Scheduled Energy to the Electricity Delivery Point. Seller
+will also provide Buyer with a monthly Availability Notice six Business Days before the
+commencement of each such month, and a weekly Availability Notice on each Friday for the
+next week. Availability Notices identifying reductions in availability will include a short
+description of the nature of the problem, steps taken or being taken to resolve it and Seller’s
+estimate of the time by which a reduction in availability will be resolved. Availability Notices
+identifying projected restorations of Capacity availability will specify the time and extent that
+such restoration is projected to occur, and Seller will issue a further notice after restoration of
+availability is complete. Without limiting the foregoing, Seller will inform Buyer of any major
+limitations, restrictions, deratings or outages known to Seller affecting the ability to generate
+Facility Capacity for the following Day and will promptly update Seller’s notice to the extent of
+any material changes in this information.
+6.5.1.3 Availability Notices will be used by and relied upon by Buyer to
+establish and adjust electric transmission schedules. If Seller has provided notice to Buyer of a
+reduction in availability affecting transmission schedules, then prior to increasing Facility
+generation for delivery to Buyer as a result of restored availability, Seller will provide Buyer
+timely notice so as to enable Buyer sufficient time to reestablish its transmission schedules. The
+failure by Seller to provide revised Availability Notices is not a breach of this Agreement, but
+rather places Seller at risk for electric imbalance penalties or charges incurred by Buyer due to its
+lack of notice; provided, however, the failure to provide such notices more than [●] times a
+
+29
+
+Contract Year shall constitute the failure to perform a material obligation hereunder that is not
+capable of being cured.
+6.5.2
+
+Dispatch Notice.
+
+6.5.2.1 No later than 5:00 P.M. Pacific Prevailing Time on each Business
+Day, Buyer shall deliver to Seller a statement (which may be communicated by fax, e-mail or
+other electronic medium or a recorded telephone line) setting forth the estimated quantity of Net
+Energy to be Scheduled during each hour of the immediately following Day(s) at the Electricity
+Delivery Point. These estimates shall not be binding upon Buyer and Buyer may subsequently
+revise its estimates. The foregoing estimates by Buyer shall not be construed to permit Seller to
+limit the availability of the Facility such that Buyer is restricted from Dispatching Contract
+Capacity unless the Facility Capacity is physically unavailable due to Force Majeure, Planned
+Outage or Unplanned Outage, as the case may be. Buyer’s written statement may request the
+delivery of energy to be Scheduled during any or all hours of any Day.
+6.5.2.2 Each Dispatch Notice submitted by Buyer shall specify (i) the
+quantities of Net Energy or Ancillary Services being Scheduled from the Baseload Capacity
+component of the Contract Capacity, (ii) the quantities, if any, of Net Energy or Ancillary
+Services being Scheduled from the Peakload Capacity component of the Contract Capacity, and
+(iii) the quantities, if any, of Net Energy or Ancillary Services being Scheduled from the Facility
+in Simple Cycle mode. In order to be included on any Dispatch Notice, each quantity of Net
+Energy, and each equivalent quantity of Ancillary Services, being Scheduled by Buyer from the
+Baseload Capacity component of the Contract Capacity, or from the Peakload Capacity
+component of the Contract Capacity, or in Simple Cycle mode, must be shown as a dispatchable
+quantity on Exhibit P. Any amount not shown on Exhibit P, but which falls between listed
+numbers on Exhibit P and is explicitly within the range of allowed dispatch, shall be
+interpolated from the numbers immediately above and below that amount which are listed on
+Exhibit P, including applicable heat rates. An example of a hypothetical Dispatch Notice is
+attached hereto as Exhibit S.
+6.5.2.3 Seller shall be obligated to accept a request for Net Energy that
+has been provided to Seller in accordance with the requirements of Sections 6.5.2.1 and 6.5.2.2
+except to the extent (i) such request exceeds the Contract Capacity or the Scheduling Constraints
+or (ii) Seller declares that the Facility is not available as a result of a previously declared Planned
+Outage, a Forced Outage, or an event of Force Majeure. Seller shall promptly notify Buyer if
+Seller determines that it will not accept a Schedule submitted by Buyer for any of the foregoing
+reasons.
+6.5.2.4 Buyer shall pay or reimburse Seller for all Scheduling Fees
+charged by any third parties, if any, associated with the Scheduling of Net Energy or Ancillary
+Services generated by the Facility for delivery to Buyer hereunder or, if applicable, any fees
+charged by an independent third party for providing Ancillary Services required to deliver Net
+Energy or Ancillary Services generated by the Facility to Buyer.
+6.5.2.5 From time to time during the Term, Buyer may designate a third
+party to Schedule quantities of Net Energy on behalf of Buyer in accordance with any
+
+30
+
+Requirements of Law. Buyer may also wish to change the designated entity acting in such
+capacity from time to time. Accordingly, upon request of Buyer, Seller shall make such
+arrangements in accordance with the Requirements of Law at Buyer’s cost as may be reasonably
+necessary to facilitate the re-designation of the Person who may Schedule quantities of Net
+Energy on Buyer’s behalf.
+6.5.2.6 As shown in the Scheduling Constraints set forth for the Facility
+in Exhibit Q, the ramp rates applicable to the various items of Major Equipment comprising the
+Facility are faster for the Facility operating in Simple Cycle mode than in combined cycle mode.
+To the extent that Buyer elects to Schedule the delivery of Net Energy, and any equivalent
+quantity of Ancillary Services, from the Facility in Simple Cycle mode the Scheduling
+Constraints applicable to Simple Cycle mode shall be applicable to such Scheduling by Buyer.
+For any Scheduling by Buyer of Net Energy or Ancillary Services from the Baseload Capacity
+component or the Peakload Capacity component of the Contract Capacity, the Scheduling
+Constraints applicable to combined cycle mode shall be applicable to such Scheduling by Buyer.
+6.5.2.7 Buyer may Dispatch energy and Ancillary Services on a real time
+basis, subject to the Operating Procedures. Seller shall be obligated to accept a request for a
+change to the applicable schedule for energy and Ancillary Services.
+6.5.3
+
+Fuel Arrangements.
+
+6.5.3.1 Seller shall be responsible for providing for the construction,
+operation and maintenance of, at its sole cost and expense, all Fuel delivery and interconnection
+facilities specified in Exhibit N.
+6.5.3.2 Commencing as of the Commercial Operation Date, Buyer shall at
+all times arrange, procure, supply, nominate, balance and deliver to Seller at the Fuel Delivery,
+and Seller will accept from Buyer (except as otherwise excused herein) at the Fuel Delivery
+Point, all of the Fuel Supply Requirement described herein for the quantity of Net Energy and
+Ancillary Services that Buyer has Scheduled in accordance with the amounts specified in this
+Section 6.5.3, less the amounts of such Scheduled Net Energy and Ancillary Services which
+Seller is not obligated to deliver to Buyer, e.g., due to the unavailability of Capacity. Seller shall
+notify Buyer from time to time of any expected material deviation of the Standard Heat Rate of
+the Facility from the Guaranteed Heat Rate so that Buyer is able to nominate its Fuel to match
+the requirements of the Facility.
+6.5.3.3 All Fuel required to be delivered under this Agreement shall be
+delivered by Buyer to the Fuel Delivery Point at no cost to Seller. Subject to Section 6.5.3.1,
+Buyer shall have the right to supply Fuel utilizing any or all of the Fuel Delivery Points as
+specified in Exhibit N, and shall have the right to change the quantities nominated and received
+from each pipeline on a daily basis, or more frequently, to the extent permitted by the Fuel
+Transporter so long as such changes do not disrupt Seller’s operations.
+6.5.3.4 On and after the Commercial Operation Date, and subject to
+Section 6.5.3.6, Buyer shall be responsible for the cost of Fuel and all other costs associated with
+
+31
+
+the supply and transportation of all Fuel necessary to generate the Requested Net Energy as
+Dispatched pursuant to Section 6.5.2.
+6.5.3.5 Seller shall pay for and deliver the Fuel required during Start-Up
+Testing to reach the minimum load of the Facility.
+6.5.3.6 Imbalances associated with Fuel transportation and any balancing
+penalties or costs resulting from failure to accept delivery of the confirmed quantity of Fuel shall
+be the responsibility of Buyer. Payment for any balancing penalties or costs shall be in
+accordance with the procedures of Section 9.
+6.5.3.7 All Fuel to be supplied by Buyer shall be measured at the Fuel
+Metering Point set forth in Exhibit N, and shall meet the specifications set forth in Exhibit N.
+6.5.3.8 The Fuel Supply Requirement applicable to any hour, which
+Buyer shall be obligated to deliver to Seller at the Fuel Delivery Points, shall consist of the
+Operating Fuel Quantity and any applicable Start-Up Fuel Quantity for such hour, which shall be
+determined as follows:
+(i)
+The Operating Fuel Quantity for any hour may include Baseload
+Fuel Supply Requirement, Peakload Fuel Supply Requirement, and Simple Cycle Fuel Supply
+Requirement.
+(ii)
+For each quantity of Net Energy, or equivalent quantity of
+Ancillary Services, that may be Scheduled by Buyer in such hour from the Baseload Capacity
+component of the Contract Capacity, Buyer shall deliver a quantity of Fuel equal to the Baseload
+Fuel Supply Requirement, which shall be equal to such quantity of Net Energy, or equivalent
+quantity of Ancillary Services, multiplied by the applicable Baseload Heat Rate. The “Baseload
+Heat Rate” applicable to different quantities of Net Energy, or equivalent quantities of Ancillary
+Services, that may be Scheduled by Buyer from time to time from the Baseload Capacity
+component of the Contract Capacity are set forth in Exhibit R. Any amount not shown on
+Exhibit R, but which falls between listed numbers on Exhibit R and is explicitly within the
+range of allowed dispatch, shall be interpolated from the numbers immediately above and below
+that amount which are listed on Exhibit R, including applicable heat rates.
+(iii) For each quantity of Net Energy, or equivalent quantity of
+Ancillary Services, that may be Scheduled by Buyer in such hour from the Peakload Capacity
+component of the Contract Capacity, Buyer shall deliver a quantity of Fuel equal to the Peakload
+Fuel Supply Requirement, which shall equal such quantity of Net Energy, or equivalent quantity
+of Ancillary Services, multiplied by the applicable Peakload Heat Rate. The “Peakload Heat
+Rate” applicable to different quantities of Net Energy, or equivalent quantities of Ancillary
+Services, that may be Scheduled by Buyer from time to time from the Peakload Capacity
+component of the Contract Capacity are set forth in Exhibit R. Any amount not shown on
+Exhibit R, but which falls between listed numbers on Exhibit R and is explicitly within the
+range of allowed dispatch, shall be interpolated from the numbers immediately above and below
+that amount which are listed on Exhibit R, including applicable heat rates.
+
+32
+
+(iv)
+For each quantity of Net Energy, or equivalent quantity of
+Ancillary Services, that may be Scheduled by Buyer in such hour from the Facility in Simple
+Cycle mode, Buyer shall deliver a quantity of Fuel equal to the Simple Cycle Fuel Supply
+Requirement, which shall be equal to such quantity of Net Energy, or equivalent quantity of
+Ancillary Services, multiplied by the applicable Simple Cycle Heat Rate. The “Simple Cycle
+Heat Rate” applicable to different quantities of Net Energy, or equivalent quantities of Ancillary
+Services, that may be Scheduled by Buyer from time to time from the Facility in the Simple
+Cycle mode are set forth in Exhibit R. Any amount not shown on Exhibit R, but which falls
+between listed numbers on Exhibit R and is explicitly within the range of allowed dispatch, shall
+be interpolated from the numbers immediately above and below that amount which are listed on
+Exhibit R, including applicable heat rates.
+6.5.3.9 Each Party shall cooperate reasonably with the other Party to
+coordinate the supply and transportation of Fuel for the Facility with the operation of the Facility
+(x) by providing the other Party such information as the first Party shall reasonably request
+relating to the supply and transportation of the Fuel to the Facility (on both an historical and
+estimated future basis) and (y) by maintaining personnel available at all times to address
+scheduling of Fuel supply and transportation.
+6.6
+
+Outages.
+6.6.1 Planned Outages. No Planned Outage may be scheduled to
+occur during any portion of the time period commencing on May 15 and concluding
+on September 15.
+6.6.2 Maintenance Outages. If Seller reasonably determines that it is
+necessary to schedule a Maintenance Outage, Seller shall notify Buyer of the
+proposed Maintenance Outage at least five (5) days before the outage begins (or such
+shorter period to which Buyer may reasonably consent in light of then existing
+conditions). Upon such notice, the Parties shall plan the Maintenance Outage to
+mutually accommodate the reasonable requirements of Seller and the service
+obligations of Buyer; provided, however, that, unless Buyer otherwise consents, such
+consent not to be unreasonably withheld, no Maintenance Outage may be scheduled
+between the hour ending 0700 through the hour ending 2200, Monday through
+Saturday, during the time period commencing on May 15 and concluding on
+September 15. Notice of a proposed Maintenance Outage shall include the expected
+start date and time of the outage, the amount of Capacity of the Facility that will not
+be available, and the expected completion date and time of the outage. Seller shall
+give Buyer notice of the Maintenance Outage as soon as Seller determines that the
+Maintenance Outage is necessary. Buyer shall promptly respond to such notice and
+may request reasonable modifications in the schedule for the outage. Seller shall use
+all reasonable efforts to comply with any request to modify the schedule for a
+Maintenance Outage. Seller shall notify Buyer of any subsequent changes in
+Capacity available to Buyer or any changes in the Maintenance Outage completion
+date and time. As soon as practicable, any notifications given orally shall be
+confirmed in writing. Seller shall take all reasonable measures and exercise its best
+efforts to minimize the frequency and duration of Maintenance Outages.
+
+33
+
+6.6.3 Forced Outages. Seller shall promptly provide to Buyer an oral
+report of any Forced Outage of the Facility. This report shall include the amount of
+the Capacity of the Facility that will not be available because of the Forced Outage
+and the expected return date of such Capacity. Seller shall promptly update the report
+as necessary to advise Buyer of changed circumstances. As soon as practicable, if the
+Forced Outage resulted in more than five percent (5%) of the Facility Capacity being
+unavailable, the oral report shall be confirmed in writing. Seller shall take all
+reasonable measures and exercise its best efforts to avoid Forced Outages and to
+minimize their duration.
+6.6.4 Notice of Deratings and Outages. Without limiting the
+foregoing, Seller will inform Buyer of any major limitations, restrictions, deratings or
+outages known to Seller affecting the Facility for the following day and will promptly
+update Seller’s notice to the extent of any material changes in this information, with
+“major” defined as affecting more than five percent (5%) of the Facility Capacity.
+6.7
+Schedule Coordination. If, as a result of this Agreement, Buyer is deemed by an
+RTO to be financially responsible for Seller’s performance under the Interconnection
+Agreement, due to Seller’s lack of a “scheduling coordinator” or other RTO recognized standing
+or otherwise, then (a) Seller shall use commercially reasonable and diligent efforts to acquire
+such RTO recognized standing such that Buyer is no longer responsible for Seller’s performance
+under the Interconnection Agreement, and (b) Seller shall defend, indemnify and hold Buyer
+harmless against any liability arising due to Seller’s performance or failure to perform under the
+Interconnection Agreement.
+6.8
+
+Electronic Communications.
+6.8.1 Telemetering. Seller shall provide telemetering equipment and
+facilities capable of transmitting the following information concerning the Facility
+pursuant to the Interconnection Agreement and to Buyer on a real-time basis and will
+operate such equipment when requested by Buyer to indicate:
+6.8.1.1 instantaneous MW output at the Electricity Delivery Point;
+6.8.1.2 Net Energy; and
+6.8.1.3 Facility Capacity.
+
+Seller shall also transmit to Buyer any other data from the Facility that Seller receives on a real
+time basis. Seller shall provide such real time data to Buyer on the same basis as the basis on
+which Seller receives the data (e.g., if Seller receives the data in four second intervals, Buyer
+shall also receive the data in four second intervals).
+6.8.2 Dedicated Communication Circuit. Seller shall install a
+dedicated direct communication circuit (which may be by common carrier telephone)
+between Buyer and the control center in the Facility’s control room or such other
+communication equipment as the Parties may agree.
+
+34
+
+6.9
+
+Reports and Records.
+6.9.1 Monthly Reports. Within thirty (30) days after the end of each
+calendar month during the Term (each, a “Reporting Month”), Seller shall provide
+to Buyer a report in electronic format, which report shall include (a) summaries of the
+Facility’s output data for the Reporting Month in intervals not to exceed one hour (or
+such shorter period as is reasonably possible with commercially available
+technology), including information from the Facility’s Computer Monitoring System;
+(b) summaries of any other significant events related to the construction or operation
+of the Facility for the Reporting Month; and (c) any supporting information that
+Buyer may from time to time reasonably request (including historical data for the
+Facility).
+6.9.2 Electronic Fault Log. Seller shall maintain an electronic fault
+log of operations of the Facility during each hour of the Term beginning as of the
+Commercial Operation Date. Seller shall provide Buyer with a copy of the electronic
+fault log within thirty (30) days after the end of the calendar month to which the fault
+log applies.
+6.9.3 Other Information to Be Provided to Buyer.
+provide to Buyer the following information concerning the Facility:
+
+Seller shall
+
+6.9.3.1 Upon the request of Buyer, the manufacturers’ guidelines and
+recommendations for maintenance of the Facility equipment;
+6.9.3.2 A detailed report summarizing the results of maintenance
+performed during each Planned Outage and any Forced Outage, and upon request of Buyer any
+of the technical data obtained in connection with such maintenance; and
+6.9.3.3 A detailed report describing the facts, circumstances and events
+that caused and arose out of, or related to, any Forced Outage, failed Start-Up or other item of
+Major Equipment being taken off-line or tripping for any reason other than in connection with a
+Planned Outage.
+6.9.4 Information to Any Governmental Authority. Seller shall,
+promptly upon written request from Buyer, provide Buyer with all data which is
+collected by Seller related to the Facility reasonably required for reports to and
+information requests from any Governmental Authority.
+Along with said
+information, Seller shall provide to Buyer copies of all submittals to any
+Governmental Authority directed by Buyer and related to the operation of the Facility
+with a certificate that the contents of the submittals are true and accurate to the best of
+Seller’s knowledge. Seller shall use best efforts to provide this information to Buyer
+soon enough so that Buyer has time to review such information and meet any
+submission deadlines imposed by the requesting organization or entity. After the
+sending or filing any statement, application, and report or any document with any
+Governmental Authority relating to operation and maintenance of the Facility, Seller
+shall promptly provide to Buyer with a copy of the same.
+
+35
+
+6.9.5 Information to Any Intervenor. Seller shall, promptly upon
+written request from Buyer, provide Buyer with data reasonably required for
+information requests from any state or federal agency intervenor or any other party
+achieving intervenor status in any Buyer rate proceeding or other proceeding before
+any Governmental Authority. Seller shall use best efforts to provide this information
+to Buyer soon enough so that Buyer has time to review such information and meet
+any submission deadlines imposed by the requesting organization or entity.
+6.9.6 Environmental Information. Seller shall, promptly upon
+written request from Buyer, provide Buyer with all data reasonably requested by
+Buyer relating to environmental information under the Required Facility Documents.
+6.9.7 Information Relating to Facility Performance. Seller shall
+provide Buyer monthly operational reports in a form and substance acceptable to
+Buyer and Seller shall, promptly upon written request from Buyer, provide Buyer
+with all operational data requested by Buyer with respect to the performance of the
+Facility and delivery of energy therefrom.
+6.9.8 Audited Financial Statements. Seller shall provide Buyer
+within ninety (90) days after the end of each calendar year, its audited financial
+statements together with the audited financial statements of any guarantor providing
+Credit Support, in each case prepared in accordance with generally accepted
+accounting principles by an accounting firm of nationally recognized standing in the
+electric power industry reasonably acceptable to Buyer.
+6.9.9 Notice of Default. Seller shall promptly notify Buyer of
+receipt of written notice or actual knowledge of the occurrence of any event of default
+under any material agreement to which Seller is a party and of any other
+development, financial or otherwise, which would have a material adverse effect on
+Seller, the Facility or Seller’s ability to develop, construct, operate, maintain or own
+the Facility as provided in this Agreement.
+6.9.10 Notice of Litigation. Following its receipt of written notice or
+actual knowledge of the commencement of any action, suit, and proceeding before
+any court or Governmental Authority which would, if adversely determined,
+adversely affect Seller, the Premises or the Facility, Seller shall promptly give notice
+to Buyer of the same.
+6.9.11 Additional Information. Seller shall provide to Buyer such
+other information respecting the condition or operations of Seller and the Facility as
+Buyer may, from time to time, reasonably request.
+6.10 Access Rights. Upon reasonable prior notice and subject to the safety rules and
+regulations of Seller, Seller shall provide Buyer and its authorized agents, employees and
+inspectors with reasonable access to the Facility: (a) for the purpose of reading or testing
+metering equipment, (b) as necessary to witness any required Capacity tests necessary to
+determine the amount of Capacity associated with the Facility, (c) in connection with the
+
+36
+
+operation and maintenance of the Electrical Interconnection Facilities for the Facility, (d) to
+provide tours of the Facility to customers and other guests of Buyer (not more than twelve (12)
+times per year), (e) for purposes of implementing Section 9.5, and (f) for other reasonable
+purposes at the reasonable request of Buyer.
+6.11 EWG. Seller shall provide Buyer with copies of Seller’s applications to FERC for
+EWG status and for authority to sell energy under this Agreement within ten (10) days of filing
+such application(s). During the Term, Seller shall either (i) maintain its EWG status and its
+authority to sell power under this Agreement or (ii) otherwise cause Seller to be exempt from
+federal and state regulations as an electric utility.
+6.12 Facility Images. Buyer shall be free to use any and all images from or of the
+Facility for promotional purposes. Upon Buyer’s request and at Buyer’s expense, Seller shall
+install equipment as Buyer may request, including without limitation video and or web-based
+imaging equipment. Buyer shall use its discretion with respect to how images from or of the
+Facility are presented by Buyer, including without limitation associating images of the Facility
+with Buyer’s corporate logo but not the corporate logo of Seller.
+6.13 Financial and Accounting Information. If Buyer or one of its Affiliates
+determines that, under the Financial Accounting Standards Board’s revised Interpretation No. 46,
+Consolidation of Variable Interest Entities (“FIN 46”), it may hold a variable interest in Seller,
+but it lacks the information necessary to make a definitive conclusion, Seller hereby agrees to
+provide sufficient financial and ownership information so that Buyer or its Affiliate may confirm
+whether a variable interest does exist under FIN 46. If Buyer or one of its affiliates determines
+that, under FIN 46, it holds a variable interest in Seller, Seller hereby agrees to provide sufficient
+financial and other information to Buyer or its Affiliate so that Buyer may properly consolidate
+the entity in which it holds the variable interest and/or present the disclosures required by FIN
+46.
+SECTION 7
+SECURITY AND CREDIT SUPPORT
+7.1
+Credit Support. If at any time during the Term, Seller maintains a Credit Rating
+of (1) “Aa2” or higher by Moody’s and (2) “AA” or higher by S&P, then Seller will not be
+required to post any Credit Support Security. If Seller does not meet the Credit Rating
+requirements of (1) and (2) in the preceding sentence, it may have to post Credit Support
+Security in the amounts outlined on the Credit Matrix based upon its’ Credit Rating or that of the
+entity providing a guaranty as Credit Support Security on behalf of the Seller, and the size of the
+project. If Seller has a published Credit Rating from each of S&P and Moody’s, the lower rating
+will be used to determine the level of Credit Support in the Credit Matrix. If Seller, or the entity
+providing a guaranty as Credit Support Security on behalf of the Seller, has no published Credit
+Rating, an equivalent Credit Rating will be determined by Buyer through the application of
+Buyer’s proprietary credit scoring model developed in conjunction with S&P, and the amount of
+Credit Support for Seller (as shown on the Credit Matrix) will be based upon this equivalent
+Credit Rating. If the required Credit Support is greater than zero dollars ($0.00), upon the
+request of Buyer, Seller shall within five (5) Business Days provide one of the following in the
+
+37
+
+amount of the Credit Support: (x) a guaranty, in form and substance acceptable to Buyer in its
+sole discretion from a Person acceptable to Buyer in its sole discretion, (y) a Letter of Credit, or
+(z) a Cash Escrow.
+7.2
+
+Subordinated Security Interests.
+7.2.1 Security Interests. Concurrently with the execution of this
+Agreement and simultaneously with the acquisition by Seller after the Effective Date
+of any real property in connection with the Facility (including land and water or rights
+thereto), Seller shall execute, file and record such agreements, documents,
+instruments, deeds of trust and other writings as Buyer may request, all in form and
+substance satisfactory to Buyer, to give Buyer a perfected security interest in and lien
+on the Facility, the Premises and all other assets necessary or in Buyer’s opinion
+desirable for the development, construction, ownership, operation or maintenance of
+the Facility as security for Seller’s performance and any amounts owed by Seller to
+Buyer pursuant to this Agreement (collectively the “Security Interests”). The
+Security Interests shall be subordinate in right of payment, priority and remedies only
+to the interests of the financiers for the Facility contemplated by Section 2.2.3 and
+approved by Buyer.
+7.2.2 Pledge of Ownership Interests. [Note to bidders: This section
+is applicable only if Seller is a special purpose entity.] Concurrently with the
+execution of this Agreement, Seller’s equity holders shall execute and file such
+agreements, documents, instruments, and other writings as Buyer may request, all in
+form and substance satisfactory to Buyer, to give Buyer a perfected security interest
+in and lien on all ownership interests in Seller as security for Seller’s performance
+and any amounts owed by Seller to Buyer pursuant to this Agreement (the “Pledge
+Interest”). The Pledge Interest shall be subordinate in right of payment, priority and
+remedies only to the interests of the financiers for the Facility contemplated by
+Section 2.2.3 and approved by Buyer.
+7.2.3 Maintenance of Security Interests. Seller shall execute and file
+and record (or cause to be executed and filed and recorded) such Uniform
+Commercial Code financing statements and deeds of trust and shall take such further
+action and execute such further instruments and other writings as shall be required by
+Buyer to confirm and continue the validity, priority, and perfection of the Security
+Interests [and the Pledge Interest]. The granting of the Security Interests [and the
+Pledge Interest] shall not be to the exclusion of, nor be construed to limit the amount
+of any further claims, causes of action or other rights accruing to Buyer by reason of
+any breach or default by Seller under this Agreement or the termination of this
+Agreement prior to the expiration of the Term.
+7.2.4 Transfer of Required Facility Documents. The Security
+Interests shall provide that if Buyer acts to obtain title to the Facility pursuant to the
+interests provided by Seller pursuant to Section 7.2.1, Seller shall take all steps
+necessary to transfer all Required Facility Documents necessary to operate the
+Facility to Buyer, and shall diligently prosecute and cooperate in such transfers.
+
+38
+
+7.3
+Quarterly Financial Statements. If requested by Buyer, Seller shall within thirty
+(30) days provide Buyer with copies of its most recent quarterly financial statements, together
+with the audited financial statements of any guarantor providing Credit Support, in each case
+prepared in accordance with generally accepted accounting principles.
+7.4
+Security is Not a Limit on Seller’s Liability. The Credit Support and Security
+Interests contemplated by this Section 7: (a) constitutes security for, but is not a limitation of,
+Seller’s obligations under this Agreement, and (b) shall not be Buyer’s exclusive remedy for
+Seller’s failure to perform in accordance with this Agreement. To the extent that Buyer draws on
+the Credit Support, Seller shall within five (5) Business Days reinstate the security to the full
+amount required by this Section 7.
+7.5
+Escrow Account. With respect to any Cash Escrow established pursuant to this
+Section 7 as Credit Support, Seller hereby grants Buyer a security interest in the escrow account
+and all moneys and other amounts in the account to secure payment and performance of Seller’s
+obligations under this Agreement. Buyer shall have, and Seller agrees to take all further action
+required or reasonably requested by Buyer to ensure that Buyer has, all rights of a secured party
+under Article 9 of the Uniform Commercial Code and applicable law with respect to the escrow
+account and all moneys and other amounts in the escrow account. The escrow agreement shall
+be in form and substance acceptable to Buyer in its discretion and shall contain the following
+language: “Escrow Agent acknowledges that Seller has granted Buyer a security interest in the
+amounts held by Escrow Agent in the [describe escrow accounts and all moneys and other
+amounts in the account] (collectively, the “Collateral”). Escrow Agent acknowledges that it
+(a) has received and holds possession of the Collateral for the benefit of Buyer and not as the
+agent of or on behalf of Seller and (b) shall continue to hold possession of the Collateral for
+Buyer’s benefit until Escrow Agent receives notice in an authenticated record from Buyer that
+Buyer’s security interest in the Collateral has been terminated. Escrow Agent acknowledges that
+it has no rights in and to the Collateral other than its right to receive payment of its fees and
+expenses pursuant to the Escrow Agreement.”
+SECTION 8
+METERING
+8.1
+Net Energy. Meter equipment shall be installed, owned, operated, maintained and
+tested in accordance with the terms of the Interconnection Agreement and shall automatically
+account for line losses between such meter equipment and the Electricity Delivery Point
+(collectively, the “Electric Metering Equipment”). The Electric Metering Equipment shall be
+capable of metering Net Energy delivered at the Electricity Delivery Point on a continuous real
+time basis.
+8.1.1 Seller Electric Metering. Seller shall be responsible for the
+maintenance, testing and calibration of the Electric Metering Equipment and the
+maintenance and testing of the electrical facilities and Protective Apparatus, including
+any transmission equipment and related facilities, necessary to interconnect the
+Facility at the Electricity Delivery Point. Such installation shall be completed, and
+the delivery of such data shall be commenced, as promptly as possible but in no event
+
+39
+
+later than one month prior to the commencement of Net Energy deliveries. Seller
+shall bear all costs and expenses of installing, maintaining and testing all Electric
+Metering Equipment.
+8.1.2 Fuel Meters. Fuel delivered by Buyer to Seller shall be
+metered at the Fuel Delivery Point by the meters owned by the respective interstate
+pipelines delivering such Fuel to each of the Fuel delivery points identified in Exhibit
+O (the “Fuel Metering Point(s)”).
+8.1.3 Check Meters. Buyer may at its option and expense install and
+operate one or more check meters to check Seller’s meters. Such check meters shall
+be for check purposes and shall not be used in the measurement of Net Energy or
+Ancillary Services for the purposes of this Agreement. The check meters shall be
+subject at all reasonable times to inspection and examination by the Seller or its
+designee. The installation and operation thereof shall, however, be done entirely by
+Buyer at no cost or expense to Seller. The Seller shall grant to Buyer, at no cost or
+expense, the right to install such check meters at the Electricity Delivery Point and
+the right to access such check meters at reasonable times as requested by Buyer if
+such check meters are located on the Premises.
+8.1.4 Change in Measurement Method. If, at any time during the
+Term a new method or technique is developed with respect to electricity
+measurement, or the determination of the factors used in electricity measurement,
+such new method or technique may be substituted for the method set forth in this
+Section 8.1 when in the opinion of the Parties, employing such new method or
+technique is advisable, and they so agree in writing.
+8.1.5 Industry Standards. All Electric Metering Equipment, whether
+owned by the Seller or by a third party, shall be operated, maintained and tested by
+and/or on behalf of the Seller in accordance with Prudent Electrical Practices.
+8.1.6 Access. Each Party shall have the right to receive reasonable
+advance notice with respect to, and to be present at the time of, any installing,
+cleaning, changing, repairing, inspecting, testing, calibrating or adjusting of Electric
+Metering Equipment. The records from such Electric Metering Equipment shall be
+the property of the Seller, but upon reasonable advance notice, the Seller shall make
+available to Buyer all data, records and charts relating to the Electric Metering
+Equipment, together with calculations therefrom, for inspection and verification.
+8.1.7 Installations. Any installations of Electric Metering Equipment
+required pursuant to this Agreement shall be scheduled by the Seller; provided,
+however, that no installation which shall or could affect deliveries of Net Energy shall
+be made without the prior written consent of Buyer, which shall not be unreasonably
+withheld. Any installations of check meters by Buyer shall be scheduled by Buyer;
+provided, however that the installation shall not unreasonably interfere with the
+operation and maintenance of the Facility by the Seller.
+
+40
+
+8.1.8 Estimates. During the period after the Effective Date and prior
+to the installation and commencement of operation of the meters contemplated by this
+Section 8.1.8, the Net Energy generated and delivered shall be estimated in good faith
+by the Seller and the Parties shall prepare and submit invoices on the basis of such
+estimates. Any such invoice shall be adjusted retroactively based on the performance
+of the Facility during the three month period immediately following the installation of
+such meters.
+8.1.9 Inspection. Seller, at its sole cost and expense, shall inspect
+and calibrate, or cause to be inspected and calibrated, all Electric Metering Equipment
+periodically, but not less frequently than annually. When any test, in the case of
+Electric Metering Equipment, shall show a measurement error of more than onequarter percent (1/4%), correction shall be made for the period during which the
+measurement instruments were in error, first, by using the registration of Buyer’s
+check meter, if installed and registering accurately; if no check meter is installed and
+registering accurately, or if the period cannot be ascertained, correction shall be made
+for one-half (1/2) of the period elapsed since the last date of test; and the measuring
+instrument shall be adjusted immediately to measure accurately.
+8.2
+Records. The Parties shall, for five (5) years or such longer period as may be
+required by the applicable Governmental Authority, each keep and maintain accurate and
+detailed records relating to the Facility’s hourly deliveries of Net Energy and Fuel consumption.
+Such records shall be made available for inspection by either Party or any Governmental
+Authority having jurisdiction with respect thereto during normal business hours upon reasonable
+notice. If either Party (the “Notifying Party”) shall propose to discard any records theretofore
+required to be retained by this Section 8.2, it shall give notice to the other Party thereof and the
+other Party may within thirty (30) days elect to take possession of such records by notice to the
+Notifying Party, and in such case the Notifying Party shall promptly, and in any event, no later
+than five (5) days following receipt of such notice, deliver such records to the other Party at its
+expense. If the Party receiving a Notice pursuant to this Section 8.2 shall not respond within
+such thirty (30) days, the Notifying Party may discard such records without any further
+obligation hereunder. Upon written request by Buyer, Seller promptly shall request that the
+Transmission Provider provide in writing any and all meter or other data associated with the
+Facility and Net Energy directly to Buyer. Notwithstanding any other provision of this
+Agreement, Buyer shall have the right to provide such meter data to any RTO or generation
+tracking service.
+8.3
+Adjustment to Loss Factors. If Buyer or Seller has a reasonable basis for
+concluding that the Electric Metering Equipment is not accurately measuring losses between the
+Electric Metering Equipment and the Electricity Delivery Point, it may propose an adjustment to
+the Electric Metering Equipment by notice to the other Party. Such an adjustment shall be
+prospective only. The notice will include information explaining in reasonable detail why the
+loss factor appears to be incorrect. The other Party shall have thirty (30) days in which to
+approve or disapprove of the proposed adjustment, which approval may not be unreasonably
+withheld, conditioned or delayed. A proposed loss factor adjustment that is not disapproved by
+notice to Seller given within the thirty (30) day period shall be deemed approved. The Parties
+
+41
+
+shall cooperate in causing PacifiCorp Transmission to make an appropriate adjustment to the
+Electric Metering Equipment pursuant to the Interconnection Agreement.
+SECTION 9
+BILLINGS, COMPUTATIONS AND PAYMENTS
+9.1
+Monthly Invoices. On or before the tenth (10th) day following the end of each
+month, Seller shall deliver to Buyer a proper invoice showing Seller’s computation of the
+Variable Energy Payment, MAAF and the Capacity Payment for such month. If such invoice is
+delivered by Seller to Buyer, Buyer shall send to Seller payment for Seller’s deliveries in respect
+thereof on or before the thirtieth (30th) day following the end of each month.
+9.2
+Offsets. Buyer may offset any payment due under this Agreement against
+amounts owing from Seller to Buyer pursuant to this Agreement, any other agreement between
+the Parties or otherwise.
+9.3
+Interest on Late Payments. Any amounts that are not paid when due under this
+Agreement shall bear interest at the Prime Rate plus two hundred (200) basis points from the
+date due until paid; provided, however, that this interest rate shall at no time exceed the
+maximum rate allowed by applicable law.
+9.4
+Disputed Amounts. If either Party, in good faith, disputes any amount due
+pursuant to an invoice rendered under this Agreement, such Party shall notify the other Party of
+the specific basis for the dispute and, if the invoice shows an amount due, shall pay that portion
+of the statement that is undisputed, on or before the due date. Any such notice shall be provided
+within two (2) years of the date of the invoice in which the error first occurred. If any amount
+disputed by such Party is determined to be due the other Party, or if the Parties resolve the
+payment dispute, the amount due shall be paid within five (5) days of such determination or
+resolution, along with interest accrued at the rate determined under Section 9.3 from the date due
+until the date paid.
+9.5
+Audit Rights. Buyer, through its authorized representatives, shall have the right,
+at its sole expense and during normal business hours, to examine and copy the records of Seller
+to the extent reasonably necessary to verify the accuracy of any statement, charge or computation
+made hereunder or to verify the Seller’s performance of its obligations hereunder. Upon request,
+Seller shall provide to Buyer statements evidencing the quantities of energy delivered at the
+Electricity Delivery Point. If any statement is found to be inaccurate, a corrected statement shall
+be issued and any amount due thereunder will be promptly paid and shall bear interest calculated
+at the rate determined under Section 9.3 from the date of the overpayment or underpayment to
+the date of receipt of the reconciling payment. Notwithstanding the above, no adjustment shall
+be made with respect to any statement or payment hereunder unless Buyer questions the
+accuracy of such payment or statement within two (2) years after the date of such statement or
+payment.
+
+42
+
+SECTION 10
+DEFAULTS AND REMEDIES
+10.1 Defaults. The following events are defaults (each, an “Event of Default”) under
+this Agreement:
+10.1.1 Events of Default by Either Party.
+10.1.1.1 A Party’s failure to make a payment when due under this
+Agreement if the failure is not cured within ten (10) days after the non-defaulting Party gives the
+defaulting Party a notice of the default.
+10.1.1.2 A Party (a) makes an assignment for the benefit of its creditors;
+(b) files a petition or otherwise commences, authorizes or acquiesces in the commencement of a
+proceeding or cause of action under any bankruptcy or similar law for the protection of creditors,
+or has such a petition filed against it and such petition is not withdrawn or dismissed within sixty
+(60) days after such filing; (c) becomes insolvent; or (d) is unable to pay its debts when due.
+10.1.1.3 A Party’s breach of a representation or warranty made by that
+Party in this Agreement if the breach is not cured within thirty (30) days after the non-defaulting
+Party gives the defaulting Party a notice of the default.
+10.1.1.4 A Party otherwise fails to perform any material obligation
+imposed upon that Party by this Agreement if the failure is not cured within thirty (30) days after
+the non-defaulting Party gives the defaulting Party notice of the default; provided, however, that,
+upon written notice from the defaulting Party, this thirty (30) day period shall be extended by an
+additional sixty (60) days if (a) the failure cannot reasonably be cured within the thirty (30) day
+period despite diligent efforts, (b) the default is capable of being cured within the additional sixty
+(60) day period, and (c) the defaulting Party commences the cure within the original thirty (30)
+day period and is at all times thereafter diligently and continuously proceeding to cure the
+failure.
+10.1.2 Events of Default by Seller.
+10.1.2.1 Seller’s failure to post or increase the Carry-Over Letter of
+Credit within ten (10) Business Days after the end of each month as may be required under
+Section 5.1.4.
+10.1.2.2 Seller’s failure to cause the Facility to achieve (a) an average of
+the applicable CAFms of at least [●%] in any three (3) consecutive quarters in a Contract Year or
+(b) achieve an average of the applicable CAFms of at least [●%] in three (3) out of any five (5)
+consecutive Contract Years.
+10.1.2.3 Seller’s failure to post and maintain Credit Support as required
+by Section 7 if the failure is not cured within five (5) days after Buyer gives Seller a notice of the
+default.
+
+43
+
+10.1.2.4 Seller’s failure to achieve a milestone by the date set forth for the
+achievement of that milestone in Section 2.2 (other than the failure to achieve the Commercial
+Operation Date by the Guaranteed Commercial Operation Date) if the failure is not cured within
+thirty (30) days after Buyer gives Seller a notice of the default.
+10.1.2.5 Seller’s failure to cause the Facility to achieve the Commercial
+Operation Date on or before the Guaranteed Commercial Operation Date.
+10.1.2.6 Seller’s failure to cure any default under any Required Facility
+Documents (including the Interconnection Agreement) within the time allowed for a cure under
+such agreement or instrument.
+10.1.2.7 Seller’s sale of energy from the Facility to a Party other than
+Buyer in breach of this Agreement if Seller does not permanently cease such sale and
+compensate Buyer for the damages arising from the breach within ten (10) days after Buyer
+gives Seller a notice of default.
+10.1.2.8 For reasons other than an event of Force Majeure or an Event of
+Default by Buyer, the Facility being unavailable to provide energy for ninety (90) consecutive
+days or one hundred twenty (120) non-consecutive days in any three hundred sixty-five (365)
+day period commencing on the Commercial Operation Date and prior to end of the Term.
+10.2
+
+Termination and Remedies.
+
+10.2.1 Upon the occurrence of, and during the continuation of, an
+Event of Default, the non-defaulting Party shall be entitled to all remedies available at
+law or in equity, and may terminate this Agreement by notice to the other Party
+designating the date of termination and delivered to the defaulting Party no less than
+ten (10) days before such termination date. Further, during the continuation of an
+Event of Default by Seller, and until it has recovered all damages incurred on account
+of such Event of Default by Seller, without exercising its termination right, Buyer
+may offset its damages against any payment due Seller.
+10.2.2 In the event of a termination of this Agreement:
+10.2.2.1 The Parties’ respective obligations under this Agreement shall
+terminate (other than those obligations which expressly are to be performed after termination).
+10.2.2.2 Each Party shall pay to the other all amounts due the other under
+this Agreement for all periods prior to termination subject to offset by the non-defaulting Party
+against damages incurred by such Party.
+10.2.2.3 The amounts due pursuant to Section 10.2.3.2 shall be paid
+within thirty (30) days of the billing date for such charges plus interest thereon at the Prime Rate
+from the date of termination until the date paid.
+10.2.2.4 The provisions of Sections 6.4.4, 6.9.4, 6.9.5, 8.2, 9.3, 9.4, 9.5,
+10.7, 10.9, 11 and 14 shall survive the termination of this Agreement.
+
+44
+
+10.3 Specific Performance. Buyer shall be entitled to seek and obtain a decree
+compelling specific performance or granting injunctive relief with respect to, and shall be
+entitled, without the necessity of filing any bond, to enjoin any actual or threatened breach of any
+material obligation of Seller under this Agreement. Seller agrees that in view of the nature of the
+bid procedure that caused Seller to be selected, and the importance of the Facility and the
+Buyer’s requirement for Capacity and energy, specific performance (including temporary and
+preliminary relief) and injunctive and other equitable relief, including access to all records of
+Seller, are proper in the event of any actual or threatened breach of any material obligation by
+Seller under this Agreement, and that any liability limits contained in this Agreement shall not
+operate to limit the exercise of Buyer’s remedies in equity to cause Seller to perform its
+obligations under this Agreement. In any action for specific performance or injunctive relief or
+other equitable relief, all expenses incurred by the prevailing party in such proceeding, including
+reasonable counsel fees, shall be awarded to the prevailing party in such proceeding. Seller
+agrees that it will not assert as a defense to Buyer’s action for specific performance of, or
+injunctive relief or other equitable relief relating to, Seller’s obligations hereunder that the
+amounts payable or paid by Seller in respect of liquidated damages or actual damage constitute
+an adequate remedy for the breach of such obligation, and Seller hereby conclusively waives
+such defense.
+10.4 Failure to Meet Availability. If an Event of Default by Seller described in
+Section 10.1.2.2 shall occur, Buyer shall have the right to enter the Facility and do all such things
+as Buyer may consider necessary or desirable to remedy such situation or to improve the
+availability of the Contract Capacity, including making any repairs to the Major Equipment or
+the Facility. Seller shall reimburse Buyer for and shall indemnify and hold harmless Buyer from
+and against all losses, costs, charges and expenses incurred by Buyer in connection with exercise
+of its rights under this Section 10.4 other than due to the gross negligence or willful misconduct
+of Buyer. In connection with the exercise of the rights under this Section 10.4, Buyer shall have
+the right to recoup and set off all such losses, costs, charges and expenses against amounts
+otherwise owed by Buyer under this Agreement.
+10.5 License to Operate Facility. During the occurrence and continuance of an Event
+of Default by Seller, Seller hereby irrevocably grants to Buyer the right, license, and authority to
+enter the Premises, operate the Facility, and to perform Seller’s obligations under this Agreement
+for the Term of this Agreement. Notwithstanding the license granted to Buyer in this Section
+10.5, so long as no Event of Default by Seller which would entitle Buyer to terminate this
+Agreement has occurred and is continuing, Buyer agrees that Seller may operate the Facility and
+provide the energy and Capacity in accordance with its obligations under this Agreement. Upon
+the occurrence of an Event of Default and the expiration of all applicable opportunities to cure,
+Buyer may, but shall not be obligated to, exercise its rights as licensee under this Section 10.5 in
+lieu of termination. Buyer’s right to operate the Facility pursuant to the license granted in this
+Section 10.5 shall be effective for a period not to exceed 365 days from the date Buyer first
+exercises its license rights. During any period in which Buyer is operating the Facility pursuant
+to the license granted in this Section 10.5, Seller shall, upon request from Buyer, reimburse
+Buyer for all reasonable costs and expenses incurred by Buyer to operate and maintain the
+Facility. In connection with the exercise of the rights under this Section 10.5, Buyer shall have
+the right to recoup and set off all such losses, costs, charges and expenses against amounts
+otherwise owed by Buyer under this Agreement.
+45
+
+10.6 Termination of Duty to Buy. If this Agreement is terminated because of Seller’s
+default, Seller may not require Buyer to purchase energy from the Facility before the date on
+which the Term would have ended had this Agreement remained in effect. Seller hereby waives
+its rights to require Buyer to do so.
+10.7 Net Replacement Power Costs. If this Agreement is terminated because of
+Seller’s default, Seller shall pay Buyer the positive difference, if any, obtained by subtracting
+(a) the result of (1) the energy, stated in MWh, that Seller was obligated to provide to Buyer
+during the remainder of the Term, multiplied by (2) the price per MWh specified in Exhibit F
+for the remaining Contract Years, from (b) the Replacement Price for any energy that Seller was
+obligated to provide during the remainder of the Term. Amounts owed by Seller pursuant to this
+Section 10.7 shall be due within five (5) Business Days after Buyer gives Seller notice of the
+amount due.
+10.8 Default Security. Buyer may apply the Credit Support Security at any time to
+reduce amounts due from Seller to Buyer under this Agreement which are not paid when due.
+10.9 Cumulative Remedies. The rights and remedies provided to Buyer under this
+Agreement are cumulative and not exclusive of any rights or remedies which Buyer would
+otherwise have.
+SECTION 11
+INDEMNIFICATION AND LIABILITY
+11.1
+
+Indemnities.
+
+11.1.1 Indemnity by Seller. Seller hereby releases, indemnifies and
+holds harmless Buyer, its directors, officers, agents, and representatives against and
+from any and all losses, claims, actions or suits, including costs and attorney’s fees,
+resulting from, or arising out of or in any way connected with (a) the energy delivered
+by Seller under this Agreement to and at the Electricity Delivery Point, (b) the Fuel
+delivered by Buyer under this Agreement at and after the Fuel Delivery Point, (c) any
+facilities on Seller’s side of the Electricity Delivery Point, (d) Seller’s operation
+and/or maintenance of the Facility, or (e) arising from this Agreement, including any
+loss, claim, action or suit, for or on account of injury, bodily or otherwise, to, or death
+of, persons, or for damage to, or destruction or economic loss of property belonging
+to Buyer, Seller or others, excepting only such loss, claim, action or suit as may be
+caused solely by the fault or gross negligence of Buyer, its directors, officers,
+employees, agents or representatives.
+11.1.2 Indemnity by Buyer. Buyer hereby releases, indemnifies and
+holds harmless Seller, its directors, officers, agents, and representatives against and
+from any and all losses, claims, actions or suits, including costs and attorney’s fees,
+resulting from, or arising out of or in any way connected with (a) the energy delivered
+by Seller under this Agreement after the Electricity Delivery Point, and (b) the Fuel
+prior to delivery at the Fuel Delivery Point under this Agreement, including any loss,
+
+46
+
+claim, action or suit, for or on account of injury, bodily or otherwise, to, or death of,
+persons, or for damage to, or destruction or economic loss of property, excepting only
+such loss, claim, action or suit as may be caused solely by the fault or gross
+negligence of Seller, its directors, officers, employees, agents or representatives.
+11.2 No Dedication. Nothing in this Agreement shall be construed to create any duty
+to, any standard of care with reference to, or any liability to any person not a Party to this
+Agreement. No undertaking by one Party to the other under any provision of this Agreement
+shall constitute the dedication of that Party’s system or any portion thereof to the other Party or
+to the public, nor affect the status of Buyer as an independent public utility corporation or Seller
+as an independent individual or entity.
+11.3 Consequential Damages. Buyer shall not be liable to Seller for special,
+punitive, indirect, exemplary or consequential damages, whether such damages are allowed
+or provided by contract, tort (including negligence), strict liability, statute or otherwise.
+SECTION 12
+INSURANCE
+12.1 Required Policies and Coverages. Without limiting any liabilities or any other
+obligations of Seller under this Agreement, Seller shall secure and continuously carry with an
+insurance company or companies rated not lower than “A” by the A.M. Best Company the
+insurance coverage specified on Exhibit J during the periods specified on Exhibit J.
+12.2 Certificates and Certified Copies of Policies. Seller shall provide Buyer with a
+certified “true and correct” copy of the insurance policies, provisions and endorsements
+contemplated by Exhibit J within ten (10) days after the date by which such policies are required
+to be obtained (as set forth in Exhibit J). If any coverage is written on a “claims-made” basis,
+the certification accompanying the policy shall conspicuously state that the policy is “claims
+made.”
+SECTION 13
+FORCE MAJEURE
+13.1 Definition of Force Majeure. As used in this Agreement, “Force Majeure” or
+“an event of Force Majeure” means an event (a) is not anticipated as of the date of this
+Agreement, (b) is not within the reasonable control of the Party affected by the event, (c) is not
+the result of such Party’s negligence or failure to act, and (d) could not be overcome by the
+affected Party’s use of due diligence in the circumstances. Force Majeure includes, but is not
+restricted to, events of the following types (but only to the extent that such an event, in
+consideration of the circumstances, satisfies the tests set forth in the preceding sentence): acts of
+God; fire; explosion; civil disturbance; sabotage; action or restraint by court order or public or
+government authority (as long as the affected Party has not applied for or assisted in the
+application for, and has opposed to the extent reasonable, such court or government action).
+Notwithstanding the foregoing, none of the following constitute Force Majeure: (i) Seller’s
+
+47
+
+ability to sell, or Buyer’s ability to purchase energy at a more advantageous price than is
+provided under this Agreement; (ii) economic hardship including lack of money; (iii) the
+imposition upon Seller of costs or taxes allocated to Seller under Sections 5 or 6; (iv) delay or
+failure by Buyer to obtain any Required Facility Document; (v) strikes or labor disturbances
+occurring at the Facility, the Premises or any of Buyer’s or Seller’s facilities; (vi) changes in, or
+costs of compliance with, Environmental Laws enacted after the date of this Agreement; and
+[(vii) the failure of the Transmission Provider for any reason to transmit Contract
+Capacity or energy.] [Note to bidders: clause (vii) to be added if PacificCorp Transmission is
+not the Transmission Provider.]
+13.2 Suspension of Performance. If either Party is rendered wholly or in part unable to
+perform its obligations under this Agreement because of an event of Force Majeure, both Parties
+shall be excused from the performance affected by the event of Force Majeure, provided that:
+13.2.1 the Party affected by the Force Majeure, shall, within two (2)
+weeks after the occurrence of the event of Force Majeure, give the other Party written
+notice describing the particulars of the event; and
+13.2.2 the suspension of performance shall be of no greater scope and
+of no longer duration than is required by the Force Majeure; and
+13.2.3 the affected Party shall use diligent efforts to remedy its
+inability to perform.
+13.3 Force Majeure Does Not Affect Other Obligations. No obligations of either Party
+that arose before the Force Majeure causing the suspension of performance or that arise after the
+cessation of the Force Majeure shall be excused by the Force Majeure.
+13.4 Right to Terminate. If a Force Majeure event prevents a Party from substantially
+performing its obligations under this Agreement for a period exceeding one hundred eighty (180)
+days, then Buyer may terminate this Agreement by giving ten (10) days’ prior notice to Seller.
+Upon such termination, neither Party will have any liability to the other with respect to the
+period following the effective date of such termination; provided, however, that this Agreement
+will remain in effect to the extent necessary to facilitate the settlement of all liabilities and
+obligations arising under this Agreement before the effective date of such termination.
+SECTION 14
+CONFIDENTIALITY
+14.1 Confidential Business Information. The Parties’ proposals and negotiations prior
+to the date hereof concerning this Agreement, the terms of this Agreement, and the actual
+charges billed to Buyer under this Agreement, constitute the “Confidential Business
+Information” of both Parties. Seller and Buyer each agree to hold such Confidential Business
+Information wholly confidential.
+14.2 Duty to Maintain Confidentiality. Confidential Business Information may only be
+used by the Parties for purposes related to the approval, administration or enforcement of this
+48
+
+Agreement and for no other purpose. Each Party agrees not to disclose Confidential Business
+Information to any other person (other than its affiliates, counsel, consultants, lenders,
+prospective lenders, buyers, prospective buyers, contractors constructing or providing services to
+the Facility, employees, officers and directors who agree to be bound by the provisions of this
+Section), without the prior written consent of the other Party, provided that either Party may
+disclose Confidential Business Information, if such disclosure is required by law, required in
+order for Buyer to receive regulatory recovery of expenses related to the Agreement or pursuant
+to an order of a court or regulatory agency or in order to enforce this Agreement or to seek
+approval of this Agreement. In the event a Party is required by law or by a court or regulatory
+agency to disclose Confidential Business Information, such Party shall to the extent possible
+notify the other Party at least three (3) Business Days in advance of such disclosure.
+14.3 Irreparable Injury; Remedies. Each Party agrees that violation of the terms of this
+Section 14 constitutes irreparable harm to the other, and that the harmed Party may seek any and
+all remedies available to it at law or in equity, including injunctive relief.
+14.4 News Releases and Publicity. Before issuing any news release or promotional
+material regarding the Facility, Seller shall contact Buyer for language that credits Buyer as
+purchasing the Net Energy and shall use such language in such news releases and promotional
+material.
+SECTION 15
+DISAGREEMENTS
+15.1 Negotiations. The Parties shall attempt in good faith to resolve all disputes
+arising out of or related to or in connection with this Agreement promptly by negotiation, as
+follows. Any Party may give the other Party written notice of any dispute not resolved in the
+normal course of business. Executives of both Parties at levels one level above the personnel
+who have previously been involved in the dispute shall meet at a mutually acceptable time and
+place within ten (10) days after delivery of such notice, and thereafter as often as they reasonably
+deem necessary, to exchange relevant information and to attempt to resolve the dispute. If the
+matter has not been resolved within thirty (30) days from the referral of the dispute to senior
+executives, or if no meeting of such senior executives has taken place within fifteen (15) days
+after such referral, either Party may initiate litigation as provided hereinafter if neither Party has
+requested that the dispute be mediated in accordance with Section 15.2 below. All negotiations
+pursuant to this clause are confidential.
+15.2 Mediation. If the dispute is not resolved within thirty (30) days from the referral
+of the dispute to senior executives, or if no meeting of senior executives has taken place within
+fifteen (15) days after such referral, either Party may request that the matter be submitted to
+nonbinding mediation. If the other Party agrees, the mediation will be conducted in accordance
+with the Construction Industry Arbitration Rules and Mediation Procedures (Including
+Procedures for Large, Complex Construction Disputes) of the American Arbitration Association
+(the “AAA”), as amended and effective on July 1, 2003 (the “Mediation Procedures”),
+notwithstanding any Dollar amounts or Dollar limitations contained therein.
+
+49
+
+15.2.1 The Party requesting the mediation, may commence the
+mediation process with AAA by notifying AAA and the other Party in writing
+(“Mediation Notice”) of such Party’s desire that the dispute be resolved through
+mediation, including therewith a copy of the Dispute Notice and the response thereto,
+if any, and a copy of the other Party’s written agreement to such mediation.
+15.2.2 The mediation shall be conducted through, by and at the office
+of AAA located in Salt Lake City, Utah.
+15.2.3 The mediation shall be conducted by a single mediator. The
+Parties may select any mutually acceptable member from the panel of retired judges
+at AAA as a mediator. If the parties cannot agree on a mediator within five (5) days
+after the date of the Mediation Notice, then the AAA’s Arbitration Administrator
+shall send a list and resumes of three (3) available mediators to the parties, each of
+whom shall strike one name, and the remaining person shall be appointed as the
+mediator. If more than one name remains, either because one or both parties have
+failed to respond to the AAA’s Arbitration Administrator within five (5) days of
+receiving the list or because one or both parties have failed to strike a name from the
+list or because both parties strike the same name, the AAA’s Arbitration
+Administrator will choose the mediator from the remaining names. If the designated
+mediator shall die, become incapable or, unwilling to, or unable to serve or proceed
+with the mediation, a substitute mediator shall be appointed in accordance with the
+selection procedure described above in this Section 15.2.3, and such substitute
+mediator shall have all such powers as if he or she has been originally appointed
+herein.
+15.2.4 The mediation shall consist of one or more informal,
+nonbinding meetings between the Parties and the mediator, jointly and in separate
+caucuses, out of which the mediator will seek to guide the Parties to a resolution of
+the dispute. The mediation process shall continue until the resolution of the dispute,
+or the termination of the mediation process pursuant to Section 15.2.7.
+15.2.5 The mediator’s fees and expenses, shall be borne equally by
+the Parties. Each Party shall bear its own expenses incurred in connection with such
+mediation; provided, however, that if any dispute hereunder is not fully resolved as a
+result of such mediation, the prevailing party shall be awarded its reasonable attorney
+fees in any subsequent dispute resolution proceedings.
+15.2.6 All verbal and written communications between the parties and
+issued or prepared in connection with this Section 15.2 shall be deemed prepared and
+communicated in furtherance, and in the context, of dispute settlement, and shall be
+exempt from discovery and production, and shall not be admissible in evidence
+(whether as admission or otherwise) in any arbitration or other proceedings for the
+resolution of the dispute.
+15.2.7 The initial mediation meeting between the Parties and the
+mediator shall be held within twenty (20) days after the Mediation Notice. Either
+
+50
+
+Party may terminate the mediation process upon the earlier to occur of (A) the failure
+of the initial mediation meeting to occur within twenty (20) days after the date of the
+Mediation Notice, (B) the passage of thirty (30) days from the date of the Mediation
+Notice without the dispute having been resolved, or (C) such time as the mediator
+makes a finding that there is no possibility of resolution through mediation. The
+mediation shall follow and be governed by the laws of the State of Oregon.
+15.2.8 All deadlines specified in this Section 15.2 may be extended by
+mutual agreement.
+15.3 Choice of Forum. Each Party irrevocably consents and agrees that any legal
+action or proceeding arising out of this Agreement or the actions of the Parties leading up to the
+Agreement shall be brought exclusively in the United States District Court for the District of
+Oregon, Portland Division. By execution and delivery of this Agreement, each Party (a) accepts
+the exclusive jurisdiction of such court and waives any objection that it may now or hereafter
+have to the exercise of personal jurisdiction by such court over each Party, (b) irrevocably agrees
+to be bound by any final judgment (after any and all appeals) of any such court arising out of
+such documents or actions, (c) irrevocably waives, to the fullest extent permitted by law, any
+objection that it may now or hereafter have to the laying of venue of any suit, action or
+proceedings arising out of such documents brought in such court (including any claim that any
+such suit, action or proceeding has been brought in an inconvenient forum), (d) agrees that
+service of process in any such action may be effected by mailing a copy thereof by registered or
+certified mail, postage prepaid, to such Party at its address as set forth in this Agreement, and
+(e) agrees that nothing in this Agreement shall affect the right to effect service of process in any
+other manner permitted by law.
+15.4 Settlement Discussions. The Parties agree that no statements of position or offers
+of settlement made in the course of the dispute process described in this Section will be offered
+into evidence for any purpose in any litigation or arbitration between the Parties, nor will any
+such statements or offers of settlement be used in any manner against either Party in any such
+litigation or arbitration. Further, no such statements or offers of settlement shall constitute an
+admission or waiver of rights by either Party in connection with any such litigation or arbitration.
+At the request of either Party, any such statements and offers of settlement, and all copies
+thereof, shall be promptly returned to the Party providing the same.
+15.5 Waiver of Jury Trial. EACH PARTY KNOWINGLY, VOLUNTARILY,
+INTENTIONALLY AND IRREVOCABLY WAIVES THE RIGHT TO A TRIAL BY JURY IN
+RESPECT OF ANY LITIGATION BASED ON THIS AGREEMENT, OR ARISING OUT OF,
+UNDER OR IN CONNECTION WITH THIS AGREEMENT AND ANY AGREEMENT
+EXECUTED OR CONTEMPLATED TO BE EXECUTED IN CONJUNCTION WITH THIS
+AGREEMENT, OR ANY COURSE OF CONDUCT, COURSE OF DEALING, STATEMENTS
+(WHETHER VERBAL OR WRITTEN) OR ACTIONS OF ANY PARTY TO THIS
+AGREEMENT. THIS PROVISION IS A MATERIAL INDUCEMENT TO EACH OF THE
+PARTIES FOR ENTERING INTO THIS AGREEMENT. EACH PARTY HEREBY WAIVES
+ANY RIGHT TO CONSOLIDATE ANY ACTION, PROCEEDING OR COUNTERCLAIM
+ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT AND ANY OTHER
+AGREEMENT EXECUTED OR CONTEMPLATED TO BE EXECUTED IN CONJUNCTION
+
+51
+
+WITH THIS AGREEMENT, OR ANY MATTER ARISING HEREUNDER
+THEREUNDER IN WHICH A JURY TRIAL HAS NOT OR CANNOT BE WAIVED.
+
+OR
+
+15.6 Equitable Remedies. In any action for specific performance or injunctive relief or
+other equitable relief, all expenses incurred by the prevailing party in such proceeding, including
+reasonable counsel fees, shall be awarded to the prevailing party in such proceeding. Seller
+agrees that it will not assert as a defense to Buyer’s action for specific performance of, or
+injunctive or other equitable relief relating to, Seller’s obligations hereunder that the amounts
+payable or paid by Seller in respect of liquidated damages constitute an adequate remedy for the
+breach of such obligation, and Seller hereby conclusively waives such defense. Seller shall at all
+times during the Term, own, lease, control, hold in its own name or be signatory to all Required
+Facility Documents (as the case may be) relating to the Facility to the extent necessary to prevent
+a material adverse effect on Buyer’s right to specific performance or injunctive relief.
+SECTION 16
+GUARANTEED PERFORMANCE PARAMETERS
+16.1 Guaranteed Heat Rate. Seller shall operate and maintain the Facility so as to
+achieve the Guaranteed Heat Rate in accordance with the provisions of Exhibit R.
+16.2 Guaranteed Start-Up Time. Seller shall operate and maintain the Facility so as to
+achieve the Guaranteed Start-Up Time in accordance with the provisions of Exhibit R.
+16.3 Guaranteed Ramp Rate. Seller shall operate and maintain the Facility so as to
+achieve the Guaranteed Ramp Rate in accordance with the provisions of Exhibit R.
+SECTION 17
+MISCELLANEOUS
+17.1 Several Obligations. Nothing contained in this Agreement shall be construed to
+create an association, trust, partnership or joint venture or to impose a trust, partnership or
+fiduciary duty, obligation or liability on or between the Parties. If Seller includes two or more
+parties, each such party shall be jointly and severally liable for Seller’s obligations under this
+Agreement.
+17.2 Choice of Law. This Agreement shall be interpreted and enforced in accordance
+with the laws of the state of Oregon, excluding any choice of law rules that may direct the
+application of the laws of another jurisdiction.
+17.3 Partial Invalidity. The Parties do not intend to violate any Requirements of Law
+governing the subject matter of this Agreement. If any of the terms of this Agreement are finally
+held or determined to be invalid, illegal or void as being contrary to any Requirements of Law or
+public policy, all other terms of the Agreement shall remain in effect. The Parties shall use best
+efforts to amend this Agreement to reform or replace any terms determined to be invalid, illegal
+or void, such that the amended terms (a) comply with and are enforceable under Requirements of
+
+52
+
+Law, (b) give effect to the intent of the Parties in entering into this Agreement, and (c) preserve
+the balance of the equities contemplated by this Agreement in all material respects.
+17.4 Waiver. No waiver of any provision of this Agreement shall be effective unless
+the waiver is set forth in a writing that (a) expressly identifies the provision being waived, and
+(b) is signed by the Party waiving the provision. A Party’s waiver of one or more failures by the
+other Party in the performance of any of the provisions of this Agreement shall not be construed
+as a waiver of any other failure or failures, whether of a like kind or different nature.
+17.5 Governmental Jurisdiction and Authorizations. This Agreement is subject to the
+jurisdiction of those Governmental Authorities having control over either Party or this
+Agreement. Buyer’s duty to comply with this Agreement is conditioned on Seller’s submission
+to Buyer before the Commercial Operation Date and maintaining thereafter copies of all
+Required Facility Documents.
+17.6 Restriction on Assignments. Except as expressly provided in Section 17.7,
+neither Party shall assign this Agreement or any of its rights or obligations under this Agreement
+without the prior written consent of the other Party.
+17.7 Permitted Assignments. The Buyer may assign its rights, delegate its duties or
+otherwise transfer its interests hereunder, in whole or in part to another entity having a long-term
+credit rating assigned thereto by a “nationally recognized statistical rating organization” (as that
+term is used in Rule 15c3-1(c)(2)(vi)(F) under the Securities Exchange Act of 1934) that equals
+or exceeds the Buyer’s long term credit rating as of the date of such assignment.
+17.8 Entire Agreement. This Agreement (including all attached Exhibits, which are
+incorporated by this reference) supersedes all prior agreements, proposals, representations,
+negotiations, discussions or letters, whether oral or in writing, regarding the subject matter of this
+Agreement. No modification of this Agreement shall be effective unless it is in writing and
+signed by both Parties.
+17.9 Amendments. This Agreement shall not be altered or amended except by an
+instrument in writing specifically identifying the provisions to be amended and executed by
+authorized representatives of both parties.
+17.10 No Third Party Beneficiaries. This Agreement does not confer any rights upon
+any person other than the parties and their respective successors and permitted assigns. There
+are no third party beneficiaries of this Agreement.
+17.11 Agents and Subcontractors. This Agreement may be performed by Buyer through
+the use of agents and subcontractors (but such use shall not relieve Buyer of any obligation
+hereunder).
+17.12 Notices. All notices, requests, statements or payments shall be (a) made to the
+addresses set forth below, (b) in writing, and (c) delivered by letter, facsimile or other
+documentary form. Notice by facsimile or hand delivery shall be deemed to have been received
+by the close of the Business Day during which the notice is received or hand delivered. Notice
+
+53
+
+by overnight mail or courier shall be deemed to have been received upon delivery as evidenced
+by the delivery receipt.
+To Seller:
+
+with a copy to:
+
+To Buyer:
+
+PacifiCorp
+825 NE Multnomah, Suite 2000
+Portland, Oregon 97232-2315
+Attn: Sr. Vice President, Commercial & Trading
+
+with copies to:
+
+PacifiCorp
+825 NE Multnomah, Suite 600
+Portland, Oregon 97232-2315
+Attn: Director of Contract Administration, C&T
+Jeremy Weinstein, Esq.
+Senior Counsel
+PacifiCorp
+825 NE Multnomah, Suite 1800
+Portland, Oregon 97232-2315
+
+The Parties may change any of the persons to whom such notices are addressed, or their
+addresses, by providing written notices thereof in accordance with this Section.
+17.13 Mobile-Sierra. The rates for service specified in this Agreement shall remain in
+effect until expiration of the Term, and shall not be subject to change for any reason, including
+regulatory review, absent agreement of the parties. Neither Party shall petition FERC pursuant
+to the provisions of sections 205 or 206 of the Federal Power Act (16 U.S.C. § 792 et seq.) to
+amend such prices or terms, or support a petition by any other person seeking to amend such
+prices or terms, absent the agreement in writing of the other Party. Further, absent the agreement
+in writing by both Parties, the standard of review for changes to this Agreement proposed by a
+Party, a non-party or the FERC acting sua sponte shall be the “public interest” standard of
+review set forth in United Gas Pipe Line Co. v. Mobile Gas Service Corp., 350 U.S. 332 (1956)
+and Federal Power Commission v. Sierra Pacific Power Co., 350 U.S. 348 (1956). To the extent
+that the FERC adopts specific language that parties must incorporate into agreements in order to
+bind FERC, third parties and themselves to a public interest standard of review, the Parties
+hereby incorporate such language herein by reference.
+
+54
+
+17.14 Counterparts. This Agreement may be executed in two (2) or more counterparts,
+each of which is an original and all of which taken together constitute one and the same
+instrument.
+
+[SIGNATURES ON NEXT PAGE]
+
+55
+
+IN WITNESS WHEREOF, the Parties have caused this Agreement to be executed in
+their respective names as of the date first above written.
+
+[SELLER],
+as Seller
+By:
+Name:
+Title:
+
+PACIFICORP,
+as Buyer
+By:
+Name:
+Title:
+
+[SIGNATURE PAGE TO RFP-2009 TOLLING AGREEMENT]
+
+

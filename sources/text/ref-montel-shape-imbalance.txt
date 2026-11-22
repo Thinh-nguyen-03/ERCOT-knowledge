@@ -1,0 +1,443 @@
+[]
+
+Why Montel
+
+[]
+
+Why Montel?
+
+Europe's leading source of energy  market intelligence.
+
+See what sets us apart 
+
+[]
+
+About us
+
+Independent and trusted, with 30+ years of market experience.
+
+Discover our story
+
+[]
+
+Contact us
+
+Energy intelligence, combined with a human touch.
+
+Speak to our experts
+
+Solutions
+
+Market insights
+
+What’s happening in the market
+
+News
+
+Live news, newsletters & podcast
+
+Market data and prices
+
+Power, gas, LNG & commodity prices
+
+Market fundamentals
+
+Price drivers & market context
+
+Carbon & environmental
+
+Carbon prices, emissions and renewables
+
+Forecasting & analytics
+
+What's likely to happen next
+
+Live & intraday
+
+Balancing, ancillary services, weather
+
+Short-term
+
+Demand, generation & market forecasts
+
+Medium-term
+
+Fuels, hydrology & market fundamentals
+
+Long-term
+
+Scenario modelling to 2060
+
+Historical data
+
+30+ years of prices & fundamentals
+
+Decision support
+
+How to move ahead
+
+Asset valuation
+
+Portfolio valuation & asset analytics
+
+BESS & PPAs
+
+Battery revenues & PPA pricing
+
+Market exposure
+
+Price risk & scenario modelling
+
+Powered by:
+
+Montel Market
+
+EnAppSys
+
+Energy Quantified
+
+Syspower
+
+Montel Gas
+
+Montel Value
+
+Insights
+
+Insights
+
+Learn from Montel’s market experts
+
+Commentary
+
+Expert insight on what moved the market
+
+Energy blog
+
+Analysis and explainers
+
+Reports, ebooks and whitepapers
+
+Analysis, guides and energy research
+
+Case studies
+
+How energy companies work with Montel
+
+Podcasts
+
+Listen to Montel analysts and guests
+
+Webinar recordings
+
+Past expert briefings on demand
+
+[]
+
+EEG 2027: what will change for solar and wind projects?
+
+Germany's updated renewable energy act introduces significant reforms for project financing and grid access.
+
+[]
+
+Josephine Steppat
+
+Analyst at Montel
+
+Events
+
+Events
+
+Meet, learn and connect with experts
+
+Conferences
+
+In-person events across Europe
+
+Webinars
+
+Live expert briefings on energy markets
+
+Courses
+
+Energy market training led by experts
+
+[]
+
+10 March 2027
+
+Danish Energy Day 2027
+
+We are delighted to invite you to join us in Aarhus on 10 March for the Danish Energy Day 2027.
+
+Centralværkstedet, Aarhus
+
+Login
+
+Montel Markets
+
+EnAppSys
+
+Energy Quantified
+
+Syspower
+
+Sign up for free trial
+
+Blog
+
+Managing shape and imbalance risk in power procurement
+
+0%
+
+The writer
+
+[]
+
+Abi Grogan
+
+Freelance Writer
+
+Topics
+
+Energy Prices
+
+Market Data
+
+Risk Management
+
+Share
+
+[Facebook] [LinkedIn]
+
+[]
+
+Track key market spreads to optimise your energy trading strategy
+
+Explore Montel Analytics
+
+Managing shape and imbalance risk in power procurement
+
+While drafting an energy procurement contract may seem straightforward, there are often hidden costs in corporate power contracts in relation to shape and imbalance risk.  Some tactics can be utilised to reduce risk before going to market: incorporating hedging into a strategy, negotiating fees in advance, and using third parties to procure energy can all help structure contracts and processes that continuously manage risk.
+
+December 10, 2025
+
+[]
+
+Jump to section
+
+Corporate procurement managers, energy managers, and finance and risk stakeholders can help reduce non-obvious cost leakage and negotiate smarter contracts by understanding the proper drivers of supplier pricing. For example, forecast uncertainty and load volatility can drive supplier premiums, but procurement teams can minimise these costs by analysing data, designing contracts, and aligning operations.
+
+This blog looks at shape risk and imbalance risk in plain procurement terms, and show how these risks translate into supplier pricing and premiums.
+
+What "shape" and imbalance risk mean for buyers
+
+Certain factors can affect energy pricing, depending on how much or how little you use.
+
+Shape risk
+
+Shape risk is the mismatch between the contracted baseload and the actual usage profile. This is usually because larger energy contracts provide steady supplies at a lower cost to suppliers, at a fixed rate. However, if a consumer goes above that baseload amount, they will have to pay a higher spot price to fulfil their energy needs. They may also have to offload energy they don't use for a lower price than they paid for it.
+
+Imbalance risk
+
+Settlement exposure occurs when actual usage differs from the energy supplier's periodic forecast, and penalties are applied to buyers to offset the difference. This is known as an imbalance charge. Buyers receive these penalties because grid operators use these forecasts to balance the grid. When a procurer's energy usage exceeds the agreed amount, it can affect supply and demand elsewhere in the grid.
+
+These risks have grown with renewables because they rely on an intermittent power source (the weather), leading to more volatile pricing. The procurement implication is that it's not just how much you buy, but when you use it, that's important for pricing to avoid shape and imbalance risks.
+
+How suppliers price shape risk into contracts
+
+Suppliers can recoup the costs of unpredictable energy consumption by charging for it on energy bills.
+
+Suppliers forecast your load and add risk premiums if uncertain.
+
+When the energy market is volatile, suppliers often add premiums to energy pricing to cover financial losses, including the difference between a customer's actual consumption and the agreed forecasted consumption. This is called a risk premium. Other premiums that could be added include spiky loads, poor data, volatile operations, or weak tolerance bands. 'Premiums can show up in offers in different ways, for example, a hidden uplift is costed into the contract as a single energy price. In explicit imbalance pass-through, extra energy costs are added on afterwards more transparently. Typical differences between large multi-site buyers and single-site buyers are volume. Multi-site buyers have a stronger negotiating position because of the volume of energy they are buying. In contrast, single-site buyers have less leverage and contracts tend to be less flexible, with greater dependence on a single energy source, which could leave them vulnerable to price volatility.
+
+When buyers can retain vs transfer imbalance exposure
+
+When entering an all-inclusive supply, energy suppliers incorporate the cost of risk into the price, creating a more costly but also more stable energy environment for the procurer. An imbalance-pass-through model, on the other hand, places risk on the buyer through contractual agreements that may be lower or higher than the premiums under an all-inclusive contract. Retaining risk makes sense when strong forecasting and flexible operations are desirable; however, it may be better to transfer the risk when high volatility is experienced, and internal resources are limited to manage it.
+
+Tools to reduce shape risk before contracting
+
+Analytical and operational tools can be applied before contracting to help shape the agreement's risk in advance. Load profiling and segmentation examine historical data on baseload, peak load, and discretionary load to understand past performance patterns and predict future supply and demand. This could be gathered using smart meters to measure a customer's energy consumption over a specific period.
+
+In the case of renewables, weather normalisation streamlines this data to determine the usual effects of weather conditions on a baseline. Operational forecasting allows forecasting within specific time periods, examining the price and supply vs. demand relationship.
+
+Procurers can also identify controllable peaks, for example, high-energy industrial operations, and switch to a lower-demand time period.
+
+Using interval data can help present a stronger risk case to suppliers by breaking performance data down to a more granular level, showing energy consumption on a weekly, monthly, or yearly basis.
+
+Contract clauses and governance to manage risk over time
+
+To mitigate risk through contract terms, various financial tools can be employed. One of these is volume tolerance bands, which define the acceptable range of energy a business uses on an annual basis. You'll need to determine the width of each band and which penalties apply to it.
+
+Shape clauses will also need to include agreed baseload profiles and reset mechanisms, as well as imbalance settlement transparency requirements, so that no unexpected penalties occur after contracting. Finally, set a review cadence so you know where your actual energy consumption sits in relation to the monthly forecast. Buyers who understand shape and imbalance risk don't just get better prices; they get contracts that stay good as operations evolve.
+
+Related articles
+
+Go to Blog
+
+[What are small modular reactors? A beginner’s guide to SMRs]
+
+Risk Management
+
+Power market
+
+Energy Prices
+
+August 27, 2026
+
+What are small modular reactors? A beginner’s guide to SMRs
+
+8
+
+ min read
+
+Read more
+
+[What is CBAM? The Carbon Border Adjustment Mechanism explained]
+
+Market Data
+
+Risk Management
+
+Carbon
+
+August 27, 2026
+
+What is CBAM? The Carbon Border Adjustment Mechanism explained
+
+8
+
+ min read
+
+Read more
+
+[What are capacity markets? How countries pay to keep the lights on]
+
+Market Data
+
+Risk Management
+
+Power market
+
+August 27, 2026
+
+What are capacity markets? How countries pay to keep the lights on
+
+8
+
+ min read
+
+Read more
+
+Get the latest product news and expert analysis from Montel.
+
+Email Address
+
+Thank you! Your submission has been received!
+
+Oops! Something went wrong while submitting the form.
+
+Newsletter
+
+Market insight from our analysts and the latest product news, in your inbox
+
+Sign up
+
+Market Insights
+
+News
+
+Market data & prices
+
+Market fundamentals
+
+Carbon & environmental
+
+Forecasting & Analytics
+
+Live & intraday
+
+Short-term
+
+Medium-term
+
+Long-term
+
+Historical
+
+Decision Support
+
+Asset valuation
+
+BESS & PPAs
+
+Market exposure
+
+Events
+
+Conferences
+
+Courses
+
+Webinars
+
+Platforms
+
+Montel Markets
+
+Montel EnAppSys
+
+Montel Energy Quantified
+
+Montel Syspower
+
+Montel Gas
+
+Montel Value
+
+Insights
+
+Commentary
+
+Reports
+
+Blog
+
+E-books
+
+Case studies
+
+Knowledge base
+
+Whitepapers
+
+Webinar recordings
+
+About
+
+Get in touch
+
+About us
+
+Careers
+
+Contact us
+
+Editorial complaints
+
+Legal Notice
+
+Privacy Policy
+
+[][][][]
+
+Learn more about Montel products or sign-up for a free trial
+
+Get in touch
+
+Error 403 (Forbidden)!!1
+
+403. That’s an error.
+
+Your client does not have permission to get URL /ns.html?id=GTM-NHBCWCF3 from this server. That’s all we know.

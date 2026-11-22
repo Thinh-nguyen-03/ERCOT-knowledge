@@ -1,0 +1,786 @@
+The following article is a preprint of a scientific paper that has completed the peer-review process
+and been accepted for publication within The Energy Journal.
+While the International Association for Energy Economics (IAEE) makes every effort to ensure the
+veracity of the material and the accuracy of the data therein, IAEE is not responsible for the citing
+of this content until the article is actually printed in a final version of The Energy Journal. For
+example, preprinted articles are often moved from issue to issue affecting page numbers, and actual
+volume and issue numbers. Care should be given when citing Energy Journal preprint articles.
+
+Rethinking the Role of Financial Transmission Rights in
+Wind-Rich Electricity Markets in the Central U.S.
+James Hyungkwan Kim,a Mark Bolinger, Andrew D. Mills, and Ryan Wiser
+abstract
+
+Transmission congestion can cause a divergence between wholesale power prices
+at the individual pricing nodes where power is generated and the more-liquid trading hubs where that power is often delivered and sold. This nodal price difference is commonly referred to as the “locational basis” (or just “basis”). Because
+the basis varies over time, it can—if not hedged—unpredictably affect a wind
+plant’s revenue and/or value, which increases investor risk and potentially slows
+deployment. We find wind plants typically face a larger and more-negative basis
+than do thermal generators, and hence are more-negatively impacted by congestion. Moreover, while most thermal generators can effectively hedge basis risk
+by purchasing conventional fixed-volume financial transmission rights (FTRs),
+these fixed-volume FTRs do not effectively hedge basis risk for variable wind
+generation. More-effective hedging mechanisms may be required to support those
+generators most-impacted by congestion, and to promote continued investment in
+variable generation resources in congested markets.
+Keywords: Renewable energy, Financial transmission rights, Basis risk
+https://doi.org/10.5547/01956574.44.6.jkim
+
+1. INTRODUCTION
+Clean energy deployment continues worldwide, primarily from variable renewable energy
+sources whose resource quality depends on location and whose output varies with the weather (IEA
+2020; Kueppers et al. 2021). In the U.S., the majority of wind power capacity has been deployed
+in the wind-rich interior of the country, and forward-looking studies show a continued expansion
+of wind in this region (Wiser and Bolinger 2020; Cole et al. 2020). However, one of the challenges
+to the continued growth of wind energy is the need for a robust transmission network to deliver often-distant wind generation to loads.
+Congestion on the transmission network can create a contemporaneous difference in
+wholesale market prices between locations, called the “locational basis” or just the “basis” (Eq. 1).
+Basis
+=
+t
+
+(P − P )
+n
+
+t
+
+(1)
+
+h
+
+t
+
+Where,
+Pt n = Price at node n (e.g., the generator node)
+Pt h = Price at node h (e.g., a centralized liquid trading hub)
+a
+
+Corresponding author. Lawrence Berkeley National Laboratory, MS90R4000, 1 Cyclotron Rd. Berkeley, CA 94720
+USA. E-mail: hyungkwankim@lbl.gov
+
+The Energy Journal, Vol. 44, No. 6. This is an open access article under the terms of the Creative Commons Attribution
+License (CC-BY), which permits use, distribution and reproduction in any medium, provided the original work is properly
+cited. All rights reserved.
+
+1
+
+2 / The Energy Journal
+Besides being a visible indicator of congestion, the basis is also an important economic
+consideration for sellers (generators) and buyers (loads) of electricity—particularly those sited at
+different locations, as is most often the case. Rather than requiring transaction counterparties in
+different locations to have a physical connection or even a contract over a physical transmission
+line, wholesale markets enable a generator to sell its power at the generator node and the load to
+simultaneously purchase power at a different node (e.g., a more liquid trading hub), as if the two
+were physically connected. However, the basis between the two locations, arising from transmission
+congestion, makes this transaction incomplete. The gap between the revenue earned by the generator selling power at the generator node and the load buying the same amount of power with the
+same generation output profile at the hub is the generation-weighted basis (Eq. 2). For the sake of
+simplicity, the terms generation-weighted basis and basis will be used interchangeably in this study.
+Generation − weighted basis
+=
+
+∑Basis ⋅ Q= ∑ ( P − P ) ⋅ Q
+t
+
+t
+
+g
+t
+
+n
+
+t
+
+h
+
+t
+
+g
+t
+
+(2)
+
+t
+
+Where Qtg = hourly generation
+If the basis was guaranteed to be stable over time, then buyers and sellers could factor it
+into their contract price, leaving each indifferent as to the specific delivery or settlement point. In reality, however, the basis varies over time, in response to changes in transmission capacity, generator
+output, and load on either side of the constraint. The time-varying nature of the basis introduces “basis risk”—i.e., the risk that the basis could move in a way that adversely affects the buyer’s or seller’s
+economic position. A perfect hedge would eliminate basis risk and leave the generator indifferent
+as to the contract settlement or delivery location. But if not hedged—or, more to the point of this
+paper, if imperfectly hedged—basis risk can negatively affect a generator’s revenue and/or market
+value, which increases investor risk and, in turn, the cost of finance, potentially slowing deployment.
+Wholesale power markets in the U.S have long offered a financial product, called a financial transmission right (FTR)1, that is meant to help wholesale market participants, including both
+generators and load-serving entities, to hedge congestion-related basis risk (Leslie, 2021). Conventional FTRs, however, are structured around an unvarying or fixed contract capacity, which is not
+particularly suited to generators with varying output (like wind plants). Continued investment in
+variable resources in congested markets may require improving hedging mechanisms to manage
+basis risk.
+We hypothesize that locational basis, and basis risk, is a larger issue (in terms of magnitude
+of the basis and the ability to effectively hedge basis risk) for wind plants than for other generation
+technologies, due to high-quality wind resources often being remote from major load centers and because wind generation across a given region is often highly correlated, as most plants within the region experience similar wind conditions (so-called “covariance risk,” where the windiest hours also
+tend to be the lowest-priced hours).2 Consequently, mechanisms to hedge basis risk, such as FTRs,
+will potentially be more important for wind than for other technologies that can be sited closer to
+1. The concept of an FTR goes by other names in different markets (including transmission congestion contracts and
+congestion revenue rights), though they mean the same thing.
+2. Though this study focuses on wind, solar can face similar issues. In general, though, solar has several advantages over
+wind in this respect. For example, the solar resource in the U.S. is more widespread than the wind resource, which can enable
+solar to be sited closer to load. Solar generation is also easier to forecast, which can reduce uncertainty. And in many parts of
+the U.S. (other than California, Hawaii, and several other states), solar’s market penetration is still relatively low (reducing
+covariance risk) and its diurnal generation profile still largely coincides with load profiles, making it a relatively high-value
+resource. For example, within the region of study, solar generation was less than 1% of annual generation from 2015 through
+2019.
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 3
+loads and can better regulate their output. Previous research suggests that transmission costs in the
+U.S. are higher for wind than for other forms of generation (Gorman, Mills, and Wiser 2019), that
+average wholesale prices are more affected by negative prices at wind plant locations than at other
+generator locations (Mills et al. 2019), and that congestion is an important contributor to the decline
+in the marginal value of wind with increasing penetration (Millstein et al. 2021). Though suggestive
+of the growing significance of locational basis and basis risk, this prior literature does not explicitly
+quantify and compare the relative basis experienced by, or basis risk facing, various technologies.
+We also hypothesize that the fixed-volume nature of FTRs will result in an imperfect hedge
+for resources with variable output, leading to an unhedgeable “residual” basis—i.e., the portion of
+the basis that remains unhedged even with an FTR. Prior research (Biggar and Hesamzadeh 2014,
+Hesamzadeh and Biggar 2021) notes this mismatch between the fixed-volume nature of FTRs and
+the generation profiles of different types of power plants, and has identified the characteristics of
+alternative FTR structures that would better hedge the basis risk of a resource with variable output.
+As described later, this prior research proposes various alternative FTR designs, including a dispatch-contingent FTR (Bogorad and Huang 2005), wind FTR (Nimmagadda, Harral, and Bayne
+2013), CapFTR (Biggar and Hesamzadeh 2014) and generalized FTR (Hesamzadeh and Biggar
+2021). These proposed alternatives to the conventional fixed-volume FTR may better align the FTR
+with the operational profile of variable resources, making them more effective at hedging basis risk
+for wind plants. Enhancing the hedging effectiveness of FTRs by aligning them with renewable
+generation profiles is of interest to the renewable energy industry (London Economics 2020).
+This paper uses detailed historical plant-level data and corresponding locational marginal
+prices to quantify the basis, residual basis, and basis risk for different generating technologies under
+various types of FTRs. The analysis focuses on three organized wholesale markets in the central
+United States: the Midcontinent Independent System Operator (MISO), the Southwest Power Pool
+(SPP), and the Electric Reliability Council of Texas (ERCOT). The analysis covers 2015-2019, a
+period of significant growth in wind energy across all three regions. The primary contributions of the
+paper are (1) an empirical comparison of the locational basis and basis risk facing wind and thermal
+generators, (2) an empirical assessment of the effectiveness of fixed-volume FTRs at hedging the
+basis risk of wind and thermal generators, and (3) an evaluation of the effectiveness of alternative
+FTR designs at improving the ability to hedge the basis risk for wind energy. Overall, the goal of
+this research is to provide quantitative evidence that can inform conversations on whether organized
+wholesale markets and their stakeholders need to rethink the role and design of FTRs as the mix of
+generation pivots to variable renewable energy.
+The remainder of the paper proceeds as follows. The Background section provides an overview of the role of contracting in allocating risks and the role of FTRs in hedging congestion-related
+basis risk. The Methods and Data section describes our historical generation and pricing data along
+with assumptions required to estimate the basis, the residual basis, and basis risk. The Results section begins with a comparison of the magnitude of the basis and basis risk for different technologies,
+followed by quantification of the residual basis and basis risk that remains with fixed-volume FTRs,
+and closes with an evaluation of alternative FTRs applied to wind. The Discussion section raises
+broader issues with FTR markets and suggests what changes might be important for wind, along
+with a brief discussion of the costs of FTRs and the relationship of FTRs to transmission expansion.
+Suggestions for future research are included in the Conclusions.
+
+Open Access Article
+
+4 / The Energy Journal
+2. BACKGROUND
+Wholesale electricity markets rely on a centralized, security-constrained economic dispatch to efficiently balance supply and demand across regional transmission networks. Across all
+organized wholesale markets in the U.S., this economic dispatch results in 5-minute spot market
+prices for electricity at more than 50,000 wholesale pricing nodes. These prices can vary widely—
+from less than -$10/MWh to more than $1000/MWh—across time and even contemporaneously
+across different pricing nodes within the same region, depending on system conditions. With such
+uncertainty and variability in spot market prices, few generators earn revenue solely from selling wholesale electricity into the spot market. Similarly, few load-serving entities purchase power
+strictly from the spot market.
+Instead, generators and loads rely on a variety of forward contracts to reduce risks. Common forms of forward contracts include standardized over-the-counter futures or forward contracts
+sold in commodity exchanges; customized bilateral hedges of various types; power purchase agreements, where a load agrees to purchase all available output of a generator for a term at a fixed volumetric price; and tolling agreements, where an entity that owns a dispatchable power plant allows
+another entity to purchase the fuel and dispatch the power plant as they wish in exchange for a fixed
+payment (Deng and Oren 2006). Wholesale markets accommodate these forward contracts, but often leave contracting decisions to individual market participants.3
+Forward contracts have long been important for wind plants because of the revenue certainty that they provide. Wind plants are relatively capital-intensive, and require revenue certainty
+in order to secure the financing that they require. In the early days of the wind industry, developers
+would often rely on long-term (>15 years) power purchase agreements (PPA) with load-serving
+entities to secure low-cost financing (Barradale 2010). The offtaker, known as the power purchaser,
+would purchase all power generated by the wind plant and delivered to the generator node at a
+fixed price. In this case, the offtaker takes on full responsibility for the basis risk in the PPA (and
+is typically able to socialize it among its ratepayers). Over time, the role of long-term PPAs with
+load-serving entities has decreased for wind power plants—e.g., physical PPAs were used for 89%
+of wind capacity installations between 2000-2004, decreasing to 53% of installations between 20142018 (Bartlett 2019)—giving rise to a diverse range of contracting and hedging arrangements with
+offtakers that may or may not serve loads. In addition to physical PPAs, other offtake structures that
+wind projects commonly use include fixed-volume swaps or hedges where a counterparty swaps a
+floating hub price for a fixed price based on a fixed volume for each hour; synthetic or virtual PPAs
+that resemble a physical PPA but rely on a “contract for differences” instead of physical delivery of
+electricity; and proxy revenue swaps that provide a fixed payment in exchange for “proxy revenue”
+based on wind speeds and electricity prices (Bartlett 2019).
+One important feature of many of these newer offtake arrangements is that they often settle at a liquid wholesale trading hub, rather than at the generator node, to reduce basis risk for the
+offtaker and provide it with greater liquidity and optionality in terms of what it ultimately does
+with the purchased power (e.g., re-sell it to someone else). As a result, the wind generators in these
+contracts face an unpredictable basis that threatens revenue certainty. A wind generator might still
+be able to find low-cost finance for a project with basis risk if the result of congestion were predictable—e.g., causing the price at the generator node to be consistently lower, on average, than the
+3. Two notable exceptions are that some markets require loads to participate in forward capacity markets to ensure resource adequacy, while all independent system operators (ISOs) create FTRs to help market participants hedge risks associated with locational variation in wholesale prices (i.e., basis risk).
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 5
+
+price at the trading hub—but variability in the basis over time leads to uncertainty that can hamper
+financing (Egli 2020; Ostrovnaya et al. 2020).
+Means of hedging basis risk are limited. The primary hedge mechanism in U.S. electricity
+markets is the financial transmission right (FTR), which can be purchased through auctions. FTRs
+were first proposed by Hogan (1992) to make the holder of the right indifferent to receipt of the payments from the right—the FTR payout (Eq. 3)—or the physical delivery of the power.4 By design,
+an FTR can hedge basis risk under certain circumstances, resulting in a residual basis (Eq. 4) that is
+ideally zero under a range of congestion conditions (i.e., it is a “perfect hedge”).
+FTR=
+Payout
+
+∑ (P
+t
+
+t
+
+sink
+
+)
+
+(3)
+
+− Pt source Q FTR
+
+Where Q FTR = Volume of the FTR
+
+(
+
+)
+
+(
+
+)
+
+Residual Basis =Basis + FTR Payout =∑ t Pt n − Pt h Qtg + ∑ t Pt sink − Pt source Q FTR
+
+(4)
+
+Where Pt source = Pt n and Pt sink = Pt h
+For example, if the source for the FTR is the generator node ( Pt source = Pt n), the sink is
+the trading hub ( Pt sink = Pt h ), and the generator has a constant output equal to the FTR volume
+(Qtg = Q FTR ), then the residual basis will be zero and the generator will have eliminated its basis
+risk—essentially exchanging an uncertain basis for a certain basis that is equivalent to the FTR
+price. This greater certainty reduces revenue risk, which can, in turn, facilitate financing.
+Even under these conditions, however, FTRs can still end up as imperfect hedges, as ISOs
+sometimes derate the FTR volume due to congestion revenue shortfalls or transmission contingencies that were not accounted for in the FTR auctions (Deng and Oren 2006). For simplicity, we
+ignore those complications in this analysis, since the derating affects all fixed-volume FTRs equally
+(and so would not change our conclusions), while the impact on alternative variable-volume FTR
+designs is unclear.
+Particularly relevant to this study, one of the limitations of conventional FTRs is their
+fixed-volume nature. A generator whose output varies will not be indifferent between the payout
+of an FTR and physical delivery of power, resulting in a residual basis that continues to pose basis
+risk. This issue has been highlighted multiple times in the literature, with a variety of suggestions
+for alternative designs.
+Bogorad and Huang (2005) called for FTRs to be dispatch-contingent, such that the FTR
+would only pay the LMP price difference at times when the generator is operating and would be zero
+otherwise. Such a design, they note, would “more accurately hedge congestion for the associated
+resource than a conventional FTR. This is especially true for renewable resources with low capacity
+factors.” They argue that such a design would benefit from increasing revenue sufficiency compared
+to conventional FTRs by limiting the FTR payout to only those hours when a generator is running,
+rather than all hours of the year.
+Nimmagadda et al. (2013) highlight the drawbacks of conventional FTRs for wind projects
+and introduce the idea of a wind FTR where the volume is based on the day-ahead schedule of an
+individual wind plant. In their proposal, the wind plant would purchase an FTR of a certain capacity,
+but a portion of it would be dispatched based on the day-ahead schedule, and the remainder would
+4. In actual markets, differences in locational marginal prices between the sink and source are due to differences in both
+the congestion component and marginal loss component. FTR payouts, on the other hand, are only based on the difference in
+the marginal congestion component. Eq. 3, and the remainder of our analysis, is a simplification in that it ignores the contribution of marginal losses to differences in prices.
+Open Access Article
+
+6 / The Energy Journal
+be returned to the ISO with no cost or profit to the wind generator. They again suggest that a benefit
+of this approach would be to address the underfunding issue of conventional FTRs.
+Biggar and Hesamzadeh (2014) note that any generator whose output changes in response
+to changes in wholesale prices, e.g., mid-merit and peaking plants, can only hedge basis risk if
+the volume of the FTR varies in a way that mimics the production of the generator. They develop
+a CapFTR analogous to the commonly traded “cap” contract in the Australian wholesale market.
+The payout of the cap contract is the difference between the price at the generator node and a strike
+price, as long as the price at the generator node is above the strike price. Similarly, in a CapFTR,
+the payout is the difference between the load and generator nodes, only when the price at the generator node is above a strike price. They then show that such a CapFTR is a more effective hedging
+mechanism for non-baseload generators and that it can lead to a closer match between congestion
+rents and FTR payouts.
+Hesamzadeh and Biggar (2021) generalize the CapFTR concept to a range of analogous
+hedging products, creating a generalized FTR. One of the hedging products includes weather derivatives, leading to a “wind-following hedge” FTR whose volume would depend on the wind speed at
+the generator node. They argue that the system operator should make available a generalized FTR
+whose price-volume structure matches any hedging contract traded by market participants. Such an
+arrangement allows for perfect hedging by all market participants, including the system operator,
+which is not possible with fixed-volume FTRs.
+Building on the existing literature, this study is the first to empirically assess the empirical
+basis faced by wind and conventional generation assets in the wind-rich electricity markets of the
+central U.S., using plant-level and nodal-level hourly market data. Using the same granular market
+data, we also compare the (in)effectiveness of existing fixed-volume FTRs and alternative FTR designs at hedging the basis risk of wind.
+3. METHODS AND DATA
+We use historical wholesale power market prices and generation profiles to quantify both
+the basis and—assuming various FTR designs—the residual basis across multiple generation technologies in the central region of the United States from 2015 through 2019. We also calculate the
+standard deviation of the historical basis and residual basis as an estimate of historical basis risk.
+Historical wholesale market data reflect actual system conditions and constraints associated with
+ensuring that supply and demand are balanced across time and, in nodal markets that are common
+in the U.S., across thousands of individual locations in the grid.
+Using prices from both the nearest node and nearest major trading hub to the generator location, along with historical plant-level generation profiles, we calculate the hourly generation-weighted node minus hub basis for each individual plant, average it on a monthly and annual
+basis, and calculate its monthly and annual standard deviations. We then introduce FTRs of varying
+design to hedge basis risk. Any basis that remains after accounting for the FTR payout is known as
+the “residual basis,” which we once again quantify on average and in terms of monthly and annual
+volatility for each FTR design.
+3.1 Overview
+The focus region for the study is the central United States, home to the three organized
+wholesale markets of the Electric Reliability Council of Texas (ERCOT), the Southwest Power Pool
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 7
+(SPP), and the Midcontinent Independent System Operator (MISO)5. By the end of 2019, these three
+regions saw cumulative wind capacity installations of 49 GW, making up more than 56% of the U.S.
+installed capacity, Figure 1.
+Figure 1: Cumulative wind capacity (1998-2019) across U.S. organized wholesale market
+regions
+
+3.2 Wholesale Electricity Prices and Basis
+We define the basis as the difference between the LMP at the generator node and the price
+at the nearest major trading hub. Each generator is paired with a single pricing node. We use the generator node pairing reported in ABB’s Velocity Suite database, which is based on expert assessments
+of publicly available data. In cases when a generator is not assigned to a node in Velocity Suite,
+we instead use the geographic coordinates of the generator and the coordinates of pricing nodes
+to identify the node closest to the generator. We then pair each generator with a major trading hub.
+Trading hubs are ISO-defined aggregations of nodes within a region that enhance trade by creating
+liquid markets for buying and selling power (Li, Svoboda, and Oren 2015). We selected three trading
+hubs in each of the organized wholesale markets, as shown in Figure 2. The wholesale power prices
+at both the generator nodes and the trading hubs are based on the hourly average of the real-time
+electricity price as reported in Velocity Suite.6 For ERCOT, we add the reliability price adders based
+on the operating reserve demand curve (ORDC) to each of the reported market prices.7
+5. We only consider generation in the MISO-North region. The MISO-South region, which extends all the way to the
+south of Louisiana, does not include significant numbers of wind plants.
+6. In practice, the FTR payout is based on day-ahead prices. We instead use real-time prices for two reasons. First, over
+the period of study, and particularly within SPP’s market during the early years, empirical day-ahead price history is often not
+available (while real-time prices are available). Second, real-time prices are arguably more relevant to, and consistent with,
+the real-time generation profiles that we use in this study. Notably, the day-ahead payout can be converted to one based on
+real-time prices by combining a virtual demand bid at the sink and a virtual supply bid at the source, each having a volume
+equivalent to the FTR volume. With this option, FTRs can be used to hedge basis risk in either day-ahead or real-time markets.
+Since all of our production data are based on actual historical output, and since we do not have complete day-ahead price
+coverage, we focus on measuring and hedging real-time basis risk. However, to gauge the potential impact of this study design
+choice, Appendix B compares results from a subset of plants and nodes for which a full time series of both day-ahead and
+real-time prices are available—and finds little difference between the use of real-time or day-ahead prices.
+7. The ORDC only affects real-time prices, while the FTR payout is based on day-ahead prices. Given, however, that the
+ORDC is a market-wide price adder, it should have little if any impact on relative prices across nodes (i.e., the basis), and by
+extension our results.
+Open Access Article
+
+8 / The Energy Journal
+Figure 2: Location of selected trading hubs in the three central U.S. market regions
+
+Our choice of three candidate trading hubs within each ISO and the assignment of a generator to the nearest candidate hub is somewhat arbitrary. In reality, a generator could settle a contract
+at any trading hub, thereby introducing a range of possible basis risks for each generator. We rely
+on conversations with industry experts and anecdotal evidence from a sample of public contracts
+to validate our approach and assumptions. We conducted a sensitivity analysis in which we varied
+the number of candidate trading hubs from three to five in each region, and found that the primary
+conclusions from this analysis are not unique to the particular assumptions and candidate hubs presented here.
+3.3 Renewable and Conventional Generation Profiles
+Basis risk depends in part on the correlation between the basis and the generator output.
+The more correlated generation is with the basis—as in the case of wind power, where the windiest
+hours tend to suppress local wholesale prices and drive a more-negative basis—the greater the basis
+risk. To capture this important relationship, we use plant-level generation profiles for both wind and
+conventional generators in these markets.
+For wind plants, we use historical hourly profiles for each wind plant based on previous
+datasets developed for the 2019 Wind Technologies Market Report (Wiser and Bolinger 2020). In
+ERCOT, this dataset contains plant-level generation profiles directly measured by the system operator and made publicly available 60 days after the operating day. In the other two regions, this dataset
+estimates hourly plant-level production using location-specific wind speed data from the European
+Centre for Medium-Range Weather Forecasts (ECMWF). The wind speed data are then converted
+to wind power data based on a plant-specific power curve, and the resulting hourly generation is
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 9
+then scaled to match the monthly generation for the plant reported in Form EIA-923 (U.S. Energy
+Information Administration 2021). Additional hourly-level scaling ensures that all wind plants’ aggregate generation in the region matches the ISO-reported hourly aggregate wind profile. Aggregate
+curtailment reported in each ISO is allocated to individual wind plants based on the relative prevalence of negative pricing at the wind plant nodes. Our plant sample includes 96% of the installed
+wind capacity in the covered markets at the end of 2019.
+For conventional thermal generators, we use hourly plant-level generation profiles reported
+in Velocity Suite and derived from emissions data collected by EPA (EPA 2021). Not all generators
+in a market region are required to report data to EPA, as reporting is not mandatory for plants smaller
+than 25 MW. Our sample includes 91% of the combustion turbine (CT), 95% of the combined cycle
+(CC), and 98% of the coal capacity installed in the covered markets at the end of 2019.8
+Table 1: Aggregate capacity of individual plants
+included in the sample (GW)
+ERCOT
+SPP
+MISO
+
+CT
+7.1
+10.1
+20.7
+
+CC
+39.3
+11.6
+14.5
+
+Coal
+14.3
+22.2
+51.2
+
+Wind
+24.6
+19.9
+21.0
+
+3.4 Fixed-Volume and Alternative FTRs
+We model FTRs as a contract that, in each hour, pays the price difference between the
+generator node and the trading hub multiplied by the FTR volume. The base FTR modeled in this
+analysis is consistent with current FTR designs. It has a pre-defined fixed volume (set to match
+each generator’s average generation level, as explained further below) that does not change over the
+course of a year. We also analyze two alternatives to this fixed-volume FTR: a monthly on-peak/
+off-peak FTR and a wind FTR. The monthly on-peak/off-peak FTR allows the pre-defined volume
+to change each month, and within each month the volume can be different during the on-peak or
+off-peak periods. On-peak is defined as weekdays from 6:00 am to 10:00 pm, with off-peak defined
+as all other hours. The wind FTR varies the volume in proportion to the ISO aggregate hourly wind
+output profile. This is similar to the “wind-following hedge Financial Transmission Right” proposed
+by (Hesamzadeh and Biggar 2021), though they suggest basing the volume on the wind speed at individual wind plants. To simplify implementation for the purposes of this study, we instead base the
+volume on the ISO aggregate wind profile. Aggregate wind profiles are reported by the ISO/RTOs
+and collected from Velocity Suite.
+We assume that plants choose the FTR volume to match their expected average generation
+level in each individual year. For the monthly on-peak/off-peak FTR, we assume that the FTR volume is sized for each year-month on-peak/off-peak period to match the expected average generation
+during the same period. In reality, the choice of FTR volume is a variable that generators can optimize to balance cost, revenue, and risk exposure. Our decision to match the FTR volume to average
+generation tends to lead to a lower residual basis across technologies than other choices (e.g., sizing
+the FTR volume to match the nameplate capacity of the generator). It is also important to note
+that we chose the volumes each year (or each year-month on-peak/off peak period) with perfect
+foresight, whereas actual FTR procurement decisions would need to rely on imperfect generation
+forecasts.
+8. We exclude nuclear plants from our analysis due to analytical and statistical complications that arise from their very
+limited numbers within each ISO, as well as extended refueling outages.
+Open Access Article
+
+10 / The Energy Journal
+Finally, this analysis only evaluates the impact of FTRs on the residual basis (and hence
+residual basis risk) of different generators. We calculate the impact based on the FTR payout using
+the posited rules, and assume that all plants are able to clear the FTR auction and obtain the desired
+FTR.9 Importantly, we do not attempt to examine the overall cost-effectiveness of FTRs, which
+would require consideration of both the FTR payout and the cost of procuring the FTR through an
+auction—the latter of which is obviously unknown for the alternative FTR designs that we evaluate.
+4. RESULTS
+4.1 Evaluation of Basis across Technologies
+In the central U.S., wind generators face a greater absolute basis than other generator types,
+and it is growing with increasing wind deployment (for reasons discussed in Section 5). There is,
+however, heterogeneity in the basis faced by individual wind and non-wind plants. The 2019 plantlevel basis per unit of generation tends to be more negative and clustered for wind plants than for
+non-wind plants, Figure 3. A negative basis, most prevalent for wind plants in the panhandle of
+Texas and Oklahoma in SPP, indicates that production-weighted wholesale power prices are lower
+at plant nodes than at the nearest trading hubs.
+Figure 3: Average basis in 2019 for individual wind plants (left) and thermal plants (right) in
+the central U.S.
+
+In aggregate, the absolute basis facing wind has grown, though unsteadily, alongside increased wind deployment in the central U.S. Aggregated across the three markets, the total generation-weighted basis facing wind grew from $1.1 billion/year in 2015 to $2.4 billion/year in 2017 and
+$1.9 billion/year in 2019. The basis facing other (non-wind) technologies also changed in magnitude
+over time, but not to the same extent as wind, Figure 4. For thermal generators in ERCOT, gas-fired
+generators (CC and CT) in MISO, and gas CT generators in SPP, the aggregate basis was close to
+zero or even positive, indicating that production-weighted prices were higher at the generator node
+than at the trading hub. In contrast, the aggregate basis for coal and combined cycle in SPP was
+9. In actual FTR markets, there can be times when congestion revenue is insufficient to fully fund the FTR payout, resulting in a discounted payout. We ignore these complexities in this analysis and assume that all FTRs are sufficiently funded to
+pay the price difference between the generator node and the hub.
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 11
+negative, like wind, and tended to follow a similar annual pattern. Nevertheless, Figure 4 clearly
+demonstrates that across the central U.S., basis is by far a larger issue for wind generation than for
+thermal generation within each market.
+Figure 4: Distribution of averaged plant node and hub price difference across all plants
+within each generator category (top) distribution of annual basis per unit of plant
+production across all plants within each generator category (middle) annual basis
+aggregated across all plants within each generator category (bottom)
+
+Even after adjusting for differences in the amount of each technology deployed, it is clear
+that wind plants face a disproportionately larger absolute basis (often negative) across the three markets, Figure 5. Multiple factors contribute to the greater basis. Wind plants tend to be sited in remote
+locations distant from load, requiring greater usage of the transmission network to deliver power
+to loads.10 Periods of high wind can also be correlated over a broad region, contributing to transmission congestion and lowering LMPs near clusters of wind plants (Millstein et al., 2021). This
+transmission congestion near wind plants can lead to a negative basis between wind generator nodes
+10. For example, Wiser and Bolinger (2020) show that wind plants in remote locations tend to experience lower nodal
+prices than those closer to load pockets.
+Open Access Article
+
+12 / The Energy Journal
+
+and trading hubs that is correlated with wind production, driving greater basis risk. On average, a
+wind plant that contracted to sell power at a trading hub in the central U.S. between 2015-2019 lost
+$2-8/MWh due solely to the basis (i.e., assuming that congestion was not so severe as to prohibit
+delivery). The magnitude of the basis per unit of energy production is smaller for thermal generators,
+which are better able to regulate their output.
+Figure 5: Aggregate basis per unit of energy production (top) and standard deviation of
+monthly basis per unit of energy production (bottom) across all plants within each
+generator category for 2015-2019
+
+Conversely, month-to-month variation in the basis is not universally higher for wind than
+for other types of plants, Figure 6. If the basis was stable from month to month, then a generator
+might be able to build it into contract pricing or wholesale market offers in order to provide sufficient revenue to secure and service low-cost financing (though even in this instance, the risk of unanticipated variation in the basis would remain). Significant variation in the basis, however, exposes
+the developer and financier to uncertain plant revenue (above and beyond the uncertainty created by
+variability in the wind resource and its correlation with spot prices), which can make financing more
+challenging. In MISO and SPP, uncertainty around the basis (i.e., basis risk) is highest for wind,
+whereas in ERCOT, wind’s basis risk is on par with that of gas-fired generators.
+4.2 Residual Basis: Effectiveness of Fixed-Volume FTRs
+An annual fixed-volume FTR can nearly eliminate basis for most conventional generators,
+but is less effective for reducing the average basis for wind, Figure 6. It is not surprising to find that
+the payout of an annual fixed-volume FTR eliminates the basis for generators whose production is
+nearly constant, such as a coal plant, since the payout of the FTR is, by design, nearly equal to the
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 13
+generation-weighted basis faced by the plant. On the other hand, the payout of the fixed-volume
+FTR does not match the generation-weighted basis of a wind plant, whose volume varies significantly throughout the year depending on the weather. While the fixed-volume FTR does reduce
+wind’s basis by $1–5/MWh, it still leaves wind generators with $1.8–3.5/MWh of residual basis on
+average. Similarly, the fixed-volume FTR is not as effective for combustion turbines with low capacity factors in ERCOT. Because of their relatively high marginal cost, combustion turbines operate
+for only a small fraction of the year, which leads to a misalignment of the generation profile and the
+payout of a fixed-volume FTR. Though the fixed-volume FTR is not equally effective at reducing the
+residual basis facing thermal and wind generators, it does do a respectable job of reducing volatility
+in the residual basis across all generator types, Figure 6.
+Figure 6: Aggregate basis and residual basis per unit of energy production (top) and standard
+deviation of monthly basis and residual basis per unit of energy without and with
+a fixed-volume FTR (bottom) across all plants within each generator category for
+2015-2019.
+
+4.3. Wind FTR: An Alternative to Fixed-Volume FTR
+For wind plants, the effectiveness of FTRs can be enhanced across all markets through the
+introduction of a “wind FTR” whose volume varies with the hourly ISO-wide aggregate wind profile, Figure 7. In all three markets, the wind FTR reduces wind’s residual basis to less than $1/MWh
+with a similarly-sized monthly standard deviation; this reduction is most impressive in SPP, given its
+initial or unhedged basis of $8/MWh with a $5/MWh monthly standard deviation. Overall, the wind
+FTR is almost as effective for wind as the fixed-volume FTR is for baseload plants. The wind FTR is
+not a perfect hedge, however, since individual plant-level profiles are heterogeneous and will deviate
+
+Open Access Article
+
+14 / The Energy Journal
+from the market-wide aggregate wind profile, leaving some degree of volume mismatch, which can
+also be impacted by the underlying dispatch decisions or the basis risk.
+Figure 7: Effectiveness of an Annual FTR, Wind FTR whose volume varies with aggregate
+wind generation, and Month+Peak FTR whose volume varies by month and with
+on-peak and off-peak periods at reducing the (top) level and (bottom) uncertainty of
+the basis per unit of energy across all wind plants for 2015-2019.
+
+A fixed-volume FTR with more granular time periods, such as a monthly (rather than
+annual) FTR with on-peak or off-peak periods, can also be modestly more effective than an annual
+fixed-volume FTR for wind, but not nearly as impactful as the wind FTR, Figure 7. In this case, to
+set up a more-direct comparison to the annual fixed-volume FTR, the volume of the FTR is based
+on the individual wind plant’s average monthly production during the on-peak and off-peak periods.
+For wind plants whose output tends to vary by season or time of day, this additional granularity
+allows the volume of the FTR to follow a similar pattern. The lack of a significant reduction in the
+residual basis relative to that provided by the annual fixed-volume FTR, however, suggests that
+basis may be driven by widespread, correlated wind events where congestion increases with greater
+wind production in ways that are more variable than captured by coarse seasonal and time-of-day
+trends. As a result, simply revising the existing annual fixed-volume FTR design to have greater (but
+still fixed) temporal granularity is not likely to be effective in resolving the inherent basis risk issue
+facing variable generation resources.
+5. IMPLICATIONS
+Empirical data from markets in the central U.S. confirm that wind plants face the largest,
+and among the most volatile, generation-weighted basis of any type of generator. Because wind
+plants tend to be located far from load centers, they rely on the transmission network to deliver
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 15
+power and are exposed to congestion when transmission capacity is limited. Moreover, widespread
+periods of high wind speeds can cause congestion, leading to a positive correlation between basis
+and wind generation—so-called “covariance risk”—which magnifies the basis. In other words, the
+average basis per unit of wind energy is larger than the average basis. In addition, wind energy is
+a relatively new source of power that is being added to a transmission network that may have been
+sufficient for legacy generation assets, but is not necessarily keeping pace with wind deployment.
+Conventional thermal generators in the same markets face a much smaller aggregate absolute basis (only 2-32% of wind in 2019). Additionally, in ERCOT and MISO, the basis is generally
+positive for thermal generation. Positive basis suggests that plants tend to be located where prices
+are higher than they are at trading hubs. Only in SPP do thermal generators appear to face a significant negative basis. The fixed-volume FTR appears to be effective at hedging the basis risk of these
+thermal generators; for example, coal plants providing baseload generation are almost perfectly
+hedged by conventional FTRs.
+In contrast, wind plants do not benefit much from conventional FTRs, despite being most
+exposed to a negative and volatile basis. Thus, if the overarching goal of an FTR is to help those
+resources that are most-impacted by congestion to hedge that risk, then ISOs may need to consider
+reforming FTR markets and FTR design in order to achieve that goal—e.g., by introducing new
+designs such as the wind FTR.
+Fixed-volume FTRs are well designed for baseload generators. The introduction of a suite
+of more flexible FTR products that more closely match the energy profile of different generation
+types, where a wind FTR is one of the possible variants, could help to level the playing field among
+market participants. This would better-enable FTRs to achieve their two primary objectives of (1)
+promoting inter-temporal forward contracting by reducing risk for market participants, and (2) efficiently distributing congestion rent by narrowing the gap between the congestion rent incurred by
+physical market participants and the FTR payout to financial market participants.
+Inter-temporal forward contracts are most effective when loads and generators face the
+same market price. Exposure to basis risk, or residual basis risk resulting from an imperfect hedge,
+can impede forward contracting because revenue uncertainty increases the cost of financing (London Economics 2020). The cost of wind energy is particularly sensitive to financing costs, given
+the capital-intensive nature of wind plants. As such, a wind FTR that reduces the residual basis and
+uncertainty relative to a fixed-volume FTR could contribute to lower financing costs, and in turn,
+encourage forward contracting.
+We also expect that a wind FTR would more fully support the second purpose of an FTR—
+to distribute congestion rent. For an ISO to remain revenue neutral, congestion rent should equal the
+payout of the FTRs. Linking FTR payout to the actual utilization of the grid can improve the match
+between congestion rent and FTR payout. Assuming that utilization of transmission paths between
+wind generators and trading hubs varies with wind production, rather than remaining fixed over
+time, the more-granular volume and payout of a wind FTR will be better aligned with actual grid
+utilization than will a fixed-volume FTR. Hesmazadeh and Biggar (2021) show that simultaneously
+offering a suite of FTR products—so-called “generalized” FTRs, which includes a variant of a wind
+FTR—can improve the allocation of congestion rent relative to offering only fixed-volume FTRs.
+Realizing the promise of a wind FTR, however, requires addressing many practical aspects that we have not considered in our analysis. First, when designing FTR auctions, ISOs strike
+a balance between offering too many FTRs, which can result in derates to the payout of awarded
+FTRs, or offering too few, which results in the ISO resorting to a rule-based—as opposed to auction-based—method for allocating remaining congestion rent (London Economics 2020). A mechOpen Access Article
+
+16 / The Energy Journal
+anism called the simultaneous feasibility test is used to decide the quantity of FTRs to award, while
+ideally preserving revenue adequacy. Additional work is required to understand how this simultaneous feasibility test would function if a wind FTR was included in the set of available FTRs. Second,
+adapting FTR auctions to include new products is not trivial. Some market participants, for example,
+desire FTR options—i.e., where the payout is never negative—instead of the FTR designs modeled
+here, but the computational complexity of incorporating FTR options into auctions can, in some
+cases, restrict their use (London Economics 2020; Parmeshwaran and Muthuraman 2009). We have
+not assessed the potential difficulty of revising auction structures or processes to allow for wind
+FTRs alongside conventional FTR products.
+Stepping back even farther, the reason that FTRs are important, or even exist, is because
+of transmission congestion. Physical expansion of the transmission system reduces congestion and
+can similarly help market participants protect against basis risk—by reducing the risk rather than
+hedging it. Recent calls for reforms of the transmission planning process in the U.S. (Gramlich and
+Caspary 2021) highlight the need for a robust, proactive regional transmission planning process that
+builds on previous major transmission upgrades in the central region, including the ERCOT CREZ
+lines (ERCOT 2006), MISO Multi-Value Projects (MISO 2017), and SPP upgrades between 20122014 (SPP 2016). These upgrades reduced transmission congestion, at least temporarily (Mills et al.
+2019). Gramlich and Caspary (Gramlich and Caspary 2021) further note that voluntary, opportunistic transmission investments and the economic incentives created by FTRs are not a viable substitute
+for centralized transmission planning based on cost-benefit assessments. On the other hand, comprehensive evaluations of the expected costs and benefits of transmission expansion are unlikely to find
+that eradicating congestion altogether is cost-effective. Moreover, transmission planning processes
+may not fully anticipate the entry of new market participants, such as corporate purchasers of renewable energy, potentially increasing the role of financial hedges like FTRs to manage congestion
+risks until the transmission network can be expanded. As such, there will continue to be a role for
+FTRs to help market participants hedge congestion—transmission expansion and FTR reform are
+not an either-or proposition.
+Whether or not there is sufficient transmission capacity is not the only factor impacting
+congestion. Reductions in natural gas prices—which have narrowed the price spread between coaland gas-fired generation, or even wind and gas plants—and stagnant demand growth can both moderate congestion (DOE 2020). Policies and externalities can also impact congestion. For example,
+the Federal Production Tax Credit and value of Renewable Energy Credits (either voluntary or for
+RPS compliance markets) can lead to negative bids by wind plants in electricity markets (Wiser et
+al. 2017). Our results show that the magnitude of the basis risk for wind is considerably smaller if
+we only consider the basis risk in hours with positive prices (see Appendix A). One interpretation of
+this result is that the importance of wind FTRs could be diminished in the future if the PTC is phased
+out. On the other hand, future carbon policies could increase congestion and the importance of wind
+FTRs by raising the cost of fossil-fuel generators relative to renewable generators. We expect the
+design of effective mechanisms to hedge basis risk will continue to be an important area of study.
+Electric power systems are facing an energy transition where meeting decarbonization goals
+requires energy production to shift from fossil-based generators to cleaner sources like renewables.
+Because large-scale wind and solar plants tend to be located remotely, they face declining market
+value and operational challenges due to limited transmission line capacity (Millstien et al 2021). In
+congested regions of West Texas, for example, solar curtailment is as high as 7% of solar generation
+(Bolinger, Seel, and Robson 2019). With higher renewable penetration in the decarbonized grid,
+generators may face even higher congestion risk. Introducing effective congestion hedging mechaOpen Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 17
+nisms can replace exposure to basis risk with a fixed auction price. Introducing new FTR products
+like a wind FTR will reduce basis risk exposure between renewable plants and major trading hubs
+and promote forward contracting, resulting in lower risk to project developers, and ultimately promoting renewable project development. In addition, aligning hedging instruments with how the grid
+is actually being used may increase the overall utilization of the transmission network.
+One next step in this area of study is to engage market participants to better understand
+their interest in FTR reform in general and the concept of a wind FTR in particular—seeking to better understand market participant interest in the possible value proposition of different FTR designs,
+considering hedging abilities and likely costs. Similarly, there is a need to engage with ISOs in order
+to better understand the challenges and viability of integrating a new product, such as a wind FTR,
+into FTR auctions. Moreover, a similar analysis to that presented here could be extended to other
+forms of variable generation besides wind, such as solar. Finally, further exploration of the relationship between FTRs and transmission expansion or technologies like storage sited near renewable
+generators may also inform the future role of FTRs and the need for reform.
+6. CONCLUSIONS
+We use comprehensive historical pricing and generation data from three markets in the
+central U.S. to show that transmission congestion-related basis risk most impacts wind energy, and
+its impacts are growing. Thermal generators are less-impacted by locational basis, and many can
+use fixed-volume FTRs, which are available in each of the three markets, to effectively hedge their
+basis risk. The variable nature of wind generation, on the other hand, is not a good match for the
+fixed-volume FTR, leading to substantial residual basis and ongoing residual basis risk. The inability to hedge this risk with conventional FTRs makes the products less attractive to wind plants and
+perhaps less effective at distributing congestion rents. Continued investment in variable resources in
+congested markets may require improving hedging mechanisms to manage basis risk. Reforms to
+FTR markets, including the introduction of new FTR hedging products whose volume varies with
+wind power, could create a more effective hedge for those resources most impacted by congestion.
+ACKNOWLEDGMENTS
+This work was supported by the U.S. Department of Energy (DOE) under Lawrence Berkeley National Laboratory Contract No. DE- AC02-05CH11231. We especially thank our DOE sponsors for supporting this research, and in particular Patrick Gilman. We also appreciate early feedback from Israel Melendez and Patrick McGarry (Power Costs, Inc). Dev Millstein contributed wind
+production data from the Wind Technologies Market Report that was used in this paper.
+AUTHOR CONTRIBUTIONS
+James Hyungkwan Kim: methodology, software, data curation, formal analysis, visualization, writing—review & editing. Andrew Mills: writing—original draft, supervision, conceptualization. Ryan Wiser: conceptualization, funding acquisition, writing—review & editing. Mark
+Bolinger: conceptualization, funding acquisition, writing—review & editing.
+
+Open Access Article
+
+18 / The Energy Journal
+REFERENCES
+Barradale, Merrill Jones (2010). “Impact of Public Policy Uncertainty on Renewable Energy Investment: Wind Power and the
+Production Tax Credit.” Energy Policy 38(12): 7698–7709. https://doi.org/10.1016/j.enpol.2010.08.021.
+Bartlett, Jay (2019). “Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges.” Working Paper 19–06.
+Resources for the Future. https://media.rff.org/documents/WP_19-06_Bartlett.pdf.
+Biggar, Darryl R. and Mohammad Reza Hesamzadeh (2014). The Economics of Electricity Markets. 1 edition. Chichester,
+West Sussex, United Kingdom: Wiley-IEEE Press. https://doi.org/10.1002/9781118775745.
+Bogorad, Cynthia and William Huang (2005). “Long-Term Rights for New Resources: A Crucial Missing Ingredient in RTO
+Markets.” The Electricity Journal 18(7): 11–24. https://doi.org/10.1016/j.tej.2005.07.005.
+Bolinger, Mark, Joachim Seel, and Dana Robson (2019). “Utility-Scale Solar: Empirical Trends in Project Technology, Cost,
+Performance, and PPA Pricing in the United State—2019 Edition.” Berkeley, CA: Lawrence Berkeley National Laboratory
+(LBNL). http://utilityscalesolar.lbl.gov. https://doi.org/10.2172/1581088.
+Cole, Wesley, Sean Corcoran, Nathaniel Gates, Trieu Mai, and Paritosh Das (2020). “2020 Standard Scenarios Report: A U.S.
+Electricity Sector Outlook.” NREL/TP-6A20-77442. Golden, CO: National Renewable Energy Laboratory. https://www.
+nrel.gov/docs/fy21osti/77442.pdf. https://doi.org/10.2172/1721757.
+Deng, S. and S. Oren (2006). “Electricity Derivatives and Risk Management.” Energy 31(6–7): 940–53. https://doi.
+org/10.1016/j.energy.2005.02.015.
+DOE (2020). “National Electric Transmission Congestion Study.” Washington D.C.: U. S. Department of Energy.
+Egli, Florian (2020). “Renewable Energy Investment Risk: An Investigation of Changes over Time and the Underlying Drivers.”
+Energy Policy 140(May): 111428. https://doi.org/10.1016/j.enpol.2020.111428.
+EPA (2021). “Power Sector Emissions Data.” Washington, DC: United States Environmental Protection Agency, Office of
+Atmospheric Programs, Clean Air Markets Division. https://ampd.epa.gov.
+ERCOT (2006). “Analysis of Transmission Alternatives for Competitive Renewable Energy Zones in Texas.” Electricity Reliability Council of Texas. http://www.ercot.com/news/presentations/2006/ATTCH_A_CREZ_Analysis_Report.pdf.
+Gorman, Will, Andrew Mills, and Ryan Wiser (2019). “Improving Estimates of Transmission Capital Costs for Utility-Scale
+Wind and Solar Projects to Inform Renewable Energy Policy.” Energy Policy 135(December): 110994. https://doi.
+org/10.1016/j.enpol.2019.110994.
+Gramlich, Rob and Jay Caspary (2021). “Planning for the Future: FERC’s Opportunity to Spur More Cost-Effective Transmission Infrastructure.” Arlington, VA: Americans for a Clean Energy Grid. https://cleanenergygrid.org/wp-content/uploads/2021/01/ACEG_Planning-for-the-Future1.pdf.
+Hesamzadeh, Mohammad Reza and Darryl R. Biggar (2021). “Generalized FTRs for Hedging Inter-Nodal Pricing Risk.”
+Energy Economics 94(February): 105048. https://doi.org/10.1016/j.eneco.2020.105048.
+Hogan, William W. (1992). “Contract Networks for Electric Power Transmission.” Journal of Regulatory Economics 4(3):
+211–42. https://doi.org/10.1007/BF00133621.
+IEA (2020). “World Energy Outlook 2020.” Paris: IEA. https://www.iea.org/reports/world-energy-outlook-2020.
+Kueppers, Martin, Stephany Nicole Paredes Pineda, Michael Metzger, Matthias Huber, Simon Paulus, Hans Joerg Heger, and
+Stefan Niessen (2021). “Decarbonization Pathways of Worldwide Energy Systems – Definition and Modeling of Archetypes.” Applied Energy 285(March): 116438. https://doi.org/10.1016/j.apenergy.2021.116438.
+Li, Ruoyang, Alva J. Svoboda, and Shmuel S. Oren (2015). “Efficiency Impact of Convergence Bidding in the California
+Electricity Market.” Journal of Regulatory Economics 48(3): 245–84. https://doi.org/10.1007/s11149-015-9281-3.
+London Economics (2020). “Review of PJM’s Auction Revenue Rights and Financial Transmission Rights.” Boston, MA:
+London Economics International LLC. https://www.pjm.com/-/media/committees-groups/task-forces/afmtf/postings/leireview-of-pjm-arrs-and-ftrs-report.ashx.
+Mills, Andrew D., Dev Millstein, Ryan H. Wiser, Joachim Seel, Juan Pablo Carvallo, Seongeun Jeong, and Will Gorman
+(2019). “Impact of Wind, Solar, and Other Factors on Wholesale Power Prices: An Historical Analysis—2008 through
+2017.” Berkeley, CA: Lawrence Berkeley National Laboratory. https://escholarship.org/uc/item/1qd5b2d9. https://doi.
+org/10.2172/1574352.
+Millstein, Dev, Ryan Wiser, Andrew Mills, Mark Bolinger, Joachim Seel, and Seongeun Jeong (2021). “Solar and Wind
+Grid-System Value in the United States: The Impact of Transmission Congestion, Generation Profiles, and Curtailment.”
+Joule. https://doi.org/10.1016/j.joule.2021.05.009.
+MISO (2017). “MTEP17 MVP Triennial Review: A 2017 Review of the Public Policy, Economic, and Qualitative Benefits of
+the Multi-Value Project Portfolio.” Carmel, IN: Midcontinent Independent System Operator. https://cdn.misoenergy.org/
+MTEP17%20MVP%20Triennial%20Review%20Report117065.pdf.
+
+Open Access Article
+
+Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets / 19
+Nimmagadda, Seep, Mark A. Harral, and Stephen B. Bayne (2013). “Challenges of Obtaining Financial Transmission Rights
+for Wind Projects.” In . ACTA Press. https://doi.org/10.2316/P.2013.806-026.
+Ostrovnaya, Anastasiya, Iain Staffell, Charles Donovan, and Robert Gross (2020). “The High Cost of Electricity Price Uncertainty.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3588288.
+Parmeshwaran, Vijay and Kumar Muthuraman (2009). “FTR-Option Formulation and Pricing.” Electric Power Systems Research 79(7): 1164–70. https://doi.org/10.1016/j.epsr.2009.02.010.
+SPP (2016). “The Value of Transmission.” Little Rock, AR: Southwest Power Pool. https://www.spp.org/documents/35297/
+the%20value%20of%20transmission%20report.pdf.
+U.S. Energy Information Administration (2021). “Form EIA-923 Detailed Data with Previous Form Data (EIA-906/920).”
+2021. https://www.eia.gov/electricity/data/eia923/.
+Wiser, Ryan and Mark Bolinger (2020). “Wind Energy Technology Data Update: 2020 Edition.” Berkeley, CA: Lawrence
+Berkeley National Laboratory (LBNL). http://windreport.lbl.gov.
+Wiser, Ryan, A.D. Mills, J. Seel, T. Levin, and A. Botterud (2017). “Impacts of Variable Renewable Energy on Bulk Power
+System Assets, Pricing, and Costs.” LBNL-2001082. Berkeley, CA: Lawrence Berkeley National Laboratory. https://
+es-cholarship.org/uc/item/4d01m8vt. https://doi.org/10.2172/1411668.
+
+APPENDIX A: COMPARISON OF BASIS DURING POSITIVE PRICED HOURS
+RELATIVE TO ALL HOURS
+Policy, including the production tax credit (PTC) or renewables portfolio standards, may
+contribute to the greater negative basis that wind often faces (as shown in Figure 4). One effect of
+these policies is that wind may offer negative prices into wholesale power markets, as the policies
+can incentivize production even when wholesale market prices are below zero (Wiser et al. 2017).
+We do not attempt to directly measure the impact of these policies on locational basis, but we can
+get a sense of their importance by comparing the basis across all hours to the basis during only
+positive price hours (defined here as hours in which both the node and hub prices are positive). Supplementary Figure 1 shows that the average basis experienced by wind during positive price hours
+is still negative, though the magnitude is diminished, especially in ERCOT and SPP. Moreover, this
+distinction between all hours and positive price hours matters less for other generator types. This
+result implies that wind could face a less-negative basis in the future, once the PTC is phased out.
+Supplementary Figure 1: Comparison of average basis in all hours and only positive price
+hours across all plants within each generator category, from 20152019
+
+Open Access Article
+
+20 / The Energy Journal
+APPENDIX B: COMPARISON OF BASIS USING REAL-TIME VERSUS DAY-AHEAD
+PRICES
+As noted in Section 3.2, we conduct our analysis using real-time prices, despite the fact that
+FTR payouts are based on day-ahead prices. We do this because the former offers more-complete
+coverage than the latter. For example, particularly in the early years of some markets (e.g., SPP),
+there are many hours for which real-time prices exist but day-ahead prices do not. Given our market-wide coverage and period of study (2015-2019), this lack of a complete day-ahead price history
+is problematic. Moreover, real-time prices are arguably more relevant to, and consistent with, the
+real-time generation profiles that we use in this study. Finally, despite being based on day-ahead
+prices, FTRs can nevertheless be used to hedge basis risk in the real-time markets by converting the
+day-ahead FTR payout to one based on real-time prices (e.g., by combining a virtual demand bid at
+the sink and a virtual supply bid at the source, each having a volume equivalent to the FTR volume).
+To gauge the potential impact of using real-time instead of day-ahead prices, we calculated
+the historical basis for a sub-sample of 20 wind plants in each ISO for which full hourly time series
+of both real-time and day-ahead prices exist over the 2015-2019 period of study. Supplementary Figure 2 shows that there is little difference in the distribution of basis using day-ahead versus real-time
+prices. This sub-sample comparison suggests that, had we been able to do so, using day-ahead rather
+than real-time prices for our analysis would not have had a significant impact on our findings.
+Supplementary Figure 2: Comparison of basis using real-time and day-ahead prices for a
+sample of wind plants from 2015-2019
+
+Open Access Article
+
+

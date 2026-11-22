@@ -1,0 +1,327 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+September 8, 2020
+
+Natural gas price differentials to Henry Hub narrowed at most hubs in first half of 2020
+
+[natural gas spot price and basis at select demand hubs]
+
+Source: U.S. Energy Information Administration, based on Natural Gas Intelligence
+
+------------------------------------------------------------------------
+
+The average spot price differentials between regional natural gas hubs and the Henry Hub, also typically known in the natural gas industry as the basis price, have narrowed at many trading hubs in the first half of 2020 compared with the first half of 2019. The natural gas basis reflects the difference between the price of natural gas at the benchmark Henry Hub in Louisiana and the price of natural gas at another delivery point elsewhere in the country. The basis at key demand hubs (near population centers) narrowed primarily because of weather-related factors, but the basis at some supply hubs (near production areas) narrowed because of decreases in natural gas production. Declines in economic activity related to coronavirus disease (COVID-19) and its mitigation efforts generally further narrowed the basis at both demand and supply hubs.
+
+Warmer-than-normal temperatures during the 2019–2020 heating season (November 1–March 31) contributed to lower basis prices early in 2020 at key natural gas hubs serving demand markets, such as SoCal Citygate in Southern California; Algonquin Citygate near Boston, Massachusetts; and Transco Zone 5 in Virginia. At Algonquin Citygate, mild winter temperatures in New England contributed to a lower premium to Henry Hub in 2020 compared with past years, and the basis turned negative by March instead of by April or May, which is a more typical basis price seasonal pattern at Algonquin Citygate. Some demand hubs, especially SoCal Citygate and Algonquin Citygate, are often constrained by pipeline infrastructure, which limits the flow of natural gas into the region and leads to wider basis prices.
+
+In Southern California, improvements to natural gas infrastructure—pipeline repair completions and additional flexibility withdrawing natural gas from the Aliso Canyon facility—narrowed the basis price at the SoCal Citygate in early 2020 after peaking at nearly $8 per million British thermal units (MMBtu) in February 2019 as a result of cold weather and pipeline constraints.
+
+Basis prices remained narrow in Southern California between January and July 2020, despite constrained pipeline infrastructure, which generally increases basis prices. However, in mid-August 2020, the basis price at SoCal Citygate briefly reached $11.00/MMBtu amid increasing demand for natural gas-fired power generation, driven by intense summer heat. The increase in power demand resulted in California Independent System Operator (CAISO) issuing rotating power outages.
+
+Demand for natural gas at U.S. commercial and industrial establishments declined from March through June 2020 because of reduced economic activity related to efforts to slow the spread of COVID-19, which also contributed to relatively narrow basis prices.
+
+[natural gas spot price and basis at select supply hubs]
+
+Source: U.S. Energy Information Administration, based on Natural Gas Intelligence
+
+------------------------------------------------------------------------
+
+Natural gas hubs located in producing areas, such as the Waha Hub in West Texas and the Dominion South Hub in southwestern Pennsylvania, typically trade at a discount to Henry Hub. This discount widens when pipeline constraints limit natural gas takeaway capacity out of the region. Crude oil and associated natural gas production declined in the first half of 2020, exacerbated by the economic impact of COVID-19 and declining crude oil prices in the spring of 2020.
+
+Throughout 2019, the basis price at the Waha Hub, located in the Permian Basin, was wide: Waha prices reached nearly $3.00/MMBtu lower than Henry Hub prices in April 2019. In the first half of 2020, the basis narrowed as a result of low crude oil prices and reduced associated natural gas production in the Permian Basin. EIA estimates natural gas production in the Permian Basin has declined about 10% since January’s high of 10.3 billion cubic feet per day (Bcf/d). Additional pipeline takeaway capacity completed during the past year also helped support higher prices at Waha, narrowing the basis price.
+
+At Dominion South, located in the Appalachian Basin, the basis price stayed relatively the same in the first half of 2020 compared with the first half of 2019. Compared with the Permian Basin, the Appalachian Basin has less oil-directed drilling. Lower oil prices have not affected shale natural gas production in the Appalachian Basin, where production has declined by less than 1% since the beginning of 2020.
+
+S&P Market Intelligence forward basis swaps on futures contracts, which allow participants to trade the price differences between physical natural gas delivery locations, suggest that the market expects narrowed basis prices at most hubs through the end of the year. As of August 17, the winter 2020–2021 forward basis swaps for SoCal Citygate and Waha Hub narrow further compared with last winter, averaging $1.11/MMBtu and -$0.47/MMBtu, respectively. At the Algonquin Citygate, forward basis swaps suggest a widening in the basis price for this upcoming winter, rising to $2.28/MMBtu amid expectations of colder winter temperatures in New England. Forward basis swaps indicate a larger basis this winter for trading hubs Transco Zone 5 and Dominion South in the eastern United States as well, averaging $0.95/MMBtu and -$0.48/MMBtu, respectively.
+
+Principal contributors: Stephen York, Katie Dyl
+
+Tags: prices, natural gas
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Quarterly Domestic Uranium Production Report
+-   Nov 20, 2026
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

@@ -1,0 +1,255 @@
+[LevelTen Energy Logo]
+
+Who we serve
+
+[]
+
+AdvisorsEnergy BuyersDevelopersUtilities
+
+NEW
+
+LevelTen Energy Expands Into APAC
+
+Solutions
+
+[]
+
+Market IntelligenceMarketPulsePPA Price IndexMarket Transparency Reports
+
+MarketplacePPAs and EACsHybrid and Storage PPAsCapacity+Granular Certificates
+
+Portfolio Management Performance Monitoring
+
+About
+
+[]
+
+CareersCompany NewsAlliance
+
+BlogSubscribeContact
+
+[LevelTen Energy Logo]Log In
+
+[]
+
+[]
+
+Blog[]RTI Essentials and Best Practices
+
+[]
+
+Proxy Generation 101
+
+RTI Essentials and Best Practices
+
+October 29, 2019
+
+[]
+
+by 
+
+Jason Tundermann
+
+[]
+
+and
+
+Every Virtual Power Purchase Agreement (VPPA) financially settles around a "Trade Quantity" - which is the number of megawatt hours (MWh) and associated Renewable Energy Certificates (RECs) that the parties agree to transact upon in a contract-for-differences structure. Historically VPPAs have settled around a Trade Quantity that is based on the amount of energy actually produced by the wind or solar farm. But recent innovations in VPPA contract structures have introduced a different way to define the Trade Quantity - Proxy Generation. Below we outline the key differences between traditional and Proxy Generation VPPAs, including several advantages and disadvantages of each. Understanding and negotiating different available contract structures is a key component of every buyer's VPPA journey.
+
+Traditional VPPAs
+
+In a traditional VPPA (aka "unit contingent" or "as generated"), the Trade Quantity is equal to the amount of energy the facility delivers to the grid, as measured by an electrical meter at the Point of Interconnection (POI). By settling at the POI on an "as generated" basis, the buyer exposes itself to operational risks in the form of undelivered RECs, unexpected settlement pricing, or both.
+
+For instance, under a traditional VPPA a buyer might experience a reduced Trade Quantity if the seller mismanages the facility by never washing the panels, takes the facility offline for maintenance for extended periods of time, or simply performs voluntary maintenance during times when they expect to lose money under the VPPA's contract-for-difference structure (e.g. when hub prices are significantly higher than node prices). In addition to mismanagement by the seller, transmission constraints or system emergencies might cause the grid operator to "curtail" the facility (i.e., temporarily disconnect the facility from the grid), which would also reduce the Trade Quantity. Both of these examples would result in a buyer receiving fewer RECs than expected, and therefore creating a risk that the buyer might not meet its renewable energy goals.
+
+In order to protect the buyer from the above risks, traditional VPPAs typically include "availability guarantees" - complex formulas that force the seller to pay a penalty if the plant is not available to produce energy at or above a fixed threshold (e.g., at least 95% of the hours in a year). While availability guarantees provide important protections, the buyer still wears a fair degree of operations-related production risk.
+
+Proxy Generation VPPAs
+
+How Does Proxy Generation Work?
+
+In response to these risks, various parties have recently come together to innovate a new way to define Trade Quantity in VPPAs - Proxy Generation (or "Proxy Gen" for short). In Proxy Gen VPPAs, the Trade Quantity is based on the amount of energy that should have been delivered to the grid had the plant been operated according to ideal equipment efficiency factors and operational best practices. Again, this is different than a traditional "as generated" VPPA where the Trade Quantity is directly related to the actual delivered energy. ProxyGen VPPAs therefore place the operational risk entirely onto the seller, which helps ensure that each Party's financial incentives remain properly aligned.
+
+In a Proxy Gen VPPA, the Trade Quantity is calculated by measuring the actual wind or solar resource at the facility and running that measurement through a pre-agreed mathematical formula that estimates how many MWh should have been produced given the facility's size and operational efficiencies under best practice standards. This means that under a Proxy Gen VPPA, the Trade Quantity is not a reflection of actual power generation, but rather, is a reflection of what should have been produced - i.e. a calculated estimate that is a "proxy" for actual generation.
+
+What are the Risk Mitigation Benefits of Proxy Generation VPPAs?
+
+Under a Proxy Gen VPPA, the operational risks are effectively shifted entirely to the seller instead of the buyer. By placing the operational risks on the party that is actually responsible for operations, the structure helps ensure that sellers remain incentivized to operate at maximum efficiency levels, and eliminates risks created by misaligned financial incentives or unexpected curtailment, among others. Availability guarantees become unnecessary under Proxy Gen VPPAs because the Proxy Gen structure essentially serves as a "perfect" availability guarantee - one that is calculated independently for each and every hour of the contract.
+
+By entering into a Proxy Gen VPPA the buyer also preserves the option to enter into separate contracts that can further reduce financial risks around project production shape (i.e. weather risk) and financial volatility (i.e. wholesale market risk). For an additional fee (and contract complexity), buyers can structure these "insurance policies" for up to 10 years at a time. These policies are only available for Proxy Gen VPPAs because the third-party insurers are able to price weather risk and market risk, but they are unable to price the risk surrounding how well a particular seller will operate the facility. Removing operational risk from the VPPA thereby makes insurance projects available.
+
+What are the Tradeoffs of Proxy Generation?
+
+While Proxy Gen VPPAs shield the buyer from operational risks, there are important downsides to note. First, as a relatively new contract form there are fewer parties (buyers, sellers, attorneys, financiers) who are familiar with the structure, which can add time and cost to the PPA negotiation process. Fortunately, a number of sellers and financiers have become familiar in recent years with a similar structure - the proxy revenue swap - which can help mitigate deal friction risks if the right team is assembled.
+
+In order to take on additional risks associated with contract complexity and operational risks sellers may increase their PPA price. To get the latest in PPA pricing, check out quarterly PPA Price Index reports.
+
+In addition, Proxy Gen VPPAs require the buyer to hire a "calculation agent" - an independent third-party that is responsible for collecting the hourly on-site wind or solar data, performing the Proxy Gen calculations each hour, and managing the VPPA invoicing process. Historically, this calculation agent fee has been charged as an annual fee (ultimately paid by the buyer) equal to approximately: 0.5% * annual Proxy Gen Trade Quantity * PPA Price. So, for example, a $20.00/MWh PPA would produce an additional fee of $0.10/MWh over the life of the contract. As with any insurance product, sometimes it can be more cost effective to self-insure than to pay an insurance premium - this is a decision each buyer must come to on its own based on its financial exposure and risk tolerance.
+
+Lastly, project-specific RECs are still ultimately created by actual generation not proxy generation. In other words, if actual production is low, a seller cannot provide project RECs to a buyer that the project did not create, regardless of how the Trade Quantity is defined. Under a Proxy Gen VPPA, if actual generation is less than the Proxy Gen Trade Quantity, the seller is typically required to make up the difference with supplemental "replacement RECs" from one or more similar projects. This likely represents a negative outcome for the buyer, who would in effect be paying VPPA prices for non-project-specific (i.e. unbundled) RECs. Conversely, if actual generation exceeds the Proxy Gen Trade Quantity, the buyer would typically only pay for the Proxy Gen trade quantity. In this case, the negotiated contract would determine who receives the incremental project RECs over and above the Proxy Gen Trade Quantity - the seller, the buyer, or a split between the two.
+
+Proxy generation PPAs are just one of many innovative PPA contracting structures that can help buyers manage the risks inherent in a large-scale renewable energy purchase.
+
+Should you have additional questions, please do not hesitate to reach out to us to discuss your company's needs and walk through the range of available alternatives with your organization.
+
+Tags:
+
+Guides
+
+Posted by
+
+Jason Tundermann
+
+Continue reading
+
+[]
+
+What Are Renewable Energy Tax Credits?
+
+RTI Essentials and Best Practices
+
+Jul 28, 2022
+
+by 
+
+LevelTen Energy
+
+June 6, 2025
+
+[]
+
+What Are Renewable Energy Tax Credits?
+
+RTI Essentials and Best Practices
+
+Jul 28, 2022
+
+by 
+
+LevelTen Energy
+
+[]
+
+Webinar: Maximizing Success on LevelTen’s Platform through Bilateral Deals
+
+RTI Essentials and Best Practices
+
+Jul 28, 2022
+
+by 
+
+LevelTen Energy
+
+May 31, 2022
+
+[]
+
+Webinar: Maximizing Success on LevelTen’s Platform through Bilateral Deals
+
+RTI Essentials and Best Practices
+
+Jul 28, 2022
+
+by 
+
+LevelTen Energy
+
+[]
+
+Now Available: CFO-Ready Analytics™ on Market-Indexed Price Offers
+
+RTI Essentials and Best Practices
+
+Jul 28, 2022
+
+by 
+
+LevelTen Energy
+
+May 23, 2022
+
+[]
+
+Now Available: CFO-Ready Analytics™ on Market-Indexed Price Offers
+
+RTI Essentials and Best Practices
+
+Jul 28, 2022
+
+by 
+
+LevelTen Energy
+
+[]
+
+[]ContactLog In
+
+-   Global HQ
+
+    1-800-995-2152
+
+    2211 Elliott Ave, Suite 110
+    Seattle, WA 98121
+
+-   EUROPEAN HQ
+
+    +34 91 43249 87
+
+    Serrano 240
+    28016, Madrid, Spain
+
+-   email
+
+    info@leveltenenergy.com
+
+    Billing questions
+
+    ar@leveltenenergy.com
+
+Platform
+
+[]
+
+All services are online
+
+-   
+    Market Intelligence
+-   MarketPulse
+-   PPA Price Index
+-   Market Transparency Reports
+
+-   
+    Marketplace
+-   Capacity+
+-   PPAs and EACs
+-   Hybrid and Storage PPAs
+-   Granular Certificates
+
+-   
+    Portfolio Management
+-   Performance Monitoring
+
+SOLUTIONS
+
+-   Advisors
+-   Energy Buyers
+-   Developers
+-   Utilities
+
+ABOUT
+
+-   Company News
+-   Careers
+-   Acceleration Blog
+-   Resources
+
+LeGAL
+
+-   Privacy Policy
+-   Cookies
+-   Disclaimer
+-   Terms and Conditions
+
+-   
+
+© 2026 LevelTen Energy. All rights reserved.

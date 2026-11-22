@@ -1,0 +1,2800 @@
+Appendix B-2
+Term Sheet for Tolling Agreements
+for
+2020 Request for Proposals
+for
+Combined-Cycle Gas Turbine
+Capacity and Energy Resources
+for
+Entergy Texas, Inc.
+Entergy Services, LLC
+April 28, 2020
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+Term Sheet for RFP Tolling Product
+The following bid submission term sheet (this “Term Sheet”) describes certain terms and
+conditions of a potential agreement between Buyer (as defined in item 2 below) and the seller of power
+proposed by the applicable bidder (“Bidder”) in Bidder’s proposal submitted in the RFP (“Seller” and,
+together with Buyer (defined below), the “Parties”) for the purchase by Buyer of long-term capacity,
+capacity-related benefits, energy, environmental attributes, other electric products, and fuel-conversion
+services from a combined-cycle, gas-fired technology (“CCGT”) resource in connection with the RFP.
+The terms set forth in this Term Sheet will establish the basis for the negotiation and execution of a
+definitive agreement between Buyer and any Seller whose proposal is selected by Entergy Services, LLC
+(“ESL”) for contract negotiations in connection with the RFP (the “Definitive Agreement”), with
+necessary changes to accurately reflect any special considerations set forth in Bidder’s proposal that are
+accepted by Buyer in its sole and absolute discretion. Buyer will provide the initial draft of the Definitive
+Agreement to the selected third-party Bidder (if any) at the beginning of contract negotiations.
+If Bidder is unable or unwilling to accept one or more of the terms and conditions set forth in this
+Term Sheet or wishes to propose any alternate or additional terms or conditions (such as a buy-out option
+at some point during the term of the Definitive Agreement or a power purchase agreement in which Seller
+retains control over and responsibility for providing fuel), Bidder should indicate in the “Special
+Considerations” section of its Proposal Package (i) the terms and conditions to which Bidder takes
+exception, describing with specificity any terms and conditions that Bidder proposes in substitution
+therefor, and/or (ii) the additional terms and conditions that Bidder proposes as a supplement to the terms
+and conditions in this Term Sheet. Bidder is advised to refer to Section 2.2 in the Main Body for additional
+information pertaining to Special Considerations.
+Proposal Term
+
+Description of Proposal Term
+
+1
+
+Product
+Description:
+
+The product described in this Term Sheet is designated as the “RFP Tolling
+Product.” This product provides for flexible generation capacity from 1,000
+MW to 1,200 MW of nameplate capacity (Summer Conditions, at full load,
+including duct-firing) from a designated CCGT resource capable of meeting
+the requirements of this product (the “Facility”). Buyer will be entitled to
+all capacity, capacity-related benefits, energy, environmental attributes, and
+other electric products from the Facility (or, in the event Bidder proposes to
+allocate to Buyer a portion of the nameplate capacity of the Facility in
+increments of whole generating units, the corresponding portion thereof).
+
+2
+
+Buyer:
+2
+
+“Buyer” will be Entergy Texas, Inc. (“ETI”) or its designee. For purposes of
+the RFP and the Definitive Agreement, Buyer will be considered an entity
+entirely separate and distinct from any Entergy transmission organization,
+and, without limiting the foregoing, the acts and omissions of any Entergy
+transmission organization will not be deemed to be acts and omissions of
+Buyer for any purpose arising out of or relating to the RFP or the Definitive
+Agreement.
+
+3
+
+Seller:
+3
+
+“Seller” will be the party specified by Bidder in the applicable proposal.
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+Page B-2-1
+
+Term Sheet for RFP Tolling Product
+4
+
+Seller Parent
+Guarantor:
+
+“Seller Parent Guarantor” will be a parent entity acceptable to Buyer in its
+sole and absolute discretion. Seller Parent Guarantor will provide a guaranty
+in form and substance acceptable to Buyer.
+
+5
+
+Facility:
+4
+
+The “Facility,” including the nameplate capacity and major equipment, will
+be as specified by Bidder in the applicable proposal.
+
+6
+
+Electric
+5
+Interconnection
+Point:
+
+The “Electric Interconnection Point” will be a point located in the Eastern
+Region as specified by Bidder in the applicable proposal where the Facility
+interconnects to the host utility’s transmission system (and represented by a
+CP Node). The Electric Interconnection Point must be consistent with
+Bidder’s existing GIA and/or generator interconnection application
+submitted to MISO for the Facility prior to submission of the applicable
+proposal under the RFP.
+The point at which capacity and associated capacity-related benefits will be
+made available, and energy and other electric products (to the extent capable
+of being physically delivered) will be delivered, to Buyer will be as specified
+by Bidder in the applicable proposal.
+For purposes of this Term Sheet, the term “Entergy Transmission System”
+means the interconnected group of transmission lines and substations that, as
+of the date of this Term Sheet, are owned, leased, or controlled by ETI and
+the other Entergy Operating Companies, each in its capacity as the owner
+and/or lessee of regulated transmission and distribution functions, and/or its
+successor(s) in such capacity, that are used to transfer bulk electricity
+between supply and delivery points, notwithstanding that there may be a
+Balancing Authority (including any regional transmission organization
+(“RTO”) or independent system operator (“ISO”)) applicable thereto that
+covers a system broader than such interconnected group of transmission lines
+and substations.
+
+7
+
+Electric
+6
+Interconnection;
+Transmission;
+ARRs and
+FTRs:
+
+Seller will be responsible for (and bear the full costs and risks of) the
+arrangement, procurement, receipt and maintenance prior to and throughout
+the Delivery Term of the interconnection, deliverability, and transmission
+facilities and service required for the Facility, including (i) the electric
+interconnection of the Facility to the host utility and establishment of the
+Electric Interconnection Point and (ii) the transfer and delivery of capacity,
+energy, and other electric products to, and the injection of energy and other
+electric products at, the Electric Interconnection Point. Without limiting the
+foregoing, Seller will bear (a) all related interconnection, deliverability, or
+transmission request, application, study, registration, and comparable fees,
+charges, or costs, (b) all upgrade, improvement, and other fees, charges, and
+costs arising out of the requested interconnection, deliverability, or
+transmission service, except to the extent stated to be the exclusive
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-2
+
+Term Sheet for RFP Tolling Product
+responsibility and cost of the host utility or an applicable transmission
+provider, transmission owner, or Balancing Authority under the applicable
+tariffs, rules, regulations, or requirements of, or generator interconnection or
+other agreements with, the host utility or such transmission provider,
+transmission owner, or Balancing Authority), (c) the fees, charges, and costs
+to receive interconnection, deliverability, transmission, or, if applicable,
+financial settlement service, (d) all transformer, line, energy, capacity, and
+other losses or costs related to the interconnection, deliverability,
+transmission, or, if applicable, financial settlement service with respect to the
+Facility, and (e) all costs assigned or allocated to Seller or, if applicable, to a
+financially settling party under the applicable tariffs, rules, regulations, or
+requirements of, or agreements with, the host utility, transmission provider,
+transmission owner, or any applicable Balancing Authority. As part of its
+responsibilities under this item 7, Seller will be required to obtain and
+maintain energy resource interconnection service (“ERIS”) and network
+resource interconnection service (“NRIS”) from MISO as required herein
+under the MISO OATT (or the equivalent service in the event MISO
+discontinues or modifies the nature of ERIS or NRIS or both, as applicable)
+in a quantity (a) with respect to ERIS, that equals or exceeds the rating of the
+Facility at Winter Conditions of 10° Fahrenheit and 60% relative humidity
+(including duct-firing if included as part of the Facility) sufficient for the
+maximum generation capability of the Facility and (b) with respect to NRIS,
+(x) that equals or exceeds the rating of the Facility at Summer Conditions
+(including duct-firing if included as part of the Facility) or (y) to be allocated
+and prioritized such that the NRIS level associated with the capacity of the
+Facility (or portion thereof allocated to Buyer) under contract to Buyer
+cannot limit the amount of MISO capacity credits Buyer receives for any
+planning period during the Delivery Term.
+Without limiting Seller’s responsibilities set forth in this item 7, at a time
+deemed appropriate by Buyer after execution of the Definitive Agreement
+with Seller, Buyer will seek to qualify the Facility (or the portion thereof
+allocated to Buyer) as, or have the Facility (or the portion thereof allocated
+to Buyer) recognized as, a firm designated network resource of Buyer in the
+applicable Balancing Authority(ies) for the Delivery Term. Seller will be
+responsible and reimburse Buyer upon demand for all out-of-pocket costs
+incurred by Buyer in connection with Buyer obtaining, or attempting to
+obtain, such qualification or recognition.
+Notwithstanding anything to the contrary, and without limiting item 14
+below, all allocations of Auction Revenue Rights (as defined in the MISO
+rules) (“ARRs”) and, if applicable, Financial Transmission Rights (as
+defined in the MISO rules) (“FTRs”) and similar rights by any Balancing
+Authority(ies) applicable to the Electric Interconnection Point or arising out
+of the Definitive Agreement that are associated with the capacity, capacityThe statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-3
+
+Term Sheet for RFP Tolling Product
+related benefits, energy, and/or other electric products to be provided under
+the Definitive Agreement during the Delivery Term, including, for the
+avoidance of doubt, ARR and FTR allocations based on data, performance,
+or periods prior to the Delivery Term (or are associated with any
+transmission service or usage or physical, financial, or other transfer with
+respect to any of the same), and all FTRs and other entitlements derived
+therefrom or otherwise related thereto, will exclusively and solely accrue to
+and be owned by Buyer, including after termination of the Definitive
+Agreement.
+Subject to Buyer’s rights under item 17 below and any Buyer’s instruction to
+the contrary in whole or in part, Seller will, at its own expense, timely
+execute and file all documents and take all other actions necessary or
+advisable to cause (1) the Facility (or portion thereof allocated to Buyer) to
+be qualified and/or recognized by the applicable Balancing Authority(ies) as
+a firm designated network resource, with full deliverability in MISO, for the
+Delivery Term in the applicable Balancing Authority(ies) and to maintain
+such status throughout the Delivery Term, (2) the Facility (or portion thereof
+allocated to Buyer) to be qualified and/or recognized by the applicable
+Balancing Authority(ies) as a firm designated network resource of Buyer,
+with full deliverability in MISO, for the Delivery Term in the applicable
+Balancing Authority(ies) and to maintain such status throughout the Delivery
+Term, and (3) Buyer to obtain directly (or, if not possible for Buyer to obtain
+directly, to obtain and transfer to Buyer, subject to Buyer’s direction) all
+ARR entitlements and, if applicable, FTR and other similar entitlements and
+rights. Buyer will have the right to exercise, in its sole and absolute
+discretion, any and all rights with respect to any such entitlement or similar
+right, including the right to nominate (or not nominate) the same. Without
+limiting the foregoing, Seller will support fully, and not take any action or
+position to oppose, Buyer’s receipt of such firm designated network resource
+status or such allocations, entitlements, or rights or its exercise of its rights
+with respect thereto.
+8
+
+Delivery
+7
+Term:
+
+The Delivery Term is expected to be as specified by Bidder in the applicable
+proposal. Subject to the final paragraph of this item 8, the Delivery Term
+will commence at the start of the hour ending 0100 BA Time on the first day
+of (i) the first month following the month in which the last of the conditions
+to the commencement of the Delivery Term (see item 36) has been satisfied
+or waived if notice of such satisfaction or waiver is provided by the
+satisfying or waiving party to the other on or before the first ten (10) days of
+such month or (ii) the second month following the month in which the last of
+the conditions to the commencement of the Delivery Term has been satisfied
+or waived if notice of such satisfaction or waiver is provided by the
+satisfying or waiving party to the other after the first ten (10) days and before
+the end of such month. The Delivery Term will continue until the end of the
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-4
+
+Term Sheet for RFP Tolling Product
+hour ending 2400 BA Time on the day prior to the specified anniversary of
+such start date; provided, however, that if such anniversary day falls on a day
+other than the first day of the planning period for the applicable Balancing
+Authority, Buyer may elect, in its sole and absolute discretion, upon notice to
+Seller given at least one (1) year before the date on which, without such
+notice, the Delivery Term would expire, to have the Delivery Term continue
+until the last day of such planning period.
+Notwithstanding the foregoing, unless Buyer otherwise elects, the Delivery
+Term will not commence at the time it would otherwise commence if, at
+such time, (i) the Facility is experiencing an outage or other limitation,
+including a Force Majeure (as defined in item 31 below), that reduces the
+amount of Dependable Capacity Allocated To Buyer (as defined in item 11
+below) that is actually available at the Electric Interconnection Point by ten
+percent (10%) or more below the Dependable Capacity Allocated To Buyer
+or (ii) there exists a default (or event or circumstance that with the passage of
+time or the giving of notice or both would constitute a default) of Seller
+under the Definitive Agreement.
+9
+
+Pricing:
+8
+
+Pricing will consist of:
+•
+•
+•
+
+a Capacity Rate, expressed in $/kW-year, as specified in item 12 below;
+a Variable O&M Rate, expressed in $/MWh, as specified in item 19
+below; and
+a Start-up Charge, expressed in $ per Completed Start, as specified in
+item 20 below.
+
+Except to the extent otherwise expressly provided in this Term Sheet, Buyer
+will not be required to pay any amount to Seller other than:
+•
+•
+•
+
+the Capacity Payment (equal to the Capacity Rate multiplied by the
+UCAP Rating (as defined in item 12 below) for the Dependable
+Capacity Allocated To Buyer);
+the Variable Payment (equal to the Variable O&M Rate multiplied by
+the energy that is dispatched by or for and delivered to Buyer at the
+Electric Interconnection Point as provided herein); and
+the Start-up Payment (equal to the Start-up Charge multiplied by the
+number of Completed Starts).
+
+All payments will be monthly in arrears.
+10 Nameplate
+9
+Capacity
+Allocated to
+Buyer:
+
+The nameplate capacity of the Facility allocated to Buyer (expressed in
+MW) is expected to be as specified by Bidder in the applicable proposal.
+Other provisions will apply in the event Bidder has proposed to allocate to
+Buyer less than the entire nameplate capacity of the Facility to Buyer.
+
+11 Dependable
+1
+
+Availability calculations will use the Dependable Capacity Allocated To
+Buyer. The “Dependable Capacity Allocated To Buyer” means the net
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-5
+
+Term Sheet for RFP Tolling Product
+Capacity:
+
+MW that the Facility (or, in the event Bidder proposes to allocate to Buyer a
+portion of the nameplate capacity of the Facility in increments of whole
+generating units, the corresponding portion thereof) is capable of delivering
+reliably to Buyer at the Electric Interconnection Point at Summer Conditions,
+as established and adjusted as follows:
+The Dependable Capacity Allocated To Buyer will be established and
+adjusted according to (i) a capacity demonstration test conducted shortly
+before the Commercial Operation Date {for Developmental Resources} and
+(ii) capacity demonstration tests conducted at the request and discretion of
+Buyer from time to time. Each capacity demonstration test will be
+performed in accordance with accepted electrical practices and testing
+protocols to be set forth in the Definitive Agreement. All costs of any
+capacity demonstration test will be borne by Seller except the reasonable
+costs of any capacity demonstration test requested by Buyer pursuant to
+clause (ii) above, which will be borne by Buyer. Buyer will not be obligated,
+but will have the option, to purchase the power delivered from the Facility
+(or, in the event Bidder proposes to allocate to Buyer a portion of the
+nameplate capacity of the Facility in increments of whole generating units,
+the corresponding portion thereof) pursuant to any capacity demonstration
+test performed pursuant to clause (i) above. Buyer will purchase the power
+delivered from the Facility (or, in the event Bidder proposes to allocate to
+Buyer a portion of the nameplate capacity of the Facility in increments of
+whole generating units, the corresponding portion thereof) pursuant to any
+capacity demonstration test performed pursuant to clause (ii) above.
+
+12 Capacity
+1
+Rate:
+
+The Capacity Rate (expressed in $/kW-year) for each year is expected to be
+the capacity rate specified by Bidder in the applicable proposal. The
+Capacity Rate, expressed in $/kW-year, will be allocated to each month
+according to the schedule below. The Capacity Payment will equal (i) the
+Capacity Rate for the applicable month, multiplied by (ii) the UCAP Rating
+for the Dependable Capacity Allocated To Buyer and will be payable
+monthly in arrears.
+Month
+
+% of Annual Capacity Rate
+
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+
+7%
+7%
+4%
+4%
+9%
+15%
+15%
+15%
+9%
+4%
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-6
+
+Term Sheet for RFP Tolling Product
+November
+December
+
+4%
+7%.
+
+For this purpose, “UCAP Rating” means, at any time, the amount of
+capacity (expressed in MW) on an “unforced capacity” (commonly referred
+to as “UCAP”) basis accredited at such time by the applicable Balancing
+Authority for the Dependable Capacity Allocated To Buyer (currently
+represented in MISO by “Zonal Resource Credits”) that is transferred (or the
+benefit of which is transferred) by Seller to Buyer according to item 14
+below and may be applied by Buyer toward the resource adequacy (or
+equivalent) requirements applicable to Buyer at the Electric Interconnection
+Point; provided, however, that in no event will the UCAP Rating, for
+purposes of the Capacity Payment, exceed the expected Dependable
+Capacity Allocated To Buyer for the applicable year of the Delivery Term
+specified by Bidder below (as may be re-sized according to item 37 below, if
+applicable) (the “Maximum Dependable Capacity”).
+For the Summer Season, Bidder expects that the Dependable Capacity
+Allocated To Buyer will be as specified by Bidder in the applicable proposal.
+13 Monthly
+1
+Availability
+Requirement;
+Capacity
+Payment
+Discounts:
+
+The “Monthly Availability Requirement” will be 98% for each Summer
+Month of the Delivery Term (June through August) and each Winter Month
+of the Delivery Term (December through February) and 96% for each other
+month of the Delivery Term.
+The “Monthly Availability” will be calculated for each month as follows:
+n
+
+ ACi
+
+MAm = in=1
+
+ DCi
+i =1
+
+where:
+MAm= Monthly Availability for the applicable month;
+n
+
+= total number of hours in the applicable month that occur during the
+Delivery Term;
+
+i
+
+= each hour in the applicable month that occurs during the Delivery
+Term;
+
+ACi = the lowest of:
+(i) the amount of Dependable Capacity Allocated To Buyer
+actually available during hour i (which, for the avoidance of doubt,
+means taken over the course of the entire hour i as a whole) at the
+Electric Interconnection Point (whether or not scheduled or
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-7
+
+Term Sheet for RFP Tolling Product
+dispatched by Buyer);
+(ii) the amount of Dependable Capacity Allocated To Buyer set
+forth, or deemed to be set forth, as available in the availability
+notice for hour i provided by Seller to Buyer (but excluding any
+increase in availability notified to Buyer after the day-ahead
+availability notice provided by Seller, unless Buyer dispatches the
+energy associated with the increased capacity); and
+(iii) DCi for hour i;
+provided, however, that:
+(a) if the amount in clause (i) or (ii) above would otherwise be less
+than the minimum permitted dispatch level for any of the
+operating configuration(s) of the Dependable Capacity
+Allocated To Buyer, the amount in clause (i) or (ii) above will
+be deemed to be the Dependable Capacity Allocated To Buyer
+actually available during hour i at the Electric Interconnection
+Point, excluding such configuration(s);
+(b) if, during hour i, Seller is entitled to receive capacity availability
+credit for replacement capacity provided to Buyer in such hour
+pursuant to item 32 below, the availability of the Dependable
+Capacity Allocated To Buyer in such hour will be increased
+accordingly; and
+(c) if, during hour i, the Facility (or, in the event Bidder proposes to
+allocate to Buyer a portion of the nameplate capacity of the
+Facility in increments of whole generating units, the
+corresponding portion thereof) is incapable of achieving at least
+fifty percent (50%) of the operating range for a particular
+configuration of the Dependable Capacity Allocated To Buyer
+specified by Bidder in item 22 below (even if it can achieve
+higher dispatch levels and whether or not dispatched by Buyer),
+ACi, with respect to such configuration, will be deemed to be 0
+MW for hour i.
+For the avoidance of doubt, capacity will be considered unavailable
+to the extent it is unavailable due to Force Majeure or any
+curtailment or other limitation or shortcoming on, or other
+circumstance relating to, electric transmission, energy
+deliverability, or fuel delivery or as a result of any order, directive,
+or other communication from a Balancing Authority or other
+governmental authority (without limiting the treatment of such
+unavailable capacity as Affected Capacity (as defined below) to the
+extent provided in the definition of Affected Capacity), including in
+the event that generation from such capacity is limited by MISO as
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-8
+
+Term Sheet for RFP Tolling Product
+a result of Seller’s failure to meet the ramp rates, set points, or other
+operational or dispatch requirements of MISO; and
+DCi = the Dependable Capacity Allocated To Buyer during hour i minus
+the Affected Capacity (as defined below) during hour i; provided,
+however, that the Affected Capacity resulting from Planned
+Maintenance (as defined in item 30 below) will be disregarded to
+the extent the Equivalent Planned Maintenance Hours (as defined in
+item 30 below) in the applicable contract year in which the
+applicable month occurs constitute Excess Equivalent Planned
+Maintenance Hours (as defined in item 30 below). “Affected
+Capacity” means the portion of the Dependable Capacity Allocated
+To Buyer, if any, that is unavailable or limited during any hour due
+solely to (i) Planned Maintenance, (ii) a lack of available
+transmission or deliverability service occurring beyond the Electric
+Interconnection Point within MISO or other applicable Balancing
+Authority, or (iii) an interruption of gas transportation, except to the
+extent the lack of available transmission or deliverability service or
+interruption of gas transportation is due to Force Majeure or an act
+or omission of Seller or its affiliates or its subcontractors or any of
+their respective agents or representatives (including any failure to
+comply with MISO directives or operational requirements and other
+applicable rules and laws, accepted electrical practices, any project
+document (including any gas interconnection agreement), or the
+Definitive Agreement).
+If the Monthly Availability for a month is below the applicable Monthly
+Availability Requirement, a discount will apply to the payments from Buyer
+to Seller in respect of such month (the “Capacity Payment Discount”). The
+Capacity Payment Discount will be two percent (2%) of the Capacity
+Payment for the applicable month for each one percent (1%) shortfall to the
+Monthly Availability Requirement; provided, however, that (a) to the extent
+of unavailability due solely to Force Majeure, the Capacity Payment
+Discount will be one percent (1%) of the Capacity Payment for the
+applicable month for each one percent (1%) shortfall to the Monthly
+Availability Requirement and (b) in no event will the Capacity Payment
+Discount exceed one hundred percent (100%) of the Capacity Payment for
+the applicable month.
+14 Capacity1
+Related
+Benefits,
+Environmental
+Attributes, and
+Other Electric
+
+Buyer’s purchase of capacity under the Definitive Agreement will include
+the purchase of all capacity-related benefits (including any capacity credit or
+similar right or benefit), environmental attributes, and other electric products
+(including quick start, regulation, and contingency response capability)
+associated with the Facility (or, in the event Bidder proposes to allocate to
+Buyer a portion of the nameplate capacity of the Facility in increments of
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-9
+
+Term Sheet for RFP Tolling Product
+Products:
+
+whole generating units, the corresponding portion thereof) or its capacity,
+energy, or operation. The Capacity Payment includes all compensation to
+Seller for such purchase, and no other or further amount will be payable by
+Buyer in connection with the acquisition, provision, or delivery of such
+capacity-related benefits, environmental attributes, and other electric
+products. Throughout the Delivery Term, Buyer will have the right to
+dispatch such products, and Seller will (at its own expense) generate and
+deliver to Buyer at the Electric Interconnection Point any products so
+dispatched by or for Buyer. In the case of any such product that is not
+physical in nature (such as capacity credits and other intangible products),
+Seller will, without the requirement of any dispatch or other notice from
+Buyer and at Seller’s own expense, (i) cause to be issued any and all such
+products for which the Facility (or, in the event Bidder proposes to allocate
+to Buyer a portion of the nameplate capacity of the Facility in increments of
+whole generating units, the corresponding portion thereof) is eligible and (ii)
+to the extent not issued directly to Buyer, obtain and transfer to Buyer
+custody of and title to (or, if not possible, the benefit of, as directed by
+Buyer) all such products.
+Without limiting the foregoing, Seller will (at its own expense) (a) timely
+execute and file all documents, including any applicable requests for
+qualification or registration of the Facility (or, in the event Bidder proposes
+to allocate to Buyer a portion of the nameplate capacity of the Facility in
+increments of whole generating units, the corresponding portion thereof) for
+or to provide (as applicable) each of such products for which it is eligible
+(including capacity credits and other capacity-related benefits), and (b) take
+all other actions, including identifying and complying with any applicable
+certification procedures and operating requirements (including required
+testing and outage reporting) necessary or advisable to register and qualify
+the Facility (or, in the event Bidder proposes to allocate to Buyer a portion of
+the nameplate capacity of the Facility in increments of whole generating
+units, the corresponding portion thereof) for or to provide (as applicable) all
+such products for which it is eligible and otherwise meet its obligations
+above, including, if applicable, for Buyer to be able to obtain and, if
+applicable (see item 17), schedule, offer, bid, and settle such products with
+the applicable Balancing Authority(ies).
+In the event that, for any planning period (or portion thereof) applicable to
+Buyer under the resource adequacy (or equivalent) laws applicable to Buyer
+that occurs during the Delivery Term, the UCAP Rating (defined in item 12
+above) for the Dependable Capacity Allocated To Buyer is less than the
+Minimum UCAP Requirement and/or Seller does not obtain and provide to
+Buyer, for such planning period (or portion thereof), the capacity credits and
+other capacity-related benefits that could have been provided to Buyer if
+such UCAP Rating met or exceeded the Minimum UCAP Requirement,
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-10
+
+Term Sheet for RFP Tolling Product
+Seller will pay to Buyer, for such planning period (or portion thereof) in
+which there is a shortfall from the Minimum UCAP Requirement, an amount
+equal to (i) the revenues per MW that would have been obtained at the MISO
+capacity auction for the applicable planning period (or portion thereof) for
+the shortfall capacity-related benefits, measured at the auction clearing price
+that would have been applicable to such capacity-related benefits under such
+auction, , multiplied by (ii) the amount of the shortfall (expressed in MW).
+For purposes of this item 14, the “Minimum UCAP Requirement” is 96%
+of the Dependable Capacity Allocated To Buyer.
+Without limiting the foregoing, if the Commercial Operation Date has not
+occurred by the date fifteen (15) days prior to the commencement of the
+MISO planning resource auction, Seller shall provide to Buyer capacity
+credits relating to the Dependable Capacity Allocated To Buyer at a UCAP
+Rating equal to or exceeding the Minimum UCAP Requirement for the
+planning year immediately following the Guaranteed Commercial Operation
+Date. If Seller fails to provide such capacity credits to Buyer by such date,
+Seller shall provide to Buyer replacement capacity credits in the same
+amount as required in the preceding sentence sourced from resource(s) other
+than the Facility located within Buyer’s local resource zone in MISO no later
+than ten (10) days prior to the commencement of such planning resource
+auction.
+If Seller does not provide the capacity credits or replacement capacity credits
+as required in this paragraph or such capacity credits are not in an amount
+equal to or exceeding the Minimum UCAP Requirement, Seller shall pay to
+Buyer, for such planning period, an amount equal to (i) the product of (a) the
+auction clearing price resulting from the MISO capacity auction for the
+applicable planning period or, if Buyer (as market participant for its load)
+despite good faith efforts does not procure sufficient replacement capacity
+credits in such MISO capacity auction to cover its resource adequacy
+requirements, the capacity deficiency charges, which could be “cost of new
+entry” (CONE) and other costs and charges imposed by MISO and other
+applicable governmental authorities with respect to the shortfall in the MISO
+zonal resource credits or other applicable capacity credits of Buyer to cover
+its resource adequacy requirements), in either case, as annualized to cover
+the applicable amount over the full applicable planning period and expressed
+in $/MW, multiplied by (b) the amount of replacement capacity credits that
+Seller so failed to transfer, plus (ii) interest on the amount described in
+clause (i) at the prime lending rate plus 2% (not to exceed the maximum rate
+permitted by law) from the date on which replacement capacity credits were
+required to be transferred to Buyer until the date payment is made by Seller
+as described above.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-11
+
+Term Sheet for RFP Tolling Product
+15 Additional
+1
+Testing/
+Required Data:
+
+Without limiting item 14 above, to the extent Buyer is required by applicable
+laws (including Balancing Authority rules) to demonstrate the capability of,
+or otherwise test, the Facility (or portion thereof allocated to Buyer) for
+purposes of capacity qualification or for any other purpose (including to
+meet requirements imposed by Buyer’s participation in a reliability group or
+Balancing Authority (including any ISO or RTO) or in any marketplace
+administered by any Balancing Authority (including any ISO or RTO))
+beyond the capacity demonstration tests contemplated by item 11 above,
+Seller will perform such tests (including any deliverability tests and
+capability tests) according to applicable requirements at Seller’s expense. In
+such event, Buyer will not be obligated, but will have the option, to purchase
+the power delivered from the Facility (or, in the event Bidder proposes to
+allocate to Buyer a portion of the nameplate capacity of the Facility in
+increments of whole generating units, from the corresponding portion
+thereof) at the Electric Interconnection Point according to such tests. In
+addition, Seller will provide to Buyer (in the form and time frame reasonably
+requested by Buyer) all data and other information relating to the Facility, or
+the delivery of capacity, capacity-related benefits, energy, environmental
+attributes, and other electric products under the Definitive Agreement,
+necessary or advisable for Buyer to (i) participate fully in any market
+(including any marketplace administered by any Balancing Authority) in
+which Buyer is participating or otherwise realize the benefits of the capacity,
+capacity-related benefits, energy, environmental attributes, and other electric
+products provided under the Definitive Agreement and (ii) otherwise comply
+with applicable laws or its obligations (including those set forth in item 7
+above) or exercise its rights (including those set forth in item 17 below)
+under the Definitive Agreement, including, if Seller is the Market
+Participant, by providing Buyer with unrestricted “view” access to the MISO
+web portal for the Facility or portion thereof allocated to Buyer (or if
+unrestricted “view” access is no longer recognized in such portal, the most
+equivalent access then available in such portal). In addition, to the extent
+that, in Buyer’s good faith judgment, any of the matters described in clauses
+(i) or (ii) of the preceding sentence require modification or amendment of the
+Definitive Agreement or the development or implementation of, or
+agreement upon, protocols, procedures, processes, or terms and Buyer so
+requests, the Parties will make such modifications or amendments, and/or
+will develop, agree upon, and implement such protocols, procedures,
+processes, or terms, as expeditiously as practicable.
+
+16 Dispatch
+1
+Rights
+& Exclusivity:
+
+Throughout the Delivery Term, Buyer will have the right to dispatch the
+capacity, capacity-related benefits, energy, environmental attributes, and
+other electric products from the Facility (or, in the event Bidder proposes to
+allocate to Buyer a portion of the nameplate capacity of the Facility in
+increments of whole generating units, the corresponding portion thereof),
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-12
+
+Term Sheet for RFP Tolling Product
+including modifying any existing dispatch notice, from time to time as it
+deems appropriate in its sole and absolute discretion, subject to Buyer’s
+observance of the Operating Restrictions (as defined below) and according to
+the following:
+•
+
+Buyer may provide the initial dispatch notice or modify an existing
+dispatch notice for any day on a “day-ahead” basis until fifteen (15)
+minutes prior to the applicable deadline for submitting schedules or
+offers to the applicable Balancing Authority for day-ahead energy or
+other electric products; and
+
+•
+
+Buyer may provide the initial dispatch notice or modify an existing
+dispatch notice after the day-ahead dispatch deadline for any day (i.e., on
+an “intra-day” basis), provided such intra-day dispatch notice complies
+with the maximum applicable ramp rates and start times pursuant to the
+Operating Restrictions. The use of this intra-day dispatch flexibility by
+Buyer (and any “day-ahead” dispatch notice submitted by Buyer to Seller
+without the corresponding purchase by Buyer of gas in the “day-ahead”
+gas market) may result in a different gas price for purposes of the
+settlement of gas re-sale gains or losses as described in item 28 below.
+
+For the avoidance of doubt, if Seller is the market participant or other
+representative of the Facility (or portion thereof allocated to Buyer) before
+the applicable Balancing Authority(ies), a direction or instruction by Buyer
+to Seller to submit a schedule, offer, or bid to a Balancing Authority pursuant
+to item 17 below is not a dispatch notice to Seller as contemplated by this
+Term Sheet and, standing alone, does not trigger any obligation on the part
+of Seller to dispatch the Facility (or portion thereof allocated to Buyer).
+“Operating Restrictions” are expected to be the operating restrictions
+specified by Bidder in the applicable proposal (which may include, for
+example, minimum permitted dispatch levels at reference conditions for the
+summer and winter months, minimum run time and downtime, maximum
+number of Completed Starts, minimum start times, minimum start
+notification lead times, maximum ramp rates) that are substantially
+equivalent to the operating restrictions that would apply to an owner of the
+Facility (or portion thereof allocated to Buyer); provided, however, that, to
+the extent that, notwithstanding such operating restrictions, (i) MISO or
+other applicable Balancing Authority operational requirements, or other
+applicable rules and laws, including standards and determinations established
+or relied upon by the market monitor, require the Facility (or portion thereof
+allocated to Buyer) to perform with or be subject to capabilities better than
+such operating restrictions, Seller will be required to cause, to the extent not
+inconsistent with Seller’s obligation to operate and maintain the Facility (or
+portion thereof allocated to Buyer) safely and otherwise in accordance with
+accepted electrical practices and applicable interconnection agreements,
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-13
+
+Term Sheet for RFP Tolling Product
+permits, consents, governmental authorizations, and laws, the Facility (or
+portion thereof allocated to Buyer) to provide such excess capabilities and
+the Operating Restrictions will be deemed automatically reduced to reflect
+such excess capabilities and (ii) the Facility is otherwise capable, from time
+to time, of reduced Operating Restrictions and, as a result, Seller could allow
+Buyer greater scheduling flexibility, Seller will be required to promptly
+notify Buyer and make such increased capability available to Buyer, in
+which event the Operating Restrictions will be deemed automatically
+reduced to reflect such capabilities. Without limiting the foregoing or the
+other terms of this Term Sheet, Seller will be responsible for any and all
+penalties, charges, and other costs (including revenue sufficiency guarantees)
+assessed or imposed by MISO (including through a market monitor
+determination) or any other applicable Balancing Authority for the inability
+or failure of the Facility (or portion thereof allocated to Buyer) to perform
+with capabilities better than any contractually agreed operating restriction or
+failure to follow any set point required by or other dispatch requirement of
+MISO or other applicable Balancing Authority, notwithstanding any
+contractually agreed operating restriction set forth in the Definitive
+Agreement to the contrary.
+Seller will make available to Buyer all capacity of the Facility (or, in the
+event Bidder proposes to allocate to Buyer a portion of the nameplate
+capacity of the Facility in increments of whole generating units, the
+corresponding portion thereof) and will deliver to Buyer all associated
+capacity-related benefits, energy, environmental attributes, and other electric
+products from the Facility at the Electric Interconnection Point in accordance
+with Buyer’s dispatch notices. Without limiting the foregoing, Seller will be
+required to make available to Buyer, for delivery to Buyer at the Electric
+Interconnection Point, any capacity of the Facility (or, in the event Bidder
+proposes to allocate to Buyer a portion of the nameplate capacity of the
+Facility in increments of whole generating units, the corresponding portion
+thereof) in excess of the Dependable Capacity Allocated To Buyer that the
+Facility is capable of delivering (as a result of prevailing ambient conditions
+or otherwise) to the Electric Interconnection Point at any time, and, to the
+extent dispatched by Buyer (in its sole and absolute discretion), Seller will
+deliver to Buyer at the Electric Interconnection Point the capacity-related
+benefits, energy, environmental attributes, and other electric products
+associated with such excess capacity as provided in this Term Sheet. Except
+to the extent required by a unit contingency, Seller will not interrupt, curtail,
+or otherwise reduce the availability or deliveries of the capacity allocated to
+Buyer or any associated capacity-related benefit, energy, environmental
+attribute, or other electric product, even if Seller is otherwise above the
+availability requirements of the Definitive Agreement.
+Buyer’s
+
+rights
+
+to
+
+the
+
+capacity,
+
+capacity-related
+
+benefits,
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-14
+
+energy,
+
+Term Sheet for RFP Tolling Product
+environmental attributes, and other electric products from the Facility (or, in
+the event Bidder proposes to allocate to Buyer a portion of the nameplate
+capacity of the Facility in increments of whole generating units, the
+corresponding portion thereof) are exclusive, and Seller may not offer, sell,
+deliver, or make available for any delivery period during the Delivery Term
+any of such capacity, capacity-related benefits, energy, environmental
+attributes, or other electric products for the benefit of any person other than
+Buyer (whether or not Buyer dispatches the same).
+17 Market
+1
+Functions and
+Revenues:
+
+Subject to certain limitations, throughout the term of the Definitive
+Agreement, Buyer will have the right to determine from time to time whether
+Buyer (or a designee of Buyer) or Seller will serve as the market participant
+or other representative for the Facility (or, if applicable, the portion thereof
+allocated to Buyer) before MISO or, in the event Buyer is not subject to the
+MISO Balancing Authority, the largest Balancing Authority to which Buyer
+is then subject with respect to any planning period of MISO or such other
+Balancing Authority during the Delivery Term (defined below).
+Buyer will be entitled to (and, to the extent required by the rules, procedures,
+and protocols of the applicable Balancing Authority or other applicable laws,
+Buyer will), on an exclusive basis:
+(i)
+schedule, offer, and/or bid the capacity, capacity-related benefits,
+energy, environmental attributes, and other electric products contracted to
+Buyer under the Definitive Agreement, for delivery at the Electric
+Interconnection Point, with the Balancing Authority(ies) applicable to such
+point (and any downstream Balancing Authority(ies)) in its sole and absolute
+discretion, provided that Buyer schedules and dispatches from Seller any
+capacity, capacity-related benefits, energy, environmental attributes, and
+other electric products that are expressly scheduled, offered, and/or bid by
+Buyer in a manner that complies with any requirements of such Balancing
+Authority(ies) to generate (or not generate), or settle, each such product that
+are triggered solely by Buyer’s schedules, offers, and/or bids (except to the
+extent Buyer’s schedule and dispatch from Seller of such products is limited
+by an availability notice from Seller provided after the applicable schedule,
+offer and/or bid was submitted);
+(ii)
+settle any such schedules, offers, and/or bids with the applicable
+Balancing Authority(ies), subject to re-allocation of associated amounts, if
+applicable, according to the Definitive Agreement (including item 29 below
+and certain paragraphs of this item 17); and
+(iii) select the type of resource designation that would apply to the
+Facility or portion thereof allocated to Buyer (e.g., capacity resource,
+behind-the-meter resource, intermediate resource, or other type of resource
+recognized by the applicable Balancing Authority) in such Balancing
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-15
+
+Term Sheet for RFP Tolling Product
+Authority(ies), provided that any such resource designation is a designation
+for which the Facility is eligible, in Buyer’s good faith judgment, at the time
+Buyer selects such designation;
+provided, however, that if Seller is the market participant or other
+representative for the Facility (or portion thereof allocated to Buyer) before
+the applicable Balancing Authority, then, notwithstanding clause (i) or (ii)
+immediately above, Seller will (a) schedule, offer, and/or bid the capacity,
+capacity-related benefits, energy, environmental attributes, and other electric
+products contracted to Buyer under the Definitive Agreement, at the Electric
+Interconnection Point, with the Balancing Authority applicable to such point)
+as directed by Buyer, provided that Buyer’s scheduling, offering, and
+bidding instructions, when given effect by Seller through submission to the
+Balancing Authority(ies) applicable to such point, will result in a schedule,
+offer, or bid that complies with any requirements of such Balancing
+Authority(ies) to generate (or not generate), or settle, each such product that
+are triggered solely by Buyer’s instructions and Seller’s scheduling, offering,
+or bidding in accordance therewith, subject to the remainder of this
+paragraph and item 17 and (b) settle with the applicable Balancing
+Authority(ies) as provided in clause (ii) immediately above. If Buyer’s
+directions do not comply with applicable rules, procedures, protocols, or
+other rules of the applicable Balancing Authority, Seller shall promptly
+notify Buyer of such non-compliance and afford Buyer a reasonable
+opportunity to modify its directions to Seller to conform to such rules before
+the required time for submission to the applicable Balancing Authority(ies)
+of such schedule, offer, or bid pursuant to such directions. If Buyer fails to
+timely modify its directions to Seller with respect to any schedule, offer, or
+bid into a must-offer day-ahead or intra-day market, Buyer will be deemed to
+have requested for all purposes, and Seller will timely submit to the
+applicable Balancing Authority, a day-ahead or intra-day (as applicable)
+offer or bid in compliance with such rules, with pricing based on (1) the heat
+rate set forth in the Definitive Agreement applicable to the delivery of the
+offered or bid energy in each settlement interval, (2) Seller’s reasonable best
+estimate of the gas price for such energy for such interval (updated from time
+to time in accordance with prudent scheduling, offering, and bidding and risk
+management practices and consistent with the applicable Balancing
+Authority rules and other laws), (3) the variable operation and maintenance
+rate for such energy under the Definitive Agreement in such interval, and (4)
+if the applicable Balancing Authority’s acceptance of the offer or bid would
+necessitate one or more “starts” under the Definitive Agreement, the start-up
+and start fuel (if applicable) costs applicable to such start under the
+Definitive Agreement.
+If Buyer is the market participant or other representative for the Facility (or
+portion thereof allocated to Buyer) before the applicable Balancing
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-16
+
+Term Sheet for RFP Tolling Product
+Authority, then, to the extent that, under applicable Balancing Authority
+rules, the functions described in clauses (i)-(iii) above are performed by a
+market participant or other representative for the Facility (or portion thereof
+allocated to Buyer) before the applicable Balancing Authority, Buyer will be
+entitled to (and, to the extent required by the rules, procedures, and protocols
+of such Balancing Authority or other applicable laws, Buyer or its designee
+will) exclusively serve such function. In such event, Seller will cause each
+applicable Balancing Authority to (A) qualify and recognize Buyer or its
+designee as the exclusive market participant or other representative for the
+Facility (or portion thereof allocated to Buyer) as of the start of the Delivery
+Term (or such later date as of which such concept is applicable or Buyer has
+specified to Seller) and maintain such qualification and recognition
+throughout the remainder of the Delivery Term (or the period(s) specified by
+Buyer) and (B) terminate such qualification and recognition as of the end of
+the Delivery Term, except to the extent required for transactions under the
+Definitive Agreement occurring prior to the end of the Delivery Term. If
+Seller is the market participant or other representative for the Facility (or
+portion thereof allocated to Buyer) before the applicable Balancing
+Authority, then, to the extent that, under applicable Balancing Authority
+rules, the functions described in clauses (i)-(iii) above are performed by a
+market participant or other representative for the Facility (or portion thereof
+allocated to Buyer) before the applicable Balancing Authority, Seller will
+exclusively serve such function, subject to Buyer’s direction. In such event,
+Seller will cause each applicable Balancing Authority to qualify and
+recognize Seller as the exclusive market participant or other representative
+for the Facility (or portion thereof allocated to Buyer) as of the start of the
+Delivery Term (or such later date as of which such concept is applicable or
+Buyer has specified to Seller) and maintain such qualification and
+recognition throughout the remainder of the Delivery Term (or the period(s)
+specified by Buyer).
+If Buyer is the market participant or other representative for the Facility (or
+portion thereof allocated to Buyer) before the applicable Balancing
+Authority, then, to the maximum extent permitted by applicable Balancing
+Authority rules, Seller will continue to perform all other functions with
+respect to the Facility (and the provision and/or delivery of capacity,
+capacity-related benefits, energy, environmental attributes, and other electric
+products) before each applicable Balancing Authority, including, to the
+extent applicable, transmitting to the applicable Balancing Authority
+operational data or information (including derating and outage notices) and
+coordinating outages; provided, however, that, to the extent that, under
+applicable Balancing Authority rules, procedures, protocols, and other laws,
+such functions cannot be performed by a different person than the person
+that performs the functions described in clauses (i)-(iii) above, Buyer will
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-17
+
+Term Sheet for RFP Tolling Product
+perform such functions at Seller’s expense and with full release and
+indemnification from Seller.
+Seller will cause, at all times during the Delivery Term, the local Balancing
+Authority applicable to the Facility (or, in the event Bidder proposes to
+allocate to Buyer a portion of the nameplate capacity of the Facility in
+increments of whole generating units, the corresponding portion thereof) to
+be the smallest Balancing Authority that, as of such time, includes the
+portion of the Entergy Transmission System where the Electric
+Interconnection Point is located (“Interconnection Portion”). Further,
+Seller will ensure that at all times the Balancing Authority(ies) applicable to
+the portion of the Entergy Transmission System where the Facility is
+electrically interconnected recognize the Facility (or, in the event Bidder
+proposes to allocate to Buyer a portion of the nameplate capacity of the
+Facility in increments of whole generating units, the corresponding portion
+thereof) as a separate generating resource and the Electric Interconnection
+Point as a separate CP Node for settlement purposes (including that such
+Balancing Authority(ies) determine separately for settlement purposes the
+amount of energy actually delivered specifically from the Facility (or portion
+thereof allocated to Buyer) to the Electric Interconnection Point and, if
+applicable, recognize the Facility (or portion thereof allocated to Buyer) as a
+separate generating resource for tagging, scheduling, offering, and bidding
+purposes). To the extent that the arrangements contemplated by this
+paragraph require an agreement on any “behind-the-fence” metering or other
+methodology, Seller will keep Buyer reasonably apprised of the progress and
+will obtain Buyer’s approval (not to be unreasonably withheld, conditioned,
+or delayed) prior to entering into (or modifying) such arrangements.
+Except as the parties may otherwise agree, Buyer will be entitled to (i) all
+payments and credits from any Balancing Authority or other person for (and
+will be responsible for any settlement at negative prices of) the capacity,
+capacity-related benefits, energy, environmental attributes, and other electric
+products provided under the Definitive Agreement, including, without
+limitation, with respect to any Forced Dispatch Products, and (ii) all other
+payments and credits from any applicable Balancing Authority in respect of
+the Facility or portion thereof allocated to Buyer (including the curtailment
+thereof). If Seller receives any such payment or credit due Buyer, Seller will
+promptly pay (or cause to be paid) to Buyer all amounts so received. In
+addition, Seller will pay to Buyer any shortfall in the payments or credits
+received for or relating to the capacity and capacity-related benefits, energy,
+environmental attributes, and other electric products provided under the
+Definitive Agreement, to the extent resulting from Seller’s breach of the
+Definitive Agreement. For the avoidance of doubt, as used in this paragraph,
+the terms “payment” and “credit” do not include any “payment” or “credit”
+at negative prices or other amount that is effectively a charge; such amounts
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-18
+
+Term Sheet for RFP Tolling Product
+are addressed expressly in the parenthetical to clause (i) above and elsewhere
+in this Term Sheet (including item 29 below and the immediately following
+paragraph). Further, clause (i) of this paragraph does not include settlement
+at negative prices of, and other imbalance charges for, positive imbalance
+energy, which settlement and other imbalance charges will be allocated
+between the Parties according to item 29 below.
+“Forced Dispatch Products” means capacity, capacity-related benefits,
+energy, environmental attributes, and other electric products required by any
+Balancing Authority or other governmental authority or the interconnection
+agreement(s) or applicable law to be provided from the Facility (or portion
+thereof allocated to Buyer), excluding any such products that are (a)
+expressly scheduled, offered, and/or bid by Buyer (or, if Seller is the market
+participant for the Facility (or portion thereof allocated to Buyer), by Seller
+at Buyer’s instruction) and (b) required to be provided from the Facility (or
+portion thereof allocated to Buyer) by the applicable Balancing Authority
+solely as a result of such schedules, offers, and/or bids.
+18 Guaranteed
+1
+Heat Rate:
+
+The “Guaranteed Heat Rate” means, with respect to any hour of energy
+delivery, the heat rate (expressed in $/MMBtu (HHV)) (which is expected to
+be based on the Guaranteed Heat Rate curve specified by Bidder in the
+applicable proposal and to be included in a schedule) corresponding to
+Buyer’s dispatch level during such hour; provided, however, that if, as a
+result of a unit contingency or other limitation, Buyer’s dispatch level was
+limited during such hour and such limitation resulted in a higher applicable
+heat rate, the Guaranteed Heat Rate will be the heat rate corresponding to
+Buyer’s dispatch that would have occurred during such hour absent such
+limitation; provided, further, that if, during such hour, the energy actually
+generated by the Facility (or portion thereof allocated to Buyer) and
+delivered at the Electric Interconnection Point is less than or more than
+Buyer’s dispatch level during such hour and the heat rate corresponding to
+the amount of energy actually generated by the Facility (or portion thereof
+allocated to Buyer) and delivered at the Electric Interconnection Point during
+such hour (if such amount had been Buyer’s dispatch level during such hour)
+is lower than the heat rate corresponding to Buyer’s dispatch level during
+such hour, the Guaranteed Heat Rate will be the heat rate corresponding to
+the amount of energy actually generated by the Facility (or portion thereof
+allocated to Buyer) and delivered at the Electric Interconnection Point during
+such hour.
+If, in any hour, the Facility’s (or, in the event Bidder proposes to allocate to
+Buyer a portion of the nameplate capacity of the Facility in increments of
+whole generating units, the corresponding portion thereof’s) actual operating
+performance in such hour with respect to the energy deliveries at the Electric
+Interconnection Point during such hour, expressed in actual MMBtu of gas
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-19
+
+Term Sheet for RFP Tolling Product
+consumed per MWh of delivered energy (HHV) at the Electric
+Interconnection Point, is at a heat rate that is:
+•
+
+greater than 103.00% of the Guaranteed Heat Rate, Seller will pay to
+Buyer an amount equal to the product of (i) the quantity of gas
+(expressed in MMBtu) consumed in such hour as a result of the
+operation of the Facility (or allocated portion) at a heat rate above
+103.00% of the Guaranteed Heat Rate and (ii) the Daily Price of Gas (as
+defined below) for the gas day in which such hour occurs plus
+applicable transportation, taxes, and related costs; or
+
+•
+
+lower than 97.00% of the Guaranteed Heat Rate, Buyer will pay to
+Seller an amount equal to the product of (i) the quantity of gas
+(expressed in MMBtu) not consumed in such hour as a result of the
+operation of the Facility (or allocated portion) at a heat rate below
+97.00% of the Guaranteed Heat Rate and (ii) the Daily Price of Gas for
+the gas day in which such hour occurs.
+
+“Daily Price of Gas” means, in respect of each gas day, the index published
+by Platts Gas Daily (in the internet publication currently accessed through
+www.platts.com) in the table entitled “Daily Price Survey” under the column
+heading “Midpoint” for gas to flow at the gas flow point for East Texas –
+Houston Ship Channel on the gas day of delivery of the applicable energy
+(expressed in $/MMBtu).
+19 Variable
+1
+O&M Rate:
+
+For each MWh of energy dispatched by Buyer and delivered to Buyer from
+the Facility (or portion thereof allocated to Buyer) at the Electric
+Interconnection Point, Buyer will pay the “Variable O&M Rate.” The
+Variable O&M Rate (expressed in $/MWh) for each year of the Delivery
+Term is expected to be the Variable O&M Rate specified by Bidder for such
+year in the applicable proposal. Notwithstanding the foregoing, the Variable
+O&M Rate will not apply to ramp energy delivered by Seller to Buyer during
+any start-up or shutdown. Notwithstanding the foregoing, the Variable
+O&M Rate will not apply to ramp energy delivered by Seller to Buyer during
+any start-up or shutdown.
+
+20 Start-up
+2
+Charge:
+
+For each Completed Start, Buyer will pay the “Start-up Charge.” The
+Start-up Charge (expressed in $/Completed Start) for each year of the
+Delivery Term is expected to be the Start-up Charge specified by Bidder for
+such year in the applicable proposal. “Completed Start” means a start-up of
+a combustion turbine at the Facility (or, in the event Bidder proposes to
+allocate to Buyer a portion of the nameplate capacity of the Facility in
+increments of whole generating units, the corresponding portion thereof) (i)
+required to be undertaken solely as a result of an increase in dispatch by
+Buyer either from 0 MW to positive MW or from less than the minimum
+permitted dispatch level for a multiple combustion turbine operating
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-20
+
+Term Sheet for RFP Tolling Product
+configuration to greater than or equal to the minimum permitted dispatch
+level for such multiple combustion turbine operating configuration and (ii)
+during which (a) Seller is not required to terminate the start-up as a result of
+exceeding the maximum allowed start-up time, (b) an output level to Buyer
+at the Electric Interconnection Point equal to the minimum permitted
+dispatch level for the dispatched operating configuration is achieved for a
+reasonably sustained continuous period, and (c) the Facility is released
+unconditionally for ramping to, and the attainment of, any higher output
+level dispatched by Buyer, but excluding any such start-up that follows any
+shutdown that is not scheduled by Buyer (such as a shutdown resulting from
+the occurrence of a unit contingency or other limitation on the availability of
+the capacity of the Facility). For purposes of applying the exclusion at the
+end of the preceding sentence, no start-up that occurs after (whether directly
+after or after one or more intervening shutdowns scheduled by Buyer) one or
+more unscheduled shutdowns will be a Completed Start until the number of
+completed re-starts (i.e., start-ups that would have been Completed Starts,
+solely but for the exclusion at the end of the preceding sentence) that occur
+after such unscheduled shutdown(s) equals the number of such unscheduled
+shutdown(s).
+21 Start Fuel:
+
+The amount of gas required to achieve a completed start (measured from the
+mechanical commencement of such completed start until achieved) for each
+type of start is expected to be based on the amount specified by Bidder in the
+applicable proposal.
+
+22 Operating
+Range:
+
+For any month, the minimum permitted dispatch level(s) (expressed in MW
+delivered to Buyer at the Electric Interconnection Point) for the operating
+configuration(s) corresponding to the capacity allocated to Buyer in each
+year are expected to be as specified by Bidder in the applicable proposal.
+For the avoidance of doubt, the minimum permitted dispatch level(s)
+referenced above apply only if Buyer elects, in its sole and absolution
+discretion, to dispatch the capacity allocated to Buyer. Buyer may elect, in
+its sole and absolution discretion, not to dispatch any of the capacity
+allocated to Buyer (i.e., 0 MW).
+For any month, the maximum MW capable of being delivered to Buyer at
+the Electric Interconnection Point (i.e., upper end of the operating range) for
+the operating configuration(s) corresponding to the capacity allocated to
+Buyer in each year of the Delivery Term during each of the seasons at the
+reference conditions corresponding to each such season are expected to be as
+specified by Bidder in the applicable proposal.
+
+23 Maximum
+Completed
+Starts:
+
+If Bidder’s proposal includes a maximum number of Completed Starts, then,
+subject to the provisos to the definition of “Operating Restrictions” and
+related provisions of item 16 above, Buyer will have (i) a maximum number
+of Completed Starts per day that is expected to be as specified by Bidder in
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-21
+
+Term Sheet for RFP Tolling Product
+the applicable proposal multiplied by the number of combustion turbines
+included in the capacity of the Facility allocated to Buyer and (ii) a
+maximum number of Completed Starts per contract year that is expected to
+be as specified by Bidder in the applicable proposal multiplied by the
+number of combustion turbines included in the capacity of the Facility
+allocated to Buyer.
+24 Minimum Run
+Time:
+
+If Bidder’s proposal includes a minimum run time for combustion turbines
+following a Completed Start, then, subject to the provisos to the definition of
+“Operating Restrictions” and related provisions of item 16 above, Buyer may
+require achievement of a scheduled shutdown of a combustion turbine (i.e.,
+for such combustion turbine to be at 0 MW) following a Completed Start of
+such combustion turbine only upon and after the expiration of the agreed
+minimum number of run hours since completion of the start-up time for such
+Completed Start (which minimum run hours are expected to be as specified
+by Bidder in the applicable proposal).
+
+25 Minimum
+Down Time:
+
+If Bidder’s proposal includes a minimum down time for a combustion
+turbine following the earliest of a release or instruction for, or initiation of, in
+accordance with the Definitive Agreement, a shutdown of such turbine, then,
+subject to the provisos to the definition of “Operating Restrictions” and
+related provisions of item 16 above, Buyer may require a combustion turbine
+to achieve a Completed Start (i.e., to start the first hour after the start-up time
+of a Completed Start) following a shutdown of such combustion turbine
+scheduled by Buyer only upon and after the expiration of the agreed
+minimum number of idle hours from and including the hour in which Buyer
+has scheduled for the scheduled shutdown to be achieved (which minimum
+idle hours are expected to be as specified by Bidder in the applicable
+proposal).
+
+26 Maximum
+Start-up Time:
+
+The “Maximum Start-up Time” is the maximum amount of time Seller will
+be permitted to achieve a start. The Maximum Start-up Time for a start will
+be measured from the later of (i) Seller’s receipt of a dispatch notice from
+Buyer requiring such start or (ii) the point in time that is the Maximum StartUp Time before the point in the first hour following such start during which
+Seller is requested to generate (in the aggregate over the entire course of
+such hour) output equal to at least the level set forth in clause (ii)(b) of the
+definition of “Completed Start” in item 20 above, multiplied by one (1) hour.
+Subject to the proviso to the definition of “Operating Restrictions” above,
+the Maximum Start-up Time for each type of start is expected to be as
+specified by Bidder in the applicable proposal.
+Subject to the provisos to the definition of “Operating Restrictions” and
+related provisions of item 16 above, Buyer may not give a dispatch notice
+requiring a Completed Start less than the Maximum Start-up Time before the
+point in the first hour following such start during which Seller is requested to
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-22
+
+Term Sheet for RFP Tolling Product
+generate (in the aggregate over the entire course of such hour) output equal
+to at least the level set forth in clause (ii)(b) of the definition of “Completed
+Start”, multiplied by one (1) hour.
+27 Maximum
+Ramp Rates:
+
+Subject to the provisos to the definition of “Operating Restrictions” and
+related provisions of item 16 above, the maximum ramp rate in each
+operating configuration corresponding to the capacity allocated to Buyer is
+expected to be the ramp rate specified by Bidder for such operating
+configuration in the applicable proposal. These maximum ramp rates apply
+only after the start-up period of a start and before the ramp-down period of a
+shutdown.
+
+28 Fuel2 Supply
+and Transport:
+
+Subject to the following paragraph and the other terms of this Term Sheet,
+Buyer will have sole responsibility for and bear the full costs (including any
+applicable fuel taxes) of the arrangement, procurement, transportation,
+nomination, delivery, and storage of fuel, up to each Gas Delivery Point, for
+the performance of fuel-conversion services by Seller under the Definitive
+Agreement (“Contract Gas”). The Gas Delivery Point(s) will be as
+specified by Bidder for such operating configuration in the applicable
+proposal.
+The supplier(s) and transporter(s) of Contract Gas and other persons
+providing services with respect to Contract Gas will be selected by Buyer,
+and the terms of service with such supplier(s), transporter(s), or persons will
+be as agreed to by Buyer, in each case, in its sole and absolute discretion.
+Contract Gas will be delivered by Buyer to each Gas Delivery Point at the
+pressure then in effect in the pipeline of the transporter immediately
+upstream of or at such Gas Delivery Point.
+Seller will (i) cooperate and timely provide all materials and information
+requested by Buyer to facilitate Buyer’s ability to make timely arrangements
+for and to arrange, procure, transport, nominate, and deliver Contract Gas to
+the Gas Delivery Point(s) in connection with the Definitive Agreement, (ii)
+operate and maintain the gas interconnection facilities in accordance with the
+requirements of the Facility’s gas interconnection arrangements, and (iii)
+otherwise comply with Seller’s obligations under the gas interconnection
+arrangements.
+Seller will be responsible for and bear the full costs of (i) the transportation
+and delivery of Contract Gas from and after each Gas Delivery Point to the
+generating units at the Facility and (ii) the procurement, transportation,
+storage, use, loss, or disposition of gas other than Contract Gas. Seller will
+covenant that, throughout the Delivery Term, all Contract Gas delivered to
+each Gas Delivery Point will be used and consumed exclusively by the
+Facility (or portion thereof allocated to Buyer) and as provided in this Term
+Sheet.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-23
+
+Term Sheet for RFP Tolling Product
+Buyer’s sole and exclusive liability to Seller for any failure of Buyer to
+deliver Contract Gas to the Gas Delivery Point(s) as required by the
+Definitive Agreement will be the payment of related imbalance charges to
+the extent provided in item 29 below.
+29 Operation and
+Maintenance
+Costs/
+Imbalances:
+
+Without limiting Buyer’s Capacity Payment, Variable Payment, and Start-up
+Payment obligations provided in this Term Sheet, and except to the extent
+otherwise expressly provided in this Term Sheet, Seller will bear all costs
+and expenses, of any kind or character, whether now in effect or at any time
+in the future coming into effect, arising out of or in connection with (i) the
+ownership, leasing, financing, insuring, development, engineering,
+procurement of equipment for, design, construction, installation, operation,
+maintenance, management, replacement, repair, studying, testing, or other
+use of the Facility (or any part thereof), including the real property interests
+related thereto, (ii) the conduct of business by Seller, (iii) Seller’s or Buyer’s
+functions pursuant to item 17 above, or (iv) the provision or delivery (or
+scheduling, offering, and bidding into the applicable Balancing Authority) of
+capacity, capacity-related benefits, energy, environmental attributes, and
+other electric products, or the performance of Seller’s other obligations,
+under the Definitive Agreement (collectively, the “Seller Cost Scope”),
+including:
+• any Balancing Authority (including applicable RTO or ISO) or other
+transmission provider membership, transaction, or other fees, costs, or
+charges, including costs and charges associated with (a) any schedule,
+offer, or bid made by or for Buyer at the Electric Interconnection Point
+pursuant to item 17 above, (b) any settlement with respect to such or
+arising out of any schedule, offer, or bid, including, if applicable,
+settlement through financial schedules or similar financial arrangements
+for the purpose of settlement between Buyer and Seller, or (c) otherwise
+with Seller’s or Buyer’s functions pursuant to item 17 above;
+• any penalties, fees, assessments, or other costs or charges for failure to
+satisfy any policy, rule, guideline, procedure, protocol, standard,
+criterion, or requirement of any market monitor, independent coordinator
+of transmission, Balancing Authority (including any applicable RTO or
+ISO), or other transmission provider (“BA Penalties”), including any
+penalties, fees, reductions in payment, assessments, or other costs, debits,
+or charges arising out (1) any mitigation action taken by, any
+disallowance by, or other limitation on the recovery or payment of a cost,
+charge, expense, or credit imposed by any market monitor or MISO in
+connection with such failure or (2) any failure to meet the ramp rates, set
+points, or other operational directives, instructions, or requirements of
+MISO or other applicable Balancing Authority (including imbalance
+penalties);
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-24
+
+Term Sheet for RFP Tolling Product
+• gas and electric imbalance charges and penalties (including any revenue
+sufficiency guarantee and similar charges, the cost of purchasing
+imbalance or real-time energy to settle under-generated energy and the
+cost of settlement at negative prices of over-generated energy),
+integration charges, the cost of any ancillary services and other Balancing
+Authority (including any applicable RTO or ISO) or other transmission
+provider or fuel supplier services (including regulation, operating reserve,
+transmission study and upgrade costs, transmission congestion costs,
+transmission losses, and other transmission service costs); and
+• similar fees, costs, and charges arising out of or in connection with the
+Seller Cost Scope, regardless of whether imposed or assessed against
+Seller or Buyer (including in its role pursuant to item 17 above).
+Notwithstanding the foregoing, and subject to and without limiting the terms
+of the third paragraph in item 16 (relating to Operating Restrictions), Buyer
+will be responsible for (A) the settlements at negative prices assigned to
+Buyer in the second-to-last paragraph of item 17 above, (B) BA Penalties
+incurred solely as a result of compliance by Seller with a dispatch notice
+issued by Buyer that requires Seller to violate (only if Buyer is serving as
+market participant pursuant to item 17 above) either a directive or other
+instruction communicated by the Balancing Authority to Buyer in its role as
+market participant that has not been communicated to Seller or a Balancing
+Authority requirement to generate (or not generate) a product expressly
+scheduled, offered, and/or bid by Buyer pursuant to item 17 above that is
+triggered solely by Buyer’s schedules, offers, and/or bids and (C) BA
+Penalties (other than imbalance charges) incurred solely as a result of Buyer
+scheduling, offering, and/or bidding the capacity and capacity-related
+benefits, energy, environmental attributes, and other electric products in a
+manner that violates Balancing Authority requirements for schedules, offers,
+and/or bids, except to the extent arising out of, in connection with, or
+resulting from a unit contingency, an Operating Restriction, or other
+limitation or an act or omission of Seller or its affiliates or its subcontractors
+or any of their respective agents or representatives.
+30
+
+Planned
+Maintenance:
+
+“Planned Maintenance” means maintenance of the Facility that (i) is
+scheduled in advance with Buyer in accordance with the terms of the
+Definitive Agreement and included in an agreed Planned Maintenance
+schedule and has a predetermined start date and expected duration (e.g.,
+annual overhaul, inspections, testing) and (ii) includes a reduction in the
+availability of the capacity of the Facility allocated to Buyer.
+All maintenance of the Facility (or any portion thereof) that has a predetermined start date and duration and includes a reduction in the availability
+of the capacity of the Facility allocated to Buyer is required to be
+coordinated and scheduled in accordance with the Definitive Agreement as
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-25
+
+Term Sheet for RFP Tolling Product
+Planned Maintenance. Seller will have the right to schedule and conduct
+Planned Maintenance only during the months of March and April and the
+months of October and November.
+During the Delivery Term, Seller will deliver to Buyer its proposed schedule
+for Planned Maintenance on or before, in respect of the March/April
+maintenance period, September 1 of the preceding year, and in respect of the
+October/November maintenance period, February 1 of the calendar year in
+which such maintenance period will begin. The Parties will then finalize a
+mutually acceptable schedule for Planned Maintenance.
+As set forth in item 13 above, Affected Capacity resulting from Planned
+Maintenance will be excluded in determining DCi for purposes of calculating
+Monthly Availability, except to the extent the Equivalent Planned
+Maintenance Hours for the contract year exceed a maximum number of
+Equivalent Planned Maintenance Hours permitted per contract year (“Excess
+Equivalent Planned Maintenance Hours”).
+“Equivalent Planned Maintenance Hours,” or “EPMH,” means (i) the
+product of (a) the amount of the Dependable Capacity Allocated To Buyer
+that is unavailable or limited due to Planned Maintenance, expressed in MW,
+multiplied by (b) the period for which such Dependable Capacity Allocated
+to Buyer is so unavailable or limited, expressed in hours (or any portion
+thereof), divided by (ii) the Dependable Capacity Allocated To Buyer.
+The permitted number of Equivalent Planned Maintenance Hours in each
+contract year will be as follows:
+(i)
+one combustion inspection may be performed for each combustion
+turbine providing the Dependable Capacity Allocated To Buyer after every
+[___] run hours of such combustion turbine for up to [___] Equivalent
+Planned Maintenance Hours for each inspection; provided, however, that this
+clause (i) will not apply during multiples of run hours when clause (ii) or
+clause (iii) below applies;
+(ii)
+one hot gas inspection may be performed for each combustion
+turbine providing the Dependable Capacity Allocated To Buyer after every
+[___] run hours of such combustion turbine for up to [___] Equivalent
+Planned Maintenance Hours for each inspection; provided, however, that this
+clause (ii) will not apply during multiples of run hours when clause (iii)
+below applies;
+(iii) one “major” inspection may be performed for each combustion
+turbine providing the Dependable Capacity Allocated To Buyer after every
+[___] run hours of such combustion turbine for up to [___] Equivalent
+Planned Maintenance Hours for each inspection;
+(iv)
+
+one “minor” inspection may be performed for each steam turbine
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-26
+
+Term Sheet for RFP Tolling Product
+providing the Dependable Capacity Allocated To Buyer after every [___] run
+hours of such steam turbine for up to [___] Equivalent Planned Maintenance
+Hours for each “minor” inspection; provided, however, that this clause (iv)
+will not apply during multiples of run hours when clause (v) below applies;
+(v)
+one “major” inspection may be performed for each steam turbine
+providing the Dependable Capacity Allocated To Buyer after every [___] run
+hours of such steam turbine for up to [___] Equivalent Planned Maintenance
+Hours for each “major” inspection;1 and
+(vi)
+[Balance of Plant Outages may be performed every Spring
+Maintenance Period or Fall Maintenance Period for up to [____] hours for
+each Balance of Plant Outage;]
+provided, however, that if the number of run hours indicated above would
+reasonably be expected to occur during periods other than the March/April
+maintenance period or October/November maintenance period, Seller will
+schedule as Planned Maintenance any performance of the applicable
+inspection during the March/April maintenance period or October/November
+maintenance period immediately preceding their occurrence; provided,
+further, that, in the event two or more of the foregoing inspections would
+reasonably be expected to occur within the same twelve (12)-month period
+according to the parameters set forth above, Seller will use commercially
+reasonable efforts to schedule the outages related thereto to occur during the
+same period, and, in order to do so, may perform the affected outages earlier
+than would apply according to the foregoing limitations. Notwithstanding
+the foregoing, each of the two immediately preceding provisos will not apply
+if the result of giving effect to such proviso would be the acceleration of
+maintenance that would otherwise be performed by or for Seller after the
+expiration of the Delivery Term to a date during the Delivery Term, unless
+Buyer has an option or agreement to purchase the Facility or portion thereof
+after the expiration of the Delivery Term and Buyer has not waived its rights
+to have Seller perform such Planned Maintenance after the expiration of the
+Delivery Term. Seller will be required to provide and certify the applicable
+run hours of the generating unit(s) providing the Dependable Capacity
+Allocated to Buyer (since first operation of such generating unit and since
+the most recent inspection of each applicable type described in clauses (i)-(v)
+above) as of the commencement of the Delivery Term and at periodic
+intervals thereafter.
+31 Force Majeure:
+
+“Force Majeure” means any event that meets all of the following criteria:
+(i) the event occurs after the effective date of the Definitive Agreement; (ii)
+
+1
+
+The blanks in clauses (i) through (v) are expected to be filled in with the appropriate run hours or EPMH specified by
+Bidder in the applicable proposal submission template.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-27
+
+Term Sheet for RFP Tolling Product
+the event and its effects are not within the reasonable control, directly or
+indirectly, of the Party claiming Force Majeure (including its agents,
+contractors, or subcontractors of any tier); (iii) the event and its effects are
+unavoidable and could not be prevented, overcome, or removed by the
+reasonable foresight, efforts and diligence of the Party claiming Force
+Majeure (including its agents, contractors, or subcontractors of any tier); (iv)
+the event and its effects do not result from the negligence or fault of the
+Party claiming Force Majeure (including any breach by such Party of the
+Definitive Agreement) or the negligence or fault of its agents, contractors, or
+subcontractors of any tier; and (v) the event causes the Party claiming Force
+Majeure, despite such Party’s (including its agents, contractors, or
+subcontractors of any tier) use of reasonable efforts and diligence, to be
+actually delayed in performing, or unable to perform, its obligations under
+the Definitive Agreement, in whole or in part (for reasons other than
+economic hardship, including lack of money).
+Provided the event meets all of the criteria described above, Force Majeure
+will include:
+natural disasters; landslides; droughts; fires; floods;
+earthquakes; hurricanes; tornados; tsunamis; hail and ice and ice storms that
+are abnormally severe for the period of time when, and the area where, such
+weather event or condition occurs; epidemics; wars (whether declared or
+undeclared) or other armed conflicts; riots; explosions; civil disturbances;
+sabotage; vandalism; terrorism; documented threats of terrorism; and
+blockades.
+Force Majeure will not include: (a) mechanical failure or other breakdown,
+flaw, defect, or failure of parts, machinery, equipment, facilities, systems, or
+other items that is not the direct or proximate result of, subject to clauses (d)
+and (f) of this sentence, acts of God (which acts of God will include floods,
+earthquakes, hurricanes, and tornadoes), epidemics, wars, riots, civil
+disturbances, or, subject to clause (b) of this sentence, sabotage; (b) sabotage
+by any employee, agent, contractor, or subcontractor (including vendor) of
+any tier, or representative of the Party claiming Force Majeure; (c) delay in
+obtaining, or failure to obtain or revocation of, a governmental approval; (d)
+any event stated in the technical specifications of the Facility to be within the
+tolerance of the Facility; (e) the failure or other act or omission of a Party or
+any employee, agent, contractor, or subcontractor (including any fuel
+transporter or supplier), or representative of such Party claiming Force
+Majeure (including the failure of such Party or a contractor or subcontractor
+thereof of any tier to furnish machinery, equipment, spare parts, materials,
+consumables (including fuel), labor, equipment, or services in accordance
+with its contractual obligations) or any other non-delivery, delayed delivery,
+shortage, or other unavailability of machinery, spare parts, materials,
+facilities, systems, consumables (including fuel), labor, equipment, or
+services (including any interruption or curtailment of electric transmission or
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-28
+
+Term Sheet for RFP Tolling Product
+fuel transportation, including lack of pressure and curtailment of
+transportation service by the fuel transporter), unless (1) the Party claiming
+Force Majeure has a firm contract for the applicable service or item
+(provided that this clause (1) will apply with respect to electric transmission
+only to the extent the concept of a firm contract for electric transmission
+exists in the relevant context), (2) in the case of firm gas transportation, the
+transportation curtailed is primary, in-path firm transportation or (only if
+primary, in-path firm transportation would have also been curtailed)
+secondary firm transportation, and (3) (A) in any case other than interruption
+or curtailment of electric transmission or gas transportation, the provider, if it
+were a party hereto, would be entitled to Force Majeure protection as an
+affected party or (B) in any case of interruption or curtailment of electric
+transmission or gas transportation, the interruption or curtailment is due to
+“force majeure” or “uncontrollable force” or similar term as defined under
+the applicable transmission provider’s or gas transporter’s tariff; (f) any
+weather event that is not an act of God (including one hundred year weather
+events); (g) Seller’s ability to sell the capacity, capacity-related benefits,
+environmental attributes, energy, and/or other electric products at a price
+greater than provided for in the Definitive Agreement; (h) a Party’s financial
+inability to perform; (i) events that affect the cost of services, equipment or
+materials (including additional or changes to taxes, tariffs, fees, or other
+charges or costs imposed by governmental authorities) or other costs of the
+Seller Cost Scope or changes in market conditions affecting the economics
+of either Party (including a change in commodity prices or increased
+inflation) or any other economic hardship (including lack of money); (j)
+labor strikes, slowdowns, or stoppages that are not nationwide or industrywide or, if Seller is the Party claiming Force Majeure, that are initiated or
+otherwise arise as a result of the conduct or other actions or omissions of
+Seller, any contractor or subcontractor of Seller, or any representative of
+Seller; or (k) labor shortages (except to the extent directly and proximately
+resulting from a Force Majeure event expressly described in the Definitive
+Agreement); provided, however, that the existence of one or more of the
+factors listed in the exceptions to clauses (a), (e), and (f) will not be
+sufficient to conclusively or presumptively prove the existence of a Force
+Majeure if the event does not meet the criteria described in the first
+paragraph of this definition.
+If Buyer is the Party claiming Force Majeure and does not overcome the
+Force Majeure for a reasonably sustained period of time and resume
+performance of its obligations under the Definitive Agreement within (i)
+twelve (12) months after the inception of such Force Majeure if the Force
+Majeure commences within the first third of the Delivery Term (rounded to
+the nearest contract year), (ii) nine (9) months after the inception of such
+Force Majeure if the Force Majeure commences within the second third of
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-29
+
+Term Sheet for RFP Tolling Product
+the Delivery Term (rounded to the nearest contract year), or (iii) six (6)
+months after the inception of such Force Majeure if the Force Majeure
+commences within the final third of the Delivery Term, then Buyer may, at
+any time following the end of such twelve (12), nine (9), or six (6)-month
+period, as applicable, and for so long as performance continues to be delayed
+or prevented by Force Majeure, terminate the Definitive Agreement upon
+notice to Seller without liability to either Party arising out of such
+termination.
+32 Replacement
+Products:
+
+If Seller is not capable of providing the full availability of capacity, capacityrelated benefits, energy, environmental attributes, and/or other electric
+products from the Facility (or, in the event Bidder proposes to allocate to
+Buyer a portion of the nameplate capacity of the Facility in increments of
+whole generating units, the corresponding portion thereof), Seller will have
+no right and will not be permitted to provide replacement capacity, capacityrelated benefits, energy, environmental attributes, and/or other electric
+products without the prior written consent of Buyer in its sole and absolute
+discretion, except as expressly permitted in the Definitive Agreement.
+Notwithstanding the foregoing, Seller may make a proposal or offer to Buyer
+to provide such replacement products. In such event, Buyer may accept or
+reject, in its sole and absolute discretion, any such proposal or offer from
+Seller. If Buyer receives such a proposal or offer and Buyer, in its sole and
+absolute discretion, accepts such proposal or offer in writing, such
+replacement products will constitute, for the period for which Buyer has
+agreed that Seller may provide such replacement products and subject to the
+other terms of such agreement, replacement products for all purposes under
+the Definitive Agreement, and, except to the extent the Parties have agreed
+otherwise in writing, Seller will be obligated to provide such replacement
+products in accordance with the terms of the Definitive Agreement at no
+additional cost to Buyer.
+Replacement capacity so provided as a
+replacement product will be treated as Dependable Capacity for all purposes
+under the Definitive Agreement, including availability calculations.
+Notwithstanding the foregoing, if the applicable Balancing Authority
+considers a quantity of energy or other electric products to have been
+delivered to or for the account of Buyer at the Electric Interconnection Point
+for settlement purposes (and credits Buyer therefor) even though such energy
+or other electric products were actually imbalance or real-time energy or
+other electric products that were directly or indirectly provided by such
+Balancing Authority, rather than being actually generated by the Facility (or
+portion thereof allocated to Buyer), then, to the extent Seller pays the
+imbalances charges, penalties, and all other costs associated with such
+replacement energy or other electric products, such replacement energy and
+other electric products will automatically be treated as energy and other
+electric products provided by the Facility (or portion thereof allocated to
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-30
+
+Term Sheet for RFP Tolling Product
+Buyer) for all purposes and the associated capacity will be treated as
+available for any purpose under this Term Sheet, including Monthly
+Availability calculations.
+33 No QF Put:
+
+34 Change in Law:
+
+Notwithstanding any other provision of the Definitive Agreement, Seller will
+waive any and all rights to deliver “qualifying facility” energy from the
+Facility (or, in the event Bidder proposes to allocate to Buyer a portion of the
+nameplate capacity of the Facility in increments of whole generating units,
+the corresponding portion thereof) to the host utility at any time during the
+Delivery Term and expressly agrees not to deliver “qualifying facility”
+energy from the Facility (or, in the event Bidder proposes to allocate to
+Buyer a portion of the nameplate capacity of the Facility in increments of
+whole generating units, the corresponding portion thereof) to the host utility
+at any time during the Delivery Term.
+The Parties acknowledge the possibility that a change in law may occur that
+requires or will require one or both of the Parties to incur additional costs
+(including environmental costs) during the Delivery Term beyond those
+projected to be incurred by such Party as of the date of execution of the
+Definitive Agreement. Notwithstanding the foregoing, if such a change in
+law occurs, the other Party will not be required to share in, reimburse or
+otherwise pay all or any portion of such additional costs, except as expressly
+provided in the Definitive Agreement, including with respect to items 35 and
+47 below.
+
+35 Disallowance:
+
+Seller will be responsible for the risks of the possible disallowance,
+disapproval, or denial of recovery by the PUCT and/or other Governmental
+Authorities of Buyer costs incurred in connection with the Definitive
+Agreement (“Cost Recovery Risks”), excluding certain limited Cost
+Recovery Risks that will remain with Buyer (“Buyer-Allocated Cost
+Recovery Risks”). Buyer-Allocated Cost Recovery Risks include (i) costs
+incurred by Buyer in connection with the Definitive Agreement for which
+recovery was expressly disallowed, disapproved, or denied by the PUCT in a
+final order approving the Definitive Agreement as in the public interest and
+prudent, if one is sought, provided Buyer accepted the order as satisfying the
+PUCT regulatory approval condition to commencement of the Delivery
+Term, and (ii) costs incurred by Buyer in connection with the Definitive
+Agreement due exclusively to the active fault of Buyer. Cost Recovery
+Risks expected to be borne by Seller include, without limitation, unrecovered
+costs to replace capacity, energy, environmental attributes, and other
+products not provided to Buyer by Seller under the Definitive Agreement.
+
+36 Conditions
+Precedent:
+
+Without limiting item 38, Buyer’s obligations under the Definitive
+Agreement will be conditioned upon the fulfillment or express waiver, by
+Buyer, of numerous conditions, including the following:
+1.
+
+Buyer has obtained all approvals, permits, licenses, consents, waivers,
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-31
+
+Term Sheet for RFP Tolling Product
+and other authorizations from, notifications to, and filings and
+registrations with, governmental authorities deemed necessary or
+advisable by Buyer (i) that (a) approve the Definitive Agreement and
+the transactions thereunder or contemplated thereby, including approval
+of the full recovery of all Buyer costs associated with the Definitive
+Agreement and all related agreements and transactions (through base
+rates, fuel adjustment charges, and/or such other rates or charges as
+may be applied pursuant to a rider or otherwise) pursuant to a finding
+that the participation by Buyer in the foregoing is prudent and in the
+public interest, or (b) provide any other regulatory treatment desired by
+Buyer of the Definitive Agreement and transactions thereunder or
+contemplated thereby, and/or (ii) in order for Buyer to enter into the
+Definitive Agreement and/or perform its obligations thereunder, each
+of which is on terms and conditions acceptable to Buyer in its sole and
+absolute discretion and is final and not subject to appeal or otherwise
+subject to challenge;
+2.
+
+Buyer has obtained all third-party consents, approvals, and
+authorizations (to the extent not covered by clause 1 above) deemed
+necessary or advisable by Buyer to enter into the Definitive Agreement
+and/or perform its obligations thereunder, each of which is on terms
+and conditions acceptable to Buyer in its sole and absolute discretion;
+
+3.
+
+the Facility (or the portion thereof allocated to Buyer) has qualified as
+and is or will be registered and recognized as, as of the start of the
+Delivery Term commencement date, a firm designated network
+resource of Buyer, with deliverability on a firm network resource basis
+throughout the largest Balancing Authority applicable to the Electric
+Interconnection Point, pursuant to, to the extent such Balancing
+Authority is MISO, ERIS and NRIS as required herein under the MISO
+OATT (or the equivalent service in the event MISO discontinues or
+modifies the nature of NRIS);
+
+4.
+
+if required, credit support meeting the requirements of the Definitive
+Agreement has been posted by Seller and remains in full force and
+effect;
+
+5.
+
+certificates of insurance evidencing the coverages required by the
+Definitive Agreement have been obtained and submitted to Buyer and
+the insurance required by the Definitive Agreement remains in full
+force and effect;
+
+6.
+
+the local Balancing Authority area applicable to the Facility is the
+smallest Balancing Authority that, as of such time, includes the
+Interconnection Portion;
+
+7.
+
+the Balancing Authority(ies) applicable to the Interconnection Portion
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-32
+
+Term Sheet for RFP Tolling Product
+recognize the Facility (or, in the event Bidder proposes to allocate to
+Buyer a portion of the nameplate capacity of the Facility in increments
+of whole generating units, the corresponding portion thereof) as a
+separate generating resource and separate CP Node at the Electric
+Interconnection Point for settlement purposes (including that such
+Balancing Authority(ies) determine separately for settlement purposes
+the amount of energy actually delivered specifically from the Facility or
+portion thereof allocated to Buyer to the Electric Interconnection Point
+and, if applicable, recognize the Facility or portion thereof allocated to
+Buyer as a separate generating resource for tagging, scheduling,
+offering and bidding purposes);
+8.
+
+Seller or, if applicable, Buyer (or an Affiliate designated to Seller by
+Buyer) has been designated as the exclusive representative of the
+Facility before each Balancing Authority applicable to the
+Interconnection Portion (including any applicable RTO or ISO) for
+purposes of the functions described in item 17 above (with effect, if
+Buyer or its Affiliate is such representative, as of the start of the
+Delivery Term or the deadline for Buyer to registered as such
+representative under the applicable rules of the Balancing Authority);
+
+9.
+
+Seller will deliver to Buyer a certification from Seller’s Principal
+Accounting Officer (as defined by the rules of the Securities and
+Exchange Commission) that, to the best of the Principal Accounting
+Officer’s knowledge, the Definitive Agreement and the transactions
+thereunder or contemplated thereby do not and will not result in, under
+the accounting standards existing at the time of the certification or that
+will be in effect during the term of the Definitive Agreement, the
+recognition of a long-term liability by Buyer or any of its Affiliates on
+its or any of its Affiliates’ books and addressing any other accountingrelated risks relating to the Definitive Agreement deemed necessary or
+advisable by Buyer in its sole and absolute discretion;
+
+10. {For Developmental Resources} the COD has occurred; and
+11. if applicable, Seller has satisfied the condition precedent referenced in
+item 42 below.
+Buyer conditions precedent in addition to those specified above may be
+required as a result of operational aspects of the specific proposed generating
+units, diligence conducted by or for Buyer, the status of applicable laws,
+rules, and regulations, and other factors as Buyer deems relevant in its sole
+and absolute discretion. Buyer will have a defined period of time from the
+effective date of the Definitive Agreement to satisfy its conditions to
+commencement of the Delivery Term.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-33
+
+Term Sheet for RFP Tolling Product
+37 Completion
+{For
+Developmental
+Resources
+Only}:
+
+The date by which the COD must occur is expected to be the date specified
+as such by Bidder in the proposal (as such date may be extended on a dayfor-day basis, up to a maximum of 180 days in the aggregate, to the extent
+that the COD is delayed as a result of Force Majeure, the “Guaranteed
+COD”). The “Commercial Operation Date,” or “COD,” will be the date
+all of the following conditions have been satisfied or expressly waived by
+Buyer:
+(a) the Facility has achieved “Substantial Completion” (or equivalent term
+meaning completion in all material respects, except punch list items that
+do not materially adversely affect the ability of the Facility to operate as
+intended) under its engineering, procurement, and construction contract
+(or, if the Facility does not have a single engineering, procurement, and
+construction contract, under each of the subcontracts that together
+aggregate the scope of an engineering, procurement, and construction
+contract) at a nameplate capacity equal to that specified in item 5 above
+and studies and testing of the Facility required pursuant to its
+interconnection agreement(s), financing documents, or permits,
+authorizations, or other project documents for the commencement of
+commercial operation will have been successfully performed and
+completed;
+(b) the Facility (i) has successfully completed its initial capacity
+demonstration test at a capacity equal to at least 95% of the full
+nameplate capacity of the Facility (Summer Conditions, at full load,
+including duct-firing), (ii) has successfully achieved tested heat rates
+equal to or less than the corresponding maximum Guaranteed Heat
+Rates without producing emissions in excess of the levels set forth in the
+following clause (iii) in a single heat rate demonstration test, (iii) has
+successfully completed an emission demonstration test at emissions
+levels and rates below the levels and rates (A) set forth in a schedule to
+the Definitive Agreement for the emissions set forth in such schedule
+and (B) the lesser of those permitted under (1) air permit(s) for the
+Facility or (2) applicable laws for emissions not included in such
+schedule but required by such air permit(s) or applicable laws, with
+successful completion for all tested emissions occurring simultaneously,
+(iv) has achieved initial synchronization with the grid, (v) is available
+for normal and continuous operation and fully capable of reliably
+producing the capacity, capacity-related benefits, environmental
+attributes, energy, and other electric products and delivering the same at
+the Electric Interconnection Point at the full nameplate capacity
+specified by Bidder in the applicable proposal, and (vi) is in compliance
+with the applicable interconnection agreements and applicable laws;
+(c) the required quantities of ERIS and NRIS have been received and the
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-34
+
+Term Sheet for RFP Tolling Product
+interconnection, deliverability, and transmission agreements have been
+executed and are effective and the interconnection, deliverability, and
+transmission upgrades required by such agreements for the Facility (i)
+have been completed, (ii) have been tested in accordance with such
+agreements, (iii) are available for normal and continuous operation and
+fully capable of reliably transmitting and delivering the capacity, energy,
+and other electric products to Buyer at the Electric Interconnection Point
+at the full Dependable Capacity Allocated To Buyer, and (iv) are in
+compliance with such agreements and applicable laws;
+(d) the communications and telemetry equipment required by the Definitive
+Agreement has been programmed, installed, commissioned, and tested
+and has demonstrated that it is fully capable of reliably transmitting realtime data to Buyer according to the Definitive Agreement;
+(e) Seller is in compliance in all material respects with the Definitive
+Agreement and there are no defaults (or events or circumstances that
+with the passage of time or the giving of notice or both would constitute
+a default) of Seller thereunder that have occurred and are continuing;
+(f) Seller has obtained all material permits and other authorizations, entered
+into all agreements, and made all other arrangements and acquired all
+other tangible and intangible rights required to construct the Facility and
+produce and deliver the capacity, capacity-related benefits,
+environmental attributes, energy, and other electric products, including
+delivery of energy, at the Electric Interconnection Point at the full
+nameplate capacity specified by Bidder in the applicable proposal and
+otherwise perform its obligations according to the Definitive
+Agreement; such permits and authorizations, agreements, arrangements,
+and other rights are in full force and effect and not subject to conditions
+precedent; and no party thereto is in default thereunder, and no event or
+circumstance will have occurred and be continuing that with the passage
+of time or the giving of notice or both would constitute a default by a
+party thereunder;
+(g) the Facility, capacity, energy, or environmental attributes, as applicable,
+are certified for any program or system that becomes an applicable
+environmental attribute program as of the COD;
+(h) (i) Seller is otherwise qualified for, and has all necessary accounts to
+obtain and transfer to Buyer, the environmental attributes corresponding
+to such applicable environmental attribute programs, (ii) all documents
+have been executed and filed and all other actions have been taken that
+are necessary or advisable to obtain all capacity-related benefits for
+which the capacity or the Facility is eligible and to transfer to Buyer
+custody of, and give effect to and evidence the title of Buyer in, all such
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-35
+
+Term Sheet for RFP Tolling Product
+capacity-related benefits, in accordance with the Definitive Agreement
+and (iii) all documents have been executed and filed and all other
+actions have been taken that are necessary or advisable to qualify to
+provide, and sell and deliver to Buyer at the Electric Interconnection
+Point, all other electric products (including for Buyer or Seller, as
+applicable, to be able to schedule, offer, bid, and settle the other electric
+products into the Balancing Authority(ies) applicable to the
+Interconnection Portion), in accordance with the Definitive Agreement;
+(i) without limiting clause (f) above, Seller has caused the local Balancing
+Authority applicable to the Facility to be the smallest Balancing
+Authority that, as of such date, includes the Interconnection Portion;
+(j) without limiting clause (f) above, all arrangements for the supply of
+required electric services to the Facility, including the supply of turbine
+unit start-up and shutdown power, house power, and maintenance
+power, have been completed by Seller separately from the Definitive
+Agreement, are in effect, and are available for the supply of such electric
+services to the Facility;
+(k) certificates of insurance evidencing the coverages required by the
+Definitive Agreement at the COD have been obtained and submitted to
+Buyer;
+(l) Seller has provided to Buyer copies of the major design drawings and
+electrical specifications relating to the Facility;
+(m) any additional credit support required at the COD pursuant to the
+Definitive Agreement has been posted by Seller in accordance with the
+requirements of the Definitive Agreement; and
+(n) staffing and training of Seller’s personnel for the operation,
+maintenance, and asset management of the Facility has been completed,
+to Seller’s reasonable satisfaction.
+Seller will notify Buyer immediately when the COD has occurred, including
+in such notice reasonable evidence to Buyer of the satisfaction of all of the
+conditions set forth above and a certification to that effect by an officer of
+Seller familiar with the Facility after due inquiry of Seller. The Definitive
+Agreement will require Seller to provide periodic progress reports to Buyer
+and will grant to Buyer inspection and other rights applicable during the precommercial operation phase of the Definitive Agreement.
+If the COD does not occur on or before the Guaranteed COD specified by
+Bidder, Seller will pay to Buyer liquidated damages of $100 per MW of
+Dependable Capacity Allocated to Buyer, for each day after the Guaranteed
+COD that COD is not achieved until the earliest of (i) the date Seller
+achieves COD, (ii) the date the Definitive Agreement is validly terminated,
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-36
+
+Term Sheet for RFP Tolling Product
+and (iii) one hundred eighty (180) days after the Guaranteed COD. Seller’s
+aggregate liability for liquidated damages pursuant to this paragraph will be
+capped at the product of (x) $100 per MW of Dependable Capacity
+Allocated to Buyer per day multiplied by (y) one hundred eighty (180) days.
+If the COD does not occur on or before the date after the Guaranteed COD
+on which the delay liquidated damages cap is reached:
+(i) Buyer will have the right, at any time thereafter until the COD occurs, to
+(a) terminate the Definitive Agreement upon notice to Seller (and to
+receive termination damages arising out of any such termination) or (b)
+if Seller has satisfied all of the conditions to the COD other than
+conditions (b)(i) and (b)(v), require Seller to re-size (and, if so required
+to re-size, Seller will re-size) the Maximum Dependable Capacity to the
+then-tested Dependable Capacity Allocated To Buyer; and
+(ii) if (a) Buyer’s right to terminate set forth in clause (i) above applies and
+Buyer has not elected to terminate within 30 days after obtaining such
+right pursuant to clause (i) above, (b) Seller has satisfied all of the
+conditions to the COD other than conditions (b)(i) and (b)(v), and (c)
+Seller demonstrates to Buyer’s reasonable satisfaction that it is not
+possible to achieve a tested capacity equal to at least 95% of the full
+nameplate capacity specified by Bidder in the applicable proposal, Seller
+will have the right, at any time thereafter until the COD occurs, to resize the Maximum Dependable Capacity to the then-tested Dependable
+Capacity Allocated To Buyer.
+If Buyer requires Seller to, or Seller elects to, re-size the Maximum
+Dependable Capacity according to clause (i) or (ii) above, Seller will pay to
+Buyer an amount equal to (a) a $/MW figure to be negotiated by the Parties
+multiplied by (b) the difference between (1) the full expected Dependable
+Capacity Allocated To Buyer as specified by Bidder in item 11 above and (2)
+the re-sized Maximum Dependable Capacity.
+Upon such payment,
+conditions (b)(i) and (b)(v) to the COD will be deemed achieved.
+38 Management
+Approval:
+
+The Definitive Agreement is subject to review and concurrence or approval,
+as applicable, by the corporate risk office of Entergy Corporation, the board
+of directors of Buyer, the executive and senior management of Entergy
+Corporation and Buyer, and such other approvals of Entergy Corporation and
+its affiliates as Buyer deems necessary or prudent in its sole and absolute
+discretion to enter into the Definitive Agreement and perform its obligations
+thereunder (on the terms set forth therein). Buyer will not execute or deliver
+the Definitive Agreement without such review and concurrence or approval,
+as applicable, and such approval or concurrence may be granted or denied in
+such bodies’ sole and absolute discretion.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-37
+
+Term Sheet for RFP Tolling Product
+39 Select Contract
+Terms and
+Conditions:
+
+40 Events of
+Default:
+
+The Definitive Agreement will also include, among other things, the
+following covenants, terms, and/or conditions:
+•
+
+Seller will insure, develop, engineer, procure equipment for, design,
+construct, install, operate, maintain, manage, replace, repair, study, test,
+and otherwise use the Facility in accordance with (i) Seller’s
+obligations in the Definitive Agreement, the Facility’s interconnection
+agreements, and the other project documents, (ii) accepted electrical
+practices, and (iii) all applicable laws (including environmental laws),
+consents, and governmental approvals, including all applicable
+standards and guidelines adopted from time to time by governmental
+authorities (including NERC, SERC Reliability Corporation, any RTO
+and any comparable third party with the right to impose on the Facility
+or Seller conditions or obligations having the effect of an applicable
+law or other binding legal requirement);
+
+•
+
+Seller will maintain adequate reserves for, and schedule and perform
+according to the Definitive Agreement, required maintenance; and
+
+•
+
+Seller will insure against all insurable risks with coverage in an amount
+not less than full replacement cost and on terms specified in the
+Definitive Agreement.
+
+The Definitive Agreement will include the following events of default of
+Seller:
+•
+
+failure to pay amounts due;
+
+•
+
+breach of representations and warranties;
+
+•
+
+failure to provide or maintain required credit support;
+
+•
+
+breach of covenants;
+
+•
+
+assignment by Seller of the Definitive Agreement or sale or transfer of
+the Facility, directly or indirectly, except as permitted by the Definitive
+Agreement;
+
+•
+
+bankruptcy, dissolution, or liquidation of Seller;
+
+•
+
+default of Seller under any agreements relating to indebtedness for
+borrowed money in excess of a specified aggregate amount;
+
+•
+
+Seller makes any material intentional misrepresentation or omission in
+any metering report, invoice, estimate of intra-day gas cost, or
+availability notice required to be made or furnished by Seller pursuant
+to the Definitive Agreement or Seller’s actual fraud, tampering with
+Buyer-owned facilities, or material intentional misrepresentation or
+misconduct in connection with the Definitive Agreement or operation
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-38
+
+Term Sheet for RFP Tolling Product
+of the Facility;
+•
+
+Except as expressly provided by the Definitive Agreement, Seller sells,
+assigns, or otherwise transfers, or commits to sell, assign, or otherwise
+transfer, the capacity, capacity-related benefits, energy, environmental
+attributes, or other electric products that are subject to the Definitive
+Agreement, or any portion thereof, to any person other than Buyer;
+
+•
+
+the average of the Monthly Availabilities during any Rolling 12 Month
+Period is less than the Rolling 12 Month Availability Requirement of
+eighty-five percent (85%), where “Rolling 12 Month Period” means,
+as of the end of any month during the Delivery Term, the twelve (12)month period that includes such month and the preceding eleven (11)
+months that occurred during the Delivery Term, except that, during the
+first contract year, the measurement of the Rolling 12 Month Period
+will begin at the end of the sixth (6th) full month of such contract year,
+at which time and thereafter for the remainder of the first contract year,
+the Rolling 12 Month Period will be determined using the period then
+elapsed in the Delivery Term;
+
+•
+
+default of Seller under, or failure to maintain in effect, any project
+document (including the gas and electric interconnection agreements
+and any gas or transmission or deliverability service-related
+agreement);
+
+•
+
+Seller’s abandonment of construction or operation of the Facility (or
+any portion thereof affecting its obligations under the Definitive
+Agreement);
+
+•
+
+the commencement of the Delivery Term is delayed for a period of 180
+days or more from the date that the Delivery Term would have
+commenced as a result of the occurrence of a unit contingency or other
+limitation, including a Force Majeure, that, individually or collectively,
+reduces the amount of available capacity to ten percent (10%) or more
+below the Dependable Capacity Allocated To Buyer;
+
+•
+
+Seller fails to maintain in effect any agreement or arrangement required
+to deliver capacity, capacity-related benefits, energy, environmental
+attributes, and other electric products to the Electric Interconnection
+Point;
+
+•
+
+failure of the resulting, surviving, or transferee entity in a merger or
+sale of all or substantially all of the assets of Seller to assume such
+party’s obligations under the Definitive Agreement;
+
+•
+
+{For Developmental Resources} the Commercial Operation Date has
+not occurred within 180 days after the Guaranteed Commercial
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-39
+
+Term Sheet for RFP Tolling Product
+Operation Date; and
+•
+
+the failure to maintain any necessary qualification for, or any necessary
+account to obtain and transfer to Buyer, any capacity-related benefits,
+environmental attributes, or other electric products for which the
+Facility or its capacity or energy is eligible.
+
+Other events of default will be included in the Definitive Agreement as
+appropriate.
+41 Termination
+Rights:
+
+The Definitive Agreement will contain provisions entitling a Party the right
+to terminate the Definitive Agreement upon the occurrence and continuation
+of an event of default by the other Party and to calculate termination
+damages based on the costs, gains, or losses incurred by the non-defaulting
+Party arising out of termination of the Definitive Agreement. If the
+termination damages are negative, the non-defaulting Party will not be
+obligated to pay such amount to the defaulting Party.
+
+42 Audit Rights:
+
+Buyer will have the right to examine the books and records of Seller and any
+affiliates of Seller involved, directly or indirectly, in the transactions or
+actions contemplated by the Definitive Agreement, including the records for
+the Facility. Such records will include (i) actual generating records for the
+Facility, (ii) the records required to be kept according to the Definitive
+Agreement and in the immediately following sentence, (iii) copies of
+contracts evidencing fuel interconnection, supply, transportation, and
+settlement arrangements relating to the Facility, and (iv) access to personnel
+and representatives of Seller and any affiliates, in each case to the extent
+reasonably necessary or appropriate to verify, among other things, (a) the
+accuracy of any statement, charge, or computation made pursuant to the
+provisions of the Definitive Agreement or (b) Seller’s performance under or
+compliance with the terms of the Definitive Agreement. Seller will be
+responsible for ensuring that all subcontractors commit to supply to Seller,
+and allow Seller to freely provide to Buyer, the records supporting any cost
+or charge paid by Seller and passed on to Buyer according to the terms of the
+Definitive Agreement. All books, records, and data, including all copies
+thereof, provided to Buyer under this paragraph will be subject to the
+confidentiality requirements of the Definitive Agreement. As a condition
+precedent to the Definitive Agreement becoming effective, to the extent that
+Seller is not the owner of the Facility, Seller will provide to Buyer evidence
+satisfactory to Buyer of its ability and rights to facilitate Buyer’s access to
+the books and records of such owner pursuant to the provisions of the audit
+section of the Definitive Agreement.
+
+43 Seller’s Use of
+Information:
+
+Seller will limit the availability and disclosure of information with respect to
+scheduling, dispatch, outages, unit contingencies, and other limitations
+relating to the Facility or the Definitive Agreement exclusively to the
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-40
+
+Term Sheet for RFP Tolling Product
+scheduling, operations, and asset management personnel designated by
+Seller to Buyer in writing from time to time who are primarily responsible
+for the day-to-day operation and/or management of the Facility. Seller and
+such personnel may use all such information only for the limited purpose of
+operating and scheduling and dispatching the Facility as contemplated
+hereunder and performing their respective directly related duties under the
+Definitive Agreement. Without limiting the generality of the foregoing,
+Seller and its designees will be expressly forbidden from using, directly or
+indirectly, any such information, or knowledge thereof, (i) in connection
+with any activity in which Buyer and Seller (or, if it does not employ its
+designees, the employer(s) of such designees) compete or where the
+knowledge or possession of such information would provide, or would
+reasonably be expected to provide, Seller (or such employer(s)) with a
+competitive advantage or (ii) in contravention, violation, or breach of any
+applicable law, code of conduct, or binding agreement, including any
+confidentiality agreement. Seller will be responsible for any unauthorized
+disclosure or use by personnel designated by Seller or performing work for
+or on behalf of Seller or any of its Affiliates of any of the information
+protected under the Definitive Agreement.
+44 Right of First
+Refusal:
+
+Seller will not (and will not permit any direct or indirect parent or affiliate of
+Seller to) sell or transfer the Facility or any portion thereof or any undivided
+interest therein (or any direct or indirect equity interests in Seller), including
+by merger, consolidation, or sale of all or substantially all of its assets, unless
+prior to such sale or transfer, Seller provides written notice of such sale or
+transfer to Buyer that includes a copy of the definitive agreement for such
+sale or transfer. Upon Buyer’s receipt of such notice, Buyer will have the
+right, for 120 days, to enter into (or cause a nominee to enter into) a purchase
+agreement on substantially the same terms and conditions set forth in the
+definitive agreement included in Seller’s notice, provided that (i) if such
+definitive agreement specifies any non-cash consideration, Buyer (or its
+nominee) may pay the cash equivalent of such non-cash consideration, or (ii)
+if any governmental or regulatory approvals or other consents or
+authorizations are required for Buyer to consummate the transaction, Buyer
+will have a reasonable period of time to seek and obtain all necessary
+approvals, consents or authorizations (with times and on terms consistent
+with those applicable to Buyer’s approvals, consents and authorizations
+under the Definitive Agreement). Seller will provide, in a timely manner,
+information regarding the Facility that is reasonable or customary to allow
+Buyer to perform due diligence and to otherwise evaluate in good faith the
+purchase of the Facility.
+In the event that Buyer does not exercise its right to purchase, then, subject
+to item 45 below, Seller (or any direct or indirect parent or affiliate of Seller)
+will have the right to consummate the sale or transfer according to the
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-41
+
+Term Sheet for RFP Tolling Product
+definitive agreement included in Seller’s notice to Buyer (excluding any
+amendments thereto that make such definitive agreement more favorable to
+the purchaser), provided that such sale or transfer is consummated within
+180 days after the date that Buyer elects not to exercise its right to purchase
+(or such right to purchase expires). If Seller does not consummate the sale or
+transfer in accordance with the preceding sentence within such 180 days,
+Seller will not (and will not permit any direct or indirect parent or affiliate of
+Seller to) sell or transfer the Facility (or its direct or indirect equity interests
+in Seller), unless prior to such sale or transfer, Seller provides a new written
+notice of such sale or transfer to Buyer and these provisions are applied with
+respect to such new written notice.
+45 Other Transfer
+Restrictions:
+
+Except as expressly permitted in the following paragraph, Seller will not
+(and will not permit any affiliate to) sell or transfer all or a material portion
+of, or an undivided interest in, the Facility (or such affiliate’s direct or
+indirect equity interests in Seller), including by merger, consolidation, or sale
+of all or substantially all of its assets, without Buyer’s prior written consent
+of Buyer, which will not be unreasonably withheld or delayed, provided that
+it will be deemed reasonable for Buyer to withhold its consent if (a) the
+proposed transferee is not a qualified operator, (b) the proposed transferee
+has a creditworthiness below that of Seller or, in the case of a transfer of the
+direct or indirect equity interest in Seller (or portion thereof), Seller’s
+affiliate effecting such transaction, (c) the proposed transferee is (i) a loadserving entity (or an affiliate of a load-serving entity) recognized by an
+applicable governmental authority or (ii) owns or controls (or an affiliate
+thereof owns or controls) 1,000 MW or more of electric generation capacity,
+(d) the proposed transferee is, or during the period commencing four (4)
+years prior to the date of Seller’s notice requesting consent to the transfer
+until the date of the transfer has been, involved in Adverse Litigation, (e) any
+credit support provided by Seller prior to such sale or transfer would not
+remain in effect (or would not continue to be drawable against all obligations
+of “Seller” hereunder, whether relating to the period before, on or after the
+date of the transfer) or be substituted with credit support acceptable to Buyer
+in its sole and absolute discretion, or (f) in the case of a transfer of the
+Facility (including an undivided interest therein) or portion thereof, Seller
+does not concurrently assign its rights and obligations under the Definitive
+Agreement to the transferee of the Facility according to the assignment
+provisions thereof on terms acceptable to Buyer in its sole and absolute
+discretion.
+Seller will have the right to (a) permit any affiliate to transfer (direct or
+indirect) control of, or all of its direct or indirect equity interests in, Seller,
+including by merger, consolidation or sale of all or substantially all of its
+assets, and (b) transfer the Facility, in each case to an affiliate of Seller,
+provided that (i) at least sixty (60) days prior to such transfer, Seller provides
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-42
+
+Term Sheet for RFP Tolling Product
+notice to Buyer thereof, (ii) the proposed transferee is a qualified operator,
+(iii) the proposed transferee has a creditworthiness equal to or better than
+that of the transferor, (iv) any credit support provided by Seller prior to such
+sale or transfer remains in effect (and continues to be drawable against all
+obligations of “Seller” hereunder, whether relating to the period before, on or
+after the date of the transfer) or is substituted with credit support acceptable
+to Buyer in its sole and absolute discretion and (v) in the case of a transfer of
+the Facility (including an undivided interest therein) or portion thereof,
+Seller concurrently assigns its rights and obligations under the Definitive
+Agreement to the proposed transferee according to the assignment provisions
+thereof on terms acceptable to Buyer in its sole and absolute discretion.
+“Adverse Litigation” will mean litigation or arbitration that is adverse to
+Buyer or any affiliate thereof that involves or involved, as the case may be,
+(i) the potential imposition of criminal liability on Buyer or any affiliate
+thereof (or their respective directors, officers, partners, members, trustees,
+employees, agents, or representatives), (ii) the potential imposition on Buyer
+or any regulated affiliate thereof of new or additional adverse regulation, (iii)
+claims against Buyer or any affiliate thereof (or their respective directors,
+officers, partners, members, trustees, employees, agents, or representatives)
+for slander, libel, defamation, damage to reputation, or other similar legal
+claims, or (iv) an amount in controversy exceeding (a) $1,500,000, if the
+time such litigation or arbitration is being evaluated for purposes of
+determining qualification under the definition hereof occurs prior to the
+seventh (7th) anniversary of the Delivery Term commencement date set forth
+in item 8 and (b) an amount escalating by $1,000,000 on every seventh (7th)
+anniversary of the Delivery Term commencement date set forth in item 8.
+46 Credit Support:
+
+In addition to the Seller parent guaranty contemplated in item 4 above, Seller
+will deliver to Buyer and maintain in favor of Buyer a letter of credit issued
+by a U.S. commercial bank or U.S. branch office of a foreign bank with (i) a
+local long-term issuer credit rating of “A-” or better by S&P and a senior
+unsecured long-term debt rating of “A3” or better by Moody’s (or, if the
+issuer has a local long-term issuer credit rating by S&P or a senior unsecured
+long-term debt rating by Moody’s, but not both, a local long-term issuer
+credit rating of “A-” or better by S&P or a senior unsecured long-term debt
+rating of “A3” or better by Moody’s) and (ii) total assets of at least
+$10,000,000,000. Such letter of credit will secure Seller’s obligations under
+the Definitive Agreement and must be adjusted to equal the following
+amounts at each of the following adjustment dates, subject to the
+immediately following paragraph:
+Adjustment Date
+
+Amount
+
+Execution of
+
+$2,500,000 plus $15,000 per
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-43
+
+Term Sheet for RFP Tolling Product
+Definitive Agreement
+
+MW of Dependable Capacity
+Allocated to Buyer
+
+Receipt of Required Regulatory
+Approvals (or Buyer’s Waiver
+of its Regulatory Approval
+Condition)
+
+$75,000 per MW of
+
+One-year Anniversary of
+Regulatory Approval
+
+$100,000 per MW of
+
+Two-year Anniversary of
+Regulatory Approval
+
+$125,000 per MW of
+
+Commercial Operation Date
+(Developmental Resources) /
+Commencement of the Delivery
+Term (Existing Resources)
+
+$150,000 per MW of
+
+Dependable Capacity Allocated to
+Buyer
+
+Dependable Capacity Allocated to
+Buyer
+
+Dependable Capacity Allocated to
+Buyer
+
+Dependable Capacity Allocated to
+Buyer
+
+Definitive Agreement Expiration If there are no pending claims of
+Buyer or its group at such time, then
++ 270 days
+the letter of credit will be returned to
+Seller.
+If there are pending claims of Buyer
+or its group at such time, the letter of
+credit will remain outstanding and in
+effect until the final resolution of such
+claims.
+Notwithstanding the foregoing, the amounts set forth above will be reduced
+as follows based on (i) (A) the local long-term issuer credit rating from S&P,
+(B) the long-term issuer credit rating from Moody’s, or (C) the senior
+unsecured long-term debt rating from Moody’s (each, an “Eligible Public
+Rating”) of Seller Parent Guarantor2 or (ii) a determination by Buyer (in its
+sole and absolute discretion) at the time of execution of the Definitive
+2
+
+NTD: This Term Sheet assumes that Seller is a special purpose project entity with less creditworthiness than Seller Parent
+Guarantor and, as a result, that Seller Parent Guarantor will be the entity evaluated for purposes of determining whether a
+reduction will apply to Seller’s liquid credit support requirements.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-44
+
+Term Sheet for RFP Tolling Product
+Agreement that the credit quality of Seller Parent Guarantor is otherwise
+acceptable to Buyer for this purpose:
+The only Eligible Public Rating of
+Seller Parent Guarantor or, if Seller
+Parent Guarantor has more than
+one Eligible Public Rating, the
+lowest Eligible Public Rating of
+Seller Parent Guarantor (in either
+case, the “Applicable Rating”) is:
+
+Reduction of 50% of the otherwise
+applicable amount, up to a
+maximum reduction of
+(i) $75,000,000 less (ii) the Other
+Portfolio Exposure (defined below)
+
+BBB+ or higher from S&P or
+Baa1 or higher from Moody’s
+The Applicable Rating is:
+BBB from S&P or
+Baa2 from Moody’s
+The Applicable Rating is:
+BBB- from S&P or
+Baa3 from Moody’s
+The Applicable Rating is below
+BBB- from S&P or below Baa3
+from Moody’s or Seller Parent
+Guarantor does not have an
+Eligible Public Rating but Seller
+Parent Guarantor is otherwise
+deemed acceptable for this purpose
+by Buyer (in its sole and absolute
+discretion) at the time of execution
+of the Definitive Agreement
+
+Reduction of 50% of the otherwise
+applicable amount, up to a
+maximum reduction of
+(i) $62,500,000 less (ii) the Other
+Portfolio Exposure
+Reduction of 50% of the otherwise
+applicable amount, up to a
+maximum reduction of
+(i) $50,000,000 less (ii) the Other
+Portfolio Exposure
+Reduction of 50% of the otherwise
+applicable amount, up to a
+maximum reduction of
+(i) $50,000,000 less (ii) the Other
+Portfolio Exposure
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-45
+
+Term Sheet for RFP Tolling Product
+The Applicable Rating is below
+BBB- from S&P or below Baa3
+from Moody’s or Seller Parent
+Guarantor does not have an
+Eligible Public Rating and neither
+Seller nor Seller Parent Guarantor
+is otherwise deemed acceptable for
+this purpose by Buyer (in its sole
+and absolute discretion) at the time
+of execution of the Definitive
+Agreement
+
+$0
+
+provided that, from and after the occurrence of a Credit Event (as defined
+below) until if and when no Credit Event is continuing and the Applicable
+Rating is BBB- or higher from S&P or Baa3 or higher from Moody’s, no
+such reduction will apply (and any such reduction shall cease to apply). In
+addition, the amount of any applicable reduction will be adjusted (x) if the
+Applicable Rating falls from a higher rung within the first three rungs in the
+table above to a lower such rung or rises from a lower rung within the table
+above to a higher rung within the first three rungs in the table above and
+(y) upon written request from Seller, to reflect a reduction in the Other
+Portfolio Exposure by the amount thereof attributable to any transaction
+included in Other Portfolio Exposure as of the execution of the Definitive
+Agreement that has expired or terminated (and the obligations and liabilities
+of Seller and its affiliates arising out of or relating thereto have been fully
+and indefeasibly discharged and satisfied) after the execution of the
+Definitive Agreement.
+“Credit Event” means the occurrence of any of the following:
+• the Applicable Rating was, at any time at or after the execution of the
+Definitive Agreement, BBB- or higher from S&P or Baa3 and higher
+from Moody’s and, thereafter, either (1) the Applicable Rating falls
+below BBB- from S&P or below Baa3 from Moody’s or (2) Seller
+Parent Guarantor no longer has any Eligible Public Rating;
+• Seller or Seller Parent Guarantor becomes Bankrupt (as will be
+defined in the Definitive Agreement);
+• at the time of execution of the Definitive Agreement, the Applicable
+Rating was below BBB- from S&P or below Baa3 from Moody’s
+(i.e., Seller was granted a reduction in the required amount of its
+letter of credit pursuant to the fourth rung in the table above) and,
+thereafter, (i) the Applicable Rating falls below the level of the
+Applicable Rating at the time of execution of the Definitive
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-46
+
+Term Sheet for RFP Tolling Product
+
+•
+
+Agreement, (ii) Seller Parent Guarantor does not have at least two of
+the Required Ratios (as defined below), or (iii) Seller Parent
+Guarantor no longer has any Eligible Public Rating; or
+at the time of execution of the Definitive Agreement, Seller Parent
+Guarantor did not have any Eligible Public Rating (i.e., Seller was
+granted a reduction in the required amount of its letter of credit
+pursuant to the fourth rung in the table above) and, thereafter,
+(i) Seller Parent Guarantor is issued at least one Eligible Public
+Rating and the Applicable Rating is below BBB- from S&P or below
+Baa3 from Moody’s or (ii) Seller Parent Guarantor does not have at
+least two of the Required Ratios.
+
+“Required Ratios” means: (i) a cash generated from operating activities to
+total debt ratio of at least 0.30, (ii) a total debt to capital ratio of less than
+0.45, and (iii) a total debt to EBITDA ratio of less than 3.0, each as
+determined annually based on Seller Parent Guarantor’s audited financial
+statements for the prior fiscal year.
+“Other Portfolio Exposure” means the total exposure (including parent
+guarantees) of Buyer and its affiliates to Seller and its affiliates (including
+Seller Parent Guarantor), excluding the transactions contemplated by the
+Definitive Agreement, as calculated by Buyer and notified to Seller (broken
+down by transaction) as of the execution of the Agreement and as may be
+adjusted according to clause (y) of the last sentence of the paragraph above
+immediately preceding the definition of Credit Event.
+Buyer will have no obligation to post any independent credit support to or in
+support of Seller or the Facility.
+47 Accounting:
+
+Seller will be required to make representations, warranties, and covenants
+that fully protect Buyer against the accounting treatment described in clause
+(9) of item 36 above. In connection therewith, each contract year Seller will
+provide a bring-down certification from Seller’s Principal Accounting
+Officer affirming the statements made in the certification described in clause
+(9) of item 36 above as of the time such bring-down certification is provided.
+Without limiting the foregoing, Seller will be required to provide to Buyer
+any information requested by Buyer in order to assess those risks and, if any
+such risks materialize, for Buyer or Seller (or, in each case, any of its
+affiliates) to comply with the associated accounting requirements. Further, if
+any such risk materializes prior to the inception or during the term of the
+Definitive Agreement, Seller must promptly notify Buyer. If Seller so
+notifies Buyer or if Buyer notifies Seller of any such accounting treatment
+risk (provided that Buyer will have no obligation to so notify Seller), Buyer
+and Seller will cooperate in good faith to modify or amend the Definitive
+Agreement or enter into alternative arrangements as necessary or advisable,
+in Buyer’s reasonable good faith discretion, for Buyer to avoid, minimize or
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-47
+
+Term Sheet for RFP Tolling Product
+mitigate such risk (in which event the Parties will make such modifications
+or amendments or enter into such arrangements as expeditiously as
+practicable) for a period of time from the date of such notice and ending one
+hundred eighty (180) days after such date (the “Accounting Treatment
+Work-Out Period”); provided, however, that the Accounting Treatment
+Work-Out Period shall not commence if, or shall end upon the date which,
+Buyer or any of its Affiliates is required to recognize such accounting
+treatment on its books. If the Accounting Treatment Work-Out Period does
+not apply or if Buyer and Seller do not enter into a binding modification,
+amendment, or alternative arrangement by the end of the Accounting WorkOut Period, Buyer will have the right to terminate the Definitive Agreement
+upon notice to Seller, with a termination payment due to Buyer.
+48 Confidentiality:
+
+Each Party will be required to keep the terms and provisions of the
+Definitive Agreement confidential and prohibited from disclosing such terms
+to any third party, subject to certain limited exceptions specified in the
+Definitive Agreement.
+
+The statements contained in this Term Sheet are made subject to the Reservation of Rights set forth in Appendix E
+of the RFP and the terms and acknowledgements set forth in the Proposal Submission Agreement.
+
+2020 ETI CCGT RFP
+
+Page B-2-48
+
+

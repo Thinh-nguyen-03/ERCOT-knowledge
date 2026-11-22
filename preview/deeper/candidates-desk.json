@@ -1,0 +1,172 @@
+[
+ {
+  "id": "ref-psu-temporal-locational-risk",
+  "title": "Temporal and Locational risks (EBF 301, Lesson 12)",
+  "publisher": "Penn State College of Earth and Mineral Sciences (e-Education)",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://courses.ems.psu.edu/ebf301/book/export/html/744",
+  "covers": "basis risk (locational risk between nodes or zones)",
+  "sample": "We generally define two dimensions of risk in electricity markets: temporal risk and locational or \"basis\" risk."
+ },
+ {
+  "id": "ref-psu-risk-management-lesson12",
+  "title": "Lesson 12: Risk Management in the Electricity Market (EBF 301)",
+  "publisher": "Penn State College of Earth and Mineral Sciences (e-Education)",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://courses.ems.psu.edu/ebf301/book/export/html/738",
+  "covers": "spark spread, heat rate, virtual bidding, FTRs, contracts for differences",
+  "sample": "the \"spark spread\" (the difference between fuel and electricity prices)."
+ },
+ {
+  "id": "ref-cftc-glossary",
+  "title": "CFTC Glossary",
+  "publisher": "U.S. Commodity Futures Trading Commission",
+  "tier": 2,
+  "kind": "html",
+  "url": "https://www.cftc.gov/LearnAndProtect/EducationCenter/CFTCGlossary/index.htm",
+  "covers": "basis (cash minus futures), contango, backwardation",
+  "sample": "Backwardation Market situation in which futures prices are progressively lower in the distant delivery months."
+ },
+ {
+  "id": "ref-cftc-swap-definition-2012",
+  "title": "Further Definition of Swap, Security-Based Swap... (Final Rule, 77 FR 48208 and product interpretations)",
+  "publisher": "U.S. Commodity Futures Trading Commission",
+  "tier": 2,
+  "kind": "html",
+  "url": "https://www.cftc.gov/LawRegulation/FederalRegister/FinalRules/2012-18003.html",
+  "covers": "tolling agreements, full requirements contracts, embedded volumetric optionality (very long document)",
+  "sample": "tolling agreements, as described by commenters, provide a purchaser the right to the capacity, energy, ancillary services and any other product derived from a specified generating unit, all based upon a delivered fuel price and agreed heat rate."
+ },
+ {
+  "id": "ref-eia-dark-spread-2013",
+  "title": "Dark spreads measure returns over fuel costs of coal-fired generation (Today in Energy)",
+  "publisher": "U.S. Energy Information Administration",
+  "tier": 2,
+  "kind": "html",
+  "url": "https://www.eia.gov/todayinenergy/detail.php?id=10051",
+  "covers": "dark spread (coal), spread on-peak/off-peak hub prices, forward vs spot spreads",
+  "sample": "Dark spreads can be calculated using current spot prices or forward prices."
+ },
+ {
+  "id": "ref-eia-gas-basis-2020",
+  "title": "Natural gas price differentials to Henry Hub narrowed at most hubs in first half of 2020 (Today in Energy)",
+  "publisher": "U.S. Energy Information Administration",
+  "tier": 2,
+  "kind": "html",
+  "url": "https://www.eia.gov/todayinenergy/detail.php?id=45037",
+  "covers": "gas basis, forward basis swaps",
+  "sample": "The natural gas basis reflects the difference between the price of natural gas at the benchmark Henry Hub in Louisiana and the price of natural gas at another delivery point elsewhere in the country."
+ },
+ {
+  "id": "ref-lbnl-ftr-basis",
+  "title": "Rethinking the Role of Financial Transmission Rights in Wind-Rich Electricity Markets in the Midwestern U.S. (The Energy Journal preprint)",
+  "publisher": "Lawrence Berkeley National Laboratory / IAEE",
+  "tier": 2,
+  "kind": "pdf",
+  "url": "https://www.osti.gov/servlets/purl/2368550",
+  "covers": "hub-to-node basis and basis risk, FTR hedging of basis, wind vs thermal",
+  "sample": "Besides being a visible indicator of congestion, the basis is also an important economic consideration for sellers (generators) and buyers (loads) of electricity—particularly those sited at different locations, as is most often the case."
+ },
+ {
+  "id": "ref-nodal-exchange-specs",
+  "title": "Nodal Exchange Contract Specifications (Exhibit A)",
+  "publisher": "Nodal Exchange",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://www.nodalexchange.com/wp-content/uploads/Exhibit-A-Contract-Specifications-25-031-1.pdf",
+  "covers": "monthly on-peak/off-peak block contracts, hub energy plus nodal congestion (basis) products, contract size and settlement",
+  "sample": "Contract Description Monthly Cash Settled Financial On-Peak Energy + Congestion, PJM ETOWANDA34."
+ },
+ {
+  "id": "ref-oum-oren-load-following",
+  "title": "VaR constrained hedging of fixed price load-following obligations in competitive electricity markets",
+  "publisher": "UC Berkeley (Oren) / IOS Press, Risk and Decision Analysis",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://oren.ieor.berkeley.edu/pubs/I.A.98.pdf",
+  "covers": "load-following fixed-price obligations, volumetric (quantity) risk, hedging with forwards and options",
+  "sample": "The volumetric risk – caused by demand uncertainty – is a crucial risk factor faced by LSEs that must serve their customers at regulated fixed retail prices which can only be adjusted infrequently."
+ },
+ {
+  "id": "ref-pacificorp-tolling-agreement",
+  "title": "PacifiCorp RFP-2009 Tolling Agreement (form, filed with Utah PSC)",
+  "publisher": "PacifiCorp (Utah Public Service Commission docket)",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://pscdocs.utah.gov/electric/05docs/0503547/Attachment%205.pdf",
+  "covers": "tolling: buyer supplies fuel, capacity payment, dispatch by buyer, heat rate",
+  "sample": "Buyer shall deliver the requisite Fuel Supply Requirement to Seller during such hour, comprised of any applicable Startup Fuel Quantity and the applicable Operating Fuel Quantity."
+ },
+ {
+  "id": "ref-entergy-toll-term-sheet",
+  "title": "Appendix B-2 Model CCCT Tolling Agreement Term Sheet (RFP)",
+  "publisher": "Entergy",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://rfp.entergy.com/ENTRFP/SEND/2020ETICCGTRFP/Documents/04282020/Appendix%20B-2%20-%20Term%20Sheet%20-%20Toll.pdf",
+  "covers": "tolling: capacity payment, variable O&M payment, start-up payment, buyer dispatch, fuel responsibility",
+  "sample": "The Capacity Payment will equal (i) the Capacity Rate for the applicable month, multiplied by (ii) the UCAP Rating for the Dependable Capacity Allocated To Buyer and will be payable monthly in arrears."
+ },
+ {
+  "id": "ref-deng-exotic-electricity-options",
+  "title": "Exotic electricity options and the valuation of electricity generation and transmission assets (Decision Support Systems 30)",
+  "publisher": "UC Berkeley / Stanford / PacifiCorp authors; Elsevier",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://www2.isye.gatech.edu/~deng/publication/workpaper/deng-johnson-sogom-dss-2001.pdf",
+  "covers": "spark spread defined with heat rate, spark spread call option payoff (heat-rate strike), locational spread derivatives",
+  "sample": "There are two principal categories of cross-commodity electricity derivatives; spark spread, or heatrate-linked derivatives, and locational spread derivatives."
+ },
+ {
+  "id": "ref-euets-clean-spark-spread",
+  "title": "Clean Spark Spread (European Union Electricity Market Glossary)",
+  "publisher": "emissions-euets.com",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://www.emissions-euets.com/internal-electricity-market-glossary/1136-clean-spark-spread",
+  "covers": "clean spark spread, spark spread, clean dark spread (EU context)",
+  "sample": "Clean Spark Spread measures the profitability of gas fired electricity generation based on the variable cost of inputs (gas and carbon allowances) and the value of the output (electricity)."
+ },
+ {
+  "id": "ref-montel-forward-curves-hedging",
+  "title": "Hedging strategies using forward curves in power markets",
+  "publisher": "Montel",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://montel.energy/resources/blog/hedging-strategies-using-forward-curves-in-power-markets",
+  "covers": "forward curve, contango, backwardation, hedging (European power)",
+  "sample": "There are two main phenomena that appear in forward curves: the first is contango, where the spot price sits below the future price, which is a benefit for longer-term sellers looking to fix higher prices."
+ },
+ {
+  "id": "ref-pirrong-forward-curves",
+  "title": "Commodity forward curves: models and data (slides)",
+  "publisher": "University of Houston, Bauer College of Business (Craig Pirrong)",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://www.bauer.uh.edu/spirrong/Pirrong_Geneva_Slides_2.pdf",
+  "covers": "forward curve definition, contango, backwardation, storable vs non-storable commodities",
+  "sample": "Contango: forward prices are increasing with time to expiry, but do not necessarily cover carrying charges"
+ },
+ {
+  "id": "ref-montel-shape-imbalance",
+  "title": "Managing shape and imbalance risk in power procurement",
+  "publisher": "Montel",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://montel.energy/resources/blog/managing-shape-and-imbalance-risk-in-power-procurement",
+  "covers": "shape risk (baseload hedge vs actual usage profile), imbalance risk",
+  "sample": "Shape risk is the mismatch between the contracted baseload and the actual usage profile."
+ },
+ {
+  "id": "ref-rff-merchant-hedges",
+  "title": "Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06)",
+  "publisher": "Resources for the Future",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://media.rff.org/documents/WP_19-06_Bartlett.pdf",
+  "covers": "basis risk from congestion, shape risk, market heat rate, gas forwards, peak/off-peak monthly prices, tolling agreement (offtaker dispatches)",
+  "sample": "The expected market heat rate allows the conversion of a natural gas price, in $/MMBtu, to an electricity price, in $/MWh."
+ }
+]

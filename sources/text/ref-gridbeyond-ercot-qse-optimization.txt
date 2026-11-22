@@ -1,0 +1,163 @@
+[]
+
+-   Asset owner FTM
+    -   Battery Storage
+    -   Battery storage and renewables co-location
+    -   Gas Peaker & CHP
+    -   PPAs & Hedging
+    -   Renewables Optimisation – Wind, Solar & Hydro
+    -   Software solutions
+-   Energy user BTM
+    -   Carbon Management
+    -   Corporate PPA & Hedging
+    -   Demand Side Response
+    -   Electric Vehicles & Fleet Management
+    -   Funded Battery Storage
+    -   Microgrid & Solar
+    -   Path to Net Zero
+    -   FlexPilot
+    -   Software solutions
+    -   Intelligent Energy Management System 
+-   Technology
+-   Insights
+-   About us
+    -   Energy Trends | GridBeyond Podcast
+    -   Case Studies
+    -   Events & Webinars
+    -   Investor Relations
+    -   Media
+    -   Partners
+    -   Team
+    -   Working at GridBeyond
+    -   Why choose GridBeyond?
+-   Contact us
+    -   Chat with Aiva - AI Energy Assistant
+    -   Contact us
+-   Book a meeting
+
+[]
+
+[] [][]
+
+Change your location Australia Canada Ireland Japan United Kingdom of Great Britain and Northern Ireland United States of America
+
+-   Asset Owner FTM
+-   Energy User BTM
+-   Technology
+-   Insights
+-   About us
+-   Careers
+-   Contact us
+
+[] My Account
+
+[]
+
+[]
+
+[]
+
+[] [] []
+
+Post: GridBeyond launches commercial optimization of 29.7 MW battery portfolio in ERCOT new co-optimized market
+
+News
+
+Energy management insights for
+better business decisions
+
+Home | GridBeyond launches commercial optimization of 29.7 MW battery portfolio in ERCOT new co-optimized market
+
+Posted 3 months ago | 4 minute read
+
+GridBeyond launches commercial optimization of 29.7 MW battery portfolio in ERCOT new co-optimized market
+
+AI-driven optimization, forecasting and Qualified Scheduling Entity services maximize battery revenues for SmartestEnergy’s PPA battery portfolio in South Texas, under ERCOT’s new RTC+B market.
+
+GridBeyond, a global AI-powered energy technology company, has commenced commercial optimization for 29.7 MW of front-of-the-meter battery storage assets in Texas, providing AI-driven optimization, forecasting and Qualified Scheduling Entity (QSE) services for SmartestEnergy’s South Texas battery portfolio.
+
+SmartestEnergy‘s “Texas Ten” PPA portfolio has begun with three 9.9 MW battery energy storage systems located in Cotulla, Palmview and Edinburg, now actively participating in ERCOT’s real-time and day-ahead energy markets under GridBeyond’s optimization and QSE representation.
+
+The announcement comes as battery storage operators adapt to ERCOT’s Real-Time Co-Optimization plus Batteries (RTC+B) market design, which went live in December 2025 and has changed how batteries participate in real-time energy and ancillary services markets. With energy and ancillary services now co-optimized in real time, and battery state of charge explicitly considered in market operations, asset owners require more sophisticated forecasting, bidding and dispatch capabilities to compete effectively.
+
+Through its technology platform, GridBeyond combines AI-driven battery optimization, energy price forecasting, automated bidding and QSE scheduling. This full-stack approach enables each asset to be dispatched into the right market at the right time, maximizing revenue opportunities while managing degradation, state of charge and operational constraints.
+
+GridBeyond’s proprietary Bid Optimizer is purpose-built for this environment, leveraging advanced AI to simultaneously optimize across energy and ancillary service products, aligning market price forecasts with battery state-of-charge simulations. This helps battery owners and investors respond to market volatility, capture stacked revenue opportunities and improve long-term asset performance.
+
+Sean McEvoy, US President & Chief Product Officer at GridBeyond, said: “Battery storage is becoming significantly more sophisticated. Success in ERCOT is no longer determined simply by market participation, but by the ability to make thousands of optimization decisions across multiple value streams while respecting asset constraints. Bringing these three BESS projects into commercial operation in ERCOT demonstrates the strength of our platform and our ability to deliver full-service solutions across multiple US ISO markets. Our team in Austin delivers real-time optimization, market forecasting, and QSE services to help asset owners capture greater long-term value in one of the world’s most dynamic power markets.“
+
+Gavin Baker, VP Trading and Origination, SmartestEnergy US, said, “As ERCOT’s market continues to evolve, having the right optimization strategy and market expertise is critical to maximizing the value of battery storage assets. Our continued collaboration with GridBeyond reflects our shared commitment to delivering innovative, data-driven solutions that help assets perform in an increasingly sophisticated market.“
+
+Across the U.S., GridBeyond provides optimization and market access services across CAISO, ERCOT, PJM, MISO, and SPP, managing a rapidly growing portfolio of utility-scale battery storage, large flexible loads, and renewable generation assets. With 5+ GW under management globally and 900+ MW of battery storage, the company continues to expand its North American footprint to meet rising demand for intelligent, technology-led asset management.
+
+About SmartestEnergy US
+SmartestEnergy US is a people-powered energy retail partner and wholesale commodity trader, built upon the knowledge and experience of our team of US energy experts and strong relationships with our partners. Headquartered in London, we opened our New York office in 2019, marking the SmartestEnergy Group’s first international operation outside of the UK. This year the SmartestEnergy Group celebrate 25 years of growth and innovation, underpinned by an integrated, asset light business model. As a forward-thinking and resilient energy partner, we support customers in navigating the energy transition and help enhance the value of energy assets. Our retail business offers flexible, reliable and renewable energy, and our insights into the US market help businesses make smarter energy decisions. We’re proud to be a wholly owned subsidiary of Marubeni, a Japanese Fortune Global 500 company.
+
+Enjoyed this content? Why not share it:
+
+[] [] []
+
+Back to all Insights
+
+Latest energy insights
+
+-   []
+
+    20 October 2026
+
+    []6 minute read
+
+    Choosing a demand response or battery optimisation partner: 10 questions to ask before you sign
+
+    Read More
+
+-   []
+
+    15 October 2026
+
+    []2 minute read
+
+    EU Commissioner visits GridBeyond HQ
+
+    Read More
+
+-   []
+
+    15 October 2026
+
+    []6 minute read
+
+    Following the forecast: the hidden risk in battery optimization | Q&A
+
+    Read More
+
+-   [power pylons with green grass and blue sky]
+
+    14 October 2026
+
+    []2 minute read
+
+    IRENA urges faster renewable electrification
+
+    Read More
+
+What's your site worth in the energy markets? Find out more in 4 simple steps.
+Go to Energy Opportunity Calculator
+
+[]
+
+-   Energy Glossary
+-   About us
+-   Careers
+-   Contact us
+-   Privacy Policy
+
+[]
+
+[]
+
+[] [] []
+
+This site uses cookies to improve and personalise our website for yourself and others. To learn more about the cookies we use and why, read our  cookie policy .
+
+Accept

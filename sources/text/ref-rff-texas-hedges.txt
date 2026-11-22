@@ -1,0 +1,145 @@
+[]
+
+[]
+
+More from RFF:
+
+-   Topics
+-   Publications
+-   Events
+-   About
+
+-   []
+-   Common Resources A blog offering timely analysis and commentary
+-   Resources Radio A weekly podcast of interviews with experts
+-   In Focus Videos of expert insights on major news
+-   Magazine Issues Our Resources magazine digital archive
+-   Magazine Articles Articles from the print magazine
+-   On the Issues A biweekly newsletter of timely topics
+
+-   Special Series from the Blog Special Series from the Blog
+-   About About
+-   Subscribe Subscribe
+-   Search Search
+
+Menu
+
+[]
+
+Resources - innovative ideas and engaging stories in environmental economics
+
+Published since 1959 by Resources for the Future
+
+Texas Power Crisis Exposes Problems with Financial Risk–Mitigation Strategies in Renewable Energy Projects
+
+Jay Bartlett
+
+[GettyImages-467860712.jpg]
+
+Date
+
+March 31, 2021
+
+Image
+
+Spencer Platt / Getty Images
+
+Strategies to mitigate financial risks, known as hedges, may leave renewable energy projects or the power system vulnerable to extreme weather events. How can different hedge designs more effectively manage risks?
+
+The economic and political effects of the power crisis last month in Texas continue to ripple across the state. Griddy Energy recently became the third retail power supplier—after Brazos Electric and Just Energy—to file for bankruptcy protection after incurring debts to the Electricity Reliability Council of Texas (ERCOT), the state’s grid operator. On the same day, the Texas Senate approved a bill to reduce $5.1 billion in fees that accrued during 32 hours of disputed emergency pricing near the end of the crisis.
+
+The power crisis also impacted renewable energy in Texas, most of which comes from wind. Innergex Renewable Energy estimates a loss of up to $50 million, and RWE expects a loss of “several hundred million” dollars. However, the financial effects of the power crisis were not severe, or even negative, for all wind projects in the state. During the extreme weather event, EDP sustained relatively modest losses, and Avangrid earned strong profits.
+
+Two factors account for the varying financial performances across wind projects. First, while some wind farms experienced diminished output due to icing or grid issues, others did not. In particular, wind facilities in southern Texas were more likely to keep running. Second, wind projects have a variety of mechanisms for selling or hedging their energy revenue, which results in vastly different outcomes during periods of high prices.
+
+Monetizing and Hedging Renewable Power
+
+Across the United States, wind projects often have several sources of value, including capacity market payments, renewable energy certificates, the production tax credit, and energy revenue. But in Texas, no capacity market exists, and the prices of renewable energy certificates are insignificant, which leaves the production tax credit and energy revenue as the main value streams for Texas wind projects.
+
+Housed in the state’s deregulated wholesale market, wind projects in Texas typically structure their energy revenue in one of three ways: First, if the wind project does not have a long-term sales contract or hedge contract (a strategy to mitigate risk) for its energy, it operates under a “merchant” arrangement. With a merchant arrangement, the wind project receives revenue from the wholesale market for each megawatt-hour (MWh) of energy generated, at a price that varies over time and location. Because securing low-cost financing is difficult when project revenues are too unpredictable, few wind projects rely entirely on merchant revenue. More often, wind projects allocate a fraction of their energy generation toward a merchant arrangement to boost owners’ expected returns.
+
+Second, rather than face fluctuating energy prices from the wholesale market, the project may choose instead to receive fixed prices for the energy it produces. Traditionally, this arrangement has taken the form of a power purchase agreement (PPA), in which the wind project sells energy to a utility under a long-term contract. Since 2015, corporations—such as Amazon, Google, and Facebook—have procured large amounts of wind energy through what are termed virtual PPAs (also known as synthetic PPAs). Unlike a physical PPA, which delivers power directly to the buyer, a virtual PPA is a type of financial hedge because the power is not delivered to the corporation. However, the revenue effect is the same for virtual and physical PPAs: the wind project receives a fixed price for the energy it produces.
+
+Third, the wind project may enter into a bank hedge agreement with a financial institution—a particularly common structure in ERCOT, thanks to its mature and liquid power trading markets. As with a PPA, the bank hedge allows the wind project to opt for agreed-upon fixed prices instead of floating wholesale power prices. However, the bank hedge differs from a PPA in that the quantity of energy being hedged is contractually fixed; it does not depend on what the wind project actually generates. Hence, a bank hedge is also known as a fixed-volume price swap.
+
+Figure 1 outlines how these different arrangements work. I present a more detailed discussion of contract features and risks in a 2019 RFF working paper and elaborate in an accompanying blog post on how financial hedges have supported the growth of US wind capacity.
+
+Figure 1. Net Energy and Financial Flows for Wind Projects, by Sales or Hedge Structure
+
+[]
+
+Under typical power market conditions, a merchant structure is riskiest for a wind project, while a bank hedge is safer, with a PPA the least risky arrangement of all. However, during the extreme weather and market conditions in Texas from February 15 to February 19, when the wholesale power price reached its $9,000/MWh cap, the bank hedge became the most precarious arrangement. Table 1 shows the energy revenue that a wind project would receive under a merchant structure, a PPA with an illustrative price of $20/MWh, and a bank hedge with an illustrative price of $25/MWh. The three generation scenarios that the wind project produces are the following: x MWh, which is less than the quantity of the bank hedge; y MWh, which is equal to the quantity of the bank hedge; and z MWh, which is more than the quantity of the bank hedge.
+
+A wind project with merchant generation would have been able to sell its energy at the $9,000/MWh price cap, thereby realizing a large gain, as long as the facility had been operational. For a project with a physical or virtual PPA, the high price would have had no effect on energy revenue, as floating wholesale prices were swapped for the fixed PPA price. A project with a bank hedge could have experienced large gains or large losses from the high price: If generation had exceeded the hedged quantity, the project could have sold the surplus for $9,000/MWh. But if generation had underperformed, the wind project would have had to pay $9,000/MWh for the shortfall.
+
+Table 1. Illustrative Energy Revenue of a Wind Project When Wholesale Power Prices Reach $9,000/MWh
+
+[]
+
+As Table 1 illustrates, if a 200-MW wind farm had a bank hedge that assumed a 25 percent capacity factor for mid-February, but icing forced the entire facility offline during the four days of emergency pricing, the project would have incurred a loss of over $40 million on the hedge. For instance, RWE has 2.6 gigawatts of wind capacity in Texas, so its predicted loss from the crisis of several hundred million dollars is not surprising.
+
+Although the crisis created a financial shock to certain wind projects, the potential for bank hedges to generate losses has a positive influence on power system reliability. A bank hedge provides a stronger incentive for the project to stay operational during times of scarcity than a merchant arrangement, and a much stronger incentive than a PPA. The incentive was not sufficient last month—infrastructure components throughout the Texas power and gas sectors were unprepared. But going forward, wind projects with bank hedges will likely be more inclined to invest in winterizing their turbines for future events, compared to projects with PPAs.
+
+More Effective Options
+
+The main objection to a bank hedge is that it does not distinguish between operational risk, over which the project has some control, and wind speed risk, which the project cannot control. With an increasing amount of wind generation in Texas and elsewhere, power scarcity—and thus high prices—may occur during times of low wind speeds across the region. In that scenario, wind projects, through no fault of their own, will incur substantial losses on bank hedges.
+
+An alternative to a bank hedge is a proxy revenue swap, which would better allocate risk between the wind project and hedging counterparty. In a proxy revenue swap, the project pays the counterparty an amount based on floating wholesale prices and measured wind speeds; in return, the project receives fixed revenue. Consequently, the project would be penalized only for its turbines not operating properly—not for times when wind speeds are unexpectedly low. Although a proxy revenue swap is a relatively new arrangement and is far less common than a bank hedge or virtual PPA, its allocation of risk is preferable to the other two hedge structures.
+
+The Texas power crisis has shown how different sales and hedge structures create very different levels of incentives for a wind project to generate during times of scarcity. While most attention focuses now on projects that either sustained great losses or earned windfall profits, more alarming over the long term are projects that were financially unaffected by the crisis. Those generators may have had little motivation to produce power during a time of great need. Appropriate incentives may not guarantee power supply—clearly, they did not last month—but aligning incentives between wind projects and system needs will better promote beneficial investments and operations. As wind and solar comprise an increasing percentage of power generation, well-designed hedge structures could prove instrumental to power system reliability.
+
+[] Share via email [] Print [] Share on Twitter [] Share on LinkedIn
+
+Related People
+
+[]
+
+Jay Bartlett
+
+Member, RFF Board of Directors; Senior Advisor
+
+Related content
+
+[texas snow powerlines]
+
+What Happened in Texas? Understanding the Blackouts and Drawing Lessons for the Power Grid
+
+Karen Palmer and Kathryne Cleary
+
+[GettyImages-150968082.jpg]
+
+Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges
+
+[wind farm]
+
+Financial Hedges Sustain Current Growth of US Wind Capacity
+
+Jay Bartlett
+
+[shutterstock_556513009.jpg]
+
+US Electricity Markets 101
+
+Digital Subscription
+
+Sign up to receive our Resources Radio podcast and On the Issues newsletter every week.
+
+Subscribe
+
+Print Subscription
+
+Become an RFF donor and receive our print magazine three times a year.
+
+Subscribe
+
+[Footer print image]
+
+Resources
+
+Published since 1959 by Resources for the Future
+
+[] [] []
+
+We use cookies to provide you with a better service. Carry on browsing if you're happy with this, or find out more.
+
+[]

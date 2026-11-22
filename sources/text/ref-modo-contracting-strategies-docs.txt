@@ -1,0 +1,133 @@
+MODOENERGY
+
+[Dark mode] [Light mode]
+
+Version: Oct 2026
+
+Oct 2026
+
+July 2026
+
+Apr 2026
+
+Jan 2026
+
+Oct 2025
+
+🔍 ⌘K
+
+Get Started
+
+Overview Principles Available Regions Use Cases
+
+▶ Running a Forecast
+
+Custom Generation Profile
+
+Contents
+
+Contracting Strategies
+
+Key takeaway: Contracting strategies allow battery owners to evaluate the financial impact of different offtake structures — tolling agreements, capacity swaps, revenue collars (CIS/LTESA), and revenue swaps — against merchant revenue, without changing the underlying dispatch optimisation.
+
+Post-dispatch valuation
+
+Contracting strategy valuation is applied after battery dispatch has been optimised. It does not influence how the battery is dispatched; instead, it overlays different commercial structures on top of the merchant revenue forecast to produce:
+
+-   Fair values: The breakeven contract price derived from the forecast merchant revenue, discounted to present value.
+-   What-if settlements: If a contract price is provided, the model calculates what the battery’s revenue would be under that contract compared to pure merchant operation.
+
+All contract prices are expressed in $/MW/year. A configurable discount rate (default 10%) is used to compute the present-value-weighted average when deriving fair values.
+
+Strategy types
+
+Four contracting structures are supported. Multiple strategies can be stacked in a single forecast run to model a blended portfolio.
+
+Tolling agreement
+
+A tolling agreement provides a fixed capacity payment ($/MW/year) for all or part of the battery’s capacity. The battery continues to dispatch optimally in the market, but the contracted portion of revenue is replaced by the toll.
+
+-   Physical toll and virtual toll subtypes are available for labelling purposes; they are modelled identically.
+-   Contracted capacity (MW): The portion of the battery covered by the toll. Revenue is split proportionally between contracted (fixed) and uncontracted (merchant) MW.
+-   Fair value: The discounted average of annual merchant revenue per MW over the contract period.
+-   What-if: If a fixed price is provided, the model computes the blended revenue (contracted at fixed price, remainder at merchant) and the difference versus full merchant operation.
+
+Capacity swap
+
+A capacity swap splits the battery into a contracted tranche earning a fixed annual fee and a merchant tranche earning market revenue. Dispatch is unified — all MW are dispatched together — but revenue is allocated proportionally.
+
+-   Economically identical to a tolling agreement applied to a capacity tranche.
+-   Fair value and what-if calculations follow the same logic as tolling.
+
+Revenue collar (CIS/LTESA)
+
+A revenue collar is a two-way contract for difference on annual revenue, structured around three price levels:
+
+-   Floor price ($/MW/year): Minimum revenue guarantee. If annual merchant revenue falls below the floor, the government tops up a configurable fraction of the shortfall.
+-   Ceiling price ($/MW/year): Revenue sharing threshold. If revenue exceeds the ceiling, the project returns a fraction of the excess.
+-   Annual payment cap ($/MW/year): Hard cap on total government support in any single year.
+
+Two preset configurations reflect the major Australian schemes:
+
+  Parameter          NSW LTESA   Federal CIS
+  ------------------ ----------- -------------
+  Floor coverage     100%        90%
+  Ceiling fraction   100%        50%
+
+Under the NSW LTESA defaults, the collar is symmetric — the government covers the full floor gap, and the project returns the full ceiling excess. Under the Federal CIS defaults, the government covers 90% of the floor gap and the project returns 50% of the ceiling excess.
+
+If no floor or ceiling price is provided, the model derives the breakeven floor (the floor price at which the net present value of settlements equals zero).
+
+Revenue swap
+
+A revenue swap provides floor protection with configurable upside sharing:
+
+-   Floor price ($/MW/year): If annual revenue falls below the floor, the counterparty tops up the difference.
+-   Participation rate: The fraction of upside (revenue above the floor) that the battery owner keeps. The remainder is returned to the counterparty.
+
+For example, with a participation rate of 70%, the owner retains 70% of any revenue above the floor and returns the remaining 30%.
+
+-   Fair value: The breakeven floor price where the net present value of all settlements (top-ups received minus upside shared) equals zero. This is solved numerically using bisection.
+-   What-if: If a floor price is provided, the model calculates the annual top-up, upside shared, and net revenue.
+
+Portfolio stacking
+
+Multiple strategies can be combined in a single forecast. The model tracks each strategy’s settlement independently, then aggregates:
+
+-   Total contract settlement per MW: The sum of all individual strategy settlements across every interval.
+-   Total revenue per MW: Merchant revenue plus the total contract settlement.
+
+CIS/LTESA strategies are applied as a financial overlay on the full battery — they do not partition capacity. Tolling and capacity swap strategies partition capacity, allocating contracted MW to the fixed payment and the remainder to merchant revenue.
+
+Configuration
+
+Each strategy requires the following common inputs:
+
+  Parameter                 Description
+  ------------------------- --------------------------------------------------
+  Name                      A label for the strategy (e.g. “Virtual Toll 1”)
+  Capacity (MW)             The battery capacity covered by the contract
+  Contract start/end date   Optional date range to limit the contract period
+
+Strategy-specific parameters (fixed price, floor/ceiling, discount rate, participation rate) are described in the sections above. When optional price fields are left blank, the model derives the fair value only.
+
+Outputs
+
+The model produces per-interval and annual outputs for each strategy:
+
+-   Fair value ($/MW/year): The breakeven contract price, derived from the discounted average of merchant revenue.
+-   What-if revenue ($/MW): Revenue under the contract at the user-specified price, per interval.
+-   Settlement versus merchant ($/MW): The difference between contracted and merchant revenue, per interval.
+-   Net revenue ($/MW): For CIS and revenue swap strategies, the merchant revenue adjusted for government payments and project returns.
+
+A strategy summary table aggregates results by year, showing the residual merchant allocation and total portfolio revenue across all stacked strategies.
+
+Why fair values depend on the discount rate
+
+Fair values are computed as a present-value-weighted average of the forecast annual merchant revenue per MW across the contract term, with each year weighted by its discount factor. The result is the constant $/MW/year contract price that would have the same present value as the forecast revenue stream.
+
+The discount rate controls how that weight is distributed across years: a higher rate shifts weight toward earlier years relative to later ones. Whether this pushes the fair value up or down depends on the shape of the forecast revenue stream — a flat stream is rate-insensitive, a declining stream produces a higher fair value at higher rates, and a rising stream produces a lower one. The rate should reflect the project’s cost of capital — broadly, the return required to justify the investment given its financing costs and risk profile.
+
+Using a non-zero discount rate gives extra weighting to revenues in the first few years; a simple average (0% rate) is indifferent across the contract term.
+
+✏️ Suggest an edit on GitHub

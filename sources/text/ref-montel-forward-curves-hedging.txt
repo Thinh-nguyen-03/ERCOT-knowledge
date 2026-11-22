@@ -1,0 +1,451 @@
+[]
+
+Why Montel
+
+[]
+
+Why Montel?
+
+Europe's leading source of energy  market intelligence.
+
+See what sets us apart 
+
+[]
+
+About us
+
+Independent and trusted, with 30+ years of market experience.
+
+Discover our story
+
+[]
+
+Contact us
+
+Energy intelligence, combined with a human touch.
+
+Speak to our experts
+
+Solutions
+
+Market insights
+
+What’s happening in the market
+
+News
+
+Live news, newsletters & podcast
+
+Market data and prices
+
+Power, gas, LNG & commodity prices
+
+Market fundamentals
+
+Price drivers & market context
+
+Carbon & environmental
+
+Carbon prices, emissions and renewables
+
+Forecasting & analytics
+
+What's likely to happen next
+
+Live & intraday
+
+Balancing, ancillary services, weather
+
+Short-term
+
+Demand, generation & market forecasts
+
+Medium-term
+
+Fuels, hydrology & market fundamentals
+
+Long-term
+
+Scenario modelling to 2060
+
+Historical data
+
+30+ years of prices & fundamentals
+
+Decision support
+
+How to move ahead
+
+Asset valuation
+
+Portfolio valuation & asset analytics
+
+BESS & PPAs
+
+Battery revenues & PPA pricing
+
+Market exposure
+
+Price risk & scenario modelling
+
+Powered by:
+
+Montel Market
+
+EnAppSys
+
+Energy Quantified
+
+Syspower
+
+Montel Gas
+
+Montel Value
+
+Insights
+
+Insights
+
+Learn from Montel’s market experts
+
+Commentary
+
+Expert insight on what moved the market
+
+Energy blog
+
+Analysis and explainers
+
+Reports, ebooks and whitepapers
+
+Analysis, guides and energy research
+
+Case studies
+
+How energy companies work with Montel
+
+Podcasts
+
+Listen to Montel analysts and guests
+
+Webinar recordings
+
+Past expert briefings on demand
+
+[]
+
+EEG 2027: what will change for solar and wind projects?
+
+Germany's updated renewable energy act introduces significant reforms for project financing and grid access.
+
+[]
+
+Josephine Steppat
+
+Analyst at Montel
+
+Events
+
+Events
+
+Meet, learn and connect with experts
+
+Conferences
+
+In-person events across Europe
+
+Webinars
+
+Live expert briefings on energy markets
+
+Courses
+
+Energy market training led by experts
+
+[]
+
+10 March 2027
+
+Danish Energy Day 2027
+
+We are delighted to invite you to join us in Aarhus on 10 March for the Danish Energy Day 2027.
+
+Centralværkstedet, Aarhus
+
+Login
+
+Montel Markets
+
+EnAppSys
+
+Energy Quantified
+
+Syspower
+
+Sign up for free trial
+
+Blog
+
+Hedging strategies using forward curves in power markets
+
+0%
+
+The writer
+
+[]
+
+Abi Grogan
+
+Freelance Writer
+
+Topics
+
+Energy Prices
+
+Risk Management
+
+Share
+
+[Facebook] [LinkedIn]
+
+[]
+
+Track key market spreads to optimise your energy trading strategy
+
+Explore Montel Analytics
+
+Hedging strategies using forward curves in power markets
+
+Traders who can turn uncertainty into profit tend to engage in more sophisticated forms of trading, one of which is edging using power forward curves. The core concept is to utilise market-led price signals over a certain period to help avoid the volatility of short-term sport prices, locking in lower-priced future energy reserves. Hedging using forward curves involves keeping on top of key drivers of market behaviour and understanding the trading implications of these drivers, as well as the associated risks, to execute hedging.
+
+June 22, 2026
+
+[]
+
+Jump to section
+
+Market fundamentals
+
+We use the forward curve to fix future prices to avoid the volatility of the spot market. This is driven by coal and gas increases, supply and demand and the integration of carbon allowances. Renewables can also impact, as their unpredictability can make it difficult to predict seasonal output. Seasonality is also a key market fundamental, resulting in premiums during high-demand periods such as winter.
+
+Liquidity and positioning
+
+We can use liquidity on a monthly, quarterly and yearly basis to hedge risk over shorter and longer periods. When liquidity is low, this can penalise smaller market participants meaning they have less ability to hedge. Traders can hedge in different ways: full hedging fixes prices for all energy demand levels, while partial hedging leaves some allocation for price deviations. Optimal hedging is another option: it aims to remove some volatility from the spot market through hedging.
+
+Market behaviour
+
+Market behaviours has a strong influence on forward curves and how they present to traders and energy producers. Liquidity, for example, can be lower in the case of long-term contracts, which makes it trickier to hedge against risk. We take a look at some of the curve movements and the patterns that can be identified.
+
+How the phenomenon appears in curves
+
+There are two main phenomena that appear in forward curves: the first is contango, where the spot price sits below the future price, which is a benefit for longer-term sellers looking to fix higher prices. The other is backwardation, in which future prices are lower than current prices. This is usually due to energy supply issues, pushing up the current price of energy. Traders would hedge the lower future prices in order to lock in lower prices to sell on, hopefully at a higher price in the future.
+
+Typical patterns observed
+
+One of the key purposes of hedging in power markets is to manage the volatility of current prices. Drivers of this volatility could include a lack of storage capacity or a spike in demand. Typical patterns tend to be predictable forward curves during seasonality, with contango and backwardation (the switch between forward prices and current prices being higher than the other).
+
+Trading implications
+
+Traders must look for opportunities between the current and future market prices of energy to buy at a lower price and sell at a higher one. This isn’t as straightforward as it may seem due to the volatility of the energy market, so traders will have to monitor market signals to ensure trades are executed profitably.
+
+How traders act on signals
+
+Analysing the forward curve is a key part of how traders identify off-peak or peak pricing and the difference between the two. They might hedge winter demand against summer during price dips, or combine baseload and peak contracts for balance.
+
+Examples of strategies
+
+Traders must identify pockets of opportunity between spreads, future predictions and changes in demand to capitalise on volatility or deviations from industry norms.
+
+1. Heat rate hedging
+
+Hedging the spark spread, or profit margin of natural gas, allows traders to both buy natural gas as part of a forward contract and sell power forwards.
+
+2. Retailer hedging
+
+Categorising customer load profiles by time, for example peak, and then hedging against these with forward contracts can help retailers fix large amounts of energy while leaving room for some flexibility in the future.
+
+3. Static forward hedging
+
+Preparing for winter by buying forward monthly contracts before the price hikes come in is what’s known as static forward hedging. Buying just enough forward contracts to cover expected load can reduce market volatility.
+
+4. Location-centred hedging
+
+Regional data can be used to hedge differences in energy pricing across regions with differing liquidity levels. This can protect against regional price spikes compared to other locations.
+
+5. Delta hedging forwards
+
+For more sophisticated traders, some hedging can manage volume and price risks through combining with forward contracts. It involves hedging only a portion of capacity due to uncertainties, such as power outages or maintenance.
+
+Risk considerations
+
+When assessing execution risk, it's always worth traders bearing in mind liquidity, both at that time and in the future. It’s crucial to excuse a trade based not only on high levels of liquidity in the front-months, but also the thinner levels of liquidity in end-months. The basis risk should also be taken into account: the assumption that the spot price of delivery will not always perfectly align with the specific forward contract. Volume risk refers to the difference between energy demand and the actual amount of energy generated compared to the amount that is actually hedged. Mispricing can be an opportunity, but it’s worth bearing in mind the risk that comes with relying on modelling: trading is often based on models which utilise historical and real-time data points. When these data points don’t correspond to the usual models due to mispricing, we can no longer rely on these models to make trading decisions.
+
+Related articles
+
+Go to Blog
+
+[What are small modular reactors? A beginner’s guide to SMRs]
+
+Risk Management
+
+Power market
+
+Energy Prices
+
+August 27, 2026
+
+What are small modular reactors? A beginner’s guide to SMRs
+
+8
+
+ min read
+
+Read more
+
+[What is CBAM? The Carbon Border Adjustment Mechanism explained]
+
+Market Data
+
+Risk Management
+
+Carbon
+
+August 27, 2026
+
+What is CBAM? The Carbon Border Adjustment Mechanism explained
+
+8
+
+ min read
+
+Read more
+
+[What are capacity markets? How countries pay to keep the lights on]
+
+Market Data
+
+Risk Management
+
+Power market
+
+August 27, 2026
+
+What are capacity markets? How countries pay to keep the lights on
+
+8
+
+ min read
+
+Read more
+
+Get the latest product news and expert analysis from Montel.
+
+Email Address
+
+Thank you! Your submission has been received!
+
+Oops! Something went wrong while submitting the form.
+
+Newsletter
+
+Market insight from our analysts and the latest product news, in your inbox
+
+Sign up
+
+Market Insights
+
+News
+
+Market data & prices
+
+Market fundamentals
+
+Carbon & environmental
+
+Forecasting & Analytics
+
+Live & intraday
+
+Short-term
+
+Medium-term
+
+Long-term
+
+Historical
+
+Decision Support
+
+Asset valuation
+
+BESS & PPAs
+
+Market exposure
+
+Events
+
+Conferences
+
+Courses
+
+Webinars
+
+Platforms
+
+Montel Markets
+
+Montel EnAppSys
+
+Montel Energy Quantified
+
+Montel Syspower
+
+Montel Gas
+
+Montel Value
+
+Insights
+
+Commentary
+
+Reports
+
+Blog
+
+E-books
+
+Case studies
+
+Knowledge base
+
+Whitepapers
+
+Webinar recordings
+
+About
+
+Get in touch
+
+About us
+
+Careers
+
+Contact us
+
+Editorial complaints
+
+Legal Notice
+
+Privacy Policy
+
+[][][][]
+
+Learn more about Montel products or sign-up for a free trial
+
+Get in touch
+
+Error 403 (Forbidden)!!1
+
+403. That’s an error.
+
+Your client does not have permission to get URL /ns.html?id=GTM-NHBCWCF3 from this server. That’s all we know.

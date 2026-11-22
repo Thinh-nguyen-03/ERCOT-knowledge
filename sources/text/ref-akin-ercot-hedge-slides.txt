@@ -1,0 +1,719 @@
+KEY CONSIDERATIONS AND STRATEGIES
+FOR ENERGY PROCUREMENT BY
+COMMERCIAL AND INDUSTRIAL BUYERS
+November 2025
+
+© 2024 Akin Gump Strauss Hauer & Feld LLP.
+All rights reserved. Attorney advertising.
+Prior results do not guarantee a similar outcome.
+
+Agenda
+•
+
+Corporate and industrial buyers seeking energy
+procurement options
+
+•
+
+Requirements and goals of C&I buyers
+
+•
+
+Options for energy procurement – on-site, near-site and
+virtual PPAs
+
+•
+
+Role of RECs in renewable energy procurement
+
+•
+
+Steps to advancing strategy for renewable energy
+procurement
+
+•
+
+Key technical, commercial and legal considerations in
+renewable procurement
+
+•
+
+Typical terms in corporate PPAs
+
+2
+
+Commercial and Industrial Companies Seeking Options to Ensure Reliable Energy Supply and
+Achieve Renewable Energy Goals
+C&I buyers often seek to procure a dedicated and reliable source of energy and may seek to identify renewable sources of supply
+
+Many companies in the United States are seeking to identify options and
+strategies to establish reliable energy supply and to support the
+development of renewable energy projects on a voluntary basis.
+According to NREL,* about 9.7 million customers procured about 319
+million megawatt hours of voluntary renewable power in 2023, up from
+4 million customers and 64 million MWh in 2013. Often, these efforts
+are based on a desire to achieve goals set to use a certain minimum
+percentage of renewable energy and reduce their scope 2 emissions.
+
+US Market for Corporate PPAs Has
+Doubled Since 2020
+More than 10 GWs of Corporate PPAs have
+been executed each year since 2020 with
+more than 20 GWs contracted in 2024
+CEBA Deal Tracker - CEBA (cebuyers.org)
+
+Many corporate buyers are adopting the strategy of entering into longterm renewable power purchase agreements referred to as corporate
+PPAs.* Such transactions can involve the physical purchase and
+delivery of energy from on-site or near-site generation projects or
+may involve what is referred to as a “virtual” transaction or VPPA.
+
+*Status and Trends in the U.S. Voluntary Power Market: 2023 Data
+
+Corporate Buyers Hit 100 GW Milestone
+
+Corporate Commitments
+
+“In 2024, commercial and industrial customers
+brought total clean energy deal capacity up to
+100 GW. This is not just a milestone, but a market
+shift. These energy customers are shifting the
+composition of the U.S. grid. Nearly three percent
+of clean energy generation on the U.S. grid comes
+from commercial and industrial customers
+completing deals.”
+
+Once limited to technology companies,
+commitments by US Companies to go 100%
+renewable or even carbon negative have
+become more common - the RE100 reports that
+94 of its 444 members are in the United States.
+
+CEBA CEO: Global Energy Market Reflects
+Generational Shift in How Energy is Produced and
+Consumed - CEBA
+
+Technical Guidance & FAQs | RE100 (there100.org)
+
+Commercial and Industrial Companies Seeking Options to Ensure Reliable Energy Supply and
+Achieve Renewable Energy Goals (cont’d)
+Options include on-site or near-site generation, virtual PPAs and green tariffs.
+
+• The goals and key considerations of C&I power buyers in
+the US have continued to evolve. Ensuring a reliable
+supply has become more challenging, especially for highuse operations, requiring some buyers to actively seek or
+develop supply options.
+• Corporate policies also impact how supply options are
+evaluated and selected, including reducing GHG emissions,
+community and environmental impact, grid resilience and
+the opportunity to enable the addition of new renewable
+generation projects.
+
+• Options available to C&I buyers include on-site or near-site
+generation, virtual PPAs and sleeved arrangements offered
+by some utilities referred to as green tariffs.
+
+• For renewable energy buyers, local options involving the
+physical delivery and use of renewable energy are generally
+viewed as preferable to virtual transactions. Restrictive
+regulations on retail energy sales, space limitations,
+meteorological and other factors may limit the physical
+options available.
+
+Evolving Goals and Targets of Corporate Buyers
+Key Considerations and Goals of C&I Buyers
+C&I Buyers – Multiple Considerations
+• Resiliency* - Ensuring secure source of supply and managing risk of power outages which may be critical to business operations.
+• High-energy need buyers, such as data centers, and limitations in local retail supply capacity may require C&I buyers to actively seek a sufficient and
+reliable supply of energy.
+• Risks also include extreme weather events, cyberattacks and geopolitical conflicts.
+
+• Corporate Goals – Corporate goals may also include overall reduction in GHG emissions, the use of zero-carbon energy as well as
+environmental and community-based considerations.
+
+C&I Renewable Buyers – Goals and Targets**
+• Additionality – Contract or purchase is sufficient to support the development and construction of a new renewable generation project and,
+therefore, adds to the pool of renewable resources.
+• Grid Resilience – Enhancement of available resources, participation in market programs and use of storage to support grid operations and
+cooperation with utilities taking into consideration local resource planning. Additional considerations include community and generation
+asset resilience.
+• Environmental Sustainability – Preservation or protection of environment and reduction of impact in siting and developing generation
+projects. Brownfield projects and dual-use of lands are examples of environmentally-driven strategies.
+• Proximity – Focus has come to include the potential for reducing carbon emissions in local power market and a preference for a direct link
+between energy usage and the source of supply.
+* The Clean Energy Buyers Institute Maximizes Clean Energy Benefits Beyond the Megawatt – CEBA
+** Principles – Clean Energy Buyers Institute
+
+6
+
+Project Developers Offer Products and Services to Corporate Buyers
+Key Considerations and Goals of C&I Buyers
+From the Perspective of Project Developer – Benefits to Selling to C&I Buyers
+• Buyers willing to make a long-term commitment
+• Typically have strong credit rating
+
+• Location may not be an issue if looking for a virtual transaction
+• Buyers willing to accept market terms on construction completion and facility performance
+• Also willing to share in other market risks like force majeure and in limited cases change in law .
+
+From the Perspective of Project Developer – Challenges in Selling to C&I Buyers
+• Many buyers use RFP or similar competitive process and look at various criteria in addition to price in assessing offers
+• Heightened focus on rights and remedies associated with delivery of RECs from specific source and future environmental attributes
+• If providing on-site generation:
+• Need specialized remedies upon breach or termination as no access to market
+
+• Need to assess condition at applicable site, including available space and infrastructure and obtain appropriate access rights
+• Need protection from any on-site environmental contamination
+
+• Buyers often require project company to comply with buyer-specific corporate policies and standards of conduct. Issues of particular
+concern include use of forced labor within supply chain.
+
+7
+
+Options for Renewable Energy Procurement
+Options for Procurement of Renewable Energy and RECs
+
+Available options will vary by location based largely on level of regulation and meteorological
+considerations as to suitability of location for solar or wind power.
+Primary Options
+• On-site Generation - Includes ground-mounted or rooftop solar or solar +
+storage. Requires sufficient space to support required infrastructure and
+a location that allows for use of the preferred generation technology.
+• Traditional PPA – Involves the direct purchase of energy from a
+generation project and the physical delivery of energy from such project
+and requires the ability to physically interconnect either directly or
+through the local transmission grid.
+
+• Green Tariffs - Bundled products are offered by utilities in some
+locations including renewable power and RECs. Retail products can be
+market-based or linked to a specific renewable project which are
+sometimes called “Green Tariffs.”
+
+Whether the primary options are available depends on local regulatory
+framework and the products offered by the local regulated utility.
+Varies materially state by state.
+• Virtual Transactions –
+• Contract for the purchase of RECs and the purchase of energy
+generated by a renewable project which is then physically delivered
+and sold into the regional wholesale market in which the project is
+located.
+• Often structured as fixed-for-floating swap.
+8
+
+Role of Renewable Energy Credits
+RECS represent the RECs non-power attributes of one megawatt-hour (MWh) of renewable electricity generated and delivered to the power grid .
+
+•
+
+•
+
+Renewable Energy Credits or “RECs” are the basis upon which an
+energy user can claim the use of renewable energy. Once such a
+claim is made, the RECs must be retired. RECs are generated
+and registered based on the generation of electricity from
+renewable resources. They are a virtual commodity traded
+through electronic platforms like WREGIS.
+RECs are used by load-serving entities to comply with state
+renewable procurement requirements. C&I buyers in the U.S.
+also purchase and retire RECs on a voluntary basis on their own
+behalf to establish a legal basis to publicly claim they have used
+renewable energy for their business operations.
+
+•
+
+NREL* estimates that voluntary renewable power market sales
+represented about 44% of renewable energy sales excluding
+large hydropower and about 8% of all U.S. retail electricity sales
+in 2023.
+
+•
+
+Voluntary purchases may be (i) short-term or long-term, (ii)
+made from utilities through established green programs or from
+private wholesale sellers, (iii) be resource-specific or not, and
+(iv) include just RECs or bundled power and RECs.
+
+*Status and Trends in the U.S. Voluntary Power Market: 2023 Data
+
+9
+
+Use of Renewable Energy Credits
+Unbundled RECs v. Bundled Products
+
+•
+
+Unbundled RECs - Can be purchased in the open market as generated by •
+the operation of any renewable generation project, including existing
+facilities. The impact of such purchases is viewed as limited as it does not
+necessarily support the development of new projects.
+
+•
+
+Bundled Products – Viewed as having a higher impact as purchase of
+power and RECs especially for an extended term establishes a firm source
+of revenue to support the development and construction of new
+•
+renewable generation.
+
+The EPA has published guidance* as to credible claims as to the use of
+renewable energy in reliance upon the exclusive ownership of and
+retirement of RECs. Among other things, the EPA recommends buyers
+procure RECs which are certified and verified by an independent thirdparty like Green-e. See also The-Legal-Basis-for-RECs.pdf for additional
+discussion of the legal basis for RECs under state and federal law.
+The FTC has also implemented regulations** for claims regarding the use
+of renewable energy included in labeling, advertising, promotional
+materials and other forms of marketing
+
+*Credible Claims | US EPA
+**Guides for the Use of Environmental Marketing Claims ("Green Guides") | Federal Trade
+10
+Commission
+
+Steps to Advancing Strategy for Renewable Energy Procurement
+
+1
+2
+
+Site screening – evaluate and select best option for individual locations; technical and legal screening to include consideration
+of on-site and near-site options and requires, among other things, evaluation of energy regulatory framework which controls
+available options.
+Sample legal questions
+
+Sample technical questions*
+
+• Is net metering available in the location?
+
+• Is location appropriate for solar generation?
+
+• Are green tariffs available from the local utility?
+
+• Is there sufficient space for ground-mounted or roofmounted solar?
+
+Once screening complete, implement preferred option via auction or bilateral negotiations
+• Select and/or study relevant power market
+
+• Evaluate bids/proposing developers, if applicable
+
+• Develop form term sheet and form definitive agreement
+
+• Negotiate definitive agreement (e.g., power purchase
+agreement, license or site lease, virtual power purchase
+agreement, guaranty)
+
+• Conduct auction to generate competition, if applicable
+
+11
+
+Key Issues In Renewable Energy Procurement
+Key Technical and Commercial Issues and Legal Risks
+
+Procuring renewable energy and RECs involves the consideration of technical, commercial and legal
+issues based on the energy demand at each physical location and the transactions permitted and
+supported by the energy regulatory framework under applicable state law at each location.
+
+Key Technical Issues
+
+Key Commercial Issues
+
+• In developing a strategy, it will be necessary to quantify the energy usage
+at each physical location of the corporate buyer and the current sources
+for such energy.
+
+• Cost of retail power and unbundled RECs versus bundled or virtual
+products
+
+• Technology risk – risks associated with selected generation technology
+
+• Price risk and potential liability in downside case/options to limit
+exposure, including collars and revenue sharing arrangements
+• ESG considerations/increased expectations of consumers
+• Developer selection/credit risk
+
+• Credit rating of proposed buyer
+• Dedication of real property to energy infrastructure
+
+12
+
+Key Issues In Renewable Energy Procurement (cont.)
+Key Technical and Commercial Issues and Legal Risks
+
+Key Legal Risks
+• Transactions permitted within local power market based on the
+energy regulatory framework
+− The extent to which direct wholesale transactions with an independent
+power producer in addition to options made available by the local
+utility varies materially from state to state.
+− Even in states where such wholesale transactions are not permitted,
+there is typically some exceptions for self-supply or co-located
+generation.
+
+• Price Risk
+− Procurement of energy or RECs may expose C&I buyers to the risk of
+price fluctuations within the applicable market and differences
+between market and location-specific prices.
+− Agreements will likely address basis risk, negative market prices and
+loss of market index.
+
+Agreement to address acceptable forms, issuers and draw conditions.
+
+• Construction Risk
+− Sellers expect C&I buyers to share in construction risk by allowing
+extensions of completion deadline in certain circumstances and
+limiting Seller’s liability for breach pre-completion.
+
+• Compliant “Green” Declarations
+− Retirement of RECs required to make claims as to the use of
+renewable power.
+− EPA and FTC have issued guidance and regulations as to green claims.
+− Risk of charges of false or deceptive marketing claims, including
+potential legal action.
+
+• Credit and Collection Risk
+− Seller is typically a special-purpose entity with no assets beyond
+applicable project.
+− Seller typically required to post significant credit support.
+
+13
+
+Key Issues In Renewable Energy Procurement (cont.)
+Key Technical and Commercial Issues and Legal Risks
+
+Key Legal Risks
+• Supply and Performance
+
+• Additional Risks
+
+− PPAs address expected energy volume and potential planned and
+unplanned outages.
+
+− Excused performance for force majeure and other emergencies and
+need for back-up power.
+
+− Remedies for underperformance include the payment of damages and
+procurement of substitute RECs.
+
+− Impact of curtailment by local transmission provider
+
+• Compliance Risk
+
+− Supply chain risks, including as to available equipment and additional
+costs associated with international procurement
+
+− Treatment of change in law risk
+
+− C&I buyers typically very concerned about compliance by seller and
+project with applicable law. Often, compliance with specific buyer’s
+compliance policies is also a key concern.
+− Risks extend to contractors and subcontractors of seller.
+
+− Issues include employment practices, including the use of forced
+labor and consideration of prevailing wage, environmental practices,
+community impact, diversity policies, cybersecurity risks and the
+treatment of confidential information.
+14
+
+Key Issues In Renewable Energy Procurement (cont.)
+Key Technical and Commercial Issues and Legal Risks
+To varying degrees, state legislation has been focused on rate classifications, co-location of energy facilities, back-up generation,
+and reporting requirements for C&I and large load customers.
+
+• Oregon – POWER Act (HB 3546)
+− Creates a new customer classification and rate class for large energy
+users, such as data centers, that consume more than 20 MW
+− Requires large users to sign minimum 10-year contracts for energy
+
+− Pay a minimum for energy use (based on projected usage) and
+additional infrastructure costs incurred for serving the large user
+
+• Texas – SB 6, SB 1942 and HB 3970
+— Expedited interconnection process for operators of large loads of at
+least 75 MW at a single site who agree to cease consuming energy
+from the power grid by exclusively using their behind-the-meter
+generation when directed
+— Requires new large electric loads connected after December 31,
+2025, to pay a $100,000 fee for interconnection studies
+— Large loads, especially those served at transmission voltage, are
+subject to curtailment during emergencies and can be required by
+ERCOT to deploy their own backup generation if they have it
+— New large users must disclose any other similar project requests they
+have in Texas
+
+15
+
+Key Issues In Renewable Energy Procurement (cont.)
+Key Technical and Commercial Issues and Legal Risks
+To varying degrees, state legislation has been focused on rate classifications, co-location of energy facilities, back-up generation,
+and reporting requirements for C&I and large load customers.
+
+• Illinois – SB 2181
+− Starting 1/1/2026, data centers must file an annual report with the
+Illinois Power Agency report detailing their monthly energy and water
+consumption, including specifics about energy sources, water usage
+for cooling or other purposes, and any efficiency improvement
+measures undertaken during the previous year
+− The Illinois Power Agency is also required to conduct a comprehensive
+study examining how data centers impact rate-paying customers,
+including their effects on electricity demand, rate changes, and
+environmental implications, which shall be submitted to the General
+Assembly and Governor
+
+• Georgia – HB 528 and PSC Docket No. 55378
+— Requires "high resource use facilities," including large data centers,
+to disclose details on energy usage, water usage, air quality permits,
+and noise levels
+— Disclosures are required before a facility can enter into a contract for
+tax incentives or apply for permits to construct or operate
+— Any new customers using more than 100MW of energy can be billed
+using terms and conditions beyond those used for standard customers,
+including commitment to pay for minimum load
+— Starting 1/1/2026, in addition to site specific costs, data centers using
+more than 100MW of energy would pay for costs incurred by upstream
+generation, transmission and distribution to these large-load power
+users as construction of the data centers progresses
+— Longer contract lengths (from minimum of 5-years to 15-years)
+
+16
+
+Typical Terms in Corporate PPAs
+Key Terms Establish Allocation of Risks Between Buyer and Seller
+
+• Credit quality of corporate buyer and required credit support
+from buyer and seller.
+− Corporate buyer must generally be investment-grade or provide
+comparable credit support acceptable to developer and applicable
+financing parties.
+− Non-recourse project financing will require creditworthy offtaker.
+
+− Seller is often a special-purpose entity so will be required to
+provide reasonable credit support.
+
+• Price for Energy and RECs
+− Depending upon nature of arrangement, price may be fixed or linked
+to a published index. Virtual PPAs are often structured as fixed-forfloating swaps.
+− Transactions linked to variable price carry additional risk. Need to
+assess price risk within specific market; consider negative pricing
+scenarios.
+
+• Quality of RECs and Control over REC accounts
+• Firmness of purchase obligations and term of commitment
+− Developers will look to obtain firm commitment for a minimum term
+to establish firm revenues to support capital investment in proposed
+project.
+
+− Non-recourse project financing also requires firm contracted
+revenues.
+
+− Contracts should provide for purchase and delivery of RECs generated
+by power being purchased, including as to vintage. Owner of RECs
+has the sole right to publicly claim use of renewable power.
+− EPA recommends use of RECs certified and verified by a third party
+such as Green-e.
+− We recommend buyers establish their own REC accounts to control
+delivered RECs including retirement of same.
+
+17
+
+Typical Terms in Corporate PPAs
+Key Terms Establish Allocation of Risks Between Buyer and Seller
+
+• Remedies for Breach
+
+• Compliance with Applicable Law
+
+— Liability of project company typically limited pre-completion if
+project development and construction is not successful.
+
+— Corporate buyers typically have established corporate policies
+regarding compliance matters.
+
+— Similarly, liability for underperformance of project is often capped
+based on pre-agreed rate for liquidated damages.
+
+— Serious concerns regarding association with a non-compliant project
+
+— Remedy for termination typically based on traditional cover damages
+– losses of non-defaulting party typically assessed by comparison of
+then-current market price and contract price.
+
+• Use of On-Site Property and Facilities
+— For on-site projects, project company and buyer needs to agree on
+location for installation of project, access and use of existing
+infrastructure.
+
+• Change in Law Risk
+− The production and transmission of energy is subject to numerous
+restrictions and requirements under applicable law which continue to
+change and evolve, including as to compliance costs and the value of
+products sold.
+− Sponsors typically seek some protection for change in law including as
+to state regulatory requirements, federal tax credits and permitting
+matters.
+
+— Project company will likely seek covenants as to no changes or
+additions to site which could negatively impact project.
+
+18
+
+PPA Hedge Structures
+PPA Hedge Mitigates Price Risk
+
+Financially-Settled Hedge
+Hedge Provider
+(may be a corporation, financial institution or other entity)
+
+The Hedge is settled,
+based on the Hub price.
+
+• Hedge Payments can flow either way in a Financially-Settled
+Hedge
+— Hedge Provider to Project Co. when the Hub Price is less
+
+Financial
+Payment of Strike Price – Hub Price
+NOTE: Payment to or from
+ProjectCo depends on Hub Price
+
+Remember that ProjCo is
+still receiving payments
+from ERCOT through
+physical sales on the
+wholesale market
+
+Settlement Point = Hub
+
+than the Strike Price
+
+— Project Co. to Hedge Provider when the Hub Price is
+greater than the Strike Price
+• Financially-Settled Hedges involve the sale of Energy at the
+Node and a settlement at the Hub between the Hedge
+Provider and the Project Company for the difference
+
+Hub
+
+Revenue from Physical
+sale of Power (from
+Wholesale market)
+
+Project Co.
+
+between the Strike Price and the Hub Price.
+
+Node
+Facility
+Node-to-Hub Price Basis
+Differential (i.e., Basis Risk)
+
+Physical sale of Power to
+Node / Interconnection
+Point
+
+19
+
+PPA Hedge Structures
+PPA Hedge Mitigates Price Risk
+
+Physically-Settled Hedge
+
+Hedge Provider
+(may be a corporation, bank or other entity)
+
+Hedge Provider pays ProjectCo
+the Strike Price for Energy
+received at Hub
+
+• Physically-Settled Hedges involve the sale of Energy at the
+Node and delivery of Energy at the Hub. Hedge Provider
+pays the Project Company for the delivered Energy at the
+Strike Price.
+
+ProjectCo now purchases
+Energy @ Hub for delivery
+Receive Delivery
+of Physical Power
+@ Hub (Physical
+Hedge only)
+
+Hub
+
+company in a Physically-Settled Hedge
+Physical
+Payment of Strike
+Price * Hedge
+Quantity
+
+Schedule Delivery of Physical
+Power @ Hub
+
+Node
+
+• Hedge Payments can flow from Hedge Provider to Project
+
+ProjCo is still receiving
+payments from ERCOT
+through physical sales on
+the wholesale market
+
+— Difference between the sale of Energy at the Node and
+purchase of Energy at the Hub (for delivery) is where
+the Basis Differential comes into play
+
+Project Co.
+
+Revenue from Physical sale
+of Power (from Wholesale
+market)
+
+Facility
+Node-to-Hub Price Basis
+Differential (i.e., Basis Risk)
+
+Physical sale of Power to
+Node / Interconnection Point
+
+20
+
+PPA Structure (California Utility)
+California Utility PPA For Energy and RECs
+
+Index + PCC1 REC Agreements (California)
+• California Utility physically purchases
+— (1) Energy at the floating market price and
+
+CAISO
+
+— (2) RECs that are derived from the Energy being delivered
+• Product Content Category 1 (PCC-1) – A renewable resource
+located within the state of California or, a renewable
+
+CAISO market price payment
+redirected from Utility to
+Project Company through
+Scheduling Coordinator
+
+resource that is directly delivered to California without
+energy substitution from another resource.
+• Utility pays Project Company a certain $/REC
+
+Project Co.
+
+• Utility tells the Scheduling Coordinator to send payments for
+sales into the CAISO market directly to Project Company in
+
+California Utility
+
+Physical delivery of
+energy plus RECs to
+California Utility in CAISO
+
+lieu of payment from Utility to Project Company
+Facility
+
+21
+
+Thank You!
+
+© 2024 Akin Gump Strauss Hauer & Feld LLP.
+All rights reserved. Attorney advertising.
+Prior results do not guarantee a similar outcome.
+
+

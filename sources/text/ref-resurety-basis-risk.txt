@@ -1,0 +1,132 @@
+Resurety []
+
+Skip Links Menu []
+
+-   Solutions []
+    -   CleanSight
+    -   CleanTrade
+    -   Consulting
+-   Resources []
+    -   Intelligence
+    -   Regulatory
+-   About
+-   Login []
+    -   CleanSight []
+    -   CleanTrade []
+-   Request a demo
+
+Close
+
+Request a demo
+
+Please fill out this form to request a demo.
+
+[] Loading form
+
+Blog
+
+Basis risk can sink projects and PPAs
+
+[]
+
+Edwina Rasmussen, Consultant
+
+February 10, 2026
+
+Navigating the hub-node gap with creative contracting.
+
+This is the first part of a two-part series. To read part two, go to: Navigating clean energy PPA basis risk.
+
+There is no single price of electricity in the United States. While the price of a barrel of oil is set nationally, electricity is set locally and fluctuates based on grid mix, time of day, and many other factors in a given region. As we’ve discussed in our Forecasting Webinar and our recent blog on the impacts of Venezuelan oil on clean energy prices – all energy market dynamics are interrelated. So when it comes to deciding whether to build or invest in a clean energy project like a solar or wind farm, the difference in electricity prices by region, and volatility in price over time, make all the difference for project success. 
+
+What do local price dynamics have to do with a solar farm’s ability to pay back its loans over time? The devil is in the details. And the details are called basis risk.
+
+Background: The U.S. electricity system’s hub + node structure
+
+The U.S. electricity system is made up of tens of thousands of nodes, where load and generation connect to transmission and distribution lines to form a giant, interconnected grid. A node may be a single solar plant, a collection of gas turbines, a datacenter, or a substation feeding thousands of homes. Each of these nodes has its own power price.
+
+Groups of nodes are organized into hubs. Hubs are virtual trading points, where the price is the average of all the nodes within the hub. (An example of a hub).
+
+[]
+
+The U.S. electricity system's hub and node structure
+
+Most power purchase agreements (PPAs), where corporates or utilities agree to long-term contracts to buy power, are settled at the hub. Every month, the contract is settled by calculating how much money the developer would have made from selling their power to the grid at the hub price, how much money the developer is guaranteed by the PPA signed with a corporate or utility buyer, and “settling” the difference. If market prices were low one month at that hub, the buyer sends the developer money to get them to their guaranteed PPA revenue. If prices were high one month, the developer sends the buyer the extra money that came in the door.
+
+  However, the developer doesn't actually sell power at the hub price, they sell it at the node price. So they are on the hook for any differences between the node and hub prices. The difference is called basis. And basis risks can sink projects. 
+
+  Edwina Rasmussen, Consultant, resurety
+
+Basis risk puts revenue at risk: Real world example
+
+Let’s look at a wind project in SPP South, at an anonymous location in Oklahoma. For this project, and many others like it in the region, node prices were often lower than hub prices in 2025, exposing the developer to basis risk. Let’s make the following typical assumptions about the project to determine the impact of basis:
+
+-   The project has a PPA that settles at the hub 
+-   The fixed PPA price is $20/MWh 
+-   The project curtails (stops generating) for when hub prices are below $0/MWh (i.e., negative)
+
+[]
+
+As shown above, the developer made roughly $0.6M in January from the PPA after settlement (green line), with some variation month-to-month based on their total generation (i.e., how hard the wind blew). However, they lost roughly $1.3M in January due to large negative basis (orange line, caused by nodal prices being below hub prices), leaving them at a loss of roughly $0.6M (white line) for the month. The negative basis continued until August, leaving the developer with $4.4M less revenue in 2025 than they earned from the PPA, a 65+% drop. This erases any profit margin for the project, leaving it deep in the red and at risk of defaulting on loans. 
+
+Despite this wind project performing very well, the developer can’t meet financial goals – putting the PPA at risk. Shouldn’t there be a way to share risk between the developer and the corporate purchaser to avoid this issue?
+
+The answer is yes – and folks are getting creative with how. One option is to settle at the node, but this passes all risk to the buyer. Another option is to share basis risk between developer and buyer, which can require complex modeling & contracting. Resurety’s services team helps customers with these questions all the time.
+
+Contract clauses are one of many solutions to navigating a changing grid
+
+As the grid continues to change, a tailored, risk-mitigating approach like basis sharing is essential for supporting long-term financial health of clean energy projects. These clauses protect developers from bankruptcy and ensure the continued generation of RECs for the offtaker, making them a balanced and increasingly common feature in modern PPAs. 
+
+Stay tuned to learn more about typical contract clauses to share basis risk between developers and buyers, and to learn more about additional approaches to solve basis risk like on-site BESS, behind-the-meter datacenters, and financial transmission right (FTR) trading. Until then, if you need advice on your current basis clauses – reach out to [email protected].
+
+Stay Connected
+
+Talk to Resurety experts today.
+
+Complete the form to connect with the team.
+
+[]
+
+[] Loading form
+
+DISCLAIMER:This blog post contains information related to Resurety and the commodity interest derivatives services and other services that Resurety provides. Any statements of fact in this presentation are derived from sources believed to be reliable, but are not guaranteed as to accuracy, nor do they purport to be complete. No responsibility is assumed with respect to any such statement, nor with respect to any expression of opinion which may be contained herein. The risk of loss in trading commodity interest derivatives contracts can be substantial. Each investor must carefully consider whether this type of investment is appropriate for them or their company. Please be aware that past performance is not necessarily indicative of future results.
+
+This material is intended for informational purposes only. Resurety does not provide research reports as defined under CFTC Regulation 1.71, and this material should not be construed as a recommendation or advice with respect to any commodity interest transaction.
+
+Resurety []
+
+Solutions
+
+-   CleanSight
+-   CleanTrade
+-   Consulting
+
+Resources
+
+-   Intelligence
+-   Regulatory
+-   CleanTrade Daily Activity
+
+Company
+
+-   About
+-   Careers
+-   Our team
+-   Contact us
+
+Login
+
+-   CleanSight
+-   CleanTrade
+
+-   © 2026 Resurety
+-   Privacy Policy
+-   Terms of Service
+-   Security
+-   System Status
+
+Keep up with our intelligence:
+
+[] []
+
+[]
