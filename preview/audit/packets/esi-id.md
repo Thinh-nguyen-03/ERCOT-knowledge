@@ -11,26 +11,12 @@ BEFORE: …COT Region. Electric Reliability Organization The organization approv
 QUOTE: The basic identifier assigned to each Service Delivery Point used in the registration and settlement systems managed by ERCOT or another Independent Organization.
 AFTER:  Electrical Bus (1) A physical transmission element defined in the Network Operations Model that connects, using breakers and switches, one or more: (a) Loads; (b) Lines; (c) Transformers; (d) Generators; (e) Capacitors; (f) Reactors; (g) Phase shifters; or (h) Other reactive control devices to the …
 
-### e3 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.4(1) · text copy line 793 · heading above: 15.4 Electric Service Identifier
-
-BEFORE: …mption information and effectuating meter reads to ERCOT using the 867_03 transaction. ERCOT will then forward the monthly consumption and meter read information to the CR DUNS Number provided in the 867_03 transaction by the TDSP within one Retail Business Day. 15.4 Electric Service Identifier (1) 
-QUOTE: Each Transmission and/or Distribution Service Provider (TDSP) Service Delivery Point shall have a unique number within Texas. Once this unique number has been created and assigned to a Service Delivery Point, it shall not be re-issued, even in the event of termination of the associated point-of-service.
-AFTER:  This unique number shall be referred to as the Electric Service Identifier (ESI ID). (2) Notwithstanding the foregoing, in those situations where an ESI ID has been inadvertently placed into inactive status and upon notification from the responsible TDSP, ERCOT shall re-instate the ESI ID for that …
-
 ### e4 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
 locator: Section 15.4.1(3) · text copy line 813 · heading above: 15.4.1 Electric Service Identifier Format
 
 BEFORE: …ure use; xxxxx Is the five-digit Department of Energy identification code for the assigning TDSP; and yyy..yy Is up to 29 alphanumeric characters assigned by the TDSP. (2) Allowable alphanumeric characters are 0-9 and A-Z. The total length of the ESI ID cannot exceed 36 alphanumeric characters. (3) 
 QUOTE: It is the TDSP's responsibility to create, assign, maintain and retire, as necessary, an ESI ID to each Service Delivery Point in its service area.
 AFTER:  15.4.1.1 Assignment of ESI IDs to Unmetered Service Delivery Points (1) In general, each unmetered Service Delivery Point will be assigned an ESI ID corresponding to the point of delivery from the TDSP system to the Customer or Load. The TDSP may, however, aggregate unmetered Service Delivery Point…
-
-### e5 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.4.1(2) · text copy line 811 · heading above: 15.4.1 Electric Service Identifier Format
-
-BEFORE: …rvice Identifier Format (1) The ESI ID will have the following format: 10xxxxxyyy..yy Where: 10 Represents a placeholder for future use; xxxxx Is the five-digit Department of Energy identification code for the assigning TDSP; and yyy..yy Is up to 29 alphanumeric characters assigned by the TDSP. (2) 
-QUOTE: Allowable alphanumeric characters are 0-9 and A-Z. The total length of the ESI ID cannot exceed 36 alphanumeric characters.
-AFTER:  (3) It is the TDSP's responsibility to create, assign, maintain and retire, as necessary, an ESI ID to each Service Delivery Point in its service area. 15.4.1.1 Assignment of ESI IDs to Unmetered Service Delivery Points (1) In general, each unmetered Service Delivery Point will be assigned an ESI I…
 
 ### e6 · `puct-25-5` · tier 1 · PUCT Substantive Rule 16 TAC §25.5, Definitions
 locator: Section 25.5, definition of REP of record · text copy line 859
@@ -59,20 +45,6 @@ locator: Section 2.1, definition of Premise · text copy line 2075
 BEFORE: …ation dampening support to the ERCOT System under transient conditions. Pre-Assigned Congestion Revenue Right (PCRR) Nomination Year The calendar year that is three years after the year containing a PCRR nomination process. Pre-Contingency Action Plan (PCAP) (see Constraint Management Plan) Premise 
 QUOTE: A Service Delivery Point or combination of Service Delivery Points that is assigned a single ESI ID for Settlement and registration.
 AFTER:  Presidio Exception The losses associated with keeping the 69 kV line from the Gonzales substation to the ERCOT BLT Point at Presidio constantly energized in order to maintain connectivity and allow for rapid response to contingencies impacting the reliability for Customers in the Presidio area when…
-
-### e10 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.4(2) · text copy line 795 · heading above: 15.4 Electric Service Identifier
-
-BEFORE: …e a unique number within Texas. Once this unique number has been created and assigned to a Service Delivery Point, it shall not be re-issued, even in the event of termination of the associated point-of-service. This unique number shall be referred to as the Electric Service Identifier (ESI ID). (2) 
-QUOTE: Notwithstanding the foregoing, in those situations where an ESI ID has been inadvertently placed into inactive status and upon notification from the responsible TDSP, ERCOT shall re-instate the ESI ID for that Service Delivery Point.
-AFTER:  15.4.1 Electric Service Identifier Format (1) The ESI ID will have the following format: 10xxxxxyyy..yy Where: 10 Represents a placeholder for future use; xxxxx Is the five-digit Department of Energy identification code for the assigning TDSP; and yyy..yy Is up to 29 alphanumeric characters assigne…
-
-### e11 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.4.1(1), Electric Service Identifier Format · text copy line 801 · heading above: 15.4.1 Electric Service Identifier Format
-
-BEFORE: …egoing, in those situations where an ESI ID has been inadvertently placed into inactive status and upon notification from the responsible TDSP, ERCOT shall re-instate the ESI ID for that Service Delivery Point. 15.4.1 Electric Service Identifier Format (1) The ESI ID will have the following format: 
-QUOTE: 10xxxxxyyy..yy Where: 10 Represents a placeholder for future use; xxxxx Is the five-digit Department of Energy identification code for the assigning TDSP; and yyy..yy Is up to 29 alphanumeric characters assigned by the TDSP.
-AFTER:  (2) Allowable alphanumeric characters are 0-9 and A-Z. The total length of the ESI ID cannot exceed 36 alphanumeric characters. (3) It is the TDSP's responsibility to create, assign, maintain and retire, as necessary, an ESI ID to each Service Delivery Point in its service area. 15.4.1.1 Assignment…
 
 ### e12 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
 locator: Section 15.4.1.1(1), Assignment of ESI IDs to Unmetered Service Delivery Points · text copy line 817 · heading above: 15.4.1.1 Assignment of ESI IDs to Unmetered Service Delivery Points
@@ -116,13 +88,6 @@ BEFORE: …the following data elements are required to be sent in the 814_20 tra
 QUOTE: The TDSP must receive an accepted 814_21 from ERCOT prior to initiating electric service pursuant to Section 15.1.4, Beginning Service (New Construction Completed and Move Ins).
 AFTER:  15.4.1.5 Electric Service Identifier Maintenance (1) The TDSP will notify ERCOT of any changes in information related to an ESI ID for which it is responsible. The TDSP will send changes to ERCOT using the 814_20, ESI ID Maintenance Request. ERCOT will respond to the TDSP within four Retail Busines…
 
-### e18 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.4.1.5(1), Electric Service Identifier Maintenance · text copy line 871 · heading above: 15.4.1.5 Electric Service Identifier Maintenance
-
-BEFORE: …; (f) Distribution Loss Factor (DLF) code; and (g) Premise type. (3) The TDSP must receive an accepted 814_21 from ERCOT prior to initiating electric service pursuant to Section 15.1.4, Beginning Service (New Construction Completed and Move Ins). 15.4.1.5 Electric Service Identifier Maintenance (1) 
-QUOTE: The TDSP will notify ERCOT of any changes in information related to an ESI ID for which it is responsible. The TDSP will send changes to ERCOT using the 814_20, ESI ID Maintenance Request. ERCOT will respond to the TDSP within four Retail Business Hours, using the 814_21, ESI ID Maintenance Response. In addition, ERCOT will send all affected CRs notice of the changes using the 814_20 transaction.
-AFTER:  The TDSP is responsible for the following data elements: (a) Service Address; city, state, zip, county; (b) Load Profile Type; (c) Meter reading cycle or meter cycle by day of month; (d) Station ID; (e) DLF code; (f) Eligibility date; (g) Meter type; (h) Rate class and sub-class, if applicable; (i)…
-
 ### e19 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
 locator: Section 15.4.1.4(2), required data elements · text copy line 851 · heading above: 15.4.1.4 New Electric Service Identifier Creation
 
@@ -130,54 +95,12 @@ BEFORE: … ESI ID Maintenance Request. ERCOT will verify that this transaction 
 QUOTE: At least the following data elements are required to be sent in the 814_20 transaction: (a) ESI ID; (b) Service Address; city, state, zip, county; (c) Load Profile Type; (d) Meter reading cycle or meter cycle by day of month; (e) Station ID; (f) Distribution Loss Factor (DLF) code; and (g) Premise type.
 AFTER:  (3) The TDSP must receive an accepted 814_21 from ERCOT prior to initiating electric service pursuant to Section 15.1.4, Beginning Service (New Construction Completed and Move Ins). 15.4.1.5 Electric Service Identifier Maintenance (1) The TDSP will notify ERCOT of any changes in information related…
 
-### e20 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.1.1.7(3), Completion of Switch Request and Effective Switch Date · text copy line 261 · heading above: 15.1.1.7 Completion of Switch Request and Effective Switch Date
-
-BEFORE: … reads will be sent to the CR DUNS Number within the Texas Standard Electronic Transaction (TX SET) transaction from the TDSP within 12 hours of receipt by ERCOT. (2) Failure by ERCOT to provide the initial meter read information does not change the Mass Transition Effective Date of the switch. (3) 
-QUOTE: Switches shall become effective at 0000 (midnight) on the actual date of the effectuating meter read. The new CR may request a special meter read (including a profile-estimated meter read or interval meter calculation as allowed), in accordance with the TDSP's tariff. For a special meter read, the switch is effective at 0000 (midnight) the day of the special meter read. During the switch process, the Customer will continue to be served by its current CR.
-AFTER:  15.1.1.8 Rejection of Switch Request (1) ERCOT will process Switch Requests upon receipt during Business Hours. If the request is invalid, i.e., meets one of the requirements as identified in this Section, ERCOT will respond to the CR with the 814_02, Switch Reject Response, within one Retail Busin…
-
-### e21 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.1.1(1), Submission of a Switch Request · text copy line 193 · heading above: 15.1.1 Submission of a Switch Request
-
-BEFORE: …. The Switch Request shall include, at a minimum, the five-digit zip code and an ESI ID. Within this transaction, the CR will also send information necessary for ERCOT to send a switch confirmation notice to the Customer as required by the applicable Public Utility Commission of Texas (PUCT) rules. 
-QUOTE: The First Available Switch Date (FASD) is the day received by ERCOT unless received on a Sunday or an ERCOT holiday. If received on a Sunday or an ERCOT holiday, the FASD will be calculated as the next day that is not a Sunday or an ERCOT holiday.
-AFTER:  15.1.1.1 Notification to Customer of Switch Request (1) ERCOT will send a switch confirmation notice to the Customer as specified in the PUCT rules. This notice will give the Customer information regarding the Switch Request as described in the PUCT rules. 15.1.1.2 Provision of Historical Usage (1)…
-
-### e22 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.1.4.7.1(1), Standard Move-In Requests · text copy line 429 · heading above: 15.1.4.7.1 Standard Move-In Requests
-
-BEFORE: …SP may complete the move in using an estimated meter read or complete unexecutable if the meter requires a permit, unsafe conditions exist, tampering has been detected, or other similar conditions are found that would not allow an actual reading to be taken. 15.1.4.7.1 Standard Move-In Requests (1) 
-QUOTE: A standard Move-In Request is effectuated on the period start date in the 867_04, Initial Meter Read, which shall be the date requested in the 814_16, Move In Request, provided that the 814_03, Enrollment Notification Request, was received by the TDSP by 1700 at least two Retail Business Days prior to the requested date.
-AFTER:  If the 814_03 transaction is not received by the TDSP by 1700 at least two Retail Business Days prior to the requested date, the move in will be completed within two Retail Business Days after the receipt of the 814_03 transaction by the TDSP. An extension of this period may be necessitated by circ…
-
-### e23 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
-locator: Section 15.1.4.7.2(1), Same Day Move-In Requests · text copy line 437 · heading above: 15.1.4.7.2 Same Day Move-In Requests
-
-BEFORE: …e with the TDSP's tariff. For a special meter read, the move in is effective at 0000 (midnight) the day of the special meter read. Meter reads will be sent to the CR DUNS Number within the TX SET transaction from the TDSP within 12 hours of receipt by ERCOT. 15.1.4.7.2 Same Day Move-In Requests (1) 
-QUOTE: A same day Move-In Request is effectuated on the period start date in the 867_04, Initial Meter Read, which shall be the date requested in the 814_16, Move In Request, provided that the request was received by the TDSP by 1700 on the date requested. If the TDSP does not receive the same day move in by 1700, the move in will be completed no later than the next Retail Business Day.
-AFTER:  An extension of this period may be necessitated by circumstance requiring Customer resolution or construction of new facilities by the TDSP to serve the Premise. (2) A Move-In Request is completed upon receipt of the effectuating meter read sent by the TDSP. Upon receipt, the TDSP will send initial…
-
 ### e24 · `np-15` · tier 1 · ERCOT Nodal Protocols, Section 15: Customer Registration (effective 2026-08-01)
 locator: Section 15.1.3(1), Transition Process · text copy line 305 · heading above: 15.1.3 Transition Process
 
 BEFORE: …ed for the evaluation. 15.1.2 Response from ERCOT to Drop to Affiliate Retail Electric Provider Request (1) ERCOT will send a reject response using the 814_11, Drop Response, within one Retail Business Day to the current CR notifying the CR that the request is invalid. 15.1.3 Transition Process (1) 
 QUOTE: Certain circumstances may arise during the course of business in the Texas retail electric market that may necessitate the transition of ESI IDs from one CR to a Provider of Last Resort (POLR) or designated CR, or from one TDSP to another TDSP in quantities and on a time frame that is not completely supported by standard market transactions or business processes.
 AFTER:  15.1.3.1 Mass Transition Process (1) In a Mass Transition event, ERCOT shall submit the 814_03, Enrollment Notification Request, requesting a meter read for the associated ESI IDs, for a date two days after the date ERCOT initiates such transactions to the TDSP. The 814_03 transaction shall contain…
-
-### e25 · `rmg-07` · tier 1 · ERCOT Retail Market Guide, Section 7: Market Processes (current 2026)
-locator: Section 7.9(1)(a)(i), No Retail Electric Provider of Record or Left in Hot · text copy line 1592 · heading above: 7.9 No Retail Electric Provider of Record or Left in Hot
-
-BEFORE: …89, Treatment of Premises with No Retail Electric Provider of Record, obligates the Transmission and/or Distribution Service Provider (TDSP) to identify Electric Service Identifiers (ESI IDs) that receive electrical service without a Retail Electric Provider (REP) of record. (a) The TDSP shall: (i) 
-QUOTE: Prepare a No REP of Record List on a monthly basis, identifying all ESI IDs with consumption equal to or greater than 150 kilowatt hours (kWh) in a single meter reading cycle, but no REP of record in the TDSP's customer information system;
-AFTER:  (A) In the event no ESI IDs have been identified, the TDSP will not provide a No REP of Record List. (ii) Delete an ESI ID from the list if there is evidence of erroneous meter reads for the ESI ID; (iii) Cross reference the list with ERCOT's pending orders to identify any move-in transactions that…
-
-### e26 · `rmg-07` · tier 1 · ERCOT Retail Market Guide, Section 7: Market Processes (current 2026)
-locator: Section 7.9(3) · text copy line 1610 · heading above: 7.9 No Retail Electric Provider of Record or Left in Hot
-
-BEFORE: …. (2) For all remaining ESI IDs not claimed by a REP, the TDSP shall provide disconnection notice by placing door hangers or by mailing notice to each ESI ID with identifying code #999 to the Customer in the standardized bilingual format consistent with paragraph (g) of P.U.C. SUBST. R. 25.489. (3) 
-QUOTE: Pursuant to paragraph (i) of P.U.C. SUBST. R. 25.489, the TDSP may disconnect an ESI ID with no REP of record no earlier than ten days after the Customer receives the TDSP's notification as required by paragraph (g) of P.U.C. SUBST. R. 25.489. A TDSP shall not disconnect any ESI ID that has been claimed by a REP.
-AFTER:  Prior to disconnecting the service for an ESI ID with no REP of record, each TDSP shall repeat the procedures listed in paragraph (1) of this section (other than issuing notice) to prevent the disconnection of a Customer who has initiated service with a REP. (a) If a TDSP disconnects an ESI ID in e…
 
 ### e27 · `np-11` · tier 1 · ERCOT Nodal Protocols, Section 11: Data Acquisition and Aggregation (effective 2026-06-01)
 locator: Section 11.3.1, Electric Service Identifier Service History and Usage · text copy line 363 · heading above: 11.3.1 Electric Service Identifier Service History and Usage
@@ -207,53 +130,14 @@ BEFORE: … provide all of the attributes listed above when an 814_20, ESI ID Ma
 QUOTE: Market Participants can obtain information to verify the Service Address for a Service Delivery Point using the Find ESI ID function on the Market Information System (MIS) Secure Area.
 AFTER:  The Find ESI ID function returns the information as identified in Section 15.2, Database Queries. 15.2.2 Find Transaction Function on the Market Information System (1) Competitive Retailers (CRs) or TDSPs may obtain transaction information from ERCOT to review business processes (i.e. Switch Reques…
 
-### e31 · `rmg-07` · tier 1 · ERCOT Retail Market Guide, Section 7: Market Processes (current 2026)
-locator: Section 7.11.6(3)(e), TDSP Transition Process Narrative · text copy line 2618 · heading above: 7.11.6 Transmission and/or Distribution Service Provider Transition Process Narrative
-
-BEFORE: …n applicable, the 814_20, ESI ID Maintenance Request, will be sent by the gaining TDSP and must process prior to any relationship activity taking place on the ESI ID to account for the one day difference between ERCOT's Siebel and Lodestar systems; (e) When creating a new ESI ID(s), the process is: 
-QUOTE: (i) Upon completion of the move out for the existing CR, the losing TDSP is responsible for deactivation and retirement of the old ESI ID; and
-AFTER:  (ii) The Gaining TDSP is responsible for new ESI ID setup and activation. All actions are performed utilizing the appropriate transactions. Note: Transition of CR within ERCOT's system must occur simultaneously to prevent the old and new ESI IDs from being active or de-energized at the same time fo…
-
-### e32 · `rmg-07` · tier 1 · ERCOT Retail Market Guide, Section 7: Market Processes (current 2026)
-locator: Section 7.11.6(3)(a), TDSP Transition Process Narrative · text copy line 2608 · heading above: 7.11.6 Transmission and/or Distribution Service Provider Transition Process Narrative
-
-BEFORE: … is consistent with the losing TDSP's and identify any ESI IDs for which there are Pending Transactions; and (d) When discrepancies exist, ERCOT, the TDSP, and the appropriate CR(s) will resolve the discrepancies to ensure that the correct population of ESI IDs is transitioned. (3) Requirements (a) 
-QUOTE: Gaining TDSP will change the ESI IDs for the Premises acquired. When a partial TDSP transition event takes place, such partial TDSP transition requires the gaining TDSP to create new and unique ESI IDs for all ESI IDs involved in the transition;
-AFTER:  (b) Transition of equipment and Customers will occur by the transition date agreed upon by both the losing and gaining TDSP; (c) Issues with transferring equipment may delay the transition. The subsequent dates will be a part of the PUCT final approval; (d) When applicable, the 814_20, ESI ID Maint…
-
-### e33 · `rmg-07` · tier 1 · ERCOT Retail Market Guide, Section 7: Market Processes (current 2026)
-locator: Section 7.2(2)(b), Market Synchronization · text copy line 357 · heading above: 7.2 Market Synchronization
-
-BEFORE: …ject Report - A daily report identifying inbound transactions that ERCOT rejected due to mapping status errors. (i) Notifies TDSPs and CRs that one or more transactions submitted the previous day were rejected due to failing the Texas Standard Electronic Transaction (TX SET) validation process. (b) 
-QUOTE: Potential Load Loss Report - A daily report notifying CRs of potential Customer loss based on ERCOT's receipt of the TDSP's accepted response to a Switch or Move-In Request.
-AFTER:  (i) Notifies CRs that are the current Retail Electric Provider (REP) of record for an Electric Service Identifier (ESI ID) that the ESI ID has a pending Switch or Move-In Request and the scheduling transaction for the pending order has been received outside the two Business Day window; and (ii) Ass…
-
 ## Statements to check (new or changed since the last audit)
 
-- **How it works #1** (cites e3, e4, e5, e11): Each Service Delivery Point has a number unique within Texas. Once created and assigned it is not re-issued, even if the point of service is terminated. [e3] The TDSP creates, assigns, maintains and retires the ESI ID for each point in its service area. [e4] The ESI ID can use only 0-9 and A-Z and cannot exceed 36 characters. [e5] The format is "10", then the five-digit Department of Energy code for the assigning TDSP, then up to 29 alphanumeric characters assigned by the TDSP; the "10" is a placeholder for future use. [e11]
 - **How it works #4** (cites e16, e19, e17): To create an ESI ID, the TDSP sends an 814_20 ESI ID Maintenance Request; ERCOT checks it against TX SET specifications and answers within one Retail Business Hour with an 814_21 accept or reject. [e16] The 814_20 must carry at least ESI ID, service address, load profile type, meter reading cycle, station ID, DLF code and premise type. [e19] The TDSP needs an accepted 814_21 before it initiates electric service. [e17]
-- **How it works #5** (cites e18): For changes, the TDSP sends an 814_20, ERCOT answers within four Retail Business Hours with an 814_21, and ERCOT notifies all affected CRs with an 814_20. [e18]
 - **How it works #7** (cites e12): Unmetered points are normally one ESI ID per point of delivery. The TDSP may aggregate them only if all four conditions hold: same Customer and same physical location (with an exception for governmental unmetered loads such as street lighting), same Usage Profile, same voltage in the same UFE zone and Load Zone, and TDSP tariffs that allow it. [e12]
 - **How it works #8** (cites e13, e14, e15): Metered points normally get one ESI ID per existing billing meter. Aggregation is allowed only for the same Customer at the same Service Address, with the same Load Profile (or all with IDRs), the same voltage, UFE zone and Load Zone, and a tariff that allows it. [e13] A TDSP may not assign an ESI ID to submeters whose consumption is included in another ESI ID, except that with subtract metering both the master and subtract meters get ESI IDs and consumption is reported adjusted. [e14] Going the other way, a point with Load above one MW may split its meter into up to four virtual meters, each with its own ESI ID, and reissuing or reassigning ESI IDs is prohibited. [e15]
-- **How it works #10** (cites e10, e3) FLAG number-not-in-quote: 15.4: If an ESI ID has been inadvertently placed in inactive status, ERCOT re-instates it on notification from the responsible TDSP. [e10] That is the only exception to "never reissued" that Section 15.4 states, and it is a reinstatement of the same ESI ID rather than a new one. [e3][e10]
-- **ERCOT context #2** (cites e27, e28, e30): ERCOT sends LSEs, MREs and TSPs/DSPs daily incremental updates to ESI ID service history, which includes ESI ID relationships and characteristics. [e27] If a data variance is not resolved before True-Up Settlement, a Market Participant may seek correction and resettlement under Protocol Section 20. [e28] Market Participants can verify a service address through the MIS Find ESI ID function. [e30]
-- **ERCOT context #4** (cites e20, e21, e22, e23, e33): A switch is effective at 0000 on the date of the effectuating meter read, and the customer keeps being served by its current CR during the process; the First Available Switch Date is the day ERCOT receives the request unless it is a Sunday or ERCOT holiday. [e20][e21] A standard move-in takes the requested date provided the TDSP receives the 814_03 by 1700 at least two Retail Business Days earlier; a same-day move-in needs receipt by 1700 on the requested date or completes by the next Retail Business Day. [e22][e23] The daily Potential Load Loss Report notifies a CR that is the current REP of record for an ESI ID of a pending Switch or Move-In Request, where the scheduling transaction for the pending order has been received outside the two Business Day window. [e33]
-- **ERCOT context #6** (cites e25, e26) FLAG number-not-in-quote: 150 kW: Each month the TDSP lists ESI IDs with consumption of at least 150 kWh in a single meter reading cycle but no REP of record in its customer information system. [e25] It may disconnect such an ESI ID no earlier than ten days after notice, and may not disconnect one that a REP has claimed. [e26]
-- **ERCOT context #8** (cites e29, e32, e31, e24): An ELSE assigns an ESI ID for each wholesale point of delivery, and none goes to an individual Customer behind it. [e29] In a partial TDSP transition the gaining TDSP creates new and unique ESI IDs for all ESI IDs involved. [e32] The losing TDSP deactivates and retires the old ESI ID after the existing CR's move out. [e31] The Protocols provide a transition process for moving ESI IDs from one CR to a Provider of Last Resort or designated CR, or from one TDSP to another, in quantities and on a time frame that is not completely supported by standard market transactions or business processes. [e24]
-- **Key facts #1** (cites e3, e10): - Unique statewide and never re-issued; a wrongly inactivated ESI ID is re-instated, not re-issued. [e3][e10]
-- **Key facts #2** (cites e5, e11): - Up to 36 alphanumeric characters: "10" placeholder, five-digit DOE code of the TDSP, up to 29 characters. [e5][e11]
-- **Key facts #3** (cites e4, e16, e18): - Assigned and maintained by the TDSP via 814_20, with an ERCOT 814_21 response. [e4][e16][e18]
 - **Key facts #5** (cites e13): - Metered aggregation needs the same Customer, same Service Address, same voltage, UFE zone and Load Zone, and tariff permission. [e13]
-- **Key facts #6** (cites e15): - A point above one MW may split into up to four virtual-meter ESI IDs. [e15]
-- **Say it like this #1** (cites e1, e4, e7): (Guidance) The ESI ID is the basic identifier assigned to each Service Delivery Point. It is used in registration and settlement, the TDSP creates it, and a switch request must include one. [e1][e4][e7]
 - **Common confusion #1** (cites e1, e9, e13, e15): (Guidance) An ESI ID is a delivery point identifier. [e1] A premise may combine more than one delivery point under a single ESI ID. [e9] It is also not a meter number: a meter can be split into several ESI IDs above one MW, and several meters can be aggregated into one under the conditions above. [e13][e15]
-- **Questions #4** (cites e3, e10) FLAG number-not-in-quote: 15.4: No. The number is not re-issued even if the point of service ends. [e3] The one exception in Section 15.4 is reinstatement of an ESI ID inadvertently made inactive. [e10]
-- **Questions #6** (cites e17, e1): The Protocols make the accepted ESI ID Maintenance Response (814_21) a precondition to initiating service. [e17] The Protocols do not state a reason; the ESI ID is the identifier used in the registration and settlement systems. [e1]
 - **Questions #8** (cites e13, e8): Aggregation requires the same Customer, same address, same Load Profile (or all IDRs), and the same voltage, UFE zone and Load Zone, and a tariff that allows it. [e13] The Protocols do not state why; they say Load Profiling estimates and allocates 15-minute Load for ESI IDs. [e8]
-- **Questions #10** (cites e32, e31): The gaining TDSP creates new and unique ESI IDs for all ESI IDs in a partial transition, and the losing TDSP retires the old ones after the CR's move out. [e32][e31]
-- **Questions #12** (cites e25, e26) FLAG number-not-in-quote: 150 kW: The TDSP lists ESI IDs with at least 150 kWh and no REP of record, REPs can claim them, and unclaimed ones may be disconnected after notice no earlier than ten days. [e25][e26]
-- **Scenarios #2** (cites e20): - The switch is effective at 0000 on the date of the effectuating meter read; the customer stays with the current CR until then. [e20]
-- **Scenarios #3** (cites e33): - The current REP of record is notified in the Potential Load Loss Report when the pending order's scheduling transaction was received outside the two Business Day window. [e33]
 - **Link to tdsp** (cites e4): related TDSP (Transmission & Distribution Service Provider): The TDSP creates, assigns, maintains and retires the ESI ID for each Service Delivery Point in its area. [e4]
 - **Link to rep** (cites e6): related REP (Retail Electric Provider): Each ESI ID has at most one REP of record at a time. [e6]
 - **Link to retail-choice** (cites e7): used-in Retail Choice / Competitive Retail Market: A Competitive Retailer's Switch Request is submitted for an ESI ID. [e7]

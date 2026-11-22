@@ -1,15 +1,15 @@
 {
  "counts": {
-  "number-not-in-quote": 1203,
+  "number-not-in-quote": 1216,
   "proposal-or-filing-source": 302,
   "ocr": 95,
   "pending-box": 82,
-  "tier-3": 182
+  "tier-3": 351
  },
  "evidenceByTier": {
-  "1": 3866,
-  "2": 2686,
-  "3": 182
+  "1": 3868,
+  "2": 2742,
+  "3": 351
  },
  "ocrPages": {
   "imm-som-2025": [
@@ -336,26 +336,8 @@
   {
    "topic": "asset-optimization",
    "kind": "tier-3",
-   "where": "e4",
-   "detail": "ref-montel-optimisation"
-  },
-  {
-   "topic": "asset-optimization",
-   "kind": "tier-3",
-   "where": "e18",
-   "detail": "ref-montel-optimisation"
-  },
-  {
-   "topic": "asset-optimization",
-   "kind": "tier-3",
    "where": "e19",
    "detail": "ref-ogj-tolling"
-  },
-  {
-   "topic": "asset-optimization",
-   "kind": "tier-3",
-   "where": "e20",
-   "detail": "ref-montel-optimisation"
   },
   {
    "topic": "asset-optimization",
@@ -371,9 +353,141 @@
   },
   {
    "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e30",
+   "detail": "ref-vistra-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e31",
+   "detail": "ref-vistra-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e33",
+   "detail": "ref-vistra-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e34",
+   "detail": "ref-nrg-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e35",
+   "detail": "ref-nrg-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e36",
+   "detail": "ref-nrg-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e37",
+   "detail": "ref-nrg-10k-2024"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e43",
+   "detail": "ref-cra-ercot-value-stacking-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e44",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e45",
+   "detail": "ref-troutman-storage-offtake-tolling"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e46",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e47",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e48",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e49",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e50",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e51",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e59",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e58",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "number-not-in-quote",
+   "where": "Definition #1",
+   "detail": "2024 :: No saved source defines \"asset optimization\" as a term: NRG's 2024 annual report uses the phrase (\"asset optimization opportunities\") withou"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "number-not-in-quote",
+   "where": "How it works #2",
+   "detail": "2024 :: Hedging is part of the same job. FERC defines hedging as establishing an offsetting position to minimize losses should the original position"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "number-not-in-quote",
+   "where": "How it works #11",
+   "detail": "2012 :: Outside batteries, the CFTC's 2012 swap-definition rule describes energy management agreements (EMAs). It says commenters gave no working de"
+  },
+  {
+   "topic": "asset-optimization",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
    "detail": "$100 :: The IMM reports how ERCOT storage optimization has shifted: ESRs moved from ancillary services toward energy arbitrage in 2024 as several AS"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #3",
+   "detail": "2012 :: EMAs (CFTC, 2012): no working definition; the managing entity may be paid a portion of the revenue. "
   },
   {
    "topic": "base-point",
@@ -518,6 +632,84 @@
    "kind": "tier-3",
    "where": "e38",
    "detail": "ref-powermag-ppa"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e53",
+   "detail": "ref-psu-temporal-locational-risk"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e54",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e55",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e56",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e57",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e58",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e59",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e60",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e61",
+   "detail": "ref-akin-ercot-hedge-slides"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e65",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e66",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "tier-3",
+   "where": "e67",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "basis-risk",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #10",
+   "detail": "2015, 2019 :: LBNL: in ERCOT, wind's basis risk was on par with gas-fired generators' (2015-2019). "
   },
   {
    "topic": "basis-risk",
@@ -2585,6 +2777,126 @@
   },
   {
    "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e44",
+   "detail": "ref-pirrong-forward-curves"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e45",
+   "detail": "ref-pirrong-forward-curves"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e46",
+   "detail": "ref-pirrong-forward-curves"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e47",
+   "detail": "ref-pirrong-forward-curves"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e48",
+   "detail": "ref-pirrong-forward-curves"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e49",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e50",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e51",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e52",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e53",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e54",
+   "detail": "ref-nodal-exchange-specs"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e55",
+   "detail": "ref-nodal-exchange-specs"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e56",
+   "detail": "ref-nodal-exchange-specs"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e60",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e61",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e62",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e63",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e64",
+   "detail": "ref-sfu-tolling-thesis"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e65",
+   "detail": "ref-fields-tolling-slides"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "number-not-in-quote",
+   "where": "How it works #3",
+   "detail": "2024 :: Liquidity is concentrated at the front. FERC notes that NYMEX gas futures trade more than eight years out but only the first few years trade"
+  },
+  {
+   "topic": "forward-curve",
    "kind": "number-not-in-quote",
    "where": "Key facts #1",
    "detail": "2024 :: The NYMEX natural gas futures contract trades more than eight years ahead, but only the first few years trade actively (FERC, 2024). "
@@ -3278,6 +3590,36 @@
    "kind": "tier-3",
    "where": "e32",
    "detail": "ref-fields-tolling-slides"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e35",
+   "detail": "ref-deng-exotic-electricity-options"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e36",
+   "detail": "ref-deng-exotic-electricity-options"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e37",
+   "detail": "ref-deng-exotic-electricity-options"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e42",
+   "detail": "ref-deng-exotic-electricity-options"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e38",
+   "detail": "ref-rff-merchant-hedges"
   },
   {
    "topic": "heat-rate-call-option",
@@ -6191,9 +6533,237 @@
   },
   {
    "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e50",
+   "detail": "ref-akin-ppa-swaps"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e51",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e52",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e53",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e56",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e57",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e58",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e59",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e60",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e61",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e63",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e64",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e65",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e66",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e68",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e69",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e70",
+   "detail": "ref-akin-ercot-hedge-slides"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e71",
+   "detail": "ref-akin-ppa-swaps"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e72",
+   "detail": "ref-akin-ppa-swaps"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e73",
+   "detail": "ref-yale-vppa"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e75",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e76",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e77",
+   "detail": "ref-nrf-hedges-since-uri"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e78",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e79",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e80",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e81",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e82",
+   "detail": "ref-nrf-ercot-price-spikes"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e83",
+   "detail": "ref-akin-ercot-hedge-slides"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e84",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e85",
+   "detail": "ref-akin-ppa-swaps"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e86",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e88",
+   "detail": "ref-nrf-vppa-risks"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e89",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e90",
+   "detail": "ref-nrf-vppa-risks"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e91",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "tier-3",
+   "where": "e92",
+   "detail": "ref-resurety-basis-risk"
+  },
+  {
+   "topic": "ppa-vppa",
    "kind": "number-not-in-quote",
    "where": "How it works #3",
-   "detail": "2022 :: **Settlement.** EPA, Norton Rose Fulbright and Yale say virtual PPAs typically settle monthly (Yale: monthly or quarterly).  Norton Rose Ful"
+   "detail": "2022 :: **Settlement interval and period.** EPA, Norton Rose Fulbright, ReSurety and Yale say virtual PPAs typically settle monthly (Yale: monthly o"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "number-not-in-quote",
+   "where": "How it works #6",
+   "detail": "2017 :: **Volume.** In an as-generated contract the hourly difference is multiplied by the metered output: Norton Rose Fulbright, LevelTen and RFF d"
   },
   {
    "topic": "ppa-vppa",
@@ -9101,6 +9671,96 @@
   },
   {
    "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e27",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e28",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e29",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e30",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e31",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e32",
+   "detail": "ref-montel-shape-imbalance"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e33",
+   "detail": "ref-montel-shape-imbalance"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e34",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e35",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e36",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e37",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e38",
+   "detail": "ref-levelten-vppa-terms"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e41",
+   "detail": "ref-rmi-ppa-risk"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e42",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "shape-risk",
+   "kind": "tier-3",
+   "where": "e43",
+   "detail": "ref-rmi-ppa-risk"
+  },
+  {
+   "topic": "shape-risk",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #2",
    "detail": "2025 :: The IMM defines the captured energy price as the weighted-average price paid to generators for the energy they produce. It says captured pri"
@@ -9108,7 +9768,7 @@
   {
    "topic": "shape-risk",
    "kind": "number-not-in-quote",
-   "where": "Key facts #6",
+   "where": "Key facts #7",
    "detail": "2025 :: ERCOT 2025 captured prices: solar $21/MWh, wind $19/MWh. "
   },
   {
@@ -9311,9 +9971,45 @@
   },
   {
    "topic": "spark-spread",
+   "kind": "tier-3",
+   "where": "e31",
+   "detail": "ref-deng-exotic-electricity-options"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "tier-3",
+   "where": "e32",
+   "detail": "ref-psu-risk-management-lesson12"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "tier-3",
+   "where": "e33",
+   "detail": "ref-psu-risk-management-lesson12"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "tier-3",
+   "where": "e34",
+   "detail": "ref-psu-risk-management-lesson12"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "tier-3",
+   "where": "e40",
+   "detail": "ref-montel-forward-curves-hedging"
+  },
+  {
+   "topic": "spark-spread",
    "kind": "number-not-in-quote",
-   "where": "Formula #2",
-   "detail": "2017 :: Power price: the price received for electricity in the same period; EIA typically uses daily spot prices at regional trading points, and its"
+   "where": "How it works #4",
+   "detail": "2013, 2017 :: The sources also differ on which power price goes in. EIA's 2013 spark spread article says it is typically calculated from daily spot prices"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "number-not-in-quote",
+   "where": "Formula #3",
+   "detail": "2017 :: Power price: the price received for electricity in the same period. EIA typically uses daily spot prices at regional trading points (on-peak"
   },
   {
    "topic": "spark-spread",
@@ -9325,12 +10021,12 @@
    "topic": "spark-spread",
    "kind": "number-not-in-quote",
    "where": "Key facts #2",
-   "detail": "2025 :: EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread. "
+   "detail": "2025, 2013 :: EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread; its February 2013 dark spread ar"
   },
   {
    "topic": "spark-spread",
    "kind": "number-not-in-quote",
-   "where": "Key facts #4",
+   "where": "Key facts #6",
    "detail": "2013 :: EIA does not report spark spreads in its 2013 chart when they are negative. "
   },
   {
@@ -10289,6 +10985,132 @@
   },
   {
    "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e34",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e35",
+   "detail": "ref-troutman-storage-offtake-tolling"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e36",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e37",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e38",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e39",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e40",
+   "detail": "ref-esig-storage-contracts"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e41",
+   "detail": "ref-esig-storage-contracts"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e42",
+   "detail": "ref-modo-contracting-strategies-docs"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e43",
+   "detail": "ref-enspired-bess-revenue-models"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e44",
+   "detail": "ref-entergy-toll-term-sheet"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e45",
+   "detail": "ref-entergy-toll-term-sheet"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e46",
+   "detail": "ref-entergy-toll-term-sheet"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e47",
+   "detail": "ref-entergy-toll-term-sheet"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e48",
+   "detail": "ref-pacificorp-tolling-agreement"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e49",
+   "detail": "ref-pacificorp-tolling-agreement"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e50",
+   "detail": "ref-pacificorp-tolling-agreement"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e51",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e54",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "number-not-in-quote",
+   "where": "Definition #1",
+   "detail": "2012 :: A tolling agreement is a contract in which one party (the toller) supplies the fuel, usually natural gas, to another party's power plant and"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "number-not-in-quote",
+   "where": "How it works #2",
+   "detail": "2020 :: The owner is paid mainly in fixed amounts. The Oil & Gas Journal article describes capacity payments made whether or not the plant runs, plu"
+  },
+  {
+   "topic": "tolling-agreement",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #1",
    "detail": "5.6, 6.6, 3.8, 9.14 :: The ERCOT Protocols use the phrase \"Power Purchase or Tolling Agreement (PPA)\" as one capitalized phrase with a single acronym; Section 2 (D"
@@ -10298,6 +11120,18 @@
    "kind": "number-not-in-quote",
    "where": "Key facts #5",
    "detail": "5.6, 6.6, 3.8, 9.14 :: ERCOT Protocols: \"Power Purchase or Tolling Agreement (PPA)\" appears in Sections 5.6.1, 6.6.3.8 and 9.14.7, among others. "
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #6",
+   "detail": "2020 :: Owner payments in two utility contract forms: capacity, variable O&M and start-up payments, monthly in arrears (Entergy 2020 term sheet); a "
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #7",
+   "detail": "2012 :: US commodity regulation: in its 2012 swap-definition rule the CFTC said tolling agreements may have features that fit its forward-contract i"
   },
   {
    "topic": "tolling-agreement",
@@ -10673,9 +11507,267 @@
   },
   {
    "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e38",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e39",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e40",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e41",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e42",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e43",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e44",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e45",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e46",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e47",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e48",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e49",
+   "detail": "ref-nrf-ercot-price-spikes"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e50",
+   "detail": "ref-akin-ercot-hedge-slides"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e51",
+   "detail": "ref-akin-ercot-hedge-slides"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e52",
+   "detail": "ref-nrf-ercot-price-spikes"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e53",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e54",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e55",
+   "detail": "ref-nrf-hedges-since-uri"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e56",
+   "detail": "ref-nrf-hedges-since-uri"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e57",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e58",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e59",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e61",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e62",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e63",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e64",
+   "detail": "ref-leveltenproxy-generation"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e65",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e66",
+   "detail": "ref-stoel-law-of-wind-ppa"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e67",
+   "detail": "ref-akin-ercot-hedge-slides"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e68",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e69",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e70",
+   "detail": "ref-pexapark-ppa-glossary"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e71",
+   "detail": "ref-oum-oren-load-following"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e72",
+   "detail": "ref-oum-oren-load-following"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e73",
+   "detail": "ref-montel-shape-imbalance"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e74",
+   "detail": "ref-montel-shape-imbalance"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e76",
+   "detail": "ref-nrf-hedges-since-uri"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e77",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e78",
+   "detail": "ref-rmi-ppa-risk"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e79",
+   "detail": "ref-rff-merchant-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e80",
+   "detail": "ref-nrf-hedges-since-uri"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "tier-3",
+   "where": "e81",
+   "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
    "kind": "number-not-in-quote",
-   "where": "Key facts #6",
+   "where": "Key facts #8",
    "detail": "2021 :: Wind was 27% of generating units with outages, derates or failures to start in the February 2021 FERC-NERC event area (Texas and the South C"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "number-not-in-quote",
+   "where": "Questions #2",
+   "detail": "200 MW :: It required the project to deliver a set volume regardless of output. When output fell below that volume, the project had to buy the shortfa"
   },
   {
    "topic": "volumetric-risk",

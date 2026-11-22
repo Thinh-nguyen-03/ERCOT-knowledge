@@ -1,20 +1,20 @@
 # Mechanical audit
 
-Generated 2026-11-21 over 153 topics.
+Generated 2026-11-22 over 153 topics.
 
 ## Counts
 
-- number-not-in-quote: 1203
+- number-not-in-quote: 1216
 - proposal-or-filing-source: 302
 - ocr: 95
 - pending-box: 82
-- tier-3: 182
+- tier-3: 351
 
 ## Evidence quotes by source tier
 
-- tier 1: 3866
-- tier 2: 2686
-- tier 3: 182
+- tier 1: 3868
+- tier 2: 2742
+- tier 3: 351
 
 ## number-not-in-quote
 
@@ -40,8 +40,13 @@ Generated 2026-11-21 over 153 topics.
 - asdc · Questions #6 · 2025 :: No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity.  According to the IMM, ERCOT introduced it through NPRR 1
 - asdc · Questions #8 · 2026 :: It wants to drop the requirement that the ASDCs add up to the AORDC and build each ASDC from the reliability value of its own product.  As a
 - asdc · Scenarios #5 · 2026 :: The IMM's February 2026 Board slide calls this a shortage price while the RTM clears surplus NSRS. 
+- asset-optimization · Definition #1 · 2024 :: No saved source defines "asset optimization" as a term: NRG's 2024 annual report uses the phrase ("asset optimization opportunities") withou
+- asset-optimization · How it works #2 · 2024 :: Hedging is part of the same job. FERC defines hedging as establishing an offsetting position to minimize losses should the original position
+- asset-optimization · How it works #11 · 2012 :: Outside batteries, the CFTC's 2012 swap-definition rule describes energy management agreements (EMAs). It says commenters gave no working de
 - asset-optimization · ERCOT context #3 · $100 :: The IMM reports how ERCOT storage optimization has shifted: ESRs moved from ancillary services toward energy arbitrage in 2024 as several AS
+- asset-optimization · Key facts #3 · 2012 :: EMAs (CFTC, 2012): no working definition; the managing entity may be paid a portion of the revenue. 
 - base-point · ERCOT context #6 · 8.1, 1.4 :: Section 8.1.1.4.1 measures how well a Resource follows its set point, not the raw Base Point. ERCOT computes the Generation Resource Energy 
+- basis-risk · Key facts #10 · 2015, 2019 :: LBNL: in ERCOT, wind's basis risk was on par with gas-fired generators' (2015-2019). 
 - basis-risk · Common confusion #2 · 2019 :: The sources do not all define it the same way. Norton Rose Fulbright and POWER Magazine frame it from the project's side, as node versus the
 - battery-revenue-stack · How it works #2 · 2025 :: Since RTC+B the market sets the stack for each interval. ESRs became a single-model Resource under NPRR1014, replacing the old pairing of a 
 - battery-revenue-stack · Formula #1 · 8.1, 1.3 :: Duration caps limit how much of each AS a battery's stored energy can back. Under the Protocols in force (capacity monitoring criteria in Se
@@ -253,6 +258,7 @@ Generated 2026-11-21 over 153 topics.
 - ffss · Link to winter-storm-uri · 2021 :: example-of Winter Storm Uri (Feb 2021): The IMM says FFSS was implemented in 2022 in response to fuel supply disruptions during Winter Storm
 - ffss · Link to ordc · 2024 :: affects ORDC (Operating Reserve Demand Curve): The IMM's 2024 report said FFSS deployment removed capacity from the online reserves used for
 - ffss · Link to weatherization · 39.159 :: related Weatherization Standards: SB 3 directs the PUC to ensure that winter resource capability qualifications for a service described by P
+- forward-curve · How it works #3 · 2024 :: Liquidity is concentrated at the front. FERC notes that NYMEX gas futures trade more than eight years out but only the first few years trade
 - forward-curve · Key facts #1 · 2024 :: The NYMEX natural gas futures contract trades more than eight years ahead, but only the first few years trade actively (FERC, 2024). 
 - forward-curve · Scenarios #2 · 2030 :: ICE lists the North peak future for up to 50 monthly periods, so a 2030 price may be listed but is likely far less liquid than the front mon
 - four-cp · Formula #1 · 25.192 :: Current rule (16 TAC 25.192, in effect): TSP annual rate = commission-approved transmission cost of service ÷ ERCOT average 4CP demand (June
@@ -632,7 +638,8 @@ Generated 2026-11-21 over 153 topics.
 - polr · ERCOT context #2 · 25.43 :: Cooperatives and municipal utilities. The PUCT's 25.43 selection rules do not apply when a co-op or muni designates its own POLR provider fo
 - polr · Questions #4 · 25.43 :: By the 16 TAC 25.43(m)(2) formula, which sets a maximum rate. For residential customers, the energy charge is the preceding month's average 
 - polr · Link to puct · 25.43 :: related PUCT (Public Utility Commission of Texas): The PUCT designates POLR providers and sets requirements for POLR service in 16 TAC 25.43
-- ppa-vppa · How it works #3 · 2022 :: **Settlement.** EPA, Norton Rose Fulbright and Yale say virtual PPAs typically settle monthly (Yale: monthly or quarterly).  Norton Rose Ful
+- ppa-vppa · How it works #3 · 2022 :: **Settlement interval and period.** EPA, Norton Rose Fulbright, ReSurety and Yale say virtual PPAs typically settle monthly (Yale: monthly o
+- ppa-vppa · How it works #6 · 2017 :: **Volume.** In an as-generated contract the hourly difference is multiplied by the metered output: Norton Rose Fulbright, LevelTen and RFF d
 - ppa-vppa · Common confusion #2 · 2019, 2020 :: "Contract for differences" is used two ways. EPA and Norton Rose Fulbright's 2019 article use it for the standard VPPA swap.  Norton Rose Fu
 - ppa-vppa · Link to winter-storm-uri · 2021 :: related Winter Storm Uri (Feb 2021): UT Austin says wind hedges could trigger payments when wholesale prices exceeded contract prices or out
 - prc · Formula #1 · 6.5, 7.5 :: The Protocols give the PRC formula in Section 6.5.7.5, paragraph (1)(p). The text below describes each component from the variable list and 
@@ -953,7 +960,7 @@ Generated 2026-11-21 over 153 topics.
 - shadow-price · Key facts #3 · 2025 :: Generic caps (Dec. 5, 2025): $5,251/MW base case or voltage; $4,500, $3,500, $2,800 by voltage class for N-1. 
 - shadow-price · Link to gtc · 2025 :: related GTC (Generic Transmission Constraint): ERCOT treats GTCs as base-case stability constraints with a shadow price cap of $5,251 per MW
 - shape-risk · ERCOT context #2 · 2025 :: The IMM defines the captured energy price as the weighted-average price paid to generators for the energy they produce. It says captured pri
-- shape-risk · Key facts #6 · 2025 :: ERCOT 2025 captured prices: solar $21/MWh, wind $19/MWh. 
+- shape-risk · Key facts #7 · 2025 :: ERCOT 2025 captured prices: solar $21/MWh, wind $19/MWh. 
 - shift-factor · Key facts #7 · 2025 :: The EMS shift factor cutoff default is 0.0001, per the December 5, 2025 version of the shadow-price-cap methodology (Attachment P). 
 - shift-factor · Questions #2 · 10%, 0.10 :: By the definition, a unit injection at that bus, taken from the fixed reference bus, changes the flow on that element by 10% of the injectio
 - sixty-day-disclosure · Definition #1 · 25.506, 3.2 :: The 60-day disclosures are the entity-specific market data ERCOT posts 60 calendar days after the day the information is accumulated, under 
@@ -972,10 +979,11 @@ Generated 2026-11-21 over 153 topics.
 - solar-generation · Key facts #7 · 2022 :: In 2022, per the IMM, solar capacity factors during summer peak hours were approximately 69% for facilities in the west and 54% elsewhere in
 - solar-generation · Questions #10 · 2025 :: The IMM says solar's 2025 captured price ($21 per MWh) was nearly at parity with wind ($19) after years at a premium, and that the trend is 
 - solar-generation · Link to wind-solar-forecasts · 2025 :: related Wind & Solar Forecasts (STWPF, STPPF): The IMM says 2025 NSRS volumes rose 7.5%, driven by higher net load and solar forecast errors
-- spark-spread · Formula #2 · 2017 :: Power price: the price received for electricity in the same period; EIA typically uses daily spot prices at regional trading points, and its
+- spark-spread · How it works #4 · 2013, 2017 :: The sources also differ on which power price goes in. EIA's 2013 spark spread article says it is typically calculated from daily spot prices
+- spark-spread · Formula #3 · 2017 :: Power price: the price received for electricity in the same period. EIA typically uses daily spot prices at regional trading points (on-peak
 - spark-spread · ERCOT context #4 · 2024 :: ERCOT metrics also differ on variable O&M. ERCOT's peaker net margin uses a protocol-specified 10.0 MMBtu per MWh heat rate and excludes var
-- spark-spread · Key facts #2 · 2025 :: EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread. 
-- spark-spread · Key facts #4 · 2013 :: EIA does not report spark spreads in its 2013 chart when they are negative. 
+- spark-spread · Key facts #2 · 2025, 2013 :: EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread; its February 2013 dark spread ar
+- spark-spread · Key facts #6 · 2013 :: EIA does not report spark spreads in its 2013 chart when they are negative. 
 - spp · Timeline #2 · 2026 :: ERCOT's summer 2026 review notes that SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025. 
 - spp · Example #1 · $20, $50,, $30 :: Suppose a Resource Node has two SCED runs in a 15-minute interval: one covering 600 seconds at an LMP of $20 and one covering 300 seconds at
 - stakeholder-process · How it works #2 · 2011 :: PRS. ERCOT checks a submitted NPRR for completeness and notifies the submitter within five Business Days if it is incomplete.  Once complete
@@ -1100,8 +1108,12 @@ Generated 2026-11-21 over 153 topics.
 - thermal-outages · Questions #12 · 2023 :: The IMM says they make it harder for ERCOT to plan and operate the system reliably and says stronger reporting requirements would improve co
 - thermal-outages · Link to weatherization · 2021 :: related Weatherization Standards: In the February 2021 event area (ERCOT, SPP and MISO South), 75 percent of unplanned unit outages, derates
 - thermal-outages · Link to winter-storm-uri · 2021 :: related Winter Storm Uri (Feb 2021): FERC-NERC attributes 75 percent of the outages, derates and failures to start across the whole event ar
+- tolling-agreement · Definition #1 · 2012 :: A tolling agreement is a contract in which one party (the toller) supplies the fuel, usually natural gas, to another party's power plant and
+- tolling-agreement · How it works #2 · 2020 :: The owner is paid mainly in fixed amounts. The Oil & Gas Journal article describes capacity payments made whether or not the plant runs, plu
 - tolling-agreement · ERCOT context #1 · 5.6, 6.6, 3.8, 9.14 :: The ERCOT Protocols use the phrase "Power Purchase or Tolling Agreement (PPA)" as one capitalized phrase with a single acronym; Section 2 (D
 - tolling-agreement · Key facts #5 · 5.6, 6.6, 3.8, 9.14 :: ERCOT Protocols: "Power Purchase or Tolling Agreement (PPA)" appears in Sections 5.6.1, 6.6.3.8 and 9.14.7, among others. 
+- tolling-agreement · Key facts #6 · 2020 :: Owner payments in two utility contract forms: capacity, variable O&M and start-up payments, monthly in arrears (Entergy 2020 term sheet); a 
+- tolling-agreement · Key facts #7 · 2012 :: US commodity regulation: in its 2012 swap-definition rule the CFTC said tolling agreements may have features that fit its forward-contract i
 - tolling-agreement · Link to qse · 5.6 :: related QSE (Qualified Scheduling Entity): Under Protocol Section 5.6.1, QSEs that submit Power Purchase or Tolling Agreements cannot let Re
 - tx-set · How it works #2 · 19.3, 15.1, 1.3 :: Two routes. Some transactions flow through ERCOT; others are point to point. Point-to-point communications flow directly between CRs and TDS
 - tx-set · ERCOT context #1 · 19.7 :: TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file format, submitted via NAESB at least monthly under Protocol S
@@ -1133,7 +1145,8 @@ Generated 2026-11-21 over 153 topics.
 - uri-repricing · Link to rtc-b · 2021 :: related RTC+B (Real-Time Co-optimization + Batteries): In its March 2021 AS order the PUCT noted that the withdrawal request for NPRR947 sai
 - virtual-bids · How it works #5 · 4.4 :: Bid exposure: a DAM Energy Bid priced at or below zero has a bid exposure price of zero.  For a bid priced above zero, the exposure price is
 - virtual-bids · ERCOT context #2 · 36%, 420% :: Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated 
-- volumetric-risk · Key facts #6 · 2021 :: Wind was 27% of generating units with outages, derates or failures to start in the February 2021 FERC-NERC event area (Texas and the South C
+- volumetric-risk · Key facts #8 · 2021 :: Wind was 27% of generating units with outages, derates or failures to start in the February 2021 FERC-NERC event area (Texas and the South C
+- volumetric-risk · Questions #2 · 200 MW :: It required the project to deliver a set volume regardless of output. When output fell below that volume, the project had to buy the shortfa
 - volumetric-risk · Link to winter-storm-uri · 2021 :: example-of Winter Storm Uri (Feb 2021): UT Austin says wind generation below contracted quantities during Uri could trigger hedge payments t
 - volumetric-risk · Link to wind-generation · 2021 :: related Wind Generation: FERC and NERC staff say wind units were 27 percent of the 1,045 generating units with outages, derates or failures 
 - waha-hub · How it works #1 · 2024 :: Changes in prices at natural gas hubs tend to be reflected in movements in prices at nearby power market hubs or zones.  Most natural gas at
@@ -1712,12 +1725,27 @@ Generated 2026-11-21 over 153 topics.
 
 ## tier-3
 
-- asset-optimization · e4 · ref-montel-optimisation
-- asset-optimization · e18 · ref-montel-optimisation
 - asset-optimization · e19 · ref-ogj-tolling
-- asset-optimization · e20 · ref-montel-optimisation
 - asset-optimization · e24 · ref-nrf-energy-hedges
 - asset-optimization · e25 · ref-pillsbury-gas-hedges
+- asset-optimization · e30 · ref-vistra-10k-2024
+- asset-optimization · e31 · ref-vistra-10k-2024
+- asset-optimization · e33 · ref-vistra-10k-2024
+- asset-optimization · e34 · ref-nrg-10k-2024
+- asset-optimization · e35 · ref-nrg-10k-2024
+- asset-optimization · e36 · ref-nrg-10k-2024
+- asset-optimization · e37 · ref-nrg-10k-2024
+- asset-optimization · e43 · ref-cra-ercot-value-stacking-2025
+- asset-optimization · e44 · ref-modo-ercot-offtake-tolling-2025
+- asset-optimization · e45 · ref-troutman-storage-offtake-tolling
+- asset-optimization · e46 · ref-enspired-bess-revenue-models
+- asset-optimization · e47 · ref-modo-ercot-offtake-tolling-2025
+- asset-optimization · e48 · ref-enspired-bess-revenue-models
+- asset-optimization · e49 · ref-modo-ercot-offtake-tolling-2025
+- asset-optimization · e50 · ref-modo-ercot-offtake-tolling-2025
+- asset-optimization · e51 · ref-enspired-bess-revenue-models
+- asset-optimization · e59 · ref-enspired-bess-revenue-models
+- asset-optimization · e58 · ref-modo-ercot-offtake-tolling-2025
 - basis-risk · e1 · ref-nrf-ercot-price-spikes
 - basis-risk · e2 · ref-powermag-ppa
 - basis-risk · e3 · ref-yale-ppa-risk
@@ -1741,6 +1769,18 @@ Generated 2026-11-21 over 153 topics.
 - basis-risk · e36 · ref-yale-ppa-risk
 - basis-risk · e37 · ref-rmi-ppa-risk
 - basis-risk · e38 · ref-powermag-ppa
+- basis-risk · e53 · ref-psu-temporal-locational-risk
+- basis-risk · e54 · ref-rff-merchant-hedges
+- basis-risk · e55 · ref-rff-merchant-hedges
+- basis-risk · e56 · ref-rff-merchant-hedges
+- basis-risk · e57 · ref-resurety-basis-risk
+- basis-risk · e58 · ref-resurety-basis-risk
+- basis-risk · e59 · ref-resurety-basis-risk
+- basis-risk · e60 · ref-stoel-law-of-wind-ppa
+- basis-risk · e61 · ref-akin-ercot-hedge-slides
+- basis-risk · e65 · ref-rff-merchant-hedges
+- basis-risk · e66 · ref-rff-merchant-hedges
+- basis-risk · e67 · ref-montel-forward-curves-hedging
 - forward-curve · e2 · ref-sfu-tolling-thesis
 - forward-curve · e3 · ref-nzea-forward-curve
 - forward-curve · e38 · ref-montel-optimisation
@@ -1758,6 +1798,25 @@ Generated 2026-11-21 over 153 topics.
 - forward-curve · e29 · ref-sfu-tolling-thesis
 - forward-curve · e30 · ref-nzea-forward-market
 - forward-curve · e31 · ref-montel-optimisation
+- forward-curve · e44 · ref-pirrong-forward-curves
+- forward-curve · e45 · ref-pirrong-forward-curves
+- forward-curve · e46 · ref-pirrong-forward-curves
+- forward-curve · e47 · ref-pirrong-forward-curves
+- forward-curve · e48 · ref-pirrong-forward-curves
+- forward-curve · e49 · ref-montel-forward-curves-hedging
+- forward-curve · e50 · ref-montel-forward-curves-hedging
+- forward-curve · e51 · ref-montel-forward-curves-hedging
+- forward-curve · e52 · ref-montel-forward-curves-hedging
+- forward-curve · e53 · ref-montel-forward-curves-hedging
+- forward-curve · e54 · ref-nodal-exchange-specs
+- forward-curve · e55 · ref-nodal-exchange-specs
+- forward-curve · e56 · ref-nodal-exchange-specs
+- forward-curve · e60 · ref-rff-merchant-hedges
+- forward-curve · e61 · ref-rff-merchant-hedges
+- forward-curve · e62 · ref-rff-merchant-hedges
+- forward-curve · e63 · ref-rff-merchant-hedges
+- forward-curve · e64 · ref-sfu-tolling-thesis
+- forward-curve · e65 · ref-fields-tolling-slides
 - heat-rate-call-option · e2 · ref-pillsbury-gas-hedges
 - heat-rate-call-option · e3 · ref-pillsbury-gas-hedges
 - heat-rate-call-option · e4 · ref-fpml-heat-rate-option
@@ -1785,6 +1844,11 @@ Generated 2026-11-21 over 153 topics.
 - heat-rate-call-option · e33 · ref-fpml-heat-rate-option
 - heat-rate-call-option · e34 · ref-pillsbury-gas-hedges
 - heat-rate-call-option · e32 · ref-fields-tolling-slides
+- heat-rate-call-option · e35 · ref-deng-exotic-electricity-options
+- heat-rate-call-option · e36 · ref-deng-exotic-electricity-options
+- heat-rate-call-option · e37 · ref-deng-exotic-electricity-options
+- heat-rate-call-option · e42 · ref-deng-exotic-electricity-options
+- heat-rate-call-option · e38 · ref-rff-merchant-hedges
 - ppa-vppa · e1 · ref-powermag-ppa
 - ppa-vppa · e2 · ref-epex-wind-hedging
 - ppa-vppa · e5 · ref-nrf-vppa-financing
@@ -1808,6 +1872,43 @@ Generated 2026-11-21 over 153 topics.
 - ppa-vppa · e45 · ref-yale-vppa
 - ppa-vppa · e46 · ref-rmi-ppa-risk
 - ppa-vppa · e49 · ref-nrf-ercot-price-spikes
+- ppa-vppa · e50 · ref-akin-ppa-swaps
+- ppa-vppa · e51 · ref-levelten-vppa-terms
+- ppa-vppa · e52 · ref-levelten-vppa-terms
+- ppa-vppa · e53 · ref-levelten-vppa-terms
+- ppa-vppa · e56 · ref-stoel-law-of-wind-ppa
+- ppa-vppa · e57 · ref-stoel-law-of-wind-ppa
+- ppa-vppa · e58 · ref-resurety-basis-risk
+- ppa-vppa · e59 · ref-resurety-basis-risk
+- ppa-vppa · e60 · ref-rff-merchant-hedges
+- ppa-vppa · e61 · ref-rff-merchant-hedges
+- ppa-vppa · e63 · ref-levelten-vppa-terms
+- ppa-vppa · e64 · ref-levelten-vppa-terms
+- ppa-vppa · e65 · ref-levelten-vppa-terms
+- ppa-vppa · e66 · ref-stoel-law-of-wind-ppa
+- ppa-vppa · e68 · ref-rff-merchant-hedges
+- ppa-vppa · e69 · ref-stoel-law-of-wind-ppa
+- ppa-vppa · e70 · ref-akin-ercot-hedge-slides
+- ppa-vppa · e71 · ref-akin-ppa-swaps
+- ppa-vppa · e72 · ref-akin-ppa-swaps
+- ppa-vppa · e73 · ref-yale-vppa
+- ppa-vppa · e75 · ref-leveltenproxy-generation
+- ppa-vppa · e76 · ref-leveltenproxy-generation
+- ppa-vppa · e77 · ref-nrf-hedges-since-uri
+- ppa-vppa · e78 · ref-rff-texas-hedges
+- ppa-vppa · e79 · ref-rff-merchant-hedges
+- ppa-vppa · e80 · ref-rff-merchant-hedges
+- ppa-vppa · e81 · ref-levelten-vppa-terms
+- ppa-vppa · e82 · ref-nrf-ercot-price-spikes
+- ppa-vppa · e83 · ref-akin-ercot-hedge-slides
+- ppa-vppa · e84 · ref-pexapark-ppa-glossary
+- ppa-vppa · e85 · ref-akin-ppa-swaps
+- ppa-vppa · e86 · ref-leveltenproxy-generation
+- ppa-vppa · e88 · ref-nrf-vppa-risks
+- ppa-vppa · e89 · ref-rff-texas-hedges
+- ppa-vppa · e90 · ref-nrf-vppa-risks
+- ppa-vppa · e91 · ref-resurety-basis-risk
+- ppa-vppa · e92 · ref-resurety-basis-risk
 - sc-data-center-ppa · e26 · ref-nrf-ercot-price-spikes
 - sc-data-center-ppa · e28 · ref-powermag-ppa
 - sc-data-center-ppa · e29 · ref-nrf-vppa-risks
@@ -1833,6 +1934,21 @@ Generated 2026-11-21 over 153 topics.
 - shape-risk · e24 · ref-nrf-hedges-since-uri
 - shape-risk · e25 · ref-rmi-ppa-risk
 - shape-risk · e26 · ref-wbcsd-multitech-ppa
+- shape-risk · e27 · ref-pexapark-ppa-glossary
+- shape-risk · e28 · ref-pexapark-ppa-glossary
+- shape-risk · e29 · ref-pexapark-ppa-glossary
+- shape-risk · e30 · ref-pexapark-ppa-glossary
+- shape-risk · e31 · ref-pexapark-ppa-glossary
+- shape-risk · e32 · ref-montel-shape-imbalance
+- shape-risk · e33 · ref-montel-shape-imbalance
+- shape-risk · e34 · ref-rff-merchant-hedges
+- shape-risk · e35 · ref-rff-merchant-hedges
+- shape-risk · e36 · ref-rff-merchant-hedges
+- shape-risk · e37 · ref-rff-merchant-hedges
+- shape-risk · e38 · ref-levelten-vppa-terms
+- shape-risk · e41 · ref-rmi-ppa-risk
+- shape-risk · e42 · ref-pexapark-ppa-glossary
+- shape-risk · e43 · ref-rmi-ppa-risk
 - spark-spread · e2 · ref-sfu-tolling-thesis
 - spark-spread · e4 · ref-sfu-tolling-thesis
 - spark-spread · e6 · ref-sfu-tolling-thesis
@@ -1843,6 +1959,11 @@ Generated 2026-11-21 over 153 topics.
 - spark-spread · e18 · ref-pillsbury-gas-hedges
 - spark-spread · e19 · ref-nrf-energy-hedges
 - spark-spread · e29 · ref-nrf-energy-hedges
+- spark-spread · e31 · ref-deng-exotic-electricity-options
+- spark-spread · e32 · ref-psu-risk-management-lesson12
+- spark-spread · e33 · ref-psu-risk-management-lesson12
+- spark-spread · e34 · ref-psu-risk-management-lesson12
+- spark-spread · e40 · ref-montel-forward-curves-hedging
 - tolling-agreement · e1 · ref-ogj-tolling
 - tolling-agreement · e2 · ref-totalenergies-tolling
 - tolling-agreement · e3 · ref-totalenergies-tolling
@@ -1870,6 +1991,25 @@ Generated 2026-11-21 over 153 topics.
 - tolling-agreement · e32 · ref-sfu-tolling-thesis
 - tolling-agreement · e29 · ref-sfu-tolling-thesis
 - tolling-agreement · e30 · ref-sfu-tolling-thesis
+- tolling-agreement · e34 · ref-modo-ercot-offtake-tolling-2025
+- tolling-agreement · e35 · ref-troutman-storage-offtake-tolling
+- tolling-agreement · e36 · ref-enspired-bess-revenue-models
+- tolling-agreement · e37 · ref-enspired-bess-revenue-models
+- tolling-agreement · e38 · ref-enspired-bess-revenue-models
+- tolling-agreement · e39 · ref-modo-ercot-offtake-tolling-2025
+- tolling-agreement · e40 · ref-esig-storage-contracts
+- tolling-agreement · e41 · ref-esig-storage-contracts
+- tolling-agreement · e42 · ref-modo-contracting-strategies-docs
+- tolling-agreement · e43 · ref-enspired-bess-revenue-models
+- tolling-agreement · e44 · ref-entergy-toll-term-sheet
+- tolling-agreement · e45 · ref-entergy-toll-term-sheet
+- tolling-agreement · e46 · ref-entergy-toll-term-sheet
+- tolling-agreement · e47 · ref-entergy-toll-term-sheet
+- tolling-agreement · e48 · ref-pacificorp-tolling-agreement
+- tolling-agreement · e49 · ref-pacificorp-tolling-agreement
+- tolling-agreement · e50 · ref-pacificorp-tolling-agreement
+- tolling-agreement · e51 · ref-rff-merchant-hedges
+- tolling-agreement · e54 · ref-modo-ercot-offtake-tolling-2025
 - uri-repricing · e16 · repricing-court-summary
 - uri-repricing · e17 · repricing-court-summary
 - volumetric-risk · e1 · ref-rmi-ppa-risk
@@ -1894,3 +2034,45 @@ Generated 2026-11-21 over 153 topics.
 - volumetric-risk · e35 · ref-nrf-ercot-price-spikes
 - volumetric-risk · e36 · ref-rmi-ppa-risk
 - volumetric-risk · e37 · ref-rmi-ppa-risk
+- volumetric-risk · e38 · ref-rff-texas-hedges
+- volumetric-risk · e39 · ref-rff-texas-hedges
+- volumetric-risk · e40 · ref-rff-texas-hedges
+- volumetric-risk · e41 · ref-rff-texas-hedges
+- volumetric-risk · e42 · ref-rff-texas-hedges
+- volumetric-risk · e43 · ref-rff-texas-hedges
+- volumetric-risk · e44 · ref-rff-texas-hedges
+- volumetric-risk · e45 · ref-rff-merchant-hedges
+- volumetric-risk · e46 · ref-rff-merchant-hedges
+- volumetric-risk · e47 · ref-rff-merchant-hedges
+- volumetric-risk · e48 · ref-rff-merchant-hedges
+- volumetric-risk · e49 · ref-nrf-ercot-price-spikes
+- volumetric-risk · e50 · ref-akin-ercot-hedge-slides
+- volumetric-risk · e51 · ref-akin-ercot-hedge-slides
+- volumetric-risk · e52 · ref-nrf-ercot-price-spikes
+- volumetric-risk · e53 · ref-leveltenproxy-generation
+- volumetric-risk · e54 · ref-leveltenproxy-generation
+- volumetric-risk · e55 · ref-nrf-hedges-since-uri
+- volumetric-risk · e56 · ref-nrf-hedges-since-uri
+- volumetric-risk · e57 · ref-rff-merchant-hedges
+- volumetric-risk · e58 · ref-rff-merchant-hedges
+- volumetric-risk · e59 · ref-rff-texas-hedges
+- volumetric-risk · e61 · ref-rff-merchant-hedges
+- volumetric-risk · e62 · ref-rff-merchant-hedges
+- volumetric-risk · e63 · ref-leveltenproxy-generation
+- volumetric-risk · e64 · ref-leveltenproxy-generation
+- volumetric-risk · e65 · ref-stoel-law-of-wind-ppa
+- volumetric-risk · e66 · ref-stoel-law-of-wind-ppa
+- volumetric-risk · e67 · ref-akin-ercot-hedge-slides
+- volumetric-risk · e68 · ref-pexapark-ppa-glossary
+- volumetric-risk · e69 · ref-pexapark-ppa-glossary
+- volumetric-risk · e70 · ref-pexapark-ppa-glossary
+- volumetric-risk · e71 · ref-oum-oren-load-following
+- volumetric-risk · e72 · ref-oum-oren-load-following
+- volumetric-risk · e73 · ref-montel-shape-imbalance
+- volumetric-risk · e74 · ref-montel-shape-imbalance
+- volumetric-risk · e76 · ref-nrf-hedges-since-uri
+- volumetric-risk · e77 · ref-rff-merchant-hedges
+- volumetric-risk · e78 · ref-rmi-ppa-risk
+- volumetric-risk · e79 · ref-rff-merchant-hedges
+- volumetric-risk · e80 · ref-nrf-hedges-since-uri
+- volumetric-risk · e81 · ref-rff-texas-hedges

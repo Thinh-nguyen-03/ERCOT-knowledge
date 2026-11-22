@@ -39,13 +39,6 @@ BEFORE: …all Market Participants are described in the Operating Guides. 6.6 Se
 QUOTE: For each Security-Constrained Economic Dispatch (SCED) Locational Marginal Price (LMP) calculated at each Settlement Point in the SCED process, an administrative price floor of -$251/MWh will be applied to Real-Time Settlement Point Prices after adding the Real-Time Reliability Deployment Price Adders for Energy.
 AFTER:  ERCOT shall assign an LMP to de-energized Electrical Buses for use in the calculation of the Real-Time Settlement Point Prices by using heuristic rules applied in the following order: (a) Use an appropriate LMP predetermined by ERCOT as applicable to a specific Electrical Bus; or if not so specifie…
 
-### e10 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.3, Adjustment Period and Real-Time Operations Timeline, paragraph (7) · text copy line 454 · heading above: 6.3 Adjustment Period and Real-Time Operations Timeline
-
-BEFORE: …consistent with the Real-Time MCPCs, ignoring the Real-Time Reliability Deployment Price Adder for Ancillary Service, averaged over the 15-minute Settlement Interval, then ERCOT shall consider the relevant Settlement Interval(s) in accordance with Section 6.6.9, Emergency Operations Settlement. (7) 
-QUOTE: All Real-Time LMPs, Real-Time Settlement Point Prices, Real-Time prices for energy metered, Real-Time Reliability Deployment Price Adders for Energy, Real-Time MCPCs, and Real-Time Reliability Deployment Price Adders for Ancillary Service are final at 1600 of the second Business Day after the Operating Day.
-AFTER:  (a) However, after Real-Time LMPs, Real-Time Settlement Point Prices, Real-Time prices for energy metered, Real-Time Reliability Deployment Price Adders for Energy, Real-Time MCPCs, and Real-Time Reliability Deployment Price Adders for Ancillary Service are final, if ERCOT determines that prices qu…
-
 ### e11 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Executive Summary, Real-time Market Performance · text copy line 741
 
@@ -81,20 +74,6 @@ BEFORE: …pikes because gas peakers and highpriced ESRs were needed to balance 
 QUOTE: The most noteworthy development for ancillary services was the implementation of RTC in December.
 AFTER:  Resources can now sell ancillary services directly into the real-time market and ERCOT optimizes its utilization of resources for satisfying the system's energy and ancillary services needs. The ability to sell real-time ancillary services is particularly attractive for ESRs that dominate the provi…
 
-### e20 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.3, paragraph (2) · text copy line 422 · heading above: 6.3 Adjustment Period and Real-Time Operations Timeline
-
-BEFORE: …Change Requests. 6.2 Market Timeline Summary (1) The figure below is a high-level summary of the overall market timeline: [] 6.3 Adjustment Period and Real-Time Operations Timeline (1) The figure below highlights the major activities that occur in the Adjustment Period and Real-Time operations: (2) 
-QUOTE: Activities for the Adjustment Period begin at 1800 in the Day-Ahead and end one full hour before the start of the Operating Hour.
-AFTER:  The figure above is intended to be only a general guide and not controlling language, and any conflict between this figure and another section of the Protocols is controlled by the other section. (3) ERCOT shall monitor Real-Time Locational Marginal Prices (LMPs), Real-Time Market (RTM) Clearing Pr…
-
-### e21 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.4.9.1, paragraph (2) · text copy line 896 · heading above: 6.4.9.1 Ancillary Service Offers
-
-BEFORE: …risk of bodily harm, or undue damage to equipment no longer exists. 6.4.9 Real-Time Ancillary Service Offers and Awards 6.4.9.1 Ancillary Service Offers (1) A detailed description of the Ancillary Service Offers and validations performed by ERCOT is in Section 4.4.7.2, Ancillary Service Offers. (2) 
-QUOTE: QSEs may update their Ancillary Service Offers in Real-Time. SCED shall use the latest updated Ancillary Service Offers available to it at the time of the SCED execution.
-AFTER:  6.4.9.1.1 Ancillary Service Awards (1) Ancillary Service awards will be based on Resource capability (qualification, operating limits, Ancillary Service limits, ramp rates, State of Charge (SOC), SOC limits, etc.) and Ancillary Service Demand Curves (ASDCs) regardless of the quantity of Ancillary S…
-
 ### e22 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.4.9.1.1, paragraph (1) · text copy line 900 · heading above: 6.4.9.1.1 Ancillary Service Awards
 
@@ -116,41 +95,6 @@ BEFORE: …=====================================================================
 QUOTE: The amount of its Self-Schedules with sink specified at the Settlement Point; plus (c) The amount of its Day-Ahead Market (DAM) Energy Bids cleared in the DAM at the Settlement Point; plus (d) The amount of its Energy Trades at the Settlement Point where the QSE is the buyer; minus (e) The amount of its Self-Schedules with source specified at the Settlement Point; minus (f) The amount of its energy offers cleared in the DAM at the Settlement Point; minus (g) The amount of its Energy Trades at the Settlement Point where the QSE is the seller.
 AFTER:  (2) The payment or charge to each QSE for Energy Imbalance Service at a Resource Node Settlement Point for a given 15-minute Settlement Interval is calculated as follows: RTEIAMT _(q, p) = (-1) * {[]([](RESREV _(q, r, gsc, p))) + ([]WSLAMTTOT _(q, r, p)) + ([]ESRNWSLAMTTOT _(q, r, p)) + RTSPP _(p) …
 
-### e25 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.3, paragraph (3) · text copy line 424 · heading above: 6.3 Adjustment Period and Real-Time Operations Timeline
-
-BEFORE: …Period begin at 1800 in the Day-Ahead and end one full hour before the start of the Operating Hour. The figure above is intended to be only a general guide and not controlling language, and any conflict between this figure and another section of the Protocols is controlled by the other section. (3) 
-QUOTE: ERCOT shall monitor Real-Time Locational Marginal Prices (LMPs), Real-Time Market (RTM) Clearing Prices for Capacity (MCPCs), and Real-Time Settlement Point Prices, including Real-Time prices for energy metered, Real-Time Reliability Deployment Price Adders for Energy, and Real-Time Reliability Deployment Price Adders for Ancillary Service, for errors and if there are conditions that cause the price to be questionable, as soon as practicable, ERCOT shall notify all Market Participants that the Real-Time LMPs, Real-Time MCPCs, and Real-Time Settlement Point Prices are under investigation.
-AFTER:  (4) ERCOT shall correct prices for an Operating Day when accurate prices can be determined, the impact of the price correction is determined to be significant, and one of the following conditions has been met: a market solution is determined to be invalid, invalid prices are identified in an otherw…
-
-### e26 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.3, paragraph (7)(b) · text copy line 464 · heading above: 6.3 Adjustment Period and Real-Time Operations Timeline
-
-BEFORE: …ment Funds. (b) Before seeking ERCOT Board review of prices, ERCOT will determine if the impact of the price correction is significant, as that term is used in paragraph (4) above, by calculating the potential changes to the RTM Settlement Statement(s) of any Counter-Party on a given Operating Day. 
-QUOTE: ERCOT shall seek ERCOT Board review of prices if the change in RTM Settlement Statement(s) would result in the absolute value impact to any single Counter-Party, based on the sum of all original RTM Settlement Statement amounts of Market Participants assigned to the Counter-Party, to be greater than: (i) 2% and also greater than $20,000; or (ii) 20% and also greater than $2,000.
-AFTER:  (c) The ERCOT Board may review and change Real-Time LMPs, Real-Time Settlement Point Prices, Real-Time prices for energy metered, Real-Time Reliability Deployment Price Adders for Energy, Real-Time MCPCs, and Real-Time Reliability Deployment Price Adders for Ancillary Service if ERCOT gave timely n…
-
-### e27 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.3, paragraph (7)(a) · text copy line 456 · heading above: 6.3 Adjustment Period and Real-Time Operations Timeline
-
-BEFORE: …iability Deployment Price Adders for Energy, Real-Time MCPCs, and Real-Time Reliability Deployment Price Adders for Ancillary Service are final, if ERCOT determines that prices qualify for a price correction pursuant to paragraph (4) above and that ERCOT will seek ERCOT Board review of such prices, 
-QUOTE: it shall notify Market Participants and describe the need for such correction as soon as practicable but no later than 30 days after the Operating Day. Failure to notify Market Participants within this timeline precludes the ERCOT Board from reviewing such prices.
-AFTER:  However, nothing in this section shall be understood to limit or otherwise inhibit any of the following: (i) ERCOT's duty to inform the PUCT of potential or actual violations of the ERCOT Protocols or PUCT Rules and its right to request that the PUCT authorize correction of any prices that may have…
-
-### e28 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: page 29 (OCR), Section C, Zonal Energy Prices, Table 1 · ocr copy line 1114, OCR page 29
-
-BEFORE: …each zone for 2021-2025. These prices differ slightly from the all-in costs discussed in Section B.1 because they exclude imports and exports to and from the ERCOT grid through DC ties. Table 1: Average Annual Real-Time Energy Market Prices by Zone 2021 2022 2023 2024 2025 Energy Prices ($ per MWh) 
-QUOTE: ERCOT $179.24 $76.41 $73.28 $32.41 $36.94
-AFTER:  Houston $136.69 $82.47 $72.88 $30.24 $34.95 North $221.52 $77.30 $78.01 $30.42 $35.34 South $200.35 $74.39 $71.12 $34.66 $37.59 West $111.56 $66.62 $67.56 $35.88 $41.59 Continuing the trend from 2024, the West zone had the highest average price in 2025, followed by the South zone. The West zone inc…
-
-### e29 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
-locator: Summer 2026 review, real-time hub price slide, key takeaway · text copy line 795 · heading above: 4.5 5
-
-BEFORE: …25 2026 40 30 20 10 0 Jan Feb Mar Apr May Jun Jul Aug Peaker Net Margin 120 100 Peaker Net Margin (Thousand $/MW-year) PUBLIC 8/15/24: $ 63,822 80 60 40 8/15/25: $ 46,472 8/15/26: $ 43,111 20 0 Jan Feb Mar Apr May 2024 Jun 2025 Jul 2026 Aug Sep Oct Nov Dec *2026 data runs through 8/15 Key Takeaway: 
-QUOTE: Real-Time prices were lower in summer 2026 than 2024 and 2025 due to higher supply particularly during day light hours.
-AFTER:  Lower prices also mean that Peaker Net Margin is lower in 2026 relative to the previous two years. 14 Solar and Energy Storage Resources capacity continues to increase PUBLIC Hourly Average Total COP Online HSL 45 40 35 30 25 20 15 10 5 0 GW GW Summer 2024 40 35 30 25 20 15 10 5 0 Summer 2025 1 3 5…
-
 ### e30 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.5.7.3.1, paragraph (1)(a)-(d) · text copy line 2276 · heading above: 6.5.7.3.1 Determination of Real-Time Reliability Deployment Price Adders
 
@@ -158,61 +102,8 @@ BEFORE: …e reliability of the ERCOT System. (17) The QSE representing an ESR m
 QUOTE: The following categories of reliability deployments are considered in the determination of the Real-Time Reliability Deployment Price Adder for Energy, and the Real-Time Reliability Deployment Price Adders for Ancillary Services: (a) RUC-committed Resources, except for those whose QSEs have opted out of RUC Settlement in accordance with paragraph (14) of Section 5.5.2, Reliability Unit Commitment (RUC) Process; (b) RMR Resources that are On-Line, including capacity secured to prevent an Emergency Condition pursuant to paragraph (4) of Section 6.5.1.1, ERCOT Control Area Authority; (c) Deployed Load Resources other than CLRs; (d) Deployed ERS;
 AFTER:  (e) Real-Time DC Tie imports during an EEA where the total adjustment shall not exceed 1,250 MW in a single interval; (f) Real-Time DC Tie exports to address emergency conditions in the receiving electric grid; +---------------------------------------------------------------------------------------…
 
-### e31 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
-locator: Summer 2026 review, congestion rent slide, key takeaway · text copy line 1219
-
-BEFORE: …line in the Plan from 86 to 66 GWh/day. 18 Congestion Rent fell from summer 2025 to summer 2026 200 180 160 140 $ Millions PUBLIC 120 100 80 60 40 20 0 Jun Jul Aug Jun Jul 2024 Aug 2025 North West South Houston Jun Jul Aug 2026 Cross Zone * August data for each year goes through 8/15. Key Takeaway: 
-QUOTE: Real-Time Congestion Rent in the summer of 2026 was 10% lower than in summer 2025, primarily due to sufficient dispatchable capacity and generation.
-AFTER:  RTC played a role in lowering congestion rents in summer 2026 compared to summer 2025. 19 RUC Effective Resource-Hours are higher in summer 2026, primarily to ensure sufficient Ancillary Services There were 1,313 total Reliability Unit Commitment (RUC) effective Resource-hours in summer 2026. This …
-
-### e32 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
-locator: Summer 2026 review, Energy Storage offers slide, note 1 · text copy line 1345
-
-BEFORE: …16% 20000 ESR Capacity (MW) PUBLIC 14% 12% 15000 10% 8% 10000 6% 4% 5000 2% 0 Jun Jul 2024 Capacity Below SWCAP -$100/MWh Aug Jun Jul Aug 2025 Capacity Above SWCAP -$100/MWh Jun Jul Aug 0% 2026 Percent of Capacity Above SWCAP -$100/MWh Note: 1. The data is based on the 20:00 SCED interval snapshot. 
-QUOTE: SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025.
-AFTER:  2. 2026 data runs through 8/15 Key Takeaway: The total amount of Energy Storage Resource (ESR) capacity offered into the market increased substantially in 2026. The proportion of ESR capacity offered at price levels within $100/MWh of System Wide Offer Cap is slightly higher in the summer of 2026 c…
-
-### e33 · `ercot-nprr1010-board-report` · tier 1 · NPRR1010 Board Report (Real-Time Co-optimization, Section 6 Adjustment Period and Real-Time Operations) (Board approved 2020-12-08)
-locator: NPRR1010 Board report, Board Decision · text copy line 262
-
-BEFORE: …----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+ | Board Decision | | 
-QUOTE: On 12/8/20, the ERCOT Board approved NPRR1010 as recommended by TAC in the 11/18/20 TAC Report.
-AFTER:  | | +----------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
-
-### e34 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.3, paragraph (4), price correction conditions · text copy line 426 · heading above: 6.3 Adjustment Period and Real-Time Operations Timeline
-
-BEFORE: …loyment Price Adders for Ancillary Service, for errors and if there are conditions that cause the price to be questionable, as soon as practicable, ERCOT shall notify all Market Participants that the Real-Time LMPs, Real-Time MCPCs, and Real-Time Settlement Point Prices are under investigation. (4) 
-QUOTE: ERCOT shall correct prices for an Operating Day when accurate prices can be determined, the impact of the price correction is determined to be significant, and one of the following conditions has been met:
-AFTER:  a market solution is determined to be invalid, invalid prices are identified in an otherwise valid market solution, the Base Points or Ancillary Service awards received by Market Participants are inconsistent with the Base Points or Ancillary Service awards of a valid market solution, or the Securi…
-
-### e35 · `ercot-nprr1010-board-report` · tier 1 · NPRR1010 Board Report (Real-Time Co-optimization, Section 6 Adjustment Period and Real-Time Operations) (Board approved 2020-12-08)
-locator: NPRR1010 Board report, Effective Date · text copy line 10
-
-BEFORE: …----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+ | Effective Date | | 
-QUOTE: Upon system implementation of the Real-Time Co-Optimization (RTC) Project
-AFTER:  | | +----------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
-
-### e36 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.6.3.1, paragraph (1)(a) (current text; NPRR1188 would replace it upon system implementation) · text copy line 4670 · heading above: 6.6.3.1 Real-Time Energy Imbalance Payment or Charge at a Resource Node
-
-BEFORE: …nergy Charges and Payments 6.6.3.1 Real-Time Energy Imbalance Payment or Charge at a Resource Node (1) The payment or charge to each QSE for Energy Imbalance Service is calculated based on the Real-Time Settlement Point Price for the following amounts at a particular Resource Node Settlement Point: 
-QUOTE: (a) The energy produced by all its Generation Resources, consumed as WSL, or consumed as Non-WSL ESR Charging Load at the Settlement Point; plus
-AFTER:  +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | [NPRR1188: Replace item (a) above with the following upon system implementation:] | | …
-
 ## Statements to check (new or changed since the last audit)
 
-- **How it works #5** (cites e20, e21, e22, e23): Adjustment Period activities begin at 1800 in the Day-Ahead and end one full hour before the Operating Hour starts. [e20] QSEs may update Ancillary Service Offers in real time, and SCED uses the latest available at execution. [e21] Real-time Ancillary Service awards rest on Resource capability (including SOC and SOC limits) and the ASDCs, regardless of the quantity under deployment. [e22] After a Forced Outage the QSE must update the COP as soon as practicable and within 60 minutes. [e23]
-- **How it works #7** (cites e16, e36, e24): Energy Imbalance Service at a Resource Node is priced at the RTSPP on the QSE's net position: its Resource output and certain charging consumption, plus Self-Schedules sinking there, DAM Energy Bids cleared and Energy Trades bought, minus Self-Schedules sourcing there, DAM energy offers cleared and Energy Trades sold. [e16][e36][e24] DAM Energy Bids and offers cleared at the Settlement Point therefore enter the real-time imbalance calculation at that same Settlement Point. [e24]
-- **How it works #9** (cites e30): The Real-Time Reliability Deployment Price Adder for Energy considers RUC-committed Resources (except those whose QSEs opted out of RUC Settlement), On-Line RMR Resources, deployed Load Resources other than CLRs and deployed ERS, among other categories. [e30]
-- **How it works #11** (cites e25, e10, e34, e27, e26): ERCOT monitors real-time prices and notifies Market Participants when they are under investigation. [e25] Prices are final at 1600 on the second Business Day after the Operating Day. [e10] ERCOT shall correct prices for an Operating Day when accurate prices can be determined, the impact is significant, and one of the listed conditions is met. [e34] If ERCOT determines prices qualify for correction and will seek Board review, it must notify Market Participants no later than 30 days after the Operating Day, or the Board cannot review them. [e27] ERCOT shall seek Board review if the change would shift any single Counter-Party's RTM Settlement Statements by more than 2% and $20,000, or more than 20% and $2,000. [e26]
-- **ERCOT context #2** (cites e28, e29, e31, e32) FLAG number-not-in-quote: 2023: The IMM's load-weighted annual average real-time energy price for ERCOT was $36.94/MWh in 2025, against $32.41 in 2024 and $73.28 in 2023. [e28] ERCOT's summer 2026 review says real-time prices were lower in summer 2026 than in 2024 and 2025 because of higher supply, particularly in daylight hours, and that real-time congestion rent was 10% lower than in summer 2025. [e29][e31] A footnote in that review, on real-time ESR offers, says SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025; it does not address the day-ahead cap (see the offer-cap topic). [e32]
-- **Timeline #1** (cites e33, e35) FLAG number-not-in-quote: 2020: - December 8, 2020: the Board approved NPRR1010 (Adjustment Period and Real-Time Operations changes for RTC), effective upon system implementation of the RTC Project. [e33][e35]
-- **Timeline #2** (cites e17, e11) FLAG number-not-in-quote: 2025: - December 2025: RTC implemented, so the real-time market procures energy and ancillary services together. [e17][e11]
-- **Key facts #7** (cites e27, e26): - ERCOT must notify the market no later than 30 days after the Operating Day for the Board to review prices, and shall seek Board review if the impact on a Counter-Party exceeds 2% and $20,000, or 20% and $2,000. [e27][e26]
-- **Key facts #8** (cites e28) FLAG number-not-in-quote: 2025: - IMM 2025 average real-time energy price for ERCOT: $36.94/MWh. [e28]
-- **Questions #6** (cites e10, e34, e27, e26): Prices are final at 1600 on the second Business Day after the Operating Day, but a price that qualifies for correction can go to the Board if ERCOT notifies the market within 30 days; ERCOT shall seek Board review if the impact on a Counter-Party passes the thresholds (2% and $20,000, or 20% and $2,000). [e10][e34][e27][e26]
-- **Questions #8** (cites e23, e24): The QSE must update the COP within 60 minutes after the Forced Outage. [e23] Separately, its Energy Imbalance Service at the Resource Node is priced at the RTSPP on its net position, where its Resource output is netted against its Self-Schedules, DAM and Energy Trade positions at that Settlement Point. [e24]
 - **Link to dam** (cites e19, e7): contrasts-with Day-Ahead Market (DAM): DAM energy settlements use a one-hour Settlement Interval, while real time settles on 15-minute intervals. [e19][e7]
 - **Link to sced** (cites e5): composed-of SCED (Security-Constrained Economic Dispatch): SCED produces the Base Points, Ancillary Service awards, LMPs and MCPCs that the RTM runs on about every five minutes. [e5]
 - **Link to spp** (cites e8, e9): determines SPP (Settlement Point Price): Real-Time Settlement Point Prices are built from SCED LMPs plus the reliability deployment adder, with a floor of -$251/MWh. [e8][e9]

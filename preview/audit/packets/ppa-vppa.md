@@ -165,20 +165,6 @@ BEFORE: … aggregate sales proceeds. If this amount exceeds the product of the 
 QUOTE: It is worth noting that, unlike energy payments made under traditional PPAs, payments under a virtual PPA are often calculated based on a scheduled notional quantity of electricity instead of actual output.
 AFTER:  The floating-price component of virtual PPAs exposes the parties to several market risks. Project owners trade the potential upside of pure merchant sales for the certainty of a fixed price. Corporate offtakers also often offer better pricing than utilities can afford to offer in crowded local mark…
 
-### e24 · `ref-epa-financial-ppa` · tier 2 · Financial PPA (Green Power Markets) (snapshot 2025-01-19)
-locator: Financial PPA, opening section · text copy line 104
-
-BEFORE: …ity market price volatility. Unlike with a physical power purchase agreement (physical PPA), there is no physical delivery of power from the seller to the customer. Instead, the energy is delivered to the grid and the customer needs to purchase electricity independent of this financial arrangement. 
-QUOTE: Rather, a financial PPA is a hedge arrangement that offers buyers cost predictability for their electricity use and promotes growth in the renewable energy sector by offering project developers long-term contracts with predictable revenues-a key element to attracting project financing and investment.
-AFTER:  Financial PPAs are also sometimes known as "virtual" or "synthetic" PPAs, a contract for differences, or a fixed-for-floating swap. Financial PPAs are an innovative and useful procurement option for organizations, particularly those in traditionally regulated electricity markets that generally do n…
-
-### e25 · `ref-nrf-vppa-risks` · tier 3 · Corporate VPPAs: Risks and sensitivities (June 2020)
-locator: Section on VPPA structure · text copy line 67
-
-BEFORE: …he VPPA will be a "contract for differences" where the project company and corporate offtaker split the wholesale revenues to the extent they exceed the fixed price payments. In contract-for-differences VPPAs, the fixed price will be lower than in a VPPA where this upside share feature is not used. 
-QUOTE: For a developer or sponsor, entering into a VPPA helps to put a floor under the electricity price for a project, which is a key step toward project financing.
-AFTER:  For a corporate buyer, entering into a VPPA means supporting sustainability goals while providing a hedge against market price volatility for the electricity it buys from its local utility. The contract is not affected by the buyer's actual electricity usage or the geographic location of its actual…
-
 ### e26 · `ref-powermag-ppa` · tier 3 · The Power Purchase Agreement in Transition
 locator: Traditional PPAs section · text copy line 189
 
@@ -221,13 +207,6 @@ BEFORE: …er's actual electricity usage or the geographic location of its actua
 QUOTE: VPPAs are frequently hub-settled. Hubs are aggregations of nodes.
 AFTER:  Because hubs cover a broader geographical range than a single node, hub prices are less volatile than node prices and so settling VPPAs at hub prices is perceived to carry less risk. Basis risk is the risk that there will be a difference in electricity prices at the two locations. Take an example: …
 
-### e32 · `ref-ornl-ppa` · tier 2 · Power Purchase Agreements overview (DOE Better Buildings)
-locator: Sleeved PPA, p. 2 · text copy line 58
-
-BEFORE: …fsite PPAs since substantial volumes of renewable energy can be purchased with a single transaction without land constraints. Organizations can also directly engage with specific projects or promote renewable energy in their area. Figure 2: Structure of an Offsite Physical Power Purchase Agreement. 
-QUOTE: A Sleeved PPA is a type of offsite physical PPA where the local utility company acts as an intermediary between the offtaker and the developer (Figure 3). The utility takes electricity directly from the developer and bundles it with the offtaker's delivered energy for a fee, usually called a sleeving fee.
-AFTER:  If renewable energy does not meet the offtaker's demand, the utility company supplies additional grid electricity. Sleeved PPAs are good options for buyers who are not well-versed in power markets. The utility company takes on the risks associated with price fluctuations while offering electricity …
-
 ### e33 · `np-05` · tier 1 · ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment (effective 2026-08-01)
 locator: Section 5.6.1, Verifiable Costs, paragraph (1) · text copy line 463 · heading above: 5.6.1 Verifiable Costs
 
@@ -235,40 +214,12 @@ BEFORE: … (1) The Qualified Scheduling Entity (QSE) is responsible for submitt
 QUOTE: Notwithstanding the foregoing, QSEs that submit Power Purchase or Tolling Agreements (PPAs) do not have the option of allowing Resource Entities to file verifiable costs.
 AFTER:  (2) Make-Whole Payments for a Resource are based on the Startup Offers and Minimum-Energy Offers for the Resource, limited by caps. Until ERCOT approves verifiable unit-specific costs for that Resource, the caps are the Resource Category Startup Generic Cap and the Resource Category Minimum-Energy …
 
-### e34 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.6.3.8, Real-Time Payment or Charge for Energy from a SODG or SOTG, paragraph (5) · text copy line 5797 · heading above: 6.6.3.7 Real-Time High Dispatch Limit Override Energy Charge
-
-BEFORE: …minute Settlement Interval. q none A QSE. gsc none A generation site code. ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- (5) 
-QUOTE: Notwithstanding anything else in this Section except paragraphs (6) and (7) below, a Resource Entity may opt out of nodal pricing and continue Load Zone Settlement for any SODG or SOTG if, by January 1, 2019, the SODG or SOTG was operational or was subject to a Power Purchase or Tolling Agreement (PPA) or Transmission and/or Distribution Service Provider (TDSP) interconnection agreement, or had an executed agreement with a developer.
-AFTER:  By December 31, 2019, the Resource Entity must submit a properly completed Section 23, Form N, Pricing Election for Settlement Only Distribution Generators and Settlement Only Transmission Generators. Any SODG or SOTG relying on a PPA or TDSP interconnection agreement or agreement with a developer …
-
-### e35 · `puct-25-107` · tier 1 · PUCT Substantive Rule 16 TAC §25.107, Certification and Obligations of Retail Electric Providers (REPs)
-locator: 16 TAC §25.107(f)(1)(A)(i)(III), access to capital, guarantor eligibility · text copy line 714
-
-BEFORE: … of this paragraph on an ongoing basis. (A) A REP may maintain an executed version of the commission approved standard form irrevocable guaranty agreement. (i) The guarantor must be: (I) One or more affiliates of the REP; (II) A financial institution with an investment-grade credit rating; or (III) 
-QUOTE: A provider of wholesale power supply for the REP, or a parent company, sister company, or subsidiary of a power provider with whom the REP has executed a power purchase agreement.
-AFTER:  (ii) The guarantor must have: (I) An investment-grade credit rating; or (II) Tangible net worth greater than or equal to $100 million, a minimum current ratio (defined as current assets divided by current liabilities) of 1.0, and a debt to total capitalization ratio not greater than 0.60, where all…
-
-### e36 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Recommendation 2020-3 summary · text copy line 9077
-
-BEFORE: …ds while complying with HB 1500. We continue to recommend that ERCOT implement DRRS using the design principles outlined above. 2020-3: Reconfigure Load Zones to Reflect Prevailing Congestion Patterns Load zones are groups of load nodes in the ERCOT grid that experience similar congestion patterns. 
-QUOTE: Unlike generators, which settle at the nodal level and receive payments based on their specific locational marginal prices (LMPs), loads are billed at the load zone price. This price reflects a load-weighted average of nodal prices within the zone.
-AFTER:  By aggregating prices this way, the system shields loads from nodal price volatility and simplifies market settlements. Beyond simplifying settlements, load zone prices also provide important short- and long-term economic signals. When they accurately capture congestion patterns, they can inform co…
-
 ### e37 · `imm-som-2024` · tier 2 · 2024 State of the Market Report for the ERCOT Electricity Markets (published 2025)
 locator: Section F (Exposure of Load to Real-Time Prices), page 48 (OCR) · text copy line 2979
 
 BEFORE: …Outcomes F. Exposure of Load to Real-Time Prices Although real-time prices play a critical role in sending investment signals in ERCOT's energyonly market, most load is not directly exposed to these prices. In 2024, only a relatively small share of total load was settled at real-time energy prices. 
 QUOTE: Instead, many load-serving entities (LSEs) manage price exposure through a variety of mechanisms, including owning generation, entering into bilateral power purchase agreements (PPAs), participating in futures markets, or procuring energy through the day-ahead market.
 AFTER:  Figure 8 shows the percentage of load that was exposed to real-time prices based on ERCOT settlement data. Figure 8: Monthly Average Load Exposure, 2020-2024 70 Average Load (GW) 24% Average Load Exposure Percentage 21% 60 18% 50 15% 40 12% 30 9% 20 6% 10 3% 0 Load Exposure to Real-Time Price 80 0%…
-
-### e38 · `ut-uri-timeline` · tier 2 · The Timeline and Events of the February 2021 Texas Electric Grid Blackouts (July 2021)
-locator: Section 3, economic impacts, footnote 134 (p. 65) · text copy line 2981
-
-BEFORE: …public-utilities-board-tx- 000816313.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQA AAKwSPg3ZndRfIqbgkl2hbe9Bp-QR7-qBQeINCXN5DbGZX7ha6if6FgC-zfjMH4C8Cm4VEnmEnbXQuLSN_vGRLS5rD4CHQS6omLbqtR2gU4g-EFOI257SWf4vyv_mw1ffecwHj5Y91cFAtrHN9PwiZ-bVT_v-uZtmDHctJ62UOK. 134 
-QUOTE: A commitment might result from the sale of energy through a purchased power agreement (PPA), some other out-of-market bilateral contract between a generator and a counterparty, the sale of generation through a nonERCOT market such as the Intercontinental Exchange (ICE), or an award in ERCOT's formal day-ahead market.
-AFTER:  66 a fuel and the owner had exposure to the high natural gas spot prices, the net impacts would be unclear without more detailed information. A generation owner whose fleet of generation assets failed to perform well is likely to have experienced a negative financial impact. To meet obligations thr…
 
 ### e39 · `ut-uri-timeline` · tier 2 · The Timeline and Events of the February 2021 Texas Electric Grid Blackouts (July 2021)
 locator: Section 3, economic impacts (p. 65) · text copy line 2958
@@ -312,13 +263,6 @@ BEFORE: …rtual PPA 20 Virtual PPA: Impact on Net Electricity Costs 21 Virtual 
 QUOTE: Effectiveness of hedge is contingent on correlation between power markets
 AFTER:   Counterparty credit risk  Regulatory risk  More difficult story to tell to stakeholders Q&A Session  An overview of Green Power Partnership is available on EPA's Web site www.epa.gov/greenpower  More Questions?  Christopher Kent, 202-343-9046, kent.christopher@epa.gov…
 
-### e45 · `ref-yale-vppa` · tier 3 · Virtual or Physical, the PPA Is Prime (2020-04-16)
-locator: Section on physical PPAs · text copy line 196
-
-BEFORE: …supplier who constructs, owns, and maintains the project. This contract establishes a fixed price per unit of electricity, and an additional contract is fashioned between the buyer and a licensed utility to set the terms of the physical delivery of power through the grid to buyer consumption sites. 
-QUOTE: In contrast to a Virtual PPA, electricity under a PPPA is physically transferred from renewable energy developers to buyers through an intermediary utility company, which receives a management (or "sleeving") fee from the buyer for maintenance and execution.
-AFTER:  What are the Benefits of Power Purchase Agreements? Reduction of Scope 2 Emissions When companies enter into PPAs, they can log the consequent reduction of their greenhouse gas emissions from electricity use, which count as "Scope 2" emissions for climate-negotiation terms. Though PPAs, depending o…
-
 ### e46 · `ref-rmi-ppa-risk` · tier 3 · A Local Government's Guide to Off-Site Renewable PPA Risk Mitigation (2020)
 locator: Volume Risk, Further Detail (p. 22) · text copy line 1335
 
@@ -347,56 +291,354 @@ BEFORE: …purchase agreements - called VPPAs - or fixed-volume hedges. Below is
 QUOTE: Typically a VPPA is a contract for differences with a "strike price" per megawatt hours.
 AFTER:  A contract for differences looks like a power contract in form, but electricity is not physically delivered. Instead, the power producer agrees to pay the offtaker the current market price for electricity, and the offtaker pays a fixed price back. The two payments are netted so that only a net paym…
 
+### e50 · `ref-akin-ppa-swaps` · tier 3 · Are Renewable Energy Power Purchase Agreements Swaps? (Futures & Derivatives Law Report) (retrieved 2026-11-22)
+locator: What is a VPPA? (p. 2) · text copy line 94
+
+BEFORE: …nergy power purchase agreement between Seller and Buyer. Seller delivers RECs generated by a specific project to Buyer, whereas physical electrons (measured in MWhs) generated by the project are not delivered to Buyer. Instead, those electrons are delivered to the wholesale market, such as the ISO. 
+QUOTE: In a basic VPPA, Seller and Buyer financially settle using the formula: Fixed Price minus Floating Price. Fixed Price is a set "$[x]/MWh" price, as agreed between Seller and Buyer. Floating Price is typically equal to the real time or day-ahead wholesale market price (locational marginal price (LMP)) at a specific Hub or Node. If the Floating Price is greater than the Fixed Price, Seller will owe the difference to Buyer. If the Floating Price is less than the Fixed Price, Buyer will owe the difference to Seller.
+AFTER:  As the price of a REC is incorporated into the Fixed Price, there is no individual pricing for each REC. What affects the settlement price, after the static Fixed Price is contractually set, is only the wholesale electricity market price. Why is VPPA a Swap? In a VPPA, RECs and the wholesale market…
+
+### e51 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Settlement Amount, sample legalese · text copy line 141
+
+BEFORE: …e Fixed Price.]‍ What it means: The Calculation Interval is the time period over which your Market Price is calculated and multiplied by your Trade Quantity, typically on an hourly basis. ____________________________________________________________________________ Settlement Amount Sample Legalese: 
+QUOTE: For each Settlement Period, an aggregate amount equal to: (a) the Fixed Price Payment, defined as the amount equal to the sum of the product of (i) Trade Quantity and (ii) the Fixed Price for each Calculation Interval during each Settlement Period, minus (b) the Floating Price Payment, defined as the amount equal to the sum of the product of (i) the Trade Quantity and (ii) the Market Price, for each Calculation Interval during such Settlement Period. If the Settlement Amount is greater than zero, the Settlement Amount shall be payable by Buyer to Seller. If the Settlement Amount is less than zero, the absolute value of the Settlement Amount shall be payable by Seller to Buyer.
+AFTER:  If the Settlement Amount equals zero (0), no amount shall be payable by either Party.‍ What it means: This is the dollar amount at the end of each Settlement Period-typically each calendar month-that is either owed to you, the Buyer, or that you owe to the Seller. This is calculated by looking at t…
+
+### e52 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Calculation Interval, what it means · text copy line 135
+
+BEFORE: …___________________________ Calculation Interval Sample Legalese: [Hourly] OR[The time interval published by the ISO with respect to settlements in the [Real-Time][Day Ahead Energy Market ([five] minutes as of the Effective Date). Buyer's selection shall not affect the Fixed Price.]‍ What it means: 
+QUOTE: The Calculation Interval is the time period over which your Market Price is calculated and multiplied by your Trade Quantity, typically on an hourly basis.
+AFTER:  ____________________________________________________________________________ Settlement Amount Sample Legalese: For each Settlement Period, an aggregate amount equal to: (a) the Fixed Price Payment, defined as the amount equal to the sum of the product of (i) Trade Quantity and (ii) the Fixed Price…
+
+### e53 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Settlement Amount, what it means · text copy line 143
+
+BEFORE: …er than zero, the Settlement Amount shall be payable by Buyer to Seller. If the Settlement Amount is less than zero, the absolute value of the Settlement Amount shall be payable by Seller to Buyer. If the Settlement Amount equals zero (0), no amount shall be payable by either Party.‍ What it means: 
+QUOTE: This is the dollar amount at the end of each Settlement Period-typically each calendar month-that is either owed to you, the Buyer, or that you owe to the Seller.
+AFTER:  This is calculated by looking at the difference between the Trade Quantity you bought at your Fixed Price and the Trade Quantity sold to the grid at the Market Price. If, at the end of the Settlement Period, the total volume of the energy sold to the grid at the market price sold for less than the …
+
+### e54 · `ref-ornl-renewable-contracting-vt6` · tier 2 · Renewable Electricity Supply Options: Financing Models and Strategies, Session 6 (virtual training slides) (retrieved 2026-11-22)
+locator: Slide: Claims and Post-Contract, VPPA terms (adapted from LevelTen) · text copy line 728
+
+BEFORE: …dam/pcorp/documents/en/pacificorp/suppliers/rfps/Exhibit_AUmbrella_Agreement.pdf Claims and Post-Contract Buyer's Share The percentage of a renewable energy project's energy generation agreed to purchase Trade Quantity The amount of energy that is produced by the facility/ exchanged between parties 
+QUOTE: Calculation Interval The time period used to measure and settle delivered quantities; typically, hourly
+AFTER:  Guaranteed COD This is typically the day the project starts delivering to buyer Settlement Point Point where your Market Price is published; Hub or Node. Hub pricing is typically more stable Associated Products Additional attributes tied to generation, such as RECs or capacity rights Buyer's Perfor…
+
+### e55 · `ref-ornl-ppa` · tier 2 · Power Purchase Agreements overview (DOE Better Buildings)
+locator: Virtual (Financial) PPAs, p. 2 · text copy line 79
+
+BEFORE: …t continue to receive electricity from their local utility at retail price (Market A in Figure 4). The developer sells their electricity at wholesale price to the market where the generation occurs (Market A or B). The offtaker agrees to pay the developer a fixed rate for the renewable electricity. 
+QUOTE: If the developer sells their electricity for more than the fixed rate, the offtaker receives the extra revenue. If the energy sells for less than the fixed rate, the offtaker pays extra to cover the difference. These balancing payments guarantee the developer always receives the agreed upon fixed rate for their generated electricity.
+AFTER:  RECs from the virtual PPA can be retired to reduce market-based Scope 2 emissions. Figure 4: Structure of a Virtual Power Purchase Agreement. Aggregate PPAs PPAs are usually single-offtaker and are often better suited for large corporations with high electricity usage. Small and medium-sized organi…
+
+### e56 · `ref-stoel-law-of-wind-ppa` · tier 3 · The Law of Wind: Power Purchase Agreements and Environmental Attributes in Wind Energy Projects (retrieved 2026-11-22)
+locator: XII. Basic Structure of Hedge Arrangement · text copy line 175
+
+BEFORE: …nts (e.g., tax equity investment, lender exercise of remedies) from right of first offer structured options. XII. Basic Structure of Hedge Arrangement. The essence of energy hedges and CFDs is that the parties agree upon a price (typically referred to as the "strike price") for the energy produced. 
+QUOTE: If, at the time the energy is produced, the market price at the point of interconnection with the transmission grid (or at an agreed-upon pricing node on such transmission grid) exceeds the strike price, then the wind plant owner pays the hedge counterparty an amount equal to the difference between such market price and the strike price. Conversely, if the market price is lower than the strike price, the hedge counterparty pays the wind plant owner the difference between the market price and the strike price.
+AFTER:  In this way, the wind plant owner is assured that it will receive the strike price for all energy covered by the hedge and thus have an "output arrangement" that provides some revenue certainty in a manner similar to a PPA. The hedge counterparty reaps its return by endeavoring to structure the ter…
+
+### e57 · `ref-stoel-law-of-wind-ppa` · tier 3 · The Law of Wind: Power Purchase Agreements and Environmental Attributes in Wind Energy Projects (retrieved 2026-11-22)
+locator: Delivery Point (VPPA) · text copy line 117
+
+BEFORE: …nt, and the buyer will be responsible for obtaining the transmission required to take the energy at the delivery point. Transmission ancillary services can be fairly costly and should be specifically allocated in the agreement. Title and risk of loss pass from seller to buyer at the delivery point. 
+QUOTE: In a VPPA, energy is not actually delivered to the offtaker. Instead, energy is typically sold into the energy market with which the project is interconnected at such point of interconnection. That said, the settlement under the VPPA is typically at a different point on the system (often a hub or collection of nodes), which exposes Seller to basis risk between the point of interconnection and hub as described further below.
+AFTER:  B. Pricing. 1. Contract Rate. Price is usually the most important part of the PPA. The price may be flat, escalate over time, or contain other features. An escalating price is often set to escalate at the beginning of each new "contract year," thus encouraging the seller to lock in the initial pric…
+
+### e58 · `ref-resurety-basis-risk` · tier 3 · Basis risk can sink projects and PPAs (retrieved 2026-11-22)
+locator: Background: the hub + node structure · text copy line 56
+
+BEFORE: …ned with a corporate or utility buyer, and "settling" the difference. If market prices were low one month at that hub, the buyer sends the developer money to get them to their guaranteed PPA revenue. If prices were high one month, the developer sends the buyer the extra money that came in the door. 
+QUOTE: However, the developer doesn't actually sell power at the hub price, they sell it at the node price. So they are on the hook for any differences between the node and hub prices.
+AFTER:  The difference is called basis. And basis risks can sink projects. Edwina Rasmussen, Consultant, resurety Basis risk puts revenue at risk: Real world example Let's look at a wind project in SPP South, at an anonymous location in Oklahoma. For this project, and many others like it in the region, nod…
+
+### e59 · `ref-resurety-basis-risk` · tier 3 · Basis risk can sink projects and PPAs (retrieved 2026-11-22)
+locator: Real world example, closing paragraphs · text copy line 74
+
+BEFORE: …ng on loans. Despite this wind project performing very well, the developer can't meet financial goals - putting the PPA at risk. Shouldn't there be a way to share risk between the developer and the corporate purchaser to avoid this issue? The answer is yes - and folks are getting creative with how. 
+QUOTE: One option is to settle at the node, but this passes all risk to the buyer.
+AFTER:  Another option is to share basis risk between developer and buyer, which can require complex modeling & contracting. Resurety's services team helps customers with these questions all the time. Contract clauses are one of many solutions to navigating a changing grid As the grid continues to change, …
+
+### e60 · `ref-rff-merchant-hedges` · tier 3 · Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06) (retrieved 2026-11-22)
+locator: 3.5 Wind Hedging Structures: Risks to Counterparties (p. 16) · text copy line 1133
+
+BEFORE: …bilities. The greater the residual risks that counterparties assume, the greater the discount they will likely apply to wind hedging prices. Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges 16 Synthetic PPAs present complexities and risks to their corporate counterparties. 
+QUOTE: First, synthetic PPAs may settle at the node or the hub, and node-settled contracts shift basis risk from the project to the counterparty.
+AFTER:  Second, since the contracted volume is a percentage of as-produced generation, the counterparty bears the risk that the amount and timing of wind generation revenue will not align with its needs. Although the counterparty may be purchasing electricity within the wholesale market of the project, whi…
+
+### e61 · `ref-rff-merchant-hedges` · tier 3 · Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06) (retrieved 2026-11-22)
+locator: 3.1 Synthetic PPA, footnote 15 · text copy line 490
+
+BEFORE: …nthetic PPA is for 100 percent of the electricity 14 Synthetic PPAs are often structured as contracts for differences (CfDs) (Marks and Rasel 2014). Rather than have the project pay the floating price and the counterparty pay the fixed price (as shown), only the price difference is paid in CfDs. 15 
+QUOTE: A majority of wind synthetic PPAs settle at the hub (Davies et al. 2018), leaving the project with basis risk.
+AFTER:  Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges 8 generated and the contract settles at the node, a synthetic PPA would replicate the financial characteristics of a traditional PPA, albeit for a generally shorter duration (12 to 13 years for a synthetic PPA versus 15 to 2…
+
+### e62 · `ref-ornl-renewable-contracting-vt6` · tier 2 · Renewable Electricity Supply Options: Financing Models and Strategies, Session 6 (virtual training slides) (retrieved 2026-11-22)
+locator: Slide: Pricing Considerations: Hubs vs Nodes · text copy line 146
+
+BEFORE: …of congestion, demand, price of energy, and other losses ▪ Hub Price ▪ Collection of nodes ▪ Intended to represent an uncongested price for electric energy Hub Nodes Pricing Considerations: Hubs vs Nodes ▪ LMP or Nodal Price ▪ Where the projects connect ▪ System operator price ▪ Prone to volatility 
+QUOTE: ▪ Hub Price ▪ Average of nodal price = less volatility ▪ Traded in the liquid market ▪ Typical in VPPA contracts
+AFTER:  Hub Nodes "Contract for Differences" ▪ Settlement = Difference between PPA or strike price and market price LMP Selling Price Contract Price Developer Pays Buyer Price $/MWh Buyer Pays Developer Strike Price Time Image Source: Enel North America U.S. DEPARTMENT OF ENERGY 20 "Contract for Difference…
+
+### e63 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Settlement Point, what it means · text copy line 209
+
+BEFORE: …it means: Where ownership of the facility's energy transfers to the grid. ____________________________________________________________________________ Settlement Point Sample Legalese: [Hub Name]‍ What it means: The Settlement Point is at what's called a "hub," where your Market Price is published. 
+QUOTE: A hub doesn't physically exist; it is the average of hundreds of different locational marginal prices. This allows the pricing to be more stable. Settling at a hub, rather than the interconnection point of the project, will typically provide your company more stability in the Market Price.
+AFTER:  ____________________________________________________________________________ Associated Products Sample Legalese: Facility RECs and Environmental Attributes in amount equal to the Trade Quantity over each Settlement Period. Facility RECs and Environmental Attributes shall mean, but not be limited t…
+
+### e64 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Market Price, what it means (negative prices) · text copy line 123
+
+BEFORE: …h zero dollars and even go negative (where the project pays the grid to take the energy rather than getting paid) in some instances. Because your company wears that variable risk in the contract, we include additional language that helps protect your company. We have two primary ways of doing this. 
+QUOTE: The first we refer to as a Non-Settlement Threshold. In the event that the Market Price for energy reaches zero or is negative, no money exchanges hands-not even the agreed-upon Fixed Price-until the Market Price rises above zero again, at which point the contract resumes. In exchange, no RECs are delivered to you during this period.
+AFTER:  Sometimes a Zero Dollar Price Floor is more appropriate. Rather than stopping the contract when the Market Price hits zero or goes negative, you as buyer still agree to pay the Fixed Price and you still receive your RECs. However, you have established a floor for your Market Price and are not respo…
+
+### e65 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Market Price, what it means (negative prices) · text copy line 125
+
+BEFORE: …ement Threshold. In the event that the Market Price for energy reaches zero or is negative, no money exchanges hands-not even the agreed-upon Fixed Price-until the Market Price rises above zero again, at which point the contract resumes. In exchange, no RECs are delivered to you during this period. 
+QUOTE: Sometimes a Zero Dollar Price Floor is more appropriate. Rather than stopping the contract when the Market Price hits zero or goes negative, you as buyer still agree to pay the Fixed Price and you still receive your RECs. However, you have established a floor for your Market Price and are not responsible for the additional cost of a negative Market Price.
+AFTER:  For example, let's say the fixed price is $30/MWh, but prices for energy hit -$20 at the facility with which you have an agreement. Without these additional terms, your company would be responsible for your $30 fixed price plus a -$20 market price or $50/MWh for that hour. But the Zero Dollar Price…
+
+### e66 · `ref-stoel-law-of-wind-ppa` · tier 3 · The Law of Wind: Power Purchase Agreements and Environmental Attributes in Wind Energy Projects (retrieved 2026-11-22)
+locator: Pricing, 4. Fixed for Floating Pricing · text copy line 124
+
+BEFORE: …ad or real-time), establishing a minimum floating price and mechanisms to share upside floating prices or extreme basis events. If a hub price is used, a developer must understand and mitigate the basis risk (or price differential risk) between the project's LMP and the hub price that it is taking. 
+QUOTE: In addition, the offtaker will typically want to limit its exposure to negative floating prices. This is often accomplished by setting a negative LMP floor price, below which either the project is deemed to have no metered quantity or the floating price is replaced by an agreed-upon minimum price when calculating the settlement amount. For a wind project, either the floor price or the payment mechanism must be set to include the value of the lost production tax credits calculated on an after-tax basis.
+AFTER:  C. Environmental Attributes; Other Products. Environmental attributes are the credits, benefits, emissions reductions, environmental air-quality credits and emissions-reduction credits, offsets, and allowances resulting from the avoidance of the emission of a gas, chemical, or other substance attri…
+
+### e67 · `ref-ornl-renewable-contracting-vt6` · tier 2 · Renewable Electricity Supply Options: Financing Models and Strategies, Session 6 (virtual training slides) (retrieved 2026-11-22)
+locator: Slide: Mitigating Risk · text copy line 285
+
+BEFORE: …tracting Process Price Volatility Resource Type Utility Options Other Considerations • State and Local Regulations • Length of Contract • Pricing Constraints • REC Ownership • Operation Schedule • Additionality • Community Acceptance • Third Party Certifications • Grid Congestion 22 Mitigating Risk 
+QUOTE: ▪ Floors and Ceilings (Collars) ▪ $0 floor to limit exposure = reduced downside risk $$ ▪ "No settlement" during curtailment
+AFTER:  ▪ Developer "Parent Guarantee" ▪ Secure your long-term contracts ▪ Forecast and Sensitivity ▪ Forecast load and requirements ▪ Forecast price of electricity with and without escalators ▪ Proxy Generation ▪ Consumer compensated based on calculated generation ▪ Reduced curtailment and availability ri…
+
+### e68 · `ref-rff-merchant-hedges` · tier 3 · Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06) (retrieved 2026-11-22)
+locator: 3.5 Wind Hedging Structures: Risks to Counterparties (p. 16) · text copy line 1145
+
+BEFORE: …wind project may generate more electricity at night, likely a period of different pricing. Third, there may be divergent production incentives between the project (which seeks to maximize generation) and the corporate counterparty (which seeks to maximize electricity revenue) under a synthetic PPA. 
+QUOTE: The project would wish to generate even when wholesale prices are negative, to the detriment of the counterparty.
+AFTER:  As another illustration, the project would prefer to perform maintenance when wind speeds are low, even if electricity prices are high, which could conflict with the preferences of the counterparty (Davies et al. 2018). Although these concerns also exist under a physical PPA, a utility offtaker has…
+
+### e69 · `ref-stoel-law-of-wind-ppa` · tier 3 · The Law of Wind: Power Purchase Agreements and Environmental Attributes in Wind Energy Projects (retrieved 2026-11-22)
+locator: Pricing, 4. Fixed for Floating Pricing · text copy line 124
+
+BEFORE: …b, i.e., an averaged collection of nodes within the energy market. Over an agreed-upon time period, the parties compare the floating prices to the fixed price and a payment is made to or from the offtaker so that the end result is the developer receives no more or less than the fixed price per MWh. 
+QUOTE: Variations of this structure include determining which market the seller will participate in (day-ahead or real-time), establishing a minimum floating price and mechanisms to share upside floating prices or extreme basis events.
+AFTER:  If a hub price is used, a developer must understand and mitigate the basis risk (or price differential risk) between the project's LMP and the hub price that it is taking. In addition, the offtaker will typically want to limit its exposure to negative floating prices. This is often accomplished by …
+
+### e70 · `ref-akin-ercot-hedge-slides` · tier 3 · Corporate PPA webinar slides (2025 update), incl. financially-settled hedge diagrams (retrieved 2026-11-22)
+locator: Slide 12, Key Commercial Issues · text copy line 326
+
+BEFORE: …rategy, it will be necessary to quantify the energy usage at each physical location of the corporate buyer and the current sources for such energy. • Cost of retail power and unbundled RECs versus bundled or virtual products • Technology risk - risks associated with selected generation technology • 
+QUOTE: Price risk and potential liability in downside case/options to limit exposure, including collars and revenue sharing arrangements
+AFTER:  • ESG considerations/increased expectations of consumers • Developer selection/credit risk • Credit rating of proposed buyer • Dedication of real property to energy infrastructure 12 Key Issues In Renewable Energy Procurement (cont.) Key Technical and Commercial Issues and Legal Risks Key Legal Ris…
+
+### e71 · `ref-akin-ppa-swaps` · tier 3 · Are Renewable Energy Power Purchase Agreements Swaps? (Futures & Derivatives Law Report) (retrieved 2026-11-22)
+locator: Why is VPPA a Swap? (p. 2) · text copy line 126
+
+BEFORE: …l." On the other hand, the physical electrons themselves, which are associated with the wholesale market price volatility, are not physically transferred to Buyer. Therefore, there is no conveyance of "ownership interest in an asset or liability that incorporates the financial risk so transferred." 
+QUOTE: Accordingly, a VPPA meets the definition in 7 U.S.C.A. § 1a(47)(A)(iii), and therefore, should be classified as a swap.
+AFTER:  What Do Dissenters Say? Some have argued that since RECs are also transferred in a VPPA from Seller to Buyer, along with the financial risk, the transaction does not meet the definition in 7 U.S.C.A. § 1a(47)(A)(iii) because the transaction conveys an ownership interest in RECs, and therefore, it i…
+
+### e72 · `ref-akin-ppa-swaps` · tier 3 · Are Renewable Energy Power Purchase Agreements Swaps? (Futures & Derivatives Law Report) (retrieved 2026-11-22)
+locator: What is a Swap? (p. 1) · text copy line 70
+
+BEFORE: …hole or in part, the financial risk associated with a future change in any such value or level without also conveying a current or future direct or indirect ownership interest in an asset (including any enterprise or investment pool) or liability that incorporates the financial risk so transferred. 
+QUOTE: If the agreement, contract, or transaction is a swap, participants are required to adhere to certain obligations such as documentation, reporting, and recordkeeping.
+AFTER:  What is RPA? RPA is a type of renewable energy power June 2026 | Volume 46 | Issue 6 purchase agreement between a renewable energy developer (Seller) and buyer, typically a corporate buyer (Buyer). Similar to a VPPA, Seller delivers RECs generated by a specific project to Buyer. A notable differenc…
+
+### e73 · `ref-yale-vppa` · tier 3 · Virtual or Physical, the PPA Is Prime (2020-04-16)
+locator: Section on Dodd-Frank · text copy line 217
+
+BEFORE: …re sense," Anderson explains. Accounting The Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 requires those trading in derivative markets - pertaining to financial instruments impacted by the value of an exogenous entity - to meet rigorous recordkeeping and reporting requirements. 
+QUOTE: As VPPAs are intimately affected by power markets , they are considered to be derivative agreements, and companies engaged in such contracts must therefore record on a quarterly basis power market prices and the corresponding settlements attached to the initial contract.
+AFTER:  However, "if you are actually taking physical delivery of the power and using it for your own operations," as is the case with a physical PPA, then the contract is not considered to be a derivative and is therefore "not subject to this accounting treatment," says Decker. Fees In a virtual PPA, comp…
+
+### e74 · `ref-cftc-glossary` · tier 2 · CFTC Glossary (retrieved 2026-11-22)
+locator: Glossary, Swap · text copy line 2653
+
+BEFORE: … excluded from the definition. It includes, for example, interest rate swaps, commodity swaps, currency swaps, equity swaps and credit default swaps. Congress directed both the Commission and the Securities and Exchange Commission to further define the term "swap" (and security-based swap) jointly. 
+QUOTE: The Commissions in 2012 adopted rules and interpretations to clarify that a few types of transactions in particular are swaps. These include foreign currency options, commodity options, non-deliverable forwards in foreign exchange, cross-currency swaps, forward rate agreements, contracts for differences, options to enter into swaps and forward swaps.
+AFTER:  See 7 U.S.C. §1a(47) and 17 C.F.R. 1.3. Swap Data Repository (SDR) Swap data repositories (SDRs) are registered entities created by the Dodd-Frank Act that collect and maintain information or records with respect to transactions or positions in, or the terms and conditions of, swaps entered into by…
+
+### e75 · `ref-leveltenproxy-generation` · tier 3 · Proxy Generation 101 (retrieved 2026-11-22)
+locator: Traditional VPPAs · text copy line 61
+
+BEFORE: … - Proxy Generation. Below we outline the key differences between traditional and Proxy Generation VPPAs, including several advantages and disadvantages of each. Understanding and negotiating different available contract structures is a key component of every buyer's VPPA journey. Traditional VPPAs 
+QUOTE: In a traditional VPPA (aka "unit contingent" or "as generated"), the Trade Quantity is equal to the amount of energy the facility delivers to the grid, as measured by an electrical meter at the Point of Interconnection (POI). By settling at the POI on an "as generated" basis, the buyer exposes itself to operational risks in the form of undelivered RECs, unexpected settlement pricing, or both.
+AFTER:  For instance, under a traditional VPPA a buyer might experience a reduced Trade Quantity if the seller mismanages the facility by never washing the panels, takes the facility offline for maintenance for extended periods of time, or simply performs voluntary maintenance during times when they expect…
+
+### e76 · `ref-leveltenproxy-generation` · tier 3 · Proxy Generation 101 (retrieved 2026-11-22)
+locator: How Does Proxy Generation Work? · text copy line 71
+
+BEFORE: …uyer still wears a fair degree of operations-related production risk. Proxy Generation VPPAs How Does Proxy Generation Work? In response to these risks, various parties have recently come together to innovate a new way to define Trade Quantity in VPPAs - Proxy Generation (or "Proxy Gen" for short). 
+QUOTE: In Proxy Gen VPPAs, the Trade Quantity is based on the amount of energy that should have been delivered to the grid had the plant been operated according to ideal equipment efficiency factors and operational best practices. Again, this is different than a traditional "as generated" VPPA where the Trade Quantity is directly related to the actual delivered energy. ProxyGen VPPAs therefore place the operational risk entirely onto the seller, which helps ensure that each Party's financial incentives remain properly aligned.
+AFTER:  In a Proxy Gen VPPA, the Trade Quantity is calculated by measuring the actual wind or solar resource at the facility and running that measurement through a pre-agreed mathematical formula that estimates how many MWh should have been produced given the facility's size and operational efficiencies un…
+
+### e77 · `ref-nrf-hedges-since-uri` · tier 3 · How hedges have changed since Uri (June 2022)
+locator: Three flavors of hedge · text copy line 77
+
+BEFORE: …re as-generated contracts, proxy generation contracts and fixed volume contracts. In an as-generated contract, also called a VPPA or virtual power purchase agreement, the price difference in an hour is multiplied by whatever power was actually generated in that hour. It uses the metered generation. 
+QUOTE: In a proxy generation contract, the price difference is multiplied by the amount of power the project could or should have produced in that hour given the fuel resource observed.
+AFTER:  For example, in the case of a solar project, solar irradiance is applied to a PVsyst model to convert solar irradiance into implied power. In the case of a wind project, per-turbine measured wind speeds and air density are translated into the amount of power that the project should have produced. I…
+
+### e78 · `ref-rff-texas-hedges` · tier 3 · Texas Power Crisis Exposes Problems with Financial Risk-Mitigation Strategies in Renewable Energy Projects (retrieved 2026-11-22)
+locator: Monetizing and Hedging Renewable Power; Table 1 discussion · text copy line 73
+
+BEFORE: … which is equal to the quantity of the bank hedge; and z MWh, which is more than the quantity of the bank hedge. A wind project with merchant generation would have been able to sell its energy at the $9,000/MWh price cap, thereby realizing a large gain, as long as the facility had been operational. 
+QUOTE: For a project with a physical or virtual PPA, the high price would have had no effect on energy revenue, as floating wholesale prices were swapped for the fixed PPA price.
+AFTER:  A project with a bank hedge could have experienced large gains or large losses from the high price: If generation had exceeded the hedged quantity, the project could have sold the surplus for $9,000/MWh. But if generation had underperformed, the wind project would have had to pay $9,000/MWh for the…
+
+### e79 · `ref-rff-merchant-hedges` · tier 3 · Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06) (retrieved 2026-11-22)
+locator: 3.1 Synthetic PPA (p. 8) · text copy line 478
+
+BEFORE: …s the basic design of a synthetic PPA, which resembles that of a bank hedge, with some important differences.14 Synthetic PPAs have greater flexibility in settlement location than do bank hedges, and basis risk for the project will not exist if the contract settles at the node instead of the hub.15 
+QUOTE: In addition, the quantity of electricity in a synthetic PPA is a percentage of the actual electricity generation, removing the project's volume, shape, and curtailment risks that exist in bank hedges.
+AFTER:  If the contract percentage is less than 100 percent, there will be price risk for the remaining electricity generated. If the synthetic PPA is for 100 percent of the electricity 14 Synthetic PPAs are often structured as contracts for differences (CfDs) (Marks and Rasel 2014). Rather than have the p…
+
+### e80 · `ref-rff-merchant-hedges` · tier 3 · Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges (Working Paper 19-06) (retrieved 2026-11-22)
+locator: 3.1 Synthetic PPA (p. 9) · text copy line 497
+
+BEFORE: …oating price and the counterparty pay the fixed price (as shown), only the price difference is paid in CfDs. 15 A majority of wind synthetic PPAs settle at the hub (Davies et al. 2018), leaving the project with basis risk. Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges 8 
+QUOTE: generated and the contract settles at the node, a synthetic PPA would replicate the financial characteristics of a traditional PPA, albeit for a generally shorter duration (12 to 13 years for a synthetic PPA versus 15 to 25 years for a traditional PPA).
+AFTER:  Electricity Forward Contract Projects could also participate in electricity forward markets (e.g., in ERCOT), which would involve trading contracts to secure more stable pricing for their electricity generation.16 Figure 4 shows a project with electricity forward contracts, which swap floating elec…
+
+### e81 · `ref-levelten-vppa-terms` · tier 3 · Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers (retrieved 2026-11-22)
+locator: Trade Quantity, sample legalese · text copy line 99
+
+BEFORE: …_____________________________________ Buyer's Share Sample Legalese: [ZZZ]%‍ What it means: The percentage of a renewable energy project's energy generation that you're agreeing to purchase. ____________________________________________________________________________ Trade Quantity Sample Legalese: 
+QUOTE: For each Calculation Interval, the Buyer's Share times the amount of Energy, in MWh, generated by the Facility and delivered to the Interconnection Point.
+AFTER:  ‍What it means: Trade Quantity is how we measure the amount of energy that is produced by the facility. At each Calculation Interval (typically every hour), we look at how much energy was generated by the renewable energy facility and delivered to the Interconnection Point (the point where the ener…
+
+### e82 · `ref-nrf-ercot-price-spikes` · tier 3 · ERCOT price spikes (Project Finance NewsWire) (October 2019)
+locator: Section on node-settled VPPAs · text copy line 61
+
+BEFORE: … the project is lower than the fixed strike price, then for each megawatt hour of power, the offtaker must pay the difference to the independent power company, thereby providing a floor price the project will receive for its electricity. VPPAs differ in how they calculate the floating market price. 
+QUOTE: Some VPPAs settle at a node on the power grid. Because projects sell the physical output in fact at the node for the nodal price, the merchant revenues earned by any project with such a VPPA will generally align with the floating price under the VPPA.
+AFTER:  If all goes well, then there should not be a gap between the merchant revenues and the floating amount under the VPPA. The independent power company should have enough revenue to cover its obligations under the VPPA. Other VPPAs settle at the hub, which is a price point compiled by ERCOT that is re…
+
+### e83 · `ref-akin-ercot-hedge-slides` · tier 3 · Corporate PPA webinar slides (2025 update), incl. financially-settled hedge diagrams (retrieved 2026-11-22)
+locator: Slide 19, Financially-Settled Hedge · text copy line 587
+
+BEFORE: …Price NOTE: Payment to or from ProjectCo depends on Hub Price Remember that ProjCo is still receiving payments from ERCOT through physical sales on the wholesale market Settlement Point = Hub than the Strike Price - Project Co. to Hedge Provider when the Hub Price is greater than the Strike Price • 
+QUOTE: Financially-Settled Hedges involve the sale of Energy at the Node and a settlement at the Hub between the Hedge Provider and the Project Company for the difference
+AFTER:  Hub Revenue from Physical sale of Power (from Wholesale market) Project Co. between the Strike Price and the Hub Price. Node Facility Node-to-Hub Price Basis Differential (i.e., Basis Risk) Physical sale of Power to Node / Interconnection Point 19 PPA Hedge Structures PPA Hedge Mitigates Price Risk…
+
+### e84 · `ref-pexapark-ppa-glossary` · tier 3 · Glossary of energy terms: PPA explanation (retrieved 2026-11-22)
+locator: Glossary, Financial PPA · text copy line 214
+
+BEFORE: … another common term used for a Virtual PPA. It is treated as a financial instrument, often based on the International Swaps and Derivatives Association (ISDA) contract. The agreement doesn't deal with the physical electricity delivery of electricity but typically includes the Guarantees of Origin. 
+QUOTE: It's a common structure in the US, but not very advanced in Europe asit is considered a derivative and has a different accounting treatment under the International Financial Reporting Standards (IFRS) than a physical PPA.
+AFTER:  Forecast Inaccuracy The difference between forecasted, often on a day-ahead basis, and actual realised production of a plant. GoO or GO Guarantees of Origin are an instrument defined in European legislation that labels electricity from renewable sources to provide information to electricity custome…
+
+### e85 · `ref-akin-ppa-swaps` · tier 3 · Are Renewable Energy Power Purchase Agreements Swaps? (Futures & Derivatives Law Report) (retrieved 2026-11-22)
+locator: What Do Dissenters Say? (p. 2) · text copy line 132
+
+BEFORE: …ansferred to Buyer. Therefore, there is no conveyance of "ownership interest in an asset or liability that incorporates the financial risk so transferred." Accordingly, a VPPA meets the definition in 7 U.S.C.A. § 1a(47)(A)(iii), and therefore, should be classified as a swap. What Do Dissenters Say? 
+QUOTE: Some have argued that since RECs are also transferred in a VPPA from Seller to Buyer, along with the financial risk, the transaction does not meet the definition in 7 U.S.C.A. § 1a(47)(A)(iii) because the transaction conveys an ownership interest in RECs, and therefore, it is not a swap.
+AFTER:  However, the exclusion under 7 U.S.C.A. § 1a(47)(A)(iii) requires that the asset must incorporate "the financial risk so transferred," which does not occur under a VPPA (as described above). If wholesale market prices and REC market prices move together, Buyer would be receiving a physical asset (h…
+
+### e86 · `ref-leveltenproxy-generation` · tier 3 · Proxy Generation 101 (retrieved 2026-11-22)
+locator: Traditional VPPAs · text copy line 63
+
+BEFORE: …ever washing the panels, takes the facility offline for maintenance for extended periods of time, or simply performs voluntary maintenance during times when they expect to lose money under the VPPA's contract-for-difference structure (e.g. when hub prices are significantly higher than node prices). 
+QUOTE: In addition to mismanagement by the seller, transmission constraints or system emergencies might cause the grid operator to "curtail" the facility (i.e., temporarily disconnect the facility from the grid), which would also reduce the Trade Quantity.
+AFTER:  Both of these examples would result in a buyer receiving fewer RECs than expected, and therefore creating a risk that the buyer might not meet its renewable energy goals. In order to protect the buyer from the above risks, traditional VPPAs typically include "availability guarantees" - complex form…
+
+### e87 · `ref-ornl-renewable-contracting-vt6` · tier 2 · Renewable Electricity Supply Options: Financing Models and Strategies, Session 6 (virtual training slides) (retrieved 2026-11-22)
+locator: Slide: Mitigating Risk · text copy line 296
+
+BEFORE: …nd Ceilings (Collars) ▪ $0 floor to limit exposure = reduced downside risk $$ ▪ "No settlement" during curtailment ▪ Developer "Parent Guarantee" ▪ Secure your long-term contracts ▪ Forecast and Sensitivity ▪ Forecast load and requirements ▪ Forecast price of electricity with and without escalators 
+QUOTE: ▪ Proxy Generation ▪ Consumer compensated based on calculated generation ▪ Reduced curtailment and availability risk
+AFTER:  Mitigating Risk: Collars Developer Pays Buyer Buyer Pays Developer Floor Price Ceiling Price Price $/MWh Strike Price Time Source: Enel North America Mitigating Risk ▪ Forward Strip of RECs (Bridge RECs) ▪ Future proof against delays and forced majeures ▪ Purchase at Hub pricing ▪ Reduce the price …
+
+### e88 · `ref-nrf-vppa-risks` · tier 3 · Corporate VPPAs: Risks and sensitivities (June 2020)
+locator: Section on imbalance-charge risk · text copy line 133
+
+BEFORE: …s are included in the non-exhaustive list of events that are treated as force majeure if the other elements of the definition are met. Another risk developers try to manage is imbalance-charge risk. This is the risk associated with settling VPPAs in the real-time market versus the day-ahead market. 
+QUOTE: Physical power is sold in real-time markets. However, VPPAs may settle at day-ahead market prices by scheduling sales on an hourly basis in advance.
+AFTER:  Corporate buyers generally perceive day-ahead prices to be higher and prefer their predictability. Developers want to avoid managing the mismatch between real-time prices and day-ahead prices and will try to have the VPPA settle at real-time prices. For large projects, it may not be feasible to con…
+
+### e89 · `ref-rff-texas-hedges` · tier 3 · Texas Power Crisis Exposes Problems with Financial Risk-Mitigation Strategies in Renewable Energy Projects (retrieved 2026-11-22)
+locator: Monetizing and Hedging Renewable Power · text copy line 61
+
+BEFORE: …the form of a power purchase agreement (PPA), in which the wind project sells energy to a utility under a long-term contract. Since 2015, corporations-such as Amazon, Google, and Facebook-have procured large amounts of wind energy through what are termed virtual PPAs (also known as synthetic PPAs). 
+QUOTE: Unlike a physical PPA, which delivers power directly to the buyer, a virtual PPA is a type of financial hedge because the power is not delivered to the corporation. However, the revenue effect is the same for virtual and physical PPAs: the wind project receives a fixed price for the energy it produces.
+AFTER:  Third, the wind project may enter into a bank hedge agreement with a financial institution-a particularly common structure in ERCOT, thanks to its mature and liquid power trading markets. As with a PPA, the bank hedge allows the wind project to opt for agreed-upon fixed prices instead of floating w…
+
+### e90 · `ref-nrf-vppa-risks` · tier 3 · Corporate VPPAs: Risks and sensitivities (June 2020)
+locator: Section on VPPA structure · text copy line 65
+
+BEFORE: …les in exchange for fixed payments back from the corporate offtaker. The VPPA typically settles monthly. If the project's revenues from selling power to the grid are greater than the corporate offtaker's fixed-price payments, the VPPA is considered profitable or "in the money" by the project owner. 
+QUOTE: In some cases, the VPPA will be a "contract for differences" where the project company and corporate offtaker split the wholesale revenues to the extent they exceed the fixed price payments.
+AFTER:  In contract-for-differences VPPAs, the fixed price will be lower than in a VPPA where this upside share feature is not used. For a developer or sponsor, entering into a VPPA helps to put a floor under the electricity price for a project, which is a key step toward project financing. For a corporate…
+
+### e91 · `ref-resurety-basis-risk` · tier 3 · Basis risk can sink projects and PPAs (retrieved 2026-11-22)
+locator: Background: the hub + node structure · text copy line 54
+
+BEFORE: …ubstation feeding thousands of homes. Each of these nodes has its own power price. Groups of nodes are organized into hubs. Hubs are virtual trading points, where the price is the average of all the nodes within the hub. (An example of a hub). [] The U.S. electricity system's hub and node structure 
+QUOTE: Most power purchase agreements (PPAs), where corporates or utilities agree to long-term contracts to buy power, are settled at the hub.
+AFTER:  Every month, the contract is settled by calculating how much money the developer would have made from selling their power to the grid at the hub price, how much money the developer is guaranteed by the PPA signed with a corporate or utility buyer, and "settling" the difference. If market prices wer…
+
+### e92 · `ref-resurety-basis-risk` · tier 3 · Basis risk can sink projects and PPAs (retrieved 2026-11-22)
+locator: Background: the hub + node structure · text copy line 54
+
+BEFORE: …tual trading points, where the price is the average of all the nodes within the hub. (An example of a hub). [] The U.S. electricity system's hub and node structure Most power purchase agreements (PPAs), where corporates or utilities agree to long-term contracts to buy power, are settled at the hub. 
+QUOTE: Every month, the contract is settled by calculating how much money the developer would have made from selling their power to the grid at the hub price, how much money the developer is guaranteed by the PPA signed with a corporate or utility buyer, and "settling" the difference.
+AFTER:  If market prices were low one month at that hub, the buyer sends the developer money to get them to their guaranteed PPA revenue. If prices were high one month, the developer sends the buyer the extra money that came in the door. However, the developer doesn't actually sell power at the hub price, …
+
 ## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1, e2, e3, e48, e4, e5, e7): A power purchase agreement (PPA) is a contract between a power producer and a purchaser (the "offtaker") for the sale of power, setting terms such as price, delivery and payment; POWER Magazine and ORNL describe it as long-term. [e1][e2][e3][e48] In a physical PPA the power is delivered to the buyer. In a virtual PPA (also called a financial or synthetic PPA) nothing is delivered: the generator sells its output into the wholesale market, and the two parties swap the floating market revenue for a fixed price. [e4][e5][e7]
-- **How it works #1** (cites e14, e15, e32, e45): **Physical PPA.** The buyer takes delivery of the power. EPA's glossary says physical PPAs by non-utility buyers are generally allowed only in competitive markets, and that the generator and buyer must be in the same power market; Yale says the same about location. [e14][e15] A sleeved PPA is an offsite physical PPA in which a utility acts as intermediary: it takes the project's power, delivers it with the buyer's other energy, and charges a sleeving fee. [e32][e45]
-- **How it works #2** (cites e8, e9, e10, e11, e47, e16, e17, e4, e6): **Virtual PPA.** The parties agree a fixed "strike" price. The project sells its power into the wholesale market near the generator, and the two sides settle the difference between the strike and the market price. [e8][e9] When the market price is above the strike, the generator pays the buyer the excess; when it is below, the buyer pays the generator, so the generator in net receives the strike price. [e9][e10][e11][e47] The buyer and project need not be in the same market, and the buyer keeps buying its own power from its local supplier. [e16][e17][e4] The sources call this structure a contract for differences or a fixed-for-floating swap. [e6][e8]
-- **How it works #3** (cites e9, e12, e11, e22) FLAG number-not-in-quote: 2022: **Settlement.** EPA, Norton Rose Fulbright and Yale say virtual PPAs typically settle monthly (Yale: monthly or quarterly). [e9][e12][e11] Norton Rose Fulbright's 2022 article instead says most hedges are settled on an hourly basis: the hourly price difference times a volume for that hour. [e22] No saved source reconciles the two (see Open items).
-- **How it works #4** (cites e21, e46, e23): **Volume.** In an as-generated contract (Norton Rose Fulbright's term for a VPPA) the hourly difference is multiplied by the metered output; RMI likewise describes a VPPA's value in a period as the energy generated times the difference between the market and VPPA prices. [e21][e46] A separate Norton Rose Fulbright article says VPPA payments are often based on a scheduled notional quantity rather than actual output. [e23] Which volume applies is a contract term; see Volumetric Risk.
-- **How it works #5** (cites e24, e25, e18, e44): **Why parties sign.** For the developer, the fixed price gives predictable revenue and a floor under its price, which EPA and Norton Rose Fulbright both call key to project financing. [e24][e25] For the buyer, the contract is a hedge only if the project's market price moves with the price the buyer pays for its own power. [e18][e44]
-- **How it works #6** (cites e19, e20): **RECs.** RECs are typically conveyed to the buyer in a financial PPA, but not always; the project may sell them instead. [e19][e20]
-- **ERCOT context #1** (cites e33, e34): The ERCOT Protocols use the phrase "Power Purchase or Tolling Agreement (PPA)". In RUC cost recovery, QSEs that submit such agreements cannot let Resource Entities file verifiable costs. [e33] For settlement-only distribution and transmission generators, a Resource Entity could opt out of nodal pricing and keep Load Zone Settlement if, by January 1, 2019, the unit was operational, subject to a PPA or interconnection agreement, or had an executed agreement with a developer. [e34]
-- **ERCOT context #2** (cites e35): PUCT rules recognise PPAs in retail supply: a REP's guarantor for access to capital may be its wholesale power supplier, or an affiliate of a power provider with whom the REP has executed a power purchase agreement. [e35]
-- **ERCOT context #3** (cites e37, e38): The IMM lists bilateral PPAs among the ways ERCOT LSEs manage price exposure, alongside owning generation, futures and day-ahead purchases. [e37] UT Austin's Uri report lists a PPA as one way a generator takes on a delivery commitment, with other bilateral contracts, ICE sales and day-ahead awards. [e38]
-- **ERCOT context #4** (cites e36): Because ERCOT generators settle at their own node's LMP and loads at the load zone price [e36], a virtual PPA written at a hub or zone leaves a locational gap on both sides (see Basis Risk).
-- **ERCOT context #5** (cites e42, e39, e40): During Winter Storm Uri prices sat at $9,000/MWh by PUCT order. [e42] UT Austin says many generators had locked in a price by contract, limiting their gain, and that wind owners with financial hedges could owe payments when market prices exceeded contract prices or output fell below contracted quantities. [e39][e40]
-- **ERCOT context #6** (cites e43, e28, e29): The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025, mostly wind and solar that keep producing at negative prices because of production tax credits. [e43] That is the situation in which buyers seek floors on the floating price. [e28][e29]
-- **Key facts #1** (cites e4, e5, e17): - A virtual PPA has no physical delivery; the buyer buys its power separately. [e4][e5][e17]
-- **Key facts #2** (cites e6, e7): - Other names: financial PPA, synthetic PPA, contract for differences, fixed-for-floating swap. [e6][e7]
-- **Key facts #3** (cites e9, e10): - Market above strike: the generator pays the buyer; below strike: the buyer pays the generator. [e9][e10]
-- **Key facts #4** (cites e9, e12): - Settlement is typically monthly. [e9][e12]
-- **Key facts #5** (cites e14, e16): - Physical PPAs generally require the buyer and project to be in the same market; virtual PPAs do not. [e14][e16]
-- **Key facts #6** (cites e13, e26, e27): - Contract terms differ by source: physical PPAs 10-20 years (EPA), traditional utility PPAs 20-35 years (POWER), most VPPAs 10-15 years (Norton Rose Fulbright). [e13][e26][e27]
-- **Key facts #7** (cites e33, e34): - The ERCOT Protocols use "Power Purchase or Tolling Agreement (PPA)" as one term. [e33][e34]
-- **Formula #1** (cites e22, e9, e10, e21, e46, e23): For each hour (Norton Rose Fulbright) or per unit over the settlement period (EPA), the amount is the difference between market price and strike price times the volume. [e22][e9] A positive result is paid by the generator to the buyer; a negative one by the buyer to the generator. [e9][e10] The volume is metered output in an as-generated contract [e21][e46]; Norton Rose Fulbright also describes VPPAs settled on a scheduled notional quantity. [e23]
-- **Common confusion #1** (cites e33): (Guidance) PPA and virtual PPA are general industry usage and are not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here; the Protocols use "Power Purchase or Tolling Agreement (PPA)" without defining it. [e33]
-- **Common confusion #2** (cites e6, e49) FLAG number-not-in-quote: 2019, 2020: "Contract for differences" is used two ways. EPA and Norton Rose Fulbright's 2019 article use it for the standard VPPA swap. [e6][e49] Norton Rose Fulbright's 2020 article uses it for a variant in which the parties split upside above the fixed price (see Open items).
-- **Common confusion #3** (cites e9, e10): POWER Magazine's description of who pays when contradicts itself and the other sources (see Open items). Rely on EPA and Norton Rose Fulbright: market above strike, generator pays. [e9][e10]
-- **Common confusion #4** (cites e4, e17): A virtual PPA does not supply the buyer. The buyer still buys all its power from its own supplier. [e4][e17]
-- **Questions #2** (cites e14, e15, e5, e8, e16): In a physical PPA power is delivered to the buyer, which generally needs a competitive market and a project in the same market. [e14][e15] In a virtual PPA nothing is delivered: the project sells into the wholesale market and the parties settle the difference from a fixed price, so the project can be in a different market. [e5][e8][e16]
-- **Questions #4** (cites e9, e10, e11): When the market price is above the strike, the generator pays the buyer the difference; when it is below, the buyer pays the generator. The generator in effect earns the strike. [e9][e10][e11]
-- **Questions #6** (cites e24, e25): EPA calls long-term contracts with predictable revenues a key element in attracting financing, and Norton Rose Fulbright calls the price floor a key step toward project financing. [e24][e25]
-- **Questions #8** (cites e18, e44, e30, e46, e41): The hedge works only if the project's market price is correlated with the price the buyer pays. [e18][e44] Hub settlement and shortfalls in the project's output can both weaken it (see the basis, shape and volumetric risk topics). [e30][e46][e41]
-- **Questions #10** (cites e41, e42): Norton Rose Fulbright gives the example of a data center whose VPPA project shut down: it paid $9,000/MWh for its power and received nothing from the VPPA. [e41] UT Austin confirms the $9,000/MWh price was held by PUCT order. [e42]
-- **Questions #12** (cites e28, e29, e43): If the buyer must pay the full difference between the strike and a negative market price, it can owe large, unexpected payments; Yale says corporates have sought $0 floors for this protection, which shift downside risk to the project. [e28][e29] In ERCOT, the IMM says much wind and solar capacity is offered at or below $0 because of production tax credits. [e43]
-- **Scenarios #2** (cites e4, e17): - Its actual power supply from its own retailer, because a VPPA delivers nothing. [e4][e17]
-- **Scenarios #3** (cites e18, e36): - An understanding of correlation: the hedge only works if the hub price tracks what it pays at its own load zone. [e18][e36]
-- **Scenarios #4** (cites e20, e21, e23): - Clarity on REC ownership and on the volume used for settlement (metered output or a notional quantity). [e20][e21][e23]
-- **Scenarios #5** (cites e28, e29): - A view on negative prices and whether to seek a floor. [e28][e29]
+- **Definition #1** (cites e1, e2, e3, e48, e4, e5, e7, e89): A power purchase agreement (PPA) is a contract between a power producer and a purchaser (the "offtaker") for the sale of power, setting terms such as price, delivery and payment; POWER Magazine and ORNL describe it as long-term. [e1][e2][e3][e48] In a physical PPA the power is delivered to the buyer. In a virtual PPA (also called a financial or synthetic PPA) nothing is delivered: the generator sells its output into the wholesale market, and the two parties swap the floating market revenue for a fixed price. [e4][e5][e7][e89]
+- **How it works #2** (cites e8, e9, e10, e11, e47, e50, e55, e56, e16, e17, e4, e6): **Virtual PPA.** The parties agree a fixed "strike" price. The project sells its power into the wholesale market near the generator, and the two sides settle the difference between the strike and the market price. [e8][e9] When the market price is above the strike, the generator pays the buyer the excess; when it is below, the buyer pays the generator, so the generator in net receives the strike price. EPA, ORNL, Norton Rose Fulbright, Akin Gump and Stoel Rives all describe it this way; Yale describes the below-strike case. [e9][e10][e11][e47][e50][e55][e56] The buyer and project need not be in the same market, and the buyer keeps buying its own power from its local supplier. [e16][e17][e4] The sources call this structure a contract for differences or a fixed-for-floating swap. [e6][e8]
+- **How it works #3** (cites e9, e12, e92, e11, e22, e51, e52, e53, e54) FLAG number-not-in-quote: 2022: **Settlement interval and period.** EPA, Norton Rose Fulbright, ReSurety and Yale say virtual PPAs typically settle monthly (Yale: monthly or quarterly), while Norton Rose Fulbright's 2022 article says most hedges are settled on an hourly basis. [e9][e12][e92][e11][e22] LevelTen's sample VPPA terms show how the two fit: the price difference is calculated and multiplied by the volume for each calculation interval, typically an hour, and those amounts are summed into one settlement amount per settlement period, typically a calendar month. ORNL's DOE training, which adapts LevelTen's term list, also gives the calculation interval as typically hourly. [e51][e52][e53][e54]
+- **How it works #4** (cites e50, e69, e88, e83, e58): **Floating price: hub or node, day-ahead or real-time.** Akin Gump says the floating price is typically the real-time or day-ahead LMP at a specific hub or node; Stoel Rives lists the choice of day-ahead or real-time market as one of the contract variations, and Norton Rose Fulbright says VPPAs may settle at day-ahead prices although physical power is sold in real time. [e50][e69][e88] The project is still paid at its own node: Akin Gump describes a financially settled project hedge as a sale of energy at the node and a settlement at the hub, and ReSurety says the developer sells at the node price and so is "on the hook" for any node-to-hub difference. [e83][e58]
+- **How it works #5** (cites e30, e57, e58, e61, e60, e59, e82, e62, e63, e91): **Who carries basis.** In a hub-settled VPPA the project carries the node-to-hub basis risk (POWER Magazine, Stoel Rives, ReSurety, RFF). [e30][e57][e58][e61] In a node-settled VPPA that risk passes to the buyer: RFF says node-settled contracts shift basis risk from the project to the counterparty, ReSurety that node settlement "passes all risk to the buyer", and Norton Rose Fulbright that a node-settled project's merchant revenue generally aligns with the floating price. [e60][e59][e82] Hub settlement is the common case: ORNL calls hub prices less volatile and typical in VPPA contracts, LevelTen says a hub gives the buyer a more stable market price, and RFF and ReSurety say most wind synthetic PPAs and most PPAs are hub-settled. [e62][e63][e61][e91]
+- **How it works #6** (cites e21, e75, e81, e79, e46, e76, e77, e87, e23) FLAG number-not-in-quote: 2017: **Volume.** In an as-generated contract the hourly difference is multiplied by the metered output: Norton Rose Fulbright, LevelTen and RFF describe the VPPA volume as the project's actual (or a share of its actual) generation, and RMI describes a VPPA's value in a period as the energy generated times the price difference. [e21][e75][e81][e79][e46] RFF says this removes the project's volume, shape and curtailment risks. [e79] A proxy-generation VPPA instead uses the output the project should have produced given the measured wind or sun (LevelTen, Norton Rose Fulbright, ORNL). [e76][e77][e87] Norton Rose Fulbright's 2017 article also says VPPA payments are often based on a scheduled notional quantity rather than actual output; LevelTen and RFF do not describe VPPAs that way (see Open items and Volumetric Risk). [e23][e81][e79]
+- **How it works #7** (cites e66, e64, e65, e67, e68, e86, e87): **Negative prices and curtailment.** Buyers commonly limit their exposure to negative floating prices. Stoel Rives and LevelTen describe the same two clause types: below a floor, either the volume is treated as zero (LevelTen's "Non-Settlement Threshold", under which no money changes hands and no RECs are delivered) or the floating price is replaced by an agreed minimum (LevelTen's "Zero Dollar Price Floor", under which the buyer still pays the fixed price and receives RECs). [e66][e64][e65] ORNL's DOE training lists a $0 floor and "no settlement" during curtailment as risk mitigants. [e67] Stoel Rives adds that for a wind project the floor or payment mechanism must include the after-tax value of lost production tax credits, and RFF that a project would wish to generate even at negative prices, to the counterparty's detriment. [e66][e68] Under an as-generated contract, LevelTen says curtailment for transmission constraints or system emergencies reduces the trade quantity, and ORNL says proxy generation reduces curtailment and availability risk for the buyer. [e86][e87]
+- **How it works #10** (cites e73, e71, e72, e85, e74, e84): **Regulatory treatment (views).** Yale says VPPAs are considered derivative agreements with recordkeeping duties, and Akin Gump argues a VPPA should be classified as a swap, which brings documentation, reporting and recordkeeping obligations; Akin Gump notes that some argue the REC transfer takes it outside the swap definition. [e73][e71][e72][e85] The CFTC glossary says the 2012 CFTC-SEC rules clarified that contracts for differences are swaps; it does not name VPPAs. [e74] Pexapark (writing on Europe) says a financial PPA is considered a derivative with different accounting treatment from a physical PPA. [e84]
+- **ERCOT context #5** (cites e42, e39, e40, e78, e41): During Winter Storm Uri prices sat at $9,000/MWh by PUCT order. [e42] UT Austin says many generators had locked in a price by contract, limiting their gain, and that wind owners with financial hedges could owe payments when market prices exceeded contract prices or output fell below contracted quantities. [e39][e40] Two commentary publishers describe the as-generated PPA side: RFF says that for a project with a physical or virtual PPA the high price had no effect on energy revenue, because the floating price was swapped for the fixed price, and Norton Rose Fulbright gives the case of a VPPA buyer whose project shut down, which paid $9,000/MWh for its own power and received nothing from the VPPA. [e78][e41]
+- **ERCOT context #6** (cites e43, e28, e29, e66): The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025, mostly wind and solar that keep producing at negative prices because of production tax credits. [e43] That is the situation in which buyers seek floors on the floating price. [e28][e29][e66]
+- **Key facts #3** (cites e9, e10, e50, e55): - Market above strike: the generator pays the buyer; below strike: the buyer pays the generator. [e9][e10][e50][e55]
+- **Key facts #4** (cites e51, e52, e53, e54): - The difference is typically calculated hourly and paid monthly. [e51][e52][e53][e54]
+- **Key facts #6** (cites e57, e58, e59, e60, e62): - Hub settlement is common and leaves basis risk with the project; node settlement moves it to the buyer. [e57][e58][e59][e60][e62]
+- **Key facts #7** (cites e64, e65, e66): - Negative-price clauses either zero the settled volume below a floor or replace the floating price with a minimum. [e64][e65][e66]
+- **Key facts #8** (cites e13, e26, e27, e80): - Contract terms differ by source: physical PPAs 10-20 years (EPA), traditional utility PPAs 20-35 years (POWER), most VPPAs 10-15 years (Norton Rose Fulbright), synthetic PPAs 12-13 years against 15-25 for traditional PPAs (RFF). [e13][e26][e27][e80]
+- **Formula #1** (cites e50, e51, e52, e53): LevelTen's sample terms and Akin Gump give the same settlement formula. For each calculation interval (LevelTen: typically an hour), the fixed-price payment is volume × fixed price and the floating-price payment is volume × market price; the settlement amount for the period (typically a month) is the sum of fixed-price payments minus the sum of floating-price payments. A positive amount is paid by the buyer to the seller; a negative amount by the seller to the buyer. [e50][e51][e52][e53]
+- **Formula #2** (cites e9, e10, e51): Written as one line: Settlement (buyer pays seller if positive) = Σ over intervals of volume × (fixed price − market price). EPA and Norton Rose Fulbright state the same sign from the other side: market above strike, the generator pays. [e9][e10][e51]
+- **Formula #3** (cites e21, e81, e46, e76, e77, e23, e64, e65, e66): The volume is metered output in an as-generated contract [e21][e81][e46], modelled output in a proxy-generation contract [e76][e77]; Norton Rose Fulbright also describes VPPAs settled on a scheduled notional quantity. [e23][e81] Where a negative-price floor applies, the volume is set to zero or the market price is replaced by the floor in the intervals below it. [e64][e65][e66]
+- **Common confusion #2** (cites e6, e49, e90, e69, e70) FLAG number-not-in-quote: 2019, 2020: "Contract for differences" is used two ways. EPA and Norton Rose Fulbright's 2019 article use it for the standard VPPA swap. [e6][e49] Norton Rose Fulbright's 2020 article uses it for a variant in which the parties split upside above the fixed price. [e90] Stoel Rives and Akin Gump also mention upside or revenue-sharing mechanisms as variations. [e69][e70]
+- **Common confusion #3** (cites e9, e10, e50, e56): POWER Magazine's description of who pays when, and one sentence of Stoel Rives's credit-support section, state the direction backwards; both contradict their own other passages and the other sources (see Open items). Rely on the consistent statement: market above strike, generator pays. [e9][e10][e50][e56]
+- **Common confusion #4** (cites e51, e52, e53): "Monthly" and "hourly" settlement are not in conflict in LevelTen's terms: hourly is the calculation interval, monthly the settlement period. [e51][e52][e53]
+- **Questions #2** (cites e14, e15, e5, e8, e16, e89): In a physical PPA power is delivered to the buyer, which generally needs a competitive market and a project in the same market. [e14][e15] In a virtual PPA nothing is delivered: the project sells into the wholesale market and the parties settle the difference from a fixed price, so the project can be in a different market. [e5][e8][e16] RFF says the revenue effect for the project is the same: a fixed price for the energy it produces. [e89]
+- **Questions #4** (cites e9, e10, e11, e50, e55): When the market price is above the strike, the generator pays the buyer the difference; when it is below, the buyer pays the generator. The generator in effect earns the strike. [e9][e10][e11][e50][e55]
+- **Questions #6** (cites e58, e57, e59, e60, e62, e63): The project is always paid its own nodal price. With hub settlement the project carries any node-to-hub difference; with node settlement that risk moves to the buyer. [e58][e57][e59][e60] Buyers favour hubs because hub prices are averages of many nodes and more stable. [e62][e63]
+- **Questions #10** (cites e18, e44, e79, e46, e86, e41): The hedge works only if the project's market price is correlated with the price the buyer pays. [e18][e44] Under as-generated settlement the buyer carries the project's volume and timing, and LevelTen says curtailment also reduces the trade quantity. [e79][e46][e86] Norton Rose Fulbright's Uri example shows the extreme case: an offline project paid nothing while the buyer paid $9,000/MWh for its own power. [e41]
+- **Questions #12** (cites e41, e42, e78): Norton Rose Fulbright gives the example of a data center whose VPPA project shut down: it paid $9,000/MWh for its power and received nothing from the VPPA. [e41] UT Austin confirms the $9,000/MWh price was held by PUCT order. [e42] RFF adds that for a project that kept running, a VPPA left energy revenue unchanged by the high price. [e78]
+- **Questions #14** (cites e28, e29, e66, e64, e65, e43): If the buyer must pay the full difference between the strike and a negative market price, it can owe large, unexpected payments, so buyers seek floors; Yale says $0 floors shift downside risk to the project. [e28][e29] Stoel Rives and LevelTen describe the two clause types: no settled volume below the floor, or a floor on the floating price. [e66][e64][e65] In ERCOT, the IMM says much wind and solar capacity is offered at or below $0 because of production tax credits. [e43]
+- **Questions #16** (cites e71, e73, e85, e74): Akin Gump argues it is, and Yale says VPPAs are considered derivative agreements with recordkeeping duties; Akin Gump notes that some disagree because RECs are transferred. [e71][e73][e85] The CFTC glossary says contracts for differences were clarified as swaps in 2012, but it does not mention VPPAs, so this is the law firms' and Yale's reading. [e74]
+- **Scenarios #4** (cites e20, e21, e76, e23): - Clarity on REC ownership and on the volume used for settlement (metered output, proxy generation or a notional quantity). [e20][e21][e76][e23]
+- **Scenarios #5** (cites e64, e65, e66, e67): - A negative-price clause (floor or non-settlement threshold) and a curtailment clause. [e64][e65][e66][e67]
+- **Scenarios #6** (cites e57, e58): - Knowing that, with hub settlement, the wind farm and not the data center carries the node-to-hub gap. [e57][e58]
 - **Link to basis-risk** (cites e30, e31): related Basis Risk: Virtual PPAs are typically settled at a trading hub while the generator is paid at its node, which creates node-to-hub basis risk. [e30][e31]
-- **Link to shape-risk** (cites e22): related Shape Risk: Norton Rose Fulbright says most hedges multiply an hourly price difference by a volume for that hour, so the hour-by-hour pattern of output and prices matters. [e22]
-- **Link to volumetric-risk** (cites e21, e23): related Volumetric Risk: Hedges differ in the volume used: metered output in an as-generated VPPA, or a scheduled notional quantity in some VPPAs. [e21][e23]
+- **Link to shape-risk** (cites e22, e52): related Shape Risk: Norton Rose Fulbright and LevelTen both describe the price difference being multiplied by a volume for each hour (LevelTen's typical calculation interval), so the hour-by-hour pattern of output and prices matters. [e22][e52]
+- **Link to volumetric-risk** (cites e21, e75, e76, e23): related Volumetric Risk: Hedges differ in the volume used: metered output in an as-generated VPPA, a modelled proxy volume, or (Norton Rose Fulbright) a scheduled notional quantity. [e21][e75][e76][e23]
 - **Link to retail-hedging** (cites e37): used-in Retail Load Hedging: The IMM says many ERCOT LSEs manage price exposure through owning generation, bilateral PPAs, futures or day-ahead purchases. [e37]
 - **Link to tax-credits-recs** (cites e19, e20): related PTC / ITC & RECs: RECs from the project are typically conveyed to the buyer in a financial PPA, though not always. [e19][e20]
-- **Link to negative-prices** (cites e28, e29): related Negative Prices: Buyers seek floors because an uncapped obligation to pay the difference at negative prices can mean large settlement payments to the project. [e28][e29]
+- **Link to negative-prices** (cites e28, e29, e64, e66): related Negative Prices: Buyers seek floors because an uncapped obligation to pay the difference at negative prices can mean large settlement payments to the project; Stoel Rives and LevelTen describe the two usual clause types. [e28][e29][e64][e66]
 - **Link to tolling-agreement** (cites e33): contrasts-with Tolling Agreement: The ERCOT Protocols use the one phrase "Power Purchase or Tolling Agreement (PPA)" for both kinds of contract. [e33]
 - **Link to winter-storm-uri** (cites e40) FLAG number-not-in-quote: 2021: related Winter Storm Uri (Feb 2021): UT Austin says wind hedges could trigger payments when wholesale prices exceeded contract prices or output fell below contracted quantities during Uri. [e40]
-- **Link to trading-hub** (cites e30, e31): settles Trading Hubs: Hub settlement of VPPAs is frequent, and hubs are aggregations of nodes. [e30][e31]
+- **Link to trading-hub** (cites e30, e31, e62): settles Trading Hubs: Hub settlement of VPPAs is frequent, and hubs are aggregations of nodes. [e30][e31][e62]
 - **Link to sc-data-center-ppa** (cites e41, e8): example-of Scenario: Data Center Wants a Solar VPPA: A data center using a VPPA still buys its own power; Norton Rose Fulbright says one whose project shut down during Uri paid $9,000/MWh and received nothing from the VPPA. [e41][e8]
 
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
-- (Example) Suppose (illustrative, made-up numbers) a buyer signs a virtual PPA at a $40/MWh strike with a solar project. In a month the project produces 10,000 MWh. In hours covering 6,000 MWh the market price averages $30, so the buyer owes 6,000 × ($40 − $30) = $60,000. In hours covering 4,000 MWh the price averages $70, so the project owes 4,000 × ($70 − $40) = $120,000. Net for the month, the project pays the buyer $60,000. The buyer separately pays its own retailer for the power it actually used.
-- (Say it like this) (Guidance) A virtual PPA is a financial swap: the project sells its power to the grid at market prices and the buyer guarantees it a fixed price by paying or receiving the difference. It hedges the buyer only if the project's price moves with what the buyer pays for its own power.
+- (Example) Suppose (illustrative, made-up numbers) a buyer signs a hub-settled virtual PPA at a $40/MWh strike with a solar project. In a month the project produces 10,000 MWh. In hours covering 6,000 MWh the hub price averages $30, so the buyer owes 6,000 × ($40 − $30) = $60,000. In hours covering 4,000 MWh the price averages $70, so the project owes 4,000 × ($70 − $40) = $120,000. Net for the month, the project pays the buyer $60,000. The buyer separately pays its own retailer for the power it actually used.
+- (Example) Suppose further, illustratively, 500 MWh of that output came in hours at −$20. Without a floor the buyer owes 500 × ($40 − (−$20)) = $30,000 for those hours. With a $0 price floor it owes 500 × $40 = $20,000; under a non-settlement threshold it owes nothing for those hours and gets no RECs for them.
+- (Say it like this) (Guidance) A virtual PPA is a financial swap: the project sells its power to the grid at market prices and the buyer guarantees it a fixed price by paying or receiving the difference, usually calculated hourly and paid monthly. It hedges the buyer only if the hub price moves with what the buyer pays for its own power, and with hub settlement the project keeps the node-to-hub gap.
 
