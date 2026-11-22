@@ -4,17 +4,17 @@ Generated 2026-11-22 over 153 topics.
 
 ## Counts
 
-- number-not-in-quote: 1216
+- number-not-in-quote: 1221
 - proposal-or-filing-source: 302
 - ocr: 95
 - pending-box: 82
-- tier-3: 351
+- tier-3: 358
 
 ## Evidence quotes by source tier
 
 - tier 1: 3868
-- tier 2: 2742
-- tier 3: 351
+- tier 2: 2744
+- tier 3: 358
 
 ## number-not-in-quote
 
@@ -44,9 +44,8 @@ Generated 2026-11-22 over 153 topics.
 - asset-optimization · How it works #2 · 2024 :: Hedging is part of the same job. FERC defines hedging as establishing an offsetting position to minimize losses should the original position
 - asset-optimization · How it works #11 · 2012 :: Outside batteries, the CFTC's 2012 swap-definition rule describes energy management agreements (EMAs). It says commenters gave no working de
 - asset-optimization · ERCOT context #3 · $100 :: The IMM reports how ERCOT storage optimization has shifted: ESRs moved from ancillary services toward energy arbitrage in 2024 as several AS
-- asset-optimization · Key facts #3 · 2012 :: EMAs (CFTC, 2012): no working definition; the managing entity may be paid a portion of the revenue. 
+- asset-optimization · Key facts #3 · 2012 :: EMAs (CFTC, 2012): commenters gave no working definition; the CFTC understands that the managing entity may be paid a portion of the revenue
 - base-point · ERCOT context #6 · 8.1, 1.4 :: Section 8.1.1.4.1 measures how well a Resource follows its set point, not the raw Base Point. ERCOT computes the Generation Resource Energy 
-- basis-risk · Key facts #10 · 2015, 2019 :: LBNL: in ERCOT, wind's basis risk was on par with gas-fired generators' (2015-2019). 
 - basis-risk · Common confusion #2 · 2019 :: The sources do not all define it the same way. Norton Rose Fulbright and POWER Magazine frame it from the project's side, as node versus the
 - battery-revenue-stack · How it works #2 · 2025 :: Since RTC+B the market sets the stack for each interval. ESRs became a single-model Resource under NPRR1014, replacing the old pairing of a 
 - battery-revenue-stack · Formula #1 · 8.1, 1.3 :: Duration caps limit how much of each AS a battery's stored energy can back. Under the Protocols in force (capacity monitoring criteria in Se
@@ -259,6 +258,7 @@ Generated 2026-11-22 over 153 topics.
 - ffss · Link to ordc · 2024 :: affects ORDC (Operating Reserve Demand Curve): The IMM's 2024 report said FFSS deployment removed capacity from the online reserves used for
 - ffss · Link to weatherization · 39.159 :: related Weatherization Standards: SB 3 directs the PUC to ensure that winter resource capability qualifications for a service described by P
 - forward-curve · How it works #3 · 2024 :: Liquidity is concentrated at the front. FERC notes that NYMEX gas futures trade more than eight years out but only the first few years trade
+- forward-curve · ERCOT context #2 · 345 kV, 2013 :: The ICE ERCOT North peak contract covers Monday through Friday, excluding NERC holidays, for hours ending 0700-2200 CPT, and settles on the 
 - forward-curve · Key facts #1 · 2024 :: The NYMEX natural gas futures contract trades more than eight years ahead, but only the first few years trade actively (FERC, 2024). 
 - forward-curve · Scenarios #2 · 2030 :: ICE lists the North peak future for up to 50 monthly periods, so a 2030 price may be listed but is likely far less liquid than the front mon
 - four-cp · Formula #1 · 25.192 :: Current rule (16 TAC 25.192, in effect): TSP annual rate = commission-approved transmission cost of service ÷ ERCOT average 4CP demand (June
@@ -640,6 +640,7 @@ Generated 2026-11-22 over 153 topics.
 - polr · Link to puct · 25.43 :: related PUCT (Public Utility Commission of Texas): The PUCT designates POLR providers and sets requirements for POLR service in 16 TAC 25.43
 - ppa-vppa · How it works #3 · 2022 :: **Settlement interval and period.** EPA, Norton Rose Fulbright, ReSurety and Yale say virtual PPAs typically settle monthly (Yale: monthly o
 - ppa-vppa · How it works #6 · 2017 :: **Volume.** In an as-generated contract the hourly difference is multiplied by the metered output: Norton Rose Fulbright, LevelTen and RFF d
+- ppa-vppa · Key facts #8 · 2018, 2017, 2019 :: Contract terms differ by source and date: physical PPAs 10-20 years (EPA glossary, 2018), traditional utility PPAs 20-35 years (POWER), most
 - ppa-vppa · Common confusion #2 · 2019, 2020 :: "Contract for differences" is used two ways. EPA and Norton Rose Fulbright's 2019 article use it for the standard VPPA swap.  Norton Rose Fu
 - ppa-vppa · Link to winter-storm-uri · 2021 :: related Winter Storm Uri (Feb 2021): UT Austin says wind hedges could trigger payments when wholesale prices exceeded contract prices or out
 - prc · Formula #1 · 6.5, 7.5 :: The Protocols give the PRC formula in Section 6.5.7.5, paragraph (1)(p). The text below describes each component from the variable list and 
@@ -980,10 +981,13 @@ Generated 2026-11-22 over 153 topics.
 - solar-generation · Questions #10 · 2025 :: The IMM says solar's 2025 captured price ($21 per MWh) was nearly at parity with wind ($19) after years at a premium, and that the trend is 
 - solar-generation · Link to wind-solar-forecasts · 2025 :: related Wind & Solar Forecasts (STWPF, STPPF): The IMM says 2025 NSRS volumes rose 7.5%, driven by higher net load and solar forecast errors
 - spark-spread · How it works #4 · 2013, 2017 :: The sources also differ on which power price goes in. EIA's 2013 spark spread article says it is typically calculated from daily spot prices
-- spark-spread · Formula #3 · 2017 :: Power price: the price received for electricity in the same period. EIA typically uses daily spot prices at regional trading points (on-peak
+- spark-spread · How it works #6 · 2013 :: The same idea is applied to other fuels: the dark spread for coal and the quark spread for nuclear fuel.  EIA defines the dark spread as the
+- spark-spread · Formula #3 · 2013, 2017 :: Power price: the price received for electricity in the same period. EIA's 2013 article says it is typically calculated from daily spot price
 - spark-spread · ERCOT context #4 · 2024 :: ERCOT metrics also differ on variable O&M. ERCOT's peaker net margin uses a protocol-specified 10.0 MMBtu per MWh heat rate and excludes var
 - spark-spread · Key facts #2 · 2025, 2013 :: EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread; its February 2013 dark spread ar
+- spark-spread · Key facts #4 · 2013 :: EIA's 2013 dark spread article says dark spreads often use a flat (on- and off-peak) power price, unlike spark spreads, which it says are ca
 - spark-spread · Key facts #6 · 2013 :: EIA does not report spark spreads in its 2013 chart when they are negative. 
+- spark-spread · Questions #4 · 2024 :: It depends who is calculating. EIA's leaves it out; the SFU thesis says it may or may not be included; Penn State's definition subtracts it,
 - spp · Timeline #2 · 2026 :: ERCOT's summer 2026 review notes that SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025. 
 - spp · Example #1 · $20, $50,, $30 :: Suppose a Resource Node has two SCED runs in a 15-minute interval: one covering 600 seconds at an LMP of $20 and one covering 300 seconds at
 - stakeholder-process · How it works #2 · 2011 :: PRS. ERCOT checks a submitted NPRR for completeness and notifies the submitter within five Business Days if it is incomplete.  Once complete
@@ -1145,6 +1149,7 @@ Generated 2026-11-22 over 153 topics.
 - uri-repricing · Link to rtc-b · 2021 :: related RTC+B (Real-Time Co-optimization + Batteries): In its March 2021 AS order the PUCT noted that the withdrawal request for NPRR947 sai
 - virtual-bids · How it works #5 · 4.4 :: Bid exposure: a DAM Energy Bid priced at or below zero has a bid exposure price of zero.  For a bid priced above zero, the exposure price is
 - virtual-bids · ERCOT context #2 · 36%, 420% :: Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated 
+- volumetric-risk · ERCOT context #2 · 2019 :: Two commentary publishers report what this meant for fixed-volume hedges. RFF says the bank hedge, which it calls particularly common in ERC
 - volumetric-risk · Key facts #8 · 2021 :: Wind was 27% of generating units with outages, derates or failures to start in the February 2021 FERC-NERC event area (Texas and the South C
 - volumetric-risk · Questions #2 · 200 MW :: It required the project to deliver a set volume regardless of output. When output fell below that volume, the project had to buy the shortfa
 - volumetric-risk · Link to winter-storm-uri · 2021 :: example-of Winter Storm Uri (Feb 2021): UT Austin says wind generation below contracted quantities during Uri could trigger hedge payments t
@@ -1736,6 +1741,8 @@ Generated 2026-11-22 over 153 topics.
 - asset-optimization · e36 · ref-nrg-10k-2024
 - asset-optimization · e37 · ref-nrg-10k-2024
 - asset-optimization · e43 · ref-cra-ercot-value-stacking-2025
+- asset-optimization · e60 · ref-modo-ercot-offtake-tolling-2025
+- asset-optimization · e61 · ref-modo-ercot-offtake-tolling-2025
 - asset-optimization · e44 · ref-modo-ercot-offtake-tolling-2025
 - asset-optimization · e45 · ref-troutman-storage-offtake-tolling
 - asset-optimization · e46 · ref-enspired-bess-revenue-models
@@ -1817,6 +1824,7 @@ Generated 2026-11-22 over 153 topics.
 - forward-curve · e63 · ref-rff-merchant-hedges
 - forward-curve · e64 · ref-sfu-tolling-thesis
 - forward-curve · e65 · ref-fields-tolling-slides
+- forward-curve · e68 · ref-pirrong-forward-curves
 - heat-rate-call-option · e2 · ref-pillsbury-gas-hedges
 - heat-rate-call-option · e3 · ref-pillsbury-gas-hedges
 - heat-rate-call-option · e4 · ref-fpml-heat-rate-option
@@ -1847,6 +1855,8 @@ Generated 2026-11-22 over 153 topics.
 - heat-rate-call-option · e35 · ref-deng-exotic-electricity-options
 - heat-rate-call-option · e36 · ref-deng-exotic-electricity-options
 - heat-rate-call-option · e37 · ref-deng-exotic-electricity-options
+- heat-rate-call-option · e43 · ref-fields-tolling-slides
+- heat-rate-call-option · e44 · ref-fields-tolling-slides
 - heat-rate-call-option · e42 · ref-deng-exotic-electricity-options
 - heat-rate-call-option · e38 · ref-rff-merchant-hedges
 - ppa-vppa · e1 · ref-powermag-ppa
@@ -2009,6 +2019,8 @@ Generated 2026-11-22 over 153 topics.
 - tolling-agreement · e49 · ref-pacificorp-tolling-agreement
 - tolling-agreement · e50 · ref-pacificorp-tolling-agreement
 - tolling-agreement · e51 · ref-rff-merchant-hedges
+- tolling-agreement · e55 · ref-fields-tolling-slides
+- tolling-agreement · e56 · ref-fields-tolling-slides
 - tolling-agreement · e54 · ref-modo-ercot-offtake-tolling-2025
 - uri-repricing · e16 · repricing-court-summary
 - uri-repricing · e17 · repricing-court-summary

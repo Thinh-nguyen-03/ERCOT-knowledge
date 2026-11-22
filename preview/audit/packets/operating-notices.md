@@ -248,6 +248,7 @@ AFTER:  In addition, ERCOT may instruct any QSE representing an ESR to suspend E
 - **Key facts #6** (cites e22): - An Advisory can lead ERCOT to raise ancillary service requirements above day-ahead quantities. [e22]
 - **Key facts #7** (cites e21): - Fuel capability requests last no more than seven days from the request. [e21]
 - **Common confusion #1** (cites e17, e9, e15, e28): An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load. [e17] ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15] And an OCN does not itself place ERCOT in an Emergency Condition; the Operating Guides say so for an OCN. [e28]
+- **Questions #8** (cites e2): The type of communication depends mainly on the time the market has to respond, and ERCOT may bypass steps if there is insufficient time. [e2]
 - **Questions #10** (cites e24): That is one of the Watch triggers: a Watch is issued when SCED fails to reach a solution. [e24]
 - **Questions #12** (cites e22): ERCOT may use it to raise ancillary service requirements above the day-ahead quantities, which changes what the market must supply. [e22]
 - **Questions #14** (cites e33, e6): Ongoing ERCOT-required resource performance testing must be suspended, and the QSE must also notify the Market Participants it represents. [e33][e6]

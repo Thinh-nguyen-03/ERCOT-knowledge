@@ -74,6 +74,20 @@ BEFORE: …ment by the hedge provider to the project or vice versa. Contrasts Ba
 QUOTE: Both products provide downside protection for project revenue. With a revenue put, the project has all the upside - the assumed excess revenue from physical sales - if market prices turn in the project's favor. With a heat rate call option, the upside goes to the hedge provider.
 AFTER:  With a revenue put, there is little likelihood that the project will have to make significant payments to the hedge provider apart from the large upfront payment. With a heat rate call option, there may be ongoing payments to the hedge provider. The hedge protects the project from market deteriorat…
 
+### e11 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
+locator: Norton Rose Fulbright (2015), Heat Rate Call Options · text copy line 121
+
+BEFORE: …ption is that revenue associated with physical electricity sales will increase. The combination of hedge payments to or from the project and electricity revenue received by the project results, in theory, in a steady project revenue stream based on a fixed spread between gas and electricity prices. 
+QUOTE: Heat rate call options settle on a monthly basis, and there is a payment by the hedge provider to the project or vice versa.
+AFTER:  Contrasts Backing up to see the big picture, the hedge provider is usually not taking physical delivery of any electricity. Most hedges are financial instruments. That said, we have seen a few heat rate call options involve physical delivery. Both products provide downside protection for project re…
+
+### e12 · `ref-fpml-heat-rate-option` · tier 3 · Daily Heat Rate Option confirmation example (FpML 5.6)
+locator: FpML 5.6 example, Settlement Date(s) · text copy line 69
+
+BEFORE: … Dates: 05 April, 2012, subject to adjustment in accordance with the Following Business Day Convention Procedure for Exercise Exercise Date(s): Each Applicable Day during the Option Term Automatic Exercise: Applicable Page 1 of 3 Cash Settlement Terms Cash Settlement: Applicable Settlement Date(s): 
+QUOTE: In respect of each calendar month the Option Seller shall pay the Net Cash Settlement Amount to the Option Buyer on the tenth (10th) Business Day following the end of the calendar month that includes the relevant Calculation Period(s)
+AFTER:  Calculation Periods: Each individual Applicable Day during the Option Term Settlement Period(s) Applicable Days: In respect of each Calculation Period each Monday to Saturday inclusive excluding North America Electric Reliability Council ("NERC") holidays Duration: Hourly Start Time: The hour endin…
+
 ### e13 · `ref-fields-tolling-slides` · tier 3 · Tolling Deals (lecture slides, Fields Institute) (2013-14)
 locator: Fields Institute lecture slides, 'Tolling Deals' (G. Swindle, 2013), slide 4, Basics of Tolling Deals: Deal Structure · text copy line 53
 
@@ -87,6 +101,20 @@ locator: Fields Institute lecture slides (2013), slide 11, Valuing Tolls: A Mont
 BEFORE: … business days in the Jul10 is 21. - So the total notional of this toll is 21 · 16 · 400 = 134, 400 MWh. The relevant forward prices are: - X0 ≡ FP (0, T ) = 69.650 - Y0 ≡ H∗ FG (0, T ) = 11.0 · 5.603 = 61.633 The discount factor is 0.999 . Note: The market heatrate is: H = 69.650 5.603 = 12.431. - 
 QUOTE: This is higher than the deal heatrate H∗ = 11.0 - The option is in-the-money.
 AFTER:  Vol Backwardation: We do not have a vol backwardation issue as the respective legs are expiring (by assumption) at their vanilla expiry. 11 / 73 Valuing Tolls-A Monthly Example Skew: What vols do we pick? There is ambiguity as the vol skews for each underlying are defined in terms of fixed strike o…
+
+### e15 · `ref-pillsbury-gas-hedges` · tier 3 · Financial hedges for US gas-fired power generation facilities
+locator: Pillsbury white paper (2017), Heat Rate Call Options, credit · text copy line 156
+
+BEFORE: …wn the plant during a day. If the net amount of the related option premium owed by the financial counterparty is greater than the aggregate cash settlement amount, the project receives a payment and realizes a gain. If the net amount is negative, the project must make a payment and realizes a loss. 
+QUOTE: Thus, because either party may owe a settlement payment, the HRCO is subject to two-way credit exposure, and each party may need to post collateral in favor of the other, depending on the mark-tomarket of the contract.
+AFTER:  Contracts for Differences Other types of hedges, such as a contract for differences, may be financially settled only, but are linked to the actual performance of the power generation facility and thus may reduce basis risk. For example, in a contract for differences, the project would sell energy i…
+
+### e16 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
+locator: Norton Rose Fulbright (2015), Contrasts (collateral) · text copy line 137
+
+BEFORE: …d, are another, smaller revenue stream that also is not protected under the hedge. The hedge provider does not look for much in the way of collateral from the project with a revenue put because there is no need to make significant ongoing payments to the hedge provider. Lenders like the simplicity. 
+QUOTE: With a heat rate call option, there are significant ongoing payments to be made by the project to the hedge provider, and those payments are typically made as an operating expense ahead of debt service. The hedge provider will require significant collateral to secure payment.
+AFTER:  During construction, there is usually a large letter of credit. Sometimes, the hedge provider gets first or second liens. There are inter-creditor issues to work out between the hedge provider and the term lenders. The complexity of the heat rate call option is one reason we do not see many of them…
 
 ### e17 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
 locator: Norton Rose Fulbright (2015), Contrasts (risks the hedge does not cover) · text copy line 133
@@ -102,6 +130,13 @@ BEFORE: … Last Trading Day The second to last business day of the month prior 
 QUOTE: Final settlement will be determined by multiplying the actual heat rate entered into at the time of the transaction by the NYMEX Last Day Settlement Price for the relevant delivery month.
 AFTER:  Payment Dates Payment due on the 20th of the month following the Delivery Period by wire transfer of Federal Funds, unless otherwise stated by a master agreement between the Buyer and Seller. ICE Help Desk: Atlanta + 1 770 738 2101, London + 44 (0)20 7488 5100 or ICEHelpdesk@ice.com…
 
+### e19 · `ref-ice-ercot-heat-rate` · tier 2 · ICE ERCOT Panhandle Heat Rate 345kV Hub Off-Peak contract specification
+locator: ICE OTC contract specification, ERCOT Panhandle Heat Rate 345kV Hub Off-Peak, Schedule · text copy line 30 · heading above: 0.001 per MMBTU/MWh
+
+BEFORE: …ICE OTC November 21, 2026 ERCOT Panhandle Heat Rate 345kV Hub Off-Peak Contract Specifications Contract Symbol B09 Contract Size 50 MW per hour Currency US $ and cents per MWH Minimum Price Fluctuation 0.001 per MMBTU/MWh Listing Cycle Up to 72 consecutive monthly Contract Periods Schedule 
+QUOTE: All off-peak hours for the applicable strip length referenced by the market for hours ending 0100-0600, 2300 and 2400 on business days and for hours ending 0100-2400 on weekends and NERC holidays
+AFTER:  in the central (""CPT"") prevailing time zone. Last Trading Day The second to last business day of the month prior to the delivery month. Daily Settlement Daily settlement will be determined by NGX using price data from a number of sources including, spot, forward and derivative markets for both ph…
+
 ### e20 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Chapter I, section 2, Implied Heat Rates, text after Figure 2 · text copy line 1504
 
@@ -109,12 +144,61 @@ BEFORE: …t years, the prevalence and impact of price spikes, shown in Figure 4
 QUOTE: The growth of zero marginal cost generation such as wind and solar has resulted in hundreds of hours with prices at or below $0 per MWh, which lowers the market's implied heat rate. Conversely, shortage pricing results in hundreds of hours per year with prices above the marginal cost of natural gas generators, which raises the market's implied heat rate.
 AFTER:  3. Prices by Time of Day While Figure 1 shows monthly variation in the all-in cost of energy, Figure 3 illustrates how real-time energy prices vary by time of day. Specifically, Figure 3 shows load-weighted 4 | 2025 State of the Market Report / / Review of Real-Time Market Outcomes settlement point…
 
+### e21 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Chapter I, section 4, Price Spike Impacts · text copy line 1563
+
+BEFORE: …tively priced offers for energy provided by ESRs. We go into more detail on this trend in Chapter II.E.4. 4. Price Spike Impacts Figure 4 shows the frequency of real-time energy price spikes in 2024 and 2025 to illustrate the effect of the highest-priced hours on the average real-time energy price. 
+QUOTE: For this analysis, price spikes are defined as 15-minute intervals when the load-weighted average energy price exceeds 18 million British thermal units (MMBtu) per MWh (i.e., an implied heat rate of 18) multiplied by the corresponding fuel index price (FIP)
+AFTER: , producing an energy price spike threshold in $ per 2025 State of the Market Report | 5 / / Review of Real-Time Market Outcomes MWh. Prices at this level typically exceed the marginal costs of virtually all on-line generators. The figure also shows the portion of the average hourly energy price att…
+
+### e22 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
+locator: Section 2.1, definition of Fuel Index Price (FIP) · text copy line 1103
+
+BEFORE: …cy Response includes, but may not be limited to, capacity from duct firing, auxiliary boilers, and other methods that do not immediately respond, arrest, or stabilize frequency excursions following a disturbance without secondary frequency response or instructions from ERCOT. Fuel Index Price (FIP) 
+QUOTE: The daily midpoint or average of the prices for natural gas fuel for the Katy area (Katy Hub), expressed in dollars per million British thermal units ($/MMBtu).
+AFTER:  ERCOT shall issue a Market Notice disclosing the name of the ERCOT-selected source for the average daily index prices used to calculate FIP. In the event that the ERCOT-selected source becomes unavailable, or ERCOT determines that the source has become unsuitable for the intended purpose, ERCOT may…
+
+### e23 · `ref-fields-tolling-slides` · tier 3 · Tolling Deals (lecture slides, Fields Institute) (2013-14)
+locator: Fields Institute lecture slides (2013), slide 9, Power Market Mechanics: Options, Daily Options · text copy line 206
+
+BEFORE: …eginning of the delivery month into either: - A physical forward with delivery during the contract month at a price that is the strike K ; - Cash settlement based on the value Fm (Te ) - K . - For example, the value of a call (in either case) is: d(0, T )Ẽ (max [Fm (Te ) - K , 0]). Daily Options: - 
+QUOTE: A set of daily options usually exercising one business day before delivery. - These are usually financial settling on the spread between spot price and the strike: F (t, t) - K where t indexes the delivery day.
+AFTER:  `P ́ - For example, the value of a call is: d(0, T )Ẽ t∈m max [F (t, t) - K , 0] . - The notation t ∈ m denotes the active delivery days in the option during month m. For peak (5x16) power options the sum would span the (roughly 20-22) business days in the particular month. 9 / 73 Valuing Tolls-A M…
+
 ### e24 · `ref-pillsbury-gas-hedges` · tier 3 · Financial hedges for US gas-fired power generation facilities
 locator: Pillsbury white paper (2017), Heat Rate Call Options, mechanics paragraph · text copy line 150
 
 BEFORE: …e payment of a cash settlement amount equal to the product of (a)(i) a variable price power index at a predetermined location minus (ii) an amount equal to a variable natural gas index multiplied by the specified heat rate conversion factors of the project and (b) a base notional quantity of power. 
 QUOTE: The counterparty may choose to exercise the option for some, but not all, of the hours in the day, and the cash settlement amount also accounts for assumed fixed and variable costs of starting up and shutting down the plant during a day.
 AFTER:  If the net amount of the related option premium owed by the financial counterparty is greater than the aggregate cash settlement amount, the project receives a payment and realizes a gain. If the net amount is negative, the project must make a payment and realizes a loss. Thus, because either party…
+
+### e25 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
+locator: Norton Rose Fulbright (2015), Heat Rate Call Options · text copy line 111
+
+BEFORE: …the plant in operation solely for purposes of the hedge. The decision whether actually to run the plant is made by the project owner, but for purposes of determining whether a hedge payment will made, it is the option of the hedge provider to "call the hypothetical plant" from one hour to the next. 
+QUOTE: If the hedge provider decides not to call the hypothetical plant, then there is no revenue for that hour for purposes of calculating the cash settlement amount. If the hedge provider decides to call the hypothetical plant for hedge calculation purposes, then the revenue for that hour may be positive or negative, depending on actual market prices and assumptions about the plant's heat rate and operating costs.
+AFTER:  The ultimate settlement amount will equal the option premium and will be paid to the project if the hedge provider elects not to call the hypothetical plant in any hour during the relevant settlement period. Doing so is in the hedge provider's interest if the spread between gas and electricity pric…
+
+### e26 · `ref-fpml-heat-rate-option` · tier 3 · Daily Heat Rate Option confirmation example (FpML 5.6)
+locator: FpML 5.6 example, header · text copy line 12
+
+BEFORE: …Daily Heat Rate Option Confirmation Date: To: From: April 10, 2012 Company A Company B Re: 
+QUOTE: Heat Rate Option Transaction - Cash Settled Supplements ISDA Master Agreement dated July 5, 2007.
+AFTER:  The definitions and provisions contained in 2005 ISDA Commodity Definitions are incorporated into this Confirmation. Transaction Reference Number: Trade Date: April 10, 2012 Option Buyer: Opton Seller: Company A Company B Option Type: Call Option Term: From and including 01 July, 2012 to and includ…
+
+### e27 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
+locator: Norton Rose Fulbright (2015), Documentation · text copy line 141
+
+BEFORE: …der gets first or second liens. There are inter-creditor issues to work out between the hedge provider and the term lenders. The complexity of the heat rate call option is one reason we do not see many of them in the bank market. Documentation MS. SZYMANSKI: Let's discuss how hedges are documented. 
+QUOTE: There are three main documents: an ISDA master agreement, which is a pre-printed form that comes in a 1992 and a 2002 version and that has the common terms that apply to all hedges, a schedule that has modifications that the parties have agreed to make to the terms of the master agreement and a confirmation that has the economic terms of the transaction that are specific to the deal.
+AFTER:  There are also standard ISDA definitions for transactions such as the 2006 ISDA definitions and the 2005 commodity derivatives definitions. For physically-settled power transactions, there is an ISDA North American power annex with additional definitions and provisions. In addition, either or both …
+
+### e28 · `ref-fpml-heat-rate-option` · tier 3 · Daily Heat Rate Option confirmation example (FpML 5.6)
+locator: FpML 5.6 example, Total Premium and Premium Payment Dates · text copy line 42
+
+BEFORE: …2 Option Buyer: Opton Seller: Company A Company B Option Type: Call Option Term: From and including 01 July, 2012 to and including 30 September, 2012 Commodity: Electricity Notional Quantity Per Settlement Period: 25.00 MW multiplied by the number of calendar days in the relevant Calculation Period 
+QUOTE: Total Premium: USD 342,000.00 Premium Payment Dates: 05 April, 2012
+AFTER: , subject to adjustment in accordance with the Following Business Day Convention Procedure for Exercise Exercise Date(s): Each Applicable Day during the Option Term Automatic Exercise: Applicable Page 1 of 3 Cash Settlement Terms Cash Settlement: Applicable Settlement Date(s): In respect of each cal…
 
 ### e29 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
 locator: Norton Rose Fulbright (2015), Heat Rate Call Options · text copy line 105
@@ -129,6 +213,34 @@ locator: Simon Fraser University MBA project (Powerex tolling), Chapter 5, optio
 BEFORE: …e time to expiry of the option; the risk-free rate of return; the strike price of the option (or in the case of a tolling agreement, the cost of making the exchange in terms of operating and maintenance or other charges); and the forward prices of the two assets at the time of expiry of the option. 
 QUOTE: Given a tolling agreement typically provides the purchaser with operating control on an hourly or daily basis, the complete tolling contract can be considered a strip of consecutive European spread options.
 AFTER:  Depending upon the dispatching time increment (hourly, daily, weekly, etc.) and the level of detail required in the analysis, a one month tolling contract could, for example, be analyzed as a consecutive strip of 30 1-day European spread options or 730 1-hour European spread options. The tolling co…
+
+### e31 · `ref-ice-ercot-heat-rate` · tier 2 · ICE ERCOT Panhandle Heat Rate 345kV Hub Off-Peak contract specification
+locator: ICE OTC contract specification, ERCOT Panhandle Heat Rate 345kV Hub Off-Peak, Contract Size and Minimum Price Fluctuation · text copy line 12
+
+BEFORE: …ICE OTC November 21, 2026 ERCOT Panhandle Heat Rate 345kV Hub Off-Peak Contract Specifications Contract Symbol B09 
+QUOTE: Contract Size 50 MW per hour Currency US $ and cents per MWH Minimum Price Fluctuation 0.001 per MMBTU/MWh
+AFTER:  Listing Cycle Up to 72 consecutive monthly Contract Periods Schedule All off-peak hours for the applicable strip length referenced by the market for hours ending 0100-0600, 2300 and 2400 on business days and for hours ending 0100-2400 on weekends and NERC holidays in the central (""CPT"") prevailin…
+
+### e33 · `ref-fpml-heat-rate-option` · tier 3 · Daily Heat Rate Option confirmation example (FpML 5.6)
+locator: FpML 5.6 example, Floating Price, Power Price · text copy line 114
+
+BEFORE: …tional Quantity x Strike Price Differential (each in respect of the relevant Settlement Period) The Cash Settlement Amounts for all the Calculation Periods during any calendar month, if any, shall be aggregated into a single net amount (the "Net Cash Settlement Amount") Floating Price Power Price: "
+QUOTE: ELECTRICITY-CAISO-SP 15 EZ GEN HUB-DAY AHEAD
+AFTER: " means that the price for a Pricing Date will be that day's Specified Price per MWh of electricity for delivery on the Delivery Date, which Specified Price will be the average of the hourly prices, stated in U.S. Dollars, published by the CAISO at http://oasis.caiso.com under the heading "Prices Re…
+
+### e34 · `ref-pillsbury-gas-hedges` · tier 3 · Financial hedges for US gas-fired power generation facilities
+locator: Pillsbury white paper (2017), Heat Rate Call Options, mechanics paragraph · text copy line 152
+
+BEFORE: …ors of the project and (b) a base notional quantity of power. The counterparty may choose to exercise the option for some, but not all, of the hours in the day, and the cash settlement amount also accounts for assumed fixed and variable costs of starting up and shutting down the plant during a day. 
+QUOTE: If the net amount of the related option premium owed by the financial counterparty is greater than the aggregate cash settlement amount, the project receives a payment and realizes a gain. If the net amount is negative, the project must make a payment and realizes a loss.
+AFTER:  Thus, because either party may owe a settlement payment, the HRCO is subject to two-way credit exposure, and each party may need to post collateral in favor of the other, depending on the mark-tomarket of the contract. Contracts for Differences Other types of hedges, such as a contract for differen…
+
+### e32 · `ref-fields-tolling-slides` · tier 3 · Tolling Deals (lecture slides, Fields Institute) (2013-14)
+locator: Fields Institute lecture slides (2013), slide 6, Linear Instruments: Heatrates · text copy line 106
+
+BEFORE: …73 Power Market Mechanics Linear Instruments: Heatrates The term "heatrate" refers to a ratio of power price to a natural gas price. - The ratio can pertain to market prices, either spot or forward ("market heatrates"). - It can also refer (as we'll see shortly) to engineering specs of a generator. 
+QUOTE: Power swaps often trade as heat-rates: - A power buy/sell is associated with a sell/buy of a specified volume of natural gas, both over the same delivery period.
+AFTER:  ) - The trade will be quoted in heatrate units: FFGP (t,T , where P and G (t,T ) denote power and gas respectively. 6 / 73 Power Market Mechanics Linear Instruments: Heatrates The following figure shows PJM forward prices and PJM/Henry Hub forward heatrates. - The seasonality in both arises from (w…
 
 ### e35 · `ref-deng-exotic-electricity-options` · tier 3 · Exotic electricity options and the valuation of electricity generation and transmission assets (Decision Support Systems 30) (retrieved 2026-11-22)
 locator: Deng, Johnson and Sogomonian, 'Exotic electricity options and the valuation of electricity generation and transmission assets', Decision Support Systems 30 (2001), section 2.1, Definition 1 (PDF text renders the opening parenthesis and quotation marks as odd characters) · text copy line 139
@@ -150,6 +262,20 @@ locator: Deng et al. (2001), section 2.1, example after Definition 2 · text cop
 BEFORE: …. Denote the value of the option at time t by P1Ž SEt , SGt , t .. Then the payoff of the option at time T is: P1 Ž S ET , SGT , K H , T . s max Ž K H SGT y S ET , 0 . Ž 3. The following example provides a simple illustration of how spark spread options can be used to manage electricity price risk. 
 QUOTE: A power marketer in a region where the marginal generating fuel is natural gas would like to buy power at time T at a market implied heat rate not to exceed K H .
 AFTER:  An agreement providing such a heat rate cap would ensure the marketer power at time T at a price given by SG = minŽ H, K H .. Assuming the marketer sells the power into the spot market at time T, his payoff will be Ž SET y SGT = minŽ H T, K H .., which is equal to SGT = maxŽ H T y K H , 0.. Bringin…
+
+### e43 · `ref-fields-tolling-slides` · tier 3 · Tolling Deals (lecture slides, Fields Institute) (2013-14)
+locator: Fields Institute lecture slides (2013), slide 3, Basics of Tolling Deals: Deal Structure, The Basic Structure (formula line) · text copy line 33
+
+BEFORE: …k Size Daily Tolls Hedging Frictions-Strips, Vega and Spurious Risks The Vol-Lookup Heuristic Modeling Alternatives Conclusion 2 / 73 Basics of Tolling Deals Deal Structure Tolling deal is a derivative rendition of a power generator. - Typically the fuel is natural gas. The Basic Structure: Ẽ " X # 
+QUOTE: d(0, t) max (FP (t, t) - H∗ FG (t, t) - V , 0)
+AFTER:  t where: - t denotes delivery day (this is discrete time). - FP denotes the forward (or spot) price of power for a particular delivery bucket (e.g. 5x16) and FG denotes the price of natural gas; both are typically at liquid pricing hubs. - H∗ is the heatrate (conversion rate between gas and power).…
+
+### e44 · `ref-fields-tolling-slides` · tier 3 · Tolling Deals (lecture slides, Fields Institute) (2013-14)
+locator: Fields Institute lecture slides (2013), slide 3, Basics of Tolling Deals: Deal Structure (definitions under the formula) · text copy line 39
+
+BEFORE: …natives Conclusion 2 / 73 Basics of Tolling Deals Deal Structure Tolling deal is a derivative rendition of a power generator. - Typically the fuel is natural gas. The Basic Structure: Ẽ " X # d(0, t) max (FP (t, t) - H∗ FG (t, t) - V , 0) t where: - t denotes delivery day (this is discrete time). - 
+QUOTE: FP denotes the forward (or spot) price of power for a particular delivery bucket (e.g. 5x16) and FG denotes the price of natural gas; both are typically at liquid pricing hubs. - H∗ is the heatrate (conversion rate between gas and power). - V is VOM (variable operation and maintenance).
+AFTER:  3 / 73 Basics of Tolling Deals Deal Structure The primary purpose of a toll is to annuitize the value of either a soon to be purchased asset or a soon to be built asset in order to facilitate borrowing. The typical structure is: - Daily day-ahead manual exercise into a standard power buckets. - Mon…
 
 ### e42 · `ref-deng-exotic-electricity-options` · tier 3 · Exotic electricity options and the valuation of electricity generation and transmission assets (Decision Support Systems 30) (retrieved 2026-11-22)
 locator: Deng et al. (2001), section 2.1, end of the power-marketer example · text copy line 179
@@ -190,18 +316,47 @@ AFTER:  A call with a strike price of $1100 on gold trading at $1150 is in-the-m
 
 - **Definition #1** (cites e2, e4, e5, e6, e35, e36): A heat rate call option is a call option on power whose strike is a gas price index multiplied by a fixed heat rate: when exercised, the holder is paid the power price minus heat rate times the gas price, times a notional quantity. [e2][e4][e5][e6] An academic paper (Deng et al.) defines the same structure as a spark spread call with a fixed strike heat rate: the right, not the obligation, to pay the strike heat rate times the fuel price and receive the price of one unit of electricity. [e35][e36]
 - **How it works #1** (cites e1, e4, e5, e36, e38, e14, e41): An option gives its holder the right, but not the obligation, to buy at a strike price, and the buyer pays a premium for it. [e1] In a heat rate call the strike is not a fixed dollar amount but "HR x Gas Index", so it moves with gas. [e4][e5] The holder gains when power is priced above the strike heat rate times gas, that is, when the market heat rate (the ratio of the power price to the gas price) is above the deal heat rate; an option with a positive value if exercised is called in the money. [e36][e38][e14][e41]
-- **How it works #2** (cites e2, e29, e39, e40, e8): In the project-finance version described by two law firms, a gas plant owner sells the option to a financial hedge provider. The project receives a fixed periodic amount (the option premium) and pays the hedge provider the excess of power over heat rate times gas, times a notional quantity, for the hours the provider calls. [e2][e29] That matches the CFTC's usage, in which the premium is the payment an option buyer makes to the option writer (also called the option seller). [e39][e40] There is no large upfront premium payment at closing, and payments can flow either way in a settlement period. [e8][e2]
+- **How it works #2** (cites e2, e29, e39, e40, e8): In the project-finance version described by two law firms, a gas plant owner sells the option to a financial hedge provider. The project receives a fixed periodic amount (the option premium) and pays the hedge provider the excess of power over heat rate times gas, times a notional quantity, for the hours the provider calls. [e2][e29] That matches the CFTC's usage, in which the premium is the payment an option buyer makes to the option writer (also called the option seller). [e39][e40] In this version, Norton Rose Fulbright says there is no big upfront payment at financial closing, and both law firms describe payments that can flow either way (the FpML example confirmation, by contrast, has a single total premium; see Key facts). [e8][e2]
 - **How it works #3** (cites e37, e42, e5, e7): The buyer is not always a hedge provider facing a generator. Deng et al. describe a power marketer that wants to buy power at a market implied heat rate no higher than a set level and does so by buying a spark spread call; in the project hedge the generator is the seller. [e37][e42][e5][e7]
-- **Formula #6** (cites e36, e5, e6): Because the holder only calls hours that pay, each hour behaves like max(power - heat rate x gas, 0). Deng et al. write the payoff of a spark spread call at maturity as max(electricity price - strike heat rate x fuel price, 0) per unit of electricity, which is the same expression term by term (Deng's is a single European option on spot prices; the project hedge applies it hour by hour and multiplies by the notional quantity). [e36][e5][e6]
-- **Formula #7** (cites e13, e36, e5, e24): Sources differ on operating costs. The Fields toll formula deducts VOM as well; Deng's payoff and Pillsbury's cash settlement amount have no VOM term, while Pillsbury says the cash settlement accounts for assumed fixed and variable start-up and shut-down costs. [e13][e36][e5][e24]
+- **How it works #4** (cites e7, e5, e24, e25, e23, e13): Exercise is daily and day-ahead. The hedge provider decides each day, hour by hour for the next day, whether to treat the hypothetical plant as running for hedge purposes; the owner still decides whether the real plant runs. [e7][e5] The provider can call some hours and not others, and the hourly amount reflects assumed plant costs: Pillsbury says the cash settlement accounts for assumed fixed and variable start-up and shut-down costs, and Norton Rose Fulbright says an hour's revenue depends on market prices and assumptions about the plant's heat rate and operating costs. [e24][e25] The Fields slides describe daily power options and tolls the same way: exercised one business day before delivery, settled financially, with monthly settlement. [e23][e13]
+- **How it works #5** (cites e11, e12): Settlement is monthly. The Norton Rose Fulbright article says HRCOs settle monthly, and the FpML example confirmation aggregates daily amounts into a monthly net cash settlement paid on the tenth business day after the month. [e11][e12]
+- **How it works #6** (cites e3, e17, e25): The payout is notional. It is calculated from published indices and assumptions about a hypothetical plant, not from the real plant's operations, so plant performance, outages and costs other than gas and power prices stay with the project. [e3][e17][e25]
+- **Formula #1** (cites e5, e6): For each hour h that the holder calls: payoff = notional MWh x (power index price - heat rate x gas index price). [e5][e6]
+- **Formula #2** (cites e5, e33): - Power index: a variable power price index at a predetermined location (the FpML example uses a CAISO SP15 generation hub day-ahead price). [e5][e33]
+- **Formula #3** (cites e5, e4): - Heat rate: the specified heat rate of the project (11.00 in the FpML example). [e5][e4]
+- **Formula #4** (cites e5, e4): - Gas index: a variable natural gas index price. [e5][e4]
+- **Formula #5** (cites e29, e34): - Monthly net settlement: in the project hedge, the option premium is compared with the sum of these cash settlement amounts to decide who pays. [e29][e34]
+- **Formula #6** (cites e36, e35, e7, e25): Deng et al. write the payoff of a single European spark spread call at maturity as max(electricity spot price - strike heat rate x fuel spot price, 0) per unit of electricity: the holder receives the spread only when it is positive. [e36][e35] The project hedge is not exactly this floored form: the provider elects day-ahead which hours to call, and Norton Rose Fulbright says that for a called hour the revenue may be positive or negative, depending on actual market prices and the assumptions about the plant's heat rate and operating costs. [e7][e25]
+- **Formula #7** (cites e43, e44, e36, e5, e24): Sources differ on operating costs. The Fields slides' toll formula (a toll, not an HRCO) deducts VOM (V) inside the max as well; Deng's payoff and Pillsbury's cash settlement formula have no VOM term, though Pillsbury says the cash settlement amount also accounts for assumed fixed and variable start-up and shut-down costs. [e43][e44][e36][e5][e24]
+- **ERCOT context #1** (cites e22, e5): ERCOT's own gas reference, the Fuel Index Price, is the daily Katy Hub price in $/MMBtu; an ERCOT heat rate strike may use another index, so check the confirmation. [e22][e5]
+- **ERCOT context #2** (cites e18, e32, e19, e31) FLAG number-not-in-quote: 345kV: The saved ICE specification for an ERCOT heat rate product is a linear contract, not an option: the ERCOT Panhandle 345kV Hub off-peak heat rate contract is traded as a heat rate and settles at that heat rate times the NYMEX last-day gas settlement price. [e18][e32] It covers off-peak hours ending 0100-0600, 2300 and 2400 on business days and all hours on weekends and NERC holidays, with a 50 MW per hour contract size and a price increment of 0.001 MMBtu/MWh. [e19][e31]
+- **ERCOT context #3** (cites e20, e21) FLAG number-not-in-quote: 2025: The IMM's 2025 real-time figures bear on when a call at a gas-plant heat rate pays (this is reasoning from IMM data; the IMM does not discuss heat rate options): shortage pricing produces hundreds of hours a year above gas plants' marginal cost, when such a call is in the money, while wind and solar create hundreds of hours at or below $0 per MWh, when it pays nothing. [e20] For its price-spike analysis, the IMM defines a price spike as an interval when the energy price exceeds an implied heat rate of 18 times the FIP. [e21]
+- **Key facts #1** (cites e2, e8): - The project receives a fixed periodic option premium, not an upfront payment; payments can go either way. [e2][e8]
+- **Key facts #2** (cites e7, e5): - The hedge provider elects day-ahead which hours to call. [e7][e5]
 - **Key facts #3** (cites e4, e35): - The strike is a fixed heat rate times a fuel price (11.00 times the gas index in the FpML example; K_H times the fuel price in Deng et al.). [e4][e35]
+- **Key facts #4** (cites e11, e12): - Monthly settlement. [e11][e12]
+- **Key facts #5** (cites e15, e16): - Two-way credit exposure; each side may post collateral, and the hedge provider typically requires significant collateral from the project. [e15][e16]
+- **Key facts #6** (cites e9, e10): - The upside from wide spreads goes to the hedge provider. [e9][e10]
+- **Key facts #7** (cites e31, e18): - ICE ERCOT Panhandle heat rate off-peak: 50 MW per hour; settles at heat rate times NYMEX last-day settlement. [e31][e18]
+- **Key facts #8** (cites e27, e26): - Documentation: hedges use an ISDA master agreement, a schedule and a confirmation; the FpML example is a confirmation supplementing an ISDA Master Agreement. [e27][e26]
+- **Key facts #9** (cites e2, e29, e28): - Premium timing differs between sources: the law firms describe a fixed periodic premium to the project, while the FpML example confirmation shows one total premium of USD 342,000 on a single payment date. [e2][e29][e28]
+- **Common confusion #2** (cites e9, e10): (Guidance) HRCO versus revenue put: both protect a project's downside. In a revenue put the project pays a premium up front and keeps the upside; in an HRCO it receives a fixed premium and gives up the upside. [e9][e10]
+- **Common confusion #3** (cites e18, e19, e1): (Guidance) HRCO versus heat rate future or swap: the ICE ERCOT contract is linear: it applies the traded heat rate to every scheduled off-peak hour and settles at that heat rate times the NYMEX gas price for the month, while an option pays only when exercised. [e18][e19][e1]
+- **Common confusion #4** (cites e17): (Guidance) The heat rate in the hedge is assumed: if the real plant is less efficient, the shortfall is the project's. [e17]
 - **Questions #2** (cites e7, e5, e2, e39): The hedge provider holds it and calls the hypothetical plant day-ahead, hour by hour. The project owner decides whether the real plant runs. [e7][e5] The project, as writer, is the one paid the premium. [e2][e39]
 - **Questions #4** (cites e37, e42): Deng et al. give the example of a power marketer that buys a spark spread call to cap the heat rate at which it buys power. [e37][e42] This is one paper's illustration; no saved source says how common such buyers are.
+- **Questions #6** (cites e16, e10): With an HRCO the project may owe significant ongoing payments, made ahead of debt service, and the provider requires significant collateral; the revenue put has a one-off upfront premium and the upside stays with the project. [e16][e10]
+- **Questions #8** (cites e3, e17): The payout is notional and still owed; plant outages are the project's risk, so it must pay without the matching power revenue. [e3][e17]
 - **Questions #10** (cites e38, e14, e36, e41): Compare the market heat rate (power divided by gas) with the strike heat rate; above it, the call has a positive value if exercised, that is, it is in the money. [e38][e14][e36][e41]
+- **Questions #12** (cites e20): The IMM says shortage pricing gives hundreds of hours a year above gas plants' marginal cost; those are hours when a call struck at a gas-plant heat rate is in the money, while hours at or below $0 pay nothing (reasoning from the IMM figures). [e20]
+- **Scenarios #2** (cites e17): - The heat rate versus the plant's real efficiency, since any shortfall stays with the project. [e17]
+- **Scenarios #3** (cites e5, e3): - The power and gas indices and locations, because the payout is notional on indices. [e5][e3]
+- **Scenarios #4** (cites e15, e16): - The collateral and payment priority, given two-way credit exposure. [e15][e16]
+- **Scenarios #5** (cites e10, e20): - That the upside in ERCOT shortage hours goes to the provider. [e10][e20]
 - **Link to spark-spread** (cites e9, e10): hedges Spark Spread: An HRCO protects a gas project against tightening spark spreads, paid for by giving up the upside from widening spreads. [e9][e10]
 - **Link to heat-rate** (cites e4, e5): prerequisite-of Heat Rate: The strike of a heat rate option is a fixed heat rate multiplied by a gas index. [e4][e5]
 - **Link to implied-heat-rate** (cites e14): related Implied Market Heat Rate: The option is in the money when the market heat rate is above the deal heat rate. [e14]
-- **Link to tolling-agreement** (cites e13, e30): related Tolling Agreement: The Fields Institute slides model a toll as a sum of daily payoffs of power minus heat rate times gas minus VOM, floored at zero; the SFU thesis likewise treats a toll as a strip of spread options. [e13][e30]
+- **Link to tolling-agreement** (cites e43, e44, e30): related Tolling Agreement: The Fields Institute slides model a toll as a sum of daily payoffs of power minus heat rate times gas minus VOM, floored at zero; the SFU thesis likewise treats a toll as a strip of spread options. [e43][e44][e30]
 - **Link to natural-gas-price** (cites e5, e6): prerequisite-of Natural Gas Prices (Henry Hub): The strike floats with a published natural gas index. [e5][e6]
 - **Link to basis-risk** (cites e3, e17): related Basis Risk: HRCO payouts are notional and settle on published indices, not on the plant's actual operations or results. [e3][e17]
 - **Link to ordc** (cites e20): related ORDC (Operating Reserve Demand Curve): The IMM says shortage pricing produces hundreds of hours a year above gas plants' marginal cost; reasoning from that (the IMM does not discuss options), those are hours when a call struck at a gas-plant heat rate would be in the money. [e20]
@@ -209,7 +364,7 @@ AFTER:  A call with a strike price of $1100 on gold trading at $1150 is in-the-m
 
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
-- (Example) Suppose (illustrative, made-up numbers) a project sells a 100 MW heat rate call at 7.0 on North Hub versus a gas index of $3.00, so the strike is $21/MWh. In an hour the hub price is $200, so the provider calls and the project owes 100 x (200 - 21) = $17,900 for that hour, which it covers from its own power sales if the plant actually ran. In an hour at $15, the provider does not call and nothing is owed. Over the month, the project nets these amounts against the fixed option premium it receives.
-- (Say it like this) (Guidance) "A heat rate call pays the holder power minus heat rate times gas whenever that is positive. A generator sells one to lock in a fixed premium for its spark spread, and gives the upside in scarcity hours to the buyer."
+- (Example) Suppose (illustrative, made-up numbers) a project sells a 100 MW heat rate call at 7.0 on North Hub versus a gas index of $3.00, so the strike is $21/MWh. In an hour the provider called day-ahead, the hub price is $200, so the project owes 100 x (200 - 21) = $17,900 for that hour, which it covers from its own power sales if the plant actually ran. In an hour the provider did not call (it expected about $15), nothing is owed. Over the month, the project nets these amounts against the fixed option premium it receives.
+- (Say it like this) (Guidance) "A heat rate call pays the holder power minus heat rate times gas for the hours it exercises. A generator sells one to lock in a fixed premium for its spark spread, and gives the upside in scarcity hours to the buyer."
 - (Common confusion) (Guidance) Heat rate call option is general industry usage; it is not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here.
 

@@ -1,16 +1,16 @@
 # Audit report and what needs your decision
 
-Updated 2026-11-21, after the deeper pass and its audit. Full detail: `audit-log/` (one log per audit batch, with
+Updated 2026-11-22, after the deeper pass, its audit, and the strengthening of the nine industry topics. Full detail: `audit-log/` (one log per audit batch, with
 every change), `audit/SUMMARY.md` (mechanical flags), `REVIEW.md` (every open item by topic).
 
 ## State of the knowledge base
 
 - 153 topics, all written and all taken through the deeper pass. None is missing.
-- 6,734 source quotes, each found word for word in a saved document (checked by program, 0 failures).
+- 6,970 source quotes, each found word for word in a saved document (checked by program, 0 failures).
   Before the deeper pass there were 2,095.
-- 294 source documents saved.
-- Quotes by source tier: 3,866 from rules, statutes, orders and court opinions; 2,686 from official reports;
-  182 from industry reference material (almost all in the nine industry-reference topics, see below).
+- 328 source documents saved.
+- Quotes by source tier: 3,868 from rules, statutes, orders and court opinions; 2,744 from official reports;
+  358 from industry reference material (almost all in the nine industry-reference topics, see below).
 
 ## What the audit of the deeper pass did and found
 
@@ -24,7 +24,7 @@ term, and fixed what was wrong. Logged counts, before the fixes:
 | Single-source topics, sample | Sonnet | 20 | 822 | 666 | 39 (5.9%) |
 | Single-source topics, must-know | Sonnet | 42 | 1,465 | 1,467 | 204 (13.9%) |
 | Single-source topics, other | Sonnet | 37 | 1,524 | 1,289 | 200 (15.5%) |
-| Nine industry-reference topics | Opus | 9 | (see below) | 354 | 29 (8.2%) |
+| Nine industry-reference topics, first audit | Opus | 9 | (see below) | 354 | 29 (8.2%) |
 | All | | 153 | | 5,615 | 598 (10.7%) |
 
 - All 598 wrong statements were fixed, mostly by narrowing the sentence to what the quote says or by adding the
@@ -91,11 +91,38 @@ Basis risk; spark spread; forward curve; heat-rate call option; tolling agreemen
 risk; volumetric risk; asset optimization. Written from industry reference sources under the rule you approved:
 each factual statement needs two independent publishers or one official source, enforced by the program.
 
-- Audit result: 354 statements, 29 wrong, and 59 places where the two cited sources did not actually both
-  support the sentence. All fixed, by narrowing or by attributing the claim to the one source that makes it.
-- Limits that remain: Norton Rose Fulbright is the only source for most hub-settlement and fixed-volume PPA
-  mechanics, so those are attributed to it and not presented as cross-checked. Asset optimization has no
-  agreed definition in the sources; the topic is an attributed description, and is the weakest of the nine.
+**Strengthened on 2026-11-22.** 34 more documents were saved to give second publishers and official
+definitions, the nine topics were reworked from them, and the changes were audited.
+
+- New official sources: CFTC glossary and swap-definition rule, EIA (dark spread, gas basis), a Lawrence
+  Berkeley study of hub-to-node basis in ERCOT, SPP and MISO, Oak Ridge/DOE contracting guides, and the FERC
+  Energy Primer and EPA guides already saved.
+- New industry sources: Akin Gump, Stoel Rives, Troutman Pepper, Resources for the Future, LevelTen, Pexapark,
+  ReSurety, Modo Energy, CRA, Penn State course text, Nodal Exchange contract specifications, PacifiCorp and
+  Entergy tolling contract forms, an academic paper on spark-spread options, and the Vistra and NRG annual
+  reports (classed as industry reference, since each company describes itself).
+- **PPA mechanics no longer rest on one law firm.** The settlement formula, hub versus node settlement and who
+  carries basis, negative-price clauses, fixed-volume shortfalls, hub buy-back and proxy generation each have
+  two or more independent publishers.
+- **Asset optimization** is rebuilt around the Vistra and NRG annual reports and the FERC primer, with battery
+  contract structures (toll, floor plus revenue share, third-party optimizer) each supported by two publishers.
+  No source defines the term; the topic describes the function and says so.
+- **Spark spread, basis and forward curve** now lead with the CFTC's definitions. Where sources differ the
+  topic says so (for example the heat rate assumed in a spark spread: EIA 7,000 Btu/kWh, Penn State's example
+  10,000).
+- Audit of the changes (logs `audit-log/J1.md` to `J3.md`): 272 new or changed statements, 27 wrong before the
+  fix (9.9%), and 57 places where the two cited sources did not both carry the claim or were not independent.
+  All fixed. Examples: a heat-rate call option described as never losing money in a called hour; battery tolls
+  described as always operated by the offtaker; a law firm's illustration presented as a real case; an Oak
+  Ridge slide adapted from LevelTen counted as a second voice.
+
+Limits that remain (each is labelled in the topic):
+- Still Norton Rose Fulbright only: the share of ERCOT hedges that are fixed-volume, most ERCOT hedges being
+  physical, daily settlement of fixed-volume purchases, and the post-Uri capped damages calculation.
+- "Capture price" and clean spark/dark spreads have no defining source and are not defined.
+- Names and fee levels of ERCOT battery optimizers: one source (Modo) or none.
+- The shape of the ERCOT forward curve and the liquid tenor of power forwards: unsourced or one source.
+- CME's education pages and contract specifications refused the download, so nothing from CME is used.
 
 ## Resolved since the last version of this page
 
@@ -110,8 +137,8 @@ each factual statement needs two independent publishers or one official source, 
 
 ## Needs your decision
 
-1. **Whether to add a trusted desk manual or textbook** to strengthen the nine industry-reference topics. Without
-   one, several mechanics rest on a single law-firm publication.
+1. **A paid textbook, if you have one.** The free desk references are now in. A standard paid text (or CME
+   material you can download yourself) could still close the remaining single-source points above.
 2. **Whether to start the app (Phase 2).** Not started; waiting for your go-ahead.
 3. **Whether you want a person's spot check.** Everything so far was written and checked by AI. Reading ten topics
    you know well against their quotes would tell you more about real accuracy than another AI pass.

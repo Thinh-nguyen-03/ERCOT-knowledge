@@ -130,6 +130,27 @@ BEFORE: … PRRM. The sub-model uses net load "look-ahead" functionality to buil
 QUOTE: The daily scheduling period for non-winter months is all 24 hours, while the winter months have two daily scheduling periods, hours 1-10 and 11-24, reflecting bimodal morning and evening high net load periods, respectively.
 AFTER:  The sub-model then determines the fleet's operational state for each hour. The four operational states are charge, discharge, top-off, and idle. (The top-off state reflects an extra charging window just before the peak load for hours that aren't already charging. It's purpose is to ensure that the …
 
+### e19 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Background tab, Probabilistic Modeling, Monthly Peak Load risk variable · text copy line 16332
+
+BEFORE: …ty Available for Operating Reserves (CAFOR). The model incorporates hourly risk variables, which are the load and resource-specific capacity amounts expressed as hourly or daily probability distributions based on historical data and forecast assumptions. The risk variables comprise the following: ● 
+QUOTE: Monthly Peak Load - The Peak load variable is negatively correlated with a system-average temperature probability distribution. (For the winter months, the lower the temperature selected by the model for a simulation, the higher the peak load selected.)
+AFTER:  The model also uses multiple normalized hourly load shapes to simulate loads for the hourly range; load shapes reflect actual hourly loads for historical monthly peak load days. ● Wind Production - Hourly probability distributions are fitted to hourly synthetic production profiles. Profiles are dev…
+
+### e20 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Background tab, Probabilistic Modeling, Wind Production risk variable · text copy line 16337
+
+BEFORE: …les are developed for each operational and planned wind site with wind output values aggregated to system values. The profiles reflect weather-year variability back to 1980. Temporal correlations between hourly probability distributions are applied to simulate hourly wind speed persistence effects. 
+QUOTE: Note that synthetic wind profiles do not reflect actual observed generation. They are based on meteorological and power conversion models that together simulate what wind production would be for existing and planned sites at the start of the month based on historical hourly weather patterns.
+AFTER:  ● Solar Production - Hourly probability distributions are fitted to hourly synthetic production profiles lust like wind. Temporal correlations between hourly probability distributions are applied to simulate hourly solar irradiance persistence effects. Note that synthetic solar profiles do not refl…
+
+### e21 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Background tab, Probabilistic Modeling, Weather-related Outage Reduction Success Rate due to Weatherization · text copy line 16362
+
+BEFORE: …A resource in the model. ● Weather-related Outage Reduction Success Rate due to Weatherization - The model uses a piecewise function that varies the success rate (percentage reduction in weather-related thermal outages) based on values sampled from a low winter temperature probability distribution. 
+QUOTE: For selected ("sampled") temperatures greater than five degrees °F above the weatherization standard's compliance temperature threshold, the success rate is fixed at 85%.
+AFTER:  This temperature threshold is the average compliance wind chill temperatures for the North Central, East, Coast, and South Central Weatherization Zones. For sampled low temperatures between the 5th percentile historical value and 1st percentile historical value, the success rate is pulled from a pr…
+
 ### e22 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
 locator: Risk Outlook Highlights, January 2027 · text copy line 81
 
@@ -144,12 +165,47 @@ BEFORE: …serves (CAFOR) The table below provides hour-by-hour probabilities th
 QUOTE: As a guideline to interpret these probabilities, ERCOT considers an EEA probability at or below 10% to indicate that the reserve adequacy risk is low for the monthly peak load day. An EEA probability above 10% indicates an elevated reserve adequacy risk.
 AFTER:  Note that this probability forecast is not intended to predict specific capacity reserve outcomes. The CAFOR definition is provided at the top of the Background tab. Chance of Normal System Conditions Hour Ending (CST) 1 a.m. 2 a.m. 3 a.m. 4 a.m. 5 a.m. 6 a.m. 7 a.m. 8 a.m. 9 a.m. 10 a.m. 11 a.m. 1…
 
+### e24 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Risk Outlook Highlights, January 2027 · text copy line 101
+
+BEFORE: …s is the need to rely on price responsive demand in certain low generation situations. ● Under typical grid conditions, the deterministic scenario indicates that there should be sufficient generating capacity available for the hour with the highest reserve shortage risk, Hour Ending 8:00 a.m., CST. 
+QUOTE: The deterministic load forecast value for this hour is 78,912 MW, reflecting the 50th percentile for the MORA forecast. This MORA deterministic scenario assumes a total thermal outage amount (planned plus unplanned) of 8,105 MW during normal grid conditions.
+AFTER:  ● The monthly capacity reserve margin for the deterministic scenario, expressed as a percentage, is 44.9% for the highest risk hour, Hour Ending 8:00 a.m. Reserve Margin formula: ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100 ● The ratio of installed dispatchable to total capac…
+
+### e25 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Monthly Outlook, Deterministic results table (January 2027, HE 8:00 a.m.) · text copy line 256
+
+BEFORE: ….00% 0.00% 0.02% 0.07% 0.15% 0.38% 0.81% 1.03% 0.37% Storm & Low Wind/BESS BESS Risk Profiles Deterministic results based on normal system conditions for the hour with highest risk of reserve shortages Hour with the Highest Reserve Shortage Risk (Hour Ending 8:00 a.m., CST) Loads and Resources (MW) 
+QUOTE: Load Based on Average Weather [1] 78,912 Generation Resource Stack Dispatchable [2] 88,322 Thermal, excluding RMR and other Emergency Generation Agreements 74,616 Energy Storage [3] 13,275 Hydro 431 Expected Thermal Outages 8,105 Planned 417 Unplanned 7,688
+AFTER:  80,217 Total Available Dispatchable Non-Dispatchable [4] Wind 16,151 Solar 28 16,179 Total Available Non-Dispatchable Non-Synchronous Ties, Net Imports 720 Total Available Resources (Normal Conditions) 97,116 Emergency Resources Available prior to an Energy Emergency Alert [5] Emergency Response Se…
+
+### e26 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Monthly Outlook, Deterministic results table (January 2027, HE 8:00 a.m.) · text copy line 306
+
+BEFORE: …and other Emergency Generation Agreements 74,616 Energy Storage [3] 13,275 Hydro 431 Expected Thermal Outages 8,105 Planned 417 Unplanned 7,688 80,217 Total Available Dispatchable Non-Dispatchable [4] Wind 16,151 Solar 28 16,179 Total Available Non-Dispatchable Non-Synchronous Ties, Net Imports 720 
+QUOTE: Total Available Resources (Normal Conditions) 97,116 Emergency Resources Available prior to an Energy Emergency Alert [5] Emergency Response Service 2,401 Distribution Voltage Reduction 1,279 Total Available prior to an Energy Emergency Alert 3,680
+AFTER:  Available during an Energy Emergency Alert 1,393 LRs providing Responsive Reserves LRs providing Non-spin 81 LRs providing ECRS 306 TDSP Load Management Programs RMR and Other Resource Agreement Capacity Units 75 744 Total Available during an Energy Emergency Alert 2,599 Total Emergency Resources 6…
+
 ### e27 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
 locator: Monthly Outlook, Deterministic results table (January 2027, HE 8:00 a.m.) · text copy line 346
 
 BEFORE: …nergy Emergency Alert 3,680 Available during an Energy Emergency Alert 1,393 LRs providing Responsive Reserves LRs providing Non-spin 81 LRs providing ECRS 306 TDSP Load Management Programs RMR and Other Resource Agreement Capacity Units 75 744 Total Available during an Energy Emergency Alert 2,599 
 QUOTE: Total Emergency Resources 6,279 Capacity Available for Operating Reserves, Normal Conditions 21,884 Capacity Available for Operating Reserves, Emergency Conditions 24,483 Less than 2,500 MW indicates risk of EEA Level 1 Less than 1,500 MW indicates risk of EEA Level 3 Load Shed
 AFTER:  [1] The Hour Ending 8:00 a.m. load value comes from ERCOT's monthly load forecast. The load assumes average weather conditions for the reporting month and includes new Large Loads expected to be energized by the forecast month. [2] Dispatchable resources comprise nuclear, coal, gas, biomass and ene…
+
+### e28 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Monthly Outlook, Deterministic results table, footnote [5] · text copy line 368
+
+BEFORE: …3] See the Background tab for a description of battery storage system capacity contribution modeling. [4] Wind and solar values for Hour Ending 8:00 a.m. represent the 50th percentile values from hourly synthetic generation profiles used in the PRRM. See the Background tab for more information. [5] 
+QUOTE: Although crypto-mining load may self-curtail beyond forecasted levels in response to an imminent energy emergency, such load reduction is not dispatchable or controllable, and is therefore not considered an emergency resource for this scenario.
+AFTER:  Notable Load and Resource Developments Changes in Current Resources for January ERCOT expects new installed winter-rated capacity to increase by 1,178 MW since the December MORA was prepared. Solar increased by 325 MW, energy storage increased by 807 MW, gas increased by 46 MW, and wind remained un…
+
+### e29 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
+locator: Risk Outlook Highlights, January 2027 · text copy line 94
+
+BEFORE: …sed on static State of Charge (SoC) trends for a small sample of historical monthly peak load days. As a result, the EEA risk is slightly lower compared to PRRM simulations without the new sub-model with all else held constant. Background on the new BESS sub-model is included in the Background tab. 
+QUOTE: While the model accounts for the risk of coastal wind curtailment needed to avoid overloads on lines that make up the South Texas export interface, it does not capture the risk of emergency conditions due to transmission constraints impacting imports into Far West Texas.
+AFTER:  Expected impacts of these transmission constraints is the need to rely on price responsive demand in certain low generation situations. ● Under typical grid conditions, the deterministic scenario indicates that there should be sufficient generating capacity available for the hour with the highest r…
 
 ### e30 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
 locator: Storm & Low Wind-BESS Risk, Risk Profile for Combined Low Wind and Limited BESS Availability · text copy line 402
@@ -165,20 +221,40 @@ BEFORE: …T TO THE ACCURACY OF SAME OR THE FITNESS OR APPROPRIATENESS OF SAME F
 QUOTE: Note that resource data is based on a mid-month Resource Integration and Ongoing Operations (RIOO) system snapshot.
 AFTER:  Resource quantities can differ from monthly reports prepared subsequent to the MORA report, such as the Generator Interconnection Status (GIS) report, which is released at the beginning of the subsequent month. MORA Release Schedule MORA releases are targeted for the first Friday of each month, or …
 
+### e32 · `puct-25-505` · tier 1 · PUCT Substantive Rule 16 TAC §25.505, Resource Adequacy Reporting Requirements in the ERCOT Power Region
+locator: 16 TAC §25.505(b), Resource adequacy reports · text copy line 28
+
+BEFORE: …dequacy reports. ERCOT must publish a resource adequacy report by December 31 of each year that projects, for at least the next five years, the capability of existing and planned electric generation resources and load resources to reliably meet the projected system demand in the ERCOT power region. 
+QUOTE: ERCOT may publish other resource adequacy reports or forecasts as it deems appropriate.
+AFTER:  ERCOT must prescribe requirements for generation entities and transmission service providers (TSPs) to report their plans for adding new facilities, upgrading existing facilities, and mothballing or retiring existing facilities. ERCOT also must prescribe requirements for load entities to report the…
+
 ## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e2, e3): The MORA, or Monthly Outlook for Resource Adequacy, is an ERCOT report that evaluates resource adequacy for the upcoming assessment month. It does so in two ways: a probabilistic estimate of the risk of emergency conditions on the monthly peak load day, and a deterministic scenario for typical grid conditions. [e2][e3]
 - **How it works #1** (cites e1, e31, e2, e6): ERCOT targets MORA releases for the first Friday of each month (or the next business day if the Friday is a holiday), and each MORA is released two months before its reporting month. [e1] ERCOT may post revised versions if material data errors are found, and resource data come from a mid-month RIOO snapshot. [e1][e31] The probabilistic side gives the chances, across a range of hours, that ERCOT may need to issue an Energy Emergency Alert or begin controlled outages. [e2] ERCOT runs its Probabilistic Reserve Risk Model, a Monte Carlo model, to generate 10,000 outcomes for Capacity Available for Operating Reserves (CAFOR). [e6]
 - **Formula #1** (cites e8, e5, e27, e12, e13): The CAFOR formula is the monthly maximum expected resource generation capability, minus demand, minus thermal outages, plus Pre-EEA Resources if CAFOR is below 3,000 MW, plus EEA Resources if CAFOR is below 2,500 MW. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] The MORA's deterministic results table reads a CAFOR below 2,500 MW as a risk of EEA Level 1 and below 1,500 MW as a risk of EEA Level 3 load shed. [e27] The Protocols declare Level 1 when PRC falls below 2,500 MW and is not projected to recover above 2,500 MW within 30 minutes without the prescribed Level 1 actions, and Level 3 when PRC cannot be maintained above 1,500 MW (or on frequency criteria). [e12][e13]
 - **Formula #2** (cites e5, e14): The MORA says why it uses proxies: PRC is a real-time capability measure for Resources that can respond quickly, and ERCOT believes the 2,500 and 1,500 MW CAFOR levels are appropriate indicators of emergency risk given the uncertainty of predicting conditions months ahead. [e5] The Protocol defines PRC as a representation of the total amount of frequency responsive Resource capability On-Line in Real-Time. [e14]
+- **Formula #3** (cites e7): For the deterministic scenario, the report states its monthly capacity reserve margin as ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100. [e7]
+- **Formula #4** (cites e19, e20, e15, e21): The PRRM uses probability distributions for its risk variables. The MORA lists, among them: monthly peak load, negatively correlated with temperature so colder winter draws give higher peaks [e19]; wind production from synthetic profiles, which do not reflect actual observed generation [e20]; and, for winter, extreme-weather thermal outages scaled up to the maximum observed during Winter Storm Uri, with an FFSS outage reduction. [e15] A weatherization success rate is fixed at 85% for sampled temperatures more than five degrees F above the weatherization standard's compliance temperature threshold. [e21]
+- **Formula #5** (cites e16, e17): Winter price-responsive demand reduction is triggered when a simulation outcome has a severe winter storm (at least as severe as Winter Storm Elliott) or extremely high net loads. [e16] The Large Flexible Load pattern indicates a reduction to 50% over the coincident peak hours for June through September and to 15% over the net-load peak hours for those months. [e17]
+- **Formula #6** (cites e10, e18) FLAG number-not-in-quote: 2027: The BESS sub-model (new in the January 2027 MORA) schedules the battery fleet from the net load forecast; non-winter months use one 24-hour scheduling period and winter months use hours 1-10 and 11-24 for the morning and evening peaks. [e10][e18]
 - **ERCOT context #1** (cites e4, e23, e22, e30) FLAG number-not-in-quote: 2027: In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST, at a 3.20% probability that ERCOT would need to declare an EEA. [e4] ERCOT treats an EEA probability at or below 10% as low reserve adequacy risk for the monthly peak load day, and the January figures are well below the 10% mark. [e23][e22] The report cites wind variability as the greatest EEA risk factor in January, with low battery state of charge a substantial one. [e30]
+- **ERCOT context #2** (cites e24, e25, e26, e27, e7) FLAG number-not-in-quote: 2027, 417 MW: Deterministic scenario, January 2027, HE 8:00 a.m.: load 78,912 MW (50th percentile) and expected thermal outages of 8,105 MW (417 MW planned, 7,688 MW unplanned). [e24][e25] Dispatchable resources are 88,322 MW, of which energy storage is 13,275 MW. [e25] Total available resources under normal conditions are 97,116 MW; emergency resources available before an EEA are 3,680 MW (ERS 2,401 MW, distribution voltage reduction 1,279 MW). [e26] Total emergency resources are 6,279 MW, and CAFOR is 21,884 MW under normal and 24,483 MW under emergency conditions. [e27] The reserve margin is 44.9%. [e7]
+- **ERCOT context #3** (cites e28, e29): Crypto-mining self-curtailment is not counted as an emergency resource in the scenario because it is not dispatchable or controllable. [e28] The model does not capture emergency risk from transmission constraints limiting imports into Far West Texas. [e29]
 - **Key facts #2** (cites e2, e3): - Two approaches: probabilistic EEA and controlled-outage risk, plus a deterministic typical-conditions scenario. [e2][e3]
 - **Key facts #3** (cites e5): - CAFOR thresholds: 2,500 MW for EEA risk and 1,500 MW for controlled outage risk. [e5]
 - **Key facts #4** (cites e6): - Model: PRRM, with 10,000 Monte Carlo outcomes. [e6]
+- **Key facts #5** (cites e32) FLAG number-not-in-quote: 25.505: - 16 TAC 25.505(b) says ERCOT may publish other resource adequacy reports or forecasts as it deems appropriate; the rule does not name the MORA. [e32]
+- **Key facts #6** (cites e23): - 10% EEA probability is ERCOT's guideline line between low and elevated risk for the peak day. [e23]
 - **Key facts #7** (cites e4, e7) FLAG number-not-in-quote: 2027: - January 2027 MORA: highest EEA risk hour is HE 8:00 a.m. CST at 3.20%; deterministic reserve margin 44.9%. [e4][e7]
 - **Common confusion #1** (cites e9, e5, e11): (Guidance) The MORA's probability is not a prediction of a specific outcome. [e9] Also, the MORA's CAFOR thresholds are intended as proxies for the PRC thresholds, not the same measure. [e5] The MORA is also not the CDR: the CDR gives a deterministic view of future resource adequacy with alternative load and planned resource scenarios. [e11]
+- **Common confusion #2** (cites e7): (Guidance) The MORA reserve margin (44.9%) is computed with the report's own stated formula, which nets emergency resources out of peak demand; do not assume it equals a reserve margin computed another way. [e7]
 - **Questions #4** (cites e5): They indicate the risk that an EEA and controlled outages may be triggered, and they are proxies for the PRC thresholds of the same sizes. [e5]
+- **Questions #6** (cites e12, e13): PRC is a real-time capability measure for fast-responding Resources, and ERCOT believes the CAFOR levels are appropriate indicators of emergency risk given the uncertainty in predicting conditions months in advance. The Protocols' EEA Level 1 trigger is written on PRC, and Level 3 on PRC or frequency. [e12][e13]
 - **Questions #8** (cites e22, e4, e30) FLAG number-not-in-quote: 2027: The January 2027 MORA reports the highest reserve shortage risk in the morning hours, with HE 8:00 a.m. highest at 3.20%. [e22][e4] It cites wind variability as the greatest risk factor. [e30]
+- **Questions #10** (cites e15, e16): The model draws extreme-weather thermal outages up to the maximum observed during Winter Storm Uri, with an FFSS offset, and triggers price-responsive demand reduction when a storm is at least as severe as Winter Storm Elliott. [e15][e16]
+- **Questions #12** (cites e29, e9): It does not capture emergency risk from transmission constraints on imports into Far West Texas, and its probabilities are not forecasts of specific reserve outcomes. [e29][e9]
+- **Scenarios #2** (cites e23): - ERCOT's guideline treats at or below 10% as low reserve adequacy risk for the monthly peak load day. [e23]
 - **Scenarios #3** (cites e4) FLAG number-not-in-quote: 2027: - 3.20% is the highest hour in the January 2027 MORA. [e4]
 - **Scenarios #4** (cites e6, e9): - The probabilistic side runs on the PRRM, which generates 10,000 CAFOR outcomes, and the probability forecast is not intended to predict specific capacity reserve outcomes. [e6][e9]
 - **Link to cdr-report** (cites e2, e11): contrasts-with CDR Report: The MORA is a monthly outlook that evaluates the risk of emergency conditions; the CDR provides a deterministic view of future resource adequacy with alternative scenarios. [e2][e11]

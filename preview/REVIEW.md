@@ -1,6 +1,6 @@
 # Review list
 
-Generated 2026-11-21. 153 topics, 6734/6734 quotes found word for word in the saved sources.
+Generated 2026-11-22. 153 topics, 6970/6970 quotes found word for word in the saved sources.
 
 ## Failed checks
 
@@ -761,10 +761,12 @@ None.
 
 - Single-source, not cross-checked (Norton Rose Fulbright, 2020): in August 2019 the ERCOT North hub spiked to $9,000/MWh while node prices were about $1,000/MWh, implying a $2.4 million one-hour loss for a 300 MW hub-settled project. ERCOT facts need a tier 1-2 source; none found.
 - Single-source, not cross-checked (RMI): the City of Houston agreed to pay the basis between its load zone and a West Texas project's node in a 50 MW PPA signed in 2017.
-- Single-source, not cross-checked (Norton Rose Fulbright): hub settlement requires the project to buy at the hub the same volume it sells at the node, so on that volume it loses the hub-minus-node difference.
-- Single-source, not cross-checked (Yale): hub settlement or price floors shift the node-to-hub risk to the project without changing the project's underlying basis risk, and the project then seeks a higher PPA price.
-- No saved source says how well a node-to-hub CRR or PTP Obligation offsets a hub-settled VPPA in practice (DAM versus real-time settlement, MW shape, auction cost).
-- No IMM figure on average node-to-hub spreads for renewable nodes was found; the IMM reports congestion and captured prices, not basis by project.
+- Resolved 2026-11-22: the Norton Rose Fulbright "same volume at the hub" mechanism is now cross-checked with LBNL's generation-weighted basis (tier 2) and Akin Gump's physically settled hedge slide. The shift of risk to the project under hub settlement and to the buyer under node settlement is cross-checked (Yale, NRF, RFF, ReSurety), as is pricing the risk in (Yale, RFF).
+- Single-source, not cross-checked (Yale): hub settlement or price floors shift the risk without changing the project's underlying basis risk, and storage is a way to change it. Norton Rose Fulbright supports only the storage half (storage can help mitigate basis risk).
+- Partly answered: LBNL (MISO, SPP, ERCOT, 2015-2019) measures how well fixed-volume FTRs hedge generators' basis, but ignores auction cost and FTR funding shortfalls. No saved source tests an ERCOT CRR or PTP Obligation against a hub-settled VPPA (DAM versus real-time settlement, as-produced volume).
+- Single-source, not cross-checked (RFF): transmission rights typically run only one or two years and have not supported wind project financing.
+- No ERCOT-only figure for average node-to-hub basis at renewable nodes was found. LBNL's $2-8/MWh is for wind across MISO, SPP and ERCOT (2015-2019); the IMM reports congestion and captured prices, not basis by project.
+- Sign convention: LBNL states locational basis as node minus hub; the commercial sources do not fix a sign. No ERCOT document defines a "basis" sign.
 - Norton Rose Fulbright says hub settlement "is perceived" to carry less risk, and Yale that hubs "may not be perfectly correlated" with the buyer's price: no source quantifies hub-to-load-zone basis in ERCOT.
 
 ### Settlement Statements & Timeline
@@ -930,7 +932,9 @@ None.
 
 ### Spark Spread
 
-- Single-source, not cross-checked: "clean spark spread" (deducting carbon cost) is not defined in any saved source.
+- Not sourced (checked 2026-11-22, including the CFTC glossary and EIA's 2013 dark spread article): no saved source defines a "clean spark spread" or "clean dark spread". The nearest statement is EIA's note that environmental costs are "sometimes added" to a generic dark spread, which does not define a clean spread or say how carbon is costed.
+- The Fields slides' toll formula takes the larger of the daily payoff and zero (an option, not a plain spread), but that formula survives in the text copy only as a garbled fragment that cannot be quoted cleanly; the topic therefore does not state the floor.
+- Only EIA (tier 2, so it stands on its own) says spark spreads are calculated on on-peak prices; Penn State uses the LMP and Fields a delivery bucket, so whether "on-peak" is a general convention is not established.
 - No saved tier 1-2 source publishes an ERCOT spark spread series; only the IMM implied heat rate is available.
 - The SFU thesis and EIA 2017 article mention fuel transport and delivered prices; no saved source gives ERCOT-specific gas transport costs to a plant.
 
@@ -1033,11 +1037,13 @@ None.
 ### Forward Curve
 
 - Single-source, not cross-checked: the New Zealand regulator found its near-term forward curve an unbiased estimator of spot prices with a persistent bias further out (New Zealand ASX data only).
-- Single-source, not cross-checked: SFU defines contango and backwardation as upward and downward forward curves, driven partly by convenience yield, expectations and the risk-free rate.
-- Disagreement: the Fields slides give a 50MW standard OTC contract size for ERCOT; the ICE ERCOT North future is 1 MW. Both may be true for different products; not resolved.
-- Single-source, not cross-checked (Fields, PJM example only): a power forward curve peaks in summer and, to a lesser extent, winter because of expected loads.
+- Resolved 2026-11-22: contango and backwardation are now defined by the CFTC (tier 2), with Pirrong, Montel and SFU agreeing. Only SFU names convenience yield and the risk-free rate as drivers (single-source).
+- Not a conflict, but unresolved for ERCOT: the Fields slides give 50MW as the standard swap size for ERCOT; the exchange contracts (ICE ERCOT North, Nodal Exchange PJM) are 1 MW. No saved source gives a standard ERCOT OTC size.
+- Partly resolved: a premium in expected high-demand seasons is now cross-checked (Fields for PJM, Montel for European markets). The summer-and-winter shape is still Fields-only, and no saved source describes the shape of the ERCOT curve.
+- Disagreement: the New Zealand regulator calls forward prices the consensus view of future prices; Pirrong says a forward price is not a forecast and carries a very large risk premium in power; SFU sits between (risk-adjusted). No saved source measures the ERCOT forward risk premium.
+- Single-source, not cross-checked (RFF, citing a 2017 study, U.S. generally): electricity forwards trade liquidly only one to two years out. No saved source gives the liquid tenor of ERCOT power forwards, and none publishes an ERCOT forward curve.
+- Single-source, not cross-checked (Fields): the off-peak wrap is often traded as 2x16 and 7x8, which are highly illiquid.
 - Montel (vendor, European markets) is internally inconsistent on whether forward or day-ahead prices are more volatile; not used as a counter-position.
-- No saved source publishes an ERCOT forward curve or gives the liquid tenor of ERCOT power forwards.
 
 ### ICE & Nodal Exchange
 
@@ -1055,12 +1061,15 @@ None.
 - Sources differ on premium timing: the law-firm articles describe a fixed periodic premium paid to the project; the FpML example confirmation shows a single total premium of USD 342,000 with one payment date. [e28]
 - No saved tier 1-2 source describes HRCO use in ERCOT or traded ERCOT heat rate option prices.
 - Single-source, not cross-checked (Fields only): there are no quoted markets for heat rate options, so correlations are estimated.
+- Checked 2026-11-22: Penn State EBF 301 Lesson 12 covers spark spreads and one-way contracts for differences but not heat rate options, so it adds no cross-check here. The FERC primer gives general option terms only (e1).
 
 ### Tolling Agreement
 
-- ERCOT-specific, tier 3 only (ESIG/Aurora): battery value in ERCOT is concentrated in very few months, which drives demand for tolls; battery tolls are present in ERCOT, MISO and CAISO with typical tenors of 5-7 years. Needs a tier 1-2 source.
-- Single-source, not cross-checked (ESIG/Aurora): in a battery toll the offtaker receives asset dispatch rights and energy and ancillary service revenues (TotalEnergies says only that tolling can apply to batteries).
-- Single-source, not cross-checked (ESIG/Aurora): a 100% toll leaves the battery owner no economic link to market outcomes; mitigations include partial tolls and "virtual" (percentage-of-perfect) tolls.
+- ERCOT-specific, tier 3 only (ESIG/Aurora; Modo Energy): Aurora says battery value in ERCOT is concentrated in very few months, which drives demand for tolls, and that battery tolls are present in ERCOT, MISO and CAISO with typical tenors of 5-7 years; Modo (September 2025) counts five operating ERCOT batteries under known tolling agreements and seven more expected by the end of 2026. Needs a tier 1-2 source.
+- Resolved 2026-11-22: battery-toll dispatch rights and energy and AS revenues to the offtaker (now Modo, Troutman Pepper and Aurora); partial tolls (Aurora, Modo, enspired); existence of virtual tolls (Modo, Aurora).
+- Single-source, not cross-checked (ESIG/Aurora): a 100% toll leaves the owner no ongoing incentive to maximize revenues. enspired and Modo say only that the owner has no upside or downside from the market under a toll.
+- Sources differ on what a virtual toll is: financial swap or settlement with the owner still operating (Modo); benchmarked percentage-of-perfect performance (Aurora). GridBeyond's offer of physical and virtual (synthetic) tolls is reported by GridBeyond and pv magazine, counted here as one voice and not used as a cross-check.
+- Single-source, not cross-checked (Troutman Pepper, AI-generated transcript): tolls are mainly found in bilateral markets with utility offtakers, and true physically settled tolls in organized markets are the exception.
 - Single-source, not cross-checked (SFU): simple tolls (owner keeps operating risk, premium paid) versus complex tolls (purchaser takes owner-like risks); blended VOM and FOM of $US 2-4/MWh.
 - Tenor: Fields (5-7 years, traded gas tolls) and SFU (20+ years, new-build offtake) describe different contexts; no saved source gives a typical tenor for ERCOT gas tolls.
 - No saved tier 1-2 source describes the size or terms of ERCOT gas or storage tolls.
@@ -1068,30 +1077,36 @@ None.
 ### PPA & Virtual PPA
 
 - POWER Magazine says "If the agreed strike price is higher than the market price for the settlement period, the generator pays the offtaker the difference", which contradicts its own next sentence and EPA and Norton Rose Fulbright. Treated as a source error; not used.
-- Single-publisher (Norton Rose Fulbright 2020): some VPPAs are a "contract for differences" in which the parties split wholesale revenue above the fixed price, with a lower fixed price. Not cross-checked.
-- Single-publisher (Norton Rose Fulbright 2020): VPPAs may settle on day-ahead or real-time prices; buyers prefer day-ahead and developers real-time. No ERCOT tier 1-2 source on how ERCOT VPPAs settle.
-- Settlement frequency conflict: EPA and Norton Rose Fulbright 2020 say VPPAs typically settle monthly (Yale: monthly or quarterly), Norton Rose Fulbright 2022 that most hedges settle hourly. No saved source says whether the hourly figure is the calculation interval and the monthly one the payment period.
-- Single-publisher (Yale): VPPAs are treated as derivatives under Dodd-Frank with reporting duties. Not cross-checked.
-- Term length conflict: EPA says physical PPAs usually 10-20 years, ORNL 10-25, POWER traditional PPAs 20-35, Norton Rose Fulbright most VPPAs 10-15 and hedges 5-15, Yale quotes an executive saying typically 20. No common figure.
+- Stoel Rives's credit-support section says "the offtaker pays the seller when an agreed-upon market price exceeds the fixed price", which contradicts its own Section XII and all other sources. Treated as a source error; not used.
+- Partly cross-checked: Norton Rose Fulbright 2020, Stoel Rives and Akin Gump all mention upside- or revenue-sharing variants. Single-publisher (Norton Rose Fulbright 2020): such a variant has a lower fixed price.
+- Single-publisher (Norton Rose Fulbright 2020): buyers prefer day-ahead settlement and developers real-time. That the floating price may be either is cross-checked (Akin Gump, Stoel Rives, LevelTen). No ERCOT tier 1-2 source on how ERCOT VPPAs settle.
+- Settlement interval and period: resolved on 2026-11-22 from LevelTen's sample terms (hourly calculation, monthly settlement). ORNL's slide supports the hourly interval but is adapted from LevelTen, so it is not an independent second publisher. Yale's "monthly or quarterly" is the only mention of quarterly.
+- Sources differ on the volume in a VPPA: Norton Rose Fulbright 2017 says payments are often based on a scheduled notional quantity; LevelTen and RFF describe the VPPA volume as actual generation and treat fixed volumes as a separate structure (RFF: bank hedge).
+- Swap status: Akin Gump and Yale say VPPAs are swaps or derivatives; the CFTC glossary covers contracts for differences generally. No saved CFTC text names VPPAs.
+- Term length conflict: EPA says physical PPAs usually 10-20 years, ORNL 10-25, POWER traditional PPAs 20-35, Norton Rose Fulbright most VPPAs 10-15 and hedges 5-15, RFF synthetic PPAs 12-13 and traditional PPAs 15-25, Yale quotes an executive saying typically 20. No common figure.
 - No tier 1-2 source gives the size or share of the ERCOT VPPA market; Norton Rose Fulbright says most VPPAs are in deregulated markets such as ERCOT, but that is one publisher.
 
 ### Shape Risk
 
 - No saved source quantifies ERCOT shape cost for a typical solar or wind profile against a 5x16 or 7x24 block; the IMM gives captured prices but not a shape discount to hub blocks.
-- Single-source, not cross-checked (RMI): a retailer-firmed product that delivers shaped power to meet hourly demand "would eliminate shape risk".
+- Retailer-firmed and sleeved supply: ORNL (tier 2) supports that the utility fills shortfalls at a fixed price; that this "would eliminate shape risk" is RMI's statement only.
 - Single-source (EPEX SPOT, European): solar shape risk is "more predictable than for wind but it is also more concentrated". Not cross-checked and not ERCOT.
-- Load-side shape risk (an LSE's customer load shape against block hedges) is supported only in general terms (FERC load shape); no ERCOT tier 1-2 source discusses it directly.
+- Single-publisher (RFF): bank-hedge hourly volumes are typically set at the project's P99 hourly generation. No ERCOT tier 1-2 source.
+- Load-side shape risk: Montel (a procurement blog naming no market) defines it against a baseload contract and FERC shows that load shapes differ in cost to serve; no ERCOT tier 1-2 source discusses an LSE's load shape against block hedges.
+- Single-publisher (Pexapark, European): solar capture factors are around 1 in winter and lower in summer, wind lower in winter. Not used.
 - The FERC primer's load-shape passage is about cost to serve, not hedging; it is used only to show that load shapes differ.
 
 ### Volumetric Risk
 
-- Load-side volumetric risk (retail load swing against fixed-quantity supply) is not defined in any saved source; it is covered only through ERCOT imbalance settlement, IMM weather and forecast statements and UT Austin's Uri retailer finding. A tier 1-2 source on REP load-following or swing risk is needed.
-- Single-publisher (Norton Rose Fulbright 2022): around Uri, 20-25% of Texas renewable hedges were fixed volume and about 10% proxy-based. ERCOT fact; no tier 1-2 source.
-- Single-publisher (Norton Rose Fulbright 2019): many fixed-volume hedges in ERCOT are physical, with the project buying back the fixed volume at the hub; and many have a tracking account (a capped loan from the hedge counterparty). Not cross-checked.
-- Single-source (RMI): price risk remains for generation above the fixed volume of an FVPS. Not cross-checked.
-- Single-publisher (Norton Rose Fulbright 2022): during Uri, irradiance and wind speeds in Texas were below historical averages and in many places below P99. ERCOT fact; no tier 1-2 source on resource levels against P-values.
-- No saved source gives an ERCOT P50/P90/P99 convention for setting fixed volumes.
-- Single-publisher (Norton Rose Fulbright 2022): proxy generation contracts multiply the price difference by modelled output from observed wind or irradiance and rank between as-generated and fixed volume in risk; after Uri, proxy generation moved to use as a capped damages calculator. Not cross-checked.
+- Load-side volumetric risk is now described in general terms (Oum and Oren; Montel, a blog naming no market; CFTC on full requirements contracts), but no ERCOT tier 1-2 source discusses REP load-following or swing risk.
+- Single-publisher (Norton Rose Fulbright 2022): around Uri, 20-25% of Texas renewable hedges were fixed volume and about 10% proxy-based. RFF says only that bank hedges are "particularly common" in ERCOT. ERCOT fact; no tier 1-2 source.
+- Single-publisher (Norton Rose Fulbright 2019): "most" fixed-volume hedges in ERCOT are physical. The physical buy-back mechanism itself is cross-checked (RFF, Akin Gump).
+- Single-publisher (Norton Rose Fulbright 2019): fixed-volume purchases typically settle daily (against monthly or quarterly for VPPAs).
+- Single-publisher (Norton Rose Fulbright 2022): during Uri, irradiance and wind speeds in Texas were below historical averages and in many places below P99. RFF instead stresses icing and grid issues. ERCOT fact; no tier 1-2 source on resource levels against P-values.
+- Single-publisher (RFF): bank-hedge hourly volumes are typically set at P99. No saved source gives an ERCOT convention.
+- Single-publisher (Norton Rose Fulbright 2022): after Uri, proxy generation moved to use as a capped damages calculator on metered settlement. Not cross-checked.
+- Single-publisher (RFF): company loss estimates for Uri (Innergex up to $50 million, RWE "several hundred million") and its 200 MW illustration. Reported, not verified.
+- Sources rank risk differently: Norton Rose Fulbright puts proxy generation between as-generated and fixed volume; the study RFF reports found proxy revenue swaps had the lowest return variability of all, below node PPAs. Different measures (sponsor exposure versus simulated return variability).
 - Single-publisher (WBCSD): wind and solar output are not well correlated, so combining them reduces volume risk over several years. Not cross-checked.
 
 ### Retail Load Hedging
@@ -1106,11 +1121,13 @@ None.
 
 ### Asset Optimization
 
-- No saved source defines "asset optimization". The Definition is therefore an attributed description (LBNL model; IMM on ESRs), not a definition; the earlier one-line definition was a writer's construction and was removed in audit I1.
-- Single-source, not cross-checked (GE Vernova, software vendor): optimization in two stages, commitment optimization that positions the asset ahead of time and real-time dispatch optimization that adjusts operations to available capacity and market conditions (GE Vernova blog, "Asset and Fleet Optimization: Key to Success for Power Generators"; quotes removed with the statement).
-- Vendor sources (Montel, GE Vernova) used sparingly; their claims on AI/ML forecasting and fleet software were left out.
-- Single-source, not cross-checked (Montel, European markets): forward markets are more volatile because of lower liquidity; the same blog also says day-ahead is more volatile than the forward market (see forward-curve).
-- No saved source describes third-party "optimizer" or asset-management agreements in ERCOT (fees, revenue sharing).
+- No saved source defines "asset optimization". The Definition is a description of the function as Vistra and NRG describe their own commercial groups (tier 3, two publishers), with FERC (tier 2) on offers and hedging in US organized markets. The earlier one-line definition was a writer's construction and was removed in audit I1.
+- The 10-K passages found do not say how either company's commercial group builds its day-ahead, real-time or ancillary service offers in ERCOT; that link rests on FERC (US generic) and the ERCOT Protocols.
+- ERCOT-specific, tier 3 only: Modo (September 2025) names third-party optimizers operating ERCOT batteries (for example Gridmatic, Habitat Energy, Equilibrium Energy), and GridBeyond says it provides optimization and QSE services for a battery portfolio in ERCOT under RTC+B (a GridBeyond release and a pv magazine article about GridBeyond's floor and synthetic-toll offers, counted as one voice). No tier 1-2 source says how many ERCOT Resources use third-party optimizers or QSEs.
+- No saved source gives typical optimizer fee levels or revenue-share percentages in ERCOT; enspired's 90:10 split is an illustrative European figure.
+- Single-source, not cross-checked (Modo): a "revenue share" structure in which all payments depend on market revenues with no floor.
+- Single-source, not cross-checked (GE Vernova, software vendor): optimization in two stages, commitment optimization that positions the asset ahead of time and real-time dispatch optimization that adjusts operations to available capacity and market conditions.
+- Removed 2026-11-22: Montel (data vendor, European focus) quotes on capturing value across time horizons, asset-backed strategies as insurance, and start-up time; replaced by FERC, Vistra, NRG, Oil & Gas Journal and IMM quotes. Montel's claim that forward markets are more volatile because of lower liquidity remains single-source (see forward-curve).
 
 ### Winter Storm Uri (Feb 2021)
 

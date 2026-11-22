@@ -1,15 +1,15 @@
 {
  "counts": {
-  "number-not-in-quote": 1216,
+  "number-not-in-quote": 1221,
   "proposal-or-filing-source": 302,
   "ocr": 95,
   "pending-box": 82,
-  "tier-3": 351
+  "tier-3": 358
  },
  "evidenceByTier": {
   "1": 3868,
-  "2": 2742,
-  "3": 351
+  "2": 2744,
+  "3": 358
  },
  "ocrPages": {
   "imm-som-2025": [
@@ -402,6 +402,18 @@
   {
    "topic": "asset-optimization",
    "kind": "tier-3",
+   "where": "e60",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
+   "where": "e61",
+   "detail": "ref-modo-ercot-offtake-tolling-2025"
+  },
+  {
+   "topic": "asset-optimization",
+   "kind": "tier-3",
    "where": "e44",
    "detail": "ref-modo-ercot-offtake-tolling-2025"
   },
@@ -487,7 +499,7 @@
    "topic": "asset-optimization",
    "kind": "number-not-in-quote",
    "where": "Key facts #3",
-   "detail": "2012 :: EMAs (CFTC, 2012): no working definition; the managing entity may be paid a portion of the revenue. "
+   "detail": "2012 :: EMAs (CFTC, 2012): commenters gave no working definition; the CFTC understands that the managing entity may be paid a portion of the revenue"
   },
   {
    "topic": "base-point",
@@ -704,12 +716,6 @@
    "kind": "tier-3",
    "where": "e67",
    "detail": "ref-montel-forward-curves-hedging"
-  },
-  {
-   "topic": "basis-risk",
-   "kind": "number-not-in-quote",
-   "where": "Key facts #10",
-   "detail": "2015, 2019 :: LBNL: in ERCOT, wind's basis risk was on par with gas-fired generators' (2015-2019). "
   },
   {
    "topic": "basis-risk",
@@ -2891,9 +2897,21 @@
   },
   {
    "topic": "forward-curve",
+   "kind": "tier-3",
+   "where": "e68",
+   "detail": "ref-pirrong-forward-curves"
+  },
+  {
+   "topic": "forward-curve",
    "kind": "number-not-in-quote",
    "where": "How it works #3",
    "detail": "2024 :: Liquidity is concentrated at the front. FERC notes that NYMEX gas futures trade more than eight years out but only the first few years trade"
+  },
+  {
+   "topic": "forward-curve",
+   "kind": "number-not-in-quote",
+   "where": "ERCOT context #2",
+   "detail": "345 kV, 2013 :: The ICE ERCOT North peak contract covers Monday through Friday, excluding NERC holidays, for hours ending 0700-2200 CPT, and settles on the "
   },
   {
    "topic": "forward-curve",
@@ -3608,6 +3626,18 @@
    "kind": "tier-3",
    "where": "e37",
    "detail": "ref-deng-exotic-electricity-options"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e43",
+   "detail": "ref-fields-tolling-slides"
+  },
+  {
+   "topic": "heat-rate-call-option",
+   "kind": "tier-3",
+   "where": "e44",
+   "detail": "ref-fields-tolling-slides"
   },
   {
    "topic": "heat-rate-call-option",
@@ -6764,6 +6794,12 @@
    "kind": "number-not-in-quote",
    "where": "How it works #6",
    "detail": "2017 :: **Volume.** In an as-generated contract the hourly difference is multiplied by the metered output: Norton Rose Fulbright, LevelTen and RFF d"
+  },
+  {
+   "topic": "ppa-vppa",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #8",
+   "detail": "2018, 2017, 2019 :: Contract terms differ by source and date: physical PPAs 10-20 years (EPA glossary, 2018), traditional utility PPAs 20-35 years (POWER), most"
   },
   {
    "topic": "ppa-vppa",
@@ -10008,8 +10044,14 @@
   {
    "topic": "spark-spread",
    "kind": "number-not-in-quote",
+   "where": "How it works #6",
+   "detail": "2013 :: The same idea is applied to other fuels: the dark spread for coal and the quark spread for nuclear fuel.  EIA defines the dark spread as the"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "number-not-in-quote",
    "where": "Formula #3",
-   "detail": "2017 :: Power price: the price received for electricity in the same period. EIA typically uses daily spot prices at regional trading points (on-peak"
+   "detail": "2013, 2017 :: Power price: the price received for electricity in the same period. EIA's 2013 article says it is typically calculated from daily spot price"
   },
   {
    "topic": "spark-spread",
@@ -10026,8 +10068,20 @@
   {
    "topic": "spark-spread",
    "kind": "number-not-in-quote",
+   "where": "Key facts #4",
+   "detail": "2013 :: EIA's 2013 dark spread article says dark spreads often use a flat (on- and off-peak) power price, unlike spark spreads, which it says are ca"
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "number-not-in-quote",
    "where": "Key facts #6",
    "detail": "2013 :: EIA does not report spark spreads in its 2013 chart when they are negative. "
+  },
+  {
+   "topic": "spark-spread",
+   "kind": "number-not-in-quote",
+   "where": "Questions #4",
+   "detail": "2024 :: It depends who is calculating. EIA's leaves it out; the SFU thesis says it may or may not be included; Penn State's definition subtracts it,"
   },
   {
    "topic": "spp",
@@ -11094,6 +11148,18 @@
   {
    "topic": "tolling-agreement",
    "kind": "tier-3",
+   "where": "e55",
+   "detail": "ref-fields-tolling-slides"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
+   "where": "e56",
+   "detail": "ref-fields-tolling-slides"
+  },
+  {
+   "topic": "tolling-agreement",
+   "kind": "tier-3",
    "where": "e54",
    "detail": "ref-modo-ercot-offtake-tolling-2025"
   },
@@ -11756,6 +11822,12 @@
    "kind": "tier-3",
    "where": "e81",
    "detail": "ref-rff-texas-hedges"
+  },
+  {
+   "topic": "volumetric-risk",
+   "kind": "number-not-in-quote",
+   "where": "ERCOT context #2",
+   "detail": "2019 :: Two commentary publishers report what this meant for fixed-volume hedges. RFF says the bank hedge, which it calls particularly common in ERC"
   },
   {
    "topic": "volumetric-risk",
