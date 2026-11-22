@@ -27,7 +27,7 @@ links:
     note: Since December 5, 2025 ERCOT's real-time dispatch co-optimizes energy and ancillary services. [e11]
   - to: tolling-agreement
     type: related
-    note: A battery toll hands operation of the asset and its market revenues to the offtaker for a fixed fee, which is one way an owner outsources optimization. [e44][e45]
+    note: A physical battery toll hands operation of the asset and its market revenues to the offtaker for a fixed fee, which is one way an owner outsources optimization; in a virtual toll the owner keeps operating. [e44][e45][e60][e61]
   - to: sced
     type: related
     note: SCED optimizes one five-minute interval at a time, which is why the IMM says ESR owners must manage state of charge themselves. [e3]
@@ -185,6 +185,14 @@ evidence:
     source: ref-cra-ercot-value-stacking-2025
     locator: "CRA International, 'Energy and ancillary services value stacking in ERCOT' (August 2025), Introduction, ESOP model"
     quote: "Given projections of energy and ancillary services prices, ESOP outputs optimal dispatch decisions for storage or other fast response resources (i.e., value stacking strategies) that are unique to (a) the resource’s technological characteristics, and (b) the regional market’s participation rules. Decisions include whether to discharge or charge and by how much, and whether to commit to participate in the energy or ancillary services markets."
+  - id: e60
+    source: ref-modo-ercot-offtake-tolling-2025
+    locator: "Modo Energy (2025), Tolling / PPA, physical toll"
+    quote: "A physical tolling agreement gives the offtaker direct dispatch rights over a specific battery or generation asset. The offtaker schedules, bids, and controls the physical asset, while the owner receives a fixed or structured payment regardless of how it is used."
+  - id: e61
+    source: ref-modo-ercot-offtake-tolling-2025
+    locator: "Modo Energy (2025), Tolling / PPA, physical and virtual tolls"
+    quote: "A virtual tolling agreement is financial. The asset owner continues to operate the asset, but the offtaker takes on the market risk and return through a contractual swap or settlement mechanism."
   - id: e44
     source: ref-modo-ercot-offtake-tolling-2025
     locator: "Modo Energy, 'Part 1: The state of battery offtake and tolling agreements in ERCOT' (September 4, 2025), Tolling / PPA"
@@ -253,7 +261,7 @@ evidence:
 
 ## Definition
 
-No saved source defines "asset optimization" as a term: NRG's 2024 annual report uses the phrase ("asset optimization opportunities") without defining it. [e37] What the sources describe is a function, so this entry describes the function rather than defining the term. Two generating companies describe that function for their own fleets in their 2024 SEC annual reports. Vistra says its wholesale commodity risk management group dispatches its generation fleet in response to market needs after implementing portfolio optimization strategies, and enters into power, gas and other derivative contracts to reduce price exposure; NRG says its power commercial group is responsible for end-use electricity supply including power plant optimization and certain fuel supply, and enters into power and gas hedging agreements. [e30][e31][e34] Each is describing its own organization; what the two descriptions share is a commercial function that decides how plants are run, hedges power and fuel price exposure, and ties the fleet to supplying the company's own end-use customers. [e30][e31][e34][e35]
+No saved source defines "asset optimization" as a term: NRG's 2024 annual report uses the phrase ("asset optimization opportunities") without defining it. [e37] What the sources describe is a function, so this entry describes the function rather than defining the term. Two generating companies describe that function for their own fleets in their 2024 SEC annual reports. Vistra says its wholesale commodity risk management group dispatches its generation fleet in response to market needs after implementing portfolio optimization strategies, and that its commodity risk management group enters into power, gas and other derivative contracts to reduce price exposure; NRG says its power commercial group is responsible for end-use electricity supply including power plant optimization and certain fuel supply, and enters into power and gas hedging agreements. [e30][e31][e34] Each is describing its own organization; what the two descriptions share is a commercial function that decides how plants are run, hedges power and fuel price exposure, and ties the fleet to supplying the company's own end-use customers. [e30][e31][e34][e35]
 
 ## How it works
 
@@ -271,7 +279,7 @@ The dispatch decision stays with the owner even when the asset is hedged. In a h
 
 For batteries, who does the optimizing is itself a contract choice. Three structures recur in the sources. [e44][e46][e48][e50][e51]
 
-- Toll: the offtaker pays the owner a fixed payment and in return operates the battery and takes its market revenues (Modo Energy and Troutman Pepper for the US; enspired describes the same in Europe). [e44][e45][e46]
+- Toll: the offtaker pays the owner a fixed payment and takes the battery's market upside and downside; in a physical toll it also schedules, bids and operates the battery (Modo Energy and Troutman Pepper for the US; enspired describes the same in Europe). Troutman adds that the monthly payment often has adjusters based on project performance, and Modo describes a virtual toll in which the owner keeps operating the asset while the offtaker takes the market risk and return financially. [e44][e60][e45][e46][e61]
 - Floor plus revenue share: the owner is guaranteed a minimum revenue and keeps a share of the upside. The sources differ on who gives the floor: Modo says the offtaker; enspired (Europe) says the route-to-market optimizer, which then assumes the main risk. [e47][e48]
 - Third-party optimization: the owner keeps merchant exposure and pays the optimizer. Modo says owners can hire third-party optimizers for bidding, dispatch and trading and pay them a fee; enspired's fully merchant model pays the optimizer through a revenue split (90:10 in its illustrative table). [e49][e50][e51][e59]
 
@@ -281,9 +289,9 @@ Real operation falls short of the optimum. In LBNL's 2024 sample of 49 hybrid pr
 
 ## ERCOT context
 
-In ERCOT, the market software and the asset owner optimize different things. Co-optimization is the market model scheduling energy and ancillary services together and trading them off; before December 5, 2025 ERCOT did this only in the Day-Ahead Market, and with RTC the real-time dispatch now co-optimizes energy and ancillary services. [e11][e22] The owner's optimization is expressed in what its QSE offers: a QSE is the Market Participant qualified to communicate with ERCOT for Resource Entities and to settle with ERCOT, a Generation Resource's Three-Part Supply Offer (Startup Offer, Minimum-Energy Offer and Energy Offer Curve) is made by its QSE, and a single Resource can offer multiple ancillary services combined with energy offers. [e56][e13][e12]
+In ERCOT, the market software and the asset owner optimize different things. Co-optimization is the market model scheduling energy and ancillary services together and trading them off; before December 5, 2025 ERCOT did this only in the Day-Ahead Market, and with RTC the real-time dispatch now co-optimizes energy and ancillary services. [e11][e22] The owner's optimization is expressed in what its QSE offers: a QSE is the Market Participant qualified to communicate with ERCOT for Resource Entities and to settle with ERCOT, a Generation Resource's Three-Part Supply Offer (Startup Offer, Minimum-Energy Offer and Energy Offer Curve) is made by its QSE, and ERCOT's Forward Markets 101 training says a single Resource can make multiple ancillary service offers, which may be combined with energy offers. [e56][e13][e12]
 
-For storage, the IMM says ESRs must optimize their charging and discharging cycles themselves, because SCED optimizes only one five-minute interval at a time, so ESR owners must offer strategically to manage state of charge; the IMM adds that these strategies can introduce market inefficiencies. [e3] The IMM has recommended a Multi-Interval Real-Time Market since its 2022 report so that SCED would optimize ESR charging and discharging over time. [e17] Within each interval, SCED accounts for each ESR's state of charge and SOC limits so that its base points and ancillary service awards are feasible, and ancillary service awards are limited by each Resource's capability, including state of charge and SOC limits. [e57][e16]
+For storage, the IMM says ESRs must optimize their charging and discharging cycles themselves, because SCED optimizes only one five-minute interval at a time, so ESR owners must offer strategically to manage state of charge; the IMM adds that these strategies can introduce market inefficiencies. [e3] Since its 2022 report the IMM has recommended that ERCOT consider implementing a Multi-Interval Real-Time Market, which it says would allow SCED to optimize ESR charging and discharging over time. [e17] Within each interval, SCED accounts for each ESR's state of charge and SOC limits so that its base points and ancillary service awards are feasible, and ancillary service awards are limited by each Resource's capability, including state of charge and SOC limits. [e57][e16]
 
 The IMM reports how ERCOT storage optimization has shifted: ESRs moved from ancillary services toward energy arbitrage in 2024 as several AS markets saturated, and in 2025 55% of ESR energy offers were priced between $0 and $100 per MWh (46% in 2024, 25% in 2023). [e14][e15] LBNL found that in ERCOT, as in ISO-NE and NYISO, the largest shortfall of real hybrid operation against the optimum came from lower ancillary service value. [e9]
 
@@ -291,11 +299,11 @@ The IMM reports how ERCOT storage optimization has shifted: ESRs moved from anci
 
 - Function, as two generators describe their own: dispatching the fleet after portfolio optimization and hedging with derivatives (Vistra); power plant optimization, certain fuel supply and power and gas hedging (NRG). [e30][e31][e34]
 - Battery contract structures: toll (fixed payment to owner), floor plus revenue share, and third-party optimization paid by fee or revenue share. [e44][e45][e47][e48][e50][e51]
-- EMAs (CFTC, 2012): no working definition; the managing entity may be paid a portion of the revenue. [e52][e54]
+- EMAs (CFTC, 2012): commenters gave no working definition; the CFTC understands that the managing entity may be paid a portion of the revenue. [e52][e54]
 - LBNL 2024 sample (49 projects, national): empirical PV-plus-storage value was 62% of the $63/MWh optimized value. [e26][e7][e27]
 - ERCOT real-time dispatch co-optimizes energy and ancillary services since December 5, 2025 (RTC). [e11][e22]
 - SCED optimizes one five-minute interval at a time; ESR owners manage state of charge through their offers. [e3]
-- The IMM has recommended a Multi-Interval Real-Time Market since its 2022 report (Recommendation 2022-1). [e17]
+- The IMM has recommended since its 2022 report that ERCOT consider implementing a Multi-Interval Real-Time Market (Recommendation 2022-1). [e17]
 - 55% of ESR energy offers were priced at $0-100 per MWh in 2025. [e15]
 
 ## Example
@@ -330,7 +338,7 @@ Because SCED optimizes one five-minute interval at a time and does not plan acro
 
 ### What contracts can a battery owner use to hand off optimization?
 
-A toll, where the offtaker pays a fixed amount and runs the battery; a floor plus revenue share; or a third-party optimizer paid a fee or a revenue share while the owner keeps merchant exposure. [e44][e45][e47][e48][e49][e50][e51] The sources differ on who provides a floor: the offtaker (Modo) or the optimizer (enspired, Europe). [e47][e48]
+A toll, where the offtaker pays a fixed amount and takes the market revenues (and, in a physical toll, runs the battery); a floor plus revenue share; or a third-party optimizer paid a fee or a revenue share while the owner keeps merchant exposure. [e44][e45][e47][e48][e49][e50][e51] The sources differ on who provides a floor: the offtaker (Modo) or the optimizer (enspired, Europe). [e47][e48]
 
 ### Why does real dispatch fall short of the optimized value?
 
@@ -351,7 +359,7 @@ A hedge such as a heat rate call does not decide dispatch: the owner still decid
 - ERCOT co-optimizes energy and AS in real time, but awards are limited by the Resource's SOC and limits, so the owner's offers must respect its state of charge. [e22][e16]
 - The IMM reports the shift toward energy arbitrage as AS markets saturated, and more competitive energy offers. [e14][e15]
 - LBNL found that missing ancillary service value was the largest shortfall for ERCOT hybrids, so dropping AS entirely has a cost. [e9]
-- If the owner would rather not make these calls itself, Modo describes two routes: a toll (fixed payment, offtaker takes the upside and downside) or a third-party optimizer paid a fee (owner keeps merchant exposure). [e44][e49][e50]
+- If the owner would rather not make these calls itself, two of the routes Modo describes are a toll (fixed payment, offtaker takes the upside and downside) or a third-party optimizer paid a fee (owner keeps merchant exposure). [e44][e49][e50]
 
 ## Open items
 

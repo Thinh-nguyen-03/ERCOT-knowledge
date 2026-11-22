@@ -39,7 +39,7 @@ links:
     note: Hub settlement of VPPAs is frequent, and hubs are aggregations of nodes. [e30][e31][e62]
   - to: sc-data-center-ppa
     type: example-of
-    note: A data center using a VPPA still buys its own power; Norton Rose Fulbright says one whose project shut down during Uri paid $9,000/MWh and received nothing from the VPPA. [e41][e8]
+    note: A data center using a VPPA still buys its own power; in an illustrative example, Norton Rose Fulbright says one whose project shut down during Uri ended up paying $9,000/MWh and received nothing from the VPPA. [e41][e8]
 evidence:
   - id: e1
     source: ref-powermag-ppa
@@ -419,7 +419,7 @@ A power purchase agreement (PPA) is a contract between a power producer and a pu
 
 **Physical PPA.** The buyer takes delivery of the power. EPA's glossary says physical PPAs by non-utility buyers are generally allowed only in competitive markets, and that the generator and buyer must be in the same power market; Yale says the same about location. [e14][e15] A sleeved PPA is an offsite physical PPA in which a utility acts as intermediary: it takes the project's power, delivers it with the buyer's other energy, and charges a sleeving fee. [e32][e45]
 
-**Virtual PPA.** The parties agree a fixed "strike" price. The project sells its power into the wholesale market near the generator, and the two sides settle the difference between the strike and the market price. [e8][e9] When the market price is above the strike, the generator pays the buyer the excess; when it is below, the buyer pays the generator, so the generator in net receives the strike price. EPA, ORNL, Norton Rose Fulbright, Akin Gump and Stoel Rives all describe it this way; Yale describes the below-strike case. [e9][e10][e11][e47][e50][e55][e56] The buyer and project need not be in the same market, and the buyer keeps buying its own power from its local supplier. [e16][e17][e4] The sources call this structure a contract for differences or a fixed-for-floating swap. [e6][e8]
+**Virtual PPA.** The parties agree a fixed "strike" price. The project sells its power into the wholesale market near the generator, and the two sides settle the difference between the strike and the market price. [e8][e9] When the market price is above the strike, the generator pays the buyer the excess; when it is below, the buyer pays the generator, so the generator in net receives the strike price. EPA, ORNL, Norton Rose Fulbright, Akin Gump and Stoel Rives all describe it this way; Yale describes the below-strike case. [e9][e10][e11][e47][e50][e55][e56] The buyer and project need not be in the same market, and the buyer keeps buying its own power from its local supplier. [e16][e17][e4] EPA calls this structure a contract for differences or a fixed-for-floating swap, and Norton Rose Fulbright says a VPPA is typically a contract for differences. [e6][e8][e49]
 
 **Settlement interval and period.** EPA, Norton Rose Fulbright, ReSurety and Yale say virtual PPAs typically settle monthly (Yale: monthly or quarterly), while Norton Rose Fulbright's 2022 article says most hedges are settled on an hourly basis. [e9][e12][e92][e11][e22] LevelTen's sample VPPA terms show how the two fit: the price difference is calculated and multiplied by the volume for each calculation interval, typically an hour, and those amounts are summed into one settlement amount per settlement period, typically a calendar month. ORNL's DOE training, which adapts LevelTen's term list, also gives the calculation interval as typically hourly. [e51][e52][e53][e54]
 
@@ -447,7 +447,7 @@ The IMM lists bilateral PPAs among the ways ERCOT LSEs manage price exposure, al
 
 Because ERCOT generators settle at their own node's LMP and loads at the load zone price [e36], a virtual PPA written at a hub or zone leaves a locational gap on both sides (see Basis Risk).
 
-During Winter Storm Uri prices sat at $9,000/MWh by PUCT order. [e42] UT Austin says many generators had locked in a price by contract, limiting their gain, and that wind owners with financial hedges could owe payments when market prices exceeded contract prices or output fell below contracted quantities. [e39][e40] Two commentary publishers describe the as-generated PPA side: RFF says that for a project with a physical or virtual PPA the high price had no effect on energy revenue, because the floating price was swapped for the fixed price, and Norton Rose Fulbright gives the case of a VPPA buyer whose project shut down, which paid $9,000/MWh for its own power and received nothing from the VPPA. [e78][e41]
+During Winter Storm Uri prices sat at $9,000/MWh by PUCT order. [e42] UT Austin says many generators had locked in a price by contract, limiting their gain, and that wind owners with financial hedges could owe payments when market prices exceeded contract prices or output fell below contracted quantities. [e39][e40] Two commentary publishers describe the as-generated PPA side: RFF says that for a project with a physical or virtual PPA the high price had no effect on energy revenue, because the floating price was swapped for the fixed price, and Norton Rose Fulbright gives an illustrative example: a data center whose VPPA project shut down during the storm ended up paying $9,000/MWh for its own power and received nothing from the VPPA. [e78][e41]
 
 The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025, mostly wind and solar that keep producing at negative prices because of production tax credits. [e43] That is the situation in which buyers seek floors on the floating price. [e28][e29][e66]
 
@@ -456,16 +456,16 @@ The IMM says 35% of real-time generation capacity was offered at or below $0 in 
 - A virtual PPA has no physical delivery; the buyer buys its power separately. [e4][e5][e17]
 - Other names: financial PPA, synthetic PPA, contract for differences, fixed-for-floating swap. [e6][e7]
 - Market above strike: the generator pays the buyer; below strike: the buyer pays the generator. [e9][e10][e50][e55]
-- The difference is typically calculated hourly and paid monthly. [e51][e52][e53][e54]
+- The difference is typically calculated hourly and paid monthly: LevelTen's sample terms (and ORNL's training, which adapts them) give an hourly calculation interval and a monthly settlement period; EPA also gives a typically monthly settlement period, and Norton Rose Fulbright says most hedges compare prices hour by hour. [e51][e52][e53][e54][e9][e22]
 - Physical PPAs generally require the buyer and project to be in the same market; virtual PPAs do not. [e14][e16]
 - Hub settlement is common and leaves basis risk with the project; node settlement moves it to the buyer. [e57][e58][e59][e60][e62]
 - Negative-price clauses either zero the settled volume below a floor or replace the floating price with a minimum. [e64][e65][e66]
-- Contract terms differ by source: physical PPAs 10-20 years (EPA), traditional utility PPAs 20-35 years (POWER), most VPPAs 10-15 years (Norton Rose Fulbright), synthetic PPAs 12-13 years against 15-25 for traditional PPAs (RFF). [e13][e26][e27][e80]
+- Contract terms differ by source and date: physical PPAs 10-20 years (EPA glossary, 2018), traditional utility PPAs 20-35 years (POWER), most VPPAs 10-15 years (Norton Rose Fulbright, 2017), synthetic PPAs 12-13 years against 15-25 for traditional PPAs (RFF working paper 19-06, 2019). These are the documents' own descriptions at the time, not current market data. [e13][e26][e27][e80]
 - The ERCOT Protocols use "Power Purchase or Tolling Agreement (PPA)" as one term. [e33][e34]
 
 ## Formula
 
-LevelTen's sample terms and Akin Gump give the same settlement formula. For each calculation interval (LevelTen: typically an hour), the fixed-price payment is volume × fixed price and the floating-price payment is volume × market price; the settlement amount for the period (typically a month) is the sum of fixed-price payments minus the sum of floating-price payments. A positive amount is paid by the buyer to the seller; a negative amount by the seller to the buyer. [e50][e51][e52][e53]
+LevelTen's sample terms give the settlement formula; Akin Gump's basic VPPA formula (Fixed Price minus Floating Price, the seller owing the buyer when the floating price is higher) has the same sign but does not spell out intervals or periods. For each calculation interval (LevelTen: typically an hour), the fixed-price payment is volume × fixed price and the floating-price payment is volume × market price; the settlement amount for the period (typically a month) is the sum of fixed-price payments minus the sum of floating-price payments. A positive amount is paid by the buyer to the seller; a negative amount by the seller to the buyer. [e50][e51][e52][e53]
 
 Written as one line: Settlement (buyer pays seller if positive) = Σ over intervals of volume × (fixed price − market price). EPA and Norton Rose Fulbright state the same sign from the other side: market above strike, the generator pays. [e9][e10][e51]
 
@@ -497,7 +497,7 @@ A virtual PPA does not supply the buyer. The buyer still buys all its power from
 
 ### What is the difference between a physical and a virtual PPA?
 
-In a physical PPA power is delivered to the buyer, which generally needs a competitive market and a project in the same market. [e14][e15] In a virtual PPA nothing is delivered: the project sells into the wholesale market and the parties settle the difference from a fixed price, so the project can be in a different market. [e5][e8][e16] RFF says the revenue effect for the project is the same: a fixed price for the energy it produces. [e89]
+In a physical PPA power is delivered to the buyer; EPA says a physical PPA by a non-utility buyer is generally allowed only in a competitive market, and both EPA and Yale say the project and buyer must be in the same market. [e14][e15] In a virtual PPA nothing is delivered: the project sells into the wholesale market and the parties settle the difference from a fixed price, so the project can be in a different market. [e5][e8][e16] RFF says the revenue effect for the project is the same: a fixed price for the energy it produces. [e89]
 
 ### Who pays whom in a virtual PPA?
 
@@ -513,11 +513,11 @@ EPA calls long-term contracts with predictable revenues a key element in attract
 
 ### Why might a virtual PPA fail as a hedge for the buyer?
 
-The hedge works only if the project's market price is correlated with the price the buyer pays. [e18][e44] Under as-generated settlement the buyer carries the project's volume and timing, and LevelTen says curtailment also reduces the trade quantity. [e79][e46][e86] Norton Rose Fulbright's Uri example shows the extreme case: an offline project paid nothing while the buyer paid $9,000/MWh for its own power. [e41]
+The hedge works only if the project's market price is correlated with the price the buyer pays. [e18][e44] Under as-generated settlement the buyer carries the project's volume and timing, and LevelTen says curtailment also reduces the trade quantity. [e79][e46][e86] Norton Rose Fulbright's illustrative Uri example shows the extreme case: an offline project paid nothing while the buyer paid $9,000/MWh for its own power. [e41]
 
 ### What happened to VPPA buyers whose projects went offline during Uri?
 
-Norton Rose Fulbright gives the example of a data center whose VPPA project shut down: it paid $9,000/MWh for its power and received nothing from the VPPA. [e41] UT Austin confirms the $9,000/MWh price was held by PUCT order. [e42] RFF adds that for a project that kept running, a VPPA left energy revenue unchanged by the high price. [e78]
+Norton Rose Fulbright gives an illustrative example of a data center whose VPPA project shut down during the storm: it ended up paying $9,000/MWh for its power and received nothing from the VPPA. [e41] UT Austin confirms the $9,000/MWh price was held by PUCT order. [e42] RFF adds that for a project that kept running, a VPPA left energy revenue unchanged by the high price. [e78]
 
 ### How do VPPAs deal with negative prices?
 
@@ -525,7 +525,7 @@ If the buyer must pay the full difference between the strike and a negative mark
 
 ### Is a VPPA a swap?
 
-Akin Gump argues it is, and Yale says VPPAs are considered derivative agreements with recordkeeping duties; Akin Gump notes that some disagree because RECs are transferred. [e71][e73][e85] The CFTC glossary says contracts for differences were clarified as swaps in 2012, but it does not mention VPPAs, so this is the law firms' and Yale's reading. [e74]
+Akin Gump argues it is, and Yale says VPPAs are considered derivative agreements with recordkeeping duties; Akin Gump notes that some disagree because RECs are transferred. [e71][e73][e85] The CFTC glossary says contracts for differences were clarified as swaps in 2012, but it does not mention VPPAs, so this is Akin Gump's and Yale's reading. [e74]
 
 ## Scenarios
 

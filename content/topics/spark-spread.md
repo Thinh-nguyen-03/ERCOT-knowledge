@@ -195,6 +195,10 @@ evidence:
     source: ref-eia-dark-spread-2013
     locator: "EIA Today in Energy (February 20, 2013), final paragraph"
     quote: "A generic dark spread calculation has similar limitations to the spark spread, as it does not take into consideration other costs associated with generating electricity such as finance charges, environmental costs (although those are sometimes added), and other variable costs (like operations and maintenance costs), or taxes."
+  - id: e41
+    source: ref-eia-dark-spread-2013
+    locator: "EIA Today in Energy (February 20, 2013), note under the dark spread chart"
+    quote: "Note: Dark spreads are calculated using the MISO Minnesota Hub on-peak and off-peak power prices, prompt-month futures contracts for Powder River Basin Wyoming coal with an energy content of 8,800 Btu/lb and a sulfur content of 0.8 lb/MMBtu, a 10,000-Btu/kWh heat rate, and a $17/ton coal transportation rate."
   - id: e40
     source: ref-montel-forward-curves-hedging
     locator: "Montel, 'Hedging strategies using forward curves in power markets', hedging strategies list"
@@ -203,21 +207,21 @@ evidence:
 
 ## Definition
 
-The CFTC glossary defines the spark spread as the differential between the price of electricity and the price of natural gas or other fuel used to generate it, expressed in equivalent units. [e30] EIA and the industry sources say the same in plant terms: the difference between the price a generator receives for its electricity and the cost of the natural gas needed to produce it, used as a measure of the profitability of running a gas-fired plant. [e1][e2][e32]
+The CFTC glossary defines the spark spread as the differential between the price of electricity and the price of natural gas or other fuel used to generate it, expressed in equivalent units. [e30] EIA, the SFU thesis and Penn State's course text say much the same in plant terms: the difference between the price received for electricity and the cost of the fuel needed to produce it (natural gas, in EIA's wording; "mainly the fuel cost", in Penn State's). EIA and the SFU thesis present it as a measure of the profitability of running a fuelled (for EIA, gas-fired) plant. [e1][e2][e32]
 
 ## How it works
 
 The fuel cost is the gas price multiplied by a heat rate, so the spark spread is the power price minus gas price times heat rate, in $/MWh. EIA, the SFU thesis and Deng et al. all state it this way. [e3][e4][e31] The result is the margin a plant would earn if it bought gas, converted it to power at the stated heat rate and sold the power at the market price; Penn State describes the same buy-fuel, sell-power opportunity. [e4][e32] The heat rate is the plant's conversion rate between gas and power. [e8][e3]
 
-Which heat rate is used depends on the purpose, and the sources assume different ones. Someone marketing one unit uses that unit's tested heat rate; observers of the whole market use a generic benchmark, and EIA uses 7,000 Btu/kWh, representing a fairly new and efficient combined-cycle unit. [e5][e37] Penn State's course text says spark spreads in financial markets are typically defined for a gas generator with a heat rate of 10,000 and variable O&M of $2.50 per MWh. [e32] Deng et al. define the spread for "a particular heat rate" without fixing one. [e31] A less efficient unit (higher heat rate) needs more fuel per MWh and so earns a smaller spark spread. [e20][e4][e31]
+Which heat rate is used depends on the purpose, and the sources assume different ones. Someone marketing one unit uses that unit's tested heat rate; observers of the whole market use a generic benchmark, and EIA uses 7,000 Btu/kWh, representing a fairly new and efficient combined-cycle unit. [e5][e37] Penn State's course text says spark spreads in financial markets are typically defined against a gas generator "with certain characteristics", giving as an example a heat rate of 10,000 and variable O&M of $2.50 per MWh. [e32] Deng et al. define the spread for "a particular heat rate" without fixing one. [e31] A less efficient unit (higher heat rate) needs more fuel per MWh and so earns a smaller spark spread. [e20][e4][e31]
 
-The sources treat other costs differently, and you should say which version you mean. EIA's spark spread leaves out other costs such as pipeline charges, variable O&M, taxes and fixed costs, so it is an indicator of market conditions rather than an exact profit figure for one plant. [e7] Penn State's definition, by contrast, subtracts variable O&M along with fuel. [e32][e33] The SFU thesis says a spark spread may or may not include fixed or variable O&M depending on context, and separates a gross spread from a net spread that also deducts at least gas transportation and power transmission costs. [e2][e6] The Fields Institute toll formula subtracts VOM (variable operation and maintenance) as well as heat rate times gas. [e8]
+The sources treat other costs differently, and you should say which version you mean. EIA's spark spread leaves out other costs such as pipeline charges, variable O&M, taxes and fixed costs, so it is an indicator of market conditions rather than an exact profit figure for one plant. [e7] Penn State's definition, by contrast, subtracts variable O&M along with fuel. [e32][e33] The SFU thesis says a spark spread may or may not include fixed or variable O&M depending on context, and separates a gross spread from a net spread that also deducts at least gas transportation and power transmission costs. [e2][e6] The Fields Institute toll payoff formula, which the slides do not call a spark spread, subtracts VOM (variable operation and maintenance) as well as heat rate times gas. [e8]
 
-The sources also differ on which power price goes in. EIA's 2013 spark spread article says it is typically calculated from daily spot prices, its 2017 article uses day-ahead wholesale prices, and its 2013 dark spread article says spark spreads use on-peak power prices. [e1][e9][e36] Penn State uses the LMP, the Fields slides the forward or spot price for a delivery bucket such as 5x16, and Deng et al. the current price. [e32][e8][e31] Both Penn State and EIA's market reporting treat a negative spread as possible: Penn State's PJM example has negative and positive hours, and EIA's 2013 chart simply leaves negative values out. [e34][e28]
+The sources also differ on which power price goes in. EIA's 2013 spark spread article says it is typically calculated from daily spot prices, its 2017 article uses day-ahead wholesale prices, and its 2013 dark spread article says spark spreads use on-peak power prices. [e1][e9][e36] Penn State uses the LMP, Deng et al. the current price, and the Fields toll formula the forward or spot price for a delivery bucket such as 5x16. [e32][e31][e8] Both Penn State and EIA's market reporting treat a negative spread as possible: Penn State's PJM example has negative and positive hours, and EIA's 2013 chart simply leaves negative values out. [e34][e28]
 
 What matters is the relationship between the two prices, not their absolute level: the relative price of power and gas, and how efficiently the plant converts one into the other, determine whether generating on gas is favourable. [e10][e16] Spark spreads are volatile, mainly because wholesale power prices swing with demand and available supply. [e15][e19]
 
-The same idea is applied to other fuels: the dark spread for coal and the quark spread for nuclear fuel. [e11] EIA defines the dark spread as the difference between the price a generator receives for electricity and the cost of the coal needed to produce it, calculated on spot or forward prices. [e35] It differs from the spark spread in its inputs: EIA's generic dark spread uses a flat (on- plus off-peak) power price rather than on-peak, a 10,000 Btu/kWh coal heat rate rather than 7,000, and adds a transportation cost to the coal futures price. [e36][e37][e38] EIA says the generic dark spread has the same limitation as the spark spread: it leaves out finance charges, variable O&M and taxes, and environmental costs unless they are added. [e39] Because fuels and plant efficiencies differ, spark and dark spreads are specific to a location and a market. [e12][e9]
+The same idea is applied to other fuels: the dark spread for coal and the quark spread for nuclear fuel. [e11] EIA defines the dark spread as the difference between the price a generator receives for electricity and the cost of the coal needed to produce it, calculated on spot or forward prices. [e35] It differs from the spark spread in its inputs: EIA says dark spreads often use a flat (on- plus off-peak) power price where spark spreads use on-peak, and its 2013 dark spread chart used MISO Minnesota Hub on- and off-peak prices, a 10,000 Btu/kWh coal heat rate rather than 7,000, and a transportation cost added to the prompt-month coal futures price. [e36][e41][e37][e38] EIA says the generic dark spread has similar limitations to the spark spread: it leaves out finance charges, variable O&M and taxes, and environmental costs unless they are added. [e39] Because fuels and plant efficiencies differ, spark and dark spreads are specific to a location and a market. [e12][e9]
 
 The market-inferred (implied) heat rate is the same calculation turned around: the heat rate at which a plant would earn exactly zero spark spread. [e13] The IMM calculates its implied heat rate as power price divided by fuel price, the heat rate that equates revenue from selling electricity with the cost of buying gas. [e14]
 
@@ -226,10 +230,10 @@ The market-inferred (implied) heat rate is the same calculation turned around: t
 Spark spread ($/MWh) = power price ($/MWh) - [natural gas price ($/MMBtu) x heat rate (MMBtu/MWh)]. [e3][e4][e31]
 
 - Units: the CFTC says the two prices are expressed in equivalent units; the heat rate is what converts $/MMBtu of gas into $/MWh of power. [e30][e3]
-- Power price: the price received for electricity in the same period. EIA typically uses daily spot prices at regional trading points (on-peak, per its dark spread article), its 2017 article day-ahead prices; Penn State uses the LMP; Fields a forward or spot price for a delivery bucket. [e1][e36][e9][e32][e8]
+- Power price: the price received for electricity in the same period. EIA's 2013 article says it is typically calculated from daily spot prices at regional trading points, its 2013 dark spread article says spark spreads use on-peak power prices, and its 2017 article uses day-ahead prices; Penn State uses the LMP; the Fields toll formula a forward or spot price for a delivery bucket. [e1][e36][e9][e32][e8]
 - Gas price: the cost of the fuel, which EIA describes as the delivered input price, adjusted for energy content. [e9][e1]
-- Heat rate: the plant's conversion rate between gas and power, in MMBtu per MWh (7,000 Btu/kWh is 7.0 MMBtu/MWh). EIA assumes 7,000 Btu/kWh for a benchmark combined cycle; Penn State's typical financial-market definition assumes 10,000; for one unit, its tested heat rate is used. [e8][e5][e37][e32]
-- Other costs: EIA's version subtracts nothing else. [e7] Penn State subtracts variable O&M ($2.50/MWh in its example), Fields subtracts VOM, and SFU's net version subtracts at least gas transportation and power transmission costs. [e32][e33][e8][e6]
+- Heat rate: the plant's conversion rate between gas and power, in MMBtu per MWh (7,000 Btu/kWh is 7.0 MMBtu/MWh: the knowledge base's own unit conversion, 1 MWh being 1,000 kWh). EIA assumes 7,000 Btu/kWh for a benchmark combined cycle; Penn State gives 10,000 as an example of the characteristics a financial-market definition fixes; for one unit, its tested heat rate is used. [e8][e5][e37][e32]
+- Other costs: EIA's version subtracts nothing else. [e7] Penn State subtracts variable O&M ($2.50/MWh in its example), the Fields toll payoff (not labelled a spark spread there) subtracts VOM, and SFU's net version subtracts at least gas transportation and power transmission costs. [e32][e33][e8][e6]
 ## ERCOT context
 
 ERCOT's own reference gas price, the Fuel Index Price (FIP), is the daily midpoint or average gas price at Katy Hub in $/MMBtu, so a spark spread built on ERCOT's own gas index uses Katy, not Henry Hub. [e25]
@@ -244,8 +248,8 @@ ERCOT metrics also differ on variable O&M. ERCOT's peaker net margin uses a prot
 
 - EIA's benchmark heat rate for the spark spread is 7,000 Btu/kWh (a fairly new, efficient combined cycle); one kWh contains 3,412 Btu, so that unit is slightly below 50% efficient. [e5][e17]
 - EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread; its February 2013 dark spread article used a generic 10,000 Btu/kWh coal unit, slightly above 30% efficient. [e27][e37]
-- Penn State's course text gives 10,000 heat rate and $2.50/MWh variable O&M as the typical financial-market spark spread assumptions, against EIA's 7,000 Btu/kWh with no O&M. [e32][e5][e7]
-- EIA's generic dark spread uses a flat (on- and off-peak) power price; its spark spread uses on-peak prices. [e36]
+- Penn State's course text gives a 10,000 heat rate and $2.50/MWh variable O&M as an example ("like") of the generator characteristics a financial-market spark spread fixes, against EIA's 7,000 Btu/kWh with no O&M. [e32][e5][e7]
+- EIA's 2013 dark spread article says dark spreads often use a flat (on- and off-peak) power price, unlike spark spreads, which it says are calculated on on-peak prices; its own dark spread chart used MISO Minnesota Hub on- and off-peak prices. [e36][e41]
 - In PJM (not ERCOT), the January-November average spark spread rose from $21/MWh in 2023 to $28/MWh in 2025, according to EIA. [e26]
 - EIA does not report spark spreads in its 2013 chart when they are negative. [e28]
 - ERCOT's PNM uses a fixed 10.0 MMBtu per MWh heat rate and excludes variable O&M. [e21]
@@ -271,7 +275,7 @@ Suppose (illustrative) you take Penn State's inputs ($100/MWh power, $5/MMBtu ga
 
 (Guidance) Spark spread versus profit: a gross spark spread leaves out other costs, so it signals market conditions rather than one plant's profit. [e7]
 
-(Guidance) Spark spread versus dark spread: dark spread is the coal version, and in EIA's generic version it also uses a flat rather than on-peak power price, a higher heat rate and an added coal transport cost, so the two are not computed on the same basis. [e11][e36][e37][e38]
+(Guidance) Spark spread versus dark spread: dark spread is the coal version, and in EIA's generic version it also uses a flat rather than on-peak power price, a higher heat rate and an added coal transport cost, so the two are not computed on the same basis. [e11][e36][e41][e37][e38]
 
 (Guidance) Two spark spreads quoted for the same hour can differ only because of convention: heat rate (7,000 for EIA, 10,000 in Penn State's text) and whether variable O&M is deducted. [e5][e32][e7]
 
@@ -283,7 +287,7 @@ It converts the gas price into a fuel cost per MWh. A less efficient plant needs
 
 ### Does a spark spread include variable O&M?
 
-It depends who is calculating. EIA's leaves it out; the SFU thesis says it may or may not be included; the Fields toll formula and Penn State's definition subtract it. [e7][e2][e8][e32] In ERCOT, the PNM calculation excludes variable O&M while the IMM's net revenue analysis included $4 per MWh. [e21][e22] Always state the convention.
+It depends who is calculating. EIA's leaves it out; the SFU thesis says it may or may not be included; Penn State's definition subtracts it, and so does the Fields toll payoff formula (which the slides do not call a spark spread). [e7][e2][e32][e8] In ERCOT, the PNM calculation excludes variable O&M while the IMM's 2024 net revenue analysis included $4 per MWh. [e21][e22] Always state the convention.
 
 ### How is the spark spread related to the IMM's implied heat rate?
 
@@ -308,6 +312,7 @@ EIA attributes it mainly to wholesale power prices, which vary widely with deman
 ## Open items
 
 - Not sourced (checked 2026-11-22, including the CFTC glossary and EIA's 2013 dark spread article): no saved source defines a "clean spark spread" or "clean dark spread". The nearest statement is EIA's note that environmental costs are "sometimes added" to a generic dark spread, which does not define a clean spread or say how carbon is costed.
+- The Fields slides' toll formula takes the larger of the daily payoff and zero (an option, not a plain spread), but that formula survives in the text copy only as a garbled fragment that cannot be quoted cleanly; the topic therefore does not state the floor.
 - Only EIA (tier 2, so it stands on its own) says spark spreads are calculated on on-peak prices; Penn State uses the LMP and Fields a delivery bucket, so whether "on-peak" is a general convention is not established.
 - No saved tier 1-2 source publishes an ERCOT spark spread series; only the IMM implied heat rate is available.
 - The SFU thesis and EIA 2017 article mention fuel transport and delivered prices; no saved source gives ERCOT-specific gas transport costs to a plant.

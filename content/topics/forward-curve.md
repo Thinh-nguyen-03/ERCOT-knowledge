@@ -33,7 +33,7 @@ links:
     note: Option moneyness is judged against the forward price curve at expiry. [e25][e26]
   - to: spark-spread
     type: related
-    note: A forward spark spread or forward heat rate combines the power and gas forward curves for the same delivery period. [e27][e24]
+    note: Power swaps often trade as heat rates, pairing a power trade with a gas volume over the same delivery period, and ICE lists an ERCOT heat-rate contract. [e27][e24]
   - to: natural-gas-price
     type: related
     note: The NYMEX natural gas futures contract trades more than eight years out, though only the first few years trade actively. [e1]
@@ -299,6 +299,14 @@ evidence:
     source: ice-ercot-north-peak
     locator: "ICE Futures U.S., ERCOT North 345KV Real-Time Peak Fixed Price Future, Settlement Method and Contract Size"
     quote: "Settlement Method Cash settlement Contract Size 1 MW Currency USD"
+  - id: e67
+    source: ice-ercot-north-peak
+    locator: "ICE Futures U.S., ERCOT North peak future, Reference Price A (a) Description"
+    quote: "\"ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME\" means that the price for a Pricing Date will be that day's Specified Price per MWh of electricity for delivery on the Delivery Date, stated in U.S. Dollars, published by the ERCOT"
+  - id: e68
+    source: ref-pirrong-forward-curves
+    locator: "Pirrong slides, 'Elementary Theory: Cash and Carry'"
+    quote: "The simple theory of forward curves is that for storable commodities, forward prices should exceed nearby prices plus the cost of carrying inventory (interest, warehousing charges, insurance) to the expiration date"
 ---
 
 ## Definition
@@ -307,13 +315,13 @@ A forward curve is the set of prices at which a commodity can be bought or sold 
 
 ## How it works
 
-Standardized forwards, futures and swaps trade for each month, years into the future, and the curve is read from their prices. [e1] A forward contract is an agreement to receive or deliver a commodity at a specified future time; the CFTC adds that its terms can be more personalized than a standardized futures contract. It can be settled physically, or financially (a swap), in which case the parties exchange the gain or loss in cash. [e4][e43][e5] Futures are standardized forwards traded on an exchange and are generally more liquid than forwards; RFF says the same of the monthly power futures traded at hubs in ERCOT and other U.S. markets. [e6][e35][e63] For bilateral power forwards, the EEI Master Power Purchase and Sale Agreement is commonly used, with price, quantity, location and delivery period set in a confirmation. [e7]
+Standardized forwards, futures and swaps trade for each month, years into the future, and the curve is read from their prices. [e1] A forward contract is an agreement to receive or deliver a commodity at a specified future time; the CFTC adds that its terms can be more personalized than a standardized futures contract. It can be settled physically, or financially (a swap), in which case the parties exchange the gain or loss in cash. [e4][e43][e5] Futures are standardized forwards traded on an exchange, and FERC says they are generally more liquid than forwards; RFF likewise describes the monthly power futures traded at hubs in ERCOT and other U.S. markets as similar in design to forwards but with standardized terms and exchange trading. [e6][e35][e63] For bilateral power forwards, the EEI Master Power Purchase and Sale Agreement is commonly used, with price, quantity, location and delivery period set in a confirmation. [e7]
 
 Forward prices are updated every trading day: the SFU thesis says a new forward curve is created each day that power and gas trade, with distant months moving closer to the spot market over time, and FERC says daily settlement prices are used to revalue positions to current market prices. [e8][e33] Positions are marked to market: revalued each day at current prices, comparing the market price of undelivered volumes with the trade price. [e28][e29][e33]
 
 Liquidity is concentrated at the front. FERC notes that NYMEX gas futures trade more than eight years out but only the first few years trade actively; the SFU thesis says more volume trades in near months and weeks, giving better price discovery there; the Fields slides note that 5-7 year tolls lie well outside the window in which individual months trade. [e1][e11][e12] Montel says liquidity can be lower for long-term contracts, making them harder to hedge. [e52] RFF, citing a 2017 study, puts a number on it for U.S. power: electricity forwards trade liquidly only one to two years out, while Henry Hub gas contracts trade out 10 to 12 years. FERC's 2024 primer says NYMEX gas trades more than eight years out, with only the first few years active. [e61][e62][e1]
 
-The sources do not agree on how far forward prices are forecasts. The New Zealand regulator calls them the consensus view of future prices, reflecting expected demand and generation costs. [e13][e3] The SFU thesis says forward prices are based on predicted spot prices but adjusted for risk tolerance and net expense. [e2] Pirrong's slides go further: a forward price is not a price forecast or expectation, it embeds a risk adjustment, and in power that adjustment is very large, because spikes impose big losses on sellers, who demand a premium to sell forward. [e46][e47] The common ground is that forward prices start from expected spot conditions; SFU and Pirrong add a risk adjustment that the New Zealand article does not mention. [e2][e46][e13]
+The sources do not agree on how far forward prices are forecasts. The New Zealand regulator calls them the consensus view of future prices, reflecting expected demand and generation costs. [e13][e3] The SFU thesis says forward prices are based on predicted spot prices but adjusted for risk tolerance and net expense. [e2] Pirrong's slides go further: a forward price is not a price forecast or expectation, it embeds a risk adjustment, and in power that adjustment is very large. Among the possible sources of that premium his slides list a "Keynes-type story": power prices can spike, imposing big losses on sellers (shorts), who demand a big premium to sell forward. [e46][e47] The common ground is that forward prices start from expected spot conditions; SFU and Pirrong add a risk adjustment that the New Zealand article does not mention. [e2][e46][e13]
 
 Expected conditions in the delivery period shape the curve. Two publishers say forward prices carry a premium for expected high-demand periods: the Fields slides attribute the seasonality of a PJM forward curve (higher in summer and, to a lesser extent, winter) to expected higher loads pushing clearing prices up the supply stack, and Montel, writing about European markets, says seasonality produces premiums in high-demand periods such as winter. [e14][e51] The New Zealand regulator lists seasonal climate expectations (El Niño or La Niña) as a factor. [e30]
 
@@ -331,7 +339,7 @@ Longer periods are built from months. The CFTC defines a strip as a sequence of 
 
 ERCOT's own training calls the Day-Ahead Market a centralized forward market, conducted daily and facilitated by ERCOT, and bilateral trades a decentralized forward market of QSE-to-QSE transactions that transfer settlement responsibility. [e21][e22] The IMM also refers to bilateral forward markets in ERCOT, and on exchanges ICE lists the ERCOT North 345KV real-time peak future for up to 50 consecutive monthly contract periods, and an ERCOT Panhandle heat-rate contract for up to 72 monthly periods. [e19][e17][e34]
 
-The ICE ERCOT North peak contract covers Monday through Friday, excluding NERC holidays, for hours ending 0700-2200 CPT, and settles on the monthly average of ERCOT-published real-time prices at that hub. [e18][e16] The Fields slides describe the ERCOT peak bucket as 5x16, Monday to Friday 6AM to 10PM, with off-peak as the complement and a 50 MW standard swap size; the ICE future is 1 MW. [e65][e66]
+The ICE ERCOT North peak contract covers Monday through Friday, excluding NERC holidays, for hours ending 0700-2200 CPT, and settles on the monthly average of ERCOT-published real-time prices at the North 345 kV Hub. [e18][e16][e67] The Fields slides (2013) describe the ERCOT peak bucket as 5x16, Monday to Friday 6AM to 10PM, with off-peak as the complement and a 50 MW standard swap size; the ICE future is 1 MW. [e65][e66]
 
 The IMM says only a small share of ERCOT power is settled in real time, but real-time prices shape expectations in the day-ahead and bilateral forward markets and are the principal driver of prices where most transactions occur. [e19] It treats convergence of forward (day-ahead) prices with real-time prices as a primary indicator of forward market performance. [e20] Because forward prices are highly correlated with spot prices, the IMM notes that raising real-time prices can also raise a supplier's profits in the bilateral market. [e32]
 
@@ -343,8 +351,8 @@ The IMM says only a small share of ERCOT power is settled in real time, but real
 - ICE ERCOT North peak hours: hours ending 0700-2200 CPT, Monday-Friday excluding NERC holidays. [e18]
 - Futures are generally more liquid than forwards because they are interchangeable and exchange-traded. [e37][e35]
 - Contango: later delivery months progressively higher than the nearest; backwardation: distant months progressively lower (CFTC). [e39][e40]
-- Power forwards are monthly with separate peak and off-peak prices; gas forwards are monthly without that split. [e60][e62][e58]
-- Exchange power contracts are sized at 1 MW per hour of the bucket: Nodal Exchange's PJM monthly contracts (MWh size varies with the month's hours) and ICE's ERCOT North peak future. [e54][e66]
+- RFF: electricity forwards are monthly, with separate monthly peak and off-peak prices, and gas forwards are monthly without that split; FERC says power contracts may specify peak or off-peak delivery. [e60][e62][e58]
+- Nodal Exchange's PJM monthly contracts are 1 MW for each hour of the bucket (so the MWh size varies with the month's hours), and ICE's ERCOT North peak future has a contract size of 1 MW. [e54][e66]
 - A strip is a sequence of contract months executed as a single transaction (CFTC). [e42]
 
 ## Example
@@ -363,9 +371,9 @@ Suppose (illustrative, made-up numbers) North Hub peak forwards are $45 for May,
 
 (Guidance) A posted settlement price is not always a trade. Nodal Exchange's daily settlement price is set from exchange activity, other market data and extrapolation to traded contracts. [e56]
 
-(Guidance) Contango and backwardation are about the slope of the curve, but the sources measure it from different points: the nearest delivery month (CFTC) or the spot price (Montel). [e39][e49] Pirrong's cost-of-carry explanation of slope is built for storable commodities, and he classes electricity as very costly to store (hydro aside); reasoning from that, carrying costs do not explain a power curve's slope. [e45][e48]
+(Guidance) Contango and backwardation are about the slope of the curve, but the sources measure it from different points: the nearest delivery month (CFTC) or the spot price (Montel). [e39][e49] Pirrong's cost-of-carry explanation of slope is stated for storable commodities, and he classes electricity as very costly to store (hydro aside); reasoning from that, carrying costs do not explain a power curve's slope. [e68][e45][e48]
 
-(Guidance) "Peak" is defined by each contract. Fields gives ERCOT peak as 6AM to 10PM weekdays and ICE as hours ending 0700-2200 CPT; an hour-ending label names the hour that ends at that time, so these appear to describe the same 16 hours, but read the specification. [e65][e18][e58]
+(Guidance) "Peak" is defined by each contract. Fields gives ERCOT peak as 6AM to 10PM weekdays and ICE as hours ending 0700-2200 CPT; if "hour ending 0700" means the hour from 6AM to 7AM, these describe the same 16 hours, but no saved source states that convention, so read the specification. [e65][e18][e58]
 
 (Guidance) The IMM's "forward prices" in its convergence analysis are day-ahead prices, not the monthly curve. [e20]
 
@@ -387,7 +395,7 @@ Contango is a curve where later delivery months are progressively higher than th
 
 ### How is a power forward quoted?
 
-By hub, month and bucket: separate monthly prices for peak and off-peak, with the peak hours defined in the contract. [e60][e58] Exchange contracts are 1 MW for each hour of the bucket, and longer periods can be traded as a strip of months. [e54][e66][e42]
+By hub, month and bucket: separate monthly prices for peak and off-peak, with the peak hours defined in the contract. [e60][e58] Nodal Exchange's PJM contracts are 1 MW for each hour of the bucket and ICE's ERCOT North peak future is 1 MW, and longer periods can be traded as a strip of months. [e54][e66][e42]
 
 ### What if the forward price turns out far from the realized spot price?
 

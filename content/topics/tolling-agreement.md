@@ -247,6 +247,14 @@ evidence:
     source: ref-cftc-swap-definition-2012
     locator: "CFTC and SEC, Further Definition of Swap (2012), section II.B.2.b(iii), commenter views on physical tolling agreements"
     quote: "One commenter, for example, characterized taking power produced pursuant to a physical tolling agreement--which can involve one party thereto providing fuel for a generation plant and having the exclusive right to take the power produced by that plant from the fuel provided--thus, in effect, ``renting'' the plant to the extent the plant is used to produce power from the fuel provided--as more akin to a lease than to an option."
+  - id: e55
+    source: ref-fields-tolling-slides
+    locator: "Fields Institute lecture slides (2013), slide 3, Basics of Tolling Deals: Deal Structure, The Basic Structure (formula line)"
+    quote: "d(0, t) max (FP (t, t) − H∗ FG (t, t) − V , 0)"
+  - id: e56
+    source: ref-fields-tolling-slides
+    locator: "Fields Institute lecture slides (2013), slide 4, monthly valuation formula, definition of B(m)"
+    quote: "B(m) denotes the days in month m with delivery in the relevant power bucket B."
   - id: e54
     source: ref-modo-ercot-offtake-tolling-2025
     locator: "Modo Energy (2025), Tolling / PPA, physical toll"
@@ -261,9 +269,9 @@ A tolling agreement is a contract in which one party (the toller) supplies the f
 
 The toller takes the market risk and the owner takes the plant risk. The SFU thesis says a toll typically assigns completion and performance risk to the developer or contractor and operating and gas and power price risk to the marketer. [e4] The Oil & Gas Journal article says plant sponsors give up the ability to make money on the spark spread and become responsible for the plant's performance, including its heat rate and availability. [e5]
 
-The owner is paid mainly in fixed amounts. The Oil & Gas Journal article describes capacity payments made whether or not the plant runs, plus operating and maintenance payments and a start payment, and an Entergy model term sheet (a 2020 RFP form) sets out the same three: a Capacity Payment, a Variable Payment of a Variable O&M Rate times the energy dispatched by or for the Buyer, and a Start-up Payment per completed start, all paid monthly in arrears. [e5][e6][e44] A PacifiCorp form agreement likewise has the Buyer pay a monthly Capacity Payment. [e49] Separately, the SFU thesis calls the monthly capacity charges "option premium costs", and the Fields slides describe monthly capacity payments rather than an upfront premium. [e7][e8] TotalEnergies describes the owner's position as stable revenue from fixed fees without exposure to gas or power price swings. [e18][e2]
+The owner is paid mainly in fixed amounts. The Oil & Gas Journal article describes capacity payments made whether or not the plant runs, plus operating and maintenance payments and a start payment, and an Entergy model term sheet (a 2020 RFP form) sets out the same three: a Capacity Payment, a Variable Payment of a Variable O&M Rate times the energy dispatched by or for the Buyer, and a Start-up Payment per completed start, all paid monthly in arrears. [e5][e6][e44] A PacifiCorp form agreement likewise has the Buyer pay a monthly Capacity Payment. [e49] Separately, the SFU thesis calls the monthly capacity charges "option premium costs", and the Fields slides describe monthly capacity payments rather than an upfront premium. [e7][e8] TotalEnergies says the toller pays a conversion fee (a "tolling fee"), and that in its own TTEPH arrangement the plant-owning company receives fixed fees, giving it stable revenues without exposure to gas or electricity price swings. [e2][e18]
 
-The toller gets a dispatch option and a physical position. It can choose day to day, even hour to hour, whether to run the plant and sell its power; the Fields slides describe daily day-ahead exercise into standard power buckets with monthly settlement. [e11][e8] Resources for the Future, in a note on wind or solar projects with storage, also says a toll (which it calls common in fossil-fuel projects) lets the offtaker decide when the project dispatches. [e51] The contract forms show the same allocation: the Entergy term sheet lets the Buyer choose not to dispatch at all (0 MW) and makes the Buyer solely responsible for procuring and delivering fuel up to the gas delivery point, subject to the term sheet's other provisions; the PacifiCorp form has the Buyer supply the fuel, pay the Section 5 amounts, and receive the energy and ancillary services it schedules without additional charge. [e46][e45][e48] The Oil & Gas Journal says the toll serves the tolling party as a physical asset hedge for its trading positions, and TotalEnergies says the toller uses plants without investing in building or maintaining them. [e19][e26]
+The toller gets a dispatch option and a physical position. It can choose day to day, even hour to hour, whether to run the plant and sell its power; the Fields slides describe daily day-ahead exercise into standard power buckets with monthly settlement. [e11][e8] Resources for the Future, in a note on wind or solar projects with storage, also says a toll (which it calls common in fossil-fuel projects) lets the offtaker decide when the project dispatches. [e51] The contract forms show the same allocation: the Entergy term sheet lets the Buyer choose not to dispatch at all (0 MW) and makes the Buyer solely responsible for procuring and delivering fuel up to the gas delivery point, subject to the term sheet's other provisions; the PacifiCorp form has the Buyer supply the fuel, pay the Section 5 amounts, and receive the energy and ancillary services it schedules without additional charge. [e46][e45][e48] The Oil & Gas Journal says the toll serves the tolling party as a physical asset hedge for its trading positions, and TotalEnergies says its TTEPH arrangement lets TotalEnergies and EPH use the plants without investing in building or maintaining them. [e19][e26]
 
 The owner's performance is enforced by contract. Sponsors face penalties for not meeting the toller's expectations, such as late construction, and availability may be guaranteed with liquidated damages depending on how the toll is structured. [e6][e24] In the forms, availability feeds into payment: the PacifiCorp monthly capacity payment is multiplied by an availability adjustment factor, and the Entergy term sheet discounts the capacity payment when monthly availability falls below its requirement. [e50][e47]
 
@@ -271,13 +279,13 @@ Tolls are valued as options. Because the toller controls dispatch hourly or dail
 
 The main purpose, for the owner, is financing. The Fields slides say the primary purpose is to annuitize the value of an asset to be bought or built in order to borrow, and the SFU thesis describes the toll as a long-term offtake agreement on which the developer finances construction. [e9][e10]
 
-The same structure is used for batteries: the owner sells the right to operate the battery for a fixed payment. For a physical battery toll, Modo Energy (writing about ERCOT), Troutman Pepper (a US law firm) and an Aurora Energy Research presentation to ESIG agree that the offtaker gets the right to charge, discharge and bid the battery and takes the energy and ancillary service revenues, while the owner receives a fixed or pre-determined payment; Troutman adds that the monthly payment often has adjusters based on project performance. [e34][e54][e35][e16][e17] enspired, a European optimizer, describes battery tolls the same way, and TotalEnergies says tolling can also be applied to batteries. [e36][e3]
+The same structure is used for batteries: in a physical toll the owner sells the right to operate the battery for a fixed payment (virtual tolls, below, differ). Modo Energy (writing about ERCOT), Troutman Pepper (a US law firm) and an Aurora Energy Research presentation to ESIG agree that the offtaker gets the right to charge, discharge or bid the battery, while the owner receives a fixed or pre-determined payment; Modo and Aurora also say the offtaker takes the energy and ancillary service revenues (Modo: all upside and downside from arbitrage and Ancillary Services); Troutman adds that the monthly payment often has adjusters based on project performance. [e34][e54][e35][e16][e17] enspired, a European optimizer, describes battery tolls the same way, and TotalEnergies says tolling can also be applied to batteries. [e36][e3]
 
 Battery tolls come in variants. Modo and Aurora both describe a virtual toll, but differently: Modo says it is financial, with the owner still operating the asset while the offtaker takes the market risk and return through a swap or settlement; Aurora describes it as benchmarked performance (percentage-of-perfect). [e39][e40] A toll can also cover only part of a battery: Aurora lists partial tolls in which the owner keeps a share of market revenues, Modo's model allows a toll on all or part of the capacity, and enspired gives the example of half a battery tolled and half merchant. [e41][e42][e43]
 
 ## Formula
 
-Toll value per delivery day d (Fields Institute form): payoff = max(power price - heat rate x gas price - VOM, 0), summed over the days and buckets of each month and multiplied by the contracted quantity. [e13][e8] The SFU thesis gives the same structure as a strip of spread options on power and gas at the plant's heat rate, with the operating and maintenance or other charges as the strike. [e12][e32]
+Toll value per delivery day d (Fields Institute form): payoff = max(power price - heat rate x gas price - VOM, 0). [e55][e13] The slides' monthly version sums this over B(m), the days in month m with delivery in the relevant power bucket, multiplies by a monthly quantity term Q_m (not defined in the saved text) and a discount factor d(0, T_m), and writes the whole as an expectation. [e56][e8] The SFU thesis gives the same structure as a strip of spread options on power and gas at the plant's heat rate, with the operating and maintenance or other charges as the strike. [e12][e32]
 
 - Power price: forward or spot price for a delivery bucket such as 5x16, usually at a liquid hub (Fields); the market price of power in the same period (SFU). [e13][e29]
 - Heat rate: the conversion rate between gas and power. [e13][e29]
@@ -295,10 +303,10 @@ In a national study of solar-plus-storage (not ERCOT-specific), LBNL lists dispa
 - Tenor: the Fields slides say most (gas) tolls trade for 5-7 years; the SFU thesis describes a long-term (20+ year) offtake agreement for a proposed or new plant. They describe different contexts (traded tolls versus new-build offtake), so the figures are not directly in conflict. [e14][e10][e4]
 - Owner payments: capacity payments whether or not the plant runs, plus O&M and start payments (Oil & Gas Journal); monthly capacity charges (SFU, Fields). [e5][e6][e7][e8]
 - Exercise and settlement: daily day-ahead exercise, monthly settlement (Fields); hour-to-hour dispatch choice (SFU). [e8][e11]
-- Battery tolls: the offtaker takes dispatch rights and the energy and ancillary service revenues for a fixed payment to the owner. [e16][e17][e34][e35]
+- Battery tolls (physical, or "full" in Aurora's term): the offtaker takes dispatch rights and the energy and ancillary service revenues for a fixed payment to the owner. [e16][e17][e34][e54][e35]
 - ERCOT Protocols: "Power Purchase or Tolling Agreement (PPA)" appears in Sections 5.6.1, 6.6.3.8 and 9.14.7, among others. [e20][e21][e31]
 - Owner payments in two utility contract forms: capacity, variable O&M and start-up payments, monthly in arrears (Entergy 2020 term sheet); a monthly capacity payment scaled by availability (PacifiCorp form). [e44][e49][e50]
-- US commodity regulation: in its 2012 swap-definition rule the CFTC said tolling agreements may have features that fit its forward-contract interpretations (including forwards with embedded volumetric optionality); it did not classify them categorically. [e52]
+- US commodity regulation: in its 2012 swap-definition rule the CFTC said tolling agreements may have features that fit its forward-contract interpretations (including forwards with embedded volumetric optionality); it said they "may", depending on their features, not that every toll does. [e52]
 
 ## Example
 
@@ -340,14 +348,14 @@ More volatility raises the chance of positive spark spreads, which raises the op
 
 ### What does a battery toll give the offtaker?
 
-The right to charge, discharge and bid the battery and the energy and ancillary service revenues that come with it, in exchange for a fixed payment to the owner (Modo, Troutman Pepper, Aurora). [e34][e35][e16] The owner keeps responsibility for the asset: enspired says the owner must guarantee availability, and Troutman says payments often adjust for project performance. [e38][e35]
+In a physical toll, the right to charge, discharge and bid the battery (Modo, Troutman Pepper, Aurora) and the energy and ancillary service revenues that come with it (Modo, Aurora), in exchange for a fixed payment to the owner. [e34][e54][e35][e16] In Modo's virtual toll the owner keeps operating and the offtaker takes the market risk and return financially. [e39] The owner keeps responsibility for the asset: enspired says the owner must guarantee availability, and Troutman says payments often adjust for project performance. [e38][e35]
 
 ## Scenarios
 
 ### An ERCOT battery developer is offered a seven-year toll. What changes for the developer?
 
 - It gives up energy and ancillary service revenues to the offtaker for a fixed payment, removing market price exposure. [e17][e15][e34]
-- It can toll only part of the battery and keep the rest merchant. [e41][e42]
+- It can toll only part of the battery and keep the rest merchant. [e41][e42][e43]
 - It keeps responsibility for the asset's performance, as plant owners do under tolls generally. [e4][e5]
 - LBNL's national study lists dispatch tied to fixed delivery obligations under tolls among the barriers to market value. [e22]
 

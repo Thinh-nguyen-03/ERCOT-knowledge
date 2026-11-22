@@ -21,7 +21,7 @@ links:
     note: The option is in the money when the market heat rate is above the deal heat rate. [e14]
   - to: tolling-agreement
     type: related
-    note: The Fields Institute slides model a toll as a sum of daily payoffs of power minus heat rate times gas minus VOM, floored at zero; the SFU thesis likewise treats a toll as a strip of spread options. [e13][e30]
+    note: The Fields Institute slides model a toll as a sum of daily payoffs of power minus heat rate times gas minus VOM, floored at zero; the SFU thesis likewise treats a toll as a strip of spread options. [e43][e44][e30]
   - to: natural-gas-price
     type: prerequisite-of
     note: The strike floats with a published natural gas index. [e5][e6]
@@ -183,6 +183,14 @@ evidence:
     source: ref-deng-exotic-electricity-options
     locator: "Deng et al. (2001), section 2.1, example after Definition 2"
     quote: "A power marketer in a region where the marginal generating fuel is natural gas would like to buy power at time T at a market implied heat rate not to exceed K H ."
+  - id: e43
+    source: ref-fields-tolling-slides
+    locator: "Fields Institute lecture slides (2013), slide 3, Basics of Tolling Deals: Deal Structure, The Basic Structure (formula line)"
+    quote: "d(0, t) max (FP (t, t) − H∗ FG (t, t) − V , 0)"
+  - id: e44
+    source: ref-fields-tolling-slides
+    locator: "Fields Institute lecture slides (2013), slide 3, Basics of Tolling Deals: Deal Structure (definitions under the formula)"
+    quote: "FP denotes the forward (or spot) price of power for a particular delivery bucket (e.g. 5x16) and FG denotes the price of natural gas; both are typically at liquid pricing hubs. - H∗ is the heatrate (conversion rate between gas and power). - V is VOM (variable operation and maintenance)."
   - id: e42
     source: ref-deng-exotic-electricity-options
     locator: "Deng et al. (2001), section 2.1, end of the power-marketer example"
@@ -213,7 +221,7 @@ A heat rate call option is a call option on power whose strike is a gas price in
 
 An option gives its holder the right, but not the obligation, to buy at a strike price, and the buyer pays a premium for it. [e1] In a heat rate call the strike is not a fixed dollar amount but "HR x Gas Index", so it moves with gas. [e4][e5] The holder gains when power is priced above the strike heat rate times gas, that is, when the market heat rate (the ratio of the power price to the gas price) is above the deal heat rate; an option with a positive value if exercised is called in the money. [e36][e38][e14][e41]
 
-In the project-finance version described by two law firms, a gas plant owner sells the option to a financial hedge provider. The project receives a fixed periodic amount (the option premium) and pays the hedge provider the excess of power over heat rate times gas, times a notional quantity, for the hours the provider calls. [e2][e29] That matches the CFTC's usage, in which the premium is the payment an option buyer makes to the option writer (also called the option seller). [e39][e40] There is no large upfront premium payment at closing, and payments can flow either way in a settlement period. [e8][e2]
+In the project-finance version described by two law firms, a gas plant owner sells the option to a financial hedge provider. The project receives a fixed periodic amount (the option premium) and pays the hedge provider the excess of power over heat rate times gas, times a notional quantity, for the hours the provider calls. [e2][e29] That matches the CFTC's usage, in which the premium is the payment an option buyer makes to the option writer (also called the option seller). [e39][e40] In this version, Norton Rose Fulbright says there is no big upfront payment at financial closing, and both law firms describe payments that can flow either way (the FpML example confirmation, by contrast, has a single total premium; see Key facts). [e8][e2]
 
 The buyer is not always a hedge provider facing a generator. Deng et al. describe a power marketer that wants to buy power at a market implied heat rate no higher than a set level and does so by buying a spark spread call; in the project hedge the generator is the seller. [e37][e42][e5][e7]
 
@@ -232,9 +240,9 @@ For each hour h that the holder calls: payoff = notional MWh x (power index pric
 - Gas index: a variable natural gas index price. [e5][e4]
 - Monthly net settlement: in the project hedge, the option premium is compared with the sum of these cash settlement amounts to decide who pays. [e29][e34]
 
-Because the holder only calls hours that pay, each hour behaves like max(power - heat rate x gas, 0). Deng et al. write the payoff of a spark spread call at maturity as max(electricity price - strike heat rate x fuel price, 0) per unit of electricity, which is the same expression term by term (Deng's is a single European option on spot prices; the project hedge applies it hour by hour and multiplies by the notional quantity). [e36][e5][e6]
+Deng et al. write the payoff of a single European spark spread call at maturity as max(electricity spot price - strike heat rate x fuel spot price, 0) per unit of electricity: the holder receives the spread only when it is positive. [e36][e35] The project hedge is not exactly this floored form: the provider elects day-ahead which hours to call, and Norton Rose Fulbright says that for a called hour the revenue may be positive or negative, depending on actual market prices and the assumptions about the plant's heat rate and operating costs. [e7][e25]
 
-Sources differ on operating costs. The Fields toll formula deducts VOM as well; Deng's payoff and Pillsbury's cash settlement amount have no VOM term, while Pillsbury says the cash settlement accounts for assumed fixed and variable start-up and shut-down costs. [e13][e36][e5][e24]
+Sources differ on operating costs. The Fields slides' toll formula (a toll, not an HRCO) deducts VOM (V) inside the max as well; Deng's payoff and Pillsbury's cash settlement formula have no VOM term, though Pillsbury says the cash settlement amount also accounts for assumed fixed and variable start-up and shut-down costs. [e43][e44][e36][e5][e24]
 
 ## ERCOT context
 
@@ -258,11 +266,11 @@ The IMM's 2025 real-time figures bear on when a call at a gas-plant heat rate pa
 
 ## Example
 
-Suppose (illustrative, made-up numbers) a project sells a 100 MW heat rate call at 7.0 on North Hub versus a gas index of $3.00, so the strike is $21/MWh. In an hour the hub price is $200, so the provider calls and the project owes 100 x (200 - 21) = $17,900 for that hour, which it covers from its own power sales if the plant actually ran. In an hour at $15, the provider does not call and nothing is owed. Over the month, the project nets these amounts against the fixed option premium it receives.
+Suppose (illustrative, made-up numbers) a project sells a 100 MW heat rate call at 7.0 on North Hub versus a gas index of $3.00, so the strike is $21/MWh. In an hour the provider called day-ahead, the hub price is $200, so the project owes 100 x (200 - 21) = $17,900 for that hour, which it covers from its own power sales if the plant actually ran. In an hour the provider did not call (it expected about $15), nothing is owed. Over the month, the project nets these amounts against the fixed option premium it receives.
 
 ## Say it like this
 
-(Guidance) "A heat rate call pays the holder power minus heat rate times gas whenever that is positive. A generator sells one to lock in a fixed premium for its spark spread, and gives the upside in scarcity hours to the buyer."
+(Guidance) "A heat rate call pays the holder power minus heat rate times gas for the hours it exercises. A generator sells one to lock in a fixed premium for its spark spread, and gives the upside in scarcity hours to the buyer."
 
 ## Common confusion
 
